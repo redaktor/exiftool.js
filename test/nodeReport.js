@@ -5,32 +5,32 @@
 
 (function() {
     "use strict";
-	
-	// Which report to generate ?
-	
-	var reference = 'Perl'; 
-	// 'JS' = compare JS against Perl - "compliance report"
-	// OR 
-	// 'Perl' = compare Perl against JS - "coverage report"
-	
-	// if perl exiftool is not in PATH, enter absolute path here:
-	var perl = 'exiftool';
-	
-	
-	
-	var reportType = (reference==='JS') ? 'compliance' : 'coverage';
-	var compareWith = (reference==='JS') ? 'Perl' : 'JS';
-	var desc = {
-		JS: '<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a>',
-		Perl: '<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a>'
-	};
-	var reportDesc = '<a href="../">Comparison</a> of outputs from '.concat( desc[reference], ' against ', desc[compareWith]); 
-
-
-    var walk = require('walk'), fs = require('fs'), options, walker, exif = require('./');
+    var exif = require('../');
+    var walk = require('walk'), fs = require('fs'), options, walker;
     var sys = require('sys')
     var exec = require('child_process').exec;
     var child;
+    
+    // Which report to generate ?
+	
+    var reference = 'Perl'; 
+    // 'JS' = compare JS against Perl - "compliance report"
+    // OR 
+    // 'Perl' = compare Perl against JS - "coverage report"
+
+    // if perl exiftool is not in PATH, enter absolute path here:
+    var perl = 'exiftool';
+
+
+    var reportType = (reference==='JS') ? 'compliance' : 'coverage';
+    var compareWith = (reference==='JS') ? 'Perl' : 'JS';
+    var desc = {
+	    JS: '<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a>',
+	    Perl: '<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a>'
+    };
+    var reportDesc = '<a href="../">Comparison</a> of outputs from '.concat( desc[reference], ' against ', desc[compareWith]); 
+
+    
 
     var results = []; // store the responses from js and perl exiftools
 
