@@ -3,7 +3,7 @@ var exec = require('child_process').exec;
 // optional, enter absolute path to perl exiftool here:
 var perl = 'exiftool';
 
-var exiftool = require('./');
+var exiftool = require('../');
 var util = require('util');
 
 var img = './sampleImages/Canon/CanonEOS5D_MarkIII.jpg';
