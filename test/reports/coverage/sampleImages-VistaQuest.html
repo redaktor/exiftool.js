@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/VistaQuest/VistaQuestVQ2110.jpg</td>
+<td class="supported">Make : ViewQuest<br>
+Model : VQ-2110<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/215<br>
+FNumber : 3.3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:04:15 21:23:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+Flash : No Flash<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/VistaQuest/VistaQuestVQ2110.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : VistaQuestVQ2110.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/VistaQuest<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:04:15 21:23:06<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:04:15 21:23:06<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.638716667<br>
+CompressedBitsPerPixel : 3.638716666666667<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : Invalid PrintIM header<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1057<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 14944<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/215<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 14944 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/VistaQuest/VistaQuestVQ1015.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/VistaQuest/VistaQuestVQ1015.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : VistaQuestVQ1015.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/VistaQuest<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : VISTAQUEST<br>
+Make : undefined<br>
+<br>
+Model : VQ1015<br>
+Model : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+ModifyDate : 2010:03:16 11:02:52<br>
+ModifyDate : undefined<br>
+<br>
+YCbCrPositioning : Co-sited<br>
+YCbCrPositioning : undefined<br>
+<br>
+ExposureTime : 1/5<br>
+ExposureTime : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : undefined<br>
+<br>
+ISO : 60<br>
+ISO : undefined<br>
+<br>
+ExifVersion : 0210<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2010:03:16 11:02:52<br>
+DateTimeOriginal : undefined<br>
+<br>
+CreateDate : 2010:03:16 11:02:52<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ComponentsConfiguration : undefined<br>
+<br>
+CompressedBitsPerPixel : 2<br>
+CompressedBitsPerPixel : undefined<br>
+<br>
+MeteringMode : Center-weighted average<br>
+MeteringMode : undefined<br>
+<br>
+Flash : No Flash<br>
+Flash : undefined<br>
+<br>
+FlashpixVersion : 0100<br>
+FlashpixVersion : undefined<br>
+<br>
+ColorSpace : sRGB<br>
+ColorSpace : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+FileSource : Digital Camera<br>
+FileSource : undefined<br>
+<br>
+SceneType : Directly photographed<br>
+SceneType : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 691<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2363<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/5<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2363 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Yakumo/YakumoYK-47sx.jpg</td>
+<td class="supported">ImageDescription : YAKUMO   DIGITAL CAMERA<br>
+Model : YK-47sx<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Y406140<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2049:09:06 19:21:13<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.25<br>
+ShutterSpeedValue : 1/42<br>
+ApertureValue : 2.6<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 7.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/YakumoYK-47sx.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YakumoYK-47sx.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make :   YAKUMO  OPTICAL CO,LTD<br>
+Make : YAKUMO  OPTICAL CO,LT<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2049:09:06 19:21:13<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2117<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6512<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/42<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6512 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoMegaImageXII.jpg</td>
+<td class="supported">ImageDescription : PHOT0047.JPG<br>
+Make : Yakumo<br>
+Model : Mega Image XII<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : F/W Version: 1.0.41X<br>
+Artist : Digital Camera<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Digital Camera<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:02:22 17:50:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.5<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+LightSource : Flash<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 0<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/YakumoMegaImageXII.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YakumoMegaImageXII.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:02:22 17:50:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:02:22 17:50:00<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.300592235<br>
+CompressedBitsPerPixel : 1.3005922352818806<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 8.2 mm<br>
+FocalLength : 8.3 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3040<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 4048<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 0<br>
+DigitalZoomRatio : undefined<br>
+<br>
+Contrast : Normal<br>
+Contrast : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Soft<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+ThumbnailOffset : 940<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4081<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/11<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4081 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoMega-ImageIII.jpg</td>
+<td class="supported">Model : Mega-Image III<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/483<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 90<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2086:02:20 21:49:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/478<br>
+ApertureValue : 3.5<br>
+BrightnessValue : 0<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/YakumoMega-ImageIII.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YakumoMega-ImageIII.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : ?<br>
+ImageDescription : <br>
+<br>
+Make : ?<br>
+Make : <br>
+<br>
+ModifyDate : 2086:02:20 21:49:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2086:02:20 21:49:45<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 821<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6796<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Mega-Image III <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/483<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6796 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoMega-Image410.jpg</td>
+<td class="supported">Make : YAKUMO<br>
+Model : Mega-Image 410<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright,Mega-Im USER,2003<br>
+ExposureTime : 1/30<br>
+FNumber : 3.2<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/32<br>
+ApertureValue : 3.0<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 2<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/YakumoMega-Image410.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YakumoMega-Image410.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+<br>
+ModifyDate : 2005:06:18 18:24:30<br>
+ModifyDate : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : GAIN099064MAX000000000000SUM000000000000MIN000000000NOWY09777FLASH0000FLAY00000AFD0SV17ZOOM00000000000000000000000000000<br>
+UserComment : 566<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+Software : MI410   V1.14 2004/11/08<br>
+Software : undefined<br>
+<br>
+ThumbnailOffset : 859<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7788<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7788 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoCamMasterSD542.jpg</td>
+<td class="supported">ImageDescription : PHOT0009.JPG<br>
+Make : Yakumo<br>
+Model : CamMaster SD 542<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F/W Version: 2.98B DE02<br>
+Artist : Digital Camera<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Digital Camera<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 1904:12:02 15:52:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.5<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 0<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 2.725<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Soft</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/YakumoCamMasterSD542.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YakumoCamMasterSD542.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+XResolution : 0.3333333333<br>
+XResolution : 0.33333333<br>
+<br>
+YResolution : 0.3333333333<br>
+YResolution : 0.33333333<br>
+<br>
+ModifyDate : 1904:12:02 15:52:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1904:12:02 15:52:00<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.097982109<br>
+CompressedBitsPerPixel : 1.097982109423757<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 4048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3040<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1016<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6173<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/11<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6173 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoAG.jpg</td>
+<td class="supported">ImageDescription : YAKUMO DIGITAL CAMERA<br>
+Make : YAKUMO AG<br>
+Model : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/400<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:06:29 04:54:03<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+DigitalZoomRatio : 1<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/YakumoAG.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YakumoAG.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:06:29 04:54:03<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 4<br>
+FNumber : 3.953125<br>
+<br>
+CreateDate : 2005:06:29 04:54:03<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+UserComment : 202, 88, 207, 0, 0, 486   5,   0,   0,   0,   0,   0   ??    <br>
+UserComment : 202, 88, 207, 0, 0, 486  5,   0,   0,   0,   0,   0<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 982<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8810<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/400<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8810 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 12.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/Yakumo524Z3.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/Yakumo524Z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Yakumo524Z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : YAKUMO DIGITAL STILL CAMERA <br>
+ImageDescription : undefined<br>
+<br>
+Make : YAKUMO<br>
+Make : undefined<br>
+<br>
+Model : 524Z3 Digital Camera<br>
+Model : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+ModifyDate : 2005:05:18 23:39:14<br>
+ModifyDate : undefined<br>
+<br>
+YCbCrPositioning : Co-sited<br>
+YCbCrPositioning : undefined<br>
+<br>
+ExposureTime : 1/34<br>
+ExposureTime : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : undefined<br>
+<br>
+ExposureProgram : Program AE<br>
+ExposureProgram : undefined<br>
+<br>
+ISO : 100<br>
+ISO : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2005:05:18 23:39:14<br>
+DateTimeOriginal : undefined<br>
+<br>
+CreateDate : 2005:05:18 23:39:14<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ComponentsConfiguration : undefined<br>
+<br>
+BrightnessValue : 0<br>
+BrightnessValue : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MeteringMode : Center-weighted average<br>
+MeteringMode : undefined<br>
+<br>
+LightSource : Flash<br>
+LightSource : undefined<br>
+<br>
+Flash : Auto, Fired, Return detected<br>
+Flash : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+UserComment : 138, 48, 260, 1, 1, 476    5,   0,   0,   0,   0    ?) ??    <br>
+UserComment : undefined<br>
+<br>
+FlashpixVersion : 0100<br>
+FlashpixVersion : undefined<br>
+<br>
+ColorSpace : sRGB<br>
+ColorSpace : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 670<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+SensingMethod : One-chip color area<br>
+SensingMethod : undefined<br>
+<br>
+FileSource : Digital Camera<br>
+FileSource : undefined<br>
+<br>
+SceneType : Directly photographed<br>
+SceneType : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+DigitalZoomRatio : 1<br>
+DigitalZoomRatio : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Soft<br>
+Sharpness : undefined<br>
+<br>
+SceneCaptureType : Standard<br>
+SceneCaptureType : undefined<br>
+<br>
+SubjectDistanceRange : Unknown<br>
+SubjectDistanceRange : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1674<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3960<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/34<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3960 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/Yakumo1210.jpg</td>
+<td class="supported">ImageDescription : ExifImageTitle<br>
+Make : Yakumo GmbH<br>
+Model : 1210<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 06.05.18.01<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Yakumo2006<br>
+ExposureTime : 1/125<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:12:31 00:00:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+ShutterSpeedValue : 1/128<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CFAPattern : [Green,Red][Blue,Green]</td>
+<td class="unsupported">SourceFile : sampleImages/Yakumo/Yakumo1210.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Yakumo1210.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yakumo<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2000:12:31 00:00:00<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageFileFormat : Exif Jpeg Ver. 2.1 <br>
+RelatedImageFileFormat : undefined<br>
+<br>
+RelatedImageWidth : 1600<br>
+RelatedImageWidth : undefined<br>
+<br>
+RelatedImageHeight : 1200<br>
+RelatedImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1416<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15997<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : NUL<br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/125<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15997 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

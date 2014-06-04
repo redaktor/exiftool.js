@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Pantech/PantechPR-600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1980:01:07 04:40:29<br>
+DateTimeOriginal : 1980:01:07 04:40:29<br>
+DigitalZoomRatio : 1.23828125<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 768 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 530<br>
+Make : Pantech Wireless, Inc<br>
+Model : PR-600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6100D-SNAQ-6.7.60T<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-8000.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+_IFDpointer_Interop : 244<br>
+Make : Pantech<br>
+Model : PG-8000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-6200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 176 px w<br>
+PixelYDimension : 220 px h<br>
+_IFDpointer_Interop : 244<br>
+Make : Pantech<br>
+Model : PG-6200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-3600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 244<br>
+Make : Pantech<br>
+Model : PG-3600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-3500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 244<br>
+Make : Pantech<br>
+Model : PG-3500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U300K.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:08:18 04:40:23<br>
+DateTimeOriginal : 2009:08:18 04:40:23<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 508<br>
+Make : PANTECH<br>
+Model : IM-U300K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0815143<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U220K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:04:26 18:17:34<br>
+DateTimeOriginal : 2008:04:26 18:17:34<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 344<br>
+Make : PANTECH<br>
+Model : IM-U220K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : 72<br>
+Software : S0811133a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U220.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:07:09 19:41:51<br>
+DateTimeOriginal : 2009:07:09 19:41:51<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 478<br>
+Make : PANTECH<br>
+Model : IM-U220<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0168160c<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U140.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1228 px w<br>
+PixelYDimension : 2048 px h<br>
+Model : IM-U140<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134</td>
+<td class="unsupported">Make : SKY?ڷ??آ?<br>
+Make : SKY<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U110.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 180 px h<br>
+_IFDpointer_Interop : 236<br>
+Model : IM-U110<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">Make : SKY?ڷ??آ?<br>
+Make : SKY<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S370.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:15 13:37:41<br>
+DateTimeOriginal : 2010:06:15 13:37:41<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 370<br>
+Make : PANTECH<br>
+Model : IM-S370<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0176777<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S340L.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-S340L<br>
+Orientation : Horizontal (normal)<br>
+Software : SK Communications CyImage Uploader</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S250L.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-S250L<br>
+Orientation : Horizontal (normal)</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S230.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:09:23 15:06:46<br>
+DateTimeOriginal : 2009:09:23 15:06:46<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+Make : PANTECH<br>
+Model : IM-S230<br>
+ResolutionUnit : inches<br>
+Software : S0164111<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S200K.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:01:12 11:28:08<br>
+DateTimeOriginal : 2010:01:12 11:28:08<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 492<br>
+Make : PANTECH<br>
+Model : IM-S200K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0808119i Apr 09 2007<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 178</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-R300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:01:03 20:33:30<br>
+DateTimeOriginal : 2010:01:03 20:33:30<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 370<br>
+Make : PANTECH<br>
+Model : IM-R300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0173222a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-8100.jpg</td>
+<td class="supported">DateTime : 14:29:10<br>
+Make : SK Teletech<br>
+Model : IM-8100</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

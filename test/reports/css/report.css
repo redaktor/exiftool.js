@@ -1,0 +1,31 @@
+tr td {
+    font-family: monospace;
+}
+
+th, td {
+    word-break: break-all;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 4px 8px;
+}
+
+.match {
+    background-color: #9f9;
+}
+
+.diff, .missing {
+    background-color: #f99;
+}
+
+.label-success { background-color: #95CC0D !important; font-size: 100%; }
+.label-warning { background-color: #0D7ECC !important; font-size: 100%; }
+
+table { table-layout: fixed !important; }
+th.supported { border-bottom: 2px solid #95CC0D !important; }
+th.unsupported { border-bottom: 2px solid #CC0D5A !important; }
+td.supported { border-bottom: 1px solid #95CC0D !important; }
+td.unsupported { border-bottom: 1px solid #CC0D5A !important; }
+
+li { margin-bottom:8px; }
+li.span12.shuffle-item.filtered { width:95%; }

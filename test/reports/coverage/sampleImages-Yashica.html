@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Yashica/YashicaTDC5010.jpg</td>
+<td class="supported">Software : V233-04-07<br>
+Make : YASHICA<br>
+Model : TDC5010<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:11:23 13:31:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+BrightnessValue : -5<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+Flash : No Flash<br>
+FocalLength : 9.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Yashica/YashicaTDC5010.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YashicaTDC5010.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yashica<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:11:23 13:31:01<br>
+ModifyDate : undefined<br>
+<br>
+ExposureTime : 1/101<br>
+ExposureTime : 1/102<br>
+<br>
+CreateDate : 2009:11:23 13:31:01<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 1296 972 2592 1944<br>
+SubjectArea : 1296,972,2592,1944<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 901<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9869<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment :  <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/101<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9869 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yashica/YashicaF537IR.jpg</td>
+<td class="supported">ImageDescription : Digital Camera<br>
+Make : Digital<br>
+Model : Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : M510011006<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1189<br>
+FNumber : 3.2<br>
+ExposureProgram : Not Defined<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:07:27 13:58:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1176<br>
+ApertureValue : 3.2<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Yashica/YashicaF537IR.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YashicaF537IR.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yashica<br>
+Directory : undefined<br>
+<br>
+FileSize : 45 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:07:27 13:58:14<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:07:27 13:58:14<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 37244 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 39236<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6932<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1189<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6932 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yashica/YashicaEZ_UW-5.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : YASHICA<br>
+Model : EZ UW-5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 09.03.03.01.ER<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/125<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2000:12:31 01:40:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0<br>
+ShutterSpeedValue : 1/128<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Unknown<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view</td>
+<td class="unsupported">SourceFile : sampleImages/Yashica/YashicaEZ_UW-5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : YashicaEZ_UW-5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Yashica<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2000:12:31 01:40:48<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1092<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5440<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/125<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5440 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.4 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/GoPro/GoProYHDC5170.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:02:07 08:05:18<br>
+DateTimeOriginal : 2009:02:07 08:05:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/2014<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/2014<br>
+SubjectDistance : 0 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1236<br>
+DateTime : 2009:02:07 08:05:18<br>
+ImageDescription : DCIM\100GOPRO<br>
+Make : GoPro 3di<br>
+Model : YHDC5170TQ2jp<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver01.01.541<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.605935325<br>
+CompressedBitsPerPixel : 3.6059353248996597<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GoPro/GoProHero3-SilverEdition.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:01:07 22:28:22<br>
+DateTimeOriginal : 2012:01:07 22:28:22<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1808<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 2.5 mm<br>
+FocalLengthIn35mmFilm : 16 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3840 px w<br>
+PixelYDimension : 2880 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1808<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 632<br>
+_IFDpointer_Makernote : 1252<br>
+DateTime : 2012:01:07 22:28:22<br>
+ImageDescription : DCIM\100GOPRO<br>
+Make : GoPro<br>
+Model : Hero3-Silver Edition<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HD3.02.03.00D<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 4.893452691<br>
+CompressedBitsPerPixel : 4.8934526909722225<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GoPro/GoProHero3-BlackEdition.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:03:30 07:17:34<br>
+DateTimeOriginal : 2013:03:30 07:17:34<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/120<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 2.8 mm<br>
+FocalLengthIn35mmFilm : 17 mm<br>
+GainControl : None<br>
+ISO : 137<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3920 px w<br>
+PixelYDimension : 2160 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/120<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 632<br>
+_IFDpointer_Makernote : 1252<br>
+DateTime : 2013:03:30 07:17:34<br>
+ImageDescription : DCIM\100GOPRO<br>
+Make : GoPro<br>
+Model : Hero3-Black Edition<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HD3.03.01.09<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.9479100529<br>
+CompressedBitsPerPixel : 0.9479100529100529<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GoPro/GoProHERO3+BlackEdition.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2014:02:21 11:26:12<br>
+DateTimeOriginal : 2014:02:21 11:26:12<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/894<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 2.8 mm<br>
+FocalLengthIn35mmFilm : 15 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3000 px w<br>
+PixelYDimension : 2250 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/894<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 632<br>
+_IFDpointer_Makernote : 1252<br>
+DateTime : 2014:02:21 11:26:12<br>
+ImageDescription : DCIM\100GOPRO<br>
+Make : GoPro<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HD3.11.01.040x0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 4.259665778<br>
+CompressedBitsPerPixel : 4.259665777777778<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Model : HERO3+ Black Edition<br>
+Model : HERO3 Black Edition<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GoPro/GoProHD3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:01:05 00:14:43<br>
+DateTimeOriginal : 2012:01:05 00:14:43<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/323<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 2.5 mm<br>
+FocalLengthIn35mmFilm : 15 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/323<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 632<br>
+_IFDpointer_Makernote : 1252<br>
+DateTime : 2012:01:05 00:14:43<br>
+ImageDescription : DCIM\100GOPRO<br>
+Make : Gopro<br>
+Model : HD3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HD3.01.01.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.182386133<br>
+CompressedBitsPerPixel : 3.182386132703348<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GoPro/GoProHD2.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:01:27 18:52:21<br>
+DateTimeOriginal : 2011:01:27 18:52:21<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/2059<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 2.5 mm<br>
+FocalLengthIn35mmFilm : 16 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3840 px w<br>
+PixelYDimension : 2880 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/2058<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 632<br>
+_IFDpointer_Makernote : 1252<br>
+DateTime : 2011:01:27 18:52:21<br>
+ImageDescription : DCIM\100GOPRO<br>
+Make : GoPro  U<br>
+Model : HD2 @<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HD2.08.12.38 UvH@<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.35099103<br>
+CompressedBitsPerPixel : 1.3509910300925927<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

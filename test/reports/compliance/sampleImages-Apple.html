@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Apple/Apple_iPodTouch5.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:10:15 10:38:44<br>
+DateTimeOriginal : 2012:10:15 10:38:44<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/120<br>
+FNumber : 2.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+FocalLengthIn35mmFilm : 33 mm<br>
+ISO : 50<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/120<br>
+WhiteBalance : Auto<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 41° 54' 26.4000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 88° 5' 19.8000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 15:38:10.59<br>
+DateTime : 2012:10:15 10:38:44<br>
+Make : Apple<br>
+Model : iPod touch<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 6.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200<br>
+_IFDpointer_GPS : 602</td>
+<td class="unsupported">BrightnessValue : 6.250626566<br>
+BrightnessValue : 6.25062656641604<br>
+<br>
+CustomRendered : Unknown (4)<br>
+CustomRendered : Apple iPhone5c horizontal orientation<br>
+<br>
+SubjectArea : 1722 702 484 484<br>
+SubjectArea : 1722,702,484,484<br>
+<br>
+GPSAltitude : 247.3 m Above Sea Level<br>
+GPSAltitude : 247.3339416058394 m Above Sea Level<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPodTouch4.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:12 17:00:44<br>
+DateTimeOriginal : 2010:09:12 17:00:44<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1245<br>
+FNumber : 2.4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.9 mm<br>
+ISO : 80<br>
+MeteringMode : Spot<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 720 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/1245<br>
+WhiteBalance : Auto<br>
+GPSLatitude : 47° 32' 10.8000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 122° 4' 2.4000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 17:00:38.96<br>
+DateTime : 2010:09:12 17:00:44<br>
+Make : Apple<br>
+Model : iPod touch<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 4.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200<br>
+_IFDpointer_GPS : 590</td>
+<td class="unsupported">DigitalZoomRatio : 2.480620155<br>
+DigitalZoomRatio : 2.4806201550387597<br>
+<br>
+SubjectArea : 381 380 179 180<br>
+SubjectArea : 381,380,179,180<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone5s.jpg</td>
+<td class="supported">ApertureValue : 2.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2014:03:21 08:26:55<br>
+DateTimeOriginal : 2014:03:21 08:26:55<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1786<br>
+FNumber : 2.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.1 mm<br>
+FocalLengthIn35mmFilm : 30 mm<br>
+ISO : 32<br>
+LensMake : Apple<br>
+LensModel : iPhone 5s back camera 4.12mm f/2.2<br>
+LensSpecification : 4.12,4.12,2.2,2.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/1786<br>
+SubsecTimeDigitized : 555<br>
+SubsecTimeOriginal : 555<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 660<br>
+DateTime : 2014:03:21 08:26:55<br>
+Make : Apple<br>
+Model : iPhone 5s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 7.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">BrightnessValue : 9.991950464<br>
+BrightnessValue : 9.991950464396284<br>
+<br>
+SubjectArea : 1632 1223 1632 979<br>
+SubjectArea : 1632,1223,1632,979<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone5.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:10:22 14:07:19<br>
+DateTimeOriginal : 2012:10:22 14:07:19<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.1 mm<br>
+FocalLengthIn35mmFilm : 33 mm<br>
+ISO : 50<br>
+MeteringMode : Spot<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/25<br>
+WhiteBalance : Auto<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 53° 19' 21.6000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 1° 9' 29.4000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 13:06:59.64<br>
+DateTime : 2012:10:22 14:07:19<br>
+Make : Apple<br>
+Model : iPhone 5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 6.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198<br>
+_IFDpointer_GPS : 588</td>
+<td class="unsupported">BrightnessValue : 4.089528796<br>
+BrightnessValue : 4.0895287958115185<br>
+<br>
+SubjectArea : 2012 1417 610 612<br>
+SubjectArea : 2012,1417,610,612<br>
+<br>
+GPSAltitude : 71.6 m Above Sea Level<br>
+GPSAltitude : 71.6060100166945 m Above Sea Level<br>
+<br>
+GPSImgDirection : 337.0393701<br>
+GPSImgDirection : 337.03937007874015<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone4S.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:08:30 10:33:45<br>
+DateTimeOriginal : 2011:08:30 10:33:45<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1623<br>
+FNumber : 2.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 64<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1623<br>
+WhiteBalance : Auto<br>
+GPSAltitude : 31 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 38° 30' 13.2000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 122° 46' 21.0000" W<br>
+GPSLongitudeRef : West<br>
+DateTime : 2011:08:30 10:33:45<br>
+Make : Apple<br>
+Model : iPhone 4S<br>
+Orientation : Rotate 180<br>
+ResolutionUnit : inches<br>
+Software : 5.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198<br>
+_IFDpointer_GPS : 600</td>
+<td class="unsupported">BrightnessValue : 9.946296296<br>
+BrightnessValue : 9.946296296296296<br>
+<br>
+SubjectArea : 1631 1223 881 881<br>
+SubjectArea : 1631,1223,881,881<br>
+<br>
+GPSImgDirection : 270.9027778<br>
+GPSImgDirection : 270.90277777777777<br>
+<br>
+GPSTimeStamp : 18:48:01<br>
+GPSTimeStamp : 17:33:4501<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone4-front.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:27 00:05:23<br>
+DateTimeOriginal : 2010:06:27 00:05:23<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FNumber : 2.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.9 mm<br>
+ISO : 3200<br>
+MeteringMode : Average<br>
+PixelXDimension : 0 px w<br>
+PixelYDimension : 0 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/15<br>
+WhiteBalance : Auto<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 40° 43' 19.2000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 73° 57' 27.0000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 00:05:17.57<br>
+DateTime : 2010:06:27 00:05:23<br>
+ImageDescription : Front Camera<br>
+Make : Apple<br>
+Model : iPhone<br>
+Orientation : Rotate 180<br>
+ResolutionUnit : inches<br>
+Software : 4.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 222<br>
+_IFDpointer_GPS : 572</td>
+<td class="unsupported">GPSImgDirection : 144.4862385<br>
+GPSImgDirection : 144.4862385321101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone4-back.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:25 18:38:49<br>
+DateTimeOriginal : 2010:06:25 18:38:49<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/3352<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.9 mm<br>
+ISO : 80<br>
+MeteringMode : Spot<br>
+PixelXDimension : 0 px w<br>
+PixelYDimension : 0 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/3352<br>
+WhiteBalance : Auto<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 37° 32' 34.8000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 122° 19' 12.0000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 18:38:49.33<br>
+DateTime : 2010:06:25 18:38:49<br>
+ImageDescription : Back Camera<br>
+Make : Apple<br>
+Model : iPhone<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 4.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 220<br>
+_IFDpointer_GPS : 590</td>
+<td class="unsupported">SubjectArea : 1836 1180 484 484<br>
+SubjectArea : 1836,1180,484,484<br>
+<br>
+GPSAltitude : 30.7 m Above Sea Level<br>
+GPSAltitude : 30.72017353579176 m Above Sea Level<br>
+<br>
+GPSImgDirection : 3.40264977<br>
+GPSImgDirection : 3.4026497695852536<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone3GS.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2009:10:02 20:45:16<br>
+DateTimeOriginal : 2009:10:02 20:45:16<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.9 mm<br>
+ISO : 1016<br>
+MeteringMode : Average<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/10<br>
+WhiteBalance : Auto<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 39° 38' 16.2000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 75° 39' 4.2000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 20:45:00.45<br>
+DateTime : 2009:10:02 20:45:16<br>
+Make : Apple<br>
+Model : iPhone 3GS<br>
+ResolutionUnit : inches<br>
+Software : 3.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 188<br>
+_IFDpointer_GPS : 514</td>
+<td class="unsupported">GPSImgDirection : 117.221831<br>
+GPSImgDirection : 117.22183098591549<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone3G.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:02 16:39:24<br>
+DateTimeOriginal : 2010:05:02 16:39:24<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SensingMethod : One-chip color area<br>
+WhiteBalance : Auto<br>
+DateTime : 2010:05:02 16:39:24<br>
+Make : Apple<br>
+Model : iPhone 3G<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 3.1.3<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone2.jpg</td>
+<td class="supported">DateTimeDigitized : 2008:09:24 21:02:24<br>
+DateTimeOriginal : 2008:09:24 21:02:24<br>
+FNumber : 2.8<br>
+Gamma : 2.2<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 800 px h<br>
+GPSLatitude : 46° 8' 36.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 122° 56' 47.4000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 21:02:23.81<br>
+DateTime : 2008:09:24 21:02:24<br>
+Make : Apple<br>
+Model : iPhone<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 159<br>
+_IFDpointer_GPS : 305</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2007:06:29 22:35:26<br>
+DateTimeOriginal : 2007:06:29 22:35:26<br>
+FNumber : 2.8<br>
+Gamma : 2.2<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2007:06:29 22:35:26<br>
+Make : Apple<br>
+Model : iPhone<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+_IFDpointer_EXIF : 119</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad_mini.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:11:10 10:46:58<br>
+DateTimeOriginal : 2012:11:10 10:46:58<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/604<br>
+FNumber : 2.4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+FocalLengthIn35mmFilm : 33 mm<br>
+ISO : 32<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/604<br>
+WhiteBalance : Auto<br>
+DateTime : 2012:11:10 10:46:58<br>
+Make : Apple<br>
+Model : iPad mini<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 6.0.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192</td>
+<td class="unsupported">BrightnessValue : 8.717925387<br>
+BrightnessValue : 8.717925386715196<br>
+<br>
+SubjectArea : 1836 859 484 484<br>
+SubjectArea : 1836,859,484,484<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad4.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:11:08 13:08:21<br>
+DateTimeOriginal : 2012:11:08 13:08:21<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4329<br>
+FNumber : 2.4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 64<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/4329<br>
+WhiteBalance : Auto<br>
+DateTime : 2012:11:08 13:08:21<br>
+Make : Apple<br>
+Model : iPad<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 6.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 181</td>
+<td class="unsupported">BrightnessValue : 10.76730486<br>
+BrightnessValue : 10.767304860088366<br>
+<br>
+SubjectArea : 1295 967 699 696<br>
+SubjectArea : 1295,967,699,696<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad3.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:03:17 08:56:05<br>
+DateTimeOriginal : 2012:03:17 08:56:05<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FNumber : 2.4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 400<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/15<br>
+WhiteBalance : Auto<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSImgDirection : 53.93359375<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 37° 13' 28.2000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 121° 53' 36.0000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 15:55:54.81<br>
+DateTime : 2012:03:17 08:56:05<br>
+Make : Apple<br>
+Model : iPad<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 5.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194<br>
+_IFDpointer_GPS : 596</td>
+<td class="unsupported">BrightnessValue : 0.4069974303<br>
+BrightnessValue : 0.40699743032219804<br>
+<br>
+SubjectArea : 778 886 484 484<br>
+SubjectArea : 778,886,484,484<br>
+<br>
+GPSAltitude : 101.7 m Above Sea Level<br>
+GPSAltitude : 101.77277379733879 m Above Sea Level<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad2.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:03:17 08:54:50<br>
+DateTimeOriginal : 2012:03:17 08:54:50<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 32 mm<br>
+ISO : 160<br>
+MeteringMode : Spot<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 720 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+GPSAltitude : 100 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 37° 13' 28.8000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 121° 53' 35.4000" W<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 15:54:49.85<br>
+DateTime : 2012:03:17 08:54:50<br>
+Make : Apple<br>
+Model : iPad 2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 5.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196<br>
+_IFDpointer_GPS : 578</td>
+<td class="unsupported">BrightnessValue : 2.812148481<br>
+BrightnessValue : 2.81214848143982<br>
+<br>
+FocalLength : 2.0 mm<br>
+FocalLength : 2 mm<br>
+<br>
+GPSImgDirection : 264.3684211<br>
+GPSImgDirection : 264.36842105263156<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/AppleQT-200.jpg</td>
+<td class="supported">ApertureValue : 2.2<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeOriginal : 1997:06:16 18:48:34<br>
+ExifVersion : 1.00<br>
+ShutterSpeedValue : 1/256<br>
+Make : Apple<br>
+Model : QT-200<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 350</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/AppleQT-150.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Apple/AppleQT-100.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

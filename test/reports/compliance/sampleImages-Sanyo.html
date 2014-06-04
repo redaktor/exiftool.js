@@ -1,0 +1,3522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Sanyo/SanyoWX310SA.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:10 16:51:52<br>
+DateTimeOriginal : 2007:06:10 16:51:52<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/420<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashEnergy : 0.5<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistance : 7 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 739<br>
+_IFDpointer_Makernote : <br>
+Make : SANYO<br>
+Model : WX310SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 165<br>
+_type : sanyo</td>
+<td class="unsupported">UserComment : <br>
+UserComment : 74,73,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-W800.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:23 13:54:41<br>
+DateTimeOriginal : 2010:05:23 13:54:41<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/307<br>
+FNumber : 2.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/307<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 31756<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2010:05:23 13:54:41<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-W800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00EX<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-T850EX.jpg</td>
+<td class="supported">ApertureValue : 4.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2008:03:01 12:07:05<br>
+DateTimeOriginal : 2008:03:01 12:07:05<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/201<br>
+FNumber : 4.1<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.9 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/201<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 45780<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2008:03:01 12:07:05<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-T850EX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01EX<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-T700.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:09:23 10:38:23<br>
+DateTimeOriginal : 2007:09:23 10:38:23<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 45288<br>
+_IFDpointer_Makernote : 720<br>
+DateTime : 2007:09:23 10:38:23<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-T700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.12TA<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-SX550.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeDigitized : 2000:11:18 21:14:19<br>
+DateTimeOriginal : 2000:11:18 21:14:19<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/48<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 2000:11:18 21:14:19<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SX113<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V113p-73<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-S700.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:04 01:46:02<br>
+DateTimeOriginal : 2007:01:04 01:46:02<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 34008<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2007:01:04 01:46:02<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-S700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.05.000EX<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-S600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:20 20:46:29<br>
+DateTimeOriginal : 2007:03:20 20:46:29<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/112<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11746<br>
+_IFDpointer_Makernote : 694<br>
+DateTime : 2007:03:20 20:46:29<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-S600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.03US<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 260<br>
+PrintIM : 11786</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-S500.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:14 15:32:19<br>
+DateTimeOriginal : 2008:01:14 15:32:19<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 0.3<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+ISO : 200<br>
+LightSource : Other<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 0.3<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 40132<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2008:01:14 15:32:19<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-S500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.06.000US<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-S1080.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:12:30 02:47:27<br>
+DateTimeOriginal : 2009:12:30 02:47:27<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/98<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/98<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 41232<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2009:12:30 02:47:27<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : VPC-S1080<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01US<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-MZ3GX.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.7837832922796639<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2002:09:01 00:00:00<br>
+DateTimeOriginal : 2002:09:01 00:00:00<br>
+DigitalZoomRatio : 10.998697030633512<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/668<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+FocalLengthIn35mmFilm : 3704 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 798<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1034<br>
+_IFDpointer_Makernote : 1064<br>
+DateTime : 2002:09:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : VPC-MZ3GX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V612P-76<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-MZ3EX.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.3<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2000:10:09 02:43:14<br>
+DateTimeOriginal : 2000:10:09 02:43:14<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+FocalLengthIn35mmFilm : 3704 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 1674<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 584<br>
+_IFDpointer_Makernote : 832<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2005:11:05 23:14:53<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : VPC-MZ3EX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V612P-75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158<br>
+_IFDpointer_GPS : 614</td>
+<td class="unsupported">DigitalZoomRatio : 0<br>
+DigitalZoomRatio : 12.857132892233869<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-MZ3.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.9<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:10:11 12:43:05<br>
+DateTimeOriginal : 2003:10:11 12:43:05<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/185<br>
+FNumber : 6.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 23.1 mm<br>
+FocalLengthIn35mmFilm : 11113 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2000 px w<br>
+PixelYDimension : 1496 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 798<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1034<br>
+_IFDpointer_Makernote : 1064<br>
+DateTime : 2003:10:11 12:43:05<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : VPC-MZ3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V612P-75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-G250.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeDigitized : 1998:01:01 00:00:00<br>
+DateTimeOriginal : 1998:01:01 00:00:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/171<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+_IFDpointer_Makernote : 735<br>
+DateTime : 1998:01:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SR6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V06P-74<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-E1000.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:12:18 18:49:50<br>
+DateTimeOriginal : 2007:12:18 18:49:50<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/25<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 31712<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2007:12:18 18:49:50<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : VPC-E1000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01 EX<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-C5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:01 16:56:47<br>
+DateTimeOriginal : 2005:08:01 16:56:47<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/49<br>
+FNumber : 3.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.7 mm<br>
+FocalLengthIn35mmFilm : 88 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1212<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1440<br>
+_IFDpointer_Makernote : 1470<br>
+DateTime : 2005:08:01 16:56:47<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : C5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 678<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoVPC-C4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:21 18:27:52<br>
+DateTimeOriginal : 2005:08:21 18:27:52<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FNumber : 4.1<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.8 mm<br>
+FocalLengthIn35mmFilm : 123 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2005:08:21 18:27:52<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : C4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v718-75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+<br>
+ExposureTime : 1/69<br>
+ExposureTime : 1/70<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoV801SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:08:14 19:04:14<br>
+DateTimeOriginal : 2004:08:14 19:04:14<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2004:08:14 19:04:14<br>
+ImageDescription : untitled<br>
+Make : SANYO<br>
+Model : V801SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSX215.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2002:02:01 00:00:00<br>
+DateTimeOriginal : 2002:02:01 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/158<br>
+FNumber : 5<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+UserComment : 1372<br>
+_IFDpointer_Makernote : 602<br>
+DateTime : 2002:02:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SX215<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V215-77<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSX212.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2003:03:09 16:02:34<br>
+DateTimeOriginal : 2003:03:09 16:02:34<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 4<br>
+FNumber : 3.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 2003:03:09 16:02:34<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SX212<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V212-77<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSX114.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.5<br>
+DateTimeDigitized : 2002:08:21 11:16:24<br>
+DateTimeOriginal : 2002:08:21 11:16:24<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/379<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1360 px w<br>
+PixelYDimension : 1024 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 2002:08:21 11:16:24<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SX114<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V114p-72<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSX113.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.5<br>
+DateTimeDigitized : 2000:01:01 00:00:00<br>
+DateTimeOriginal : 2000:01:01 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/15<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1360 px w<br>
+PixelYDimension : 1024 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 2000:01:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SX113<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V113p-73<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSX112.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.5<br>
+DateTimeDigitized : 1999:07:01 00:00:00<br>
+DateTimeOriginal : 1999:07:01 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/45<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1360 px w<br>
+PixelYDimension : 1024 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 1999:07:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SX112<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V112-83<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSR813.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : SR813<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v813p-73<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSR662.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.5<br>
+DateTimeDigitized : 1999:01:01 00:00:00<br>
+DateTimeOriginal : 1999:01:01 00:00:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/494<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : <br>
+_IFDpointer_Makernote : 736<br>
+DateTime : 1999:01:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SR662<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V662p-73<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSR66.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.5<br>
+DateTimeDigitized : 1998:01:01 00:00:00<br>
+DateTimeOriginal : 1998:01:01 00:00:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/116<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : <br>
+_IFDpointer_Makernote : 736<br>
+DateTime : 1998:01:01 00:00:00<br>
+ImageDescription : MEDIAVISION SERVICES LTD<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SR66<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V66P-72<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSR6.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeDigitized : 1998:01:01 00:00:00<br>
+DateTimeOriginal : 1998:01:01 00:00:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/171<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+_IFDpointer_Makernote : 735<br>
+DateTime : 1998:01:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : SR6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V06P-74<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSR08.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/171<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : SR08<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v08p-71<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoSR05.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeOriginal : 2002:02:17 02:47:25<br>
+ExifVersion : 1.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/29<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+_IFDpointer_Makernote : 472<br>
+DateTime : 2002:02:17 02:47:25<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : SR05<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 242</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS760.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -3.031<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:26 21:15:18<br>
+DateTimeOriginal : 2008:01:26 21:15:18<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2576 px w<br>
+PixelYDimension : 1932 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/40<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : S760<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0100<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS750.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:07:02:15:02:07<br>
+DateTimeOriginal : 2005:07:02:15:02:07<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+FocalLengthIn35mmFilm : 33 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 516<br>
+Make : SANYO<br>
+Model : S750<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS70.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:02:22 21:15:30<br>
+DateTimeOriginal : 2010:02:22 21:15:30<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 4.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 400<br>
+LightSource : Fluorescent<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1180<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2010:02:22 21:15:30<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : S70<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS650.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 1.948<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:22 19:52:12<br>
+DateTimeOriginal : 2010:01:22 19:52:12<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/40<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : S650<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0011<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS60.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:08:12 17:39:32<br>
+DateTimeOriginal : 2011:08:12 17:39:32<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/501<br>
+FNumber : 3.7<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.2 mm<br>
+FocalLengthIn35mmFilm : 62 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.7<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2011:08:12 17:39:32<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : S60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:14 12:24:45<br>
+DateTimeOriginal : 2005:08:14 12:24:45<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1000<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2005:08:14 12:24:45<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : S6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:31 20:58:33<br>
+DateTimeOriginal : 2005:01:31 20:58:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1.3<br>
+FNumber : 3.4<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.4 mm<br>
+FocalLengthIn35mmFilm : 51 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1212<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1440<br>
+_IFDpointer_Makernote : 1470<br>
+DateTime : 2005:01:31 20:58:33<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : S5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 678<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:09 14:32:34<br>
+DateTimeOriginal : 2004:09:09 14:32:34<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/492<br>
+FNumber : 5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.2 mm<br>
+FocalLengthIn35mmFilm : 55 mm<br>
+GainControl : None<br>
+ISO : 71<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2004:09:09 14:32:34<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : S4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v716-75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:06:26 16:36:10<br>
+DateTimeOriginal : 2004:06:26 16:36:10<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1144<br>
+FNumber : 4.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 852<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2004:06:26 16:36:10<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : S3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v715-74<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+<br>
+LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS103.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:11:27:01:58:26<br>
+DateTimeOriginal : 2005:11:27:01:58:26<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+FocalLengthIn35mmFilm : 33 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 516<br>
+Make : SANYO<br>
+Model : S103<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoS1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:09:04 18:27:45<br>
+DateTimeOriginal : 2003:09:04 18:27:45<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/67<br>
+FNumber : 3.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.8 mm<br>
+FocalLengthIn35mmFilm : 63 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2003:09:04 18:27:45<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : S1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V714-52A<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoJ4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:10:30 16:18:07<br>
+DateTimeOriginal : 2004:10:30 16:18:07<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/227<br>
+FNumber : 6.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2004:10:30 16:18:07<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : J4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v717-75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoJ2.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FNumber : 7.2<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.6 mm<br>
+FocalLengthIn35mmFilm : 42 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : J2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v712-74<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">ExposureTime : 1/197<br>
+ExposureTime : 1/196<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoJ1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:01:17 13:16:34<br>
+DateTimeOriginal : 2004:01:17 13:16:34<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/85<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 1680<br>
+_IFDpointer_Makernote : 806<br>
+DateTime : 2004:01:17 13:16:34<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : J1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V711-76<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 416<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoIDC-1000Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2001:01:01 00:00:00<br>
+DateTimeOriginal : 2001:01:01 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/87<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 2001:01:01 00:00:00<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : IDC-1000Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V111-80<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoHD700.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:05 09:14:40<br>
+DateTimeOriginal : 2010:04:05 09:14:40<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/508<br>
+FNumber : 4.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2010:04:05 09:14:40<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : HD700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoHD2000.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:02:03 03:32:03<br>
+DateTimeOriginal : 2009:02:03 03:32:03<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/286<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2009:02:03 03:32:03<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : HD2000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoHD2.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:26 09:48:34<br>
+DateTimeOriginal : 2007:03:26 09:48:34<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/533<br>
+FNumber : 5.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 45 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2007:03:26 09:48:34<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : HD2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoHD1A.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:08:17 11:52:37<br>
+DateTimeOriginal : 2006:08:17 11:52:37<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 0.8<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.6 mm<br>
+FocalLengthIn35mmFilm : 70 mm<br>
+GainControl : None<br>
+ISO : 496<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1180<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2006:08:17 11:52:37<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : HD1A<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoHD1000.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:09:21 11:35:59<br>
+DateTimeOriginal : 2007:09:21 11:35:59<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/353<br>
+FNumber : 4.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2007:09:21 11:35:59<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : HD1000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoHD1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:02:22 14:14:17<br>
+DateTimeOriginal : 2006:02:22 14:14:17<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/78<br>
+FNumber : 3.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.4 mm<br>
+FocalLengthIn35mmFilm : 105 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2006:02:22 14:14:17<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : HD1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoFH1.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:23 23:53:06<br>
+DateTimeOriginal : 2009:06:23 23:53:06<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/492<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2009:06:23 23:53:06<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : FH1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoE760.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -2.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:29 03:28:58<br>
+DateTimeOriginal : 2010:05:29 03:28:58<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 288<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : Low gain up<br>
+ISO : 288<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/40<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : E760<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0030<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoE7.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:02 23:02:32<br>
+DateTimeOriginal : 2010:06:02 23:02:32<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2010:06:02 23:02:32<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : E7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoE60.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:05:09 10:51:10<br>
+DateTimeOriginal : 2009:05:09 10:51:10<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/186<br>
+FNumber : 6.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2009:05:09 10:51:10<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : E60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoE6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:11:11 13:49:12<br>
+DateTimeOriginal : 2005:11:11 13:49:12<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/172<br>
+FNumber : 3.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 13.8 mm<br>
+FocalLengthIn35mmFilm : 83 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2005:11:11 13:49:12<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : E6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoE1090.jpg</td>
+<td class="supported">ApertureValue : 5.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:04:04 16:40:28<br>
+DateTimeOriginal : 2010:04:04 16:40:28<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 5.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.1 mm<br>
+FocalLengthIn35mmFilm : 96 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : 25<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3664 px w<br>
+PixelYDimension : 2748 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/124<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7796<br>
+_IFDpointer_Makernote : 986<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : E1090<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0040<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 404</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoE1.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:02:14 01:05:44<br>
+DateTimeOriginal : 2008:02:14 01:05:44<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/733<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2008:02:14 01:05:44<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : E1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoDSC-R1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.1<br>
+DateTimeDigitized : 2001:06:01 05:12:03<br>
+DateTimeOriginal : 2001:06:01 05:12:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 784<br>
+_IFDpointer_Interop : 912<br>
+_IFDpointer_Makernote : 636<br>
+DateTime : 2001:06:01 05:12:03<br>
+ImageDescription : SANYO Digital Camera<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : 1-126-293-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v12.4.53<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 252</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoDSC-MZ3.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.8<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:11:17 13:35:03<br>
+DateTimeOriginal : 2005:11:17 13:35:03<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/48<br>
+FNumber : 2.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+FocalLengthIn35mmFilm : 3704 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2000 px w<br>
+PixelYDimension : 1496 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 798<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1034<br>
+_IFDpointer_Makernote : 1064<br>
+DateTime : 2005:11:17 13:35:03<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : DSC-MZ3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V612-78<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoCG9.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:02 14:26:13<br>
+DateTimeOriginal : 2010:06:02 14:26:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/409<br>
+FNumber : 4.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3456 px w<br>
+PixelYDimension : 2592 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2010:06:02 14:26:13<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : CG9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoCG65.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:30 18:04:32<br>
+DateTimeOriginal : 2010:05:30 18:04:32<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/591<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2010:05:30 18:04:32<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : CG65<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoCG6.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:12 10:33:08<br>
+DateTimeOriginal : 2006:10:12 10:33:08<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/52<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.7 mm<br>
+FocalLengthIn35mmFilm : 113 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2006:10:12 10:33:08<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : CG6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoCG100.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:03:20 15:58:37<br>
+DateTimeOriginal : 2011:03:20 15:58:37<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/34<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1920 px w<br>
+PixelYDimension : 1080 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2011:03:20 15:58:37<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : CG100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 296</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoCA65.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:30 16:39:49<br>
+DateTimeOriginal : 2007:08:30 16:39:49<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/59<br>
+FNumber : 4.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 21.6 mm<br>
+FocalLengthIn35mmFilm : 130 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Spot<br>
+PixelXDimension : 845 px w<br>
+PixelYDimension : 634 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+SceneType : Directly photographed<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Distant view<br>
+SubsecTime : 656<br>
+UserComment : 3816<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3942<br>
+_IFDpointer_Makernote : 826<br>
+DateTime : 2007:09:12 20:31:22<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : CA65<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 280</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoCA6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:20 13:12:11<br>
+DateTimeOriginal : 2007:01:20 13:12:11<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/73<br>
+FNumber : 4.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 21.6 mm<br>
+FocalLengthIn35mmFilm : 142 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3680 px w<br>
+PixelYDimension : 2760 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 1180<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2007:01:20 13:12:11<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : CA6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoC6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:12:14 11:38:42<br>
+DateTimeOriginal : 2005:12:14 11:38:42<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/36<br>
+FNumber : 3.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.7 mm<br>
+FocalLengthIn35mmFilm : 83 mm<br>
+GainControl : None<br>
+ISO : 900<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2005:12:14 11:38:42<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : C6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoC40.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:10:31 09:39:19<br>
+DateTimeOriginal : 2005:10:31 09:39:19<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/890<br>
+FNumber : 4.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 1180<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1408<br>
+_IFDpointer_Makernote : 1438<br>
+DateTime : 2005:10:31 09:39:19<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : C40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 646<br>
+PrintIM : 296</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoC4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:03:30 16:16:11<br>
+DateTimeOriginal : 2005:03:30 16:16:11<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/413<br>
+FNumber : 4.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2005:03:30 16:16:11<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : C4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v718-73<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoC1.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.5<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:11:18 13:07:34<br>
+DateTimeOriginal : 2004:11:18 13:07:34<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/323<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 832<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1068<br>
+_IFDpointer_Makernote : 1098<br>
+DateTime : 2004:11:18 13:07:34<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : C1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v613-80<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoAZ3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:02:02 16:51:16<br>
+DateTimeOriginal : 2005:02:02 16:51:16<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 2005:02:02 16:51:16<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : AZ3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v515-75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoAZ1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2001:10:13 01:34:04<br>
+DateTimeOriginal : 2001:10:13 01:34:04<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2288 px w<br>
+PixelYDimension : 1712 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2001:10:13 01:34:04<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd<br>
+Model : AZ1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v511-76<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/SanyoA5.jpg</td>
+<td class="supported">BrightnessValue : 5.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:01 02:05:50<br>
+DateTimeOriginal : 2004:01:01 02:05:50<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/180<br>
+FNumber : 4.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.6 mm<br>
+FocalLengthIn35mmFilm : 70 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2004:01:01 02:05:50<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.,Ltd.<br>
+Model : A5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v71A-51<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 1280 960 640 480<br>
+SubjectArea : 1280,960,640,480<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/Sanyo603.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:11:22 05:16:14<br>
+DateTimeOriginal : 2007:11:22 05:16:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/279<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21040<br>
+_IFDpointer_Makernote : 1032<br>
+DateTime : 2007:11:22 05:16:14<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co., Ltd.<br>
+Model : 603<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 598<br>
+PrintIM : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sanyo/Sanyo503.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:11 12:46:24<br>
+DateTimeOriginal : 2006:10:11 12:46:24<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/19<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21042<br>
+_IFDpointer_Makernote : 1034<br>
+DateTime : 2006:10:11 12:46:24<br>
+ImageDescription : SANYO DIGITAL CAMERA<br>
+Make : SANYO Electric Co.Ltd.<br>
+Model : 503<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.06SANY<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 600<br>
+PrintIM : 250</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

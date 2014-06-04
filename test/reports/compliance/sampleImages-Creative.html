@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Creative/CreativeVadoHD.jpg</td>
+<td class="supported">ApertureValue : 3.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:08 11:41:15<br>
+DateTimeOriginal : 2010:05:08 11:41:15<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/3352<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 720 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/3350<br>
+SubjectDistance : 0 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1203<br>
+DateTime : 2010:05:08 11:41:15<br>
+ImageDescription : DCIM\100MEDIA<br>
+Make : Creative<br>
+Model : Vado HD<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0.000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 5.372560764<br>
+CompressedBitsPerPixel : 5.372560763888889<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativePC_Cam950Slim.jpg</td>
+<td class="supported">ApertureValue : 1.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2009:09:18 06:20:53<br>
+DateTimeOriginal : 2009:09:18 06:20:53<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : -1.5<br>
+ExposureIndex : 0.8828125<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1133<br>
+FNumber : 5.5<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 850<br>
+_IFDpointer_Makernote : 1,113,2,82,3,256,4,256,5,493<br>
+Artist : PC Cam 950 Slim<br>
+Copyright : Creative Labs<br>
+DateTime : 2009:09:18 06:20:53<br>
+ImageDescription : PHOT0217.JPG<br>
+Make : Creative Labs<br>
+Model : PC Cam 950 Slim<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F/W Version: 1.0.26C<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 302</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.9954878575<br>
+CompressedBitsPerPixel : 0.9954878575420414<br>
+<br>
+FocalLength : 8.2 mm<br>
+FocalLength : 8.3 mm<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativePC_Cam930Slim.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2005:01:15 18:11:10<br>
+DateTimeOriginal : 2005:01:15 18:11:10<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 0.765625<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/236<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 836<br>
+_IFDpointer_Makernote : 1,98,2,110,3,307,4,256,5,357<br>
+Artist : PC Cam 930 Slim<br>
+Copyright : Creative Labs<br>
+DateTime : 2005:01:15 18:11:10<br>
+ImageDescription : PHOT0020.JPG<br>
+Make : Creative Labs<br>
+Model : PC Cam 930 Slim<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 3.2.54C<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 288</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.608342489<br>
+CompressedBitsPerPixel : 2.608342488606771<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativePC-CAM900.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2005:09:25 14:06:36<br>
+DateTimeOriginal : 2005:09:25 14:06:36<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/623<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 567<br>
+DateTime : 2005:09:25 14:06:36<br>
+ImageDescription : Unknown<br>
+Make : Creative<br>
+Model : Creative PC-CAM 900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 209</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeDiViCam428.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:01:11 22:18:03<br>
+DateTimeOriginal : 2006:01:11 22:18:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/23<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : 383-256-496-<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/6468501<br>
+_IFDpointer_Interop : 41686<br>
+_IFDpointer_Makernote : 704<br>
+Copyright : Copyright 2002<br>
+DateTime : 2006:01:11 22:18:03<br>
+ImageDescription : Creative DiVi 428<br>
+Make : Creative Labs<br>
+Model : DiVi Cam 428<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DVC406-V1.34-SG04<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 278</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.616683333<br>
+CompressedBitsPerPixel : 1.6166833333333333<br>
+<br>
+FNumber : 7.4<br>
+FNumber : 7.36<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeDiViCam316.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2006:01:18 09:24:39<br>
+DateTimeOriginal : 2006:01:18 09:24:39<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.3 mm<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 1017<br>
+DateTime : 2006:01:18 09:24:53<br>
+ImageDescription : PHOT0021.JPG<br>
+Make : Creative Labs<br>
+Model : DiViCam 316<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F\WVersion:1.32.41<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 259</td>
+<td class="unsupported">UserComment : ?? ??????? U @ Y A?? xF?????????????????????????  <   ?   ?E*?                                                                                                                 P%          ?.  	   ?MPEG0020.ASF 1                                 <br>
+UserComment : 629<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeDiViCAM525D.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1970:01:23 21:14:28<br>
+DateTimeOriginal : 1970:01:23 21:14:28<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 69<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/8<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 3856 px w<br>
+PixelYDimension : 2892 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/8<br>
+SubsecTime : 406<br>
+_IFDpointer_Interop : 1178<br>
+_IFDpointer_Makernote : 705<br>
+Copyright : Copyright2006<br>
+DateTime : 2007:03:19 16:22:56<br>
+ImageDescription : <br>
+Make : Creative Labs<br>
+Model : DiVi CAM 525D<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 640.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 704.00000000<br>
+_IFDpointer_EXIF : 267</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.659310561<br>
+CompressedBitsPerPixel : 1.6593105605390173<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeDiViCAM516.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:05:31 15:12:23<br>
+DateTimeOriginal : 2009:05:31 15:12:23<br>
+ExifVersion : 2<br>
+ExposureBias : 0<br>
+ExposureIndex : 51<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/136<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/256<br>
+_IFDpointer_Interop : 41696<br>
+_IFDpointer_Makernote : 714<br>
+Copyright : Copyright 2006<br>
+DateTime : 2009:05:31 15:12:23<br>
+ImageDescription : DiVi CAM 516<br>
+Make : Creative Labs<br>
+Model : DiVi CAM 516<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FW Version 506-122E-SG04<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 280</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.035354614<br>
+CompressedBitsPerPixel : 2.0353546142578125<br>
+<br>
+FNumber : 8.2<br>
+FNumber : 8.25<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeDC-CAM3200Z.jpg</td>
+<td class="supported">BrightnessValue : 3.241<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:11 22:25:45<br>
+DateTimeOriginal : 2005:08:11 22:25:45<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : Low gain up<br>
+ISO : 150<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : 6<br>
+_IFDpointer_Interop : 1517<br>
+_IFDpointer_Makernote : 778<br>
+DateTime : 2005:08:11 22:25:48<br>
+ImageDescription : DSCI0013.JPG<br>
+Make : Creative<br>
+Model : DC-CAM 3200Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 01011.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 332<br>
+PrintIM : 212</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.423049927<br>
+CompressedBitsPerPixel : 3.4230499267578125<br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.663<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeDC-CAM3000Z.jpg</td>
+<td class="supported">ApertureValue : 5.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:06:25 11:03:44<br>
+DateTimeOriginal : 2005:06:25 11:03:44<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/540<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/540<br>
+_IFDpointer_Interop : 1850<br>
+_IFDpointer_Makernote : 805<br>
+Copyright : Copyright 1,2003<br>
+DateTime : 2005:06:25 11:03:44<br>
+ImageDescription : <br>
+Make : Creative<br>
+Model : Creative DC-CAM 3000Z<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 359</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.594121297<br>
+CompressedBitsPerPixel : 1.5941212972005208<br>
+<br>
+FNumber : 5.6<br>
+FNumber : 5.619<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeCR781.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/184<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+_IFDpointer_Makernote : 834<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : Creative Digital Camera<br>
+Make : Creative Technology Ltd.<br>
+Model : CR781<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CR781 Firmware Version 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 512</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeCR780.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Makernote : 834<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : Creative Digital Camera<br>
+Make : Creative Technology Ltd.<br>
+Model : CR780<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CR780 Firmware Version 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 512</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Creative/CreativeCR530.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+UserComment : 948<br>
+_IFDpointer_Makernote : 846<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : Creative Digital Camera<br>
+Make : Creative Technology Ltd.<br>
+Model : CR530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CR530 Firmware Version 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 512</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

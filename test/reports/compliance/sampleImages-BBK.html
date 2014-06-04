@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/BBK/BBK_DP830.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:31 11:33:18<br>
+DateTimeOriginal : 2010:05:31 11:33:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/72<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Spot<br>
+PixelXDimension : 3280 px w<br>
+PixelYDimension : 2460 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/73<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1046<br>
+_IFDpointer_Makernote : 706<br>
+DateTime : 2010:05:31 11:33:18<br>
+ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP830<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">FNumber : 3.6<br>
+FNumber : 3.61<br>
+<br>
+FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+<br>
+UserComment : R:  144 G:  255 B:  177 X:39852 Y:    0 S:    0 Zs:   0 Zp: 232 F:65404 I:    4 ImgVer:08.01.09.10<br>
+UserComment : 928<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP810.jpg</td>
+<td class="supported">ApertureValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:24 14:33:56<br>
+DateTimeOriginal : 2010:06:24 14:33:56<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/279<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.2<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/286<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 998<br>
+_IFDpointer_Makernote : 706<br>
+DateTime : 2010:06:24 14:33:56<br>
+ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP810<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.052<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">FNumber : 6.9<br>
+FNumber : 6.94<br>
+<br>
+FocalLength : 14.0 mm<br>
+FocalLength : 14 mm<br>
+<br>
+UserComment : R:  138 G:  255 B:  162 X:54188 Y:    0 S:    0 Z:  181 F:  134<br>
+UserComment : 916<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP710.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:05:24 21:09:39<br>
+DateTimeOriginal : 2007:05:24 21:09:39<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.3 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.9<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 998<br>
+_IFDpointer_Makernote : 706<br>
+DateTime : 2007:05:24 21:09:39<br>
+ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP710<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.052<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">UserComment : R:  118 G:  255 B:  179 X:54188 Y:    0 S:  546 Z:  313 F:  186<br>
+UserComment : 916<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP1250.jpg</td>
+<td class="supported">ApertureValue : 5.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:07:10 11:48:05<br>
+DateTimeOriginal : 2009:07:10 11:48:05<br>
+DigitalZoomRatio : 2.5<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 22.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 68<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.1<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1048<br>
+_IFDpointer_Makernote : 708<br>
+DateTime : 2009:07:10 11:48:05<br>
+ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP1250<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">FNumber : 5.1<br>
+FNumber : 5.08<br>
+<br>
+UserComment : R:  168 G:  255 B:  178 X:39852 Y:    0 S:    0 Zs:   6 Zp: 115 F:  614 I:    4 ImgVer:08.01.09.10<br>
+UserComment : 930<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP1050.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:11:20 13:43:23<br>
+DateTimeOriginal : 2010:11:20 13:43:23<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/36<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.3 mm<br>
+GainControl : Low gain up<br>
+ISO : 99<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+PixelXDimension : 2736 px w<br>
+PixelYDimension : 3648 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/36<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 630<br>
+DateTime : 2010:11:20 13:43:23<br>
+ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP1050<br>
+Software : Version Ver 1.057<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported">FNumber : 3.2<br>
+FNumber : 3.25<br>
+<br>
+UserComment : R:  135 G:  255 B:  197 X:54212 Y:    0 S:  565 Z:   91 F:  765<br>
+UserComment : 838<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

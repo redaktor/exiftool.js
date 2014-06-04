@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/T-Mobile/T-MobileSidekickLX.jpg</td>
+<td class="supported">Make : T-Mobile(R)<br>
+Model : Sidekick LX<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:03:29 11:26:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/T-Mobile/T-MobileSidekickLX.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : T-MobileSidekickLX.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/T-Mobile<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:03:29 11:26:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:03:29 11:26:21<br>
+CreateDate : undefined<br>
+<br>
+UserComment : My Comment<br>
+UserComment : 65,83,67,73,73,0,0,0,77,121,32,67,111,109,109,101,110,116<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 466<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9949<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9949 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/T-Mobile/T-MobilePulse.jpg</td>
+<td class="supported">Make : HUAWEI<br>
+Model : pulse<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:10:05 12:35:16<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/T-Mobile/T-MobilePulse.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : T-MobilePulse.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/T-Mobile<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2002:12:08 12:00:00<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 436<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4797<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4797 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

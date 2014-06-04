@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/OMG/OMGLIFE_AutographerV1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/143<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : Camera Stats: exp 2736 gain 1.25 fps 12.00 frames2converge 3  awbr 1888 awbg 1024 awbb 1088<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Below Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : South<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : West<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2013-08-01T20:22:210100<br>
+Make : OMG LIFE<br>
+Model : AutographerV1<br>
+Orientation : Horizontal (normal)<br>
+Software : 029.<br>
+_IFDpointer_EXIF : 151<br>
+_IFDpointer_GPS : 324</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

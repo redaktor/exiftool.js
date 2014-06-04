@@ -1,0 +1,4157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Ricoh/RicohTHETA.jpg</td>
+<td class="supported">ApertureValue : 2.1<br>
+BrightnessValue : 2.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2013:12:11 12:50:17<br>
+DateTimeOriginal : 2013:12:11 12:50:17<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.1<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 0.8 mm<br>
+FocalLengthIn35mmFilm : 6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3584 px w<br>
+PixelYDimension : 1792 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 57960<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 58224<br>
+_IFDpointer_Makernote : 1224<br>
+GPSImgDirection : 45<br>
+GPSImgDirectionRef : True North<br>
+GPSVersion : 2.3.0.0<br>
+Copyright : <br>
+DateTime : 2013:12:11 12:50:17<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : RICOH THETA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : RICOH THETA Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 434<br>
+_IFDpointer_GPS : 904<br>
+FirmwareVersion : 1.02<br>
+InternalSerialNumber : 48,48,48,48,48,48,48,48,48,48,49,48,48,49,48,56<br>
+MakerNoteType : Rdc<br>
+RecordingFormat : JPEG<br>
+_IFDpointer_Ricoh : 1590<br>
+_IFDpointer_Theta : 1334<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDXIFW32.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ExifVersion : 1.00<br>
+UserComment : 292<br>
+_IFDpointer_Makernote : 228<br>
+Make : RICOH<br>
+Model : RDXIFW32<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 154<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC4300.jpg</td>
+<td class="supported">ApertureValue : 3.7<br>
+BrightnessValue : 7.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeOriginal : 1998:01:01 00:50:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/181<br>
+UserComment : 750<br>
+_IFDpointer_Makernote : 686<br>
+Copyright : (C) by DC-4U User<br>
+Make : RICOH<br>
+Model : DC-4U<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.326 0.3354<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 376<br>
+InternalSerialNumber : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-i500.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 5.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2005:05:22 17:37:24<br>
+DateTimeOriginal : 2005:05:22 17:37:24<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 150<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/388<br>
+UserComment : 1226<br>
+_IFDpointer_Interop : 1490<br>
+_IFDpointer_Makernote : 634<br>
+Copyright : (C) by RDC-i500 User<br>
+DateTime : 2005:05:22 17:37:24<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : RDC-i500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256<br>
+DriveMode : Single-frame<br>
+FirmwareVersion : 1.36<br>
+ImageInfo : 8,0,6,0,0,0<br>
+MakerNoteType : RDC<br>
+PrintIM : 788<br>
+Sharpness : Sharp<br>
+WhiteBalanceFineTune : 0<br>
+_IFDpointer_Ricoh : 1004<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-7S.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+BrightnessValue : 1.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+DateTimeDigitized : 2004:11:21 04:39:32<br>
+DateTimeOriginal : 2004:11:21 04:39:32<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.7 mm<br>
+LightSource : Fluorescent<br>
+MaxApertureValue : 2.5<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 450 px h<br>
+ShutterSpeedValue : 1/28<br>
+SubsecTime : 601<br>
+UserComment : 874<br>
+_IFDpointer_Interop : 1138<br>
+_IFDpointer_Makernote : 618<br>
+Copyright : (C) by RDC-7S User<br>
+DateTime : 2004:11:20 11:52:33<br>
+Make : RICOH<br>
+Model : RDC-7S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 264<br>
+RecordingFormat : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-7.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+BrightnessValue : 1.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2000:07:22 20:43:43<br>
+DateTimeOriginal : 2000:07:22 20:43:43<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.5<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.5 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 0.3<br>
+UserComment : 646<br>
+_IFDpointer_Interop : 910<br>
+_IFDpointer_Makernote : 534<br>
+Copyright : (C) by RDC-7 User<br>
+Make : RICOH<br>
+Model : RDC-7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-6000.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:10:10 13:14:29<br>
+DateTimeOriginal : 2000:10:10 13:14:29<br>
+ExifVersion : 2.10<br>
+ExposureBias : NaN<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/49<br>
+_IFDpointer_Interop : 652<br>
+_IFDpointer_Makernote : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+Copyright : Copyright 1,2000<br>
+DateTime : 2000:10:10 13:14:29<br>
+Make : RICOHoCprrotaoin<br>
+Model : RDC-60000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">CompressedBitsPerPixel : 24.34421258<br>
+CompressedBitsPerPixel : 24.344212582236842<br>
+<br>
+ImageDescription : sL<br>
+ImageDescription : sLs:)yRS4<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-5300.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 2.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 1999:12:28 22:46:07<br>
+DateTimeOriginal : 1999:12:28 22:46:07<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.3 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/16<br>
+UserComment : 658<br>
+_IFDpointer_Interop : 936<br>
+_IFDpointer_Makernote : 546<br>
+Copyright : (C) by RDC-5300 User<br>
+Make : RICOH<br>
+Model : RDC-5300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+_type : ricoh</td>
+<td class="unsupported">FirmwareVersion : 1.77<br>
+FirmwareVersion : [object Object]<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-5000.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+BrightnessValue : 5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 1999:06:04 22:30:22<br>
+DateTimeOriginal : 1999:06:04 22:30:22<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.1 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/91<br>
+UserComment : 658<br>
+_IFDpointer_Interop : 936<br>
+_IFDpointer_Makernote : 546<br>
+Copyright : (C) by RDC-5000 User<br>
+Make : RICOH<br>
+Model : RDC-5000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+_type : ricoh</td>
+<td class="unsupported">FirmwareVersion : 1.03<br>
+FirmwareVersion : [object Object]<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-4300.jpg</td>
+<td class="supported">ApertureValue : 3.7<br>
+BrightnessValue : 7.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeOriginal : 1998:01:01 00:50:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/181<br>
+UserComment : 750<br>
+_IFDpointer_Makernote : 686<br>
+Copyright : (C) by DC-4U User<br>
+Make : RICOH<br>
+Model : DC-4U<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.326 0.3354<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 376<br>
+InternalSerialNumber : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-200G.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.91<br>
+DateTimeDigitized : 2002:05:25 16:48:29<br>
+DateTimeOriginal : 2002:05:25 16:48:29<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.4 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/128<br>
+UserComment : 658<br>
+_IFDpointer_Interop : 936<br>
+_IFDpointer_Makernote : 546<br>
+Copyright : (C) by RDC-200G User<br>
+Make : RICOH<br>
+Model : RDC-200G<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+_type : ricoh</td>
+<td class="unsupported">FirmwareVersion : 2.77<br>
+FirmwareVersion : [object Object]<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohRDC-2.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohR8.jpg</td>
+<td class="supported">ApertureValue : 5.3<br>
+BrightnessValue : 7.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2008:01:30 12:13:46<br>
+DateTimeOriginal : 2008:01:30 12:13:46<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/153<br>
+FNumber : 5.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 35.4 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25592<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 25856<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by RICOH R8 User<br>
+DateTime : 2008:01:30 12:13:46<br>
+Make : RICOH<br>
+Model : RICOH R8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 80.01<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 25886</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+InternalSerialNumber : 00000000070801082007122201000000<br>
+InternalSerialNumber : 0,0,0,0,7,8,1,8,32,7,18,34,1,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohR50.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:30 14:39:05<br>
+DateTimeOriginal : 2008:01:30 14:39:05<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/185<br>
+FNumber : 5.4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 26.2 mm<br>
+FocalLengthIn35mmFilm : 148 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 1126<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+DateTime : 2008:01:30 14:39:05<br>
+Make : RICOH<br>
+Model : RICOH R50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v2g2-71c<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 592<br>
+_type : ricoh<br>
+PrintIM : 296</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohR10.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 9.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2008:09:09 11:53:55<br>
+DateTimeOriginal : 2008:09:09 11:53:55<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/660<br>
+FNumber : 5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Spot<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25828<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 26092<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by RICOH R10 User<br>
+DateTime : 2008:09:09 11:53:55<br>
+Make : RICOH<br>
+Model : RICOH R10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.12<br>
+ImageInfo : 920<br>
+InternalSerialNumber : 50,48,48,53,48,48,48,48,50,48,49,48,54,50,48,54<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 984<br>
+_type : ricoh<br>
+PrintIM : 26122</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohPX.jpg</td>
+<td class="supported">ApertureValue : 3.9<br>
+BrightnessValue : 0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2011:01:10 20:08:06<br>
+DateTimeOriginal : 2011:01:10 20:08:06<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 3.9<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 1131<br>
+LensMake : RICOH<br>
+LensModel : RICOH ZOOM LENS<br>
+LensSpecification : 5,25,3.9,5.4<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.9<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 4608 px w<br>
+PixelYDimension : 3456 px h<br>
+SceneCaptureType : Night scene<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 23356<br>
+_IFDpointer_Interop : 23620<br>
+_IFDpointer_Makernote : 990<br>
+Copyright : <br>
+DateTime : 2011:01:10 20:08:06<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : PX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PX Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 1152<br>
+FirmwareVersion : 1.02<br>
+ImageInfo : 1152<br>
+InternalSerialNumber : 50,48,49,50,48,48,48,48,51,53,48,49,48,48,50,49<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1312<br>
+_type : ricoh<br>
+PrintIM : 23650</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohI700.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 1.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2001:05:25 19:36:49<br>
+DateTimeOriginal : 2001:05:25 19:36:49<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/45<br>
+UserComment : 646<br>
+_IFDpointer_Interop : 910<br>
+_IFDpointer_Makernote : 534<br>
+Copyright : (C) by RDC-i700 User<br>
+Make : RICOH<br>
+Model : RDC-i700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohHZ15.jpg</td>
+<td class="supported">ApertureValue : 3.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:08:05 00:07:36<br>
+DateTimeOriginal : 2013:08:05 00:07:36<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/6<br>
+FNumber : 3.9<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 39 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Average<br>
+PixelXDimension : 3456 px w<br>
+PixelYDimension : 4608 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Unknown<br>
+ShutterSpeedValue : 1/7<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 5048<br>
+_IFDpointer_Makernote : 4888<br>
+_OffsetSchema : 4188<br>
+_Padding : 2732<br>
+DateTime : 2013:10:21 11:38:43<br>
+Make : RICOH IMAGING<br>
+Model : RICOH HZ15<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Microsoft Windows Photo Viewer 6.1.7600.16385<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2318</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGXR_S10.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2009:10:05 05:55:56<br>
+DateTimeOriginal : 2009:10:05 05:55:56<br>
+ExifVersion : 2.21<br>
+ExposureBias : -0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 0.5<br>
+FNumber : 8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.9 mm<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+UserComment : 18144<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 18408<br>
+_IFDpointer_Makernote : 802<br>
+Copyright : <br>
+DateTime : 2009:10:05 05:55:56<br>
+Make : RICOH<br>
+Model : GXR<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+Software : GXR Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 964<br>
+FirmwareVersion : 0.56<br>
+ImageInfo : 964<br>
+InternalSerialNumber : 50,48,48,55,48,48,48,48,48,48,48,49,48,48,52,55<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1108<br>
+_type : ricoh<br>
+PrintIM : 18438</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGXR_P10.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+BrightnessValue : 6<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2000:01:02 00:02:12<br>
+DateTimeOriginal : 2000:01:02 00:02:12<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/90<br>
+FNumber : 4.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 16.3 mm<br>
+Gamma : 2.2<br>
+ISO : 104<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 18262<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 18526<br>
+_IFDpointer_Makernote : 946<br>
+Copyright : <br>
+DateTime : 2000:01:02 00:02:12<br>
+Make : RICOH<br>
+Model : GXR P10<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.21 0.71 0.15 0.06<br>
+ResolutionUnit : inches<br>
+Software : GXR Firmware<br>
+WhitePoint : 0.313 0.329<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 480<br>
+DriveMode : 1108<br>
+FirmwareVersion : 1.17<br>
+ImageInfo : 1108<br>
+InternalSerialNumber : 50,48,48,99,48,48,48,48,48,52,49,48,48,48,51,56<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1268<br>
+_type : ricoh<br>
+PrintIM : 18556</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGXR_MOUNT_A12.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2011:02:09 12:52:01<br>
+DateTimeOriginal : 2011:02:09 12:52:01<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/1620<br>
+FNumber : 0<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LensMake : <br>
+LensModel : <br>
+LensSpecification : 0,0,NaN,NaN<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.0<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 3776 px w<br>
+PixelYDimension : 2832 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 19788<br>
+_IFDpointer_Interop : 20052<br>
+_IFDpointer_Makernote : 1038<br>
+Copyright : <br>
+DateTime : 2011:02:09 12:52:01<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : GXR MOUNT A12<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GXR Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 404<br>
+DriveMode : 1200<br>
+FirmwareVersion : 1.39<br>
+ImageInfo : 1200<br>
+InternalSerialNumber : 50,48,49,51,48,48,48,48,48,48,48,49,48,50,51,49<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1424<br>
+_type : ricoh<br>
+PrintIM : 20082</td>
+<td class="unsupported">FocalLength : 0.0 mm<br>
+FocalLength : 0 mm<br>
+<br>
+WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGXR_A16.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2012:03:29 18:17:52<br>
+DateTimeOriginal : 2012:03:29 18:17:52<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1<br>
+FNumber : 8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.7 mm<br>
+ISO : 100<br>
+LensMake : RICOH<br>
+LensModel : RICOH LENS A16 24-85mm F3.5-5.5<br>
+LensSpecification : 15.7,55.5,3.5,5.5<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 4928 px w<br>
+PixelYDimension : 3264 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 23980<br>
+_IFDpointer_Interop : 24244<br>
+_IFDpointer_Makernote : 1082<br>
+Copyright : <br>
+DateTime : 2012:03:29 18:17:52<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : GXR A16<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GXR Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 448<br>
+DriveMode : 1244<br>
+FirmwareVersion : 1.50<br>
+ImageInfo : 1244<br>
+InternalSerialNumber : 50,48,49,52,48,48,48,48,48,48,49,48,48,50,57,51<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1468<br>
+_type : ricoh<br>
+PrintIM : 24274</td>
+<td class="unsupported">WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGXR_A12.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+BrightnessValue : -1.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2010:11:13 19:17:20<br>
+DateTimeOriginal : 2010:11:13 19:17:20<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/8<br>
+FNumber : 4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.3 mm<br>
+ISO : 800<br>
+LensMake : RICOH<br>
+LensModel : GR LENS A12 28mm F2.5<br>
+LensSpecification : 18.3,18.3,2.5,2.5<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 4288 px w<br>
+PixelYDimension : 2848 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Hard<br>
+UserComment : 19164<br>
+_IFDpointer_Interop : 19428<br>
+_IFDpointer_Makernote : 990<br>
+Copyright : <br>
+DateTime : 2010:11:13 19:17:20<br>
+Make : RICOH<br>
+Model : GXR A12<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GXR Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 1152<br>
+FirmwareVersion : 1.29<br>
+ImageInfo : 1152<br>
+InternalSerialNumber : 50,48,48,102,48,48,48,48,48,48,49,48,50,49,48,51<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1312<br>
+_type : ricoh<br>
+PrintIM : 19458</td>
+<td class="unsupported">WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGXR.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2009:11:04 14:03:14<br>
+DateTimeOriginal : 2009:11:04 14:03:14<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 1600<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4288 px w<br>
+PixelYDimension : 2848 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+UserComment : 18144<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 18408<br>
+_IFDpointer_Makernote : 802<br>
+Copyright : <br>
+DateTime : 2009:11:04 14:03:14<br>
+Make : RICOH<br>
+Model : GXR<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+Software : GXR Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 964<br>
+FirmwareVersion : 1.02<br>
+ImageInfo : 964<br>
+InternalSerialNumber : 50,48,48,98,48,48,48,48,48,48,48,49,48,48,53,52<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1108<br>
+_type : ricoh<br>
+PrintIM : 18438</td>
+<td class="unsupported">FocalLength : 33.0 mm<br>
+FocalLength : 33 mm<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGX200.jpg</td>
+<td class="supported">ApertureValue : 6.3<br>
+BrightnessValue : 10.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2008:06:23 04:22:34<br>
+DateTimeOriginal : 2008:06:23 04:22:34<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/620<br>
+FNumber : 6.3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.3 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25524<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 25788<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by RICOH GX200 User<br>
+DateTime : 2008:06:23 04:22:34<br>
+Make : RICOH<br>
+Model : RICOH GX200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.07<br>
+ImageInfo : 920<br>
+InternalSerialNumber : 50,48,48,52,48,48,48,48,51,52,49,48,48,50,52,52<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 984<br>
+_type : ricoh<br>
+PrintIM : 25818</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGR_Digital.jpg</td>
+<td class="supported">ApertureValue : 3.9<br>
+BrightnessValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2005:09:09 14:04:15<br>
+DateTimeOriginal : 2005:09:09 14:04:15<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/52<br>
+FNumber : 4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.3<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 17088<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by GR Digital User<br>
+DateTime : 2005:09:09 14:04:15<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : GR Digital<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 17118</td>
+<td class="unsupported">UserComment : ††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††<br>
+UserComment : 16824<br>
+<br>
+InternalSerialNumber : 00000000000000012218000000010114<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,24,0,0,0,1,1,20<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGR_DIGITAL4.jpg</td>
+<td class="supported">ApertureValue : 1.9<br>
+BrightnessValue : 7.1<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2011:10:07 13:56:58<br>
+DateTimeOriginal : 2011:10:07 13:56:58<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/870<br>
+FNumber : 1.9<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+Gamma : 2.2<br>
+ISO : 80<br>
+LensMake : RICOH<br>
+LensModel : RICOH GR LENS<br>
+LensSpecification : 6,6,1.9,1.9<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/850<br>
+_IFDpointer_Interop : 43140<br>
+_IFDpointer_Makernote : 1134<br>
+Copyright : Â© Tetsu Sawamura<br>
+DateTime : 2011:10:07 13:56:58<br>
+Make : RICOH<br>
+Model : GR DIGITAL 4<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.21 0.71 0.15 0.06<br>
+ResolutionUnit : inches<br>
+Software : GR Firmware<br>
+WhitePoint : 0.313 0.329<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 480<br>
+DriveMode : 1298<br>
+FirmwareVersion : 1.13<br>
+ImageInfo : 1298<br>
+InternalSerialNumber : 50,48,49,53,48,48,48,48,48,48,49,48,49,53,54,53<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1554<br>
+_type : ricoh<br>
+PrintIM : 43170</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+<br>
+YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGR_DIGITAL3.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+BrightnessValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2009:08:11 18:41:15<br>
+DateTimeOriginal : 2009:08:11 18:41:15<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/4<br>
+FNumber : 5.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 17780<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 18044<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : <br>
+DateTime : 2009:08:11 18:41:15<br>
+Make : RICOH<br>
+Model : GR DIGITAL 3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.18<br>
+ImageInfo : 920<br>
+InternalSerialNumber : 50,48,48,55,48,48,48,48,48,48,49,48,50,50,51,52<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1056<br>
+_type : ricoh<br>
+PrintIM : 18074</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGR_DIGITAL2.jpg</td>
+<td class="supported">ApertureValue : 5.5<br>
+BrightnessValue : 9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2007:10:12 13:33:35<br>
+DateTimeOriginal : 2007:10:12 13:33:35<br>
+ExifVersion : 2.21<br>
+ExposureBias : -0.5<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/570<br>
+FNumber : 5.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.3<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 24932<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 25196<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by GR DIGITAL 2 User<br>
+DateTime : 2007:10:12 13:33:35<br>
+Make : RICOH<br>
+Model : GR DIGITAL 2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.05<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 25226</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+InternalSerialNumber : 000000000507091c2007092101000000<br>
+InternalSerialNumber : 0,0,0,0,5,7,9,28,32,7,9,33,1,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohGR.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 10<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2013:05:08 10:26:19<br>
+DateTimeOriginal : 2013:05:08 10:26:19<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/500<br>
+FNumber : 8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.3 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 100<br>
+LensMake : PENTAX RICOH IMAGING<br>
+LensModel : GR LENS<br>
+LensSpecification : 18.3,18.3,2.8,2.8<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 3936 px w<br>
+PixelYDimension : 2608 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 33678<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 33942<br>
+_IFDpointer_Makernote : 1086<br>
+Copyright : <br>
+DateTime : 2013:05:08 10:26:19<br>
+ImageDescription : <br>
+Make : PENTAX RICOH IMAGING<br>
+Model : GR<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GR Firmware Ver 01.11<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 434<br>
+AFAreaMode : Auto<br>
+AFAreaXPosition : 1944<br>
+AFAreaXPosition1 : 632<br>
+AFAreaYPosition : 1293<br>
+AFAreaYPosition1 : 420<br>
+AFStatus : In Focus<br>
+AutoBracketing : Off<br>
+Contrast : 0<br>
+CropMode35mm : On<br>
+CroppedImageHeight : 2608<br>
+CroppedImageWidth : 3936<br>
+DriveMode : Single-frame<br>
+DynamicRangeExpansion : Off<br>
+FirmwareVersion : 1.11<br>
+FlashExposureComp : 0<br>
+FlashMode : Off<br>
+FocusMode : Pinpoint AF<br>
+FullPressSnap : Off<br>
+HueAdjust : Off<br>
+ImageEffects : Standard<br>
+ImageInfo : 3<br>
+InternalSerialNumber : 48,48,48,48,48,48,48,48,48,48,48,49,48,48,48,52<br>
+MacroMode : Off<br>
+MakerNoteType : Rdc<br>
+ManualFlashOutput : Full<br>
+NDFilter : Off<br>
+NoiseReduction : Weak<br>
+RecordingFormat : JPEG<br>
+Saturation : 0<br>
+SensorHeight : 3264<br>
+SensorWidth : 4928<br>
+ToningEffect : Off<br>
+Vignetting : Off<br>
+WBBracketShotNumber : 0<br>
+WideAdapter : Not Attached<br>
+_IFDpointer_Ricoh : 1884<br>
+_type : ricoh<br>
+PrintIM : 33972</td>
+<td class="unsupported">WhiteBalanceFineTune : 0 0<br>
+WhiteBalanceFineTune : None<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohG700SE.jpg</td>
+<td class="supported">ApertureValue : 1.1<br>
+BrightnessValue : 4.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4.6<br>
+DateTimeDigitized : 2012:07:23 09:32:10<br>
+DateTimeOriginal : 2012:07:23 09:32:10<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1732<br>
+_IFDpointer_Makernote : 1762<br>
+Copyright : <br>
+DateTime : 2012:07:23 09:32:10<br>
+Make : RICOH<br>
+Model : G700 SE<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : G700SE Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 552<br>
+DriveMode : Single-frame<br>
+ImageInfo : 1936<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 5564<br>
+_type : ricoh<br>
+PrintIM : 340</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+UserComment : GCM_TAG<br>
+UserComment : 998<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+FirmwareVersion : Revv1.0<br>
+FirmwareVersion : NaN<br>
+<br>
+InternalSerialNumber : 00000000000000000000000000000000<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohG700.jpg</td>
+<td class="supported">ApertureValue : 1.1<br>
+BrightnessValue : 8.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.22<br>
+DateTimeDigitized : 2010:07:22 12:20:34<br>
+DateTimeOriginal : 2010:07:22 12:20:34<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/603<br>
+FNumber : 3.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 996<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1354<br>
+_IFDpointer_Makernote : 1384<br>
+Copyright : <br>
+DateTime : 2010:07:22 12:20:34<br>
+Make : RICOH<br>
+Model : G700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : G700 Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 550<br>
+DriveMode : Single-frame<br>
+ImageInfo : 1558<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 5186<br>
+_type : ricoh<br>
+PrintIM : 338</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+FirmwareVersion : Rev1.00<br>
+FirmwareVersion : 0.01<br>
+<br>
+InternalSerialNumber : 00000000000000000000000000000000<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohG600.jpg</td>
+<td class="supported">ApertureValue : 1.1<br>
+BrightnessValue : 8.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.21<br>
+DateTimeDigitized : 2008:05:01 13:31:44<br>
+DateTimeOriginal : 2008:05:01 13:31:44<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/790<br>
+FNumber : 3.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 970<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1328<br>
+_IFDpointer_Makernote : 1358<br>
+Copyright : (C) by RICOH G600 User<br>
+DateTime : 2008:05:01 13:31:44<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : G600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 524<br>
+DriveMode : Single-frame<br>
+ImageInfo : 1556<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 9268<br>
+_type : ricoh<br>
+PrintIM : 312</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+FirmwareVersion : RevV1.0<br>
+FirmwareVersion : NaN<br>
+<br>
+InternalSerialNumber : 00000000000000000000000000000000<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohG3.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+BrightnessValue : 2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2003:01:01 00:06:18<br>
+DateTimeOriginal : 2003:01:01 00:06:18<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 3.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.9 mm<br>
+ISO : 154<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1542<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio G3 modelS User<br>
+DateTime : 2003:01:01 00:06:18<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : CaplioG3 modelS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 8,0,6,0,1,64,32,3,1,1,0,6,24,0,1,0,10,1,84,0,100,26,186,0,1,1,2,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 948<br>
+_type : ricoh<br>
+PrintIM : 1572</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1278<br>
+<br>
+InternalSerialNumber : 00000000000000012202000000010065<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,2,0,0,0,1,0,101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohDC-4T.jpg</td>
+<td class="supported">ApertureValue : 13.9<br>
+BrightnessValue : 14<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+DateTimeOriginal : 2001:01:14 09:09:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/362<br>
+UserComment : 750<br>
+_IFDpointer_Makernote : 686<br>
+Copyright : (C) by DC-4T User<br>
+Make : RICOH<br>
+Model : DC-4T<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.372 0.3714<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 376<br>
+InternalSerialNumber : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohDC-4.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+BrightnessValue : 3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeOriginal : 2005:09:10 10:56:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.4 mm<br>
+MaxApertureValue : 3.0<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/16<br>
+UserComment : 686<br>
+_IFDpointer_Interop : 964<br>
+Copyright : (C) by DC-4 User<br>
+Make : RICOH<br>
+Model : DC-4<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.4234 0.399<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 375</td>
+<td class="unsupported">LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohDC-3Z.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+BrightnessValue : -1<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeOriginal : 1997:01:01 00:00:34<br>
+ExifVersion : 1.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 690<br>
+_IFDpointer_Makernote : 626<br>
+Copyright : (C) by DC-3Z User<br>
+Make : RICOH<br>
+Model : DC-3Z<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.372 0.3714<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 376<br>
+ImageEffects : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohDC-3.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+BrightnessValue : -1.5<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeOriginal : 1997:01:01 00:08:14<br>
+ExifVersion : 1.00<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+ShutterSpeedValue : 1/6<br>
+UserComment : 690<br>
+_IFDpointer_Makernote : 626<br>
+Copyright : (C) by DC-3 User<br>
+Make : RICOH<br>
+Model : DC-3<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.372 0.3714<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 376<br>
+ImageEffects : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported">FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRZ1.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+BrightnessValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2005:12:04 16:18:54<br>
+DateTimeOriginal : 2005:12:04 16:18:54<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/440<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 18732<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio RZ1 User<br>
+DateTime : 2005:12:04 16:18:54<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio RZ1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.04<br>
+ImageInfo : 9,0,6,192,0,160,32,5,18,4,22,24,84,0,1,1,184,1,24,0,100,94,202,0,2,0,2,255,5,11,67,22,2,0,0,3,2,13,0,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 18762</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 18468<br>
+<br>
+InternalSerialNumber : 0000000000000001220d000060100002<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,13,0,0,96,16,0,2<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRX.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2004:05:14 16:36:57<br>
+DateTimeOriginal : 2004:05:14 16:36:57<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/153<br>
+FNumber : 3.1<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22564<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio RX User<br>
+DateTime : 2004:05:14 16:36:57<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio RX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.02<br>
+ImageInfo : 8,0,6,0,1,64,32,4,5,20,22,54,87,0,1,0,153,1,54,0,100,111,104,0,0,0,2,0,5,11,82,14<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 952<br>
+_type : ricoh<br>
+PrintIM : 142</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 22300<br>
+<br>
+InternalSerialNumber : 0000000000000001220b000034101317<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,11,0,0,52,16,19,23<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR770.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:12 20:12:53<br>
+DateTimeOriginal : 2010:03:12 20:12:53<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21270<br>
+_IFDpointer_Makernote : 1262<br>
+DateTime : 2010:03:12 20:12:53<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : RICOH<br>
+Model : Caplio RR770<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.05RR.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 804<br>
+_type : ricoh<br>
+PrintIM : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR750.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:06:14 15:12:11<br>
+DateTimeOriginal : 2008:06:14 15:12:11<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/220<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Low saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Soft<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9368<br>
+_IFDpointer_Makernote : 664<br>
+DateTime : 2008:06:14 15:12:11<br>
+ImageDescription : Digital Camera<br>
+Make : RICOH<br>
+Model : Caplio<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.15<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 230<br>
+_type : ricoh<br>
+PrintIM : 9408</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR630.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:05:23 07:06:53<br>
+DateTimeOriginal : 2007:05:23 07:06:53<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11036<br>
+_IFDpointer_Makernote : 1028<br>
+DateTime : 2007:05:23 07:06:53<br>
+ImageDescription : Ricoh Image<br>
+Make : Ricoh<br>
+Model : Caplio RR630<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 582<br>
+_type : ricoh<br>
+PrintIM : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR530.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:12:01 22:45:25<br>
+DateTimeOriginal : 2005:12:01 22:45:25<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Makernote : 672<br>
+DateTime : 2005:12:01 22:45:25<br>
+ImageDescription : Ricoh Company Ltd.<br>
+Make : RICOH<br>
+Model : Caplio RR530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.07RC<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR430.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:03:23 11:52:54<br>
+DateTimeOriginal : 2006:03:23 11:52:54<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1728 px w<br>
+PixelYDimension : 2304 px h<br>
+_IFDpointer_Makernote : 660<br>
+DateTime : 2006:03:23 11:52:54<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : RICOH<br>
+Model : Caplio RR430<br>
+ResolutionUnit : inches<br>
+Software : V1.09RI<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 334<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR330.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:30 20:10:13<br>
+DateTimeOriginal : 2004:12:30 20:10:13<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/48<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000000035<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/49<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 516<br>
+DateTime : 2004:12:30 20:10:13<br>
+Make : Caplio<br>
+Model : RR330<br>
+ResolutionUnit : inches<br>
+Software : 1.26R<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">FNumber : 5.8<br>
+FNumber : 5.78<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR30.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 1.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2003:05:15 22:09:11<br>
+DateTimeOriginal : 2003:05:15 22:09:11<br>
+ExifVersion : 2.20<br>
+ExposureBias : -0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1542<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio RR30 User<br>
+DateTime : 2003:05:15 22:09:11<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio RR30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.11<br>
+ImageInfo : 8,0,6,0,1,64,32,3,5,21,34,9,17,0,1,0,45,1,24,0,100,28,155,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 944<br>
+_type : ricoh<br>
+PrintIM : 1572</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1278<br>
+<br>
+InternalSerialNumber : 00000000000000012202000003106010<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,2,0,0,3,16,96,16<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR230.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:03:05 06:55:26<br>
+DateTimeOriginal : 2002:03:05 06:55:26<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/30<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 450 px h<br>
+ShutterSpeedValue : 1/30<br>
+SubsecTime : 379<br>
+_IFDpointer_Interop : 518<br>
+DateTime : 2004:10:13 21:28:28<br>
+Make : RICOH<br>
+Model : Caplio RR230<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.83<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR211.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:08:18 15:35:01<br>
+DateTimeOriginal : 2005:08:18 15:35:01<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/16<br>
+_IFDpointer_Interop : 610<br>
+DateTime : 2005:08:18 15:35:01<br>
+ImageDescription : RICOH<br>
+Make : RICOH<br>
+Model : Caplio RR211<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.27 R<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported">FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR120.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.9<br>
+DateTimeDigitized : 2004:03:07 11:04:30<br>
+DateTimeOriginal : 2004:03:07 11:04:30<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/73<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 752<br>
+_IFDpointer_Interop : 880<br>
+_IFDpointer_Makernote : 612<br>
+DateTime : 2004:03:07 11:04:30<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio RR120<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v19.5.2<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228<br>
+_type : ricoh</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR10.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.5<br>
+DateTimeDigitized : 2005:03:11 15:33:11<br>
+DateTimeOriginal : 2005:03:11 15:33:11<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 141<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/6<br>
+_IFDpointer_Interop : 1078<br>
+_IFDpointer_Makernote : 784<br>
+Copyright : (C) Caplio RR10<br>
+DateTime : 2005:03:11 15:33:11<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio RR10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 358<br>
+FirmwareVersion : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioRR1.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 5.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2001:11:07 13:08:41<br>
+DateTimeOriginal : 2001:11:07 13:08:41<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 150<br>
+LightSource : Other<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+ShutterSpeedValue : 1/274<br>
+UserComment : 1226<br>
+_IFDpointer_Interop : 1490<br>
+_IFDpointer_Makernote : 634<br>
+Copyright : (C) by Caplio RR1 User<br>
+DateTime : 2001:11:07 13:08:41<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio RR1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256<br>
+DriveMode : Single-frame<br>
+FirmwareVersion : 1.04<br>
+ImageInfo : 8,224,6,168,0,0<br>
+MakerNoteType : RDC<br>
+PrintIM : 788<br>
+Sharpness : Sharp<br>
+WhiteBalanceFineTune : 0<br>
+_IFDpointer_Ricoh : 1004<br>
+_type : ricoh</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR7.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 9.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2007:09:09 13:46:12<br>
+DateTimeOriginal : 2007:09:09 13:46:12<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/570<br>
+FNumber : 5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25460<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 25724<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R7 User<br>
+DateTime : 2007:09:09 13:46:12<br>
+Make : RICOH<br>
+Model : Caplio R7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.17<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 25754</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+InternalSerialNumber : 00000000110708142007082000000000<br>
+InternalSerialNumber : 0,0,0,0,17,7,8,20,32,7,8,32,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR6.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 9.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2007:03:23 13:06:05<br>
+DateTimeOriginal : 2007:03:23 13:06:05<br>
+ExifVersion : 2.21<br>
+ExposureBias : -0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/440<br>
+FNumber : 5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 19336<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 19600<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R6 User<br>
+DateTime : 2007:03:23 13:06:05<br>
+Make : RICOH<br>
+Model : Caplio R6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.26<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 19630</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+InternalSerialNumber : 000000001a0703052007030800000000<br>
+InternalSerialNumber : 0,0,0,0,26,7,3,5,32,7,3,8,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR5.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+BrightnessValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2006:08:05 09:27:18<br>
+DateTimeOriginal : 2006:08:05 09:27:18<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/14<br>
+FNumber : 4.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 19100<br>
+_IFDpointer_Interop : 19364<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R5 User<br>
+DateTime : 2006:08:05 09:27:18<br>
+Make : RICOH<br>
+Model : Caplio R5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 19394</td>
+<td class="unsupported">FocalLength : 33.0 mm<br>
+FocalLength : 33 mm<br>
+<br>
+WhiteBalance : Unknown (13)<br>
+WhiteBalance : Manual<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+FirmwareVersion : Rev7bec<br>
+FirmwareVersion : 0.07<br>
+<br>
+InternalSerialNumber : 00000000120608030000000000000000<br>
+InternalSerialNumber : 0,0,0,0,18,6,8,3,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR40.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : -4.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2007:05:12 22:39:42<br>
+DateTimeOriginal : 2007:05:12 22:39:42<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 3.3<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 336<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 24396<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 24660<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R40 User<br>
+DateTime : 2007:05:12 22:39:42<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 24690</td>
+<td class="unsupported">InternalSerialNumber : 00000000000000012218000035101391<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,24,0,0,53,16,19,145<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR4.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+BrightnessValue : 0.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2006:04:29 16:23:55<br>
+DateTimeOriginal : 2006:04:29 16:23:55<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+FNumber : 6.9<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.6 mm<br>
+ISO : 308<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Soft<br>
+UserComment : 18696<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 18960<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R4 User<br>
+DateTime : 2006:04:29 16:23:55<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.06<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 18990</td>
+<td class="unsupported">InternalSerialNumber : 00000000000000012217000015101061<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,23,0,0,21,16,16,97<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR30.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 7.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2006:06:29 10:49:35<br>
+DateTimeOriginal : 2006:06:29 10:49:35<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/540<br>
+FNumber : 5<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 2060<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2324<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R30 User<br>
+DateTime : 2006:06:29 10:49:35<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.03<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 2354</td>
+<td class="unsupported">InternalSerialNumber : 00000000000000012000000014101761<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,32,0,0,0,20,16,23,97<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR3.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : 5.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2005:12:04 11:24:36<br>
+DateTimeOriginal : 2005:12:04 11:24:36<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/410<br>
+FNumber : 3.3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 22176<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22440<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio R3 User<br>
+DateTime : 2005:12:04 11:24:36<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R3<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.24<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 22470</td>
+<td class="unsupported">InternalSerialNumber : 00000000000000012216000000109609<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,22,0,0,0,16,150,9<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR2S.jpg</td>
+<td class="supported">ApertureValue : 4.6<br>
+BrightnessValue : 7.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2009:11:14 15:15:29<br>
+DateTimeOriginal : 2009:11:14 15:15:29<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/290<br>
+FNumber : 4.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22368<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio R2S User<br>
+DateTime : 2009:11:14 15:15:29<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R2S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.01<br>
+ImageInfo : 10,0,7,128,1,24,32,9,17,20,21,21,41,0,1,1,34,1,194,0,100,111,20,0,0,0,2,0,5,11,81,77,0,0,1,0,2,13,0,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 22398</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 22104<br>
+<br>
+InternalSerialNumber : 0000000000000000220e000000104052<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,0,34,14,0,0,0,16,64,82<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR2.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 1.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:01:05 20:20:07<br>
+DateTimeOriginal : 2005:01:05 20:20:07<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/9<br>
+FNumber : 4.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 238<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Spot<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22632<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio R2 User<br>
+DateTime : 2005:01:05 20:20:07<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.04<br>
+ImageInfo : 5,0,3,192,0,200,32,5,1,5,32,32,7,0,1,0,9,1,214,0,100,112,13,0,0,0,2,0,5,11,82,85,0,0,1,0,1,13,0,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 22662</td>
+<td class="unsupported">FocalLength : 11.0 mm<br>
+FocalLength : 11 mm<br>
+<br>
+UserComment : Unicode <br>
+UserComment : 22368<br>
+<br>
+InternalSerialNumber : 00000000000000012213000034110851<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,19,0,0,52,17,8,81<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR1V.jpg</td>
+<td class="supported">ApertureValue : 4.4<br>
+BrightnessValue : 6.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+DateTimeDigitized : 2005:09:18 12:42:35<br>
+DateTimeOriginal : 2005:09:18 12:42:35<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/176<br>
+FNumber : 4.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22516<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio R1V User<br>
+DateTime : 2005:09:18 12:42:35<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R1V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.03<br>
+ImageInfo : 5,0,3,192,1,144,32,5,9,24,18,66,53,0,1,0,176,1,164,0,100,111,152,0,0,0,2,0,5,11,81,223,0,0,1,0,0,13,0,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 22546</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 22252<br>
+<br>
+InternalSerialNumber : 00000000000000012212000074105050<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,18,0,0,116,16,80,80<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR1S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:01:18 10:13:31<br>
+DateTimeOriginal : 2004:12:31 22:04:49<br>
+ExifVersion : 2.21<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 1274<br>
+_IFDpointer_Makernote : 486<br>
+Copyright : (C) Caplio R1S User<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R1S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 280<br>
+DriveMode : 648<br>
+FirmwareVersion : 1.01<br>
+ImageInfo : 2,128,1,224,0,200,32,5,1,24,16,19,49,0,0,0,0,0,0,0,100,28,153,0,0,0,0,0,0,0,0,0,1,0,1,0,2,13,0,0<br>
+MakerNoteType : Rdc<br>
+Sharpness : Sharp<br>
+_IFDpointer_Ricoh : 688<br>
+_type : ricoh<br>
+PrintIM : 1304</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1010<br>
+<br>
+InternalSerialNumber : 00000000000000012211000000101909<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,17,0,0,0,16,25,9<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioR1.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+BrightnessValue : 1.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2004:11:11 16:01:26<br>
+DateTimeOriginal : 2004:11:11 16:01:26<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/18<br>
+FNumber : 3.3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22484<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio R1 User<br>
+DateTime : 2004:11:11 16:01:26<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio R1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.05<br>
+ImageInfo : 9,0,6,192,1,64,32,4,17,17,22,1,38,0,1,0,18,1,74,0,100,111,140,0,0,0,2,0,5,11,81,190,0,0,1,0,2,13,0,4<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 22514</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 22220<br>
+<br>
+InternalSerialNumber : 0000000000000001220d000000010014<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,13,0,0,0,1,0,20<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioProG3.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+BrightnessValue : 7.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:04:27 14:18:21<br>
+DateTimeOriginal : 2005:04:27 14:18:21<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/189<br>
+FNumber : 5.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2015<br>
+_IFDpointer_Makernote : 770<br>
+GPSAltitude : 83 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 4.1<br>
+GPSDateStamp : 2005:04:27<br>
+GPSDifferential : No Correction<br>
+GPSImgDirection : 0<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 35° 23' 52.3100" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 139° 34' 49.8100" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSMeasureMode : 3-Dimensional Measurement<br>
+GPSSatellites : 08,27,02,29,10,,,,,,,<br>
+GPSSpeed : 0<br>
+GPSSpeedRef : knots<br>
+GPSStatus : Measurement Active<br>
+GPSTimeStamp : 05:19:15<br>
+GPSTrack : 0<br>
+GPSTrackRef : True North<br>
+GPSVersion : 2.2.0.0<br>
+Copyright : (C) by Caplio Pro G3 User<br>
+DateTime : 2005:05:09 15:38:24<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio Pro G3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 324<br>
+_IFDpointer_GPS : 1554<br>
+DriveMode : 932<br>
+FirmwareVersion : 2.15<br>
+ImageInfo : 2,128,1,224,0,200,32,5,4,39,20,24,33,0,1,0,189,2,38,0,100,30,55,0,0,0,0,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 2045</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1290<br>
+<br>
+InternalSerialNumber : 00000000000000012207000000101461<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,7,0,0,0,16,20,97<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioGX8.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+BrightnessValue : 6.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2005:09:21 16:13:09<br>
+DateTimeOriginal : 2005:09:21 16:13:09<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/440<br>
+FNumber : 2.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 20292<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio GX8 User<br>
+DateTime : 2005:09:21 16:13:09<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio GX8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.11<br>
+ImageInfo : 12,192,9,144,1,24,32,5,9,33,22,19,9,0,1,1,184,0,250,0,100,101,150,0,0,0,2,0,5,11,73,48,0,0,1,0,2,13,0,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 960<br>
+_type : ricoh<br>
+PrintIM : 20322</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 20028<br>
+<br>
+InternalSerialNumber : 00000000000000012214000014105186<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,20,0,0,20,16,81,134<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioGX100.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+BrightnessValue : 8.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2007:04:12 12:55:23<br>
+DateTimeOriginal : 2007:04:12 12:55:23<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/2000<br>
+FNumber : 2.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25764<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 26028<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) by Caplio GX100 User<br>
+DateTime : 2007:04:12 12:55:23<br>
+Make : RICOH<br>
+Model : Caplio GX100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.08<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 26058</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+<br>
+InternalSerialNumber : 00000000090704032007033001000000<br>
+InternalSerialNumber : 0,0,0,0,9,7,4,3,32,7,3,48,1,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioGX.jpg</td>
+<td class="supported">ApertureValue : 4.4<br>
+BrightnessValue : 7.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2004:07:09 15:38:36<br>
+DateTimeOriginal : 2004:07:09 15:38:36<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/153<br>
+FNumber : 4.3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.4 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 22496<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio GX User<br>
+DateTime : 2004:07:09 15:38:36<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio GX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 10,32,7,152,1,24,32,4,7,9,21,56,54,0,1,0,153,1,174,0,100,111,12,0,0,0,2,0,5,11,81,202<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 952<br>
+_type : ricoh<br>
+PrintIM : 22526</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 22232<br>
+<br>
+InternalSerialNumber : 0000000000000001220c000014100081<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,12,0,0,20,16,0,129<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioG4wide.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+BrightnessValue : 6.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:12:20 14:19:50<br>
+DateTimeOriginal : 2004:12:20 14:19:50<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/380<br>
+FNumber : 2.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.2 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 896 px w<br>
+PixelYDimension : 672 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubsecTime : 92<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1582<br>
+_IFDpointer_Makernote : 798<br>
+Copyright : (C) Caplio G4 wide User<br>
+DateTime : 2005:02:26 10:42:27<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio G4 wide<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340<br>
+ToningEffect : [object Object]<br>
+_type : ricoh</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1318<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioG4.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 4.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2004:01:28 15:34:45<br>
+DateTimeOriginal : 2004:01:28 15:34:45<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/28<br>
+FNumber : 4.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 16.5 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1542<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio G4 User<br>
+DateTime : 2004:01:28 15:34:45<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio G4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 8,0,6,0,1,64,32,4,1,40,21,52,69,0,1,0,28,1,214,0,100,28,65,0,1,1,2,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 948<br>
+_type : ricoh<br>
+PrintIM : 1572</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1278<br>
+<br>
+InternalSerialNumber : 00000000000000012208000014100454<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,8,0,0,20,16,4,84<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioG3modelS.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : -4.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:12:28 23:40:30<br>
+DateTimeOriginal : 2004:12:28 23:40:30<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/42<br>
+FNumber : 2.6<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1542<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio G3 modelS User<br>
+DateTime : 2004:12:28 23:40:30<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : CaplioG3 modelS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.06<br>
+ImageInfo : 2,128,1,224,0,200,32,4,18,40,35,64,48,0,1,0,42,1,4,0,100,29,231,0,1,1,2,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 948<br>
+_type : ricoh<br>
+PrintIM : 1572</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1278<br>
+<br>
+InternalSerialNumber : 00000000000000012204000014107920<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,4,0,0,20,16,121,32<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplioG3modelM.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : -4.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2005:01:23 02:47:01<br>
+DateTimeOriginal : 2005:01:23 02:47:01<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/42<br>
+FNumber : 2.6<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 161<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1542<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio G3 modelM User<br>
+DateTime : 2005:01:23 02:47:01<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : CaplioG3 modelM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 8,0,6,0,1,64,32,5,1,35,2,71,1,0,1,0,42,1,4,0,100,29,32,0,1,1,2,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 948<br>
+_type : ricoh<br>
+PrintIM : 1572</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 1278<br>
+<br>
+InternalSerialNumber : 00000000000000012204000014111855<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,4,0,0,20,17,24,85<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplio500SE.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2007:05:23 14:30:09<br>
+DateTimeOriginal : 2007:05:23 14:30:09<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/36<br>
+FNumber : 2.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 248<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 20253<br>
+_IFDpointer_Makernote : 770<br>
+GPSAltitude : 68 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 2.5<br>
+GPSDateStamp : 2007:05:23<br>
+GPSDestBearingRef : True North<br>
+GPSDestDistanceRef : Kilometers<br>
+GPSDifferential : Differential Corrected<br>
+GPSImgDirection : 314<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 32° 28' 34.6000" S<br>
+GPSLatitudeRef : South<br>
+GPSLongitude : 152° 11' 37.2500" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSMeasureMode : 3-Dimensional Measurement<br>
+GPSSatellites : 02,12,05,04,30,10,09,24,,,,<br>
+GPSSpeed : 0<br>
+GPSSpeedRef : knots<br>
+GPSStatus : Measurement Active<br>
+GPSTimeStamp : 04:31:15<br>
+GPSTrack : 314<br>
+GPSTrackRef : True North<br>
+GPSVersion : 2.2.0.0<br>
+Copyright : (C) Caplio 500SE User<br>
+DateTime : 2007:05:23 14:30:09<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio 500SE<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 324<br>
+_IFDpointer_GPS : 19728<br>
+DriveMode : 932<br>
+FirmwareVersion : 1.06<br>
+ImageInfo : 932<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 982<br>
+_type : ricoh<br>
+PrintIM : 20283</td>
+<td class="unsupported">UserComment : GCM_TAG<br>
+UserComment : 19464<br>
+<br>
+GPSDestBearing : undef<br>
+GPSDestBearing : NaN<br>
+<br>
+GPSDestDistance : undef<br>
+GPSDestDistance : NaN<br>
+<br>
+InternalSerialNumber : 0000000000000001221b000014100041<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,27,0,0,20,16,0,65<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplio500Gwide.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+BrightnessValue : 7.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2006:05:22 10:10:59<br>
+DateTimeOriginal : 2006:05:22 10:10:59<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/330<br>
+FNumber : 7.1<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.2 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 22948<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 23212<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio 500G wide User<br>
+DateTime : 2006:05:22 10:10:59<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio500Gwide<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 920<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 968<br>
+_type : ricoh<br>
+PrintIM : 23242</td>
+<td class="unsupported">InternalSerialNumber : 00000000000000012219000000010062<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,25,0,0,0,1,0,98<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplio400Gwide.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+BrightnessValue : 8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2004:06:19 14:36:43<br>
+DateTimeOriginal : 2004:06:19 14:36:43<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/203<br>
+FNumber : 6.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1542<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : (C) Caplio 400G wide User<br>
+DateTime : 2004:06:19 14:36:43<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : Caplio400Gwide<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.05<br>
+ImageInfo : 8,0,6,0,1,64,32,4,6,25,20,54,67,0,1,0,203,2,138,0,100,29,195,0,0,0,2,0<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 948<br>
+_type : ricoh<br>
+PrintIM : 1572</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+UserComment : Unicode <br>
+UserComment : 1278<br>
+<br>
+InternalSerialNumber : 00000000000000012209000014100178<br>
+InternalSerialNumber : 0,0,0,0,0,0,0,1,34,9,0,0,20,16,1,120<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCaplio300G.jpg</td>
+<td class="supported">ApertureValue : 7.7<br>
+BrightnessValue : 8.9<br>
+ColorSpace : sRGB<br>
+CompressedBitsPerPixel : 3.2<br>
+DateTimeDigitized : 2005:04:20 08:56:29<br>
+DateTimeOriginal : 2005:04:20 08:56:29<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/290<br>
+FNumber : 7.7<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 10.7 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Copyright : (C) by Caplio 300G User<br>
+DateTime : 2005:04:20 08:56:29<br>
+Make : RICOH<br>
+Model : Caplio 300G<br>
+Orientation : Horizontal (normal)<br>
+Rating : 0<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 256</td>
+<td class="unsupported">UserComment : Unicode <br>
+UserComment : 594<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCX6.jpg</td>
+<td class="supported">ApertureValue : 7.5<br>
+BrightnessValue : 9.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2011:11:30 12:52:10<br>
+DateTimeOriginal : 2011:11:30 12:52:10<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/380<br>
+FNumber : 7.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+ISO : 100<br>
+LensMake : RICOH<br>
+LensModel : RICOH ZOOM LENS<br>
+LensSpecification : 4.9,52.5,3.5,5.6<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 42732<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 42996<br>
+_IFDpointer_Makernote : 990<br>
+Copyright : <br>
+DateTime : 2011:11:30 12:52:10<br>
+ImageDescription : <br>
+Make : RICOH<br>
+Model : CX6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX6 Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 1154<br>
+FirmwareVersion : 1.17<br>
+ImageInfo : 1154<br>
+InternalSerialNumber : 50,48,49,54,48,48,48,48,48,48,49,48,48,50,49,50<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1410<br>
+_type : ricoh<br>
+PrintIM : 43026</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCX5.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+BrightnessValue : 6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2011:02:02 11:00:33<br>
+DateTimeOriginal : 2011:02:02 11:00:33<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/104<br>
+FNumber : 4.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.3 mm<br>
+ISO : 125<br>
+LensMake : RICOH<br>
+LensModel : RICOH ZOOM LENS<br>
+LensSpecification : 4.9,52.5,3.5,5.6<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 34300<br>
+_IFDpointer_Interop : 34564<br>
+_IFDpointer_Makernote : 990<br>
+Copyright : <br>
+DateTime : 2011:02:02 11:00:33<br>
+Make : RICOH<br>
+Model : CX5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX5 Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 1152<br>
+FirmwareVersion : 1.18<br>
+ImageInfo : 1152<br>
+InternalSerialNumber : 50,48,49,49,48,48,48,48,51,56,49,48,48,51,48,57<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1312<br>
+_type : ricoh<br>
+PrintIM : 34594</td>
+<td class="unsupported">WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCX4.jpg</td>
+<td class="supported">ApertureValue : 4.4<br>
+BrightnessValue : -0.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2010:08:27 14:55:57<br>
+DateTimeOriginal : 2010:08:27 14:55:57<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/14<br>
+FNumber : 4.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.5 mm<br>
+ISO : 800<br>
+LensMake : RICOH<br>
+LensModel : RICOH ZOOM LENS<br>
+LensSpecification : 4.9,52.5,3.5,5.6<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+OwnerName : <br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+UserComment : 21916<br>
+_IFDpointer_Interop : 22180<br>
+_IFDpointer_Makernote : 990<br>
+Copyright : <br>
+DateTime : 2010:08:27 14:55:57<br>
+Make : RICOH<br>
+Model : CX4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX4 Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 1152<br>
+FirmwareVersion : 1.04<br>
+ImageInfo : 1152<br>
+InternalSerialNumber : 50,48,49,48,48,48,48,48,51,56,49,48,48,54,49,49<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1312<br>
+_type : ricoh<br>
+PrintIM : 22210</td>
+<td class="unsupported">WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCX3.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+BrightnessValue : 7.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2010:02:11 12:42:49<br>
+DateTimeOriginal : 2010:02:11 12:42:49<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 4.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.3 mm<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 18144<br>
+_IFDpointer_Interop : 18408<br>
+_IFDpointer_Makernote : 802<br>
+Copyright : <br>
+DateTime : 2010:02:11 12:42:49<br>
+Make : RICOH<br>
+Model : CX3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX3 Firmware<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356<br>
+DriveMode : 964<br>
+FirmwareVersion : 1.04<br>
+ImageInfo : 964<br>
+InternalSerialNumber : 50,48,48,102,48,48,48,48,51,56,49,48,48,53,48,49<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1124<br>
+_type : ricoh<br>
+PrintIM : 18438</td>
+<td class="unsupported">WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCX2.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+BrightnessValue : 9.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2009:09:14 13:36:14<br>
+DateTimeOriginal : 2009:09:14 13:36:14<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/440<br>
+FNumber : 7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3456 px w<br>
+PixelYDimension : 2592 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 18036<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 18300<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : <br>
+DateTime : 2009:09:14 13:36:14<br>
+Make : RICOH<br>
+Model : CX2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.12<br>
+ImageInfo : 920<br>
+InternalSerialNumber : 50,48,48,56,48,48,48,48,50,48,49,48,56,55,49,51<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1056<br>
+_type : ricoh<br>
+PrintIM : 18330</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Ricoh/RicohCX1.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 8.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.8<br>
+DateTimeDigitized : 2009:02:06 16:54:27<br>
+DateTimeOriginal : 2009:02:06 16:54:27<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/540<br>
+FNumber : 5<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Spot<br>
+PixelXDimension : 3456 px w<br>
+PixelYDimension : 2592 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 13556<br>
+_IFDpointer_Interop : 13820<br>
+_IFDpointer_Makernote : 758<br>
+Copyright : <br>
+DateTime : 2009:02:06 16:54:27<br>
+Make : RICOH<br>
+Model : CX1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312<br>
+DriveMode : 920<br>
+FirmwareVersion : 1.00<br>
+ImageInfo : 920<br>
+InternalSerialNumber : 48,48,48,49,48,48,48,48,48,48,48,49,48,48,50,49<br>
+MakerNoteType : Rdc<br>
+_IFDpointer_Ricoh : 1048<br>
+_type : ricoh<br>
+PrintIM : 13850</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+WhiteBalance : Multi-pattern Auto<br>
+WhiteBalance : Auto<br>
+<br>
+ImageDescription : Exif_JPEG_PICTURE                                              <br>
+ImageDescription : ExifJPEGPICTURE<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

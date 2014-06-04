@@ -1,6 +1,9 @@
 exiftool.js
 ===========
 
+WIP development fork - currently only node.js
+=============================================
+
 A pure javascript implementation of Phil Harvey's excellent [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/). This extends work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/) and aims to support parsing of all the tags that exiftool is capable of.
 
 See how well we're doing in the latest [Coverage report](http://mattburns.github.io/exiftool.js/test/generated/reports/)
@@ -12,7 +15,7 @@ Usage
 With jQuery:
 
 ```
-$(this).getExifFromUrl(url, function(exif) {
+$(this).getExif(url, function(exif) {
     console.log("Make is : " + exif["Make"]);
 });
 
@@ -36,7 +39,7 @@ Or using node.js (exiftool.js is packaged on npm [here](https://www.npmjs.org/pa
 var exiftool = require('exiftool.js');
 var fs = require('fs');
 
-exiftool.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(exif) {
+exiftool.getExif(imgFile, function(exif) {
     console.log("Make is : " + exif["Make"]);
 });
 ```

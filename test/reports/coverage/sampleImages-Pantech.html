@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Pantech/PantechPR-600.jpg</td>
+<td class="supported">Make : Pantech Wireless, Inc<br>
+Model : PR-600<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6100D-SNAQ-6.7.60T<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/21<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 1980:01:07 04:40:29<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.23828125</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechPR-600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechPR-600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 1980:01:07 04:40:29<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 768<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 690<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7602<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/21<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7602 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-8000.jpg</td>
+<td class="supported">Make : Pantech<br>
+Model : PG-8000<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 150.00000000<br>
+YResolution : 150.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechPG-8000.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechPG-8000.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 12735<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 404<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12735 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-6200.jpg</td>
+<td class="supported">Make : Pantech<br>
+Model : PG-6200<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 150.00000000<br>
+YResolution : 150.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechPG-6200.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechPG-6200.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 176<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 220<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 10442<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 404<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10442 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-3600.jpg</td>
+<td class="supported">Make : Pantech<br>
+Model : PG-3600<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 150.00000000<br>
+YResolution : 150.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechPG-3600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechPG-3600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 12910<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 404<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12910 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechPG-3500.jpg</td>
+<td class="supported">Make : Pantech<br>
+Model : PG-3500<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 150.00000000<br>
+YResolution : 150.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechPG-3500.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechPG-3500.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 12274<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 404<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12274 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U300K.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-U300K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : S0815143<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:08:18 04:40:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-U300K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-U300K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 19 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:08:18 04:40:23<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 640<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 644<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 18678<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 18678 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U220K.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-U220K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : 72<br>
+Software : S0811133a<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:04:26 18:17:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-U220K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-U220K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2008:04:26 18:17:34<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 498<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5870<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5870 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U220.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-U220<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : S0168160c<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:07:09 19:41:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Unknown<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-U220.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-U220.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:07:09 19:41:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 614<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 16482<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 16482 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U140.jpg</td>
+<td class="supported">Model : IM-U140<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-U140.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-U140.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 2.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : SKY?ڷ??آ?<br>
+Make : SKY<br>
+<br>
+ExifImageWidth : 1228<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 318<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1805<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1805 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-U110.jpg</td>
+<td class="supported">Model : IM-U110<br>
+Orientation : 0<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-U110.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-U110.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : SKY?ڷ??آ?<br>
+Make : SKY<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 180<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4279<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : nExtrEamiNg jPeg encoder by inkyfox<br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4279 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S370.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-S370<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : S0176777<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:15 13:37:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-S370.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-S370.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:06:15 13:37:41<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 506<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 16520<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 16520 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S340L.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+Make : PANTECH<br>
+Model : IM-S340L<br>
+Software : SK Communications CyImage Uploader</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-S340L.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-S340L.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 480 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 300<br>
+XResolution : undefined<br>
+<br>
+YResolution : 300<br>
+YResolution : undefined<br>
+<br>
+Comment : SK Communications CyImage Uploader<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2009:02:25 18:31:17<br>
+DateTimeOriginal : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S250L.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+Make : PANTECH<br>
+Model : IM-S250L</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-S250L.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-S250L.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 433 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 300<br>
+XResolution : undefined<br>
+<br>
+YResolution : 300<br>
+YResolution : undefined<br>
+<br>
+Comment : SK Communications CyImage Uploader<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2008:08:15 13:26:50<br>
+DateTimeOriginal : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S230.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-S230<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : S0164111<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:09:23 15:06:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-S230.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-S230.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 25 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:09:23 15:06:46<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+CustomRendered : Custom<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : undefined<br>
+<br>
+Contrast : Normal<br>
+Contrast : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Normal<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 560<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 25301<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 25301 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-S200K.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-S200K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : S0808119i Apr 09 2007<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:01:12 11:28:08<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-S200K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-S200K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 31 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:01:12 11:28:08<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 628<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 30659<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 30659 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-R300.jpg</td>
+<td class="supported">Make : PANTECH<br>
+Model : IM-R300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : S0173222a<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:01:03 20:33:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-R300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-R300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 21 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:01:03 20:33:30<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 640<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 506<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 20455<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 20455 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pantech/PantechIM-8100.jpg</td>
+<td class="supported">Make : SK Teletech<br>
+Model : IM-8100</td>
+<td class="unsupported">SourceFile : sampleImages/Pantech/PantechIM-8100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PantechIM-8100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pantech<br>
+Directory : undefined<br>
+<br>
+FileSize : 341 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 14:29:10<br>
+ModifyDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

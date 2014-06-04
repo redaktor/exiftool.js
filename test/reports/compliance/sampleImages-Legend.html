@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Legend/Legend_soshow305.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2003:12:08 01:31:47<br>
+DateTimeOriginal : 2003:12:08 01:31:47<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 68<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 559<br>
+DateTime : 2003:12:08 01:31:47<br>
+ImageDescription : Unknown<br>
+Make : legend DSC<br>
+Model : soshow305<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV40.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:04 09:05:52<br>
+DateTimeOriginal : 2005:07:04 09:05:52<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.7<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 40 mm<br>
+ISO : 150<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/60<br>
+_IFDpointer_Interop : 1296<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright Sep.2003<br>
+DateTime : 2005:07:04 09:05:52<br>
+ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : V40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.57105485<br>
+CompressedBitsPerPixel : 1.5710548502281294<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV35.jpg</td>
+<td class="supported">BrightnessValue : 3.241<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:06 18:12:02<br>
+DateTimeOriginal : 2005:09:06 18:12:02<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : Low gain up<br>
+ISO : 150<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : 6<br>
+_IFDpointer_Interop : 1519<br>
+_IFDpointer_Makernote : 780<br>
+DateTime : 2005:09:06 18:12:05<br>
+ImageDescription : LENOVO DIGITAL STILL CAMERA<br>
+Make : LEGENDP@<br>
+Model : V35NDP<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.76<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 334<br>
+PrintIM : 214</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.209166667<br>
+CompressedBitsPerPixel : 2.2091666666666665<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV30C.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2004:09:24 22:23:03<br>
+DateTimeOriginal : 2004:09:24 22:23:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/404<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.5 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneType : Directly photographed<br>
+UserComment : <br>
+DateTime : 2004:09:24 22:23:03<br>
+ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : V30C<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV30.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:03:12 13:08:40<br>
+DateTimeOriginal : 2004:03:12 13:08:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/40<br>
+_IFDpointer_Interop : 1848<br>
+_IFDpointer_Makernote : 804<br>
+Copyright : Copyright 1,2003<br>
+DateTime : 2004:03:12 13:08:40<br>
+ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : V30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.578385417<br>
+CompressedBitsPerPixel : 1.5783854166666667<br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.663<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV20.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:11 01:20:31<br>
+DateTimeOriginal : 2002:01:11 01:20:31<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/30<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/30<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2002:01:11 01:20:31<br>
+Make : Legend<br>
+Model : V20<br>
+ResolutionUnit : inches<br>
+Software : 0.15L<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.83<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendT30.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/52<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : None<br>
+ISO : 85<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : LENOVO DIGITAL CAMERA<br>
+Make : LEGEND GROUP LIMITED<br>
+Model : T30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v714c-72<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendSoShow530.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.9<br>
+DateTimeDigitized : 2000:01:12 11:19:40<br>
+DateTimeOriginal : 2000:01:12 11:19:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/24<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 896 px w<br>
+PixelYDimension : 600 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 756<br>
+_IFDpointer_Interop : 884<br>
+_IFDpointer_Makernote : 616<br>
+DateTime : 2000:01:12 11:19:40<br>
+ImageDescription : LEGEND Digital Camera<br>
+Make : LEGEND<br>
+Model : SoShow530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v19.6.3<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendSOSHOW730.jpg</td>
+<td class="supported">ApertureValue : 3.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:01 00:32:15<br>
+DateTimeOriginal : 2001:01:01 00:32:15<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Landscape<br>
+ExposureTime : 1/14<br>
+FNumber : 3.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/14<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2001:01:01 00:32:15<br>
+ImageDescription : Exif JPEG<br>
+Make : LEGEND<br>
+Model : SOSHOW730<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : SOSHOW730  V1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendSOSHOW506.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 20:4:04:09 17:47:57<br>
+DateTimeOriginal : 20:4:04:09 17:47:57<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/44<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 20:4:04:09 17:47:57<br>
+ImageDescription : ExifJPEG<br>
+Make : LEGEND<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported">Model : SOSHOW506<br>
+Model : SOSHOW50<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendLenovoV20C.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2002:12:03 17:49:51<br>
+DateTimeOriginal : 2002:12:03 17:49:51<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/12<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.5 mm<br>
+ISO : 53<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 577<br>
+DateTime : 2002:12:03 17:49:51<br>
+ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : Lenovo V20C<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 219</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

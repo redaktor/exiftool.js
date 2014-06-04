@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Noritsu/NoritsuSI-2000.jpg</td>
+<td class="supported">Make : NORITSU KOKI<br>
+Model : SI-2000<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : :  :     :  :<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuSI-2000.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuSI-2000.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 2.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rwxr-xr-x<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2002:08:24 15:18:15<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+Warning : Bad InteropOffset SubDirectory start<br>
+Warning : undefined<br>
+<br>
+DisplayedUnitsX : inches<br>
+DisplayedUnitsX : undefined<br>
+<br>
+DisplayedUnitsY : inches<br>
+DisplayedUnitsY : undefined<br>
+<br>
+GlobalAngle : 30<br>
+GlobalAngle : undefined<br>
+<br>
+GlobalAltitude : 30<br>
+GlobalAltitude : undefined<br>
+<br>
+CopyrightFlag : false<br>
+CopyrightFlag : undefined<br>
+<br>
+PhotoshopThumbnail : (Binary data 1446 bytes, use -b option to extract)<br>
+PhotoshopThumbnail : undefined<br>
+<br>
+PhotoshopQuality : 9<br>
+PhotoshopQuality : undefined<br>
+<br>
+PhotoshopFormat : Optimised<br>
+PhotoshopFormat : undefined<br>
+<br>
+ProgressiveScans : 3 Scans<br>
+ProgressiveScans : undefined<br>
+<br>
+DCTEncodeVersion : 100<br>
+DCTEncodeVersion : undefined<br>
+<br>
+APP14Flags0 : [14]<br>
+APP14Flags0 : undefined<br>
+<br>
+APP14Flags1 : (none)<br>
+APP14Flags1 : undefined<br>
+<br>
+ColorTransform : YCbCr<br>
+ColorTransform : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Noritsu/NoritsuSI-1080.jpg</td>
+<td class="supported">Make : Noritsu<br>
+Model : SI-1080 Film Scanner Model DLS1640<br>
+XResolution : 256.00000000<br>
+YResolution : 256.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Lab System<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.00<br>
+DateTimeOriginal : 2001:05:15 10:45:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.01<br>
+ColorSpace : sRGB<br>
+FocalPlaneXResolution : 2167.000000<br>
+FocalPlaneYResolution : 2167.000000<br>
+FocalPlaneResolutionUnit : inches</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuSI-1080.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuSI-1080.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 25 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:05:15 10:45:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:05:15 10:45:26<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1500<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1000<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 540<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 24859<br>
+ThumbnailLength : undefined<br>
+<br>
+FilmProductCode : 43<br>
+FilmProductCode : undefined<br>
+<br>
+FilmGencode : 2<br>
+FilmGencode : undefined<br>
+<br>
+FilmSize : 0<br>
+FilmSize : undefined<br>
+<br>
+MetadataNumber : 0100<br>
+MetadataNumber : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 2<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ThumbnailImage : (Binary data 24859 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.015 mm<br>
+CircleOfConfusion : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Noritsu/NoritsuS2FilmScanner.jpg</td>
+<td class="supported">Make : Noritsu<br>
+Model : S2 Film Scanner<br>
+XResolution : 256.00000000<br>
+YResolution : 256.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Lab System<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.00<br>
+DateTimeOriginal : 2005:11:21 16:06:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.01<br>
+FocalPlaneXResolution : 2167.000000<br>
+FocalPlaneYResolution : 2167.000000<br>
+FocalPlaneResolutionUnit : None</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuS2FilmScanner.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuS2FilmScanner.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 898 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:11:21 16:06:46<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:11:21 16:06:46<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 530<br>
+ExifImageHeight : undefined<br>
+<br>
+CurrentIPTCDigest : ff5978eb5c164fa308177d41e817e08f<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+By-line : Picasa 2.0<br>
+By-line : undefined<br>
+<br>
+Contact : <picasastamp/>
+<br>
+Contact : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 3.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+CircleOfConfusion : 0.008 mm<br>
+CircleOfConfusion : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Noritsu/NoritsuQSS-32_33.jpg</td>
+<td class="supported">Make : NORITSU KOKI<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FocalPlaneResolutionUnit : cm</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuQSS-32_33.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuQSS-32_33.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 22 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : QSS-32_33<br>
+Model : QSS-3233<br>
+<br>
+Software : QSS-32_33 001<br>
+Software : QSS-3233 001<br>
+<br>
+ExifImageWidth : 1158<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 466<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 21957<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 21957 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Noritsu/NoritsuQSS-31.jpg</td>
+<td class="supported">Make : NORITSU KOKI<br>
+Model : QSS-31<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : QSS-31 F001<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : <br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FocalPlaneResolutionUnit : cm</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuQSS-31.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuQSS-31.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:06:20 13:27:53<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate :                    <br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1544<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalPlaneXResolution : 0.9999994266<br>
+FocalPlaneXResolution : 0.999999<br>
+<br>
+FocalPlaneYResolution : 0.9999994266<br>
+FocalPlaneYResolution : 0.999999<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 604<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10647<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10647 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Noritsu/NoritsuQSS-30.jpg</td>
+<td class="supported">Make : NORITSU KOKI<br>
+Model : QSS-30<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 256.00000000<br>
+YResolution : 256.00000000<br>
+ResolutionUnit : inches<br>
+Software : QSS-30 Debug<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : <br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FocalPlaneResolutionUnit : cm</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuQSS-30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuQSS-30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:11:29 22:25:16<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate :                    <br>
+CreateDate : undefined<br>
+<br>
+UserComment :  <br>
+UserComment : 0<br>
+<br>
+ExifImageWidth : 1544<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalPlaneXResolution : 0.999999404<br>
+FocalPlaneXResolution : 0.999999<br>
+<br>
+FocalPlaneYResolution : 0.999999404<br>
+FocalPlaneYResolution : 0.999999<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11535<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageSourceEK : 1<br>
+ImageSourceEK : undefined<br>
+<br>
+CaptureConditionsPAR : 0<br>
+CaptureConditionsPAR : undefined<br>
+<br>
+FrameNumber : 11<br>
+FrameNumber : undefined<br>
+<br>
+ModelAndVersion : QSS-30 Debug<br>
+ModelAndVersion : undefined<br>
+<br>
+FilmSize : 0<br>
+FilmSize : undefined<br>
+<br>
+MetadataNumber : 0110<br>
+MetadataNumber : undefined<br>
+<br>
+EditTagArray : 1<br>
+EditTagArray : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11535 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Noritsu/NoritsuQSS-29_31.jpg</td>
+<td class="supported">Make : NORITSU KOKI<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : <br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FocalPlaneResolutionUnit : cm</td>
+<td class="unsupported">SourceFile : sampleImages/Noritsu/NoritsuQSS-29_31.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NoritsuQSS-29_31.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Noritsu<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : QSS-29_31<br>
+Model : QSS-2931<br>
+<br>
+Software : QSS-29_31 001<br>
+Software : QSS-2931 001<br>
+<br>
+ModifyDate :                    <br>
+ModifyDate : undefined<br>
+<br>
+CreateDate :                    <br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1366<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 552<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13021<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13021 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

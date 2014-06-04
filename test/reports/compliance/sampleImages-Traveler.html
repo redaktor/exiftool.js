@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Traveler/TravelerSuperSlimX8.jpg</td>
+<td class="supported">ApertureValue : 4.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:03:26 03:54:41<br>
+DateTimeOriginal : 2009:03:26 03:54:41<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/246<br>
+FNumber : 4.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/246<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 43112<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2009:03:26 03:54:41<br>
+ImageDescription : Camera<br>
+Make : Traveler<br>
+Model : Super Slim X8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00SG<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerSX330Z.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:20 13:52:44<br>
+DateTimeOriginal : 2002:01:20 13:52:46<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 23.3 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/70<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : TRAVELER DIGITAL CAMERA<br>
+Make : TRAVELER OPTICAL CO,LTD<br>
+Model : SX330Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1272264631<br>
+CompressedBitsPerPixel : 0.1272264631043257<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerSLIMLINE_X5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:09:13 00:06:22<br>
+DateTimeOriginal : 2006:09:13 00:06:22<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.8 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10966<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11100<br>
+_IFDpointer_Makernote : 966<br>
+DateTime : 2006:09:13 00:06:22<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : TRAVELER<br>
+Model : SLIMLINE X5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.02SN<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 508<br>
+PrintIM : 240</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerHS9.jpg</td>
+<td class="supported">ApertureValue : 5.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:26 10:42:09<br>
+DateTimeOriginal : 2010:03:26 10:42:09<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/181<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3472 px w<br>
+PixelYDimension : 2604 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/181<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 33660<br>
+_IFDpointer_Makernote : 820<br>
+Copyright : Copyright 2008<br>
+DateTime : 2010:03:26 10:42:09<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Traveler<br>
+Model : HS 9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00ST<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerDC-8300.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:02:05 08:47:00<br>
+DateTimeOriginal : 2005:02:05 08:47:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 85 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:02:05 08:47:00<br>
+ImageDescription : Digital StillCamera<br>
+Make : Traveler<br>
+Model : DC-8300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 2.05SG<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerDC-4300.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:01 00:00:00<br>
+DateTimeOriginal : 2002:01:01 00:00:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/21<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.3 mm<br>
+ISO : 400<br>
+MaxApertureValue : 2.9<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 750<br>
+_IFDpointer_Makernote : 654<br>
+DateTime : 2002:01:01 00:00:00<br>
+ImageDescription : DC4300 Digital Camera<br>
+Make : Traveler<br>
+Model : DC-4300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Traveler V0602-0105<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 272</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.133333333<br>
+CompressedBitsPerPixel : 2.1333333333333333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/Traveler410Z.jpg</td>
+<td class="supported">ApertureValue : 15.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:11:22 20:20:04<br>
+DateTimeOriginal : 2001:11:22 20:20:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+ShutterSpeedValue : 1/45<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : TRAVELER DIGITAL CAMERA<br>
+Make : TRAVELER OPTICAL CO,LTD<br>
+Model : TRAVELER 410Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1356238698<br>
+CompressedBitsPerPixel : 0.13562386980108498<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraTravelerDV5040.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:28 06:38:44<br>
+DateTimeOriginal : 2007:03:28 06:38:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/307<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+GainControl : Low gain up<br>
+ISO : 52<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25968<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 26102<br>
+_IFDpointer_Makernote : 968<br>
+DateTime : 2007:03:28 06:38:44<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : Traveler DV 5040<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.10S.<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 510<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraTCM_X50.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:28 03:30:14<br>
+DateTimeOriginal : 2004:01:28 03:30:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 460 px w<br>
+PixelYDimension : 345 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10960<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11094<br>
+_IFDpointer_Makernote : 960<br>
+DateTime : 2004:01:28 03:30:14<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : SUPRA<br>
+Model : TCM X50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.02SG2L2<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 502<br>
+PrintIM : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraSuperSlimXS70.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:03 19:42:13<br>
+DateTimeOriginal : 2007:06:03 19:42:13<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 270<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/40<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 45100<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2007:06:03 19:42:13<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : Super Slim XS70<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00SG<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraSuperSlimXS7.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:03:12 02:46:31<br>
+DateTimeOriginal : 2000:03:12 02:46:31<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+_IFDpointer_Makernote : 654<br>
+DateTime : 2000:03:12 02:46:31<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : Super Slim XS7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V2.00SB<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 276</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraSLIMLINE_X6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:09:08 14:12:41<br>
+DateTimeOriginal : 2006:09:08 14:12:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/175<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10694<br>
+_IFDpointer_Makernote : 686<br>
+DateTime : 2006:09:08 14:12:41<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : SUPRA<br>
+Model : SLIMLINE X6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 3.00SG<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDV5060.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:04 14:45:06<br>
+DateTimeOriginal : 2008:01:04 14:45:06<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/753<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/755<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 41888<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2008:01:04 14:45:06<br>
+ImageDescription : DIGITAL VIDEO<br>
+Make : Supra<br>
+Model : DV 5060<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.20sh<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC7900.jpg</td>
+<td class="supported">ApertureValue : 5.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:27 18:22:21<br>
+DateTimeOriginal : 2010:05:27 18:22:21<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/703<br>
+FNumber : 5.4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.1 mm<br>
+ISO : 64<br>
+LightSource : Other<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/704<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 41068<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2010:05:27 18:22:21<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : DC 7900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2.00.006SU<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC6800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:02:08 12:27:02<br>
+DateTimeOriginal : 2006:02:08 12:27:02<br>
+ExifVersion : 2.20<br>
+ExposureBias : 2<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/6<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2112 px w<br>
+PixelYDimension : 2816 px h<br>
+_IFDpointer_Makernote : 1002<br>
+DateTime : 2006:02:08 12:27:02<br>
+ImageDescription : Supra<br>
+Make : Supra<br>
+Model : DC6800<br>
+ResolutionUnit : inches<br>
+Software : V0.02<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 688<br>
+PrintIM : 338</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC5900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:08:20 18:27:04<br>
+DateTimeOriginal : 2009:08:20 18:27:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/400<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/399<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 38844<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:08:20 18:27:04<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : DC 5900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC-XZ6.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:03 15:13:42<br>
+DateTimeOriginal : 2010:04:03 15:13:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -2<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2010:04:03 15:13:42<br>
+ImageDescription : Digital StillCamera<br>
+Make : Supra<br>
+Model : DC-XZ6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.01 SG<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC-8600.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:05:13 14:14:07<br>
+DateTimeOriginal : 2007:05:13 14:14:07<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1175 px w<br>
+PixelYDimension : 910 px h<br>
+RelatedSoundFile : <br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/64<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 976<br>
+_IFDpointer_Makernote : 734<br>
+DateTime : 2007:05:13 18:13:49<br>
+ImageDescription : Digital StillCamera<br>
+Make : Supra<br>
+Model : DC-8600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 3.21 SG<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 230</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC-6900.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:23 11:56:44<br>
+DateTimeOriginal : 2010:05:23 11:56:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/211<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 64<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Soft<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 12548<br>
+_IFDpointer_Makernote : 654<br>
+DateTime : 2010:05:23 11:56:44<br>
+ImageDescription : Supra<br>
+Make : Supra<br>
+Model : DC-6900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 220<br>
+PrintIM : 12588</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonX60.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:08:11 07:48:45<br>
+DateTimeOriginal : 2009:08:11 07:48:45<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 4.7<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 120<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10694<br>
+_IFDpointer_Makernote : 686<br>
+DateTime : 2009:08:11 07:48:45<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : SUPRA<br>
+Model : MAGINON X60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 3.01SGM<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported">Flash : Unknown (0x32)<br>
+Flash : 50<br>
+<br>
+FocalLength : 12.0 mm<br>
+FocalLength : 12 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonX50.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:09:05 20:42:41<br>
+DateTimeOriginal : 2009:09:05 20:42:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10962<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11096<br>
+_IFDpointer_Makernote : 962<br>
+DateTime : 2009:09:05 20:42:41<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : SUPRA<br>
+Model : MAGINON X50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.03SGM<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 504<br>
+PrintIM : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonSX330Z.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:13 03:40:24<br>
+DateTimeOriginal : 2001:01:13 03:40:24<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/54<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : MAGINON  DIGITAL CAMERA<br>
+Make : MAGINON  OPTICAL CO,LTD<br>
+Model : SX330Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.2543315848<br>
+CompressedBitsPerPixel : 0.2543315848036878<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonPERFORMIC_S5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:15 14:25:20<br>
+DateTimeOriginal : 2009:11:15 14:25:20<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10968<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11102<br>
+_IFDpointer_Makernote : 968<br>
+DateTime : 2009:11:15 14:25:20<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : MAGINON<br>
+Model : PERFORMIC S5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.961SUG<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 510<br>
+PrintIM : 242</td>
+<td class="unsupported">LightSource : Standard Light A<br>
+LightSource : Standard light A<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

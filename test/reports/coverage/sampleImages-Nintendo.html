@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Nintendo/NintendoWii.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Nintendo/NintendoWii.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NintendoWii.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Nintendo<br>
+Directory : undefined<br>
+<br>
+FileSize : 251 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nintendo/NintendoDSi.jpg</td>
+<td class="supported">Make : Nintendo<br>
+Model : NintendoDS<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : JINH<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:03:05 01:35:56<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Nintendo/NintendoDSi.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NintendoDSi.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Nintendo<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:03:05 01:35:56<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:03:05 01:35:56<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageFileFormat : JPEG Exif Ver 2.2<br>
+RelatedImageFileFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3128<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3128 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nintendo/Nintendo3DS.jpg</td>
+<td class="supported">Make : Nintendo<br>
+Model : Nintendo 3DS<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00863<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2013:06:29 13:07:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Nintendo/Nintendo3DS.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Nintendo3DS.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Nintendo<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:06:29 13:07:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:06:29 13:07:25<br>
+CreateDate : undefined<br>
+<br>
+ModelID : 3DS1<br>
+ModelID : undefined<br>
+<br>
+TimeStamp : 2013:06:29 13:07:25<br>
+TimeStamp : undefined<br>
+<br>
+InternalSerialNumber : 0x755eeb26<br>
+InternalSerialNumber : undefined<br>
+<br>
+Parallax : 0<br>
+Parallax : undefined<br>
+<br>
+Category : (none)<br>
+Category : undefined<br>
+<br>
+ExifImageWidth : 400<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageFileFormat : JPEG Exif Ver 2.2<br>
+RelatedImageFileFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 602<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4128<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4128 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Kyocera/KyoceraWX310K.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:01:22 14:33:53<br>
+DateTimeOriginal : 2007:01:22 14:33:53<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+ImageUniqueID : 9ba157bcf32b326c07dc1dd608feab8a<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ImageDescription : K3100096<br>
+Make : KYOCERA<br>
+Model : WX310K<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 169</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraSAMURAI2100DG.jpg</td>
+<td class="supported">ApertureValue : 3.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 1999:07:24 00:41:32<br>
+DateTimeOriginal : 1999:07:24 00:41:32<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.9 mm<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1632 px w<br>
+PixelYDimension : 1232 px h<br>
+ShutterSpeedValue : 1/17<br>
+_IFDpointer_Interop : 506<br>
+DateTime : 1999:07:24 00:41:32<br>
+Make : KYOCERA<br>
+Model : SAMURAI 2100DG<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : SAMURAI 2100DG Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamSL400R.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:31 00:39:51<br>
+DateTimeOriginal : 2005:05:31 00:39:51<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/90<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.1 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/91<br>
+UserComment : 6582<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 6726<br>
+_IFDpointer_Makernote : 802<br>
+DateTime : 2005:05:31 00:39:51<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam SL400R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 308<br>
+PrintIM : 250</td>
+<td class="unsupported">Software : FC-SL400R_ Ver 1.00<br>
+Software : FC-SL400R Ver 1.00<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS5R.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:05:06 09:59:48<br>
+DateTimeOriginal : 2004:05:06 09:59:48<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+GainControl : None<br>
+ISO : 120<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 1198<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1342<br>
+_IFDpointer_Makernote : 794<br>
+DateTime : 2004:05:06 09:59:48<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S5R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-S5R Ver 1.04<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 300<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS3R.jpg</td>
+<td class="supported">ApertureValue : 9.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:17 10:47:09<br>
+DateTimeOriginal : 2005:06:17 10:47:09<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 9.6<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/474<br>
+UserComment : 4526<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4670<br>
+_IFDpointer_Makernote : 794<br>
+DateTime : 2005:06:17 10:47:09<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S3R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-S3R Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 300<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS3L.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:28 23:44:22<br>
+DateTimeOriginal : 2005:05:28 23:44:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+GainControl : None<br>
+ISO : 120<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1797 px w<br>
+PixelYDimension : 1519 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 0.5<br>
+UserComment : 56188<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 56332<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2005:05:28 23:44:22<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S3L<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+Software : FC-S3L Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS3.jpg</td>
+<td class="supported">ApertureValue : 6.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2001:07:16 10:48:03<br>
+DateTimeOriginal : 2001:07:16 10:48:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.8 mm<br>
+ISO : 100<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/549<br>
+UserComment : 56022<br>
+_IFDpointer_Interop : 56158<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2001:07:16 10:48:03<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-S3   Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamM410R.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:13 17:22:28<br>
+DateTimeOriginal : 2004:08:13 17:22:28<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 3.2<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/147<br>
+SubsecTime : 56<br>
+SubsecTimeDigitized : 56<br>
+SubsecTimeOriginal : 56<br>
+UserComment : 6648<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 6792<br>
+_IFDpointer_Makernote : 836<br>
+DateTime : 2004:08:13 17:22:28<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam M410R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-M410R Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306<br>
+PrintIM : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamM400R.jpg</td>
+<td class="supported">ApertureValue : 5.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:01 06:02:15<br>
+DateTimeOriginal : 2004:01:01 06:02:15<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/294<br>
+SubsecTime : 46<br>
+SubsecTimeDigitized : 46<br>
+SubsecTimeOriginal : 46<br>
+UserComment : 6648<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 6792<br>
+_IFDpointer_Makernote : 836<br>
+DateTime : 2004:01:01 06:02:15<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam M400R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-M400R Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306<br>
+PrintIM : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L4.jpg</td>
+<td class="supported">ApertureValue : 8.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:02:17 16:17:06<br>
+DateTimeOriginal : 2004:02:17 16:17:06<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1000<br>
+FNumber : 8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/955<br>
+UserComment : 56328<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 56464<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2004:02:17 16:17:06<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-L4  Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L3v.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:12:21 23:27:35<br>
+DateTimeOriginal : 2004:12:21 23:27:35<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 56328<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 56464<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2004:12:21 23:27:35<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L3v<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-L3v Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L30.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:06:07 01:23:41<br>
+DateTimeOriginal : 2004:06:07 01:23:41<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 3.3<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.1 mm<br>
+GainControl : Low gain up<br>
+ISO : 70<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/32<br>
+UserComment : 1220<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1364<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2004:06:07 01:23:41<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-L30 Ver 1.2.09<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:05:11 18:26:58<br>
+DateTimeOriginal : 2004:05:11 18:26:58<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 56328<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 56464<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2004:05:11 18:26:58<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-L3  Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamSL300R.jpg</td>
+<td class="supported">ApertureValue : 8.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:20 14:30:37<br>
+DateTimeOriginal : 2004:01:20 14:30:37<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 7.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/274<br>
+UserComment : 1206<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1350<br>
+_IFDpointer_Makernote : 802<br>
+DateTime : 2004:01:20 14:30:37<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam SL300R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 308<br>
+PrintIM : 250</td>
+<td class="unsupported">Software : FC-SL300R_ Ver 1.04<br>
+Software : FC-SL300R Ver 1.04<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamS5.jpg</td>
+<td class="supported">ApertureValue : 11.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2002:01:26 23:50:09<br>
+DateTimeOriginal : 2002:01:26 23:50:09<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/90<br>
+FNumber : 6.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.6 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/97<br>
+UserComment : 56188<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 56324<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2002:01:26 23:50:09<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-S5  Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamS4.jpg</td>
+<td class="supported">ApertureValue : 10.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2002:01:02 18:04:56<br>
+DateTimeOriginal : 2002:01:02 18:04:56<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.8 mm<br>
+ISO : 100<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/104<br>
+UserComment : 56022<br>
+_IFDpointer_Interop : 56158<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2002:01:02 18:04:56<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-S4   Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamL4V.jpg</td>
+<td class="supported">ApertureValue : 8.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:20 14:23:33<br>
+DateTimeOriginal : 2004:01:20 14:23:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/180<br>
+FNumber : 8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/208<br>
+UserComment : 56328<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 56464<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2004:01:20 14:23:33<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L4v<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-L4v Ver 1.03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFC-S3x.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2002:01:18 19:19:17<br>
+DateTimeOriginal : 2002:01:18 19:19:17<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 120<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/11<br>
+UserComment : 55942<br>
+_IFDpointer_Makernote : 478<br>
+DateTime : 2002:01:18 19:19:17<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S3x<br>
+Software : FC-S3x  Ver 1.03<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFC-S3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2001:05:02 05:42:50<br>
+DateTimeOriginal : 2001:05:02 05:42:50<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.8 mm<br>
+ISO : 100<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/388<br>
+UserComment : 56022<br>
+_IFDpointer_Interop : 56158<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2001:05:02 05:42:50<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-S3   Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFC-3300.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2005:05:21 17:56:45<br>
+DateTimeOriginal : 2005:05:21 17:56:45<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.8 mm<br>
+ISO : 64<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/78<br>
+UserComment : 55718<br>
+_IFDpointer_Interop : 55854<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2005:05:21 17:56:45<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-3300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FC-3300 Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraEZ1.3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:10:03 00:27:28<br>
+DateTimeOriginal : 2002:10:03 00:27:28<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/26<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2002:10:03 00:27:28<br>
+Make : KYOCERA<br>
+Model : EZ 1.3<br>
+ResolutionUnit : inches<br>
+Software : 1.53Y<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraContaxU4R.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:08 10:57:47<br>
+DateTimeOriginal : 2004:09:08 10:57:47<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/90<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.1 mm<br>
+GainControl : Low gain down<br>
+ISO : 50<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/97<br>
+SubsecTime : 96<br>
+SubsecTimeDigitized : 96<br>
+SubsecTimeOriginal : 96<br>
+UserComment : 7652<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7796<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2004:09:08 10:57:47<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX U4R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX-U4R Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306<br>
+PrintIM : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraContaxSL300R_Tx.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:25 22:09:50<br>
+DateTimeOriginal : 2004:07:25 22:09:50<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 0.7<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 0.8<br>
+UserComment : 1208<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1352<br>
+_IFDpointer_Makernote : 804<br>
+DateTime : 2004:07:25 22:09:50<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 310<br>
+PrintIM : 252</td>
+<td class="unsupported">Model : CONTAX SL300R T*<br>
+Model : CONTAX SL300R T<br>
+<br>
+Software : CX-SL300R T*_Ver1.00<br>
+Software : CX-SL300R TVer1.0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraContaxNDigital.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+DateTimeDigitized : 2002:05:18 14:15:44<br>
+DateTimeOriginal : 2002:05:18 14:15:44<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2008 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/181<br>
+UserComment : 858<br>
+_IFDpointer_Makernote : 602<br>
+DateTime : 2002:05:18 14:15:44<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX N DIGITAL<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : N DSC ver 1.03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">FocalLength : 97.0 mm<br>
+FocalLength : 97 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraCONTAXi4R.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:03:28 19:43:56<br>
+DateTimeOriginal : 2005:03:28 19:43:56<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/6<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/6<br>
+SubsecTime : 75<br>
+SubsecTimeDigitized : 75<br>
+SubsecTimeOriginal : 75<br>
+UserComment : 7652<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7796<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2005:03:28 19:43:56<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX i4R<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX-i4R Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306<br>
+PrintIM : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/ContaxTVS.jpg</td>
+<td class="supported">ApertureValue : 6.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:04:12 14:24:23<br>
+DateTimeOriginal : 2003:04:12 14:24:23<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/350<br>
+FNumber : 5.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.5 mm<br>
+GainControl : High gain down<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/338<br>
+UserComment : 56188<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 56324<br>
+_IFDpointer_Makernote : 816<br>
+DateTime : 2003:04:12 14:24:23<br>
+ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX Tvs Digital<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : CX-Tvs Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 264</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

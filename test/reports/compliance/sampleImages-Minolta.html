@@ -1,0 +1,3025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Minolta/MinoltaRD-175.jpg</td>
+<td class="supported">ApertureValue : 11.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:10:25 14:26:00<br>
+DateTimeOriginal : 2003:10:25 14:26:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 900 px w<br>
+PixelYDimension : 675 px h<br>
+ShutterSpeedValue : 1/512<br>
+SubsecTime : 46<br>
+_IFDpointer_Interop : 430<br>
+DateTime : 2005:04:05 20:51:16<br>
+Make : Minolta Co.,Ltd.<br>
+Model : RD-175<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDimageV.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDimageRD3000.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:13 05:32:17<br>
+DateTimeOriginal : 2002:01:13 05:32:17<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/60<br>
+FNumber : 11<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 0.3 mm<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1984 px w<br>
+PixelYDimension : 1360 px h<br>
+_IFDpointer_Makernote : 1548<br>
+DateTime : 2002:01:13 05:32:17<br>
+Make : Minolta Co.,Ltd.<br>
+Model : Dimage RD 3000<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 180<br>
+MakerNoteVersion : [object Object]<br>
+_type : minolta</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+LightSource : Standard Light C<br>
+LightSource : Standard light C<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDimageEX1500.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.4<br>
+DateTimeOriginal : 1998:12:10 13:56:25<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/10000<br>
+FNumber : 1<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 1344 px w<br>
+PixelYDimension : 1008 px h<br>
+ShutterSpeedValue : 1/16384<br>
+SubjectDistance : 1 m<br>
+_IFDpointer_Makernote : 480<br>
+Make : Minolta Co., Ltd.<br>
+Model : Dimage EX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 154</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDimage2330Zoom.jpg</td>
+<td class="supported">ApertureValue : 15.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:10:29 13:46:30<br>
+DateTimeOriginal : 2000:10:29 13:46:30<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/304<br>
+_IFDpointer_Interop : 800<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2000:10:29 13:46:30<br>
+ImageDescription : <br>
+Make : Minolta Co., Ltd<br>
+Model : Dimage 2330 Zoom<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 238</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1046511628<br>
+CompressedBitsPerPixel : 0.10465116279069768<br>
+<br>
+ISO : 100, 100, 100, 100<br>
+ISO : 100,100,100,100<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDimage2300.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:07:20 23:53:36<br>
+DateTimeOriginal : 2000:07:20 23:53:36<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 85<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1792 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/29<br>
+_IFDpointer_Makernote : 0,0,64,0,9,0,76,0,8,48,3,12,0,0,64,0<br>
+Copyright : <br>
+DateTime : 2000:07:20 23:53:36<br>
+ImageDescription : <br>
+Make : Minolta Co. Ltd.<br>
+Model : Dimage 2300<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 222</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.00003587255273<br>
+CompressedBitsPerPixel : 0.00003587255273059196<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_Z1.jpg</td>
+<td class="supported">BrightnessValue : 7.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2003:10:15 16:26:01<br>
+DateTimeOriginal : 2003:10:15 16:26:01<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/200<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 52 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2003:10:15 16:26:01<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE Z1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+SubjectArea : 320 240 44 29<br>
+SubjectArea : 320,240,44,29<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_Xt.jpg</td>
+<td class="supported">BrightnessValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2003:05:24 15:35:46<br>
+DateTimeOriginal : 2003:05:24 15:35:46<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/350<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.4 mm<br>
+FocalLengthIn35mmFilm : 54 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2003:05:24 15:35:46<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE Xt<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_Xi.jpg</td>
+<td class="supported">BrightnessValue : 9.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2002:12:16 14:28:27<br>
+DateTimeOriginal : 2002:12:16 14:28:27<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 7.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.1 mm<br>
+FocalLengthIn35mmFilm : 52 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2002:12:16 14:28:27<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE Xi<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V100-01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_X20.jpg</td>
+<td class="supported">BrightnessValue : 7.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2003:08:09 15:18:48<br>
+DateTimeOriginal : 2003:08:09 15:18:48<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/750<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 53 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2003:08:09 15:18:48<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE X20<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+<br>
+SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_X.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2002:02:14 13:41:06<br>
+DateTimeOriginal : 2002:02:14 13:41:06<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 6.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.4 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2002:02:14 13:41:06<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : MINOLTA CO.,LTD<br>
+Model : DiMAGE X<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V100-02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284<br>
+CameraSettingsUnknown : 1294<br>
+MakerNoteVersion : MLT0<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,49,48,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0<br>
+_type : minolta</td>
+<td class="unsupported">ExposureTime : 1/358<br>
+ExposureTime : 1/359<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_S414.jpg</td>
+<td class="supported">BrightnessValue : 8.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2002:01:01 18:32:09<br>
+DateTimeOriginal : 2002:01:01 18:32:09<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.6 mm<br>
+FocalLengthIn35mmFilm : 60 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 14480<br>
+_IFDpointer_Makernote : 788<br>
+DateTime : 2002:01:01 18:32:09<br>
+ImageDescription : DCF 1.0<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE S414<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 282<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,0,4,0,1,0,22,0,22,0,2,1,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 355 266 80 95<br>
+SubjectArea : 355,266,80,95<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_S404.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:15 20:16:39<br>
+DateTimeOriginal : 2001:01:15 20:16:39<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/362<br>
+_IFDpointer_Interop : 14178<br>
+_IFDpointer_Makernote : 554<br>
+DateTime : 2001:01:15 20:16:39<br>
+ImageDescription : DCF 1.0<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE S404<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported">FocalLength : 12.0 mm<br>
+FocalLength : 12 mm<br>
+<br>
+Software : D2v001u<br>
+Software : D2v001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_S304.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:01 01:21:14<br>
+DateTimeOriginal : 2001:01:01 01:21:14<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/256<br>
+_IFDpointer_Interop : 14084<br>
+_IFDpointer_Makernote : 554<br>
+DateTime : 2001:01:01 01:21:14<br>
+ImageDescription : DCF 1.0<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE S304<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : D1v054u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_G500.jpg</td>
+<td class="supported">BrightnessValue : 7.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5.3<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:09:26 15:54:00<br>
+DateTimeOriginal : 2003:09:26 15:54:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/200<br>
+FNumber : 5.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.3 mm<br>
+FocalLengthIn35mmFilm : 55 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3590<br>
+_IFDpointer_Makernote : 642<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE G500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 156</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_F300.jpg</td>
+<td class="supported">BrightnessValue : 8.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2003:04:03 02:33:29<br>
+DateTimeOriginal : 2003:04:03 02:33:29<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.5 mm<br>
+FocalLengthIn35mmFilm : 60 mm<br>
+GainControl : Low gain up<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2003:04:03 02:33:29<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE F300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V100-01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 83 63<br>
+SubjectArea : 320,240,83,63<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_F200.jpg</td>
+<td class="supported">BrightnessValue : 0.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2003:01:01 00:00:00<br>
+DateTimeOriginal : 2003:01:01 00:00:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2003:01:01 00:00:00<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE F200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 1136 852 295 226<br>
+SubjectArea : 1136,852,295,226<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_F100.jpg</td>
+<td class="supported">BrightnessValue : 8.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2002:05:07 14:52:51<br>
+DateTimeOriginal : 2002:05:07 14:52:51<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.3 mm<br>
+FocalLengthIn35mmFilm : 55 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 890<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1118<br>
+_IFDpointer_Makernote : 1148<br>
+DateTime : 2002:05:07 14:52:51<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE F100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V100-01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 336<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 424 480 166 127<br>
+SubjectArea : 424,480,166,127<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_E323.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.9<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/299<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : MINOLTA DIGITAL CAMERA<br>
+Make : minolta Co., Ltd.<br>
+Model : DiMAGE E323<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_E223.jpg</td>
+<td class="supported">ApertureValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:01:01:00:00:00<br>
+DateTimeOriginal : 2003:01:01:00:00:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/726<br>
+FNumber : 6.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/724<br>
+_IFDpointer_Interop : 1164<br>
+_IFDpointer_Makernote : 852<br>
+DateTime : 2003:01:01:00:00:00<br>
+ImageDescription : Minolta DSC<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE E223<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 458<br>
+PrintIM : 338</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_E203.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeDigitized : 2002:08:10 22:35:13<br>
+DateTimeOriginal : 2002:08:10 22:35:13<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 356<br>
+_IFDpointer_Makernote : 610<br>
+Make : Minolta Co.,Ltd.<br>
+Model : DiMAGE E203<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110<br>
+WhiteBalance : [object Object]<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_E201.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:02 14:48:16<br>
+DateTimeOriginal : 2000:01:02 14:48:16<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 85<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/64<br>
+_IFDpointer_Interop : 652<br>
+_IFDpointer_Makernote : 43,77,43,77,43,77,43,77,43,77,43,77,43,77,43,0<br>
+Copyright : <br>
+DateTime : 2000:01:02 14:48:16<br>
+ImageDescription : <br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE E201<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.2008449591<br>
+CompressedBitsPerPixel : 0.20084495907738095<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE_A1.jpg</td>
+<td class="supported">BrightnessValue : 9.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2003:09:17 15:48:30<br>
+DateTimeOriginal : 2003:09:17 15:48:30<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/400<br>
+FNumber : 7.1<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.6 mm<br>
+FocalLengthIn35mmFilm : 49 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 880<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 30050<br>
+_IFDpointer_Makernote : 944<br>
+DateTime : 2003:09:17 15:48:30<br>
+ImageDescription : Minolta DSC<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE A1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 362<br>
+PrintIM : 244</td>
+<td class="unsupported">SubjectArea : 320 240 640 480<br>
+SubjectArea : 320,240,640,480<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE7i.jpg</td>
+<td class="supported">BrightnessValue : 7.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2002:06:01 12:37:27<br>
+DateTimeOriginal : 2002:06:01 12:37:27<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/180<br>
+FNumber : 5.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 42.3 mm<br>
+FocalLengthIn35mmFilm : 167 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 13038<br>
+_IFDpointer_Makernote : 786<br>
+DateTime : 2002:06:01 12:37:27<br>
+ImageDescription : DCF 1.0<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE 7i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 280<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,0,4,0,1,0,22,0,22,0,2,1,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 960 960 320 192<br>
+SubjectArea : 960,960,320,192<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE7Hi.jpg</td>
+<td class="supported">BrightnessValue : 7.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2002:09:10 10:31:15<br>
+DateTimeOriginal : 2002:09:10 10:31:15<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 4.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 13444<br>
+_IFDpointer_Makernote : 870<br>
+DateTime : 2002:09:10 10:31:15<br>
+ImageDescription : Minolta DSC<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE 7Hi<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 364<br>
+PrintIM : 246</td>
+<td class="unsupported">SubjectArea : 1280 960 320 192<br>
+SubjectArea : 1280,960,320,192<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE7.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:07:31 13:18:30<br>
+DateTimeOriginal : 2001:07:31 13:18:30<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+ShutterSpeedValue : 1/128<br>
+_IFDpointer_Interop : 14066<br>
+_IFDpointer_Makernote : 552<br>
+DateTime : 2001:07:31 13:18:30<br>
+ImageDescription : DCF 1.0<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE 7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : A1v021u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/MinoltaDiMAGE5.jpg</td>
+<td class="supported">ApertureValue : 6.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:08:22 04:22:11<br>
+DateTimeOriginal : 2001:08:22 04:22:11<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.1 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/362<br>
+_IFDpointer_Interop : 14066<br>
+_IFDpointer_Makernote : 552<br>
+DateTime : 2001:08:22 04:22:11<br>
+ImageDescription : DCF 1.0<br>
+Make : Minolta Co., Ltd.<br>
+Model : DiMAGE 5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : A2v055u<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaRevioKD-420Z.jpg</td>
+<td class="supported">BrightnessValue : 0.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:25 21:21:36<br>
+DateTimeOriginal : 2004:09:25 21:21:36<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+FocalLengthIn35mmFilm : 34 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4626<br>
+_IFDpointer_Makernote : 654<br>
+Make : KONICA MINOLTA CAMERA, Inc.<br>
+Model : Revio KD-420Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168<br>
+MakerNoteVersion : [object Object]<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaMAXXUM7D.jpg</td>
+<td class="supported">BrightnessValue : 7.25<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:07:26 21:25:48<br>
+DateTimeOriginal : 2006:07:26 21:25:48<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 4.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 105 mm<br>
+GainControl : None<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2256 px w<br>
+PixelYDimension : 1496 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 908<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 39212<br>
+_IFDpointer_Makernote : 972<br>
+DateTime : 2006:07:26 21:25:48<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : MAXXUM 7D<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : MAXXUM 7D v1.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 402<br>
+ColorMode : Natural+ sRGB<br>
+CompressedImageSize : 1842224<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : 5<br>
+LensType : Minolta AF 70-210mm F3.5-4.5<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 74552<br>
+Quality : Fine<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+ZoneMatching : ISO Setting Used<br>
+_IFDpointer_CameraInfoA100 : 1500<br>
+_IFDpointer_CameraSettings7D : 1206<br>
+_IFDpointer_WBInfoA100 : 34276<br>
+_type : minolta<br>
+PrintIM : 278</td>
+<td class="unsupported">FocalLength : 70.0 mm<br>
+FocalLength : 70 mm<br>
+<br>
+SubjectArea : 1128 748 192 227<br>
+SubjectArea : 1128,748,192,227<br>
+<br>
+ColorTemperature : 0<br>
+ColorTemperature : Auto<br>
+<br>
+ImageStabilization : On<br>
+ImageStabilization : 26076<br>
+<br>
+PreviewImageStart : 1893379<br>
+PreviewImageStart : 1893367<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaMAXXUM5D.jpg</td>
+<td class="supported">BrightnessValue : 8.75<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:02 14:40:19<br>
+DateTimeOriginal : 2005:09:02 14:40:19<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/160<br>
+FNumber : 10<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 45 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 916<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 17638<br>
+_IFDpointer_Makernote : 980<br>
+DateTime : 2005:09:02 14:40:19<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : MAXXUM 5D<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : MAXXUM 5D v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 410<br>
+ColorCompensationFilter : 0<br>
+ColorMode : Natural sRGB<br>
+CompressedImageSize : 2470115<br>
+FlashExposureComp : 0<br>
+LensType : Minolta/Sony AF DT 18-70mm F3.5-5.6 (D)<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 58131<br>
+Quality : Standard<br>
+RawAndJpgRecording : Off<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+WhiteBalanceFineTune : 0<br>
+ZoneMatching : ISO Setting Used<br>
+_IFDpointer_CameraInfoA100 : 1710<br>
+_IFDpointer_CameraSettings2 : 1262<br>
+_IFDpointer_WBInfoA100 : 12234<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">FocalLength : 30.0 mm<br>
+FocalLength : 30 mm<br>
+<br>
+SubjectArea : 1504 1000 256 304<br>
+SubjectArea : 1504,1000,256,304<br>
+<br>
+ColorTemperature : 0<br>
+ColorTemperature : Auto<br>
+<br>
+ImageStabilization : Off<br>
+ImageStabilization : 0<br>
+<br>
+PreviewImageStart : 2525187<br>
+PreviewImageStart : 2525175<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Z6.jpg</td>
+<td class="supported">BrightnessValue : 8.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:11:06 12:09:50<br>
+DateTimeOriginal : 2005:11:06 12:09:50<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/400<br>
+FNumber : 3.5<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.5 mm<br>
+FocalLengthIn35mmFilm : 69 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 902<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 34308<br>
+_IFDpointer_Makernote : 966<br>
+DateTime : 2005:11:06 12:09:50<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE Z6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Z6 v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 384<br>
+ColorMode : Natural<br>
+CompressedImageSize : 743277<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : None<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 43337<br>
+Quality : Standard<br>
+SceneMode : Sports<br>
+Teleconverter : None<br>
+_IFDpointer_CameraInfoA100 : 1152<br>
+_IFDpointer_WBInfoA100 : 29824<br>
+_type : minolta<br>
+PrintIM : 266</td>
+<td class="unsupported">SubjectArea : 1136 852 256 256<br>
+SubjectArea : 1136,852,256,256<br>
+<br>
+ImageStabilization : Unknown ()<br>
+ImageStabilization : 25728<br>
+<br>
+PreviewImageStart : 808981<br>
+PreviewImageStart : 808951<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Z5.jpg</td>
+<td class="supported">BrightnessValue : 9.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:02:25 14:22:17<br>
+DateTimeOriginal : 2005:02:25 14:22:17<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 7.1<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.9 mm<br>
+FocalLengthIn35mmFilm : 53 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 902<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 34304<br>
+_IFDpointer_Makernote : 966<br>
+DateTime : 2005:02:25 14:22:17<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE Z5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Z5 v1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 384<br>
+ColorMode : Natural<br>
+CompressedImageSize : 250971<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : None<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 0<br>
+Quality : Fine<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_IFDpointer_CameraInfoA100 : 1152<br>
+_IFDpointer_WBInfoA100 : 29824<br>
+_type : minolta<br>
+PrintIM : 266</td>
+<td class="unsupported">SubjectArea : 400 240 80 80<br>
+SubjectArea : 400,240,80,80<br>
+<br>
+ImageStabilization : Unknown ()<br>
+ImageStabilization : 25728<br>
+<br>
+PreviewImageStart : 12<br>
+PreviewImageStart : 0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Z3.jpg</td>
+<td class="supported">BrightnessValue : 9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:27 14:58:13<br>
+DateTimeOriginal : 2004:08:27 14:58:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/200<br>
+FNumber : 6.3<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 48 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 902<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 34236<br>
+_IFDpointer_Makernote : 966<br>
+DateTime : 2004:08:27 14:58:13<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Z3 v1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 384<br>
+ColorMode : Natural<br>
+CompressedImageSize : 242272<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : None<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 0<br>
+Quality : Fine<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_IFDpointer_CameraInfoA100 : 1152<br>
+_IFDpointer_WBInfoA100 : 29824<br>
+_type : minolta<br>
+PrintIM : 266</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+SubjectArea : 320 240 80 80<br>
+SubjectArea : 320,240,80,80<br>
+<br>
+ImageStabilization : Unknown ()<br>
+ImageStabilization : 25728<br>
+<br>
+PreviewImageStart : 12<br>
+PreviewImageStart : 0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Z20.jpg</td>
+<td class="supported">BrightnessValue : 9.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:02:25 14:34:32<br>
+DateTimeOriginal : 2005:02:25 14:34:32<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.2 mm<br>
+FocalLengthIn35mmFilm : 55 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2005:02:25 14:34:32<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE Z20<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Z20 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+CameraSettingsUnknown : 1360<br>
+ColorMode : Natural color<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 35074<br>
+Quality : Fine<br>
+Quality2 : 3<br>
+RawAndJpgRecording : Off<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+<br>
+ImageStabilization : Unknown (0)<br>
+ImageStabilization : 4084<br>
+<br>
+PreviewImageStart : 14409<br>
+PreviewImageStart : 14397<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Z2.jpg</td>
+<td class="supported">BrightnessValue : 7.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:04:05 15:47:47<br>
+DateTimeOriginal : 2004:04:05 15:47:47<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/200<br>
+FNumber : 6.3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.6 mm<br>
+FocalLengthIn35mmFilm : 51 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2004:04:05 15:47:47<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : Konica Minolta Camera, Inc.<br>
+Model : DiMAGE Z2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Z2 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+CameraSettingsUnknown : 1272<br>
+ColorMode : Natural color<br>
+FlashExposureComp : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 32682<br>
+Quality : Fine<br>
+Quality2 : 6<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 1136 852 295 226<br>
+SubjectArea : 1136,852,295,226<br>
+<br>
+PreviewImageStart : 14409<br>
+PreviewImageStart : 14397<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Z10.jpg</td>
+<td class="supported">BrightnessValue : 8.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:28 15:01:16<br>
+DateTimeOriginal : 2004:07:28 15:01:16<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/400<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.9 mm<br>
+FocalLengthIn35mmFilm : 53 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2004:07:28 15:01:16<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE Z10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Z10 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+CameraSettingsUnknown : 1272<br>
+ColorMode : Natural color<br>
+FlashExposureComp : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 38967<br>
+Quality : Fine<br>
+Quality2 : 3<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+<br>
+PreviewImageStart : 14409<br>
+PreviewImageStart : 14397<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_Xg.jpg</td>
+<td class="supported">BrightnessValue : 8.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:08 13:33:53<br>
+DateTimeOriginal : 2004:03:08 13:33:53<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/180<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.6 mm<br>
+FocalLengthIn35mmFilm : 55 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2004:03:08 13:33:53<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : Konica Minolta Camera, Inc.<br>
+Model : DiMAGE Xg<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE Xg Ver1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+CameraSettingsUnknown : 1272<br>
+ColorMode : Natural color<br>
+FlashExposureComp : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 36861<br>
+Quality : Fine<br>
+Quality2 : 3<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+<br>
+PreviewImageStart : 14409<br>
+PreviewImageStart : 14397<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_X60.jpg</td>
+<td class="supported">BrightnessValue : 7.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:30 14:01:48<br>
+DateTimeOriginal : 2005:06:30 14:01:48<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/350<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.6 mm<br>
+FocalLengthIn35mmFilm : 52 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 974<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1202<br>
+_IFDpointer_Makernote : 1232<br>
+DateTime : 2005:06:30 14:01:48<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE X60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE X60 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 420<br>
+CameraSettingsUnknown : 1438<br>
+ColorMode : Natural color<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 36502<br>
+Quality : Fine<br>
+Quality2 : 3<br>
+RawAndJpgRecording : Off<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 302</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+<br>
+ImageStabilization : Unknown (0)<br>
+ImageStabilization : 4084<br>
+<br>
+PreviewImageStart : 14409<br>
+PreviewImageStart : 14397<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_X50.jpg</td>
+<td class="supported">BrightnessValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:28 14:53:04<br>
+DateTimeOriginal : 2004:07:28 14:53:04<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/750<br>
+FNumber : 3.4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.1 mm<br>
+FocalLengthIn35mmFilm : 49 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2004:07:28 14:53:04<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE X50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE X50 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+CameraSettingsUnknown : 1272<br>
+ColorMode : Natural color<br>
+FlashExposureComp : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 38133<br>
+Quality : Fine<br>
+Quality2 : 3<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 160 120<br>
+SubjectArea : 320,240,160,120<br>
+<br>
+PreviewImageStart : 14409<br>
+PreviewImageStart : 14397<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_X31.jpg</td>
+<td class="supported">BrightnessValue : 8.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:06:20 15:08:22<br>
+DateTimeOriginal : 2004:06:20 15:08:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/160<br>
+FNumber : 6.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 60 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 914<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 15964<br>
+_IFDpointer_Makernote : 986<br>
+DateTime : 2004:06:20 15:08:22<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE X31<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE X31 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 404<br>
+ColorMode : Natural color<br>
+CompressedImageSize : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 60816<br>
+Quality : Standard<br>
+Quality2 : 3<br>
+SceneMode : Standard<br>
+_IFDpointer_CameraInfoA100 : 1500<br>
+_IFDpointer_CameraSettings : 1132<br>
+_IFDpointer_WBInfoA100 : 9692<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+SubjectArea : 320 240 104 104<br>
+SubjectArea : 320,240,104,104<br>
+<br>
+PreviewImageStart : 156914<br>
+PreviewImageStart : 156910<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_X21.jpg</td>
+<td class="supported">BrightnessValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:12:16 03:13:55<br>
+DateTimeOriginal : 2005:12:16 03:13:55<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.9 mm<br>
+FocalLengthIn35mmFilm : 68 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 914<br>
+_IFDpointer_Interop : 15956<br>
+_IFDpointer_Makernote : 986<br>
+DateTime : 2005:12:16 03:13:55<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : Konica Minolta Camera, Inc.<br>
+Model : DiMAGE X21<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE X21 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 404<br>
+ColorMode : Natural color<br>
+CompressedImageSize : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 27471<br>
+Quality : Fine<br>
+Quality2 : 1<br>
+SceneMode : Standard<br>
+_IFDpointer_CameraInfoA100 : 1500<br>
+_IFDpointer_CameraSettings : 1132<br>
+_IFDpointer_WBInfoA100 : 9692<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">SubjectArea : 800 600 260 260<br>
+SubjectArea : 800,600,260,260<br>
+<br>
+WhiteBalance : Unknown (0x404e9630)<br>
+WhiteBalance : Auto<br>
+<br>
+PreviewImageStart : 879548<br>
+PreviewImageStart : 879526<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_X1.jpg</td>
+<td class="supported">BrightnessValue : 7.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:02 14:55:20<br>
+DateTimeOriginal : 2005:09:02 14:55:20<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 7.1<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.6 mm<br>
+FocalLengthIn35mmFilm : 50 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 914<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 13480<br>
+_IFDpointer_Makernote : 986<br>
+DateTime : 2005:09:02 14:55:20<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE X1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE X1 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 404<br>
+ColorMode : Natural color<br>
+CompressedImageSize : 0<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 52990<br>
+Quality : Fine<br>
+Quality2 : 3<br>
+SceneMode : Standard<br>
+_IFDpointer_CameraInfoA100 : 1432<br>
+_IFDpointer_CameraSettings : 1192<br>
+_IFDpointer_WBInfoA100 : 7576<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">SubjectArea : 320 240 213 160<br>
+SubjectArea : 320,240,213,160<br>
+<br>
+ImageStabilization : On<br>
+ImageStabilization : 0<br>
+<br>
+PreviewImageStart : 114030<br>
+PreviewImageStart : 114026<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_G600.jpg</td>
+<td class="supported">BrightnessValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.4<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:07 15:06:22<br>
+DateTimeOriginal : 2004:08:07 15:06:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/100<br>
+FNumber : 4.1<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.4 mm<br>
+FocalLengthIn35mmFilm : 84 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3608<br>
+_IFDpointer_Makernote : 660<br>
+Make : Konica Minolta Photo Imaging, Inc.<br>
+Model : DiMAGE G600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174<br>
+SceneMode : [object Object]<br>
+_type : minolta</td>
+<td class="unsupported">Contrast : Low<br>
+Contrast : Soft<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_G530.jpg</td>
+<td class="supported">BrightnessValue : 10.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:07:03 12:27:22<br>
+DateTimeOriginal : 2005:07:03 12:27:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/2000<br>
+FNumber : 4.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+FocalLengthIn35mmFilm : 34 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 5124<br>
+_IFDpointer_Makernote : 640<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE G530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 154<br>
+MakerNoteVersion : [object Object]<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_G400.jpg</td>
+<td class="supported">BrightnessValue : 8.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:22 14:38:13<br>
+DateTimeOriginal : 2004:03:22 14:38:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/250<br>
+FNumber : 5.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+FocalLengthIn35mmFilm : 47 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4624<br>
+_IFDpointer_Makernote : 652<br>
+Make : KONICA MINOLTA CAMERA, Inc.<br>
+Model : DiMAGE G400<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 166<br>
+MakerNoteVersion : [object Object]<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_E500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:18 12:15:49<br>
+DateTimeOriginal : 2005:09:18 12:15:49<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 0.6<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 16.2 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10700<br>
+_IFDpointer_Makernote : 692<br>
+DateTime : 2005:09:18 12:15:49<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE E500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_E50.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:03:13 06:56:15<br>
+DateTimeOriginal : 2005:03:13 06:56:15<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/300<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 96 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/298<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:03:13 06:56:15<br>
+ImageDescription : Digital StillCamera<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE E50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.12<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_E40.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:12:23 02:39:18<br>
+DateTimeOriginal : 2005:12:23 02:39:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 0.5<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 0.5<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:12:23 02:39:18<br>
+ImageDescription : Digital StillCamera<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE E40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.18<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266<br>
+_type : minolta</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDiMAGE_A200.jpg</td>
+<td class="supported">BrightnessValue : 9.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 6<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:12:08 13:36:12<br>
+DateTimeOriginal : 2004:12:08 13:36:12<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/400<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.7 mm<br>
+FocalLengthIn35mmFilm : 57 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 896<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 1154<br>
+DateTime : 2004:12:08 13:36:12<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DiMAGE A200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE A200 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342<br>
+CameraSettingsUnknown : 1360<br>
+ColorMode : Natural<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : 0<br>
+MakerNoteVersion : MLY0<br>
+PreviewImageLength : 38213<br>
+Quality : Extra fine<br>
+Quality2 : 3<br>
+RawAndJpgRecording : Off<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+_type : minolta<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,4,0,1,0,22,0,22,0,2,0,0,0,0,1,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported">SubjectArea : 320 240 83 63<br>
+SubjectArea : 320,240,83,63<br>
+<br>
+ImageStabilization : Unknown (0)<br>
+ImageStabilization : 4084<br>
+<br>
+PreviewImageStart : 154834<br>
+PreviewImageStart : 154822<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDYNAX7D.jpg</td>
+<td class="supported">BrightnessValue : 8.62<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:03:05 10:17:08<br>
+DateTimeOriginal : 2006:03:05 10:17:08<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Shutter speed priority AE<br>
+ExposureTime : 1/300<br>
+FNumber : 6.3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 52 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2015 px w<br>
+PixelYDimension : 1340 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 39749<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 39945<br>
+_IFDpointer_Makernote : 761<br>
+DateTime : 2006:03:05 10:17:08<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DYNAX 7D<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DYNAX 7D v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146<br>
+ColorMode : Natural sRGB<br>
+CompressedImageSize : 3503741<br>
+ImageStabilizationStatus : 5<br>
+LensType : Minolta AF 17-35mm F2.8-4 (D)<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 53017<br>
+Quality : Fine<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+ZoneMatching : ISO Setting Used<br>
+_IFDpointer_CameraInfoA100 : 1492<br>
+_IFDpointer_CameraSettings7D : 1206<br>
+_IFDpointer_WBInfoA100 : 34268<br>
+_type : minolta</td>
+<td class="unsupported">FocalLength : 35.0 mm<br>
+FocalLength : 35 mm<br>
+<br>
+SubjectArea : 1504 1000 256 304<br>
+SubjectArea : 1504,1000,256,304<br>
+<br>
+ColorTemperature : 0<br>
+ColorTemperature : Auto<br>
+<br>
+FlashExposureComp : 2<br>
+FlashExposureComp : 0.0000011521177432499317<br>
+<br>
+ImageStabilization : On<br>
+ImageStabilization : 26068<br>
+<br>
+PreviewImageStart : 3553090<br>
+PreviewImageStart : 3553271<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDYNAX5D.jpg</td>
+<td class="supported">BrightnessValue : 8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:10:17 14:47:57<br>
+DateTimeOriginal : 2005:10:17 14:47:57<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/125<br>
+FNumber : 8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 916<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 17638<br>
+_IFDpointer_Makernote : 980<br>
+DateTime : 2005:10:17 14:47:57<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DYNAX 5D<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DYNAX 5D v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 410<br>
+ColorCompensationFilter : 0<br>
+ColorMode : Natural sRGB<br>
+CompressedImageSize : 4566022<br>
+FlashExposureComp : 0<br>
+LensType : Minolta/Sony AF DT 18-70mm F3.5-5.6 (D)<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 43623<br>
+Quality : Extra fine<br>
+RawAndJpgRecording : Off<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+WhiteBalanceFineTune : 0<br>
+ZoneMatching : ISO Setting Used<br>
+_IFDpointer_CameraInfoA100 : 1710<br>
+_IFDpointer_CameraSettings2 : 1262<br>
+_IFDpointer_WBInfoA100 : 12234<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">FocalLength : 24.0 mm<br>
+FocalLength : 24 mm<br>
+<br>
+SubjectArea : 1504 1000 256 304<br>
+SubjectArea : 1504,1000,256,304<br>
+<br>
+ColorTemperature : 0<br>
+ColorTemperature : Auto<br>
+<br>
+ImageStabilization : Off<br>
+ImageStabilization : 0<br>
+<br>
+PreviewImageStart : 4621315<br>
+PreviewImageStart : 4621303<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaDG-5W.jpg</td>
+<td class="supported">BrightnessValue : 6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:03 13:44:12<br>
+DateTimeOriginal : 2005:06:03 13:44:12<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 5416<br>
+_IFDpointer_Makernote : 858<br>
+DateTime : 2005:06:03 13:44:12<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : DG-5W<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DG-5W Ver1.03A<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 380<br>
+ColorMode : Natural color<br>
+MakerNoteVersion : MLT0<br>
+Quality : Fine<br>
+Quality2 : 6<br>
+SceneMode : Standard<br>
+_type : minolta<br>
+PrintIM : 262</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaAlphaSweet.jpg</td>
+<td class="supported">BrightnessValue : 5.62<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:02:12 11:26:49<br>
+DateTimeOriginal : 2006:02:12 11:26:49<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : -0.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/250<br>
+FNumber : 3.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 150 mm<br>
+GainControl : None<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 916<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 17638<br>
+_IFDpointer_Makernote : 980<br>
+DateTime : 2006:02:12 11:26:49<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : ALPHA SWEET DIGITAL<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ALPHA SWEET DIGITAL v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 410<br>
+ColorCompensationFilter : 0<br>
+ColorMode : Natural sRGB<br>
+CompressedImageSize : 1776936<br>
+FlashExposureComp : 0<br>
+LensType : Minolta AF 100mm F2.8 Macro [New] or Sigma or Tamron Lens<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 34986<br>
+Quality : Fine<br>
+RawAndJpgRecording : Off<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+WhiteBalanceFineTune : 0<br>
+ZoneMatching : ISO Setting Used<br>
+_IFDpointer_CameraInfoA100 : 1710<br>
+_IFDpointer_CameraSettings2 : 1262<br>
+_IFDpointer_WBInfoA100 : 12234<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">FocalLength : 100.0 mm<br>
+FocalLength : 100 mm<br>
+<br>
+SubjectArea : 1504 1000 256 304<br>
+SubjectArea : 1504,1000,256,304<br>
+<br>
+ColorTemperature : 0<br>
+ColorTemperature : Auto<br>
+<br>
+ImageStabilization : On<br>
+ImageStabilization : 3<br>
+<br>
+PreviewImageStart : 1831939<br>
+PreviewImageStart : 1831927<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaAlpha7.jpg</td>
+<td class="supported">BrightnessValue : 4.37<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:07:01 17:55:50<br>
+DateTimeOriginal : 2005:07:01 17:55:50<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : -0.7<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/300<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 150 mm<br>
+GainControl : Low gain up<br>
+ISO : 250<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 908<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 39212<br>
+_IFDpointer_Makernote : 972<br>
+DateTime : 2005:07:01 17:55:50<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : KONICA MINOLTA<br>
+Model : ALPHA-7 DIGITAL<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ALPHA-7 DIGITAL v1.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 402<br>
+ColorMode : Natural sRGB<br>
+CompressedImageSize : 4297114<br>
+FlashExposureComp : 0<br>
+ImageStabilizationStatus : 1<br>
+LensType : Minolta AF 100mm F2.8 Soft Focus<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 48527<br>
+Quality : Extra fine<br>
+SceneMode : Standard<br>
+Teleconverter : None<br>
+ZoneMatching : ISO Setting Used<br>
+_IFDpointer_CameraInfoA100 : 1500<br>
+_IFDpointer_CameraSettings7D : 1206<br>
+_IFDpointer_WBInfoA100 : 34276<br>
+_type : minolta<br>
+PrintIM : 278</td>
+<td class="unsupported">FocalLength : 100.0 mm<br>
+FocalLength : 100 mm<br>
+<br>
+SubjectArea : 1504 1000 256 304<br>
+SubjectArea : 1504,1000,256,304<br>
+<br>
+ColorTemperature : 0<br>
+ColorTemperature : Auto<br>
+<br>
+ImageStabilization : Off<br>
+ImageStabilization : 26076<br>
+<br>
+PreviewImageStart : 4346883<br>
+PreviewImageStart : 4346871<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Minolta/KonicaMinoltaA2.jpg</td>
+<td class="supported">BrightnessValue : 8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:05 03:56:16<br>
+DateTimeOriginal : 2004:07:05 03:56:16<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 5.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.5 mm<br>
+FocalLengthIn35mmFilm : 49 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 922<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 31256<br>
+_IFDpointer_Makernote : 986<br>
+DateTime : 2004:07:05 03:56:16<br>
+ImageDescription : KONICA MINOLTA DIGITAL CAMERA<br>
+Make : Konica Minolta Camera, Inc.<br>
+Model : DiMAGE A2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DiMAGE A2 Ver.1.11<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 404<br>
+CompressedImageSize : 369232<br>
+FlashExposureComp : 0<br>
+MakerNoteVersion : MLT0<br>
+PreviewImageLength : 78397<br>
+Quality : Extra fine<br>
+SceneMode : Standard<br>
+_IFDpointer_CameraInfoA100 : 1420<br>
+_IFDpointer_CameraSettings : 1136<br>
+_IFDpointer_WBInfoA100 : 27020<br>
+_type : minolta<br>
+PrintIM : 286</td>
+<td class="unsupported">SubjectArea : 320 240 640 480<br>
+SubjectArea : 320,240,640,480<br>
+<br>
+ColorMode : Natural color<br>
+ColorMode : Natural<br>
+<br>
+ImageStabilization : On<br>
+ImageStabilization : 0,0,0,0<br>
+<br>
+PreviewImageStart : 405939<br>
+PreviewImageStart : 405927<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,4987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Toshiba/Toshiba_camessepetit.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : camesse petit<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v1.00<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : <br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/Toshiba_camessepetit.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Toshiba_camessepetit.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 621 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate :                    <br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaTS705.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : TS705<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : WG43TS1311<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/21<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:29 20:13:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 2</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaTS705.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaTS705.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:06:29 20:13:36<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 542<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11934<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/21<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11934 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaTG01.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : TG01<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:10:31 13:19:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaTG01.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaTG01.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 27 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+FNumber : 3.2<br>
+FNumber : 3.19921875<br>
+<br>
+CreateDate : 2010:10:31 13:19:20<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 27183<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 27183 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR_M21.jpg</td>
+<td class="supported">ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Toshiba Corporation<br>
+Model : PDR M21<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,1999<br>
+ExposureTime : 1/32<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:02:09 19:10:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/32<br>
+ApertureValue : 3.0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : </td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR_M21.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR_M21.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : V1.68_916F_19<br>
+Software : V1.68916F19<br>
+<br>
+ModifyDate : 2002:05:17 23:02:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2000:02:09 19:10:21<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.06324791667<br>
+CompressedBitsPerPixel : 0.06324791666666667<br>
+<br>
+ExposureCompensation : +1<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 400<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 300<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 832<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6190<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6190 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDRM40.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM40<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM40 Ver1.37<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1000<br>
+FNumber : 8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1999:03:06 02:37:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1024<br>
+ApertureValue : 8.0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDRM40.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDRM40.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:03:06 02:37:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1999:03:06 02:37:25<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 740<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5015<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1000<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5015 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 16<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR5.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-5  Ver1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1998:08:08 11:58:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1998:08:08 11:58:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1998:08:08 11:58:00<br>
+CreateDate : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 592<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5064<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5064 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR2300.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : PDR2300<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:09:29 09:11:19<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR2300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR2300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:09:29 09:11:19<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:09:29 09:11:19<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10293<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8227<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8227 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T30.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-T30<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-T30 Ver1.05<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/45<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:04:28 19:00:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/45<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-T30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-T30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:04:28 19:00:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:04:28 19:00:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 38 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 980<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8273<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8273 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 50.7 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm (35 mm equivalent: 38.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.62 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 6.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T20.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-T20<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-T20 Ver1.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/138<br>
+FNumber : 8<br>
+ExposureProgram : Portrait<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:08:01 15:59:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/137<br>
+ApertureValue : 8.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Portrait<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-T20.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-T20.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:08:01 15:59:12<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:08:01 15:59:12<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 38 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 980<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8983<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/138<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8983 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 50.7 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm (35 mm equivalent: 38.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 0.92 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T15.jpg</td>
+<td class="supported">ImageDescription : Toshiba Digital Camera<br>
+Make : TOSHIBA<br>
+Model : PDR-T15<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/45<br>
+FNumber : 3.1<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:10:22 05:13:13<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.1<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+UserComment : 730<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-T15.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-T15.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 1166 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : ACD Systems Digital Imaging<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ProcessingSoftware : ACD Systems Digital Imaging<br>
+ProcessingSoftware : undefined<br>
+<br>
+ModifyDate : 2003:10:22 05:13:13<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:10:22 05:13:13<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+Warning : Bad InteropOffset SubDirectory start<br>
+Warning : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T10.jpg</td>
+<td class="supported">ImageDescription : Toshiba Digital Camera<br>
+Make : TOSHIBA<br>
+Model : PDR-T10<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.10a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/300<br>
+FNumber : 8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:04:20 12:22:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4.1<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+UserComment : 760<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-T10.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-T10.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:04:20 12:22:14<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:04:20 12:22:14<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+Warning : Bad MakerNotes offset for tag 0x0204<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1056<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7534<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/300<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7534 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M81.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM81<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM81 Ver0.70<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/240<br>
+FNumber : 8<br>
+ExposureProgram : Manual<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:07:12 13:10:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/239<br>
+ApertureValue : 8.0<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M81.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M81.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:07:12 13:10:40<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:07:12 13:10:40<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1/2<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2400<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 882<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8869<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/240<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8869 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 13.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M71.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M71<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM71 Ver1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/140<br>
+FNumber : 4<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:03:03 17:13:59<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/137<br>
+ApertureValue : 4.0<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M71.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M71.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:03:03 17:13:59<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:03:03 17:13:59<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 864<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9129<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/140<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9129 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 11.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M700.jpg</td>
+<td class="supported">ImageDescription : Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M700<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-M700 Ver1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/220<br>
+FNumber : 4<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:07:15 09:18:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/223<br>
+ApertureValue : 4.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M700.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M700.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:07:15 09:18:02<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:07:15 09:18:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 962<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9013<br>
+ThumbnailLength : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/220<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9013 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 51.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm (35 mm equivalent: 37.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.75 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M70.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM70<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM70 Ver1.07<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/35<br>
+FNumber : 4.4<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:07:10 09:28:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/34<br>
+ApertureValue : 4.4<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M70.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M70.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:07:10 09:28:35<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2000:07:10 09:28:35<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : -0.6<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 772<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9101<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/35<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9101 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 9.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M65.jpg</td>
+<td class="supported">ImageDescription : Toshiba Exif JPEG<br>
+Make : Toshiba<br>
+Model : PDR-M65<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v6.0.7<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/121<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:01:16 13:37:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/120<br>
+ApertureValue : 3.0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M65.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M65.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:01:16 13:37:01<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+CreateDate : 2000:01:16 13:37:01<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 740<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3604<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/121<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3604 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 10.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M61.jpg</td>
+<td class="supported">ImageDescription : Toshiba Exif JPEG<br>
+Make : Toshiba<br>
+Model : PDR-M61<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v8.3.12<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/97<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:09:14 09:19:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/96<br>
+ApertureValue : 7.0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M61.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M61.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:09:14 09:19:28<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 7<br>
+FNumber : 6.96<br>
+<br>
+CreateDate : 2004:09:14 09:19:28<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1792<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 740<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4194<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/97<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4194 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 12.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M60.jpg</td>
+<td class="supported">ImageDescription : Toshiba Exif JPEG<br>
+Make : Toshiba<br>
+Model : PDR-M60<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v1.2.4<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/62<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:11:29 14:54:59<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 3.0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M60.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M60.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:11:29 14:54:59<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+CreateDate : 2000:11:29 14:54:59<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 896<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 722<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4295<br>
+ThumbnailLength : undefined<br>
+<br>
+CameraType : SI15<br>
+CameraType : undefined<br>
+<br>
+ID : PDR-M60<br>
+ID : undefined<br>
+<br>
+Resolution : 1<br>
+Resolution : undefined<br>
+<br>
+YTarget : 1632<br>
+YTarget : undefined<br>
+<br>
+YLevel : 127<br>
+YLevel : undefined<br>
+<br>
+ZoomPos : 5<br>
+ZoomPos : undefined<br>
+<br>
+FocusPos : 124<br>
+FocusPos : undefined<br>
+<br>
+StrobeTime : 0<br>
+StrobeTime : undefined<br>
+<br>
+FocusMode : 2<br>
+FocusMode : undefined<br>
+<br>
+Quality : 72<br>
+Quality : undefined<br>
+<br>
+Again : 388<br>
+Again : undefined<br>
+<br>
+Rgain : 1678<br>
+Rgain : undefined<br>
+<br>
+GRgain : 2048<br>
+GRgain : undefined<br>
+<br>
+GBgain : 2048<br>
+GBgain : undefined<br>
+<br>
+Bgain : 2438<br>
+Bgain : undefined<br>
+<br>
+Roff : 9<br>
+Roff : undefined<br>
+<br>
+GRoff : 8<br>
+GRoff : undefined<br>
+<br>
+GBoff : 8<br>
+GBoff : undefined<br>
+<br>
+Boff : 6<br>
+Boff : undefined<br>
+<br>
+Blk0 : 33<br>
+Blk0 : undefined<br>
+<br>
+Blk1 : 32<br>
+Blk1 : undefined<br>
+<br>
+CBal : 2<br>
+CBal : undefined<br>
+<br>
+R5100 : 6929<br>
+R5100 : undefined<br>
+<br>
+B5100 : 3383<br>
+B5100 : undefined<br>
+<br>
+RStrobe : 5896<br>
+RStrobe : undefined<br>
+<br>
+BStrobe : 1908<br>
+BStrobe : undefined<br>
+<br>
+FirmwareVersion : v1.2.4<br>
+FirmwareVersion : undefined<br>
+<br>
+Xxx : x<br>
+Xxx : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/62<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4295 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 9.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M500.jpg</td>
+<td class="supported">ImageDescription : Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M500<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-M500 Ver1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/19<br>
+FNumber : 3.1<br>
+ExposureProgram : Action (High speed)<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:03:21 19:16:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/18<br>
+ApertureValue : 3.1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M500.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M500.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:03:21 19:16:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:03:21 19:16:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 57.0 mm<br>
+FocalLength : 57 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 370 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 980<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6653<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/19<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6653 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 5.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 57.0 mm (35 mm equivalent: 370.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 226.43 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 6.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M5.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM5  Ver2.04<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/55<br>
+FNumber : 3.8<br>
+ExposureProgram : Manual<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1999:10:15 14:54:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/54<br>
+ApertureValue : 3.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:10:15 14:54:27<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1999:10:15 14:54:27<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 740<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6124<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/55<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6124 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M4.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M4<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-M4 Ver1.10<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/55<br>
+FNumber : 3.2<br>
+ExposureProgram : Manual<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1999:08:06 21:34:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/54<br>
+ApertureValue : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:08:06 21:34:20<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1999:08:06 21:34:20<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 728<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6204<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/55<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6204 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M3.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : PDR-M3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-M3 Ver1.00<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+FNumber : 3.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1999:03:08 21:31:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+ShutterSpeedValue : 1/28<br>
+ApertureValue : 3.8<br>
+BrightnessValue : 3.5<br>
+MaxApertureValue : 3.8<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 16.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FocalPlaneXResolution : 893.000000<br>
+FocalPlaneYResolution : 893.000000<br>
+FocalPlaneResolutionUnit : cm<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:03:08 21:31:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1999:03:08 21:31:45<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 868<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5099<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/28<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5099 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 25.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 16.7 mm (35 mm equivalent: 80.7 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 11.80 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M25.jpg</td>
+<td class="supported">ImageDescription : Toshiba Digital Camera<br>
+Make : Toshiba<br>
+Model : PDR-M25<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v17.4.18<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/33<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:01:01 13:54:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+UserComment : 756<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M25.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M25.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:01:01 13:54:07<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+CreateDate : 2000:01:01 13:54:07<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+Warning : Bad PrintIM size<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1792<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1052<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3421<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/33<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3421 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M11.jpg</td>
+<td class="supported">ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Toshiba Corporation<br>
+Model : PDR M11<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,1999<br>
+ExposureTime : 1/32<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:04:28 04:09:16<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/32<br>
+ApertureValue : 3.0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : </td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M11.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M11.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : V1.08_916F_19<br>
+Software : V1.08916F19<br>
+<br>
+ModifyDate : 2001:04:28 04:09:16<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:04:28 04:09:16<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1256347656<br>
+CompressedBitsPerPixel : 0.125634765625<br>
+<br>
+ExposureCompensation : +1<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 850<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6359<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6359 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M1.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : PDR-M1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-M1 Ver1.00<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+FNumber : 3.2<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1998:06:13 14:35:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+ShutterSpeedValue : 1/91<br>
+ApertureValue : 3.2<br>
+BrightnessValue : 4.8<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 7.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FocalPlaneXResolution : 893.000000<br>
+FocalPlaneYResolution : 893.000000<br>
+FocalPlaneResolutionUnit : cm<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-M1.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-M1.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1998:06:13 14:35:07<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1998:06:13 14:35:07<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 868<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4882<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/91<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4882 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 52.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.6 mm (35 mm equivalent: 36.7 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.90 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-5300.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-5300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.10<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:03:09 03:55:32<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/4<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-5300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-5300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:03:09 03:55:32<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:03:09 03:55:32<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13251<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/4<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13251 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-4300.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-4300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : PDR-4300 Ver1.03<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/64<br>
+FNumber : 3.9<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:01:17 13:32:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 3.9<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-4300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-4300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:01:17 13:32:06<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:01:17 13:32:06<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2400<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 882<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7249<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/64<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7249 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3330.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-3330<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : PDR-3330 Ver1.05<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/45<br>
+FNumber : 2.9<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:07:11 20:38:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/45<br>
+ApertureValue : 2.9<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-3330.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-3330.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:07:11 20:38:01<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:07:11 20:38:01<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 882<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6906<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6906 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3320.jpg</td>
+<td class="supported">ImageDescription : Toshiba Digital Camera<br>
+Make : Toshiba<br>
+Model : PDR-3320<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.2<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/199<br>
+FNumber : 6.9<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:05:29 15:39:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.5<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 6.4 mm<br>
+UserComment : 748<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-3320.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-3320.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:05:29 15:39:02<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:05:29 15:39:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1052<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4160<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/199<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4160 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.4 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3310.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : TOSHIBA<br>
+Model : PDR-3310<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : PDR-3310 Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ISO : 120<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:08:05 14:50:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/119<br>
+ApertureValue : 11.9<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 12.6 mm<br>
+UserComment : 56022<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-3310.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-3310.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:08:05 14:50:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:08:05 14:50:22<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.3<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56312<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 11.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/119<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 12.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3300.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-3300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : PDR-3300 Ver1.04<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/550<br>
+FNumber : 8<br>
+ExposureProgram : Landscape<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:10:07 12:00:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/549<br>
+ApertureValue : 8.0<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-3300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-3300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:10:07 12:00:49<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:10:07 12:00:49<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 882<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5323<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/550<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5323 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 15.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-2.jpg</td>
+<td class="supported">ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-2<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 1.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaPDR-2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaPDR-2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 475 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaJ-T010.jpg</td>
+<td class="supported">ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : J-T010<br>
+Orientation : Rotate 90 CW<br>
+XResolution : 72.00900269<br>
+YResolution : 72.00900269<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.00<br>
+DateTimeOriginal : 2004:12:17 12:56:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaJ-T010.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaJ-T010.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 599 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:12:17 12:57:54<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:12:17 12:56:41<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 150<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaG910.jpg</td>
+<td class="supported">Make : TOSHIBA<br>
+Model : G910/G920<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:09:08 18:22:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaG910.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaG910.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:09:08 18:22:26<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 610<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4214<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4214 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaG8103.jpg</td>
+<td class="supported">Make : Toshiba<br>
+Model : Toshiba G810 3.0 MP CMOS SENSOR<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Quanta Qcamera ver 5.0<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:19 16:13:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaG8103.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaG8103.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:04:19 16:13:36<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 702<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7383<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7383 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaCamileoProHDDV.jpg</td>
+<td class="supported">ImageDescription : DCIM\100MEDIA<br>
+Make : TOSHIBAa<br>
+Model : Camileo Pro HDDV<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0.000<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/256<br>
+ExposureProgram : Program AE<br>
+ISO : 73<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:06:28 12:57:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/256<br>
+ApertureValue : 2153768011353.3<br>
+MaxApertureValue : 3.6<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaCamileoProHDDV.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaCamileoProHDDV.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:06:28 12:57:14<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.6<br>
+FNumber : 3.64<br>
+<br>
+CreateDate : 2009:06:28 12:57:14<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.779891968<br>
+CompressedBitsPerPixel : 3.7798919677734375<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13131<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/256<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13131 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaCamileoProHD.jpg</td>
+<td class="supported">ImageDescription : DCIM\100MEDIA<br>
+Make : TOSHIBAa<br>
+Model : Camileo Pro HD<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0.000<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/8<br>
+ExposureProgram : Program AE<br>
+ISO : 95<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:27 13:44:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/10<br>
+ApertureValue : 2153768011353.3<br>
+MaxApertureValue : 3.6<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaCamileoProHD.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaCamileoProHD.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:27 13:44:40<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.8<br>
+FNumber : 3.81<br>
+<br>
+CreateDate : 2010:04:27 13:44:40<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.338598029<br>
+CompressedBitsPerPixel : 2.3385980287557793<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10448<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10448 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaCamileoH30.jpg</td>
+<td class="supported">ImageDescription : DCIM\100MEDIA<br>
+Make : <br>
+Model : DV<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : A2S-SDK33H-091210.0620<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/332<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:01:19 01:50:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/332<br>
+ApertureValue : 3.6<br>
+MaxApertureValue : 3.6<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 6.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 3258713.064<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/ToshibaCamileoH30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ToshibaCamileoH30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 23 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:01:19 01:50:25<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.6<br>
+FNumber : 3.64<br>
+<br>
+CreateDate : 2009:01:19 01:50:25<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.811449592<br>
+CompressedBitsPerPixel : 1.811449592496142<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+<br>
+ExifImageWidth : 4608<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3456<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 1 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 21620<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/332<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 21620 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/Toshiba921T.jpg</td>
+<td class="supported">ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : 921T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:01:31 22:22:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/Toshiba921T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Toshiba921T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 615 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:01:31 22:22:20<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:01:31 22:22:20<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 400<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/Toshiba910T.jpg</td>
+<td class="supported">ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : 910T<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:02:26 15:06:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/Toshiba910T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Toshiba910T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:02:26 15:06:09<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:02:26 15:06:09<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1536<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 430<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10559<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10559 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/Toshiba811T.jpg</td>
+<td class="supported">ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : 811T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:07:30 23:44:15<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Toshiba/Toshiba811T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Toshiba811T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Toshiba<br>
+Directory : undefined<br>
+<br>
+FileSize : 645 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:02:19 15:40:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:07:30 23:44:15<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

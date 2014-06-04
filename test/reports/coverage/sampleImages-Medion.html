@@ -1,0 +1,2712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Medion/MedionSX410Z.jpg</td>
+<td class="supported">ImageDescription : Medion   DIGITAL CAMERA<br>
+Make : Medion   OPTICAL CO,LTD<br>
+Model : SX410Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:01:04 06:37:03<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/76<br>
+ApertureValue : 3.4<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionSX410Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionSX410Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:01:04 06:37:04<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1356238698<br>
+CompressedBitsPerPixel : 0.13562386980108498<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2123<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10814<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/76<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10814 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD9700.jpg</td>
+<td class="supported">ImageDescription : Medion   DIGITAL CAMERA<br>
+Make : Medion   OPTICAL CO,LTD<br>
+Model : MD9700<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:01:11 11:43:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/54<br>
+ApertureValue : 3.4<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD9700.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD9700.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:01:11 11:43:44<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1384364821<br>
+CompressedBitsPerPixel : 0.13843648208469056<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+FocalLength : 17.0 mm<br>
+FocalLength : 17 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9672<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/54<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9672 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 17.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD9653.jpg</td>
+<td class="supported">ImageDescription : Medion   DIGITAL CAMERA<br>
+Make : Medion   OPTICAL CO,LTD<br>
+Model : MD9653<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:03:07 10:27:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.078125<br>
+ShutterSpeedValue : 1/166<br>
+ApertureValue : 4.8<br>
+MeteringMode : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD9653.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD9653.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:03:07 10:27:44<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12408<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/166<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12408 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD86276.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Medion AG<br>
+Model : MD86276<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.420<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/90<br>
+FNumber : 5.4<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:09:23 00:30:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 6<br>
+ShutterSpeedValue : 1/90<br>
+ApertureValue : 5.4<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 18.9 mm<br>
+UserComment : 3838<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD86276.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD86276.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 56 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:09:23 00:30:43<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:09:23 00:30:43<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 3000 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 0 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 114 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4292<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7405<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/90<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2010:09:23 00:30:43.0 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7405 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 17.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 18.9 mm (35 mm equivalent: 114.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 13.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD86066.jpg</td>
+<td class="supported">ImageDescription : Digital Video Camera<br>
+Make : MEDION<br>
+Model : MD 86066<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : FW Version DVV579U-V1.23-0417-DE06<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+ExposureTime : 1/20<br>
+FNumber : 3.1<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2<br>
+DateTimeOriginal : 2009:09:01 11:32:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.783424<br>
+ShutterSpeedValue : 1/1024<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Flash<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : USERR292B343CTC0F0lu26ExtAE 0<br>
+ExposureIndex : 36<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD86066.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD86066.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:09:01 11:32:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:09:01 11:32:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 4000<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3000<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1366<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2457<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2457 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD86063.jpg</td>
+<td class="supported">Make : Medion AG<br>
+Model : MD86063<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.56.03.00<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/100<br>
+FNumber : 5.1<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:30 18:04:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 15.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD86063.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD86063.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 176 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:30 18:04:43<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:30 18:04:43<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.793816667<br>
+CompressedBitsPerPixel : 2.793816666666667<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+UserComment : PL 0422 0670 PB 0421 0655 CL 0524 0460 t 0584 0365 CB 0442 0555 t 0492 0439 t 0508 0444 RH 0674 RL 0428 BH 0529 BL 0307 i 022 016 I 024 017 T 2 V 05.2 S 1 FR 000.13 WN 0025 WF 0188 m 00
+ V 05.6T0569 Y 0274 I 0 S 000033 G 1300 I 0 S 000060 G 0199 C 000099 C 0399 V 001 L 457 G 0559 C 2 D 0256
+ZP 1150 FR 08 FJ +183 FT +00 FM 01 FP +192
+R 8369 PM 0002 CM 0122 PO -100 PO -100 CO 3240 CO 3236 S 0223 Y 0491 R 0491 B 0495 SO 0753 YO 0980 RO 1039 BO 0869 F P767
+0.56.03.00  BarCo_A0A1JT017138    P    ST 00 F 01 I 0000.<br>
+UserComment : 37914<br>
+<br>
+ExifImageWidth : 4000<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3000<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 88 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 46506<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2876<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 130462 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2876 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 23.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 15.7 mm (35 mm equivalent: 88.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 9.02 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85863.jpg</td>
+<td class="supported">Make : Medion AG<br>
+Model : MD85863<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.72.01<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/60<br>
+FNumber : 3.1<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:12:10 12:12:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD85863.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD85863.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 171 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:12:10 12:12:04<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:12:10 12:12:04<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.918753046<br>
+CompressedBitsPerPixel : 3.918753045808967<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+UserComment : PL 0593 0423 PB 0584 0401 CL 0571 0418 t 0649 0342 CB 0558 0422 t 0633 0344 t 0628 0372 RH 0658 RL 0427 BH 0543 BL 0317 i 040 005 I 039 008 T 2 V 06.0 S 1 FR 000.45 WN 0212 WF 0467 m 00
+ V 07.5T0638 Y 0802 I 0 S 000100 G 0625 I 0 S 000060 G 0199 C 000060 C 0099 V 001 L 290 G 0233 C 2 D 0256
+ZP 0628 FR 08 FJ +340 FT +02 FM 01 FP +379
+R 8205 PM 0001 CM 0126 PO -050 PO -050 CO 1844 CO 1836 S 0233 Y 0551 R 0482 B 0480 SO 0761 YO 1049 RO 1080 BO 0831 F P767
+0.72.01      ST 00 F 01 I 0000.<br>
+UserComment : 37912<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 36 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 43828<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2649<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 128088 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2649 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.3 mm (35 mm equivalent: 36.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.43 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85830.jpg</td>
+<td class="supported">ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION<br>
+Model : MD 85830<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+YCbCrPositioning : Centered<br>
+FNumber : 7.2<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:07:10 22:06:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/396<br>
+ApertureValue : 7.2<br>
+BrightnessValue : 9.547<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+ExposureTime : 1/398<br>
+ISO : 80<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 80<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD85830.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD85830.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:12:04 19:25:24<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:07:10 22:06:26<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MaxAperture : 7.2<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2008/07/10 22:06:26<br>
+CameraDateTime : undefined<br>
+<br>
+SubSecTime : 437<br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 870<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 652<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2568<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9940<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 7.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/398<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2008:12:04 19:25:24.437<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9940 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 0.94 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85675.jpg</td>
+<td class="supported">Make : MEDION 5MP DIGITCAM<br>
+Model : MD 85675<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0550<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Creative (Slow speed)<br>
+ISO : 140<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:12:14 23:01:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+LightSource : Flash<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD85675.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD85675.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 66 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:12:14 23:01:40<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:12:14 23:01:40<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.365315755<br>
+CompressedBitsPerPixel : 1.3653157552083333<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 768<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 1<br>
+DigitalZoomRatio : undefined<br>
+<br>
+Sharpness : Normal<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+ThumbnailOffset : 3840<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6439<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 56736 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6439 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85447.jpg</td>
+<td class="supported">ImageDescription : My beautiful picture<br>
+Make : MedionMD 854471158B.04.06<br>
+Model : MD 8544711<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1158B.04.061011E<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : Exif2.1 W<br>
+DateTimeOriginal : 2005:02:06 14:15:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/16<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD85447.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD85447.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:02:06 14:15:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:02:06 14:15:22<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.290777537<br>
+CompressedBitsPerPixel : 2.290777537448347<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FileSource : Unknown (DSC)<br>
+FileSource : DSC Adrre<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 924<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6014<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6014 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85375.jpg</td>
+<td class="supported">ImageDescription : My beautiful picture<br>
+Make : MedionMD 853751158B.01.06<br>
+Model : MD 8537511<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1158B.01.060308E<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+ExposureTime : 1/1293<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : Exif2.1 Y<br>
+DateTimeOriginal : 2012:08:07 23:32:17<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1024<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD85375.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD85375.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:08:07 23:32:17<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:08:07 23:32:17<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.571502938<br>
+CompressedBitsPerPixel : 1.5715029377582646<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FileSource : Unknown (DSC)<br>
+FileSource : DSC Adrre<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 924<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3889<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1293<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3889 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 13.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85173.jpg</td>
+<td class="supported">ImageDescription : My beautiful picture<br>
+Make : MEDIONMD 851731139A.09.05<br>
+Model : MD 8517311<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1139A.09.051227E<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : Exif2.1 Y<br>
+DateTimeOriginal : 2005:05:03 21:44:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/512<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD85173.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD85173.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:05:03 21:44:35<br>
+ModifyDate : undefined<br>
+<br>
+ExposureTime : 1/646<br>
+ExposureTime : 1/647<br>
+<br>
+CreateDate : 2005:05:03 21:44:35<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.323935547<br>
+CompressedBitsPerPixel : 1.323935546875<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FileSource : Unknown (DSC)<br>
+FileSource : DSC Adrre<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 924<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4019<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/646<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4019 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 12.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD511Z3.jpg</td>
+<td class="supported">ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD511Z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M402250<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:12:06 09:08:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/42<br>
+ApertureValue : 2.6<br>
+MeteringMode : Average<br>
+Flash : On, Flash fired<br>
+FocalLength : 14.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD511Z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD511Z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:12:06 09:08:33<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.6944444444<br>
+CompressedBitsPerPixel : 0.6944444444444444<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1349<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6735<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/42<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6735 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 14.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD5.2z3.jpg</td>
+<td class="supported">Make : MEDION<br>
+Model : MD5.2z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/33<br>
+FNumber : 2.6<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:29:00:26:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.8<br>
+ApertureValue : 2.8<br>
+BrightnessValue : 3.5<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Distant view</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD5.2z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD5.2z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:06:02 20:44:52<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:05:29:00:26:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+MakerNoteUnknownText : Test program                                                <br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 416<br>
+SubSecTime : undefined<br>
+<br>
+SubSecTimeOriginal : 00<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 00<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 969<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8851<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/33<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2004:05:29:00:26:31<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2004:05:29:00:26:31<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+SubSecModifyDate : 2004:06:02 20:44:52.416<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8851 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 10.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD411Z3.jpg</td>
+<td class="supported">ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD411Z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M305292<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:01:02 08:35:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.53125<br>
+ShutterSpeedValue : 1/81<br>
+ApertureValue : 2.6<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 17.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD411Z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD411Z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:01:02 08:35:18<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2117<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9439<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/81<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9439 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 17.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD410Z3.jpg</td>
+<td class="supported">ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD410Z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:04:21 14:15:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/197<br>
+ApertureValue : 2.6<br>
+MeteringMode : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 7.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD410Z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD410Z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : VER05150<br>
+Software : VER0515<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:04:21 14:15:50<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.293402778<br>
+CompressedBitsPerPixel : 1.2934027777777777<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10106<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/197<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10106 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD210Z3.jpg</td>
+<td class="supported">ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD210Z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : VER0415<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2031:04:06 12:11:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/91<br>
+ApertureValue : 2.3<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 15.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/MedionMD210Z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MedionMD210Z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2031:04:06 12:11:39<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.041666667<br>
+CompressedBitsPerPixel : 1.0416666666666667<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 360<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 743<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3934<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/91<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3934 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 15.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/Medion636Z3.jpg</td>
+<td class="supported">ImageDescription : My beautiful picture<br>
+Make : Medion<br>
+Model : 636Z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Oct 26 2005 V1.15.26<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+ExposureProgram : Not Defined<br>
+ISO : 200<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:12:31 22:36:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/11<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/Medion636Z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Medion636Z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 29 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:12:31 22:36:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:12:31 22:36:25<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.318104764<br>
+CompressedBitsPerPixel : 3.3181047641793526<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 20480 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : SKEY                       .?,?C?r????;*w??xjP ? ? ?->** ? ? ? ? { s R S R L _ O k b ? ? ? ? ? ? ? x ? x T ; .       <br>
+UserComment : 21210<br>
+<br>
+ExifImageWidth : 2864<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2152<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 21562<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8305<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8305 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/Medion.jpg</td>
+<td class="supported">ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION AG<br>
+Model : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/46<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:07:03 04:27:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 1.5<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Medion/Medion.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Medion.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Medion<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:07:03 04:27:41<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : 2.796875<br>
+<br>
+CreateDate : 2008:07:03 04:27:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : 191, 47, 260, 1, 1, 476  <br>
+UserComment : 191, 47, 260, 1, 1, 476<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 1<br>
+DigitalZoomRatio : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+SceneCaptureType : Standard<br>
+SceneCaptureType : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Soft<br>
+Sharpness : undefined<br>
+<br>
+SubjectDistanceRange : Unknown<br>
+SubjectDistanceRange : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 778<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12248<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/46<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12248 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Motorola/MotorolaXT890.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+BrightnessValue : 1.98<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2013:07:08 14:45:26<br>
+DateTimeOriginal : 2013:07:08 14:45:26<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 142<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 2448 px w<br>
+PixelYDimension : 3264 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistance : 0 m<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 4908<br>
+_OffsetSchema : 4177<br>
+_Padding : 2736<br>
+DateTime : 2013:07:08 15:14:40<br>
+ImageDescription : Jpeg<br>
+Make : Motorola<br>
+Model : XT890<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Microsoft Windows Photo Viewer 6.1.7600.16385<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2346</td>
+<td class="unsupported">ComponentsConfiguration : -, -, -, -<br>
+ComponentsConfiguration : <br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.65<br>
+<br>
+FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,32,32,0<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 2448<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 3264<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaXT720.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 0.0625<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:09:18 22:52:38<br>
+DateTimeOriginal : 2010:09:18 22:52:38<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 100<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : <br>
+LightSource : D65<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1296 px w<br>
+PixelYDimension : 736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/100<br>
+UserComment : 1296<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1610<br>
+DateTime : 2010:09:18 22:52:38<br>
+Make : Motorola<br>
+Model : XT720<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2.1-update1<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 602</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaVE66.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV600cellphone.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:10:01 00:33:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : <br>
+PixelXDimension : 160 px w<br>
+PixelYDimension : 120 px h<br>
+Artist : Stewart Johnson<br>
+Make : Motorola<br>
+Model : Motorola V600 cellphone<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 175</td>
+<td class="unsupported">UserComment :   FILENAME[rough/unsorted/Phone pics/V600/01-10-04_0033.jpg]<br>
+UserComment : 297<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV300.jpg</td>
+<td class="supported">DateTime : 2006:08:30 12:36:40<br>
+Make : Motorola<br>
+Model : V300</td>
+<td class="unsupported">Copyright : S?rgio Machado<br>
+Copyright : Sérgio Machado<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:10:28 09:46:00<br>
+DateTimeOriginal : 2006:10:28 09:46:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+ImageDescription : S/W Ver: 85.99.50R<br>
+Make : MOTOROLA<br>
+Model : V3<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV1100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:04:07 11:53:23<br>
+DateTimeOriginal : 2009:04:07 11:53:23<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+DateTime : 2009:04:07 11:53:23<br>
+ImageDescription : S/W Ver: 98.20.33B<br>
+Make : MOTOROLA<br>
+Model : V1100<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV1075.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:07:05 14:39:05<br>
+DateTimeOriginal : 2008:07:05 14:39:05<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+ImageDescription : S/W Ver: 85.97.CDP<br>
+Make : MOTOROLA<br>
+Model : V1075<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV6vc.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:02:27 11:05:15<br>
+DateTimeOriginal : 2010:02:27 11:05:15<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2010:02:27 11:05:15<br>
+ImageDescription : S/W Ver: 98.50.11R<br>
+Make : MOTOROLA<br>
+Model : RAZRV6vc<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV6v.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:05:30 14:47:58<br>
+DateTimeOriginal : 2009:05:30 14:47:58<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2009:05:30 14:47:58<br>
+ImageDescription : S/W Ver: 99.41.04E<br>
+Make : MOTOROLA<br>
+Model : RAZRV6v<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:02:11 12:12:53<br>
+DateTimeOriginal : 2007:02:11 12:12:53<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2007:02:11 12:12:53<br>
+ImageDescription : S/W Ver: 96.67.20R<br>
+Make : MOTOROLA<br>
+Model : RAZRV6<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xx.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:08:31 14:30:41<br>
+DateTimeOriginal : 2010:08:31 14:30:41<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+DateTime : 2010:08:31 14:30:41<br>
+ImageDescription : S/W Ver: 96.66.72A<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xx<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xv.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:06:24 08:01:20<br>
+DateTimeOriginal : 2007:06:24 08:01:20<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 800 px h<br>
+ImageDescription : S/W Ver: 85.97.C3P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xv<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xR.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:01:14 13:38:06<br>
+DateTimeOriginal : 2007:01:14 13:38:06<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+ImageDescription : S/W Ver: 86.43.15P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xR<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xM.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:09:08 18:21:20<br>
+DateTimeOriginal : 2008:09:08 18:21:20<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+ImageDescription : S/W Ver: 85.97.43P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xM<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3x.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:08:31 15:18:28<br>
+DateTimeOriginal : 2006:08:31 15:18:28<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+ImageDescription : S/W Ver: 85.97.F1P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3x<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">UserComment : Motorola
+RAZRV3x
+85.97.F1P
+2006:08:31 15:18:28
+  <br>
+UserComment : MotorolaRAZRV3x85.97.F1P2006:08:31 15:18:28<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMilestoneXT720.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -5.84765625<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:12:12 02:26:33<br>
+DateTimeOriginal : 2010:12:12 02:26:33<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 401<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 24<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 401<br>
+ImageUniqueID : <br>
+LightSource : D75<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 1840 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+UserComment : 646<br>
+WhiteBalance : Auto<br>
+DateTime : 2010:12:12 02:26:33<br>
+Make : Motorola<br>
+Model : MilestoneXT720<br>
+Software : 2.1-update1<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMilestone.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -2.14453125<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:05:03 01:55:28<br>
+DateTimeOriginal : 2010:05:03 01:55:28<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 125<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 100<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 125<br>
+ImageUniqueID : <br>
+LightSource : Other<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/10<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1610<br>
+GPSLatitude : 45° 32' 31.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 73° 44' 5.0000" W<br>
+GPSLongitudeRef : West<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2010:05:03 01:55:28<br>
+Make : Motorola<br>
+Model : Milestone<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2.0.1<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 602<br>
+_IFDpointer_GPS : 2222</td>
+<td class="unsupported">UserComment : 믯⚿欦祥潷摲☦∠慌慶≬∠畑扥捥"<br>
+UserComment : 1296<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS800.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:11:21 11:54:16<br>
+DateTimeOriginal : 2009:11:21 11:54:16<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 496<br>
+Make : Motorola Korea Inc<br>
+Model : MS800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6550B-MS800-4330<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS700.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:03:27 09:14:38<br>
+DateTimeOriginal : 2010:03:27 09:14:38<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : <br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 496<br>
+Make : Motorola Korea Inc<br>
+Model : MS700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6550B-MS700-4330<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:06 14:34:51<br>
+DateTimeOriginal : 2010:06:06 14:34:51<br>
+DigitalZoomRatio : 4<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/21<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 448<br>
+Make : Motorola Korea Inc<br>
+Model : MS600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6100C-MS600-6250<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS550.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 296<br>
+DateTime : 2010-03-21 13:41:40<br>
+ImageDescription : Photo0233<br>
+Make : Motorola Korea Inc<br>
+Model : MS550<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMOTORAZRV9.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:09:23 09:31:47<br>
+DateTimeOriginal : 2007:09:23 09:31:47<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2007:09:23 09:31:47<br>
+ImageDescription : S/W Ver: A0.03.28R<br>
+Make : MOTOROLA<br>
+Model : MOTORAZRV9<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMB200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:10:27 13:53:23<br>
+DateTimeOriginal : 2009:10:27 13:53:23<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 340<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2009:10:27<br>
+GPSLatitude : 37° 47' 17.2200" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 122° 23' 47.7800" W<br>
+GPSLongitudeRef : West<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 20:53:20<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2009:10:27 13:53:23<br>
+Make : Motorola<br>
+Model : MB200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186<br>
+_IFDpointer_GPS : 370</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaK3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:04:05 21:40:45<br>
+DateTimeOriginal : 2007:04:05 21:40:45<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2007:04:05 21:40:45<br>
+ImageDescription : S/W Ver: 99.31.03R<br>
+Make : MOTOROLA<br>
+Model : K3<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaEvokeQA4.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2011:08:16 11:38:28<br>
+DateTimeOriginal : 2011:08:16 11:38:28<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 592<br>
+_IFDpointer_Makernote : Motorola MC.102908.0rr42671.03.TBD.0000.0006.D 003<br>
+Make : Motorola<br>
+Model : Motorola Evoke QA4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Software : HALOC9_1.53.11S1<br>
+Software : HALOC91.53.11S1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaEZX.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2007:08:31 12:36:27<br>
+DateTimeOriginal : 2007:08:31 12:36:27<br>
+ExifVersion : 2.10<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+MeteringMode : Average<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 69,90,88,32,99,97,109,101,114,97,32,115,101,110,115,111,114,32,114,101,103,105,115,116,101,114,32,115,101,116,116,105,110,103,115<br>
+Copyright : Motorola<br>
+DateTime : 2007:08:31 12:36:27<br>
+ImageDescription : HELLOMOTO<br>
+Make : Motorola<br>
+Model : EZX Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : EZX V1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">ApertureValue : 1<br>
+ApertureValue : NaN<br>
+<br>
+BrightnessValue : undef<br>
+BrightnessValue : NaN<br>
+<br>
+ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+ExposureTime : 0<br>
+ExposureTime : NaN<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+UserComment : EZX phone<br>
+UserComment : 69,90,88,32,112,104,111,110,101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaEX300.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2011:04:28 12:38:57<br>
+DateTimeOriginal : 2011:04:28 12:38:57<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 532<br>
+Make : Motorola<br>
+Model : EX300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : APP-M2V100R001ENGC01B129-DebugNoLog<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE770v.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:10:15 14:37:10<br>
+DateTimeOriginal : 2006:10:15 14:37:10<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ImageDescription : S/W Ver: 85.92.701<br>
+Make : MOTOROLA<br>
+Model : E770v<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE770.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:05:01 22:45:07<br>
+DateTimeOriginal : 2009:05:01 22:45:07<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ImageDescription : S/W Ver: 85.97.C3P<br>
+Make : MOTOROLA<br>
+Model : E770<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE680.jpg</td>
+<td class="supported">CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:11 14:56:18<br>
+DateTimeOriginal : 2005:08:11 14:56:18<br>
+ExifVersion : 2.10<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+LightSource : Daylight<br>
+MeteringMode : Average<br>
+SceneCaptureType : Landscape<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+WhiteBalance : Auto<br>
+_IFDpointer_EXIF : 26</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE365.jpg</td>
+<td class="supported">DateTimeOriginal : 2006:07:25 19:35:15<br>
+ExifVersion : 2.20<br>
+DateTime : 2006:07:29 17:40:26<br>
+Make : Motorola<br>
+Model : E365<br>
+Software : Paint.NET v2.62<br>
+_IFDpointer_EXIF : 124</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE1070.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:11:17 18:37:25<br>
+DateTimeOriginal : 2006:11:17 18:37:25<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+ImageDescription : S/W Ver: 85.97.C6P<br>
+Make : MOTOROLA<br>
+Model : E1070<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaDROID2GLOBAL.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -4.85546875<br>
+ColorSpace : sRGB<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2011:02:26 04:03:46<br>
+DateTimeOriginal : 2011:02:26 04:03:46<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 794<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 100<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 30 mm<br>
+GainControl : High gain up<br>
+ISO : 794<br>
+ImageUniqueID : <br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1456 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/15<br>
+SubjectDistance : 0 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1480<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2011:02:26<br>
+GPSLatitude : 0° 12' 45.0000" S<br>
+GPSLatitudeRef : South<br>
+GPSLongitude : 78° 29' 21.0000" W<br>
+GPSLongitudeRef : West<br>
+GPSMapDatum : Unknown<br>
+GPSTimeStamp : 04:03:20<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2011:02:26 04:03:46<br>
+Make : Motorola<br>
+Model : DROID2 GLOBAL 2f140001ffd800000a3a9c5303026017<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2.2<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 686<br>
+_IFDpointer_GPS : 2092</td>
+<td class="unsupported">ComponentsConfiguration : Cb, Y, Cr, Y<br>
+ComponentsConfiguration : <br>
+<br>
+FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,32,0<br>
+<br>
+GPSProcessingMethod : Unknown<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,85,110,107,110,111,119,110,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaDROID2.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -0.3203125<br>
+ColorSpace : sRGB<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:12:04 00:07:54<br>
+DateTimeOriginal : 2010:12:04 00:07:54<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 398<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 30 mm<br>
+GainControl : High gain up<br>
+ISO : 398<br>
+ImageUniqueID : <br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1456 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/15<br>
+SubjectDistance : 0 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1472<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2010:12:04<br>
+GPSLatitude : 40° 51' 3.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 73° 56' 19.0000" W<br>
+GPSLongitudeRef : West<br>
+GPSMapDatum : Unknown<br>
+GPSTimeStamp : 00:07:31<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2010:12:04 00:07:54<br>
+Make : Motorola<br>
+Model : DROID2 4efa0021ffd800000a3a513a13025025<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2.2<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 686<br>
+_IFDpointer_GPS : 2084</td>
+<td class="unsupported">ComponentsConfiguration : Cb, Y, Cr, Y<br>
+ComponentsConfiguration : <br>
+<br>
+FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+LightSource : Standard Light A<br>
+LightSource : Standard light A<br>
+<br>
+UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,32,0<br>
+<br>
+GPSProcessingMethod : Unknown<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,85,110,107,110,111,119,110,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaDROID.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaC261.jpg</td>
+<td class="supported">ColorSpace : 0<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:09:10:56:12<br>
+DateTimeOriginal : 2005:05:09:10:56:12<br>
+ExifVersion : 2.20<br>
+ExposureBias : NaN<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+FileSource : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+ISO : 0<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : 0<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 672<br>
+DateTime : 2005:05:09:10:56:12<br>
+ImageDescription : <br>
+Make : Motorola<br>
+Model : C261<br>
+Orientation : 0<br>
+ResolutionUnit : 0<br>
+YCbCrPositioning : 0<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">ComponentsConfiguration : -, -, -, -<br>
+ComponentsConfiguration : <br>
+<br>
+CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+ExposureTime : 0<br>
+ExposureTime : NaN<br>
+<br>
+FNumber : undef<br>
+FNumber : NaN<br>
+<br>
+FocalLength : 0.0 mm<br>
+FocalLength : NaN mm<br>
+<br>
+MaxApertureValue : 1<br>
+MaxApertureValue : NaN<br>
+<br>
+XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaA780.jpg</td>
+<td class="supported">DateTimeDigitized : 2006:07:29 22:06:30<br>
+DateTimeOriginal : 2006:07:29 22:06:30<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+LightSource : Daylight<br>
+MeteringMode : Average<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Make : Motorol<br>
+Model : A780<br>
+ResolutionUnit : inches<br>
+Software : v1.00<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaA760.jpg</td>
+<td class="supported">CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:06 20:33:47<br>
+DateTimeOriginal : 2005:01:06 20:33:46<br>
+ExifVersion : 2.10<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+LightSource : Daylight<br>
+MeteringMode : Average<br>
+SceneCaptureType : Landscape<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+WhiteBalance : Auto<br>
+_IFDpointer_EXIF : 26</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaA1600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+Contrast : Normal<br>
+DateTimeDigitized : 1970:01:16 05:51:08<br>
+DateTimeOriginal : 1970:01:16 05:51:08<br>
+ExifVersion : 2.10<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+MeteringMode : Average<br>
+PixelXDimension : 768 px w<br>
+PixelYDimension : 1024 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 69,90,88,32,99,97,109,101,114,97,32,115,101,110,115,111,114,32,114,101,103,105,115,116,101,114,32,115,101,116,116,105,110,103,115<br>
+Copyright : Motorola<br>
+DateTime : 1970:01:16 05:51:08<br>
+ImageDescription : HELLOMOTO<br>
+Make : Motorola<br>
+Model : A1600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : EZX V1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 239</td>
+<td class="unsupported">ApertureValue : 1<br>
+ApertureValue : NaN<br>
+<br>
+BrightnessValue : undef<br>
+BrightnessValue : NaN<br>
+<br>
+ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+ExposureTime : 0<br>
+ExposureTime : NaN<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+UserComment : EZX phone<br>
+UserComment : 69,90,88,32,112,104,111,110,101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/Motorola-V9m.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:09:19 20:21:50<br>
+DateTimeOriginal : 2009:09:19 20:21:50<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 506<br>
+Make : Motorola Korea Inc<br>
+Model : MOTOROLA - V9m<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6550B-MS700-4330<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,5071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/HP/HP_pstc6200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:19 23:29:41<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 550 px w<br>
+PixelYDimension : 1180 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP pstc6200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc5200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:10:02 20:49:24<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1541 px w<br>
+PixelYDimension : 2324 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pstc5200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc5100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:03:21 08:56:56<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 358 px w<br>
+PixelYDimension : 479 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pstc5100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc4400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:11:16 21:23:20<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 941 px w<br>
+PixelYDimension : 627 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+GPSVersion : 2.2.0.0<br>
+Make : HP<br>
+Model : HP pstc4400<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 99.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 99.00000000<br>
+_IFDpointer_EXIF : 198<br>
+_IFDpointer_GPS : 880</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc4340.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:12 01:35:56<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 974 px w<br>
+PixelYDimension : 667 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP pstc4340<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc4200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:09 22:00:18<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 406 px w<br>
+PixelYDimension : 502 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pstc4200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc4100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:09 07:17:12<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 3113 px w<br>
+PixelYDimension : 2213 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pstc4100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pstc3100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:07:05 21:35:29<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 408 px w<br>
+PixelYDimension : 607 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pstc3100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pst2700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:04:02 20:28:10<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1188 px w<br>
+PixelYDimension : 519 px h<br>
+Make : HP<br>
+Model : HP pst2700<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 318</td>
+<td class="unsupported">XPTitle : Russia<br>
+XPTitle : 82,0,117,0,115,0,115,0,105,0,97,0,0,0<br>
+<br>
+DeviceSettingDescription : (Binary data 536 bytes, use -b option to extract)<br>
+DeviceSettingDescription : 454<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pst2600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:03:21 00:28:23<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1344 px w<br>
+PixelYDimension : 928 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pst2600<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_pst2570.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:09:19 21:00:49<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1168 px w<br>
+PixelYDimension : 800 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP pst2570<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc2350.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:07:28 20:11:22<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 7216 px w<br>
+PixelYDimension : 4856 px h<br>
+Saturation : 7808<br>
+Sharpness : 7824<br>
+Make : HP<br>
+Model : HP psc2350<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 1200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 1200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc2300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 928 px w<br>
+PixelYDimension : 1410 px h<br>
+Make : HP<br>
+Model : HP psc2300<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc2200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:02:18 17:47:37<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 851 px w<br>
+PixelYDimension : 1341 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP psc2200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc2100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:10:19 10:41:46<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1022 px w<br>
+PixelYDimension : 688 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP psc2100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc1600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2008:03:26 10:10: 6<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1165 px w<br>
+PixelYDimension : 796 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+_IFDpointer_Interop : 613<br>
+DateTime : 2008:04:07 00:45:23<br>
+Make : HP<br>
+Model : HP psc1600<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc1500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2006:02:25 18:46: 5<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 707 px w<br>
+PixelYDimension : 708 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP psc1500<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc1400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2006:02:16 11:19:10<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 528 px w<br>
+PixelYDimension : 529 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP psc1400<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc1310.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2007:11:20 11:18: 7<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1176 px w<br>
+PixelYDimension : 801 px h<br>
+Saturation : 7008<br>
+Sharpness : 7024<br>
+Make : HP<br>
+Model : HP psc1310<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc1300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1411 px w<br>
+PixelYDimension : 943 px h<br>
+Make : HP<br>
+Model : HP psc1300<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_psc1100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2001:01:03 02:45: 5<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 595 px w<br>
+PixelYDimension : 1004 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP psc1100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 185</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_photosmart735.jpg</td>
+<td class="supported">ApertureValue : 9.1<br>
+BrightnessValue : 10.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4.33<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:03:04 16:55:11<br>
+DateTimeOriginal : 2005:03:04 16:55:11<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/427<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : D55<br>
+MaxApertureValue : 9.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/425<br>
+SubjectDistance : 11.08 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1750<br>
+_IFDpointer_Makernote : 884<br>
+Make : Hewlett-Packard<br>
+Model : hp photosmart 735<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.12<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 338</td>
+<td class="unsupported">FNumber : 9.1<br>
+FNumber : 9.08<br>
+<br>
+FocalLength : 17.0 mm<br>
+FocalLength : 17 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_photosmart733.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+BrightnessValue : 6.11<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.57<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:28 16:22:20<br>
+DateTimeOriginal : 2004:08:28 16:22:20<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/311<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : D55<br>
+MaxApertureValue : 9.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/311<br>
+SubjectDistance : 99.99 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1750<br>
+_IFDpointer_Makernote : 884<br>
+Make : Hewlett-Packard<br>
+Model : hp photosmart 733<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.09Lite<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 338</td>
+<td class="unsupported">FNumber : 2.7<br>
+FNumber : 2.67<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_photosmart720.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:06:24 05:06:32<br>
+DateTimeOriginal : 2005:06:24 05:06:32<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/51<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 144<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 0 px w<br>
+PixelYDimension : 0 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 784<br>
+_IFDpointer_Interop : 912<br>
+_IFDpointer_Makernote : 628<br>
+DateTime : 2005:06:24 05:06:32<br>
+ImageDescription : hp photosmart 720<br>
+Make : Hewlett-Packard<br>
+Model : hp photosmart 720<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v18.4.32<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_photosmart612.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.07<br>
+DateTimeDigitized : 2001:01:03 18:33:17<br>
+DateTimeOriginal : 2001:01:03 18:33:17<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/30<br>
+FNumber : 35.3<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+MaxApertureValue : 10.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 0.8 m<br>
+_IFDpointer_Interop : 962<br>
+Make : Hewlett-Packard<br>
+Model : hp photosmart 612<br>
+ResolutionUnit : inches<br>
+Software : V3.60<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 504</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ojp7700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:02:25 16:42: 9<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 360 px w<br>
+PixelYDimension : 513 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ojp7700<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ojp7600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:03:16 11:43:58<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2305 px w<br>
+PixelYDimension : 2928 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ojp7600<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ojp7500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:13 16:41:27<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1691 px w<br>
+PixelYDimension : 2329 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ojp7500<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ojp7400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:06 07:49:44<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1700 px w<br>
+PixelYDimension : 2338 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ojp7400<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ojj6400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:11 15:38:48<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 328 px w<br>
+PixelYDimension : 400 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP ojj6400<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ojj4680.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:29 21:59:37<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 5096 px w<br>
+PixelYDimension : 7008 px h<br>
+Make : HP<br>
+Model : HP ojj4680<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 600.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 600.00000000<br>
+_IFDpointer_EXIF : 758</td>
+<td class="unsupported">DeviceSettingDescription : (Binary data 536 bytes, use -b option to extract)<br>
+DeviceSettingDescription : 222<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj7400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:03:17 19:14: 0<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1000 px w<br>
+PixelYDimension : 1334 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj7400<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj7300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2007:04:19 12:59:19<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 638 px w<br>
+PixelYDimension : 800 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj7300<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 416</td>
+<td class="unsupported">PageName : 5?633125852475625000?484037?0?1?0:614:904?C:\Documents and Settings\Angela Alcantar\My Documents\My Scans\2007-04 (Apr)\scan0003.jpg<br>
+PageName : 5633125852475625000484037010:614:904C:\Documents and Settings\Angela Alcantar\My Documents\My Scans\2007-04 (Apr)\scan0003.jpg<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj7200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2007:07:21 00:22:45<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1056 px w<br>
+PixelYDimension : 1478 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj7200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj6300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:08 10:01:26<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1700 px w<br>
+PixelYDimension : 2338 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj6300<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj6200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:11:14 15:49:42<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1696 px w<br>
+PixelYDimension : 2224 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj6200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj5600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:02 12:34:58<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1700 px w<br>
+PixelYDimension : 2338 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj5600<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj5500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 999 px w<br>
+PixelYDimension : 1392 px h<br>
+Make : HP<br>
+Model : HP oj5500<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj4300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:02:15 20:18:19<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 794 px w<br>
+PixelYDimension : 757 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj4300<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_oj4100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeOriginal : 2007:01:03 08:45:25<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1572 px w<br>
+PixelYDimension : 2068 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP oj4100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_iPAQrx3000.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+DateTimeDigitized : 2006:03:19 18:34:16<br>
+DateTimeOriginal : 2006:03:19 18:34:16<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 149<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FocalLength : 8.8 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 5183.700000<br>
+FocalPlaneYResolution : 5183.700000<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+SceneType : 0<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 866<br>
+_IFDpointer_Makernote : 732<br>
+Copyright : Copyright 2004<br>
+DateTime : 2006:03:19 18:34:16<br>
+ImageDescription : <br>
+Make : HP<br>
+Model : iPAQ rx3000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HP CAM V1.0.00<br>
+XResolution : 100.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 100.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_iPAQhw6515.jpg</td>
+<td class="supported">ExifVersion : 2.20<br>
+Flash : No Flash<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+Model : HP iPAQ hw6515<br>
+_IFDpointer_EXIF : 53</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_iPAQ_VoiceMessenger.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2010:06:05 19:00:40<br>
+DateTimeOriginal : 2010:06:05 19:00:40<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 490<br>
+Make : Hewlett-Packard Co.<br>
+Model : iPAQ Voice Messenger<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_pls1312.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:26 10:46: 5<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 822 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP Scanjet pls1312<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_pls1017.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:07 11:51:54<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1159 px w<br>
+PixelYDimension : 1651 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet pls1017<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_e709a.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:02:25 16:52:20<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1158 px w<br>
+PixelYDimension : 794 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP Scanjet e709a<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_djf4200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:21 18:10:40<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2544 px w<br>
+PixelYDimension : 3500 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP Scanjet djf4200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_djf4100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:09 10:01: 9<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2550 px w<br>
+PixelYDimension : 3507 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet djf4100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_djf300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:03:09 10:33:32<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1154 px w<br>
+PixelYDimension : 781 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet djf300<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_djf2200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:03:28 19:31:57<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 789 px w<br>
+PixelYDimension : 1178 px h<br>
+Saturation : Low saturation<br>
+Sharpness : Soft<br>
+Make : HP<br>
+Model : HP Scanjet djf2200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet_djf2100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:09:20 20:44:19<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2338 px w<br>
+PixelYDimension : 1700 px h<br>
+Make : HP<br>
+Model : HP Scanjet djf2100<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 766</td>
+<td class="unsupported">DeviceSettingDescription : (Binary data 536 bytes, use -b option to extract)<br>
+DeviceSettingDescription : 230<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanjetG4050.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:25 11:37:26<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 761 px w<br>
+PixelYDimension : 1188 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet G4050<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanjetG4010.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:07 13:40:45<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1716 px w<br>
+PixelYDimension : 2464 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet G4010<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanjetG3010.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:11 22:49:39<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 487 px w<br>
+PixelYDimension : 871 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet G3010<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanjetG2710.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:09 10:31:58<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1700 px w<br>
+PixelYDimension : 2340 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet G2710<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet8300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2007:11:09 11:03:44<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 475 px w<br>
+PixelYDimension : 850 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubsecTime : 687<br>
+_IFDpointer_Interop : 444<br>
+DateTime : 2007:11:10 13:12:46<br>
+Make : HP<br>
+Model : HP Scanjet 8300<br>
+Orientation : Horizontal (normal)<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 274</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet7650.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:09 11:51:57<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 787 px w<br>
+PixelYDimension : 1193 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet 7650<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet4800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:11:04 20:18: 1<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1664 px w<br>
+PixelYDimension : 1096 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP Scanjet 4800<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet4570.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:12:31 00:18:32<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 868 px w<br>
+PixelYDimension : 1178 px h<br>
+Saturation : Normal<br>
+Sharpness : Hard<br>
+Make : HP<br>
+Model : HP Scanjet 4570<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet4370.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:10:14 13:41: 0<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2508 px w<br>
+PixelYDimension : 1644 px h<br>
+Make : HP<br>
+Model : HP Scanjet 4370<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 710</td>
+<td class="unsupported">DeviceSettingDescription : (Binary data 536 bytes, use -b option to extract)<br>
+DeviceSettingDescription : 174<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_Scanjet3800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:21 12:33:40<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2213 px w<br>
+PixelYDimension : 3348 px h<br>
+Saturation : Normal<br>
+Sharpness : Hard<br>
+Make : HP<br>
+Model : HP Scanjet 3800<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet_pls3390.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:03:12 11:56:10<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 832 px w<br>
+PixelYDimension : 1216 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ScanJet pls3390<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet_pls3052.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:13 14:23:58<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1680 px w<br>
+PixelYDimension : 784 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ScanJet pls3052<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet_pls3050.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:08:06 14:06:12<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1700 px w<br>
+PixelYDimension : 2352 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ScanJet pls3050<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet_pls3020.jpg</td>
+<td class="supported">PixelXDimension : 3280 px w<br>
+PixelYDimension : 2368 px h<br>
+SubsecTime : 624<br>
+DateTime : 2010:04:27 12:44:04<br>
+Make : HP<br>
+Model : HP ScanJet pls3020<br>
+Orientation : Horizontal (normal)<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 600.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 600.00000000<br>
+_IFDpointer_EXIF : 311</td>
+<td class="unsupported">Software : ????????? ???????? ????????? ??????????? ???????? ACD Systems<br>
+Software : ACD Systems<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet_pls3015.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:31 12:20: 4<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1700 px w<br>
+PixelYDimension : 2331 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+Make : HP<br>
+Model : HP ScanJet pls3015<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet_pls2800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:02:01 05:21:20<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2352 px w<br>
+PixelYDimension : 1700 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubsecTime : 390<br>
+_IFDpointer_Interop : 447<br>
+DateTime : 2010:02:01 16:56:27<br>
+Make : HP<br>
+Model : HP ScanJet pls2800<br>
+Orientation : Horizontal (normal)<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 277</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet8200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 3560 px w<br>
+PixelYDimension : 2314 px h<br>
+Make : HP<br>
+Model : HP ScanJet 8200<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 600.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 600.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet5590.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 500 px w<br>
+PixelYDimension : 804 px h<br>
+Make : HP<br>
+Model : HP ScanJet 5590<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet5530.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 992 px w<br>
+PixelYDimension : 720 px h<br>
+Make : HP<br>
+Model : HP ScanJet 5530<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet4600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:01:21 20:16:10<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1648 px w<br>
+PixelYDimension : 2340 px h<br>
+Saturation : 10640<br>
+Sharpness : 10656<br>
+Make : HP<br>
+Model : HP ScanJet 4600<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet4500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1020 px w<br>
+PixelYDimension : 1120 px h<br>
+Make : HP<br>
+Model : HP ScanJet 4500<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet4070.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:11:26 22:29:29<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1046 px w<br>
+PixelYDimension : 802 px h<br>
+Saturation : 6656<br>
+Sharpness : 6672<br>
+Make : HP<br>
+Model : HP ScanJet 4070<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet3970.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 709 px w<br>
+PixelYDimension : 500 px h<br>
+Make : HP<br>
+Model : HP ScanJet 3970<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet3770.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:10:14 20:34: 7<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 312 px w<br>
+PixelYDimension : 394 px h<br>
+Saturation : 3088<br>
+Sharpness : 3104<br>
+SubsecTime : 133<br>
+DateTime : 2010:06:02 19:00:42<br>
+Make : HP<br>
+Model : HP ScanJet 3770<br>
+Orientation : Horizontal (normal)<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 274</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet3670.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1067 px w<br>
+PixelYDimension : 591 px h<br>
+Make : HP<br>
+Model : HP ScanJet 3670<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet3500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 809 px w<br>
+PixelYDimension : 1189 px h<br>
+Make : HP<br>
+Model : HP ScanJet 3500<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_ScanJet2400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1232 px w<br>
+PixelYDimension : 800 px h<br>
+Make : HP<br>
+Model : HP ScanJet 2400<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR967.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+BrightnessValue : 6.11328125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:12:17 13:18:25<br>
+DateTimeOriginal : 2007:12:17 13:18:25<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/145<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : d4001a03fa0000ad4c003fd500000000<br>
+LightSource : D65<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/145<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3716<br>
+DateTime : 2007:12:17 13:18:25<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R960  (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.0000205<br>
+FocalPlaneXResolution : 0.000021<br>
+<br>
+FocalPlaneYResolution : 0.0000205<br>
+FocalPlaneYResolution : 0.000021<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR960.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+BrightnessValue : 6.203125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:17 08:37:00<br>
+DateTimeOriginal : 2007:03:17 08:37:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/254<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : d4001a02e00000f5d90038be00000000<br>
+LightSource : D50<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2144 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/254<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3716<br>
+DateTime : 2007:03:17 08:37:00<br>
+Make : Hewlett-Packard<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.0000205<br>
+FocalPlaneXResolution : 0.000021<br>
+<br>
+FocalPlaneYResolution : 0.0000205<br>
+FocalPlaneYResolution : 0.000021<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+Model : HP Photosmart R960  (V01.00)+<br>
+Model : HP Photosmart R960  (V01.00)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR930.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 8.59375<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:11:13 10:27:55<br>
+DateTimeOriginal : 2010:11:13 10:27:55<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/959<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashEnergy : 0<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/954<br>
+SubjectDistance : 0.805 m<br>
+_IFDpointer_Makernote : 2038<br>
+Copyright : <br>
+DateTime : 2010:11:13 10:27:55<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R930<br>
+Software : 0.2.07<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 1552</td>
+<td class="unsupported">CompressedBitsPerPixel : 4.246672954<br>
+CompressedBitsPerPixel : 4.2466729543124435<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+DeviceSettingDescription : (Binary data 1236 bytes, use -b option to extract)<br>
+DeviceSettingDescription : 282<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR847.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 0.99609375<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2009:03:01 19:51:35<br>
+DateTimeOriginal : 2009:03:01 19:51:35<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 100<br>
+ImageUniqueID : d4034882910002480b366e3600000000<br>
+LightSource : Other<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 1143 px w<br>
+PixelYDimension : 1627 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/5<br>
+SubjectDistance : 0.317 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2588<br>
+_IFDpointer_Makernote : 836<br>
+Copyright : <br>
+DateTime : 2009:03:01 19:51:35<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R840<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+Software : Picasa 3.0<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 242</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CompressedBitsPerPixel : 2.924130743<br>
+CompressedBitsPerPixel : 2.924130742983468<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR840.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 4.6171875<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2008:01:24 09:25:00<br>
+DateTimeOriginal : 2008:01:24 09:25:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/61<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashEnergy : 189<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 100<br>
+ImageUniqueID : d403480039000573901ce84400000000<br>
+LightSource : 61141<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 1664 px w<br>
+PixelYDimension : 1248 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/61<br>
+SubjectDistance : 65.535 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2606<br>
+_IFDpointer_Makernote : 846<br>
+Copyright : <br>
+DateTime : 2008:01:24 09:25:00<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R840<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.2.07<br>
+XResolution : 1.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 1.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.992561175<br>
+CompressedBitsPerPixel : 2.9925611748027614<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR837.jpg</td>
+<td class="supported">ApertureValue : 5.2<br>
+BrightnessValue : 8.7734375<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2007:03:01 13:56:06<br>
+DateTimeOriginal : 2007:03:01 13:56:06<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/256<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashEnergy : 0<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 100<br>
+ImageUniqueID : d40345401200007ad134462900000000<br>
+LightSource : Other<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/255<br>
+SubjectDistance : 65.535 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2664<br>
+_IFDpointer_Makernote : 896<br>
+Copyright : Copyright 2006<br>
+DateTime : 2007:03:01 13:56:06<br>
+ImageDescription : My beautiful picture<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R837<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.1.00<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 278</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.891313341<br>
+CompressedBitsPerPixel : 3.8913133409288196<br>
+<br>
+FNumber : 5.2<br>
+FNumber : 5.23<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR827.jpg</td>
+<td class="supported">ApertureValue : 5.5<br>
+BrightnessValue : 7.94921875<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:04 14:58:18<br>
+DateTimeOriginal : 2007:01:04 14:58:18<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/463<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 6.5 mm<br>
+FocalLengthIn35mmFilm : 39 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : d4001900e4000027cb00561500000000<br>
+LightSource : D55<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 3088 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/464<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3716<br>
+DateTime : 2007:01:04 14:58:18<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R827  (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FNumber : 5.1<br>
+FNumber : 5.09<br>
+<br>
+FocalPlaneXResolution : 0.0000186<br>
+FocalPlaneXResolution : 0.000019<br>
+<br>
+FocalPlaneYResolution : 0.0000186<br>
+FocalPlaneYResolution : 0.000019<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartR740.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 0.37<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:09:12 07:52:36<br>
+DateTimeOriginal : 2007:09:12 07:52:36<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+ISO : 100<br>
+ImageUniqueID : d4074006400AA06EC47D790C00000000<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 618 px w<br>
+PixelYDimension : 464 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 33708<br>
+_IFDpointer_Makernote : 1184<br>
+DateTime : 2007:09:12 07:52:36<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart R740<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.14 CN766A108J Cal V1.06<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartMz67.jpg</td>
+<td class="supported">BrightnessValue : 3.16<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:01 19:46:44<br>
+DateTimeOriginal : 2008:07:01 19:46:44<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/34<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : d40637068004C116247D870100000000<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 35802<br>
+_IFDpointer_Makernote : 758<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2008:07:01 19:46:44<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart Mz60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.54<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256<br>
+_IFDpointer_GPS : 35874</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+UserComment : I<br>
+UserComment : 35758<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartMz60.jpg</td>
+<td class="supported">BrightnessValue : 9.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:04:23 22:08:47<br>
+DateTimeOriginal : 2008:04:23 22:08:47<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/419<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : d4063706700441376E7D841700000000<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 35746<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 35914<br>
+_IFDpointer_Makernote : 746<br>
+DateTime : 2008:04:23 22:08:47<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart Mz60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.54<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM737.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -2.40234375<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2007:11:29 19:14:47<br>
+DateTimeOriginal : 2007:11:29 19:14:47<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1.3<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+ISO : 100<br>
+ImageUniqueID : d402da006100017cee2c6e5800000000<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+SubjectDistance : 2 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 35918<br>
+_IFDpointer_Makernote : 834<br>
+Copyright : <br>
+DateTime : 2007:11:29 19:14:47<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M730<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.1.05<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.557301679<br>
+CompressedBitsPerPixel : 3.5573016788414713<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+ShutterSpeedValue : 1.3<br>
+ShutterSpeedValue : 0.8<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM630.jpg</td>
+<td class="supported">ApertureValue : 5.4<br>
+BrightnessValue : 8.447<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2008:01:16 14:30:49<br>
+DateTimeOriginal : 2008:01:16 14:30:49<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/473<br>
+FNumber : 5.4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.4 mm<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2576 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/471<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M630<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.2000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">ImageUniqueID : d401B006401CD0CC197D811000000000<br>
+ImageUniqueID : d401B006401CD0CC197D81100000000<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM627.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -4.113<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:21 21:36:35<br>
+DateTimeOriginal : 2007:01:21 21:36:35<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3040 px w<br>
+PixelYDimension : 2288 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M627<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0001<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM547.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+BrightnessValue : 9.37<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2010:02:06 17:25:02<br>
+DateTimeOriginal : 2010:02:06 17:25:02<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1063<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1060<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M540<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.2000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">ImageUniqueID : d401B006401E80F4EE7DA20600000000<br>
+ImageUniqueID : d401B006401E80F4EE7DA2060000000<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM540.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+BrightnessValue : 2.823<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2008:05:22 23:41:39<br>
+DateTimeOriginal : 2008:05:22 23:41:39<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+ISO : 200<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M540<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.2000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">ImageUniqueID : d401B0064037F14D337D851600000000<br>
+ImageUniqueID : d401B0064037F14D337D85160000000<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM537.jpg</td>
+<td class="supported">ApertureValue : 6.1<br>
+BrightnessValue : 11.04<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:23 10:08:42<br>
+DateTimeOriginal : 2007:03:23 10:08:42<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/907<br>
+FNumber : 6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 50<br>
+ImageUniqueID : d40537001D0A082A07D7031700000000<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2128 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/910<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 32528<br>
+_IFDpointer_Makernote : 1184<br>
+DateTime : 2007:03:23 10:08:42<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M537<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.21 CN71RE10N8<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM527.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 1.265<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:22 16:43:16<br>
+DateTimeOriginal : 2006:10:22 16:43:16<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2800 px w<br>
+PixelYDimension : 2128 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4948<br>
+_IFDpointer_Makernote : 854<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M527<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.4100,SN:CN64RC11RNC<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+LightSource : Cool White Fluorescent<br>
+LightSource : Cool white fluorescent (W 3900 - 4500K)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM525.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -0.381<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:11:24 18:34:23<br>
+DateTimeOriginal : 2006:11:24 18:34:23<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2800 px w<br>
+PixelYDimension : 2128 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 710<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M525<br>
+Software : Version 1.4400,SN:CN691G6091S<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 136</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM517.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2005:06:26 20:11:06<br>
+DateTimeOriginal : 2005:06:26 20:11:06<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/167<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : 158<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 1288 px w<br>
+PixelYDimension : 976 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/167<br>
+SubjectDistance : 1.36 m<br>
+SubjectDistanceRange : Distant view<br>
+SubsecTime : 234<br>
+_IFDpointer_Interop : 805<br>
+_IFDpointer_Makernote : Hewlett-Packard<br>
+Copyright : Copyright 2003-2004<br>
+DateTime : 2005:06:29 08:21:56<br>
+ImageDescription : HPIM0715.JPG<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M517<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 287</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.215520314<br>
+CompressedBitsPerPixel : 2.215520313613685<br>
+<br>
+FNumber : 4.8<br>
+FNumber : 4.81<br>
+<br>
+FocalLength : 6.2 mm<br>
+FocalLength : 6.3 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM440.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2007:11:27 11:25:29<br>
+DateTimeOriginal : 2007:11:27 11:25:29<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/200<br>
+FNumber : 3.4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.2 mm<br>
+ISO : 100<br>
+LightSource : Shade<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/199<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M440<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.1000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">ImageUniqueID : d401B006400C30A0A97D7B1B00000000<br>
+ImageUniqueID : d401B006400C30A0A97D7B1B0000000<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM437.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+BrightnessValue : 10.97<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:09 12:58:31<br>
+DateTimeOriginal : 2007:08:09 12:58:31<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1002<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+ISO : 50<br>
+ImageUniqueID : d4043700090C3A1F07D7080900000000<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2576 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/1003<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 30952<br>
+_IFDpointer_Makernote : 1184<br>
+DateTime : 2007:08:09 12:58:31<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart M437<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.24 CN719E20W4<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM425.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+BrightnessValue : 7.39<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:08:20 14:27:00<br>
+DateTimeOriginal : 2006:08:20 14:27:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/233<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.4 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : D50<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2576 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/232<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4948<br>
+_IFDpointer_Makernote : 854<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M425<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.4100,SN:CN65BD73BTF<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM417.jpg</td>
+<td class="supported">ApertureValue : 3.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2005:11:11 15:15:52<br>
+DateTimeOriginal : 2005:11:11 15:15:52<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/334<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.6 mm<br>
+GainControl : 459<br>
+ISO : 200<br>
+LensMake : 0<br>
+LensModel : 0<br>
+LensSerialNumber : 51<br>
+LensSpecification : 201<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 2576 px w<br>
+PixelYDimension : 1952 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SerialNumber : 98<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/334<br>
+SubjectDistance : 100 m<br>
+SubjectDistanceRange : Distant view<br>
+_IFDpointer_Interop : 5942<br>
+_IFDpointer_Makernote : Hewlett-Packard<br>
+Copyright : Copyright 2003-2004<br>
+DateTime : 2005:11:11 15:15:52<br>
+ImageDescription : HPIM0348.JPG<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M417<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.728314963<br>
+CompressedBitsPerPixel : 2.728314962834742<br>
+<br>
+FNumber : 3.9<br>
+FNumber : 3.87<br>
+<br>
+OwnerName : 0 0 0 0 0<br>
+OwnerName : 0,0,0,0,0<br>
+<br>
+Software : 730_RF<br>
+Software : 730R<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM415.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2006:01:01 02:49:41<br>
+DateTimeOriginal : 2006:01:01 02:49:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+GainControl : 179<br>
+ISO : 100<br>
+LensMake : 0<br>
+LensModel : 1<br>
+LensSerialNumber : 64<br>
+LensSpecification : 179<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 364 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SerialNumber : 71<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/27<br>
+SubjectDistance : 0.42 m<br>
+SubjectDistanceRange : Distant view<br>
+_IFDpointer_Interop : 9607<br>
+_IFDpointer_Makernote : Hewlett-Packard<br>
+Copyright : Copyright 2003-2004<br>
+DateTime : 2006:01:01 02:49:41<br>
+ImageDescription : HPIM0102.JPG<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M415<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 267</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CompressedBitsPerPixel : 1.5887416<br>
+CompressedBitsPerPixel : 1.5887415996334386<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.91<br>
+<br>
+FocalLength : 6.2 mm<br>
+FocalLength : 6.3 mm<br>
+<br>
+OwnerName : 0 0 0 0 0<br>
+OwnerName : 0,0,0,0,0<br>
+<br>
+Software : 1.900_RR<br>
+Software : 1.900R<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM407.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2005:05:28 11:33:07<br>
+DateTimeOriginal : 2005:05:28 11:33:07<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+GainControl : 233<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/64<br>
+SubjectDistance : 5 m<br>
+SubjectDistanceRange : Distant view<br>
+_IFDpointer_Makernote : Hewlett-Packard<br>
+Copyright : Copyright 2003-2004<br>
+DateTime : 2005:05:28 11:33:07<br>
+ImageDescription : IM000443.JPG<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M407<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 3504</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.315463202<br>
+CompressedBitsPerPixel : 1.3154632017456853<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.91<br>
+<br>
+FocalLength : 6.2 mm<br>
+FocalLength : 6.3 mm<br>
+<br>
+Software : 1.03_O<br>
+Software : 1.03O<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM307.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2005:03:10 00:23:32<br>
+DateTimeOriginal : 2005:03:10 00:23:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : 354<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/10<br>
+SubjectDistance : 3.3 m<br>
+SubjectDistanceRange : Distant view<br>
+_IFDpointer_Interop : 4600<br>
+_IFDpointer_Makernote : Hewlett-Packard<br>
+Copyright : Copyright 2003-2004<br>
+DateTime : 2005:03:10 00:23:32<br>
+ImageDescription : IM000656.JPG<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M307<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">CompressedBitsPerPixel : 4.208343506<br>
+CompressedBitsPerPixel : 4.208343505859375<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.91<br>
+<br>
+FocalLength : 6.2 mm<br>
+FocalLength : 6.3 mm<br>
+<br>
+Software : 1.06_N<br>
+Software : 1.06<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM305.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : 4352<br>
+DateTimeDigitized : 2005:08:03 22:07:54<br>
+DateTimeOriginal : 2005:08:03 22:07:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : 8112<br>
+ExposureTime : 1/64<br>
+FlashpixVersion : 1.00<br>
+GainControl : 8176<br>
+ISO : 8128<br>
+LightSource : 7984<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : 7968<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : 4368<br>
+SceneCaptureType : 8160<br>
+Sharpness : 4384<br>
+ShutterSpeedValue : 1/64<br>
+SubjectDistance : 0.39 m<br>
+SubjectDistanceRange : 4400<br>
+_IFDpointer_Makernote : 72,101,119,108,101,116,116,45,80,97,99,107,97,114,100,0<br>
+Copyright : Copyright 2003-2004<br>
+DateTime : 2005:08:03 22:07:54<br>
+ImageDescription : IM000812.JPG<br>
+Make : Hewlett-Packard<br>
+Model : Photosmart M305<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 328</td>
+<td class="unsupported">FNumber : 2.9<br>
+FNumber : 2.91<br>
+<br>
+Flash : Unknown (0x1f40)<br>
+Flash : 8000<br>
+<br>
+FocalLength : 6.2 mm<br>
+FocalLength : 6.3 mm<br>
+<br>
+Software : .07_NL<br>
+Software : .07NL<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM23.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:09:18 20:36:47<br>
+DateTimeOriginal : 2006:09:18 20:36:47<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 6.1 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 0.000025<br>
+FocalPlaneYResolution : 0.000025<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 746<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3364<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2006:09:18 20:36:47<br>
+Make : Hewlett-Packard<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 208</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+LightSource : ISO Studio Tungsten<br>
+LightSource : ISO studio tungsten<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+Model : HP Photosmart M23 (V01.00) d-?͸<br>
+Model : HP Photosmart M23 (V01.00) d-<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartM22.jpg</td>
+<td class="supported">ApertureValue : 6.5<br>
+BrightnessValue : 10.19140625<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:04 14:48:58<br>
+DateTimeOriginal : 2005:05:04 14:48:58<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1515<br>
+FNumber : 6.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 6.1 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 0.000025<br>
+FocalPlaneYResolution : 0.000025<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : D55<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1082<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1496<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 27958<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2005:05:04 14:48:58<br>
+Make : Hewlett-Packard<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 460</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+Model : HP Photosmart M22 (V01.00) +?UU?<br>
+Model : HP Photosmart M22 (V01.00) UU<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartE427.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 7.14<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:12:08 19:35:33<br>
+DateTimeOriginal : 2006:12:08 19:35:33<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/207<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2136 px w<br>
+PixelYDimension : 2848 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/207<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 20052<br>
+_IFDpointer_Makernote : 752<br>
+DateTime : 2006:12:08 19:35:33<br>
+ImageDescription : <br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart E427<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported">Software : V1.19 CN67Q141M1C<br>
+Software : V1.19 CN67Q141M1C<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartE330.jpg</td>
+<td class="supported">ApertureValue : 4.5<br>
+BrightnessValue : 7.754<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2007:09:30 02:16:24<br>
+DateTimeOriginal : 2007:09:30 02:16:24<br>
+DigitalZoomRatio : 1.2<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/342<br>
+FNumber : 4.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MaxApertureValue : 4.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1952 px w<br>
+PixelYDimension : 1472 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/340<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart E330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.5100<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+ImageUniqueID : d401B0064020A01FF87D791E00000000<br>
+ImageUniqueID : d401B0064020A01FF87D791E0000000<br>
+<br>
+LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartE327.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : -0.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:03:24 16:44:34<br>
+DateTimeOriginal : 2006:03:24 16:44:34<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 449 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 10 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : 2006:03:24 16:44:34<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart E327<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.10 CN6171410X<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartE317.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : -4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:01:12 22:56:16<br>
+DateTimeOriginal : 2006:01:12 22:56:16<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 10 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : 2006:01:12 22:56:16<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart E317<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.15 CN584141VD<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotosmartE217.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 7.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:10:09 15:58:52<br>
+DateTimeOriginal : 2005:10:09 15:58:52<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/155<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/155<br>
+SubjectDistance : 10 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : 2005:10:09 15:58:52<br>
+Make : Hewlett-Packard<br>
+Model : HP Photosmart E217<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.30 CN56911027<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR927.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+BrightnessValue : 9.87890625<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:03:13 14:13:33<br>
+DateTimeOriginal : 2006:03:13 14:13:33<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/806<br>
+FNumber : 6.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 0.000022<br>
+FocalPlaneYResolution : 0.000022<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : <br>
+LightSource : D55<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 3296 px w<br>
+PixelYDimension : 2480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/805<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3682<br>
+DateTime : 2006:03:13 14:13:33<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R927  (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR818.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 5.74609375<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:06:20 08:39:46<br>
+DateTimeOriginal : 2006:06:20 08:39:46<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/214<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : D65<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/214<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 24932<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2006:06:20 08:39:46<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R818  (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.00002775<br>
+FocalPlaneXResolution : 0.000028<br>
+<br>
+FocalPlaneYResolution : 0.00002775<br>
+FocalPlaneYResolution : 0.000028<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR817.jpg</td>
+<td class="supported">ApertureValue : 4.7<br>
+BrightnessValue : 7.99609375<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:14 13:07:43<br>
+DateTimeOriginal : 2005:08:14 13:07:43<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 50<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1031<br>
+FNumber : 4.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashEnergy : 33<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 20.7 mm<br>
+FocalLengthIn35mmFilm : 101 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 50<br>
+LightSource : D55<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 1936 px w<br>
+PixelYDimension : 2592 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1024<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 30650<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2005:08:14 13:07:43<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R817  (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.00002775<br>
+FocalPlaneXResolution : 0.000028<br>
+<br>
+FocalPlaneYResolution : 0.00002775<br>
+FocalPlaneYResolution : 0.000028<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR727.jpg</td>
+<td class="supported">ApertureValue : 7.9<br>
+BrightnessValue : 10.58203125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:03:19 15:40:51<br>
+DateTimeOriginal : 2006:03:19 15:40:51<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/524<br>
+FNumber : 7.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 6.5 mm<br>
+FocalLengthIn35mmFilm : 41 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+ImageUniqueID : <br>
+LightSource : D55<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2144 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/522<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3682<br>
+DateTime : 2006:03:19 15:40:51<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R727  (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.00002025<br>
+FocalPlaneXResolution : 0.000020<br>
+<br>
+FocalPlaneYResolution : 0.00002025<br>
+FocalPlaneYResolution : 0.000020<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR725.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 3.52734375<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:11:14 01:48:23<br>
+DateTimeOriginal : 2006:11:14 01:48:23<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/57<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 6.5 mm<br>
+FocalLengthIn35mmFilm : 41 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+ImageUniqueID : <br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2144 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/57<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3682<br>
+DateTime : 2006:11:14 01:48:23<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R725  (V01.00)d<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.00002025<br>
+FocalPlaneXResolution : 0.000020<br>
+<br>
+FocalPlaneYResolution : 0.00002025<br>
+FocalPlaneYResolution : 0.000020<br>
+<br>
+LightSource : White Fluorescent<br>
+LightSource : White fluorescent (WW 3200 - 3700K)<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR717.jpg</td>
+<td class="supported">ApertureValue : 4.5<br>
+BrightnessValue : -0.078125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:10:29 16:23:07<br>
+DateTimeOriginal : 2005:10:29 16:23:07<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 123<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 4.4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 1000<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 20.8 mm<br>
+FocalLengthIn35mmFilm : 101 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 123<br>
+LightSource : D65<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2144 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/125<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 25906<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2005:10:29 16:23:07<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R717 (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.0000253<br>
+FocalPlaneXResolution : 0.000025<br>
+<br>
+FocalPlaneYResolution : 0.0000253<br>
+FocalPlaneYResolution : 0.000025<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR707.jpg</td>
+<td class="supported">ApertureValue : 5.0<br>
+BrightnessValue : 7.5703125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:21 02:59:02<br>
+DateTimeOriginal : 2004:07:21 02:59:02<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/322<br>
+FNumber : 5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLengthIn35mmFilm : 44 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 0.000027<br>
+FocalPlaneYResolution : 0.000027<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : D55<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/322<br>
+SubjectDistance : 5.013 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7762<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2004:07:21 02:59:02<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R707 (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR607.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+BrightnessValue : -4.703125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:30 20:44:50<br>
+DateTimeOriginal : 2005:08:30 20:44:50<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 1000<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 0.000025<br>
+FocalPlaneYResolution : 0.000025<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10234<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2005:08:30 20:44:50<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R607 (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartR507.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 6.6328125<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2005:06:23 20:59:34<br>
+DateTimeOriginal : 2005:06:23 20:59:34<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/252<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 10.2 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 0.000025<br>
+FocalPlaneYResolution : 0.000025<br>
+ISO : 100<br>
+LightSource : D55<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1142<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1312 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/252<br>
+_IFDpointer_Makernote : 72,80,77,101,116<br>
+DateTime : 2005:06:23 20:59:34<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart R507 (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 760</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+DeviceSettingDescription : (Binary data 424 bytes, use -b option to extract)<br>
+DeviceSettingDescription : 336<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC945.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+BrightnessValue : 2.44140625<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:02:23 23:23:28<br>
+DateTimeOriginal : 2006:02:23 23:23:28<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 114<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/90<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 54<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 10.6 mm<br>
+FocalLengthIn35mmFilm : 52 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 114<br>
+LightSource : D55<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 784<br>
+PixelXDimension : 1296 px w<br>
+PixelYDimension : 976 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/90<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1392<br>
+_IFDpointer_Makernote : 150<br>
+DateTime : 2006:03:06 14:51:29<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C945 (V01.54)<br>
+ResolutionUnit : inches<br>
+Software : Adobe Photoshop Album Starter Edition 3.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+Contrast : High<br>
+Contrast : Hard<br>
+<br>
+FocalPlaneXResolution : 0.00002775<br>
+FocalPlaneXResolution : 0.000028<br>
+<br>
+FocalPlaneYResolution : 0.00002775<br>
+FocalPlaneYResolution : 0.000028<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC935.jpg</td>
+<td class="supported">ApertureValue : 4.6<br>
+BrightnessValue : 0.375<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2007:11:20 16:05:04<br>
+DateTimeOriginal : 2007:11:20 16:05:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Landscape<br>
+ExposureTime : 1/125<br>
+FNumber : 4.3<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashEnergy : 1000<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 20.3 mm<br>
+GainControl : High gain up<br>
+ISO : 127<br>
+LightSource : Flash<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1296 px w<br>
+PixelYDimension : 976 px h<br>
+Saturation : Low saturation<br>
+SceneCaptureType : Landscape<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/125<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3732<br>
+_IFDpointer_Makernote : 12<br>
+DateTime : <br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C935 (V03.60)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 454</td>
+<td class="unsupported">ComponentsConfiguration : -, -, -, -<br>
+ComponentsConfiguration : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC850.jpg</td>
+<td class="supported">ApertureValue : 4.7<br>
+BrightnessValue : 8.87890625<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2002:01:03 14:02:17<br>
+DateTimeOriginal : 2002:01:03 14:02:17<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/1370<br>
+FNumber : 4.9<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.2 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : D55<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1136 px w<br>
+PixelYDimension : 848 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1361<br>
+SubjectDistance : 1.363 m<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 3662<br>
+_IFDpointer_Makernote : 20<br>
+DateTime : <br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C850 (V05.27)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 454</td>
+<td class="unsupported">Flash : Off, Did not fire, Return not detected<br>
+Flash : 20<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC812.jpg</td>
+<td class="supported">BrightnessValue : 9.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:05 18:53:25<br>
+DateTimeOriginal : 2005:07:05 18:53:25<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/139<br>
+FNumber : 9<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 22.8 mm<br>
+ISO : 100<br>
+LightSource : D50<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1712 px h<br>
+SubjectDistance : 8.595 m<br>
+_IFDpointer_Interop : 3284<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C812 (V08.28)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2898</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC500.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeOriginal : 2003:03:05 12:20:29<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/478<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/512<br>
+SubjectDistance : 72.2 m<br>
+_IFDpointer_Makernote : 496<br>
+Make : Hewlett Packard<br>
+Model : HP PhotoSmart C500 (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">FNumber : 3.6<br>
+FNumber : 3.61<br>
+<br>
+FocalLength : 17.2 mm<br>
+FocalLength : 17.3 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC3100.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:02:07 21:44:36<br>
+Make : HP<br>
+Model : PhotoSmart C3100<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC30.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.5<br>
+DateTimeOriginal : 1998:01:03 05:50:13<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 5770.000000<br>
+FocalPlaneYResolution : 5770.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 872 px h<br>
+SubjectDistance : 2.453 m<br>
+_IFDpointer_Makernote : 72,80,54,0,0,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,3,60,4,2,0,0,255,255<br>
+ImageDescription : DSC00001<br>
+Make : Hewlett-Packard Company<br>
+Model : PhotoSmart C30 Camera<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 0 128 0 128<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 386</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.6<br>
+DateTimeOriginal : 1998:07:07 13:17:22<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 5770.000000<br>
+FocalPlaneYResolution : 5770.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 454 px h<br>
+SubjectDistance : 2.453 m<br>
+_IFDpointer_Interop : 728<br>
+ImageDescription : DSC00011<br>
+Make : Hewlett-Packard Company<br>
+Model : PhotoSmart C200<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 0 128 0 128<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 377</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmartC20.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.1<br>
+DateTimeOriginal : 1998:07:31 12:01:15<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/28<br>
+FNumber : 5.6<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 11540.000000<br>
+FocalPlaneYResolution : 11540.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 576 px w<br>
+PixelYDimension : 436 px h<br>
+SubjectDistance : 1.224 m<br>
+_IFDpointer_Makernote : 72,80,83,0,0,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,3,40,1,0,1,0,255,255<br>
+ImageDescription : DSC00004<br>
+Make : Hewlett-Packard Company<br>
+Model : HP PhotoSmart C20 Camera<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 0 128 0 128<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 386</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart945.jpg</td>
+<td class="supported">ApertureValue : 5.5<br>
+BrightnessValue : 8.3515625<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:15 08:22:10<br>
+DateTimeOriginal : 2004:03:15 08:22:10<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.66796875<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/218<br>
+FNumber : 5.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 7.6 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : D55<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+OECF : 1078<br>
+PixelXDimension : 1296 px w<br>
+PixelYDimension : 976 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/218<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4654<br>
+_IFDpointer_Makernote : 150<br>
+DateTime : 2004:03:15 08:22:10<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C945 (V01.47)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 456</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (51), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalPlaneXResolution : 0.00002775<br>
+FocalPlaneXResolution : 0.000028<br>
+<br>
+FocalPlaneYResolution : 0.00002775<br>
+FocalPlaneYResolution : 0.000028<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart935.jpg</td>
+<td class="supported">ApertureValue : 4.6<br>
+BrightnessValue : 7.33203125<br>
+ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:07:28 11:21:40<br>
+DateTimeOriginal : 2003:07:28 11:21:40<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/980<br>
+FNumber : 4.3<br>
+FlashpixVersion : 0.10<br>
+FocalLength : 20.3 mm<br>
+GainControl : High gain up<br>
+ISO : 100<br>
+LightSource : D50<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2608 px w<br>
+PixelYDimension : 1952 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/978<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3732<br>
+_IFDpointer_Makernote : 12<br>
+DateTime : <br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C935 (V03.46)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 454</td>
+<td class="unsupported">ComponentsConfiguration : -, -, -, -<br>
+ComponentsConfiguration : <br>
+<br>
+Flash : Off, Did not fire, Return not detected<br>
+Flash : 20<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart912.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.2<br>
+DateTimeOriginal : 2001:02:06 14:29:15<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/12<br>
+FNumber : 6.3<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 13.1 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 640 px h<br>
+ShutterSpeedValue : 1/16<br>
+SubjectDistance : 1.2 m<br>
+_IFDpointer_Makernote : 508<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C912 (V01.00)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart850.jpg</td>
+<td class="supported">ApertureValue : 4.6<br>
+BrightnessValue : 8.34375<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:01:04 13:08:40<br>
+DateTimeOriginal : 2003:01:04 13:08:40<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 4.8<br>
+FlashpixVersion : 1.00<br>
+GainControl : High gain up<br>
+ISO : 100<br>
+LightSource : D50<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1712 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/500<br>
+SubjectDistance : 1.271 m<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3542<br>
+_IFDpointer_Makernote : 20<br>
+DateTime : <br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart C850 (V05.26)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 454</td>
+<td class="unsupported">Flash : Off, Did not fire, Return not detected<br>
+Flash : 20<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart715.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:03:02 15:38:37<br>
+DateTimeOriginal : 2005:03:02 15:38:37<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/278<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.1 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 2.51 m<br>
+_IFDpointer_Interop : 368<br>
+_IFDpointer_Makernote : 642<br>
+Make : Hewlett-Packard Company<br>
+Model : HP PhotoSmart 715<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.83<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart635.jpg</td>
+<td class="supported">ApertureValue : 2.7<br>
+BrightnessValue : -0.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:08:27 14:32:53<br>
+DateTimeOriginal : 2003:08:27 14:32:53<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/100<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.9 mm<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/100<br>
+SubjectDistance : 1.29 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 804<br>
+Copyright : Copyright, HP Corp, 2003<br>
+DateTime : 2003:08:27 14:32:53<br>
+Make : Hewlett-Packard<br>
+Model : hp 635 Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : HP Firmware Ver 1.57.38<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 4.4<br>
+FNumber : 4.44<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart620.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+DateTimeDigitized : 2003:07:12 13:08:57<br>
+DateTimeOriginal : 2003:07:12 13:08:57<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/30<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 140<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1632 px w<br>
+PixelYDimension : 1232 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1750<br>
+_IFDpointer_Makernote : 736<br>
+Make : Hewlett-Packard Company<br>
+Model : hp PhotoSmart 620<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver V0.630<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 338</td>
+<td class="unsupported">FNumber : 2.9<br>
+FNumber : 2.89<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart618.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.2<br>
+DateTimeOriginal : 2000:01:01 12:09:52<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/54<br>
+FNumber : 2.4<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/64<br>
+SubjectDistance : 1.24 m<br>
+_IFDpointer_Makernote : 506<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart 618 (V1.10)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart43xseries.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:05:04 06:43:32<br>
+DateTimeOriginal : 2005:05:04 06:43:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureTime : 1/24<br>
+FNumber : 4<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 1 m<br>
+SubjectLocation : 0<br>
+_IFDpointer_Interop : 758<br>
+_IFDpointer_Makernote : 2,97,50,101,114,32,78,111,116,101,115,0,0,0,0,0<br>
+Copyright : Copyright 2002-2003<br>
+DateTime : 2005:05:04 06:43:32<br>
+ImageDescription : IM000167.JPG<br>
+Make : Hewlett-Packard<br>
+Model : hp PhotoSmart 43x series<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.410<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 316</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.050511678<br>
+CompressedBitsPerPixel : 1.0505116780598958<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart320.jpg</td>
+<td class="supported">ApertureValue : 4.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.74<br>
+DateTimeDigitized : 2005:06:15 11:48:54<br>
+DateTimeOriginal : 2005:06:15 11:48:54<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/30<br>
+FNumber : 4.5<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.4 mm<br>
+ISO : 200<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1632 px w<br>
+PixelYDimension : 1232 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1750<br>
+_IFDpointer_Makernote : 736<br>
+Make : Hewlett-Packard Company<br>
+Model : hp PhotoSmart 320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver V0.640<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 338</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart318.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.13<br>
+DateTimeDigitized : 2002:05:08 17:28:03<br>
+DateTimeOriginal : 2002:05:08 17:28:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/30<br>
+FNumber : 28<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.8 mm<br>
+ISO : 100<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 0.3 m<br>
+_IFDpointer_Interop : 962<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart 318<br>
+ResolutionUnit : inches<br>
+Software : V4.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart315.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+DateTimeDigitized : 2000:02:06 12:22:44<br>
+DateTimeOriginal : 2000:02:06 12:22:44<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SubjectDistance : 1.176 m<br>
+_IFDpointer_Interop : 344<br>
+_IFDpointer_Makernote : 618<br>
+Make : Hewlett-Packard Company<br>
+Model : HP PhotoSmart 315<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart215.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:01 21:36:16<br>
+DateTimeOriginal : 2000:01:01 21:36:16<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart 215<br>
+ResolutionUnit : inches<br>
+Software : V1.68t<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 504</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart210.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:01 00:32:38<br>
+DateTimeOriginal : 2000:01:01 00:32:38<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Make : Hewlett-Packard<br>
+Model : HP PhotoSmart 210<br>
+ResolutionUnit : inches<br>
+Software : V1.68n<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 504</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_PhotoSmart120.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+CompressedBitsPerPixel : 3.4<br>
+DateTimeDigitized : 2001:04:18 16:25:16<br>
+DateTimeOriginal : 2001:04:18 16:25:16<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/24<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FocalLength : 9.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+ShutterSpeedValue : 1/23<br>
+_IFDpointer_Interop : 468<br>
+_IFDpointer_Makernote : 6,67,143,64,0,240,67,143,64,67,143,0,3,255,254,162<br>
+ImageDescription : Hewlett-Packard<br>
+Make : hp photosmart 120<br>
+Software : 01<br>
+_IFDpointer_EXIF : 154</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_DeskJetF4200.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:06:04 14:37:10<br>
+Make : HP<br>
+Model : DeskJet F4200<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_DeskJetF4100.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:02:23 10:46:50<br>
+Make : HP<br>
+Model : DeskJet F4100<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HP/HP_DeskJetF300.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:01:16 16:32:09<br>
+Make : HP<br>
+Model : DeskJet F300<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

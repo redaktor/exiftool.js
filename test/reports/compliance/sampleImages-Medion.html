@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Medion/MedionSX410Z.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:04 06:37:04<br>
+DateTimeOriginal : 2001:01:04 06:37:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+ShutterSpeedValue : 1/76<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : Medion   DIGITAL CAMERA<br>
+Make : Medion   OPTICAL CO,LTD<br>
+Model : SX410Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1356238698<br>
+CompressedBitsPerPixel : 0.13562386980108498<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD9700.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:11 11:43:44<br>
+DateTimeOriginal : 2001:01:11 11:43:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/54<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : Medion   DIGITAL CAMERA<br>
+Make : Medion   OPTICAL CO,LTD<br>
+Model : MD9700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1384364821<br>
+CompressedBitsPerPixel : 0.13843648208469056<br>
+<br>
+FocalLength : 17.0 mm<br>
+FocalLength : 17 mm<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD9653.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.078125<br>
+DateTimeDigitized : 2001:03:07 10:27:44<br>
+DateTimeOriginal : 2001:03:07 10:27:43<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/166<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : Medion   DIGITAL CAMERA<br>
+Make : Medion   OPTICAL CO,LTD<br>
+Model : MD9653<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD86276.jpg</td>
+<td class="supported">ApertureValue : 5.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 6<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2010:09:23 00:30:43<br>
+DateTimeOriginal : 2010:09:23 00:30:43<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/90<br>
+FNumber : 5.4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.9 mm<br>
+FocalLengthIn35mmFilm : 114 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/90<br>
+SubsecTime : 48<br>
+UserComment : 3838<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4250<br>
+_IFDpointer_Makernote : 838<br>
+Copyright : Copyright 2009<br>
+DateTime : 2010:09:23 00:30:43<br>
+ImageDescription : <br>
+Make : Medion AG<br>
+Model : MD86276<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.420<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 312</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD86066.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.783424<br>
+DateTimeDigitized : 2009:09:01 11:32:31<br>
+DateTimeOriginal : 2009:09:01 11:32:31<br>
+ExifVersion : 2<br>
+ExposureBias : 1<br>
+ExposureIndex : 36<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/20<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+RelatedSoundFile : USERR292B343CTC0F0lu26ExtAE 0<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/1024<br>
+_IFDpointer_Interop : 1218<br>
+_IFDpointer_Makernote : 720<br>
+Copyright : Copyright 2002<br>
+DateTime : 2009:09:01 11:32:31<br>
+ImageDescription : Digital Video Camera<br>
+Make : MEDION<br>
+Model : MD 86066<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FW Version DVV579U-V1.23-0417-DE06<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 286</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD86063.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:30 18:04:43<br>
+DateTimeOriginal : 2010:04:30 18:04:43<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/100<br>
+FNumber : 5.1<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.7 mm<br>
+FocalLengthIn35mmFilm : 88 mm<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 46370<br>
+_IFDpointer_Makernote : 1050<br>
+DateTime : 2010:04:30 18:04:43<br>
+Make : Medion AG<br>
+Model : MD86063<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.56.03.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 560<br>
+PrintIM : 212</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.793816667<br>
+CompressedBitsPerPixel : 2.793816666666667<br>
+<br>
+UserComment : PL 0422 0670 PB 0421 0655 CL 0524 0460 t 0584 0365 CB 0442 0555 t 0492 0439 t 0508 0444 RH 0674 RL 0428 BH 0529 BL 0307 i 022 016 I 024 017 T 2 V 05.2 S 1 FR 000.13 WN 0025 WF 0188 m 00
+ V 05.6T0569 Y 0274 I 0 S 000033 G 1300 I 0 S 000060 G 0199 C 000099 C 0399 V 001 L 457 G 0559 C 2 D 0256
+ZP 1150 FR 08 FJ +183 FT +00 FM 01 FP +192
+R 8369 PM 0002 CM 0122 PO -100 PO -100 CO 3240 CO 3236 S 0223 Y 0491 R 0491 B 0495 SO 0753 YO 0980 RO 1039 BO 0869 F P767
+0.56.03.00  BarCo_A0A1JT017138    P    ST 00 F 01 I 0000.<br>
+UserComment : 37914<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85863.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:12:10 12:12:04<br>
+DateTimeOriginal : 2011:12:10 12:12:04<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3.1<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 43692<br>
+_IFDpointer_Makernote : 1048<br>
+DateTime : 2011:12:10 12:12:04<br>
+Make : Medion AG<br>
+Model : MD85863<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.72.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 558<br>
+PrintIM : 210</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.918753046<br>
+CompressedBitsPerPixel : 3.918753045808967<br>
+<br>
+UserComment : PL 0593 0423 PB 0584 0401 CL 0571 0418 t 0649 0342 CB 0558 0422 t 0633 0344 t 0628 0372 RH 0658 RL 0427 BH 0543 BL 0317 i 040 005 I 039 008 T 2 V 06.0 S 1 FR 000.45 WN 0212 WF 0467 m 00
+ V 07.5T0638 Y 0802 I 0 S 000100 G 0625 I 0 S 000060 G 0199 C 000060 C 0099 V 001 L 290 G 0233 C 2 D 0256
+ZP 0628 FR 08 FJ +340 FT +02 FM 01 FP +379
+R 8205 PM 0001 CM 0126 PO -050 PO -050 CO 1844 CO 1836 S 0233 Y 0551 R 0482 B 0480 SO 0761 YO 1049 RO 1080 BO 0831 F P767
+0.72.01      ST 00 F 01 I 0000.<br>
+UserComment : 37912<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85830.jpg</td>
+<td class="supported">ApertureValue : 7.2<br>
+BrightnessValue : 9.547<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:10 22:06:26<br>
+DateTimeOriginal : 2008:07:10 22:06:26<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 80<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/398<br>
+FNumber : 7.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 870 px w<br>
+PixelYDimension : 652 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/396<br>
+SubjectDistanceRange : Unknown<br>
+SubsecTime : 437<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2450<br>
+_IFDpointer_Makernote : 846<br>
+DateTime : 2008:12:04 19:25:24<br>
+ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION<br>
+Model : MD 85830<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85675.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:12:14 23:01:40<br>
+DateTimeOriginal : 2009:12:14 23:01:40<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+ISO : 140<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 768 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/60<br>
+_IFDpointer_Makernote : 678<br>
+Copyright : <br>
+DateTime : 2009:12:14 23:01:40<br>
+Make : MEDION 5MP DIGITCAM<br>
+Model : MD 85675<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0550<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 268</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.365315755<br>
+CompressedBitsPerPixel : 1.3653157552083333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85447.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:02:06 14:15:22<br>
+DateTimeOriginal : 2005:02:06 14:15:22<br>
+ExifVersion : Exif2.1 W<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/16<br>
+_IFDpointer_Interop : 776<br>
+_IFDpointer_Makernote : WHNDSCA<br>
+Copyright : Copyright 2002<br>
+DateTime : 2005:02:06 14:15:22<br>
+ImageDescription : My beautiful picture<br>
+Make : MedionMD 854471158B.04.06<br>
+Model : MD 8544711<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1158B.04.061011E<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 298</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.290777537<br>
+CompressedBitsPerPixel : 2.290777537448347<br>
+<br>
+FileSource : Unknown (DSC)<br>
+FileSource : DSC Adrre<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85375.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:08:07 23:32:17<br>
+DateTimeOriginal : 2012:08:07 23:32:17<br>
+ExifVersion : Exif2.1 Y<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/1293<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/1024<br>
+_IFDpointer_Interop : 776<br>
+_IFDpointer_Makernote : YUGDSCA<br>
+Copyright : Copyright 2002<br>
+DateTime : 2012:08:07 23:32:17<br>
+ImageDescription : My beautiful picture<br>
+Make : MedionMD 853751158B.01.06<br>
+Model : MD 8537511<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1158B.01.060308E<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 298</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.571502938<br>
+CompressedBitsPerPixel : 1.5715029377582646<br>
+<br>
+FileSource : Unknown (DSC)<br>
+FileSource : DSC Adrre<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD85173.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:05:03 21:44:35<br>
+DateTimeOriginal : 2005:05:03 21:44:35<br>
+ExifVersion : Exif2.1 Y<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/512<br>
+_IFDpointer_Interop : 776<br>
+_IFDpointer_Makernote : YUGDSCA<br>
+Copyright : Copyright 2002<br>
+DateTime : 2005:05:03 21:44:35<br>
+ImageDescription : My beautiful picture<br>
+Make : MEDIONMD 851731139A.09.05<br>
+Model : MD 8517311<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1139A.09.051227E<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 298</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.323935547<br>
+CompressedBitsPerPixel : 1.323935546875<br>
+<br>
+ExposureTime : 1/646<br>
+ExposureTime : 1/647<br>
+<br>
+FileSource : Unknown (DSC)<br>
+FileSource : DSC Adrre<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD511Z3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:06 09:08:33<br>
+DateTimeOriginal : 2004:12:06 09:08:33<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.3 mm<br>
+ISO : 100<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/42<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD511Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M402250<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.6944444444<br>
+CompressedBitsPerPixel : 0.6944444444444444<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD5.2z3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 3.5<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:05:29:00:26:31<br>
+DateTimeOriginal : 2004:05:29:00:26:31<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/33<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.8<br>
+SubjectDistanceRange : Distant view<br>
+SubsecTime : 416<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 851<br>
+_IFDpointer_Makernote : 791<br>
+DateTime : 2004:06:02 20:44:52<br>
+Make : MEDION<br>
+Model : MD5.2z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 213</td>
+<td class="unsupported">FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD411Z3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.53125<br>
+DateTimeDigitized : 2003:01:02 08:35:18<br>
+DateTimeOriginal : 2003:01:02 08:35:18<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.3 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/81<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD411Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M305292<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD410Z3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:04:21 14:15:50<br>
+DateTimeOriginal : 2004:04:21 14:15:50<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/197<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD410Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.293402778<br>
+CompressedBitsPerPixel : 1.2934027777777777<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Software : VER05150<br>
+Software : VER0515<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/MedionMD210Z3.jpg</td>
+<td class="supported">ApertureValue : 2.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2031:04:06 12:11:39<br>
+DateTimeOriginal : 2031:04:06 12:11:39<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.1 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 360 px h<br>
+ShutterSpeedValue : 1/91<br>
+_IFDpointer_Interop : 572<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION OPTICAL CO,LTD<br>
+Model : MD210Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VER0415<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 260</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.041666667<br>
+CompressedBitsPerPixel : 1.0416666666666667<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/Medion636Z3.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:12:31 22:36:25<br>
+DateTimeOriginal : 2005:12:31 22:36:25<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2864 px w<br>
+PixelYDimension : 2152 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21396<br>
+_IFDpointer_Makernote : 730<br>
+Copyright : Copyright 2002<br>
+DateTime : 2005:12:31 22:36:25<br>
+ImageDescription : My beautiful picture<br>
+Make : Medion<br>
+Model : 636Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Oct 26 2005 V1.15.26<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 268</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.318104764<br>
+CompressedBitsPerPixel : 3.3181047641793526<br>
+<br>
+UserComment : SKEY                       .?,?C?r????;*w??xjP ? ? ?->** ? ? ? ? { s R S R L _ O k b ? ? ? ? ? ? ? x ? x T ; .       <br>
+UserComment : 21210<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Medion/Medion.jpg</td>
+<td class="supported">BrightnessValue : 1.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:07:03 04:27:41<br>
+DateTimeOriginal : 2008:07:03 04:27:41<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/46<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+DateTime : 2008:07:03 04:27:41<br>
+ImageDescription : MEDION DIGITAL CAMERA<br>
+Make : MEDION AG<br>
+Model : <br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 298</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.796875<br>
+<br>
+UserComment : 191, 47, 260, 1, 1, 476  <br>
+UserComment : 191, 47, 260, 1, 1, 476<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

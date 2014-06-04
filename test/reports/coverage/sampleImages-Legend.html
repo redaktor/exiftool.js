@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Legend/Legend_soshow305.jpg</td>
+<td class="supported">ImageDescription : Unknown<br>
+Make : legend DSC<br>
+Model : soshow305<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 68<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:12:08 01:31:47<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/Legend_soshow305.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Legend_soshow305.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:12:08 01:31:47<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:12:08 01:31:47<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1280<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 719<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8721<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8721 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV40.jpg</td>
+<td class="supported">ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : V40<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright Sep.2003<br>
+ExposureTime : 1/60<br>
+FNumber : 2.7<br>
+ExposureProgram : Program AE<br>
+ISO : 150<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:07:04 09:05:52<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.7<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendV40.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendV40.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:07:04 09:05:52<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:07:04 09:05:52<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.57105485<br>
+CompressedBitsPerPixel : 1.5710548502281294<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 40 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1445<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9300<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9300 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV35.jpg</td>
+<td class="supported">ImageDescription : LENOVO DIGITAL STILL CAMERA<br>
+Make : LEGENDP@<br>
+Model : V35NDP<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.76<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/64<br>
+FNumber : 2.6<br>
+ExposureProgram : Program AE<br>
+ISO : 150<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:09:06 18:12:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 3.241<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FocalLength : 5.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : 6<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendV35.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendV35.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:09:06 18:12:05<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:09:06 18:12:02<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.209166667<br>
+CompressedBitsPerPixel : 2.2091666666666665<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1561<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5800<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/64<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5800 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV30C.jpg</td>
+<td class="supported">ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : V30C<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/404<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:09:24 22:23:03<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.5 mm<br>
+UserComment : <br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendV30C.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendV30C.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:09:24 22:23:03<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:09:24 22:23:03<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 736<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8311<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/404<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8311 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV30.jpg</td>
+<td class="supported">ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : V30<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,2003<br>
+ExposureTime : 1/40<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:03:12 13:08:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/40<br>
+ApertureValue : 2.5<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendV30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendV30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:03:12 13:08:40<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.663<br>
+<br>
+CreateDate : 2004:03:12 13:08:40<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.578385417<br>
+CompressedBitsPerPixel : 1.5783854166666667<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1997<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4614<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4614 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendV20.jpg</td>
+<td class="supported">Make : Legend<br>
+Model : V20<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.15L<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:01:11 01:20:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 4.0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendV20.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendV20.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:01:11 01:20:31<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : 2.83<br>
+<br>
+CreateDate : 2002:01:11 01:20:31<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10240<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8270<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8270 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendT30.jpg</td>
+<td class="supported">ImageDescription : LENOVO DIGITAL CAMERA<br>
+Make : LEGEND GROUP LIMITED<br>
+Model : T30<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v714c-72<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/52<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 85<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+BrightnessValue : -0.1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 5.6 mm<br>
+UserComment : 852<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendT30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendT30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 0000:00:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 0000:00:00 00:00:00<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Overlapping MakerNotes values<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 36 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4096<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6345<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.4<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/52<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6345 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.6 mm (35 mm equivalent: 36.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.40 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendSoShow530.jpg</td>
+<td class="supported">ImageDescription : LEGEND Digital Camera<br>
+Make : LEGEND<br>
+Model : SoShow530<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v19.6.3<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/24<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:01:12 11:19:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.9<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+UserComment : 756<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendSoShow530.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendSoShow530.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:01:12 11:19:40<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+CreateDate : 2000:01:12 11:19:40<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+Warning : Bad PrintIM size<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 896<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1034<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4274<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/24<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4274 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendSOSHOW730.jpg</td>
+<td class="supported">ImageDescription : Exif JPEG<br>
+Make : LEGEND<br>
+Model : SOSHOW730<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : SOSHOW730  V1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/14<br>
+FNumber : 3.9<br>
+ExposureProgram : Landscape<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:01:01 00:32:15<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/14<br>
+ApertureValue : 3.9<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendSOSHOW730.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendSOSHOW730.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:01:01 00:32:15<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:01:01 00:32:15<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 864<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5820<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/14<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5820 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendSOSHOW506.jpg</td>
+<td class="supported">ImageDescription : ExifJPEG<br>
+Make : LEGEND<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/44<br>
+FNumber : 4<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 20:4:04:09 17:47:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 6.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendSOSHOW506.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendSOSHOW506.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : SOSHOW506<br>
+Model : SOSHOW50<br>
+<br>
+ModifyDate : 20:4:04:09 17:47:57<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 20:4:04:09 17:47:57<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 715<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6419<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : DSC images.   <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/44<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6419 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Legend/LegendLenovoV20C.jpg</td>
+<td class="supported">ImageDescription : Lenovo Digital Still Camera<br>
+Make : LEGEND<br>
+Model : Lenovo V20C<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/12<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 53<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:12:03 17:49:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Legend/LegendLenovoV20C.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : LegendLenovoV20C.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Legend<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:12:03 17:49:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:12:03 17:49:51<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 737<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6274<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/12<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6274 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

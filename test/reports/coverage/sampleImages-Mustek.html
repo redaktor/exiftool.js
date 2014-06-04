@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Mustek/MustekMDC832z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Digital Camera<br>
+Model : 8MP-9T9<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0000.8N<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+ExposureProgram : Portrait<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:05:17 16:27:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.7<br>
+ApertureValue : 3.4<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FocalLength : 7.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Portrait</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/MustekMDC832z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MustekMDC832z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:05:17 16:27:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:05:17 16:27:26<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1/3<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 968<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3984<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3984 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/MustekMDC530z.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9Q3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.08P<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/286<br>
+FNumber : 4.2<br>
+ExposureProgram : Portrait<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:05:17 16:32:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Portrait<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/MustekMDC530z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MustekMDC530z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 19 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:05:17 16:32:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:05:17 16:32:26<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 12.0 mm<br>
+FocalLength : 12 mm<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -4<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 0<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 0.1517450683 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 100 0 79 132 148 63<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (c)<br>
+CameraType : undefined<br>
+<br>
+CameraID : P9Q3DIGITAL CAMERA     <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 5790 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10816<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8446<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 285.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/286<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8446 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 0.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 12.0 mm (35 mm equivalent: 3421.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 325.36 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/MustekDV5300SE.jpg</td>
+<td class="supported">ImageDescription : IMAG0120.JPG<br>
+Make : MUSTEK<br>
+Model : DV5300SE<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.0y, 2005/11/28<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 1970:01:01 00:00:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 8.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : 1.0y, 2005/<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/MustekDV5300SE.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MustekDV5300SE.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1970:01:01 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.1<br>
+FNumber : 3.05<br>
+<br>
+CreateDate : 1970:01:01 00:00:00<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+UserComment : EFFECT=OFF, SCENE=AUTO<br>
+UserComment : 643<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1077<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2127<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2127 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek6LZ.jpg</td>
+<td class="supported">ImageDescription : MW 2.30<br>
+Make : Mustek<br>
+Model : 6LZ<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/86<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:06:14 11:26:17<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 5.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 221</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/Mustek6LZ.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Mustek6LZ.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:06:14 11:26:17<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.7<br>
+FNumber : 3.66<br>
+<br>
+CreateDate : 2005:06:14 11:26:17<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 715<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5141<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Mustek 6LZ     <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/86<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5141 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek5LF-SF.jpg</td>
+<td class="supported">ImageDescription : FW V1.11<br>
+Make : Mustek<br>
+Model : 5LF-SF<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:02:14 02:06:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 10.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 239</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/Mustek5LF-SF.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Mustek5LF-SF.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : Mustek 5LF-SF  <br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:02:14 02:06:34<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:02:14 02:06:34<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 752<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6085<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6085 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 10.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek2400CU_Plus.jpg</td>
+<td class="supported">Make : WIA<br>
+Model : 2400CU Plus<br>
+PageName : Reflective</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/Mustek2400CU_Plus.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Mustek2400CU_Plus.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 409 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 200<br>
+XResolution : undefined<br>
+<br>
+YResolution : 200<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:12:10 21:53:37<br>
+CreateDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek1248UB.jpg</td>
+<td class="supported">Make : WIA<br>
+Model : MUSTEK 1248UB<br>
+PageName : Reflective</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/Mustek1248UB.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Mustek1248UB.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 409 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 300<br>
+XResolution : undefined<br>
+<br>
+YResolution : 300<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:11:03 17:30:58<br>
+CreateDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek1200UB_Plus.jpg</td>
+<td class="supported">Make : WIA<br>
+Model : 1200 UB Plus<br>
+PageName : Reflective</td>
+<td class="unsupported">SourceFile : sampleImages/Mustek/Mustek1200UB_Plus.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Mustek1200UB_Plus.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Mustek<br>
+Directory : undefined<br>
+<br>
+FileSize : 409 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 219<br>
+XResolution : undefined<br>
+<br>
+YResolution : 219<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:10:15 21:08:47<br>
+CreateDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

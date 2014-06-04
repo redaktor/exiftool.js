@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Trust/TrustGemini11.jpg</td>
+<td class="supported">ImageDescription : ICM107BTrustGemini11H<br>
+Make : TrustGemini11HH<br>
+Model : Gemini11HH2002:01<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/136<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:01:02 09:35:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 9.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/TrustGemini11.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TrustGemini11.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : Trust Corp. <br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:01:02 09:35:12<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:01:02 09:35:12<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1152<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 864<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 749<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5769<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/136<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5769 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/TrustDSC.jpg</td>
+<td class="supported">ImageDescription : ICM107BTrustDSCH<br>
+Make : TrustDSCHH<br>
+Model : DSCHH2027:08<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/5<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 25<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2027:08:12 19:53:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 9.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/TrustDSC.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TrustDSC.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2027:08:12 19:53:06<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2027:08:12 19:53:06<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 733<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6121<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/5<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6121 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/TrustDC3500MINI.jpg</td>
+<td class="supported">ImageDescription : M3391D-1001<br>
+Make : TRUST<br>
+Model : DC3500 MINI<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/6<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 90<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:08:09 00:22:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/TrustDC3500MINI.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TrustDC3500MINI.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : Digital<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:08:09 00:22:04<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:08:09 00:22:04<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +5.8<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 778<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3687<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/6<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3687 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 5.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/TrustDC-4200CAM.jpg</td>
+<td class="supported">ImageDescription : M4031D-4202<br>
+Make : Trust<br>
+Model : DC-4200 CAM<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:04:29 19:52:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 5.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/TrustDC-4200CAM.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TrustDC-4200CAM.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:04:29 19:52:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:04:29 19:52:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +6.6<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 767<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11123<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11123 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust962Z_POWER.jpg</td>
+<td class="supported">ImageDescription : M3321T-0015<br>
+Make : TRUST<br>
+Model : 962Z POWER<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/125<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:01:12 13:26:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust962Z_POWER.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust962Z_POWER.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:12 13:26:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:12 13:26:25<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +13.2<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 767<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4378<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/125<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4378 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust960POWERCAM.jpg</td>
+<td class="supported">ImageDescription : TF3-1100<br>
+Make : TRUST<br>
+Model : 960 POWERC@M<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/40<br>
+FNumber : 2.9<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:04:03 20:24:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 5.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust960POWERCAM.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust960POWERCAM.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:04:03 20:24:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:04:03 20:24:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +9/2<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 763<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11067<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11067 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust950PowerCamZoom.jpg</td>
+<td class="supported">ImageDescription : UUUUUUUUUUUUUUUUUUUUUUUU<br>
+Make : Trust<br>
+Model : 950 PowerC@m Zoom<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : <br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,1999<br>
+ExposureTime : 1/64<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:06:06 22:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 1.4<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust950PowerCamZoom.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust950PowerCamZoom.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:06:06 22:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:06:06 22:25<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.991028646<br>
+CompressedBitsPerPixel : 1.9910286458333333<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 21930 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1463<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9988<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/64<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9988 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust913POWER.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : TRUST<br>
+Model : 913 POWER<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,1999<br>
+ExposureTime : 1/9<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 40<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : <br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/9<br>
+ApertureValue : 3.5<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+LightSource : Fluorescent<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust913POWER.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust913POWER.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate :                    <br>
+ModifyDate : undefined<br>
+<br>
+CreateDate :                    <br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.998128255<br>
+CompressedBitsPerPixel : 3.9981282552083335<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 512<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 384<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1463<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8310<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/9<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8310 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust760POWERCAM.jpg</td>
+<td class="supported">ImageDescription : TF2-A0A3<br>
+Make : TRUST<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/42<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:01:28 15:53:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 5.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust760POWERCAM.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust760POWERCAM.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment :  <br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : 760 POWERC@M<br>
+Model : 760 POWERC@<br>
+<br>
+ModifyDate : 2005:01:28 15:53:34<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:28 15:53:34<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +7<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 742<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7848<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/42<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7848 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust738AV_LCD_PV.jpg</td>
+<td class="supported">ImageDescription : bcEoWdaU.n\C97;Uv\9)wrWAnEmmwCoUV-fi..u7mkW<br>
+Make : Trust<br>
+Model : 738AV LCD PV<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : <br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 5,2003<br>
+ExposureTime : 1/5<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2000:01:01 01:29:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6058<br>
+ShutterSpeedValue : 1/5<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Cloudy weather<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust738AV_LCD_PV.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust738AV_LCD_PV.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:01:01 01:29:01<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 1.6<br>
+FNumber : 1.5836888808786547<br>
+<br>
+CreateDate : 2000:01:01 01:29:01<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : 8.13197641<br>
+DigitalZoomRatio : 8.131976410309255<br>
+<br>
+FocalLengthIn35mmFormat : 52525 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1463<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5646<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 1.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/5<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5646 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 3.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust735SPowerCam.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+BrightnessValue : 1.9<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, strobe return light detected<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : 3<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust735SPowerCam.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust735SPowerCam.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment :                <br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : 735S POWE<br>
+Model : 735S POW<br>
+<br>
+ModifyDate : 2003701?0100?0029E<br>
+ModifyDate : undefined<br>
+<br>
+DateTimeOriginal : 2003701?0100?0029E<br>
+DateTimeOriginal : 200370101000029<br>
+<br>
+CreateDate : 2003701?0100?0029E<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.0909<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 640 480 1280 960<br>
+SubjectArea : 640,480,1280,960<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 932<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6161<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6161 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust550POWER.jpg</td>
+<td class="supported">ImageDescription : Exif JPG 422<br>
+Make : Trust<br>
+Model : 550 POWER<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+FNumber : 2<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust550POWER.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust550POWER.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : <br>
+ModifyDate : undefined<br>
+<br>
+DateTimeOriginal : <br>
+DateTimeOriginal : <br>
+<br>
+CreateDate : <br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 770<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5089<br>
+ThumbnailLength : undefined<br>
+<br>
+DisplayedUnitsX : inches<br>
+DisplayedUnitsX : undefined<br>
+<br>
+DisplayedUnitsY : inches<br>
+DisplayedUnitsY : undefined<br>
+<br>
+GlobalAngle : 30<br>
+GlobalAngle : undefined<br>
+<br>
+GlobalAltitude : 30<br>
+GlobalAltitude : undefined<br>
+<br>
+CopyrightFlag : false<br>
+CopyrightFlag : undefined<br>
+<br>
+PhotoshopThumbnail : (Binary data 4291 bytes, use -b option to extract)<br>
+PhotoshopThumbnail : undefined<br>
+<br>
+PhotoshopQuality : 5<br>
+PhotoshopQuality : undefined<br>
+<br>
+PhotoshopFormat : Standard<br>
+PhotoshopFormat : undefined<br>
+<br>
+ProgressiveScans : 3 Scans<br>
+ProgressiveScans : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5089 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust1220S_PowerCamZoom.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ImageDescription : PIC01314.JPG<br>
+Software : Adobe Photoshop CS Macintosh<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:12:21 04:49:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Multi-spot<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 0<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust1220S_PowerCamZoom.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust1220S_PowerCamZoom.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 32 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+XMPToolkit : XMP toolkit 3.0-28, framework 1.6<br>
+XMPToolkit : undefined<br>
+<br>
+About : uuid:cace72ce-6bd6-11d9-8f57-dcf0804bdf80<br>
+About : undefined<br>
+<br>
+DateTimeDigitized : 2004:12:21 04:49:22+01:00<br>
+DateTimeDigitized : 2004:12:21 04:49:22<br>
+<br>
+FlashFired : false<br>
+FlashFired : undefined<br>
+<br>
+FlashReturn : No return detection<br>
+FlashReturn : undefined<br>
+<br>
+FlashMode : Unknown<br>
+FlashMode : undefined<br>
+<br>
+FlashFunction : false<br>
+FlashFunction : undefined<br>
+<br>
+FlashRedEyeMode : false<br>
+FlashRedEyeMode : undefined<br>
+<br>
+History : <br>
+History : undefined<br>
+<br>
+MetadataDate : 2005:01:19 18:04:00+01:00<br>
+MetadataDate : undefined<br>
+<br>
+CreatorTool : Adobe Photoshop CS Macintosh<br>
+CreatorTool : undefined<br>
+<br>
+DocumentID : adobe:docid:photoshop:cace72cd-6bd6-11d9-8f57-dcf0804bdf80<br>
+DocumentID : undefined<br>
+<br>
+Format : image/jpeg<br>
+Format : undefined<br>
+<br>
+Description : PIC01314.JPG                   <br>
+Description : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Trust Computer Products<br>
+Make : Trust Computer Product<br>
+<br>
+Model : 1220S PowerC@m Optical Zoom<br>
+Model : 1220S PowerC@m Optical Zoo<br>
+<br>
+ModifyDate : 2005:01:19 18:04:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:12:21 04:49:22<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+ExifImageWidth : 832<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 624<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 8350<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5768<br>
+ThumbnailLength : undefined<br>
+<br>
+CurrentIPTCDigest : 5f8d93f6545040f15ed718eda16e1d90<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+ApplicationRecordVersion : 2<br>
+ApplicationRecordVersion : undefined<br>
+<br>
+Caption-Abstract : PIC01314.JPG                   <br>
+Caption-Abstract : undefined<br>
+<br>
+IPTCDigest : 5f8d93f6545040f15ed718eda16e1d90<br>
+IPTCDigest : undefined<br>
+<br>
+DisplayedUnitsX : inches<br>
+DisplayedUnitsX : undefined<br>
+<br>
+DisplayedUnitsY : inches<br>
+DisplayedUnitsY : undefined<br>
+<br>
+GlobalAngle : 30<br>
+GlobalAngle : undefined<br>
+<br>
+GlobalAltitude : 30<br>
+GlobalAltitude : undefined<br>
+<br>
+CopyrightFlag : false<br>
+CopyrightFlag : undefined<br>
+<br>
+PhotoshopThumbnail : (Binary data 5768 bytes, use -b option to extract)<br>
+PhotoshopThumbnail : undefined<br>
+<br>
+PhotoshopQuality : 9<br>
+PhotoshopQuality : undefined<br>
+<br>
+PhotoshopFormat : Standard<br>
+PhotoshopFormat : undefined<br>
+<br>
+ProgressiveScans : 3 Scans<br>
+ProgressiveScans : undefined<br>
+<br>
+ProfileCMMType : Lino<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.1.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Display Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 1998:02:09 06:49:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Microsoft Corporation<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : IEC <br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : sRGB<br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : HP  <br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+ProfileCopyright : Copyright (c) 1998 Hewlett-Packard Company<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescription : sRGB IEC61966-2.1<br>
+ProfileDescription : undefined<br>
+<br>
+MediaWhitePoint : 0.95045 1 1.08905<br>
+MediaWhitePoint : undefined<br>
+<br>
+MediaBlackPoint : 0 0 0<br>
+MediaBlackPoint : undefined<br>
+<br>
+RedMatrixColumn : 0.43607 0.22249 0.01392<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.38515 0.71687 0.09708<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.14307 0.06061 0.7141<br>
+BlueMatrixColumn : undefined<br>
+<br>
+DeviceMfgDesc : IEC http://www.iec.ch<br>
+DeviceMfgDesc : undefined<br>
+<br>
+DeviceModelDesc : IEC 61966-2.1 Default RGB colour space - sRGB<br>
+DeviceModelDesc : undefined<br>
+<br>
+ViewingCondDesc : Reference Viewing Condition in IEC61966-2.1<br>
+ViewingCondDesc : undefined<br>
+<br>
+ViewingCondIlluminant : 19.6445 20.3718 16.8089<br>
+ViewingCondIlluminant : undefined<br>
+<br>
+ViewingCondSurround : 3.92889 4.07439 3.36179<br>
+ViewingCondSurround : undefined<br>
+<br>
+ViewingCondIlluminantType : D50<br>
+ViewingCondIlluminantType : undefined<br>
+<br>
+Luminance : 76.03647 80 87.12462<br>
+Luminance : undefined<br>
+<br>
+MeasurementObserver : CIE 1931<br>
+MeasurementObserver : undefined<br>
+<br>
+MeasurementBacking : 0 0 0<br>
+MeasurementBacking : undefined<br>
+<br>
+MeasurementGeometry : Unknown (0)<br>
+MeasurementGeometry : undefined<br>
+<br>
+MeasurementFlare : 0.999%<br>
+MeasurementFlare : undefined<br>
+<br>
+MeasurementIlluminant : D65<br>
+MeasurementIlluminant : undefined<br>
+<br>
+Technology : Cathode Ray Tube Display<br>
+Technology : undefined<br>
+<br>
+RedTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5768 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 4.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust1210K_POWERCAM_Zoom.jpg</td>
+<td class="supported">ImageDescription : TRUST 1210K POWERC@M OPTICAL ZOOM<br>
+Make : TRUST<br>
+Model : 1210K POWERC@M OPTICAL ZOOM<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/49<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:01:06 15:05:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/49<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Trust/Trust1210K_POWERCAM_Zoom.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Trust1210K_POWERCAM_Zoom.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Trust<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:01:06 15:05:30<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:01:06 15:05:30<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : Invalid PrintIM header<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1334<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13675<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/49<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13675 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

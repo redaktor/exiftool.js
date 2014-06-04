@@ -1,0 +1,2886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Camera/CameraMP5.jpg</td>
+<td class="supported">ApertureValue : 5.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:08:11 19:03:11<br>
+DateTimeOriginal : 2010:08:11 19:03:11<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/458<br>
+FNumber : 5.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/450<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4834<br>
+_IFDpointer_Makernote : 730<br>
+Copyright : Copyright 2005<br>
+DateTime : 2010:08:11 19:03:11<br>
+ImageDescription : <br>
+Make : 5.0M Digital Camera<br>
+Model : MP5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.966388346<br>
+CompressedBitsPerPixel : 3.9663883463541665<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDS5MP.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -4.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:08:19 08:51:13<br>
+DateTimeOriginal : 2006:08:19 08:51:13<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 10 m<br>
+_IFDpointer_Makernote : 796<br>
+Copyright : <br>
+DateTime : 2006:08:19 08:51:13<br>
+Make : Digital Camera<br>
+Model : DS5MP<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.12T2<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 366</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC5085.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 5.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:10:06 14:17:00<br>
+DateTimeOriginal : 2007:10:06 14:17:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : -0.7<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/70<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/70<br>
+SubjectDistance : 10 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 784<br>
+Copyright : <br>
+DateTime : 2007:10:06 14:17:00<br>
+Make : Digital Camera<br>
+Model : DC5085<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.11<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC3A30.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:05 15:03:23<br>
+DateTimeOriginal : 2008:10:05 15:03:23<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/330<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.6 mm<br>
+FocalLengthIn35mmFilm : 43 mm<br>
+ISO : 70<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/315<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 734<br>
+DateTime : 2008:10:05 15:03:23<br>
+ImageDescription : <br>
+Make : CAMERA<br>
+Model : DC3A30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC DC3A30   Ver0.93<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC3306.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:03:01 12:02:49<br>
+DateTimeOriginal : 2003:03:01 12:02:49<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/30<br>
+FNumber : 3.1<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000001089<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 528<br>
+DateTime : 2003:03:01 12:02:49<br>
+Make : CAMERA<br>
+Model : DC3306<br>
+ResolutionUnit : inches<br>
+Software : 1.26B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC3301.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:02 00:10:52<br>
+DateTimeOriginal : 2002:01:02 00:10:52<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/105<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/104<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2002:01:02 00:10:52<br>
+Make : CAMERA<br>
+Model : DC3301<br>
+ResolutionUnit : inches<br>
+Software : 1.20B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported">FNumber : 7.1<br>
+FNumber : 7.13<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC2302.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:16 13:59:30<br>
+DateTimeOriginal : 2005:07:16 13:59:30<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/441<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/446<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2005:07:16 13:59:30<br>
+Make : CAMERA<br>
+Model : DC2302<br>
+ResolutionUnit : inches<br>
+Software : 1.26B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported">FNumber : 5.8<br>
+FNumber : 5.78<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC2300.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:07:14 21:41:01<br>
+DateTimeOriginal : 2006:07:14 21:41:01<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/30<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2006:07:14 21:41:01<br>
+Make : CAMERA<br>
+Model : DC2300<br>
+ResolutionUnit : inches<br>
+Software : 1.28B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC2071.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:01 00:08:17<br>
+DateTimeOriginal : 2000:01:01 00:08:17<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/33<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/34<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2000:01:01 00:08:17<br>
+Make : CAMERA<br>
+Model : DC2071<br>
+ResolutionUnit : inches<br>
+Software : 1.21Bs<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC2070.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:01 02:29:58<br>
+DateTimeOriginal : 2000:01:01 02:29:58<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/144<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/147<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2000:01:01 02:29:58<br>
+Make : CAMERA<br>
+Model : DC2070<br>
+ResolutionUnit : inches<br>
+Software : 1.35B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC1310.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:05:10 03:59:44<br>
+DateTimeOriginal : 2004:05:10 03:59:44<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/91<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/96<br>
+DateTime : 2004:05:10 03:59:44<br>
+Make : CAMERA<br>
+Model : DC1310<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : 1.46B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC1070.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:01:05 14:29:18<br>
+DateTimeOriginal : 2005:01:05 14:29:18<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/2000<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/2048<br>
+_IFDpointer_Interop : 595<br>
+DateTime : 2005:01:05 14:29:18<br>
+ImageDescription : DigiCam<br>
+Make : DigiCam<br>
+Model : DC 1070<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.18<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 237</td>
+<td class="unsupported">FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC-733i.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:22 12:06:04<br>
+DateTimeOriginal : 2010:05:22 12:06:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3746<br>
+_IFDpointer_Makernote : 694<br>
+Copyright : <br>
+DateTime : 2010:05:22 12:06:04<br>
+Make : 7M 3X Digital Camera<br>
+Model : DC-733i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0527<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.598879496<br>
+CompressedBitsPerPixel : 1.5988794962565105<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC-4330.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:01:08 05:05:34<br>
+DateTimeOriginal : 2003:01:08 05:05:34<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+ImageUniqueID : 49c993e49aea8eff7314f16342bc6c7d<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2400 px w<br>
+PixelYDimension : 1600 px h<br>
+ShutterSpeedValue : 1/45<br>
+_IFDpointer_Interop : 700<br>
+_IFDpointer_Makernote : 606<br>
+DateTime : 2003:01:08 05:05:34<br>
+ImageDescription : Exif JPEG<br>
+Make : Camera<br>
+Model : DC-4330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Picasa 3.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC-4300.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:10:06 15:57:42<br>
+DateTimeOriginal : 2007:10:06 15:57:42<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 800 px h<br>
+ShutterSpeedValue : 1/45<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2007:10:06 15:57:42<br>
+ImageDescription : Exif JPEG<br>
+Make : Camera<br>
+Model : DC-4300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DC-4300 Ver1.03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDC-3305.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:06:30 17:32:49<br>
+DateTimeOriginal : 2008:06:30 17:32:49<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/720<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000001411<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/724<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 528<br>
+DateTime : 2008:06:30 17:32:49<br>
+Make : CAMERA<br>
+Model : DC-3305<br>
+ResolutionUnit : inches<br>
+Software : 1.19B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 5.8<br>
+FNumber : 5.78<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraDB3MP.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/CameraCE5430.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:02:18 15:56:04<br>
+DateTimeOriginal : 2006:02:18 15:56:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/236<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 50<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21024<br>
+_IFDpointer_Makernote : 1016<br>
+DateTime : 2006:02:18 15:56:04<br>
+ImageDescription : Digital Image<br>
+Make : CAMERA<br>
+Model : CE5430<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.01VER<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 582<br>
+PrintIM : 232</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera8MP-9V9.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:06:29 13:28:43<br>
+DateTimeOriginal : 2008:06:29 13:28:43<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/200<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/204<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2008:06:29 13:28:43<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 8MP-9V9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.04<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">Contrast : High<br>
+Contrast : Hard<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera8MP-9U4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:07:20 17:25:43<br>
+DateTimeOriginal : 2007:07:20 17:25:43<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/105<br>
+FNumber : 9.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 13.5 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10692<br>
+_IFDpointer_Makernote : 684<br>
+DateTime : 2007:07:20 17:25:43<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 8MP-9U4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.05P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera8MP-9Q6.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:14 19:01:57<br>
+DateTimeOriginal : 2008:11:14 19:01:57<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 4828<br>
+_OffsetSchema : 4168<br>
+_Padding : 2680<br>
+DateTime : 2008:11:14 19:01:57<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 8MP-9Q6<br>
+Orientation : Horizontal (normal)<br>
+Software : Ver 1.02<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 2254</td>
+<td class="unsupported">Contrast : High<br>
+Contrast : Hard<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera8MP-9HX.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:03:14 11:42:29<br>
+DateTimeOriginal : 2008:03:14 11:42:29<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/38<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/38<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 42412<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2008:03:14 11:42:29<br>
+ImageDescription : Camera<br>
+Make : Camera<br>
+Model : 8MP-9HX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00PE<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera8MP-9HG.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:03:07 00:07:08<br>
+DateTimeOriginal : 2008:03:07 00:07:08<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+DateTime : 2008:03:07 00:07:08<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 8MP-9HG<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.05H<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 314</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera8MP-9HC.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:11 16:16:15<br>
+DateTimeOriginal : 2008:10:11 16:16:15<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/38<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/38<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 30708<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2008:10:11 16:16:15<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Camera<br>
+Model : 8MP-9HC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.17H<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera7MP-9GM.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:09:02 15:40:54<br>
+DateTimeOriginal : 2008:09:02 15:40:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/250<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21262<br>
+_IFDpointer_Makernote : 1254<br>
+DateTime : 2008:09:02 15:40:54<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 7MP-9GM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.11N<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 796<br>
+PrintIM : 250</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera7MP-9GL.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:06:23 07:54:18<br>
+DateTimeOriginal : 2008:06:23 07:54:18<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 43728<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2008:06:23 07:54:18<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 7MP-9GL<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.04<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera7MP-9GH.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:31 14:22:39<br>
+DateTimeOriginal : 2008:01:31 14:22:39<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 125<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 3040 px w<br>
+PixelYDimension : 2280 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2008:01:31 14:22:39<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 7MP-9GH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera7MP-9GB.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:02:07 17:15:48<br>
+DateTimeOriginal : 2007:02:07 17:15:48<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 42260<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2007:02:07 17:15:48<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 7MP-9GB<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera7MP-9GA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:13 14:22:45<br>
+DateTimeOriginal : 2008:01:13 14:22:45<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21254<br>
+_IFDpointer_Makernote : 1246<br>
+DateTime : 2008:01:13 14:22:45<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 7MP-9GA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00.09<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 800<br>
+PrintIM : 254</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP9W4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:06:26 21:48:35<br>
+DateTimeOriginal : 2006:06:26 21:48:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 0.5<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21028<br>
+_IFDpointer_Makernote : 1020<br>
+DateTime : 2006:06:26 21:48:35<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 6MP9W4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 586<br>
+PrintIM : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP9U2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:07:01 00:02:04<br>
+DateTimeOriginal : 2005:07:01 00:02:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -1.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 956<br>
+DateTime : 2005:07:01 00:02:04<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 6MP9U2<br>
+Software : V1.01<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 522<br>
+PrintIM : 172</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP9Q3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:03:18 19:11:15<br>
+DateTimeOriginal : 2006:03:18 19:11:15<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.7<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/302<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 64<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1704 px w<br>
+PixelYDimension : 2272 px h<br>
+_IFDpointer_Makernote : 1004<br>
+DateTime : 2006:03:18 19:11:15<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 6MP9Q3<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 690<br>
+PrintIM : 340</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9Y8.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:11:02 21:58:55<br>
+DateTimeOriginal : 2007:11:02 21:58:55<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/75<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/75<br>
+_IFDpointer_Makernote : 832<br>
+DateTime : 2007:11:02 21:58:55<br>
+Make : Digital Camera<br>
+Model : 6MP-9Y8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.00.091PR<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 454</td>
+<td class="unsupported">XPAuthor : R. MORRIS<br>
+XPAuthor : 82,0,46,0,32,0,77,0,79,0,82,0,82,0,73,0,83,0,0,0<br>
+<br>
+XPComment : Taken at Blackpool Zoo on 2nd November 2007.<br>
+XPComment : 84,0,97,0,107,0,101,0,110,0,32,0,97,0,116,0,32,0,66,0,108,0,97,0,99,0,107,0,112,0,111,0,111,0,108,0,32,0,90,0,111,0,111,0,32,0,111,0,110,0,32,0,50,0,110,0,100,0,32,0,78,0,111,0,118,0,101,0,109,0,98,0,101,0,114,0,32,0,50,0,48,0,48,0,55,0,46,0,0,0<br>
+<br>
+XPTitle : Urangutang<br>
+XPTitle : 85,0,114,0,97,0,110,0,103,0,117,0,116,0,97,0,110,0,103,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9U9.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:01 09:17:11<br>
+DateTimeOriginal : 2008:11:01 09:17:11<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10692<br>
+_IFDpointer_Makernote : 684<br>
+DateTime : 2008:11:01 09:17:11<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 6MP-9U9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.15P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9U7.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:02:24 22:11:28<br>
+DateTimeOriginal : 2007:02:24 22:11:28<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 660<br>
+DateTime : 2007:02:24 22:11:28<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 6MP-9U7<br>
+Software : Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9T6.jpg</td>
+<td class="supported">ApertureValue : 5.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:11 06:48:56<br>
+DateTimeOriginal : 2005:01:11 06:48:56<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 5.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 86 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Spot<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:01:11 06:48:56<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 6MP-9T6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9N3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:30 05:56:19<br>
+DateTimeOriginal : 2004:03:30 05:56:19<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 660<br>
+DateTime : 2004:03:30 05:56:19<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 6MP-9N3<br>
+Software : Ver 1.04<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9J5.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:24 17:37:45<br>
+DateTimeOriginal : 2004:01:24 17:37:45<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/160<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/161<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2004:01:24 17:37:45<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 6MP-9J5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.15<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9FH.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:09 20:31:34<br>
+DateTimeOriginal : 2007:08:09 20:31:34<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 35048<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2007:08:09 20:31:34<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 6MP-9FH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera6MP-9FA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:03:20 08:46:01<br>
+DateTimeOriginal : 2008:03:20 08:46:01<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : High gain up<br>
+ISO : 212<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10690<br>
+_IFDpointer_Makernote : 682<br>
+DateTime : 2008:03:20 08:46:01<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 6MP-9FA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.11<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9Y9.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:29 12:22:41<br>
+DateTimeOriginal : 2008:11:29 12:22:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/111<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 21026<br>
+_IFDpointer_Makernote : 1018<br>
+DateTime : 2008:11:29 12:22:41<br>
+ImageDescription : Digital Image<br>
+Make : CAMERA<br>
+Model : 5MP-9Y9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.12NBE2<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 584<br>
+PrintIM : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9Y2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:10:29 19:51:10<br>
+DateTimeOriginal : 2007:10:29 19:51:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 608<br>
+DateTime : 2007:10:29 19:51:10<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9Y2<br>
+Software : V1.06uf<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 162</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9X9.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:23 20:35:38<br>
+DateTimeOriginal : 2007:03:23 20:35:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/35<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 10682<br>
+_IFDpointer_Makernote : 674<br>
+DateTime : 2007:03:23 20:35:38<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9X9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.08.SP<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9W5.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:10:29 21:10:59<br>
+DateTimeOriginal : 2007:10:29 21:10:59<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Spot<br>
+PixelXDimension : 500 px w<br>
+PixelYDimension : 375 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2007:10:29 21:10:59<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 5MP-9W5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9T3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:20 19:48:10<br>
+DateTimeOriginal : 2008:07:20 19:48:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 70<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1000 px w<br>
+PixelYDimension : 750 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10689<br>
+_IFDpointer_Makernote : 681<br>
+DateTime : 2008:07:20 19:48:10<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9T3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.09<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 223</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9Q3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:01:24 09:46:24<br>
+DateTimeOriginal : 2007:01:24 09:46:24<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/194<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Makernote : 666<br>
+DateTime : 2007:01:24 09:46:24<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9Q3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.08<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9Q2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:11 12:20:05<br>
+DateTimeOriginal : 2007:08:11 12:20:05<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/120<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.6 mm<br>
+GainControl : Low gain up<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10960<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11094<br>
+_IFDpointer_Makernote : 960<br>
+DateTime : 2007:08:11 12:20:05<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : CAMERA<br>
+Model : 5MP-9Q2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.04NBE<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 502<br>
+PrintIM : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9P8.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:31 12:02:07<br>
+DateTimeOriginal : 2008:10:31 12:02:07<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -2<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10962<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11096<br>
+_IFDpointer_Makernote : 962<br>
+DateTime : 2008:10:31 12:02:07<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : CAMERA<br>
+Model : 5MP-9P8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.11HYN1<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 504<br>
+PrintIM : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9M7.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9M2.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:10:28 15:20:10<br>
+DateTimeOriginal : 2007:10:28 15:20:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/59<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 96 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/59<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2007:10:28 15:20:10<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 5MP-9M2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.14<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9J2.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+BrightnessValue : 5.4<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2000:02:27 20:03:04<br>
+DateTimeOriginal : 2000:02:27 20:03:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/85<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 10.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/85<br>
+SubjectDistance : 5.5 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : 2000:02:27 20:03:04<br>
+Make : Digital Camera<br>
+Model : 5MP-9J2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver 1.30.15 Rev 4.02S<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9G4.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.9<br>
+DateTimeDigitized : 2004:03:25 04:51:59<br>
+DateTimeOriginal : 2004:03:25 04:51:59<br>
+ExifVersion : 2.21<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/567<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Makernote : 662<br>
+DateTime : 2004:03:25 04:51:59<br>
+ImageDescription : 5MP-9G4 Digital Camera<br>
+Make : CAMERA<br>
+Model : 5MP-9G4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V0105-0022<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 328</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9EY.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:03:05 15:24:56<br>
+DateTimeOriginal : 2008:03:05 15:24:56<br>
+ExifVersion : 2.20<br>
+ExposureBias : -0.7<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/100<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 34648<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2008:03:05 15:24:56<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9EY<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.16P<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera5MP-9A3.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:06:20 12:02:33<br>
+DateTimeOriginal : 2003:06:20 12:02:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/200<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 92 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/208<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2003:06:20 12:02:33<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 5MP-9A3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 0.33 x<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">Contrast : High<br>
+Contrast : Hard<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera4MP-9T2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:23 21:04:54<br>
+DateTimeOriginal : 2008:11:23 21:04:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/499<br>
+FNumber : 5.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10680<br>
+_IFDpointer_Makernote : 672<br>
+DateTime : 2008:11:23 21:04:54<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 4MP-9T2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.14T<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera4MP-9Q3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:02:28 19:23:25<br>
+DateTimeOriginal : 2008:02:28 19:23:25<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10678<br>
+_IFDpointer_Makernote : 670<br>
+DateTime : 2008:02:28 19:23:25<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 4MP-9Q3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera4MP-9J9.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:12 15:33:19<br>
+DateTimeOriginal : 2005:06:12 15:33:19<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/190<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 89 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/189<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:06:12 15:33:19<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 4MP-9J9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.07<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera4MP-9J6.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : -0.5<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2008:10:26 16:27:28<br>
+DateTimeOriginal : 2008:10:26 16:27:28<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 0.5<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.6 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 13.7<br>
+MeteringMode : Average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : High saturation<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 0.5<br>
+SubjectDistance : 0.248 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 2004<br>
+DateTime : 2008:10:26 16:27:28<br>
+Make : CAMERA<br>
+Model : 4MP-9J6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver: V1.13<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera4MP-859.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:16 13:03:03<br>
+DateTimeOriginal : 2005:07:16 13:03:03<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/1000<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 200<br>
+MaxApertureValue : 2.9<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+SceneCaptureType : Landscape<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 750<br>
+_IFDpointer_Makernote : 654<br>
+DateTime : 2005:07:16 13:03:03<br>
+ImageDescription : 4MP859 Digital Camera<br>
+Make : CAMERA<br>
+Model : 4MP-859<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V0801-0001<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 272</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.115982279<br>
+CompressedBitsPerPixel : 2.115982278648416<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera3MP-9P5.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:10:12 12:58:19<br>
+DateTimeOriginal : 2007:10:12 12:58:19<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/6<br>
+FNumber : 3<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.9<br>
+_IFDpointer_Interop : 758<br>
+_IFDpointer_Makernote : 116 137 052 062 044 012 008 014 114 216 054 100 018 119 121 P771 56789012345678901234567890123456789012345678901234567890123<br>
+Copyright : (C) by Camera User<br>
+DateTime : 2007:10:12 12:58:19<br>
+ImageDescription : Exif-JPEG-422<br>
+Make : CAMERA<br>
+Model : 3MP-9P5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.2.02.23P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera3MP-9P2.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:09:24 13:15:23<br>
+DateTimeOriginal : 2006:09:24 13:15:23<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 13.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2032 px w<br>
+PixelYDimension : 1520 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 2 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+DateTime : 2006:09:24 13:15:23<br>
+Make : Camera<br>
+Model : 3MP-9P2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver 1.16P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+Copyright : Digital CameraVer1.16P
+Ver1.<br>
+Copyright : Digital CameraVer1.16P
+Ver1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera3MP-9N2.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:11:29 00:16:26<br>
+DateTimeOriginal : 2008:11:29 00:16:26<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 13.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2032 px w<br>
+PixelYDimension : 1520 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 0.4 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Digital CameraV1.41
+V1.41<br>
+DateTime : 2008:11:29 00:16:26<br>
+Make : Camera<br>
+Model : 3MP-9N2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver 1.41<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera3MP-9F6.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2003:01:01 00:05:48<br>
+DateTimeOriginal : 2003:01:01 00:05:48<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/16<br>
+_IFDpointer_Interop : 615<br>
+DateTime : 2003:01:01 00:05:48<br>
+ImageDescription : <br>
+Make : CAMERA<br>
+Model : 3MP-9F6<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.19 B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 237</td>
+<td class="unsupported">FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera3MP-9CA.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera2MP-9D1.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2002:11:19 12:41:01<br>
+DateTimeOriginal : 2002:11:19 12:41:01<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/16<br>
+_IFDpointer_Interop : 615<br>
+DateTime : 2002:11:19 12:41:01<br>
+ImageDescription : <br>
+Make : CAMERA<br>
+Model : 2MP-9D1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.25 P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 237</td>
+<td class="unsupported">FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera10MP-9KB.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:01:10 00:16:04<br>
+DateTimeOriginal : 2006:01:10 00:16:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/120<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/119<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2006:01:10 00:16:04<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 10MP-9KB<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.06<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera10MP-9KA.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:03:01 21:59:48<br>
+DateTimeOriginal : 2009:03:01 21:59:48<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/69<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/69<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2009:03:01 21:59:48<br>
+ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 10MP-9KA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Camera/Camera.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 8.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:01:12 18:21:12<br>
+DateTimeOriginal : 2004:01:12 18:21:12<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/181<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.7 mm<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/181<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 8988<br>
+_IFDpointer_Makernote : 788<br>
+Copyright : Copyright<br>
+DateTime : 2004:01:12 18:21:12<br>
+Make : CAMERA<br>
+Model : CAMERA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 990Ver1.54TCM<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

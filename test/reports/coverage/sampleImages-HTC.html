@@ -1,0 +1,7076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/HTC/HTC_XdaOrbit.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Xda Orbit<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2009:12:16 16:12:36<br>
+ExifVersion : 2.20<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_XdaOrbit.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_XdaOrbit.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 511 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:12:16 16:12:36<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_X7510.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Lavr<br>
+DateTimeOriginal : 2010:10:06 19:51:54<br>
+ExifVersion : 2.10<br>
+Flash : On, Flash fired<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_X7510.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_X7510.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 609 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_X7510<br>
+Model : HTCX7510<br>
+<br>
+ModifyDate : 2010:10:06 19:51:54<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageWidth : 2048<br>
+RelatedImageWidth : undefined<br>
+<br>
+RelatedImageHeight : 1536<br>
+RelatedImageHeight : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_X7500.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2010:03:15 14:24:18<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_X7500.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_X7500.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 651 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_X7500<br>
+Model : HTCX7500<br>
+<br>
+ModifyDate : 2010:03:15 14:24:18<br>
+ModifyDate : undefined<br>
+<br>
+Artist : ??????? ???????<br>
+Artist : <br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2010:03:15 14:24:18<br>
+CreateDate : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageWidth : 2048<br>
+RelatedImageWidth : undefined<br>
+<br>
+RelatedImageHeight : 1536<br>
+RelatedImageHeight : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_WildfireS_A510e.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Wildfire S A510e<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 589<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:05:27 01:06:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 3.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 21:06:39<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 2011:05:26<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 55° 32' 51.2800" N<br>
+GPSLongitude : 37° 33' 6.1200" E</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_WildfireS_A510e.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_WildfireS_A510e.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 59 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:05:27 01:06:39<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 724<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12865<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2011:05:26 21:06:39Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 55 deg 32' 51.28" N, 37 deg 33' 6.12" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12865 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.5 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Wildfire.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Wildfire<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:09:19 11:01:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Wildfire.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Wildfire.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:09:19 11:01:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1952<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 430<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12505<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12505 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_VOGU100.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : VOGU100<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : PhotoScape<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2010:08:29 18:00:44<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_VOGU100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_VOGU100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 574 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:08:29 18:00:44<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:08:29 18:00:44<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Universal.jpg</td>
+<td class="supported">Model : Universal<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Craig Garner<br>
+DateTimeOriginal : 2006:06:02 15:59:26<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Universal.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Universal.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+ModifyDate : 2006:06:02 15:59:26<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 6913<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 337<br>
+ThumbnailOffset : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6913 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TyTN_II.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:02 18:55:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TyTN_II.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TyTN_II.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_TyTN_II<br>
+Model : HTCTyTNII<br>
+<br>
+Software : 4_08_30595_00<br>
+Software : 4083059500<br>
+<br>
+CreateDate : 2010:06:02 18:55:09<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1536<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 424<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 17820<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 17820 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Trinity.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Trinity<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2007:04:07 09:23:59<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Trinity.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Trinity.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 621 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:04:07 09:23:59<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2007:04:07 09:23:59<br>
+CreateDate : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageWidth : 1600<br>
+RelatedImageWidth : undefined<br>
+<br>
+RelatedImageHeight : 1200<br>
+RelatedImageHeight : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchVivaT2223.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Touch Viva T2223<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2010:04:25 16:57:02<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchVivaT2223.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchVivaT2223.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:25 16:57:02<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:25 16:57:02<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 340<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1739<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1739 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchProT7272.jpg</td>
+<td class="supported">Model : HTC Touch Pro T7272<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:06 20:27:53<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchProT7272.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchProT7272.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 113 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Software : 6_01_32976_00<br>
+Software : 6013297600<br>
+<br>
+ModifyDate : 2010:06:06 20:27:53<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:06:06 20:27:53<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 698<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6502<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6502 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchPro2T7373.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/21<br>
+ISO : 128<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:29 15:16:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/16<br>
+ApertureValue : 2.4<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+FocalLength : 4.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchPro2T7373.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchPro2T7373.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 107 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Pro2 T7373<br>
+Model : HTC Touch Pro2 T737<br>
+<br>
+Software : 6_16_34566_0<br>
+Software : 616345660<br>
+<br>
+ModifyDate : 2010:05:29 15:16:01<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FNumber : 2.6<br>
+FNumber : 2.55<br>
+<br>
+CreateDate : 2010:05:29 15:16:01<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1216<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 928<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4262<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/21<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4262 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 4.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchHD_T8282.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:02 15:25:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchHD_T8282.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchHD_T8282.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 168 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch HD T8282<br>
+Model : HTC Touch HD T828<br>
+<br>
+Software : 6_6_32687_8<br>
+Software : 66326878<br>
+<br>
+ModifyDate : 2010:06:02 15:25:27<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:06:02 15:25:27<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 694<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5390<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5390 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchElf.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Touch Elf<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : slavutich<br>
+DateTimeOriginal : 2010:05:31 23:39:15<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchElf.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchElf.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 19 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:31 23:39:15<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:05:31 23:39:15<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 1803<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 394<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1803 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDual.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:03 16:52:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchDual.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchDual.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 51 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : Touch Dual<br>
+Model : Touch Dua<br>
+<br>
+Software : 5_06_28956_00<br>
+Software : 5062895600<br>
+<br>
+CreateDate : 2010:06:03 16:52:18<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 580<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 25961<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 25961 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDiamondP3700.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:06 23:20:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchDiamondP3700.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchDiamondP3700.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 123 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Diamond P3700<br>
+Model : HTC Touch Diamond P370<br>
+<br>
+Software : 6_00_31516_00<br>
+Software : 6003151600<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ModifyDate : 2010:06:06 23:20:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:06 23:20:45<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 694<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 16540<br>
+ThumbnailLength : undefined<br>
+<br>
+Warning : Bad IFD2 directory<br>
+Warning : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 16540 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDiamondP370.jpg</td>
+<td class="supported">Make : HT<br>
+Model : HTC Touch Diamond P370<br>
+Orientation : Horizontal (normal)<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:03:22 11:04:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchDiamondP370.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchDiamondP370.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 6_00_31364_00<br>
+Software : 6003136400<br>
+<br>
+ModifyDate : 2011:03:22 11:04:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:03:22 11:04:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+Padding : (Binary data 2060 bytes, use -b option to extract)<br>
+Padding : undefined<br>
+<br>
+About : uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b<br>
+About : undefined<br>
+<br>
+FlashFired : false<br>
+FlashFired : undefined<br>
+<br>
+FlashReturn : No return detection<br>
+FlashReturn : undefined<br>
+<br>
+FlashMode : Unknown<br>
+FlashMode : undefined<br>
+<br>
+FlashFunction : false<br>
+FlashFunction : undefined<br>
+<br>
+FlashRedEyeMode : false<br>
+FlashRedEyeMode : undefined<br>
+<br>
+ISOSpeed : 0<br>
+ISOSpeed : undefined<br>
+<br>
+Creatortool : 6_00_31364_00<br>
+Creatortool : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDiamond2T5353.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 300<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:08 14:09:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchDiamond2T5353.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchDiamond2T5353.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 222 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Diamond2 T5353<br>
+Model : HTC Touch Diamond2 T535<br>
+<br>
+Software : 6_15_37497_1<br>
+Software : 615374971<br>
+<br>
+ModifyDate : 2010:06:08 14:09:39<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:06:08 14:09:39<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 692<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6724<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+PreviewImageWidth : 2592<br>
+PreviewImageWidth : undefined<br>
+<br>
+PreviewImageHeight : 1552<br>
+PreviewImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImageSize : 2592x1552<br>
+PreviewImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6724 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchCruiseT4242.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:06 23:18:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_TouchCruiseT4242.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_TouchCruiseT4242.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 20 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Cruise T4242<br>
+Model : HTC Touch Cruise T424<br>
+<br>
+Software : 5_04_31875_00<br>
+Software : 5043187500<br>
+<br>
+CreateDate : 2010:06:06 23:18:46<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 592<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12584<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12584 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Touch3G_T3232.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:23 12:06:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Touch3G_T3232.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Touch3G_T3232.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 97 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch 3G T3232<br>
+Model : HTC Touch 3G T323<br>
+<br>
+CreateDate : 2010:05:23 12:06:28<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 610<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 35351<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 35351 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Touch2T3333.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 349<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:04 17:29:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Touch2T3333.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Touch2T3333.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 48 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch2 T3333<br>
+Model : HTC Touch2 T333<br>
+<br>
+Software : 6_29_19183128_01<br>
+Software : 6291918312801<br>
+<br>
+ModifyDate : 2010:06:04 17:29:43<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:06:04 17:29:43<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 684<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 14180<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 14180 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Tattoo.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Tattoo<br>
+Orientation : Rotate 270 CW<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Android 1.6<br>
+YCbCrPositioning : Centered<br>
+ISO : 800<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:25 21:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Tattoo.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Tattoo.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 53 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:25 21:06<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1536<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 502<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4770<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4770 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_T-Mobile_myTouch3G.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : T-Mobile myTouch 3G<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Android 1.5<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:07:22 12:38:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_T-Mobile_myTouch3G.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_T-Mobile_myTouch3G.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 36 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:07:22 12:38:45<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 524<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 31734<br>
+ThumbnailLength : undefined<br>
+<br>
+XMPToolkit : 3.1.2-113<br>
+XMPToolkit : undefined<br>
+<br>
+NativeDigest : 256,257,258,259,262,274,277,284,530,531,282,283,296,301,318,319,529,532,306,270,271,272,305,315,33432;976564A18E9E5847B428C1EFAC311353<br>
+NativeDigest : undefined<br>
+<br>
+CreatorTool : Android 1.5<br>
+CreatorTool : undefined<br>
+<br>
+Rating : 3<br>
+Rating : undefined<br>
+<br>
+MetadataDate : 2009:07:25 14:11:13-04:00<br>
+MetadataDate : undefined<br>
+<br>
+DateTimeDigitized : 2009:07:22 12:38:45-04:00<br>
+DateTimeDigitized : 2009:07:22 12:38:45<br>
+<br>
+ICCProfileName : sRGB IEC61966-2.1<br>
+ICCProfileName : undefined<br>
+<br>
+ColorMode : RGB<br>
+ColorMode : undefined<br>
+<br>
+Subject : T-Mobile,myTouch 3G,HTC,Magic,AndroidAuthority.com,MobileBurn MobileBurn.com<br>
+Subject : undefined<br>
+<br>
+CurrentIPTCDigest : 64fe2553ba4be93a22f268f961075b91<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+ApplicationRecordVersion : 2<br>
+ApplicationRecordVersion : undefined<br>
+<br>
+Keywords : T-Mobile,myTouch 3G,HTC,Magic,AndroidAuthority.com,MobileBurn MobileBurn.com<br>
+Keywords : undefined<br>
+<br>
+IPTCDigest : 64fe2553ba4be93a22f268f961075b91<br>
+IPTCDigest : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 31734 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_T-MobileG1.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : T-Mobile G1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:11:30 15:58:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 04:22:24<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 1961:05:29<br>
+GPSAltitude : 4294967284 m Above Sea Level<br>
+GPSLatitude : 37° 33' 0.7200" N<br>
+GPSLongitude : 121° 58' 11.3600" W</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_T-MobileG1.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_T-MobileG1.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 23 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : ?<br>
+Software : <br>
+<br>
+CreateDate : 2008:11:30 15:58:01<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1536<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2048<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : HYBRID-FIX<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,72,89,66,82,73,68,45,70,73,88<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 940<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 22474<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 1961:05:29 04:22:24Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 37 deg 33' 0.72" N, 121 deg 58' 11.36" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 22474 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_SnapS521.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:12:07 13:06:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_SnapS521.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_SnapS521.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 49 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Snap S521<br>
+Model : HTC Snap S52<br>
+<br>
+Software : 6_18_36336_0<br>
+Software : 618363360<br>
+<br>
+ModifyDate : 2010:12:07 13:06:22<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:12:07 13:06:22<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 682<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 21950<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 21950 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_SensationZ710e.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Sensation Z710e<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 284<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011/07/07 21:24:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_SensationZ710e.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_SensationZ710e.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 247 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011/07/07 21:24:48<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1840<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 620<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11303<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11303 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_STAR100.jpg</td>
+<td class="supported">Model : STAR 100<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2006:10:24 18:29:14<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_STAR100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_STAR100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 511 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+ModifyDate : 2006:10:24 18:29:14<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_S740.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:13 17:23:32<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_S740.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_S740.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 31 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC S740<br>
+Model : HTC S74<br>
+<br>
+CreateDate : 2010:04:13 17:23:32<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 600<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 17138<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 17138 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_S710.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2010:05:01 17:04:59<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_S710.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_S710.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_S710<br>
+Model : HTCS710<br>
+<br>
+ModifyDate : 2010:05:01 17:04:59<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 450<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:05:01 17:04:59<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 7933<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 355<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7933 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_S621.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC-S621<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2009:11:16 14:10:24<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_S621.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_S621.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 555 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:11:16 14:10:24<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2009:11:16 14:10:24<br>
+CreateDate : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_PC36100.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : PC36100<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:29 11:50:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_PC36100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_PC36100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 198 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:29 11:50:07<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1952<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3264<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P4600.jpg</td>
+<td class="supported">Model : HTC-P4600<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:07:13 20:52:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P4600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P4600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC-P4600<br>
+Make : HTC-P460<br>
+<br>
+Software : 6_01_31727_01<br>
+Software : 6013172701<br>
+<br>
+ModifyDate : 2009:07:13 20:52:41<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2009:07:13 20:52:41<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 698<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6930<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6930 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P4350.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC-P4350<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2009:10:02 18:43:01<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P4350.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P4350.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:10:02 18:43:01<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2009:10:02 18:43:01<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 7939<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 356<br>
+ThumbnailOffset : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7939 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3650.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:10:02 14:48:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3650.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3650.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 27 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC_P3650<br>
+Model : HTCP365<br>
+<br>
+Software : 5_04_29195_00<br>
+Software : 5042919500<br>
+<br>
+CreateDate : 2009:10:02 14:48:40<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 580<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 16936<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 16936 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3600i.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : P3600i<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2009:05:23 01:30:48<br>
+ExifVersion : 2.20<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3600i.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3600i.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 603 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:05:23 01:30:48<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2009:05:23 01:30:48<br>
+CreateDate : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+RelatedImageWidth : 1600<br>
+RelatedImageWidth : undefined<br>
+<br>
+RelatedImageHeight : 1200<br>
+RelatedImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3600.jpg</td>
+<td class="supported">Make : HTC<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Shatra<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:25 12:47:04<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 678 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3600<br>
+Model : HTCP3600<br>
+<br>
+Software : ????????? ???????? ????????? ??????????? ???????? ACD Systems<br>
+Software : ACD Systems<br>
+<br>
+ModifyDate : 2010:05:25 13:50:31<br>
+ModifyDate : undefined<br>
+<br>
+SubSecTime : 697<br>
+SubSecTime : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1472<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 915<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+SubSecModifyDate : 2010:05:25 13:50:31.697<br>
+SubSecModifyDate : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3470.jpg</td>
+<td class="supported">Make : HTC<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2010:06:01 20:53:34<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3470.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3470.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3470<br>
+Model : HTCP3470<br>
+<br>
+ModifyDate : 2010:06:01 20:53:34<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:06:01 20:53:34<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 1692<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 368<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1692 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3452.jpg</td>
+<td class="supported">Make : HTC<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Alex<br>
+DateTimeOriginal : 2010:03:10 18:12:01<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3452.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3452.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 31 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3452<br>
+Model : HTCP3452<br>
+<br>
+ModifyDate : 2010:03:10 18:12:01<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:03:10 18:12:01<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 3510<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 385<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3510 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3450.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2010:02:02 13:46:05<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3450.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3450.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3450<br>
+Model : HTCP3450<br>
+<br>
+ModifyDate : 2010:02:02 13:46:05<br>
+ModifyDate : undefined<br>
+<br>
+Artist : ?????? ????????<br>
+Artist : <br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:02:02 13:46:05<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 2844<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 384<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2844 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3400.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Gagandeep Singh Sodhi<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2007:09:05 14:43:37<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3400.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3400.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 587 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3400<br>
+Model : HTCP3400<br>
+<br>
+ModifyDate : 2007:09:05 14:43:37<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:09:05 14:43:37<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3350.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2010:07:11 09:54:01<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3350.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3350.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 555 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3350<br>
+Model : HTCP3350<br>
+<br>
+ModifyDate : 2010:07:11 09:54:01<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:07:11 09:54:01<br>
+CreateDate : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3300.jpg</td>
+<td class="supported">Make : HTC<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Nick<br>
+DateTimeOriginal : 2010:12:12 13:19:12<br>
+ExifVersion : 2.20<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 573 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : HTC_P3300<br>
+Model : HTCP3300<br>
+<br>
+ModifyDate : 2010:12:12 13:19:12<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2010:12:12 13:19:12<br>
+CreateDate : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3050.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : P3050<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Natalia Senkevich<br>
+DateTimeOriginal : 2008:04:23 19:49:24<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_P3050.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_P3050.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 21 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:04:23 19:49:24<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2008:04:23 19:49:24<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 3800<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 382<br>
+ThumbnailOffset : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3800 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Oxygen.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Oxygen<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2009:05:22 16:45:24<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Oxygen.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Oxygen.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 507 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:05:22 16:45:24<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_One_mini.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC One mini<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/5495<br>
+FNumber : 2<br>
+ExposureProgram : Program AE<br>
+ISO : 125<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2013:08:27 11:51:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/5486<br>
+ApertureValue : 2.0<br>
+BrightnessValue : 9.099503<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Other<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 3.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 10:51:26<br>
+GPSProcessingMethod : ASCIIGPS<br>
+GPSDateStamp : 2013:08:27<br>
+GPSLatitude : 53° 13' 57.9547" N</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_One_mini.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_One_mini.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 50 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:08:27 11:51:23<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:08:27 11:51:23<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.702168997<br>
+CompressedBitsPerPixel : 3.7021689967105265<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+SubSecTimeOriginal : 845<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1520<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1810<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 48710<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2<br>
+Aperture : undefined<br>
+<br>
+GPSAltitude : 85.6 m Above Sea Level<br>
+GPSAltitude : 85.699 m Above Sea Level<br>
+<br>
+GPSDateTime : 2013:08:27 10:51:26Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSLongitude : 1 deg 2' 41.36" W<br>
+GPSLongitude : 1° 2' 41.3582" W<br>
+<br>
+GPSPosition : 53 deg 13' 57.95" N, 1 deg 2' 41.36" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 7.3<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/5495<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2013:08:27 11:51:23.845<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+ThumbnailImage : (Binary data 48710 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 3.8 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.78 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_One_M8.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/1015<br>
+FNumber : 2<br>
+ExposureProgram : Program AE<br>
+ISO : 125<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2014:03:25 16:29:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/1015<br>
+ApertureValue : 2.0<br>
+BrightnessValue : 6.665079<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Other<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 3.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_One_M8.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_One_M8.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 36 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC One_M8<br>
+Model : HTC OneM<br>
+<br>
+ModifyDate : 2014:03:25 16:29:39<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2014:03:25 16:29:39<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+SubSecTimeOriginal : 632<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+ExifImageWidth : 2688<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1520<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4802<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 31457<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1015<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2014:03:25 16:29:39.632<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+ThumbnailImage : (Binary data 31457 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_One.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC One<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/60<br>
+FNumber : 2<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2013:05:29 09:26:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.0<br>
+BrightnessValue : 2.906857<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Other<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 3.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_One.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_One.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 38 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:05:29 09:26:07<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:05:29 09:26:07<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.366104715<br>
+CompressedBitsPerPixel : 2.366104714912281<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubSecTimeOriginal : 782<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+ExifImageWidth : 2688<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1520<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1054<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 37655<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 7.3<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2013:05:29 09:26:07.782<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+ThumbnailImage : (Binary data 37655 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 3.8 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.78 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_NexusOne.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Nexus One<br>
+XResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YResolution : 72.00000000<br>
+Software : Picasa 3.0<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:12:06 06:31:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ImageUniqueID : 7b862f9d7924562b62cd6b6ee3867ee7</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_NexusOne.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_NexusOne.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:12:06 06:31:05<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 502<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5743<br>
+ThumbnailLength : undefined<br>
+<br>
+CurrentIPTCDigest : b340aa5851e62684be363b9bcb59eb4b<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+By-line : Picasa 3.0<br>
+By-line : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5743 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Magic.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Magic<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:19 14:08:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Magic.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Magic.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 37 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:19 14:08:57<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 414<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 37525<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 37525 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_MAX4G.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:02 09:21:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_MAX4G.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_MAX4G.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 173 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC MAX 4G<br>
+Model : HTC MAX 4<br>
+<br>
+Software : 6_30_34215_0<br>
+Software : 630342150<br>
+<br>
+ModifyDate : 2010:05:02 09:21:36<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:05:02 09:21:36<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1216<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 688<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8023<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8023 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_IncredibleS.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Incredible S<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:06:05 18:13:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 4.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 14:13:51<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 2011:06:05<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 59° 48' 34.6200" N<br>
+GPSLongitude : 30° 19' 11.3900" E</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_IncredibleS.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_IncredibleS.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 150 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:06:05 18:13:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1296<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2011:06:05 14:13:51Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 59 deg 48' 34.62" N, 30 deg 19' 11.39" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+FocalLength35efl : 4.6 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Hero.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Hero<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Android 1.5<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:25 20:48:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Hero.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Hero.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 79 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:25 20:48:36<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1712<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2560<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 626<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 24168<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImageWidth : 428<br>
+PreviewImageWidth : undefined<br>
+<br>
+PreviewImageHeight : 640<br>
+PreviewImageHeight : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImageSize : 428x640<br>
+PreviewImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 24168 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Hermes.jpg</td>
+<td class="supported">Model : Hermes<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2007:02:08 10:24:29<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Hermes.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Hermes.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 509 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+ModifyDate : 2007:02:08 10:24:29<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD_T8282.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:09:14 13:52:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_HD_T8282.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_HD_T8282.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 203 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC HD T8282<br>
+Model : HTC HD T828<br>
+<br>
+Software : 6_15_35844_1<br>
+Software : 615358441<br>
+<br>
+ModifyDate : 2010:09:14 13:52:14<br>
+ModifyDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+CreateDate : 2010:09:14 13:52:14<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 690<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6914<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6914 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD7.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HD7<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone OS 7.0<br>
+Artist : Hello from Seattle<br>
+YCbCrPositioning : Centered<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:11:24 19:12:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSDOP : 100<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 35° 50' 23.2720" N</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_HD7.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_HD7.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 32 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:11:24 19:12:30<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:11:24 19:12:30<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 702<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 31850<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSLongitude : 78 deg 40' 47.01" W<br>
+GPSLongitude : 78° 40' 47.0080" W<br>
+<br>
+GPSPosition : 35 deg 50' 23.27" N, 78 deg 40' 47.01" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 31850 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD2T8585.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC HD2 T8585<br>
+Orientation : 56636<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/171<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:28 11:16:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.0<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_HD2T8585.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_HD2T8585.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 27 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 6_26_19211625_00<br>
+Software : 6261921162500<br>
+<br>
+ModifyDate : 2010:05:28 11:16:57<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.2<br>
+FNumber : 3.19921875<br>
+<br>
+CreateDate : 2010:05:28 11:16:57<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 678<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 26692<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/171<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 26692 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD2.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC HD2<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 227<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:07:06 23:37:59<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_HD2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_HD2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 226 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:07:06 23:37:59<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 444<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 38832<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 38832 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_GratiaA6380.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Gratia A6380<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 121<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:12:25 13:59:15<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 3.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_GratiaA6380.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_GratiaA6380.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 142 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:12:25 13:59:15<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 454<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 53477<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 53477 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.5 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Elf100.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Elf100<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2009:03:25 13:56:06<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Elf100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Elf100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:03:25 13:56:06<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2009:03:25 13:56:06<br>
+CreateDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailLength : 3040<br>
+ThumbnailLength : undefined<br>
+<br>
+ThumbnailOffset : 353<br>
+ThumbnailOffset : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3040 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Dream.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Dream.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Dream.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 269 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_DesireS.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Desire S<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 75<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:05:29 10:31:54<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 3.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 10:31:54<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 2011:05:29<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 56° 47' 36.8800" N<br>
+GPSLongitude : 53° 26' 11.3400" E</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_DesireS.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_DesireS.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 285 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:05:29 10:31:54<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 716<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 49896<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2011:05:29 10:31:54Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 56 deg 47' 36.88" N, 53 deg 26' 11.34" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 49896 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.5 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_DesireHD.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Desire HD<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 598<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:12:04 20:46:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 17:46:38<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 2010:12:04<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 59° 55' 52.5600" N<br>
+GPSLongitude : 30° 21' 25.3200" E</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_DesireHD.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_DesireHD.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 135 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:12:04 20:46:38<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 692<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 33245<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2010:12:04 17:46:38Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 59 deg 55' 52.56" N, 30 deg 21' 25.32" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 33245 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Desire.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC Desire<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:06 13:07:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Desire.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Desire.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 321 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:06:06 13:07:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1552<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 428<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 34718<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 34718 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_DL_DesireZv34final.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : DL DesireZ v3.4 final<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ISO : 53<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:06:24 18:49:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_DL_DesireZv34final.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_DL_DesireZv34final.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 261 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:06:24 18:49:49<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1552<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2592<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 458<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 51570<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewQuality : 85<br>
+PreviewQuality : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 51570 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Breeze.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Breeze<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2009:08:09 17:24:22<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Breeze.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Breeze.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 568 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:08:13 21:53:02<br>
+ModifyDate : undefined<br>
+<br>
+SubSecTime : 625<br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1280<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+SubSecModifyDate : 2009:08:13 21:53:02.625<br>
+SubSecModifyDate : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Artemis.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : Artemis<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : SyMPDA<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2010:07:10 20:39:40<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_Artemis.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_Artemis.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 583 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:07:10 20:39:40<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:07:10 20:39:40<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_8900.jpg</td>
+<td class="supported">Make : HTC-8900<br>
+Model : HTC-8900<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:01 16:08:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_8900.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_8900.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 24 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 4_08_28288_00<br>
+Software : 4082828800<br>
+<br>
+CreateDate : 2010:06:01 16:08:35<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 432<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 23598<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 23598 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_7Trophy.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : 7 Trophy<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone OS 7.0<br>
+Artist : <br>
+YCbCrPositioning : Centered<br>
+ISO : 800<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:08:15 14:29:32<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSDOP : 3000<br>
+GPSAltitude : 0 m Above Sea Level</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_7Trophy.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_7Trophy.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 22 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:08:15 14:29:32<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:08:15 14:29:32<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 692<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 21081<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSLatitude : 42 deg 16' 5.16" N<br>
+GPSLatitude : 42° 16' 5.1590" N<br>
+<br>
+GPSLongitude : 2 deg 57' 33.77" E<br>
+GPSLongitude : 2° 57' 33.7680" E<br>
+<br>
+GPSPosition : 42 deg 16' 5.16" N, 2 deg 57' 33.77" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 21081 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_7ProT7576.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : 7 Pro T7576<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone 7.5<br>
+Artist : <br>
+YCbCrPositioning : Centered<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2013:05:30 17:40:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSDOP : 3000<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 47° 25' 27.6240" N<br>
+GPSLongitude : 9° 22' 46.4520" E</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_7ProT7576.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_7ProT7576.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:05:30 17:40:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:05:30 17:40:21<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : Unknown (N)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 47 25 27.624<br>
+InteropVersion : undefined<br>
+<br>
+ProcessingSoftware : 3000<br>
+ProcessingSoftware : undefined<br>
+<br>
+Warning : GPS pointer references previous InteropIFD directory<br>
+Warning : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 692<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11662<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSPosition : 47 deg 25' 27.62" N, 9 deg 22' 46.45" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11662 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_7Mozart.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : 7 Mozart<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone OS 7.0<br>
+Artist : <br>
+YCbCrPositioning : Centered<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:05:03 21:03:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC_7Mozart.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC_7Mozart.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 19 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:05:03 21:03:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:05:03 21:03:33<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+Warning : Bad InteropIFD offset for tag 0x0005<br>
+Warning : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 490<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 19189<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 19189 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC-S620.jpg</td>
+<td class="supported">Make : HTC<br>
+Model : HTC-S620<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+DateTimeOriginal : 2008:01:15 13:35:26<br>
+ExifVersion : 2.10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/HTC/HTC-S620.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HTC-S620.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/HTC<br>
+Directory : undefined<br>
+<br>
+FileSize : 555 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:01:15 13:35:26<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+CreateDate : 2008:01:15 13:35:26<br>
+CreateDate : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Aiptek/Aiptek_iDV.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:08:15 11:43:39<br>
+DateTimeOriginal : 2010:08:15 11:43:39<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/274<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 10000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.5<br>
+_IFDpointer_Interop : 1238<br>
+_IFDpointer_Makernote : 698<br>
+Copyright : Copyright 2002<br>
+DateTime : 2010:08:15 11:43:39<br>
+ImageDescription : Digital Camera<br>
+Make : Aiptek International Inc.<br>
+Model : iDV<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.50.4<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 260</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.003918356<br>
+CompressedBitsPerPixel : 2.0039183559416758<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekVS-3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:12:21 01:16:30<br>
+DateTimeOriginal : 2008:12:21 01:16:30<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, red-eye reduction mode, return light detected<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 674<br>
+Copyright : Copyright 2002<br>
+DateTime : 2008:12:21 01:16:30<br>
+ImageDescription : DV IMAGE<br>
+Make : AIPTEK<br>
+Model : VS-3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.584078534<br>
+CompressedBitsPerPixel : 1.5840785339187329<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekHDDV8300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010:04:23 12:31:56<br>
+DateTimeOriginal : 2010:04:23 12:31:56<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.4 mm<br>
+ISO : 192<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 609<br>
+_IFDpointer_Interop : 997<br>
+DateTime : 2010:04:23 12:32:24<br>
+ImageDescription : PHOT0012.JPG<br>
+Make : AIPTEK<br>
+Model : HDDV 8300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.9.7.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 239</td>
+<td class="unsupported">Flash : Unknown (0x39)<br>
+Flash : 57<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDZO-V59.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1979:02:17 19:47:00<br>
+DateTimeOriginal : 1979:02:17 19:47:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3584 px w<br>
+PixelYDimension : 2688 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 1082<br>
+_IFDpointer_Makernote : 622<br>
+DateTime : 1979:02:17 19:47:00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.616027417<br>
+CompressedBitsPerPixel : 1.6160274168261055<br>
+<br>
+ImageDescription : Digital Camera<br>
+ImageDescription : Digital Camer<br>
+<br>
+Make : Aiptek International Inc.<br>
+Make : Aiptek International Inc<br>
+<br>
+Model : DZO-V59<br>
+Model : DZO-V5<br>
+<br>
+Software : V1.72.0126<br>
+Software : V1.72.012<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV_M2.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:07:04 12:20:52<br>
+DateTimeOriginal : 2009:07:04 12:20:52<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/809<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.5<br>
+_IFDpointer_Interop : 804<br>
+_IFDpointer_Makernote : 692<br>
+Copyright : Copyright 2002<br>
+DateTime : 2009:07:04 12:20:52<br>
+ImageDescription : Digital Camera<br>
+Make : Aiptek International Inc.<br>
+Model : DV M2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 3.20.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.141622721<br>
+CompressedBitsPerPixel : 1.1416227213541668<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV_Cam2.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:07:02 19:23:22<br>
+DateTimeOriginal : 2007:07:02 19:23:22<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/109<br>
+FNumber : 5.3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+_IFDpointer_Interop : 834<br>
+_IFDpointer_Makernote : 676<br>
+Copyright : Copyright 2002<br>
+DateTime : 2007:07:02 19:23:22<br>
+ImageDescription : DV IMAGE<br>
+Make : AIPTEK<br>
+Model : DV Cam2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.016308594<br>
+CompressedBitsPerPixel : 1.01630859375<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV8800N.jpg</td>
+<td class="supported">ApertureValue : 32.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:07:09 09:03:43<br>
+DateTimeOriginal : 2009:07:09 09:03:43<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/340<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, red-eye reduction mode, return light detected<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 32.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/512<br>
+_IFDpointer_Interop : 1158<br>
+_IFDpointer_Makernote : 676<br>
+Copyright : Copyright 2002<br>
+DateTime : 2009:07:09 09:03:43<br>
+ImageDescription : AIPTEK<br>
+Make : AIPTEK<br>
+Model : DV 8800N<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.961150716<br>
+CompressedBitsPerPixel : 1.9611507161458333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV8800.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:05:22 04:59:04<br>
+DateTimeOriginal : 2009:05:22 04:59:04<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/7<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+_IFDpointer_Interop : 834<br>
+_IFDpointer_Makernote : 676<br>
+Copyright : Copyright 2002<br>
+DateTime : 2009:05:22 04:59:04<br>
+ImageDescription : DV IMAGE<br>
+Make : AIPTEK<br>
+Model : DV 8800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.997859701<br>
+CompressedBitsPerPixel : 1.9978597005208334<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV6800S.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:08:21 13:06:36<br>
+DateTimeOriginal : 2007:08:21 13:06:36<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, red-eye reduction mode, return light detected<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+_IFDpointer_Interop : 836<br>
+_IFDpointer_Makernote : 678<br>
+Copyright : Copyright 2002<br>
+DateTime : 2007:08:21 13:06:36<br>
+ImageDescription : DV IMAGE<br>
+Make : AIPTEK<br>
+Model : DV 6800S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 252</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.541988152<br>
+CompressedBitsPerPixel : 1.5419881521177685<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV6800.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:03:27 20:56:23<br>
+DateTimeOriginal : 2008:03:27 20:56:23<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+_IFDpointer_Interop : 834<br>
+_IFDpointer_Makernote : 676<br>
+Copyright : Copyright 2002<br>
+DateTime : 2008:03:27 20:56:23<br>
+ImageDescription : DV IMAGE<br>
+Make : AIPTEK<br>
+Model : DV 6800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.636261407<br>
+CompressedBitsPerPixel : 1.6362614066804408<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV5700.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:08:02 22:19:51<br>
+DateTimeOriginal : 2006:08:02 22:19:51<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/11<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+_IFDpointer_Interop : 780<br>
+_IFDpointer_Makernote : AIPPWB330256320EI 68 69AV241WE110107  0KB312 94234JP0AE0FD  0FM 1VER2201END;<br>
+Copyright : Copyright 2002<br>
+DateTime : 2006:08:02 22:19:51<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.64150238<br>
+CompressedBitsPerPixel : 1.6415023803710938<br>
+<br>
+Flash : Unknown (0x5601)<br>
+Flash : 22017<br>
+<br>
+ImageDescription : DV IMAGE<br>
+ImageDescription : DV IMAG<br>
+<br>
+Make : AIPTEK<br>
+Make : AIPTE<br>
+<br>
+Model : DV 5700<br>
+Model : DV 570<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV5000.jpg</td>
+<td class="supported">ApertureValue : 32.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/169<br>
+FNumber : 110976041<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Fluorescent<br>
+MaxApertureValue : 32.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 3840 px w<br>
+PixelYDimension : 2880 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/256<br>
+_IFDpointer_Interop : 854<br>
+_IFDpointer_Makernote : 632<br>
+Copyright : Copyright 2002<br>
+DateTime : <br>
+ImageDescription : AIPTEK<br>
+Make : AIPTEK<br>
+Model : DV 5000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.99875434<br>
+CompressedBitsPerPixel : 1.9987543402777779<br>
+<br>
+DateTimeOriginal : ?????<br>
+DateTimeOriginal : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Aiptek/AiptekDV3100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2001:01:01 00:00:00<br>
+DateTimeOriginal : 2001:01:01 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.09090909090909091<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/18<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 2001:01:01 00:00:00<br>
+ImageDescription : Camera<br>
+Model : Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

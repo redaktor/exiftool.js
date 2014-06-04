@@ -1,0 +1,2262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Leica/Leica_digilux4.3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 0.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+DateTimeDigitized : 2000:02:22 18:16:48<br>
+DateTimeOriginal : 2000:02:22 18:16:48<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.4 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 635.000000<br>
+FocalPlaneYResolution : 635.000000<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/7<br>
+_IFDpointer_Interop : 924<br>
+_IFDpointer_Makernote : 710<br>
+Copyright : <br>
+DateTime : 2000:02:22 18:16:48<br>
+Make : LEICA<br>
+Model : digilux 4.3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera digilux 4.3 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248<br>
+_type : panasonic</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaX_VARIO.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:07:03 02:34:06<br>
+DateTimeOriginal : 2013:07:03 02:34:06<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/60<br>
+FNumber : 7.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 70 mm<br>
+ISO : 1600<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 4928 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Landscape<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10684<br>
+_IFDpointer_Makernote : 4866<br>
+_OffsetSchema : 4162<br>
+_Padding : 2726<br>
+DateTime : 2013:07:02 14:39:45<br>
+Make : LEICA CAMERA AG<br>
+Model : LEICA X VARIO (Typ 107)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Microsoft Windows Photo Viewer 6.1.7600.16385<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 2336<br>
+ModeInfo : n/a<br>
+_type : panasonicLeica5</td>
+<td class="unsupported">FocalLength : 46.0 mm<br>
+FocalLength : 46 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaX2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:05:08 09:12:57<br>
+DateTimeOriginal : 2012:05:08 09:12:57<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/250<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+ISO : 6400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4928 px w<br>
+PixelYDimension : 3264 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Landscape<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 6508<br>
+_IFDpointer_Makernote : 690<br>
+DateTime : 2012:05:08 09:12:57<br>
+Make : LEICA CAMERA AG<br>
+Model : LEICA X2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v5H3-73<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 236<br>
+ExposureMode : Manual<br>
+ModeInfo : 129,0,0,0<br>
+ShotInfo : 1,0,0,0,154,2,0,0,7,146,3,0,1,0,0,0<br>
+_type : panasonicLeica5</td>
+<td class="unsupported">FocalLength : 24.0 mm<br>
+FocalLength : 24 mm<br>
+<br>
+FilmMode : Standard *<br>
+FilmMode : <br>
+<br>
+OriginalDirectory : 999LEICA<br>
+OriginalDirectory : <br>
+<br>
+OriginalFileName : L9990382.JPG<br>
+OriginalFileName : <br>
+<br>
+WB_RGBLevels : 0.5529157667 1.001956947 0.536687631<br>
+WB_RGBLevels : 0.00004382769143113848,0.001483679525222552,85.29597799931248<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaX1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:11:07 16:17:27<br>
+DateTimeOriginal : 2009:11:07 16:17:27<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureProgram : Manual<br>
+ExposureTime : 2<br>
+FNumber : 7.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4272 px w<br>
+PixelYDimension : 2856 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Landscape<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 4506<br>
+_IFDpointer_Makernote : 684<br>
+DateTime : 2009:11:07 16:17:27<br>
+Make : LEICA CAMERA AG<br>
+Model : LEICA X1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.73b<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 250<br>
+ExposureMode : Manual<br>
+ModeInfo : Vivid<br>
+ShotInfo : 10,0,1,0,0,0,148,2,0,0,5,146,5,0,1,0<br>
+_type : panasonicLeica5</td>
+<td class="unsupported">FilmMode : Vivid<br>
+FilmMode : <br>
+<br>
+OriginalDirectory : 100LEICA<br>
+OriginalDirectory : <br>
+<br>
+OriginalFileName : L1000262.JPG<br>
+OriginalFileName : 21l<br>
+<br>
+WB_RGBLevels : 0.5182186235 1 0.7231638418<br>
+WB_RGBLevels : 0.000026748696001069948,0.06250286102294922,9.811616680273751<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX40.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:06:24 11:00:44<br>
+DateTimeOriginal : 2012:06:24 11:00:44<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/640<br>
+FNumber : 5.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 33.3 mm<br>
+FocalLengthIn35mmFilm : 195 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 5.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 2880 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+_IFDpointer_Interop : 12622<br>
+_IFDpointer_Makernote : 1238<br>
+GPSDOP : 1.5<br>
+GPSDateStamp : 2012:06:24<br>
+GPSLatitude : 52° 33' 14.0200" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 13° 17' 21.5700" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSStatus : Measurement Active<br>
+GPSTimeStamp : 09:00:12<br>
+GPSVersion : 2.3.0.0<br>
+Artist : <br>
+DateTime : 2012:06:24 11:00:44<br>
+Make : LEICA<br>
+Model : V-LUX 40<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 532<br>
+PanasonicTitle2 : 596<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 724<br>
+_IFDpointer_GPS : 12078<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 324</td>
+<td class="unsupported">LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+<br>
+WhiteBalance : Daylight<br>
+WhiteBalance : Manual<br>
+<br>
+GPSAreaInformation : Berlin-Tegel-Terminal A 0-15<br>
+GPSAreaInformation : 12344<br>
+<br>
+GPSProcessingMethod : GPS<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,71,80,83,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2013:04:25 14:48:54<br>
+DateTimeOriginal : 2013:04:25 14:48:54<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : -0.33<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/400<br>
+FNumber : 7.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 105.6 mm<br>
+FocalLengthIn35mmFilm : 610 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 2672 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+_IFDpointer_Interop : 10558<br>
+_IFDpointer_Makernote : 746<br>
+DateTime : 2013:04:25 20:58:30<br>
+Make : LEICA<br>
+Model : V-LUX 4<br>
+PanasonicTitle : 10804<br>
+PanasonicTitle2 : 10868<br>
+ResolutionUnit : inches<br>
+Software : Elements Organizer 10.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 232<br>
+AFAssistLamp : Enabled but Not Used<br>
+AFPointPosition : 0.5 0.5<br>
+AdvancedSceneType : 1<br>
+Audio : No<br>
+BurstMode : Off<br>
+BurstSpeed : 0 images per second<br>
+ClearRetouch : Off<br>
+ColorEffect : Off<br>
+ColorMode : Normal<br>
+ColorTemperature : 0 Kelvin<br>
+ContrastMode : Normal<br>
+ConversionLens : Off<br>
+FaceDetInfo : 10128<br>
+FaceRecInfo : 10170<br>
+FacesDetected : 0<br>
+FlashCurtain : n/a<br>
+FlashFired : No<br>
+FlashWarning : No<br>
+FocusMode : Auto<br>
+ISOSetting : n/a<br>
+ImageStabilization : On, Mode 1<br>
+IntelligentResolution : Off<br>
+InternalNDFilter : 0<br>
+MacroMode : Off<br>
+MakerNoteVersion : 1.41<br>
+NoiseReduction : Standard<br>
+OpticalZoomMode : Standard<br>
+PanasonicExifVersion : 4.01<br>
+PanasonicImageHeight : 0<br>
+PanasonicImageWidth : 0<br>
+PhotoStyle : Vivid<br>
+Quality : High<br>
+RecognizedFaceFlags : 0, 0, 0, 0<br>
+Rotation : Horizontal (normal)<br>
+SceneMode : Off<br>
+SelfTimer : Off<br>
+SequenceNumber : 0<br>
+ShootingMode : Aperture Priority<br>
+SweepPanoramaDirection : Off<br>
+SweepPanoramaFieldOfView : 0<br>
+TextStamp : Off<br>
+TravelDay : n/a<br>
+WBBlueLevel : 1797<br>
+WBGreenLevel : 1060<br>
+WBRedLevel : 2373<br>
+WorldTimeLocation : Home<br>
+_type : panasonic<br>
+PrintIM : 10596</td>
+<td class="unsupported">WhiteBalance : Cloudy<br>
+WhiteBalance : Manual<br>
+<br>
+AFAreaMode : 23-area<br>
+AFAreaMode : 0,23<br>
+<br>
+BabyAge : (not set)<br>
+BabyAge : not set<br>
+<br>
+BabyName : <br>
+BabyName : 10382<br>
+<br>
+DataDump : (Binary data 8200 bytes, use -b option to extract)<br>
+DataDump : (Binary data 1876 bytes)<br>
+<br>
+FirmwareVersion : 0.1.0.0<br>
+FirmwareVersion : 0,1,0,0<br>
+<br>
+FlashBias : -1/3<br>
+FlashBias : +1/0 EV<br>
+<br>
+IntelligentD-Range : Off<br>
+IntelligentD-Range : 0<br>
+<br>
+InternalSerialNumber : (O28) 2006:10:05 no. 0009<br>
+InternalSerialNumber : 79,50,56,48,54,49,48,48,53,48,48,48,57,0,0,0<br>
+<br>
+Location : <br>
+Location : 10446<br>
+<br>
+TimeSincePowerOn : 00:04:10.71<br>
+TimeSincePowerOn : 04110<br>
+<br>
+Title : <br>
+Title : 10318<br>
+<br>
+WBShiftAB : 0<br>
+WBShiftAB : Normal<br>
+<br>
+WBShiftGM : 0<br>
+WBShiftGM : Normal<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX30.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:06:15 14:11:28<br>
+DateTimeOriginal : 2011:06:15 14:11:28<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 5.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 68.8 mm<br>
+FocalLengthIn35mmFilm : 504 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 12492<br>
+_IFDpointer_Makernote : 1158<br>
+GPSDOP : 1.7<br>
+GPSDateStamp : 2011:06:15<br>
+GPSLatitude : 51° 26' 5.9100" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 0° 18' 36.9400" W<br>
+GPSLongitudeRef : West<br>
+GPSMapDatum : WGS-84<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSSatellites : 4<br>
+GPSStatus : Measurement Active<br>
+GPSTimeStamp : 13:11:24<br>
+GPSVersion : 2.3.0.0<br>
+DateTime : 2011:06:15 14:11:28<br>
+Make : LEICA<br>
+Model : V-LUX 30<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 452<br>
+PanasonicTitle2 : 516<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 644<br>
+_IFDpointer_GPS : 11938<br>
+AFAssistLamp : Enabled but Not Used<br>
+AFPointPosition : 0.5 0.5<br>
+AdvancedSceneType : 5<br>
+Audio : No<br>
+BurstMode : Off<br>
+BurstSpeed : 0 images per second<br>
+ClearRetouch : Off<br>
+ColorEffect : Off<br>
+ColorMode : Normal<br>
+ContrastMode : Normal<br>
+ConversionLens : Off<br>
+FaceDetInfo : 10548<br>
+FaceRecInfo : 10590<br>
+FacesDetected : 0<br>
+FlashBias : 0<br>
+FlashFired : No<br>
+FlashWarning : No<br>
+FocusMode : Auto<br>
+ISOSetting : Intelligent ISO<br>
+ImageStabilization : On, Mode 1<br>
+IntelligentExposure : Off<br>
+IntelligentResolution : High<br>
+MacroMode : Off<br>
+MakerNoteVersion : 1.37<br>
+NoiseReduction : Standard<br>
+OpticalZoomMode : Standard<br>
+PanasonicExifVersion : 3.50<br>
+Quality : High<br>
+RecognizedFaceFlags : 0, 0, 0, 0<br>
+Rotation : Horizontal (normal)<br>
+SceneMode : Intelligent Auto<br>
+SelfTimer : Off<br>
+SequenceNumber : 0<br>
+ShootingMode : Intelligent Auto<br>
+TextStamp : Off<br>
+Transform : Off<br>
+TravelDay : n/a<br>
+WBBlueLevel : 1517<br>
+WBGreenLevel : 1060<br>
+WBRedLevel : 1337<br>
+WhiteBalanceBias : 0<br>
+WorldTimeLocation : Destination<br>
+_type : panasonic<br>
+PrintIM : 244</td>
+<td class="unsupported">GPSAreaInformation : <br>
+GPSAreaInformation : 12216<br>
+<br>
+GPSProcessingMethod : GPS<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,71,80,83,0,0,0<br>
+<br>
+AFAreaMode : Tracking<br>
+AFAreaMode : 32,0<br>
+<br>
+BabyAge : (not set)<br>
+BabyAge : not set<br>
+<br>
+BabyName : <br>
+BabyName : 10802<br>
+<br>
+City : TEDDINGTON<br>
+City : 11074<br>
+<br>
+Country : ENGLAND<br>
+Country : 10930<br>
+<br>
+DataDump : (Binary data 8200 bytes, use -b option to extract)<br>
+DataDump : (Binary data 2296 bytes)<br>
+<br>
+FirmwareVersion : 0.1.0.0<br>
+FirmwareVersion : 0,1,0,0<br>
+<br>
+InternalSerialNumber : (F52) 2011:05:13 no. 0044<br>
+InternalSerialNumber : 70,53,50,49,49,48,53,49,51,48,48,52,52,0,0,0<br>
+<br>
+Landmark : ---<br>
+Landmark : 11146<br>
+<br>
+Location : <br>
+Location : 10866<br>
+<br>
+State : MIDDLESEX<br>
+State : 11002<br>
+<br>
+TimeSincePowerOn : 00:03:22.66<br>
+TimeSincePowerOn : 03230<br>
+<br>
+Title : <br>
+Title : 10738<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:12:02 17:17:47<br>
+DateTimeOriginal : 2011:12:02 17:17:47<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 4.9<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 99.7 mm<br>
+FocalLengthIn35mmFilm : 554 mm<br>
+GainControl : High gain up<br>
+ISO : 1600<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10832<br>
+_IFDpointer_Makernote : 1144<br>
+DateTime : 2011:12:02 17:17:47<br>
+Make : LEICA<br>
+Model : V-LUX 3<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 438<br>
+PanasonicTitle2 : 502<br>
+ResolutionUnit : inches<br>
+Software : Ver.0.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 630<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 230</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX20.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:09:27 23:20:24<br>
+DateTimeOriginal : 2010:09:27 23:20:24<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 3.4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 30 mm<br>
+GainControl : Low gain up<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11236<br>
+_IFDpointer_Makernote : 1144<br>
+DateTime : 2010:09:27 23:20:24<br>
+Make : LEICA<br>
+Model : V-LUX 20<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 450<br>
+PanasonicTitle2 : 514<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 642<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 242</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:04:23 16:35:46<br>
+DateTimeOriginal : 2011:04:23 16:35:46<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/250<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+FocalLengthIn35mmFilm : 25 mm<br>
+GainControl : High gain up<br>
+ISO : 250<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+DateTime : 2011:04:23 16:35:46<br>
+Make : LEICA<br>
+Model : V-LUX 2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaV-LUX1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:25 15:05:10<br>
+DateTimeOriginal : 2007:03:25 15:05:10<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/60<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 31.1 mm<br>
+FocalLengthIn35mmFilm : 147 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7682<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2007:03:25 15:05:10<br>
+Make : LEICA<br>
+Model : V-LUX 1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaS2.jpg</td>
+<td class="supported">ApertureValue : 9.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:12 10:31:25<br>
+DateTimeOriginal : 2009:11:12 10:31:25<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : -1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/90<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+ISO : 160<br>
+ImageUniqueID : 00000000000000000000000003566061<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 7488 px w<br>
+PixelYDimension : 4976 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/89<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 15294073<br>
+Make : Leica Camera AG<br>
+Model : S2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0.0.9<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 300<br>
+_type : panasonicLeica5</td>
+<td class="unsupported">FocalLength : 70.0 mm<br>
+FocalLength : 70 mm<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : 2,1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaR9-DigitalBackDMR.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2005:10:06 13:36:10<br>
+DateTimeOriginal : 2005:10:06 13:36:10<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/750<br>
+FNumber : 4<br>
+Flash : Off, No flash function<br>
+ISO : 100<br>
+ImageUniqueID : 0000000000000000004C9FF30000011B<br>
+LightSource : Other<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 3872 px w<br>
+PixelYDimension : 2576 px h<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/776<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 584<br>
+DateTime : 2005:10:06 13:36:10<br>
+Make : Leica Camera AG<br>
+Model : R9 - Digital Back DMR<br>
+Orientation : Horizontal (normal)<br>
+PlanarConfiguration : Chunky<br>
+ResolutionUnit : inches<br>
+Software : Rev 1.1<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 220<br>
+_type : panasonicLeica3</td>
+<td class="unsupported">FocalLength : 0.0 mm<br>
+FocalLength : 0 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaR8-DigitalBackDMR.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+Contrast : Normal<br>
+DateTimeOriginal : 2007:02:17 12:08:47<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+Flash : Off, No flash function<br>
+ISO : 800<br>
+ImageUniqueID : 0000000000000000004CC4C9000002C7<br>
+LightSource : Daylight<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Spot<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2007:02:17 21:30:13<br>
+Make : Leica Camera AG<br>
+Model : R8 - Digital Back DMR<br>
+ResolutionUnit : inches<br>
+Software : Rev 1.1<br>
+XResolution : 240.00000000<br>
+YResolution : 240.00000000<br>
+_IFDpointer_EXIF : 204<br>
+_type : panasonicLeica3</td>
+<td class="unsupported">DateTimeDigitized : 2007:02:17 12:08:47+09:00<br>
+DateTimeDigitized : 2007:02:17 12:08:47<br>
+<br>
+FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+MakerNoteSafety : Safe<br>
+MakerNoteSafety : 1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaM_Monochrom.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:04:28 22:59:21<br>
+DateTimeOriginal : 2012:04:28 22:59:21<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.6640625<br>
+ExposureMode : Manual<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/1000<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 160<br>
+ImageUniqueID : 00000000000000000000000000000097<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 5216 px w<br>
+PixelYDimension : 3472 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1024<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 852<br>
+DateTime : 2012:04:28 22:59:21<br>
+Make : Leica Camera AG<br>
+Model : M Monochrom<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.009<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 252<br>
+_type : panasonicLeica3</td>
+<td class="unsupported">ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalLength : 35.0 mm<br>
+FocalLength : 35 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaM9.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:09:08 14:15:02<br>
+DateTimeOriginal : 2009:09:08 14:15:02<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : -0.33203125<br>
+ExposureMode : Manual<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/125<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 160<br>
+ImageUniqueID : 0000000000000000000000000000031f<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 5216 px w<br>
+PixelYDimension : 3472 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/128<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 860<br>
+DateTime : 2009:09:08 14:15:02<br>
+Make : Leica Camera AG<br>
+Model : M9 Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.002<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 252<br>
+_type : panasonicLeica3</td>
+<td class="unsupported">ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+FocalLength : 35.0 mm<br>
+FocalLength : 35 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaM8.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:07:09 14:50:29<br>
+DateTimeOriginal : 2007:07:09 14:50:29<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/250<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+ImageUniqueID : 00000000000000000000000000000390<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3936 px w<br>
+PixelYDimension : 2624 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/256<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2007:07:09 14:50:29<br>
+Make : Leica Camera AG<br>
+Model : M8 Digital Camera<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+Software : 1.102<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 210<br>
+CCDBoardVersion : 1<br>
+CCDVersion : 0<br>
+CameraTemperature : 21 C<br>
+ColorTemperature : 5515 Kelvin<br>
+ControllerBoardVersion : 0<br>
+ImageIDNumber : 912<br>
+LensType : Summicron-M 50mm f/2 (IV, V)<br>
+M16CVersion : 0<br>
+Quality : Fine<br>
+SerialNumber : 3103025<br>
+UserProfile : User Profile 0 (Dynamic)<br>
+_type : panasonicLeica2</td>
+<td class="unsupported">ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+WhiteBalance : Auto or Manual<br>
+WhiteBalance : Auto<br>
+<br>
+ApproximateFNumber : 6.5<br>
+ApproximateFNumber : 0.3<br>
+<br>
+MeasuredLV : 7.54<br>
+MeasuredLV : 0.02<br>
+<br>
+WBBlueLevel : 0.7966159382<br>
+WBBlueLevel : 0.03225811373802923<br>
+<br>
+WBGreenLevel : 1<br>
+WBGreenLevel : 0.016274717226788183<br>
+<br>
+WBRedLevel : 0.4750637903<br>
+WBRedLevel : 1843.4066003317255<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaM8.2.jpg</td>
+<td class="supported">Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:07:30 19:04:41<br>
+DateTimeOriginal : 2009:07:30 19:04:41<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/45<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 640<br>
+ImageUniqueID : 00000000000000000000000000000412<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3936 px w<br>
+PixelYDimension : 2624 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/45<br>
+_IFDpointer_Makernote : 724<br>
+Copyright : Â© 2009, Kevin Carter<br>
+DateTime : 2009:07:30 19:04:41<br>
+Make : Leica Camera AG<br>
+Model : M8 Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 238<br>
+CCDBoardVersion : 2<br>
+CCDVersion : 0<br>
+CameraTemperature : 24 C<br>
+ColorTemperature : 0 Kelvin<br>
+ControllerBoardVersion : 0<br>
+ImageIDNumber : 1042<br>
+LensType : Summicron-M 35mm f/2 ASPH.<br>
+M16CVersion : 0<br>
+Quality : Fine<br>
+SerialNumber : 3556215<br>
+UserProfile : User Profile 0 (Dynamic)<br>
+_type : panasonicLeica2</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLength : 35.0 mm<br>
+FocalLength : 35 mm<br>
+<br>
+WhiteBalance : Auto or Manual<br>
+WhiteBalance : Auto<br>
+<br>
+ApproximateFNumber : 1<br>
+ApproximateFNumber : 0.3<br>
+<br>
+MeasuredLV : -0.95<br>
+MeasuredLV : 0.02<br>
+<br>
+WBBlueLevel : 0.9781410244<br>
+WBBlueLevel : 0.03225811373802923<br>
+<br>
+WBGreenLevel : 0.9761899179<br>
+WBGreenLevel : 0.016274717226788183<br>
+<br>
+WBRedLevel : 0.973855539<br>
+WBRedLevel : 1843.4066003317255<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaM.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:03:21 16:06:18<br>
+DateTimeOriginal : 2013:03:21 16:06:18<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/1000<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+ISO : 200<br>
+ImageUniqueID : 00000000000000000000000001517332<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 5952 px w<br>
+PixelYDimension : 3968 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1064<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 10300989<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 0<br>
+GPSDateStamp : 2000:00:00<br>
+GPSSpeed : 0<br>
+GPSStatus : Measurement Void<br>
+GPSTimeStamp : 00:00:00<br>
+GPSTrack : 0<br>
+GPSVersion : 2.2.0.0<br>
+Artist : <br>
+Copyright : <br>
+Model : LEICA M (Typ 240)<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.1.0.2<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 300<br>
+_IFDpointer_GPS : 1100</td>
+<td class="unsupported">FocalLength : 35.0 mm<br>
+FocalLength : 35 mm<br>
+<br>
+GPSLatitude : 0 deg 0' 0.00" N<br>
+GPSLatitude : 0,0,0<br>
+<br>
+GPSLatitudeRef : Unknown ()<br>
+GPSLatitudeRef :  <br>
+<br>
+GPSLongitude : 0 deg 0' 0.00" E<br>
+GPSLongitude : 0,0,0<br>
+<br>
+GPSLongitudeRef : Unknown ()<br>
+GPSLongitudeRef :  <br>
+<br>
+GPSSpeedRef : Unknown ()<br>
+GPSSpeedRef :  <br>
+<br>
+Make : Leica Camera AG<br>
+Make : Leica Camera A<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : 2,1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaDigiluxZoom.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 1999:06:16 22:52:03<br>
+DateTimeOriginal : 1999:06:16 22:52:03<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.9 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 2174.000000<br>
+FocalPlaneYResolution : 2174.000000<br>
+ISO : 125<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/91<br>
+_IFDpointer_Interop : 708<br>
+Copyright : <br>
+DateTime : 1999:06:16 22:52:03<br>
+Make : LEICA<br>
+Model : digilux zoom<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera digilux zoom Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaDigilux3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 8<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2007:02:11 07:25:41<br>
+DateTimeOriginal : 2007:02:11 07:25:41<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/6<br>
+FNumber : 3.4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 76 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3136 px w<br>
+PixelYDimension : 2352 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7936<br>
+_IFDpointer_Makernote : 918<br>
+DateTime : 2007:02:11 07:25:41<br>
+Make : LEICA<br>
+Model : DIGILUX 3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 416<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 208</td>
+<td class="unsupported">FocalLength : 38.0 mm<br>
+FocalLength : 38 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaDigilux2.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+CFAPattern : [Red,Green][Green,Blue]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 8<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:04:19 11:02:48<br>
+DateTimeOriginal : 2004:04:19 11:02:48<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/400<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 19.6 mm<br>
+FocalLengthIn35mmFilm : 78 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/400<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2564<br>
+_IFDpointer_Makernote : 980<br>
+Artist : No Name<br>
+DateTime : 2004:04:19 11:02:48<br>
+Make : LEICA<br>
+Model : DIGILUX 2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414<br>
+Audio : No<br>
+BurstMode : Off<br>
+ColorEffect : Off<br>
+ContrastMode : Normal<br>
+FlashBias : 0<br>
+FocusMode : Auto<br>
+ImageStabilization : Off<br>
+MacroMode : Off<br>
+PanasonicExifVersion : 1.00<br>
+Quality : Very High<br>
+SequenceNumber : 0<br>
+ShootingMode : Program<br>
+WhiteBalanceBias : 0<br>
+_type : panasonic<br>
+PrintIM : 206</td>
+<td class="unsupported">AFAreaMode : 3-area (high speed)<br>
+AFAreaMode : 0,16<br>
+<br>
+DataDump : (Binary data 766 bytes, use -b option to extract)<br>
+DataDump : (Binary data 1254 bytes)<br>
+<br>
+FirmwareVersion : 0.1.0.9<br>
+FirmwareVersion : 0,1,0,9<br>
+<br>
+InternalSerialNumber : (S02) 2004:01:08 no. 0215<br>
+InternalSerialNumber : 83,48,50,48,52,48,49,48,56,48,50,49,53,0,0,0<br>
+<br>
+TimeSincePowerOn : 00:01:13.54<br>
+TimeSincePowerOn : 01140<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaDigilux1.jpg</td>
+<td class="supported">ApertureValue : 6.5<br>
+CFAPattern : [Green,Magenta][Yellow,Cyan]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4.1<br>
+DateTimeDigitized : 2005:06:20 14:29:13<br>
+DateTimeOriginal : 2005:06:20 14:29:13<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/559<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.7 mm<br>
+ISO : 100<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/549<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1026<br>
+_IFDpointer_Makernote : 872<br>
+DateTime : 2005:06:20 14:29:13<br>
+Make : LEICA<br>
+Model : Digilux1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414<br>
+Audio : No<br>
+FocusMode : Auto<br>
+ImageStabilization : Off<br>
+MacroMode : Off<br>
+Quality : High<br>
+_type : panasonic<br>
+PrintIM : 206</td>
+<td class="unsupported">FNumber : 6.6<br>
+FNumber : 6.61<br>
+<br>
+AFAreaMode : Normal?<br>
+AFAreaMode : Auto<br>
+<br>
+DataDump : (Binary data 16 bytes, use -b option to extract)<br>
+DataDump : n/a<br>
+<br>
+FirmwareVersion : 0100<br>
+FirmwareVersion : 48,49,48,48<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaDigilux.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 8.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+DateTimeDigitized : 2005:06:19 08:50:43<br>
+DateTimeOriginal : 2005:06:19 08:50:43<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 1786.000000<br>
+FocalPlaneYResolution : 1786.000000<br>
+ISO : 100<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/194<br>
+Copyright : <br>
+DateTime : 2005:06:19 08:50:43<br>
+Make : LEICA<br>
+Model : digilux<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera digilux Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaD-LUX6.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:01:26 22:01:49<br>
+DateTimeOriginal : 2012:01:26 22:01:49<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/640<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.7 mm<br>
+FocalLengthIn35mmFilm : 24 mm<br>
+GainControl : Low gain up<br>
+ISO : 160<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11196<br>
+_IFDpointer_Makernote : 1224<br>
+Artist : <br>
+DateTime : 2012:01:26 22:01:49<br>
+Make : LEICA<br>
+Model : D-LUX 6<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 518<br>
+PanasonicTitle2 : 582<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 710<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 310</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaD-LUX5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:04:19 14:38:59<br>
+DateTimeOriginal : 2011:04:19 14:38:59<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.8 mm<br>
+FocalLengthIn35mmFilm : 32 mm<br>
+GainControl : Low gain up<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3776 px w<br>
+PixelYDimension : 2520 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10904<br>
+_IFDpointer_Makernote : 1224<br>
+Artist : <br>
+DateTime : 2011:04:19 14:38:59<br>
+Make : LEICA<br>
+Model : D-LUX 5<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 518<br>
+PanasonicTitle2 : 582<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 710<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 310</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaD-LUX4.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:05:12 14:16:13<br>
+DateTimeOriginal : 2009:05:12 14:16:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/160<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+FocalLengthIn35mmFilm : 24 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3776 px w<br>
+PixelYDimension : 2520 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10268<br>
+_IFDpointer_Makernote : 1132<br>
+DateTime : 2009:05:12 14:16:13<br>
+Make : LEICA<br>
+Model : D-LUX 4<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 438<br>
+PanasonicTitle2 : 502<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.2<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 630<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 230</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaD-LUX3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2007:04:06 14:12:50<br>
+DateTimeOriginal : 2007:04:06 14:12:50<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : -0.33<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 7.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 25.2 mm<br>
+FocalLengthIn35mmFilm : 136 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3168 px w<br>
+PixelYDimension : 2376 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7658<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2007:04:06 14:12:50<br>
+Make : LEICA<br>
+Model : D-LUX 3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414<br>
+AFAssistLamp : Disabled and Not Required<br>
+Audio : No<br>
+BurstMode : Off<br>
+ColorEffect : Off<br>
+ColorMode : Normal<br>
+ContrastMode : Low<br>
+ConversionLens : Off<br>
+FlashFired : No<br>
+FocusMode : Auto<br>
+ImageStabilization : On, Mode 2<br>
+MacroMode : Off<br>
+MakerNoteVersion : 1.00<br>
+NoiseReduction : Low (-1)<br>
+OpticalZoomMode : Standard<br>
+PanasonicExifVersion : 2.10<br>
+Quality : Raw<br>
+Rotation : Horizontal (normal)<br>
+SceneMode : Off<br>
+SelfTimer : Off<br>
+SequenceNumber : 0<br>
+ShootingMode : Program<br>
+TravelDay : n/a<br>
+WBBlueLevel : 1797<br>
+WBGreenLevel : 1054<br>
+WBRedLevel : 2247<br>
+_type : panasonic<br>
+PrintIM : 206</td>
+<td class="unsupported">Contrast : Low<br>
+Contrast : Soft<br>
+<br>
+AFAreaMode : 1-area<br>
+AFAreaMode : 16,0<br>
+<br>
+BabyAge : (not set)<br>
+BabyAge : not set<br>
+<br>
+DataDump : (Binary data 6152 bytes, use -b option to extract)<br>
+DataDump : (Binary data 1442 bytes)<br>
+<br>
+FirmwareVersion : 0.1.0.1<br>
+FirmwareVersion : 0,1,0,1<br>
+<br>
+FlashBias : -1/3<br>
+FlashBias : +1/0 EV<br>
+<br>
+InternalSerialNumber : (F61) 2006:12:21 no. 0121<br>
+InternalSerialNumber : 70,54,49,48,54,49,50,50,49,48,49,50,49,0,0,0<br>
+<br>
+TimeSincePowerOn : 00:00:56.72<br>
+TimeSincePowerOn : 01-30<br>
+<br>
+WBShiftAB : 0<br>
+WBShiftAB : Normal<br>
+<br>
+WBShiftGM : 0<br>
+WBShiftGM : Normal<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaD-LUX2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2005:12:26 11:51:39<br>
+DateTimeOriginal : 2005:12:26 11:51:39<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/500<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3840 px w<br>
+PixelYDimension : 2160 px h<br>
+Saturation : Low saturation<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 6652<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2005:12:26 11:51:39<br>
+Make : LEICA<br>
+Model : D-LUX2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414<br>
+AFAssistLamp : Enabled but Not Used<br>
+Audio : No<br>
+BurstMode : Off<br>
+ColorEffect : Off<br>
+ColorMode : Normal<br>
+ContrastMode : Low<br>
+ConversionLens : Off<br>
+FlashBias : 0<br>
+FocusMode : Auto<br>
+ImageStabilization : On, Mode 1<br>
+MacroMode : Off<br>
+NoiseReduction : Low (-1)<br>
+OpticalZoomMode : Standard<br>
+PanasonicExifVersion : 1.04<br>
+Quality : Raw<br>
+Rotation : Horizontal (normal)<br>
+SelfTimer : Off<br>
+SequenceNumber : 0<br>
+ShootingMode : Aperture Priority<br>
+WhiteBalanceBias : 0<br>
+_type : panasonic<br>
+PrintIM : 206</td>
+<td class="unsupported">Contrast : Low<br>
+Contrast : Soft<br>
+<br>
+AFAreaMode : 1-area<br>
+AFAreaMode : 16,0<br>
+<br>
+BabyAge : (not set)<br>
+BabyAge : not set<br>
+<br>
+DataDump : (Binary data 5322 bytes, use -b option to extract)<br>
+DataDump : (Binary data 1286 bytes)<br>
+<br>
+FirmwareVersion : 0.1.0.3<br>
+FirmwareVersion : 0,1,0,3<br>
+<br>
+InternalSerialNumber : (F19) 2005:11:07 no. 0008<br>
+InternalSerialNumber : 70,49,57,48,53,49,49,48,55,48,48,48,56,0,116,97<br>
+<br>
+TimeSincePowerOn : 00:06:11.01<br>
+TimeSincePowerOn : 06110<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaD-LUX.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+CFAPattern : [Red,Green][Green,Blue]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.9<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:10:09 18:49:55<br>
+DateTimeOriginal : 2004:10:09 18:49:55<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.6 mm<br>
+FocalLengthIn35mmFilm : 70 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1248<br>
+_IFDpointer_Makernote : 976<br>
+DateTime : 2004:10:09 18:49:55<br>
+Make : LEICA<br>
+Model : D-LUX<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver1.05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 410<br>
+Audio : No<br>
+FocusMode : Auto<br>
+ImageStabilization : On, Mode 1<br>
+MacroMode : Off<br>
+Quality : High<br>
+ShootingMode : Simple<br>
+_type : panasonic<br>
+PrintIM : 202</td>
+<td class="unsupported">AFAreaMode : 3-area (high speed)<br>
+AFAreaMode : 0,16<br>
+<br>
+DataDump : (Binary data 114 bytes, use -b option to extract)<br>
+DataDump : (Binary data 1118 bytes)<br>
+<br>
+FirmwareVersion : 0100<br>
+FirmwareVersion : 48,49,48,48<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaC.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:03:29 22:51:11<br>
+DateTimeOriginal : 2013:03:29 22:51:11<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 5.4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 27.3 mm<br>
+FocalLengthIn35mmFilm : 128 mm<br>
+GainControl : High gain up<br>
+ISO : 800<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.4<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3000 px w<br>
+PixelYDimension : 4000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+SensitivityType : Standard Output Sensitivity<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 16804<br>
+_IFDpointer_Makernote : 4952<br>
+_OffsetSchema : 3724<br>
+_Padding : 2804<br>
+Artist : <br>
+DateTime : 2013:11:05 12:24:51<br>
+Make : LEICA<br>
+Model : C (Typ 112)<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 17054<br>
+PanasonicTitle2 : 17118<br>
+ResolutionUnit : inches<br>
+Software : Microsoft Windows Photo Viewer 6.1.7600.16385<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 2354<br>
+_type : panasonic<br>
+PrintIM : 16846</td>
+<td class="unsupported">MakerNoteVersion : 0144<br>
+MakerNoteVersion : [object Object]<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaC-LUX3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:11 04:19:24<br>
+DateTimeOriginal : 2010:06:11 04:19:24<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+FocalLengthIn35mmFilm : 30 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2056 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10148<br>
+_IFDpointer_Makernote : 1132<br>
+DateTime : 2010:06:11 04:19:24<br>
+Make : LEICA<br>
+Model : C-LUX 3<br>
+Orientation : Horizontal (normal)<br>
+PanasonicTitle : 438<br>
+PanasonicTitle2 : 502<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 630<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 230</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaC-LUX2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:08 14:17:48<br>
+DateTimeOriginal : 2007:06:08 14:17:48<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0.33<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/160<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 7672<br>
+_IFDpointer_Makernote : 894<br>
+DateTime : 2007:06:08 14:17:48<br>
+Make : LEICA<br>
+Model : C-LUX 2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 392<br>
+Quality : [object Object]<br>
+_type : panasonic<br>
+PrintIM : 184</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Leica/LeicaC-LUX1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:07:07 15:28:22<br>
+DateTimeOriginal : 2006:07:07 15:28:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.66<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Low saturation<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 6908<br>
+_IFDpointer_Makernote : 894<br>
+DateTime : 2006:07:07 15:28:22<br>
+Make : LEICA<br>
+Model : C-LUX 1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 392<br>
+AFAssistLamp : Enabled but Not Used<br>
+Audio : No<br>
+BurstMode : Off<br>
+ColorEffect : Off<br>
+ColorMode : Natural<br>
+ContrastMode : Normal<br>
+ConversionLens : Off<br>
+FirmwareVersion : 0,0,2,9<br>
+FlashBias : 0<br>
+FlashFired : No<br>
+FocusMode : Auto<br>
+ImageStabilization : Off<br>
+MacroMode : Off<br>
+MakerNoteVersion : 1.00<br>
+NoiseReduction : Standard<br>
+OpticalZoomMode : Standard<br>
+PanasonicExifVersion : 2.00<br>
+Quality : High<br>
+Rotation : Horizontal (normal)<br>
+SceneMode : Off<br>
+SelfTimer : 2 s<br>
+SequenceNumber : 0<br>
+ShootingMode : Normal<br>
+TravelDay : n/a<br>
+WBBlueLevel : 394<br>
+WBGreenLevel : 264<br>
+WBRedLevel : 569<br>
+WhiteBalanceBias : 0<br>
+_type : panasonic<br>
+PrintIM : 184</td>
+<td class="unsupported">AFAreaMode : Spot Focusing<br>
+AFAreaMode : 1,0<br>
+<br>
+BabyAge : (not set)<br>
+BabyAge : not set<br>
+<br>
+DataDump : (Binary data 5436 bytes, use -b option to extract)<br>
+DataDump : (Binary data 1408 bytes)<br>
+<br>
+InternalSerialNumber : (F08) 2006:02:23 no. 0005<br>
+InternalSerialNumber : 70,48,56,48,54,48,50,50,51,48,48,48,53,0,112,116<br>
+<br>
+TimeSincePowerOn : 00:02:59.65<br>
+TimeSincePowerOn : 0300<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

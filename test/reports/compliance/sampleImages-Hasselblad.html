@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Hasselblad/HasselbladStellar.jpg</td>
+<td class="supported">BrightnessValue : 11.415625<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:01:01 00:05:54<br>
+DateTimeOriginal : 2013:01:01 00:05:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.30<br>
+ExposureBias : -0.7<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/800<br>
+FNumber : 11<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.4 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+ISO : 125<br>
+LensSpecification : 10.4,37.1,1.8,4.9<br>
+LightSource : Daylight<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 5472 px h<br>
+RecommendedExposureIndex : 125<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensitivityType : Recommended Exposure Index<br>
+UserComment : 866<br>
+_IFDpointer_Interop : 26683<br>
+_IFDpointer_Makernote : 970<br>
+DateTime : 2014:01:06 13:34:47<br>
+ImageDescription : <br>
+Make : HASSELBLAD<br>
+Model : Stellar<br>
+Orientation : Horizontal (normal)<br>
+PlanarConfiguration : Chunky<br>
+ResolutionUnit : inches<br>
+Software : Stellar v1.00<br>
+XResolution : 350.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 350.00000000<br>
+_IFDpointer_EXIF : 320<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,2,0,2,0,1,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported">Contrast : 0<br>
+Contrast : Normal<br>
+<br>
+ExposureMode : Aperture-priority AE<br>
+ExposureMode : Auto<br>
+<br>
+Saturation : 0<br>
+Saturation : Normal<br>
+<br>
+Sharpness : 0<br>
+Sharpness : Normal<br>
+<br>
+WhiteBalance : Daylight<br>
+WhiteBalance : Manual<br>
+<br>
+Compression : Uncompressed<br>
+Compression : 1<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 5472<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 3648<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : 2<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

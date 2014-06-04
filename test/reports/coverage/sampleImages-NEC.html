@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/NEC/NEC_e540.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:08:12 10:45:49<br>
+Make : NEC<br>
+Model : e540</td>
+<td class="unsupported">SourceFile : sampleImages/NEC/NEC_e540.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NEC_e540.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/NEC<br>
+Directory : undefined<br>
+<br>
+FileSize : 1912 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:08:12 10:45:49<br>
+CreateDate : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 412<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1251<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1251 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/NEC/NEC_N500i.jpg</td>
+<td class="supported">Make : NEC<br>
+Model : N500i<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:02:24 13:03:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/NEC/NEC_N500i.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NEC_N500i.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/NEC<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+CurrentIPTCDigest : 460cf28926b856dab09c01a1b0a79077<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+ApplicationRecordVersion : 2<br>
+ApplicationRecordVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:02:24 16:02:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:02:24 13:03:20<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 468<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8810<br>
+ThumbnailLength : undefined<br>
+<br>
+ProfileCMMType : Lino<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.1.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Display Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 1998:02:09 06:49:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Microsoft Corporation<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : IEC <br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : sRGB<br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : HP  <br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+ProfileCopyright : Copyright (c) 1998 Hewlett-Packard Company<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescription : sRGB IEC61966-2.1<br>
+ProfileDescription : undefined<br>
+<br>
+MediaWhitePoint : 0.95045 1 1.08905<br>
+MediaWhitePoint : undefined<br>
+<br>
+MediaBlackPoint : 0 0 0<br>
+MediaBlackPoint : undefined<br>
+<br>
+RedMatrixColumn : 0.43607 0.22249 0.01392<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.38515 0.71687 0.09708<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.14307 0.06061 0.7141<br>
+BlueMatrixColumn : undefined<br>
+<br>
+DeviceMfgDesc : IEC http://www.iec.ch<br>
+DeviceMfgDesc : undefined<br>
+<br>
+DeviceModelDesc : IEC 61966-2.1 Default RGB colour space - sRGB<br>
+DeviceModelDesc : undefined<br>
+<br>
+ViewingCondDesc : Reference Viewing Condition in IEC61966-2.1<br>
+ViewingCondDesc : undefined<br>
+<br>
+ViewingCondIlluminant : 19.6445 20.3718 16.8089<br>
+ViewingCondIlluminant : undefined<br>
+<br>
+ViewingCondSurround : 3.92889 4.07439 3.36179<br>
+ViewingCondSurround : undefined<br>
+<br>
+ViewingCondIlluminantType : D50<br>
+ViewingCondIlluminantType : undefined<br>
+<br>
+Luminance : 76.03647 80 87.12462<br>
+Luminance : undefined<br>
+<br>
+MeasurementObserver : CIE 1931<br>
+MeasurementObserver : undefined<br>
+<br>
+MeasurementBacking : 0 0.00999 3e-05<br>
+MeasurementBacking : undefined<br>
+<br>
+MeasurementGeometry : Unknown (0)<br>
+MeasurementGeometry : undefined<br>
+<br>
+MeasurementFlare : 0%<br>
+MeasurementFlare : undefined<br>
+<br>
+MeasurementIlluminant : Unknown (0)<br>
+MeasurementIlluminant : undefined<br>
+<br>
+Technology : Cathode Ray Tube Display<br>
+Technology : undefined<br>
+<br>
+RedTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8810 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/NEC/NEC_N412i.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2008:06:08 08:27:07<br>
+Make : NEC<br>
+Model : N412i</td>
+<td class="unsupported">SourceFile : sampleImages/NEC/NEC_N412i.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NEC_N412i.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/NEC<br>
+Directory : undefined<br>
+<br>
+FileSize : 2.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 176<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 144<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2008:06:08 08:27:07<br>
+CreateDate : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 412<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1547<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1547 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/NEC/NEC_N411i.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:09:05 16:05:51<br>
+Make : NEC<br>
+Model : N411i</td>
+<td class="unsupported">SourceFile : sampleImages/NEC/NEC_N411i.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : NEC_N411i.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/NEC<br>
+Directory : undefined<br>
+<br>
+FileSize : 1768 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:09:05 16:05:51<br>
+CreateDate : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 412<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1107<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1107 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

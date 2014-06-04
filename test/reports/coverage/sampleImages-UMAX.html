@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/UMAX/UmaxAstraCam.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/UMAX/UmaxAstraCam.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : UmaxAstraCam.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/UMAX<br>
+Directory : undefined<br>
+<br>
+FileSize : 275 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+Comment : File written by UMAX<br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/UMAX/UMAX_MagicScan.jpg</td>
+<td class="supported">ImageDescription : <br>
+Model : <br>
+SamplesPerPixel : 3<br>
+RowsPerStrip : 1176<br>
+StripByteCounts : 6329232<br>
+PlanarConfiguration : Chunky<br>
+Software : UMAX MagicScan<br>
+Predictor : None</td>
+<td class="unsupported">SourceFile : sampleImages/UMAX/UMAX_MagicScan.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : UMAX_MagicScan.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/UMAX<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 300<br>
+XResolution : undefined<br>
+<br>
+YResolution : 300<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+SubfileType : Full-resolution Image<br>
+SubfileType : undefined<br>
+<br>
+Compression : Uncompressed<br>
+Compression : 1<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : 2<br>
+<br>
+StripOffsets : 38<br>
+StripOffsets : 8<br>
+<br>
+ModifyDate : 2005: 3:13 12:17:53<br>
+ModifyDate : undefined<br>
+<br>
+MSPropertySetStorage : (Binary data 5632 bytes, use -b option to extract)<br>
+MSPropertySetStorage : 404<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 1794<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 1176<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : 8,8,8<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/UMAX/UMAX_AstraSlimF4.jpg</td>
+<td class="supported">ImageDescription : wso:u7owswgssoNwvvznV<br>
+Make : UMAX<br>
+Model : AstraSlim F4<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Software 2.05<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2004<br>
+ExposureTime : 1/50<br>
+FNumber : 3<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2001/11/10 16:44:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/UMAX/UMAX_AstraSlimF4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : UMAX_AstraSlimF4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/UMAX<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001/11/10 16:44:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001/11/10 16:44:41<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.999767185<br>
+CompressedBitsPerPixel : 1.9997671850998464<br>
+<br>
+ExposureCompensation : +0.1<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2976<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2240<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 65535 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1445<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12438<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12438 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/UMAX/UMAX_AstraPix590.jpg</td>
+<td class="supported">ImageDescription : UUUUUUUUUUUUUUUUUUUUUUUU<br>
+Make : UMAX<br>
+Model : AstraPix 590<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Software 2.04<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2003<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005/03/07 01:22:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.8<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+DigitalZoomRatio : 3.4</td>
+<td class="unsupported">SourceFile : sampleImages/UMAX/UMAX_AstraPix590.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : UMAX_AstraPix590.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/UMAX<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005/03/07 01:22:09<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005/03/07 01:22:09<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.00008138<br>
+CompressedBitsPerPixel : 1.0000813802083333<br>
+<br>
+ExposureCompensation : +0.1<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 21930 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1463<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5412<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/4<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5412 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

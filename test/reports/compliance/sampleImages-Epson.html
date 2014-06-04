@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Epson/EpsonStylusPhotoRX700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1417 px w<br>
+PixelYDimension : 1964 px h<br>
+_IFDpointer_Interop : 402<br>
+DateTime : 2010:05:29 21:51:25<br>
+ImageDescription : EPSON MFP image<br>
+Make : SEIKO EPSON CORP.<br>
+Model : Stylus Photo RX700<br>
+PlanarConfiguration : Chunky<br>
+ResolutionUnit : inches<br>
+Software : Paint Shop Pro Photo 12,01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 312</td>
+<td class="unsupported">Compression : Uncompressed<br>
+Compression : 1<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 1964<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 1417<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : 2<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonStylusPhotoRX690.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 747 px w<br>
+PixelYDimension : 1136 px h<br>
+ImageDescription : EPSON MFP image<br>
+Make : SEIKO EPSON CORP.<br>
+Model : Stylus Photo RX690<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonStylusPhotoRX640.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 3296 px w<br>
+PixelYDimension : 2160 px h<br>
+SubsecTime : 104<br>
+DateTime : 2009:03:24 21:40:44<br>
+ImageDescription : EPSON MFP image<br>
+Make : SEIKO EPSON CORP.<br>
+Model : Stylus Photo RX640<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 2400.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 2400.00000000<br>
+_IFDpointer_EXIF : 297</td>
+<td class="unsupported">Software : ????????? ???????? ????????? ??????????? ???????? ACD Systems<br>
+Software : ACD Systems<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonStylusPhotoRX620.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1632 px w<br>
+PixelYDimension : 1040 px h<br>
+ImageDescription : EPSON MFP image<br>
+Make : SEIKO EPSON CORP.<br>
+Model : Stylus Photo RX620<br>
+ResolutionUnit : inches<br>
+XResolution : 1200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 1200.00000000<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonStylusPhotoRX610.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1184 px w<br>
+PixelYDimension : 1760 px h<br>
+ImageDescription : EPSON MFP image<br>
+Make : SEIKO EPSON CORP.<br>
+Model : Stylus Photo RX610<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonStylusPhotoRX590.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1504 px w<br>
+PixelYDimension : 240 px h<br>
+ImageDescription : EPSON MFP image<br>
+Make : SEIKO EPSON CORP.<br>
+Model : Stylus Photo RX590<br>
+ResolutionUnit : inches<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonR-D1s.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2100:04:20 19:36:55<br>
+DateTimeOriginal : 2100:04:20 19:36:55<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1.4<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Daylight<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2000 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1290<br>
+_IFDpointer_Makernote : 598<br>
+DateTime : 2100:04:20 19:36:55<br>
+ImageDescription : EPSON DSC Picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : R-D1s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : E06106-0100<br>
+XResolution : 600.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 600.00000000<br>
+_IFDpointer_EXIF : 248<br>
+PrintIM : 892</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonR-D1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:12 20:52:44<br>
+DateTimeOriginal : 2006:10:12 20:52:44<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/17<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 800<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3008 px w<br>
+PixelYDimension : 2000 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1290<br>
+_IFDpointer_Makernote : 598<br>
+DateTime : 2006:10:12 20:52:44<br>
+ImageDescription : EPSON DSC Picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : R-D1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : E04106-0200<br>
+XResolution : 600.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 600.00000000<br>
+_IFDpointer_EXIF : 248<br>
+PrintIM : 892</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPhotoPC850Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 1999:01:14 21:28:44<br>
+DateTimeOriginal : 1999:01:14 21:28:44<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/632<br>
+FNumber : 9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1984 px w<br>
+PixelYDimension : 1488 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 672<br>
+_IFDpointer_Interop : 892<br>
+_IFDpointer_Makernote : 922<br>
+DateTime : 1999:01:14 21:28:44<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : PhotoPC 850Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v922-76<br>
+XResolution : 465.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 465.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPhotoPC800S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2001:01:07 01:02:49<br>
+DateTimeOriginal : 2001:01:07 01:02:49<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 672<br>
+_IFDpointer_Interop : 892<br>
+_IFDpointer_Makernote : 922<br>
+DateTime : 2001:01:07 01:02:49<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : PhotoPC 800S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v923-71<br>
+XResolution : 375.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 375.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported">ExposureTime : 1/30<br>
+ExposureTime : 1/31<br>
+<br>
+FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPhotoPC800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:03:19 14:35:15<br>
+DateTimeOriginal : 2005:03:19 14:35:15<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/789<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 1476<br>
+_IFDpointer_Makernote : 610<br>
+DateTime : 2005:03:19 14:35:15<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : PhotoPC 800<br>
+ResolutionUnit : inches<br>
+Software : v921p-72<br>
+XResolution : 375.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 375.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPhotoPC3100Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2001:06:14 02:56:58<br>
+DateTimeOriginal : 2001:06:14 02:56:58<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.2<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/471<br>
+FNumber : 4.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2001:06:14 02:56:58<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : PhotoPC 3100Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v322-75<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPhotoPC3000Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2000:07:11 15:44:34<br>
+DateTimeOriginal : 2000:07:11 15:44:34<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/17<br>
+FNumber : 4.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2000:07:11 15:44:34<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : PhotoPC 3000Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v321-78<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPhotoPC2100Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:11:02 08:19:50<br>
+DateTimeOriginal : 2002:11:02 08:19:50<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 125<br>
+PixelXDimension : 1800 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 1414<br>
+_IFDpointer_Interop : 808<br>
+_IFDpointer_Makernote : 548<br>
+DateTime : 2002:11:02 08:19:50<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : PhotoPC 2100Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0200-1020<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 254</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPerfectionV700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2009:01:26 17:58:21<br>
+DateTimeOriginal : 2009:01:26 17:58:21<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 693 px h<br>
+SubsecTime : 406<br>
+_IFDpointer_Interop : 366<br>
+DateTime : 2009:01:27 22:41:10<br>
+Make : Epson<br>
+Model : PerfectionV700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPerfectionV100.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:04:20 11:31:18<br>
+PixelXDimension : 928 px w<br>
+PixelYDimension : 599 px h<br>
+SubsecTime : 359<br>
+DateTime : 2010:04:20 12:03:06<br>
+Make : Epson<br>
+Model : PerfectionV100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 219</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPerfection4990.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:12:04 17:41:11<br>
+PixelXDimension : 3883 px w<br>
+PixelYDimension : 5340 px h<br>
+_IFDpointer_Makernote : 248<br>
+DateTime : 2010:12:04 17:41:11<br>
+Make : Epson<br>
+Model : Perfection4990<br>
+Software : SilverFast 6.4.3r1<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported">ImageHeight : 8<br>
+ImageHeight : 5340<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 3883<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPerfection2480.jpg</td>
+<td class="supported">DateTimeDigitized : 2009:12:25 23:13:18<br>
+Make : Epson<br>
+Model : Perfection2480<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 96</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPerfection1660.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:04:25 21:38:11<br>
+Make : Epson<br>
+Model : Perfection1660<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 96</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonPerfection1250.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:11:21 14:41:55<br>
+Make : Epson<br>
+Model : Perfection1250<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 96</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonL-500V.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:02:25 14:15:29<br>
+DateTimeOriginal : 2005:02:25 14:15:29<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/407<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 762<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1230<br>
+_IFDpointer_Makernote : 676<br>
+DateTime : 2005:02:25 14:15:29<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : L-500V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : EY445-0102<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 250<br>
+PrintIM : 982</td>
+<td class="unsupported">FNumber : 6.2<br>
+FNumber : 6.19140625<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonL-410.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:04:06 00:13:39<br>
+DateTimeOriginal : 2004:04:06 00:13:39<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureIndex : 400<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/111<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 748<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1188<br>
+_IFDpointer_Makernote : 686<br>
+DateTime : 2004:04:06 00:13:39<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : L-410<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : EY424-01.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248<br>
+PrintIM : 940</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.828125<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonL-400.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:07:16 16:08:27<br>
+DateTimeOriginal : 2005:07:16 16:08:27<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 50<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 3490<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4006<br>
+_IFDpointer_Makernote : 674<br>
+DateTime : 2005:07:16 16:08:27<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : L-400<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : EO334-0100<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonL-300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:30 10:26:27<br>
+DateTimeOriginal : 2004:08:30 10:26:27<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 3478<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3994<br>
+_IFDpointer_Makernote : 674<br>
+DateTime : 2004:08:30 10:26:27<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : L-300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : E0313-0100<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonExp10000XL.jpg</td>
+<td class="supported">ExifVersion : 2.20<br>
+PixelXDimension : 300 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2009:06:18 18:42:45<br>
+Make : Epson<br>
+Model : Exp10000XL<br>
+Orientation : Horizontal (normal)<br>
+PlanarConfiguration : Chunky<br>
+ResolutionUnit : inches<br>
+SamplesPerPixel : 3<br>
+Software : Nero PhotoSnap 1, 2, 0, 19<br>
+XResolution : 600.00000000<br>
+YResolution : 600.00000000<br>
+_IFDpointer_EXIF : 312</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : 8,8,8<br>
+<br>
+Compression : Uncompressed<br>
+Compression : 1<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 6319<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 8182<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : 2<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCX4400.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:04:24 18:01:36<br>
+Make : Epson<br>
+Model : CX4400<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 88</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCX3900.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion :  <br>
+FlashpixVersion :  <br>
+PixelXDimension : 1752 px w<br>
+PixelYDimension : 1164 px h<br>
+DateTime : 2007:10:27 23:04:23<br>
+Make : EPSON<br>
+Model : EPSON CX3900/CX4000/DX4000<br>
+ResolutionUnit : inches<br>
+Software : Adobe Photoshop Album Starter Edition 3.0<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCP-920Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2003:05:03 21:10:40<br>
+DateTimeOriginal : 2003:05:03 21:10:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2003:05:03 21:10:40<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : CP-920Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v322-75<br>
+XResolution : 480.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 480.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCP-900Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2005:09:08 10:39:13<br>
+DateTimeOriginal : 2005:09:08 10:39:13<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 666<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 916<br>
+DateTime : 2005:09:08 10:39:13<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : CP-900Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v321-77<br>
+XResolution : 480.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 480.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCP-850Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 1999:01:02 00:42:40<br>
+DateTimeOriginal : 1999:01:02 00:42:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/13<br>
+FNumber : 2.2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 1519<br>
+_IFDpointer_Interop : 892<br>
+_IFDpointer_Makernote : 653<br>
+DateTime : 1999:01:02 00:42:40<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : CP-850Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v922-76T<br>
+XResolution : 375.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 375.00000000<br>
+_IFDpointer_EXIF : 275</td>
+<td class="unsupported">FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCP-80Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:02:29 19:23:46<br>
+DateTimeOriginal : 2004:02:29 19:23:46<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/360<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1800 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 588<br>
+_IFDpointer_Interop : 808<br>
+_IFDpointer_Makernote : 838<br>
+DateTime : 2004:02:29 19:23:46<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : CP-80Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S0200-1020<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCP-800S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2001:04:05 14:25:08<br>
+DateTimeOriginal : 2001:04:05 14:25:08<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/239<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 672<br>
+_IFDpointer_Interop : 892<br>
+_IFDpointer_Makernote : 922<br>
+DateTime : 2001:04:05 14:25:08<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : CP-800S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v923-72<br>
+XResolution : 375.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 375.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Epson/EpsonCP-800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2004:01:08 09:47:06<br>
+DateTimeOriginal : 2004:01:08 09:47:06<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/202<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 672<br>
+_IFDpointer_Interop : 892<br>
+_IFDpointer_Makernote : 922<br>
+DateTime : 2004:01:08 09:47:06<br>
+ImageDescription : EPSON DSC picture<br>
+Make : SEIKO EPSON CORP.<br>
+Model : CP-800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v921-76<br>
+XResolution : 375.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 375.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

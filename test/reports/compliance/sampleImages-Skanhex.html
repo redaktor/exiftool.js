@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSX410Z3.jpg</td>
+<td class="supported">ApertureValue : 4.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:24 13:46:10<br>
+DateTimeOriginal : 2005:04:24 13:46:10<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/93<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : SKANHEX  DIGITAL CAMERA<br>
+Model : SX410Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : S408120<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.5173611111<br>
+CompressedBitsPerPixel : 0.5173611111111112<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Make :   SKANHEX OPTICAL CO,LTD<br>
+Make : SKANHEX OPTICAL CO,LT<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSX3300.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:01 00:02:34<br>
+DateTimeOriginal : 2001:01:01 00:02:37<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.4 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 0.4<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : SKANHEX  DIGITAL CAMERA<br>
+Make : SKANHEX  OPTICAL CO,LTD<br>
+Model : SX3300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1271657924<br>
+CompressedBitsPerPixel : 0.1271657924018439<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSX-410Z3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:06:23 19:56:57<br>
+DateTimeOriginal : 2006:06:23 19:56:57<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/76<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : SKANHEX DIGITAL CAMERA SX-410Z3<br>
+Make : SKANHEX TECHWIN CO,LTD<br>
+Model : SX-410Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VER1127<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.041666667<br>
+CompressedBitsPerPixel : 1.0416666666666667<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSX-330Z3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:02:05 09:26:59<br>
+DateTimeOriginal : 2006:02:05 09:26:59<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 400<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/197<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : SKANHEX DIGITAL CAMERA SX-330Z3<br>
+Make : SKANHEX TECHWIN CO,LTD<br>
+Model : SX-330Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VER1128<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.07378472222<br>
+CompressedBitsPerPixel : 0.07378472222222222<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSX-210Z3.jpg</td>
+<td class="supported">ApertureValue : 2.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:02:14 09:30:37<br>
+DateTimeOriginal : 2004:02:14 09:30:37<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.1 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/83<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : SKANHEX DIGITAL CAMERA SX-210Z3<br>
+Make : SKANHEX TECHWIN CO,LTD<br>
+Model : SX-210Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VER0617<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.08680555556<br>
+CompressedBitsPerPixel : 0.08680555555555555<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSX-130F.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:07:04 00:00:00<br>
+DateTimeOriginal : 2001:07:04 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/4<br>
+FNumber : 3.6<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 3.6<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/4<br>
+_IFDpointer_Interop : 606<br>
+DateTime : 2001:07:04 00:00:00<br>
+ImageDescription : SX-130F Image Data<br>
+Make : Skanhex<br>
+Model : SX-130F<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Software Version 0922<br>
+XResolution : 128.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 128.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">UserComment : Quality=90 Shutter=1/4 Iris=F3.6 Delay=3526 Avg=287 Clip=567 Batt=2.45V,Q=90<br>
+UserComment : 522<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/SkanhexSK-210M.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 0024:07:09 10:35:41<br>
+DateTimeOriginal : 0024:07:09 10:35:41<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/256<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/256<br>
+_IFDpointer_Interop : 630<br>
+_IFDpointer_Makernote : 4239  001A4E419282C1C3F0  02             EN<br>
+Copyright : (C) by SK-210M  User<br>
+DateTime : 0024:07:09 10:35:41<br>
+ImageDescription : Exif-JPEG-422<br>
+Make : SkanHex Tech<br>
+Model : SK-210M<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/Skanhex636Z3.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:02:24 02:30:04<br>
+DateTimeOriginal : 2006:02:24 02:30:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/200<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2864 px w<br>
+PixelYDimension : 2152 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/11<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21396<br>
+_IFDpointer_Makernote : 730<br>
+Copyright : Copyright 2002<br>
+DateTime : 2006:02:24 02:30:04<br>
+ImageDescription : My beautiful picture<br>
+Make : SKANHEX<br>
+Model : 636Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Oct 26 2005 V1.15.26<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 268</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.338129011<br>
+CompressedBitsPerPixel : 1.3381290108201283<br>
+<br>
+UserComment : SKEY                                                      * < u ??L?Pj?j??1 ? ? ? ? ? ? ? ? ?S?|?? $       <br>
+UserComment : 21210<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/Skanhex524Z3.jpg</td>
+<td class="supported">BrightnessValue : 12.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:10:21 11:33:51<br>
+DateTimeOriginal : 2005:10:21 11:33:51<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Landscape<br>
+ExposureTime : 1/329<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Landscape<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 828<br>
+_IFDpointer_Makernote : 125, 85, 0, 0, 5, 30, 0,   5,   0,   0,   0,   0,   0<br>
+DateTime : 2005:10:21 11:33:51<br>
+ImageDescription : SKANHEX DIGITAL STILL CAMERA<br>
+Make : Skanhex Technology Inc.<br>
+Model : 524Z3 Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 254</td>
+<td class="unsupported">FNumber : 6.7<br>
+FNumber : 6.671875<br>
+<br>
+UserComment : 328, 51, 209, 0, 1, 476    5,   0,   0,   0,   0,   0   ??    <br>
+UserComment : 328, 51, 209, 0, 1, 476   5,   0,   0,   0,   0,   0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Skanhex/Skanhex521z3.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 6.76<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2000:01:01:09:30:51<br>
+DateTimeOriginal : 2000:01:01:09:30:51<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/16<br>
+SubjectDistanceRange : Distant view<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 880<br>
+_IFDpointer_Makernote : 804<br>
+Make : Skanhex<br>
+Model : 521z3<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+Software : 521z3-V:02_01_37<br>
+Software : 521z3-V:020137<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

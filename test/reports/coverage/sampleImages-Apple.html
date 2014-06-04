@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Apple/Apple_iPodTouch5.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPod touch<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 6.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/120<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2012:10:15 10:38:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/120<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 3.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 15:38:10.59<br>
+GPSLatitude : 41° 54' 26.4000" N<br>
+GPSLongitude : 88° 5' 19.8000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPodTouch5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPodTouch5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:10:15 10:38:44<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:10:15 10:38:44<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 6.250626566<br>
+BrightnessValue : 6.25062656641604<br>
+<br>
+SubjectArea : 1722 702 484 484<br>
+SubjectArea : 1722,702,484,484<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1936<br>
+ExifImageHeight : undefined<br>
+<br>
+CustomRendered : Unknown (4)<br>
+CustomRendered : Apple iPhone5c horizontal orientation<br>
+<br>
+FocalLengthIn35mmFormat : 33 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 878<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 14360<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSAltitude : 247.3 m Above Sea Level<br>
+GPSAltitude : 247.3339416058394 m Above Sea Level<br>
+<br>
+GPSPosition : 41 deg 54' 26.40" N, 88 deg 5' 19.80" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 10<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/120<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 14360 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.003 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 57.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 3.3 mm (35 mm equivalent: 33.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.51 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 10.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPodTouch4.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPod touch<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 4.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/1245<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:09:12 17:00:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1245<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Off, No flash function<br>
+FocalLength : 3.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 17:00:38.96<br>
+GPSLatitude : 47° 32' 10.8000" N<br>
+GPSLongitude : 122° 4' 2.4000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPodTouch4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPodTouch4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:09:12 17:00:44<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:09:12 17:00:44<br>
+CreateDate : undefined<br>
+<br>
+SubjectArea : 381 380 179 180<br>
+SubjectArea : 381,380,179,180<br>
+<br>
+ExifImageWidth : 960<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 720<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : 2.480620155<br>
+DigitalZoomRatio : 2.4806201550387597<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 834<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8157<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 47 deg 32' 10.80" N, 122 deg 4' 2.40" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1245<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8157 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone5s.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone 5s<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 7.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/1786<br>
+FNumber : 2.2<br>
+ExposureProgram : Program AE<br>
+ISO : 32<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2014:03:21 08:26:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1786<br>
+ApertureValue : 2.2<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 4.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+LensMake : Apple<br>
+LensModel : iPhone 5s back camera 4.12mm f/2.2</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone5s.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone5s.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2014:03:21 08:26:55<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2014:03:21 08:26:55<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 9.991950464<br>
+BrightnessValue : 9.991950464396284<br>
+<br>
+SubjectArea : 1632 1223 1632 979<br>
+SubjectArea : 1632,1223,1632,979<br>
+<br>
+RunTimeFlags : Valid<br>
+RunTimeFlags : undefined<br>
+<br>
+RunTimeValue : 9740195127958<br>
+RunTimeValue : undefined<br>
+<br>
+RunTimeScale : 1000000000<br>
+RunTimeScale : undefined<br>
+<br>
+RunTimeEpoch : 0<br>
+RunTimeEpoch : undefined<br>
+<br>
+SubSecTimeOriginal : 555<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 555<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 30 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+LensInfo : 4.12mm f/2.2<br>
+LensInfo : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1656<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9068<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+RunTimeSincePowerUp : 2:42:20<br>
+RunTimeSincePowerUp : undefined<br>
+<br>
+ScaleFactor35efl : 7.3<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/1786<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2014:03:21 08:26:55.555<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2014:03:21 08:26:55.555<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9068 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 61.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.1 mm (35 mm equivalent: 30.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.87 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone5.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone 5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 6.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/25<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2012:10:22 14:07:19<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/25<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 4.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 13:06:59.64<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 53° 19' 21.6000" N<br>
+GPSLongitude : 1° 9' 29.4000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:10:22 14:07:19<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:10:22 14:07:19<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 4.089528796<br>
+BrightnessValue : 4.0895287958115185<br>
+<br>
+SubjectArea : 2012 1417 610 612<br>
+SubjectArea : 2012,1417,610,612<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 33 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+GPSImgDirection : 337.0393701<br>
+GPSImgDirection : 337.03937007874015<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 914<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5656<br>
+ThumbnailLength : undefined<br>
+<br>
+XMPToolkit : XMP Core 4.4.0<br>
+XMPToolkit : undefined<br>
+<br>
+RegionAppliedToDimensionsW : 3264<br>
+RegionAppliedToDimensionsW : undefined<br>
+<br>
+RegionAppliedToDimensionsH : 2448<br>
+RegionAppliedToDimensionsH : undefined<br>
+<br>
+RegionAppliedToDimensionsUnit : pixel<br>
+RegionAppliedToDimensionsUnit : undefined<br>
+<br>
+RegionExtensionsTimeStamp : -1179414036<br>
+RegionExtensionsTimeStamp : undefined<br>
+<br>
+RegionExtensionsConfidenceLevel : 293<br>
+RegionExtensionsConfidenceLevel : undefined<br>
+<br>
+RegionExtensionsFaceID : 6<br>
+RegionExtensionsFaceID : undefined<br>
+<br>
+RegionExtensionsAngleInfoRoll : 180<br>
+RegionExtensionsAngleInfoRoll : undefined<br>
+<br>
+RegionAreaY : 0.458<br>
+RegionAreaY : undefined<br>
+<br>
+RegionAreaW : 0.369<br>
+RegionAreaW : undefined<br>
+<br>
+RegionAreaUnit : normalized<br>
+RegionAreaUnit : undefined<br>
+<br>
+RegionAreaX : 0.578<br>
+RegionAreaX : undefined<br>
+<br>
+RegionAreaH : 0.491<br>
+RegionAreaH : undefined<br>
+<br>
+RegionType : Face<br>
+RegionType : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSAltitude : 71.6 m Above Sea Level<br>
+GPSAltitude : 71.6060100166945 m Above Sea Level<br>
+<br>
+GPSPosition : 53 deg 19' 21.60" N, 1 deg 9' 29.40" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/25<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5656 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 57.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.1 mm (35 mm equivalent: 33.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.89 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone4S.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone 4S<br>
+Orientation : Rotate 180<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 5.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/1623<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2011:08:30 10:33:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1623<br>
+ApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSImgDirectionRef : True North<br>
+GPSAltitude : 31 m Above Sea Level<br>
+GPSLatitude : 38° 30' 13.2000" N<br>
+GPSLongitude : 122° 46' 21.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone4S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone4S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:08:30 10:33:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:08:30 10:33:45<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 9.946296296<br>
+BrightnessValue : 9.946296296296296<br>
+<br>
+SubjectArea : 1631 1223 881 881<br>
+SubjectArea : 1631,1223,881,881<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+GPSTimeStamp : 18:48:01<br>
+GPSTimeStamp : 17:33:4501<br>
+<br>
+GPSImgDirection : 270.9027778<br>
+GPSImgDirection : 270.90277777777777<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 908<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9793<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 38 deg 30' 13.20" N, 122 deg 46' 21.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 8.2<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/1623<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9793 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.08 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone4-front.jpg</td>
+<td class="supported">ImageDescription : Front Camera<br>
+Make : Apple<br>
+Model : iPhone<br>
+Orientation : Rotate 180<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 4.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/15<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 3200<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:06:27 00:05:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 2.4<br>
+MeteringMode : Average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 3.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 00:05:17.57<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 40° 43' 19.2000" N<br>
+GPSLongitude : 73° 57' 27.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone4-front.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone4-front.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:27 00:05:23<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:27 00:05:23<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 0<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 0<br>
+ExifImageHeight : undefined<br>
+<br>
+GPSImgDirection : 144.4862385<br>
+GPSImgDirection : 144.4862385321101<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 860<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7728<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 40 deg 43' 19.20" N, 73 deg 57' 27.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7728 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 1.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone4-back.jpg</td>
+<td class="supported">ImageDescription : Back Camera<br>
+Make : Apple<br>
+Model : iPhone<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 4.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/3352<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:06:25 18:38:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/3352<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 3.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 18:38:49.33<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 37° 32' 34.8000" N<br>
+GPSLongitude : 122° 19' 12.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone4-back.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone4-back.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:25 18:38:49<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:25 18:38:49<br>
+CreateDate : undefined<br>
+<br>
+SubjectArea : 1836 1180 484 484<br>
+SubjectArea : 1836,1180,484,484<br>
+<br>
+ExifImageWidth : 0<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 0<br>
+ExifImageHeight : undefined<br>
+<br>
+GPSImgDirection : 3.40264977<br>
+GPSImgDirection : 3.4026497695852536<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 910<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12654<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSAltitude : 30.7 m Above Sea Level<br>
+GPSAltitude : 30.72017353579176 m Above Sea Level<br>
+<br>
+GPSPosition : 37 deg 32' 34.80" N, 122 deg 19' 12.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/3352<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12654 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone3GS.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone 3GS<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 3.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 1016<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2009:10:02 20:45:16<br>
+ShutterSpeedValue : 1/10<br>
+ApertureValue : 2.8<br>
+MeteringMode : Average<br>
+Flash : Off, No flash function<br>
+FocalLength : 3.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Sharpness : Normal<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 20:45:00.45<br>
+GPSImgDirectionRef : True North<br>
+GPSLatitude : 39° 38' 16.2000" N<br>
+GPSLongitude : 75° 39' 4.2000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone3GS.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone3GS.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 963 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:10:02 20:45:16<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:10:02 20:45:16<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+GPSImgDirection : 117.221831<br>
+GPSImgDirection : 117.22183098591549<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 39 deg 38' 16.20" N, 75 deg 39' 4.20" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/10<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 3.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 2.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone3G.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone 3G<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 3.1.3<br>
+YCbCrPositioning : Centered<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:05:02 16:39:24<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.8<br>
+MeteringMode : Average<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone3G.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone3G.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:02 16:39:24<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:02 16:39:24<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 564<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7384<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7384 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone2.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+FNumber : 2.8<br>
+DateTimeOriginal : 2008:09:24 21:02:24<br>
+Gamma : 2.2<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 21:02:23.81<br>
+GPSLatitude : 46° 8' 36.0000" N<br>
+GPSLongitude : 122° 56' 47.4000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 722 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:09:24 21:02:24<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:09:24 21:02:24<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 800<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 46 deg 8' 36.00" N, 122 deg 56' 47.40" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPhone.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPhone<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+FNumber : 2.8<br>
+DateTimeOriginal : 2007:06:29 22:35:26<br>
+ColorSpace : sRGB<br>
+Gamma : 2.2</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPhone.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPhone.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:06:29 22:35:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:06:29 22:35:26<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 343<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5521<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5521 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad_mini.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPad mini<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 6.0.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/604<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 32<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2012:11:10 10:46:58<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/604<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Off, No flash function<br>
+FocalLength : 3.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPad_mini.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPad_mini.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:11:10 10:46:58<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:11:10 10:46:58<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 8.717925387<br>
+BrightnessValue : 8.717925386715196<br>
+<br>
+SubjectArea : 1836 859 484 484<br>
+SubjectArea : 1836,859,484,484<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1936<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 33 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 688<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9462<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 10<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/604<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9462 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.003 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 57.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 3.3 mm (35 mm equivalent: 33.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.51 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad4.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPad<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 6.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/4329<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2012:11:08 13:08:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/4329<br>
+ApertureValue : 2.4<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, No flash function<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPad4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPad4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:11:08 13:08:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:11:08 13:08:21<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 10.76730486<br>
+BrightnessValue : 10.767304860088366<br>
+<br>
+SubjectArea : 1295 967 699 696<br>
+SubjectArea : 1295,967,699,696<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1936<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 677<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11907<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 8.2<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/4329<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11907 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.08 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 15.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad3.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPad<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 5.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/15<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2012:03:17 08:56:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Off, No flash function<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 15:55:54.81<br>
+GPSImgDirectionRef : True North<br>
+GPSImgDirection : 53.93359375<br>
+GPSLatitude : 37° 13' 28.2000" N<br>
+GPSLongitude : 121° 53' 36.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPad3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPad3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:03:17 08:56:05<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:03:17 08:56:05<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 0.4069974303<br>
+BrightnessValue : 0.40699743032219804<br>
+<br>
+SubjectArea : 778 886 484 484<br>
+SubjectArea : 778,886,484,484<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1936<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 904<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8911<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSAltitude : 101.7 m Above Sea Level<br>
+GPSAltitude : 101.77277379733879 m Above Sea Level<br>
+<br>
+GPSPosition : 37 deg 13' 28.20" N, 121 deg 53' 36.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 8.2<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8911 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.08 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 4.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/Apple_iPad2.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : iPad 2<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 5.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/30<br>
+FNumber : 2.4<br>
+ExposureProgram : Program AE<br>
+ISO : 160<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2012:03:17 08:54:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.4<br>
+MeteringMode : Spot<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 15:54:49.85<br>
+GPSImgDirectionRef : True North<br>
+GPSAltitude : 100 m Above Sea Level<br>
+GPSLatitude : 37° 13' 28.8000" N<br>
+GPSLongitude : 121° 53' 35.4000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/Apple_iPad2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Apple_iPad2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:03:17 08:54:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:03:17 08:54:50<br>
+CreateDate : undefined<br>
+<br>
+BrightnessValue : 2.812148481<br>
+BrightnessValue : 2.81214848143982<br>
+<br>
+FocalLength : 2.0 mm<br>
+FocalLength : 2 mm<br>
+<br>
+ExifImageWidth : 960<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 720<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 32 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+GPSImgDirection : 264.3684211<br>
+GPSImgDirection : 264.36842105263156<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 886<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13524<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.4<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 37 deg 13' 28.80" N, 121 deg 53' 35.40" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 15.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13524 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.002 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 58.7 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 2.0 mm (35 mm equivalent: 32.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 0.90 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 6.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/AppleQT-200.jpg</td>
+<td class="supported">Make : Apple<br>
+Model : QT-200<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+YCbCrPositioning : Co-sited<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ExifVersion : 1.00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/256<br>
+ApertureValue : 2.2<br>
+DateTimeOriginal : 1997:06:16 18:48:34</td>
+<td class="unsupported">SourceFile : sampleImages/Apple/AppleQT-200.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AppleQT-200.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+<br>
+Compression : Uncompressed<br>
+Compression : undefined<br>
+<br>
+PhotometricInterpretation : YCbCr<br>
+PhotometricInterpretation : undefined<br>
+<br>
+StripOffsets : 796<br>
+StripOffsets : undefined<br>
+<br>
+SamplesPerPixel : 3<br>
+SamplesPerPixel : undefined<br>
+<br>
+RowsPerStrip : 60<br>
+RowsPerStrip : undefined<br>
+<br>
+StripByteCounts : 9600<br>
+StripByteCounts : undefined<br>
+<br>
+PlanarConfiguration : Chunky<br>
+PlanarConfiguration : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/256<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/AppleQT-150.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Apple/AppleQT-150.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AppleQT-150.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 269 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Apple/AppleQT-100.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Apple/AppleQT-100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AppleQT-100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Apple<br>
+Directory : undefined<br>
+<br>
+FileSize : 269 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 144<br>
+XResolution : undefined<br>
+<br>
+YResolution : 144<br>
+YResolution : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

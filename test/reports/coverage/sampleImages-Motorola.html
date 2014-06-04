@@ -1,0 +1,4551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Motorola/MotorolaXT890.jpg</td>
+<td class="supported">ImageDescription : Jpeg<br>
+Make : Motorola<br>
+Model : XT890<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Microsoft Windows Photo Viewer 6.1.7600.16385<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/32<br>
+ExposureProgram : Program AE<br>
+ISO : 142<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2013:07:08 14:45:26<br>
+ShutterSpeedValue : 1/32<br>
+ApertureValue : 2.5<br>
+BrightnessValue : 1.98<br>
+MaxApertureValue : 2.5<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaXT890.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaXT890.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 41 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:07:08 15:14:40<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.65<br>
+<br>
+CreateDate : 2013:07:08 14:45:26<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : -, -, -, -<br>
+ComponentsConfiguration : <br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,32,32,0<br>
+<br>
+ExifImageWidth : 2448<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3264<br>
+ExifImageHeight : undefined<br>
+<br>
+OffsetSchema : 4177<br>
+OffsetSchema : undefined<br>
+<br>
+Padding : (Binary data 2060 bytes, use -b option to extract)<br>
+Padding : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 13498<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15313<br>
+ThumbnailLength : undefined<br>
+<br>
+About : uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b<br>
+About : undefined<br>
+<br>
+CreatorTool : Microsoft Windows Photo Viewer 6.1.7600.16385<br>
+CreatorTool : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 3264<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 2448<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15313 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 4.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaXT720.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : XT720<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.1-update1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+ExposureProgram : Not Defined<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:09:18 22:52:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/100<br>
+ApertureValue : 2.8<br>
+BrightnessValue : 0.0625<br>
+MeteringMode : Center-weighted average<br>
+LightSource : D65<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+UserComment : 1296<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FlashEnergy : 100<br>
+ExposureIndex : 100<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ImageUniqueID : </td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaXT720.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaXT720.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:09:18 22:52:38<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:09:18 22:52:38<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1296<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2288<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13927<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13927 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaVE66.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaVE66.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaVE66.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 55 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+XResolution : 300<br>
+XResolution : undefined<br>
+<br>
+YResolution : 300<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+YCbCrPositioning : Centered<br>
+YCbCrPositioning : undefined<br>
+<br>
+WhiteBalance : Unknown (3)<br>
+WhiteBalance : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 868<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 29721<br>
+ThumbnailLength : undefined<br>
+<br>
+Warning : [minor] Unknown garbage at start of EXIF segment<br>
+Warning : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Motorola<br>
+Make : undefined<br>
+<br>
+Model : Motorola VE66 555554ba170d0d090909090909090909<br>
+Model : undefined<br>
+<br>
+Software : R6743_G_74.13.04<br>
+Software : undefined<br>
+<br>
+ModifyDate : 2010:05:30 19:13:22<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2010:05:30 19:13:22<br>
+DateTimeOriginal : undefined<br>
+<br>
+CreateDate : 2010:05:30 19:13:22<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : undefined<br>
+<br>
+ShutterSpeedValue : 1/506<br>
+ShutterSpeedValue : undefined<br>
+<br>
+ApertureValue : 2.8<br>
+ApertureValue : undefined<br>
+<br>
+MeteringMode : Center-weighted average<br>
+MeteringMode : undefined<br>
+<br>
+LightSource : Other<br>
+LightSource : undefined<br>
+<br>
+Flash : On, Return detected<br>
+Flash : undefined<br>
+<br>
+UserComment : <br>
+UserComment : undefined<br>
+<br>
+FlashpixVersion : 0100<br>
+FlashpixVersion : undefined<br>
+<br>
+ColorSpace : sRGB<br>
+ColorSpace : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1936<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FlashEnergy : 204<br>
+FlashEnergy : undefined<br>
+<br>
+ExposureIndex : 360<br>
+ExposureIndex : undefined<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : undefined<br>
+<br>
+FileSource : Digital Camera<br>
+FileSource : undefined<br>
+<br>
+SceneType : Directly photographed<br>
+SceneType : undefined<br>
+<br>
+CustomRendered : Custom<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+SceneCaptureType : Standard<br>
+SceneCaptureType : undefined<br>
+<br>
+Contrast : Normal<br>
+Contrast : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/506<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 29721 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV600cellphone.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : Motorola V600 cellphone<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Artist : Stewart Johnson<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:10:01 00:33:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaV600cellphone.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaV600cellphone.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 1815 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+UserComment :   FILENAME[rough/unsorted/Phone pics/V600/01-10-04_0033.jpg]<br>
+UserComment : 297<br>
+<br>
+ExifImageWidth : 160<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 120<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 471<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1095<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1095 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV300.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : V300</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaV300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaV300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 428 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : None<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 100<br>
+XResolution : undefined<br>
+<br>
+YResolution : 100<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:08:30 12:36:40<br>
+ModifyDate : undefined<br>
+<br>
+Copyright : S?rgio Machado<br>
+Copyright : Sérgio Machado<br>
+<br>
+Quality : 80%<br>
+Quality : undefined<br>
+<br>
+DCTEncodeVersion : 100<br>
+DCTEncodeVersion : undefined<br>
+<br>
+APP14Flags0 : [14], Encoded with Blend=1 downsampling<br>
+APP14Flags0 : undefined<br>
+<br>
+APP14Flags1 : (none)<br>
+APP14Flags1 : undefined<br>
+<br>
+ColorTransform : YCbCr<br>
+ColorTransform : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV3.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.99.50R<br>
+Make : MOTOROLA<br>
+Model : V3<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2006:10:28 09:46:00<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaV3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaV3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 640<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2006:10:28 09:46:00<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5341<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+V3
+85.99.50R
+2006:10:28 09:46:00
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5341 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV1100.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 98.20.33B<br>
+Make : MOTOROLA<br>
+Model : V1100<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2009:04:07 11:53:23<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaV1100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaV1100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : Motorola
+V1100
+98.20.33B
+2009:04:07 11:53:23
+<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:04:07 11:53:23<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2009:04:07 11:53:23<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 599<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2373<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2373 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaV1075.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.97.CDP<br>
+Make : MOTOROLA<br>
+Model : V1075<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2008:07:05 14:39:05<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaV1075.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaV1075.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2008:07:05 14:39:05<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8569<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+V1075
+85.97.CDP
+2008:07:05 14:39:05
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8569 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV6vc.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 98.50.11R<br>
+Make : MOTOROLA<br>
+Model : RAZRV6vc<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:02:27 11:05:15<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV6vc.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV6vc.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 2.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:02:27 11:05:15<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2010:02:27 11:05:15<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2033<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+RAZRV6vc
+98.50.11R
+2010:02:27 11:05:15
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2033 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV6v.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 99.41.04E<br>
+Make : MOTOROLA<br>
+Model : RAZRV6v<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2009:05:30 14:47:58<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV6v.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV6v.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:05:30 14:47:58<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2009:05:30 14:47:58<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3618<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+RAZRV6v
+99.41.04E
+2009:05:30 14:47:58
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3618 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV6.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 96.67.20R<br>
+Make : MOTOROLA<br>
+Model : RAZRV6<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:02:11 12:12:53<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV6.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV6.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:02:11 12:12:53<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:02:11 12:12:53<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2340<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+RAZRV6
+96.67.20R
+2007:02:11 12:12:53
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2340 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xx.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 96.66.72A<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xx<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:08:31 14:30:41<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV3xx.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV3xx.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:08:31 14:30:41<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1280<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2010:08:31 14:30:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2318<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+RAZRV3xx
+96.66.72A
+2010:08:31 14:30:41
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2318 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xv.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.97.C3P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xv<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:06:24 08:01:20<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV3xv.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV3xv.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : Motorola
+RAZRV3xv
+85.97.C3P
+2007:06:24 08:01:20
+<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 800<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:06:24 08:01:20<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 550<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4483<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4483 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xR.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 86.43.15P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xR<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:01:14 13:38:06<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV3xR.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV3xR.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 2.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : Motorola
+RAZRV3xR
+86.43.15P
+2007:01:14 13:38:06
+<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:01:14 13:38:06<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 550<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 1856<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 1856 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3xM.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.97.43P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3xM<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2008:09:08 18:21:20<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV3xM.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV3xM.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2008:09:08 18:21:20<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8529<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+RAZRV3xM
+85.97.43P
+2008:09:08 18:21:20
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8529 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaRAZRV3x.jpg</td>
+<td class="supported">ImageDescription : S/W Ver: 85.97.F1P<br>
+Make : MOTOROLA<br>
+Model : RAZRV3x<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2006:08:31 15:18:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaRAZRV3x.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaRAZRV3x.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2006:08:31 15:18:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : Motorola
+RAZRV3x
+85.97.F1P
+2006:08:31 15:18:28
+  <br>
+UserComment : MotorolaRAZRV3x85.97.F1P2006:08:31 15:18:28<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 524<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10879<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10879 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMilestoneXT720.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : MilestoneXT720<br>
+Software : 2.1-update1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 401<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:12:12 02:26:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+BrightnessValue : -5.84765625<br>
+MeteringMode : Center-weighted average<br>
+LightSource : D75<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+UserComment : 646<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FlashEnergy : 24<br>
+ExposureIndex : 401<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ImageUniqueID : </td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMilestoneXT720.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMilestoneXT720.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 1205 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 300<br>
+XResolution : undefined<br>
+<br>
+YResolution : 300<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:12:12 02:26:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:12:12 02:26:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1840<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMilestone.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : Milestone<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.0.1<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 125<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:03 01:55:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/10<br>
+ApertureValue : 2.8<br>
+BrightnessValue : -2.14453125<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Other<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FlashEnergy : 100<br>
+ExposureIndex : 125<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ImageUniqueID : <br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSLatitude : 45° 32' 31.0000" N<br>
+GPSLongitude : 73° 44' 5.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMilestone.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMilestone.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 25 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:03 01:55:28<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:03 01:55:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+UserComment : 믯⚿欦祥潷摲☦∠慌慶≬∠畑扥捥"<br>
+UserComment : 1296<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1936<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2942<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 22691<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+GPSPosition : 45 deg 32' 31.00" N, 73 deg 44' 5.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/10<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 22691 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS800.jpg</td>
+<td class="supported">Make : Motorola Korea Inc<br>
+Model : MS800<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6550B-MS800-4330<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:11:21 11:54:16<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMS800.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMS800.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:11:21 11:54:16<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 632<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15047<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15047 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS700.jpg</td>
+<td class="supported">Make : Motorola Korea Inc<br>
+Model : MS700<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6550B-MS700-4330<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:03:27 09:14:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMS700.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMS700.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 787 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:03:27 09:14:38<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS600.jpg</td>
+<td class="supported">Make : Motorola Korea Inc<br>
+Model : MS600<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6100C-MS600-6250<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/21<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:06 14:34:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 4<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMS600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMS600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 739 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:06:06 14:34:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/21<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMS550.jpg</td>
+<td class="supported">ImageDescription : Photo0233<br>
+Make : Motorola Korea Inc<br>
+Model : MS550<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMS550.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMS550.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010-03-21 13:41:40<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 432<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 18095<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 18095 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMOTORAZRV9.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: A0.03.28R<br>
+Make : MOTOROLA<br>
+Model : MOTORAZRV9<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:09:23 09:31:47<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMOTORAZRV9.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMOTORAZRV9.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:09:23 09:31:47<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:09:23 09:31:47<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2371<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+MOTORAZRV9
+A0.03.28R
+2007:09:23 09:31:47
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2371 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaMB200.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : MB200<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:10:27 13:53:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 20:53:20<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 2009:10:27<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 37° 47' 17.2200" N<br>
+GPSLongitude : 122° 23' 47.7800" W</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaMB200.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaMB200.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:10:27 13:53:23<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:10:27 13:53:23<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 702<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7784<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2009:10:27 20:53:20Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 37 deg 47' 17.22" N, 122 deg 23' 47.78" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7784 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaK3.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 99.31.03R<br>
+Make : MOTOROLA<br>
+Model : K3<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2007:04:05 21:40:45<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaK3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaK3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:04:05 21:40:45<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2007:04:05 21:40:45<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2807<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+K3
+99.31.03R
+2007:04:05 21:40:45
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2807 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaEvokeQA4.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : Motorola Evoke QA4<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:08:16 11:38:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaEvokeQA4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaEvokeQA4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 39 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : HALOC9_1.53.11S1<br>
+Software : HALOC91.53.11S1<br>
+<br>
+CreateDate : 2011:08:16 11:38:28<br>
+CreateDate : undefined<br>
+<br>
+MakerNoteUnknownText : Motorola MC.102908.0rr42671.03.TBD.0000.0006.D 003 <br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 728<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 39116<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 39116 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaEZX.jpg</td>
+<td class="supported">ImageDescription : HELLOMOTO<br>
+Make : Motorola<br>
+Model : EZX Camera<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : EZX V1.0.0<br>
+Orientation : Horizontal (normal)<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Motorola<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+Flash : No Flash<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+DateTimeOriginal : 2007:08:31 12:36:27<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+MeteringMode : Average<br>
+FNumber : 2.8<br>
+ExposureProgram : Not Defined<br>
+LightSource : Unknown<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaEZX.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaEZX.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 1015 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:08:31 12:36:27<br>
+ModifyDate : undefined<br>
+<br>
+ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+ExifImageWidth : 1200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1600<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureTime : 0<br>
+ExposureTime : NaN<br>
+<br>
+CreateDate : 2007:08:31 12:36:27<br>
+CreateDate : undefined<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+ApertureValue : 1<br>
+ApertureValue : NaN<br>
+<br>
+BrightnessValue : undef<br>
+BrightnessValue : NaN<br>
+<br>
+MakerNoteUnknownText : EZX camera sensor register settings<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : EZX phone<br>
+UserComment : 69,90,88,32,112,104,111,110,101<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaEX300.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : EX300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : APP-M2V100R001ENGC01B129-DebugNoLog<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:04:28 12:38:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Unknown<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaEX300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaEX300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 26 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:04:28 12:38:57<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 668<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 25805<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 25805 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE770v.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.92.701<br>
+Make : MOTOROLA<br>
+Model : E770v<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2006:10:15 14:37:10<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaE770v.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaE770v.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2006:10:15 14:37:10<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5130<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+E770v
+85.92.701
+2006:10:15 14:37:10
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5130 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE770.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.97.C3P<br>
+Make : MOTOROLA<br>
+Model : E770<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2009:05:01 22:45:07<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaE770.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaE770.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2009:05:01 22:45:07<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3358<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+E770
+85.97.C3P
+2009:05:01 22:45:07
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3358 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE680.jpg</td>
+<td class="supported">ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+MeteringMode : Average<br>
+ExposureProgram : Program AE<br>
+Flash : Off, No flash function<br>
+WhiteBalance : Auto<br>
+ExposureMode : Auto<br>
+LightSource : Daylight<br>
+CustomRendered : Normal<br>
+SceneCaptureType : Landscape<br>
+DateTimeOriginal : 2005:08:11 14:56:18</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaE680.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaE680.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 679 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Motorol<br>
+Make : undefined<br>
+<br>
+Model : E680<br>
+Model : undefined<br>
+<br>
+Software : v1.00<br>
+Software : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+CreateDate : 2005:08:11 14:56:18<br>
+CreateDate : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE365.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : E365<br>
+Software : Paint.NET v2.62<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:07:25 19:35:15</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaE365.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaE365.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 3.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:07:29 17:40:26<br>
+ModifyDate : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ThumbnailOffset : 286<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2804<br>
+ThumbnailLength : undefined<br>
+<br>
+CurrentIPTCDigest : fa8ccc9e047d2b37c933d9515e24ede4<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+ApplicationRecordVersion : 2<br>
+ApplicationRecordVersion : undefined<br>
+<br>
+DateCreated : 2006:07:25<br>
+DateCreated : undefined<br>
+<br>
+TimeCreated : 19:35:15+03:00<br>
+TimeCreated : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+DateTimeCreated : 2006:07:25 19:35:15+03:00<br>
+DateTimeCreated : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2804 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaE1070.jpg</td>
+<td class="supported">XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ImageDescription : S/W Ver: 85.97.C6P<br>
+Make : MOTOROLA<br>
+Model : E1070<br>
+ExifVersion : 2.10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : <br>
+ColorSpace : sRGB<br>
+DateTimeOriginal : 2006:11:17 18:37:25<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaE1070.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaE1070.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+CreateDate : 2006:11:17 18:37:25<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8982<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Motorola
+E1070
+85.97.C6P
+2006:11:17 18:37:25
+<br>
+Comment : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8982 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaDROID2GLOBAL.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : DROID2 GLOBAL 2f140001ffd800000a3a9c5303026017<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.2<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+ExposureProgram : Portrait<br>
+ISO : 794<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:02:26 04:03:46<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 2.8<br>
+BrightnessValue : -4.85546875<br>
+MaxApertureValue : 2.8<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Other<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FlashEnergy : 100<br>
+ExposureIndex : 794<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Portrait<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+ImageUniqueID : <br>
+GPSLatitudeRef : South<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 04:03:20<br>
+GPSMapDatum : Unknown<br>
+GPSDateStamp : 2011:02:26<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 0° 12' 45.0000" S<br>
+GPSLongitude : 78° 29' 21.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaDROID2GLOBAL.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaDROID2GLOBAL.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 40 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:02:26 04:03:46<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:02:26 04:03:46<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Cb, Y, Cr, Y<br>
+ComponentsConfiguration : <br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,32,0<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1456<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 30 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : Unknown<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,85,110,107,110,111,119,110,0<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2880<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 38080<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+GPSDateTime : 2011:02:26 04:03:20Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 0 deg 12' 45.00" S, 78 deg 29' 21.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 7.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 38080 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 61.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.0 mm (35 mm equivalent: 30.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.43 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 3.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaDROID2.jpg</td>
+<td class="supported">Make : Motorola<br>
+Model : DROID2 4efa0021ffd800000a3a513a13025025<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.2<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+ExposureProgram : Portrait<br>
+ISO : 398<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:12:04 00:07:54<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 2.8<br>
+BrightnessValue : -0.3203125<br>
+MaxApertureValue : 2.8<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Center-weighted average<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 398<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Portrait<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+ImageUniqueID : <br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 00:07:31<br>
+GPSMapDatum : Unknown<br>
+GPSDateStamp : 2010:12:04<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 40° 51' 3.0000" N<br>
+GPSLongitude : 73° 56' 19.0000" W</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaDROID2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaDROID2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 40 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:12:04 00:07:54<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:12:04 00:07:54<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Cb, Y, Cr, Y<br>
+ComponentsConfiguration : <br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Standard Light A<br>
+LightSource : Standard light A<br>
+<br>
+FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,32,0<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1456<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 30 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : Unknown<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,85,110,107,110,111,119,110,0<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2872<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 38078<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+GPSDateTime : 2010:12:04 00:07:31Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 40 deg 51' 3.00" N, 73 deg 56' 19.00" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 7.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 38078 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 61.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.0 mm (35 mm equivalent: 30.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.43 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 4.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaDROID.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaDROID.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaDROID.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 269 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 1<br>
+XResolution : undefined<br>
+<br>
+YResolution : 1<br>
+YResolution : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaC261.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Motorola<br>
+Model : C261<br>
+Orientation : 0<br>
+ResolutionUnit : 0<br>
+YCbCrPositioning : 0<br>
+ExposureProgram : Not Defined<br>
+ISO : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:09:10:56:12<br>
+MeteringMode : Unknown<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+ColorSpace : 0<br>
+FileSource : 0<br>
+SceneType : 0<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaC261.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaC261.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 981 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+<br>
+ModifyDate : 2005:05:09:10:56:12<br>
+ModifyDate : undefined<br>
+<br>
+ExposureTime : 0<br>
+ExposureTime : NaN<br>
+<br>
+FNumber : undef<br>
+FNumber : NaN<br>
+<br>
+CreateDate : 2005:05:09:10:56:12<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : -, -, -, -<br>
+ComponentsConfiguration : <br>
+<br>
+CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MaxApertureValue : 1<br>
+MaxApertureValue : NaN<br>
+<br>
+FocalLength : 0.0 mm<br>
+FocalLength : NaN mm<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : Unknown ()<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : <br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : undef<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 0.0 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaA780.jpg</td>
+<td class="supported">Make : Motorol<br>
+Model : A780<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v1.00<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2006:07:29 22:06:30<br>
+MeteringMode : Average<br>
+LightSource : Daylight<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaA780.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaA780.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 679 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2006:07:29 22:06:30<br>
+CreateDate : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : undefined<br>
+<br>
+SceneCaptureType : Landscape<br>
+SceneCaptureType : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaA760.jpg</td>
+<td class="supported">ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+MeteringMode : Average<br>
+ExposureProgram : Program AE<br>
+Flash : Off, No flash function<br>
+WhiteBalance : Auto<br>
+ExposureMode : Auto<br>
+LightSource : Daylight<br>
+CustomRendered : Normal<br>
+SceneCaptureType : Landscape<br>
+DateTimeOriginal : 2005:01:06 20:33:46</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaA760.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaA760.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 679 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Motorol<br>
+Make : undefined<br>
+<br>
+Model : A760<br>
+Model : undefined<br>
+<br>
+Software : v1.00<br>
+Software : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+CreateDate : 2005:01:06 20:33:47<br>
+CreateDate : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/MotorolaA1600.jpg</td>
+<td class="supported">ImageDescription : HELLOMOTO<br>
+Make : Motorola<br>
+Model : A1600<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : EZX V1.0.0<br>
+Orientation : Horizontal (normal)<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Motorola<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+Flash : No Flash<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+DateTimeOriginal : 1970:01:16 05:51:08<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+MeteringMode : Average<br>
+FNumber : 2.8<br>
+ExposureProgram : Not Defined<br>
+LightSource : Unknown<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/MotorolaA1600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MotorolaA1600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 1671 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1970:01:16 05:51:08<br>
+ModifyDate : undefined<br>
+<br>
+ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+ExifImageWidth : 768<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1024<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureTime : 0<br>
+ExposureTime : NaN<br>
+<br>
+CreateDate : 1970:01:16 05:51:08<br>
+CreateDate : undefined<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+ApertureValue : 1<br>
+ApertureValue : NaN<br>
+<br>
+BrightnessValue : undef<br>
+BrightnessValue : NaN<br>
+<br>
+MakerNoteUnknownText : EZX camera sensor register settings<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : EZX phone<br>
+UserComment : 69,90,88,32,112,104,111,110,101<br>
+<br>
+JFIFVersion : 1<br>
+JFIFVersion : undefined<br>
+<br>
+Comment :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Motorola/Motorola-V9m.jpg</td>
+<td class="supported">Make : Motorola Korea Inc<br>
+Model : MOTOROLA - V9m<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6550B-MS700-4330<br>
+YCbCrPositioning : Centered<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:09:19 20:21:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 0<br>
+MeteringMode : Center-weighted average<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Motorola/Motorola-V9m.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Motorola-V9m.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Motorola<br>
+Directory : undefined<br>
+<br>
+FileSize : 797 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:09:19 20:21:50<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Genius/GeniusGShot511.jpg</td>
+<td class="supported">ImageDescription : Genius<br>
+Make : Genius<br>
+Model : GShot511<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:01:09 11:01:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+BrightnessValue : 2<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusGShot511.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusGShot511.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:01:09 11:01:38<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:01:09 11:01:38<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.0909<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 512 384 1024 768<br>
+SubjectArea : 512,384,1024,768<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 895<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9690<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Genius  Corp. <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9690 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Genius/GeniusGShot312.jpg</td>
+<td class="supported">ImageDescription : Genius<br>
+Make : Genius<br>
+Model : GShot312<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1540<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:07:09 11:01:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+BrightnessValue : 9.4<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusGShot312.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusGShot312.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:07:09 11:01:05<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:07:09 11:01:05<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.0909<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 800 600 1600 1200<br>
+SubjectArea : 800,600,1600,1200<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 895<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4539<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Genius  Corp. <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1540<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4539 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Genius/GeniusG-ShotV3.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Genius<br>
+Model : G-Shot V3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.08.000KYE<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/98<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:06:29 11:08:16<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/98<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Saturation : High saturation<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusG-ShotV3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusG-ShotV3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 37 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:06:29 11:08:16<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:06:29 11:08:16<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1.3<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 27510 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 32616<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5468<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/98<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5468 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Genius/GeniusG-ShotP850.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Genius<br>
+Model : G-Shot P850<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.720<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:10:18 00:47:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FocalLength : 6.2 mm<br>
+UserComment : 801<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusG-ShotP850.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusG-ShotP850.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:10:18 00:47:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:10:18 00:47:48<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3815<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7922<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7922 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Genius/GeniusG-ShotG512.jpg</td>
+<td class="supported">Make : KYE Systems Corp.<br>
+Model : G-Shot G512<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : EXIF Software Version 0.06a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:10:31 06:48:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusG-ShotG512.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusG-ShotG512.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : KYE_0036.JPG                   <br>
+ImageDescription : KYE0036.JPG<br>
+<br>
+ModifyDate : 2004:10:31 06:48:09<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:10:31 06:48:01<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+MaxApertureValue : 1<br>
+MaxApertureValue : NaN<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : E@U@TidxF1 06:48:09  x  	                     Lq	    s   ?                                                                                                                                                                ???E@U@TidxF1 06:48:09    <br>
+UserComment : 618<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5482<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5482 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.5 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Genius/GeniusG-ShotA435.jpg</td>
+<td class="supported">Make : KYE Systems Corp.<br>
+Model : G-Shot A435<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.5010<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 4.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:30 18:51:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/792<br>
+ApertureValue : 4.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.6 mm<br>
+ExposureTime : 1/797<br>
+ISO : 100<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 100<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+CustomRendered : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusG-ShotA435.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusG-ShotA435.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:30 18:51:45<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MaxAperture : 4.8<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2010/05/30 18:51:45<br>
+CameraDateTime : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 34 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2560<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2912<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/797<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2912 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 55.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.6 mm (35 mm equivalent: 34.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.32 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Genius/GeniusDV210.jpg</td>
+<td class="supported">Make : Genius<br>
+Model : DV210<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.23K<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/135<br>
+FNumber : 2.8<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:09:06 14:58:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/137<br>
+ApertureValue : 4.0<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Manual<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+ImageUniqueID : 00000000000000000000000000000022</td>
+<td class="unsupported">SourceFile : sampleImages/Genius/GeniusDV210.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : GeniusDV210.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Genius<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:09:06 14:58:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:09:06 14:58:33<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Compression : Uncompressed<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10240<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7398<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/135<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7398 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 11<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

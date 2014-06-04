@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Trust/TrustGemini11.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2002:01:02 09:35:12<br>
+DateTimeOriginal : 2002:01:02 09:35:12<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/136<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.8 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 864 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 2002:01:02 09:35:12<br>
+ImageDescription : ICM107BTrustGemini11H<br>
+Make : TrustGemini11HH<br>
+Model : Gemini11HH2002:01<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Trust/TrustDSC.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2027:08:12 19:53:06<br>
+DateTimeOriginal : 2027:08:12 19:53:06<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/5<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.8 mm<br>
+ISO : 25<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 2027:08:12 19:53:06<br>
+ImageDescription : ICM107BTrustDSCH<br>
+Make : TrustDSCHH<br>
+Model : DSCHH2027:08<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Trust/TrustDC3500MINI.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:08:09 00:22:04<br>
+DateTimeOriginal : 2005:08:09 00:22:04<br>
+ExifVersion : 2.10<br>
+ExposureBias : 5.8<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/6<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 90<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 589<br>
+DateTime : 2005:08:09 00:22:04<br>
+ImageDescription : M3391D-1001<br>
+Make : TRUST<br>
+Model : DC3500 MINI<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 205</td>
+<td class="unsupported">FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/TrustDC-4200CAM.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:04:29 19:52:41<br>
+DateTimeOriginal : 2005:04:29 19:52:41<br>
+ExifVersion : 2.10<br>
+ExposureBias : 6.6<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 589<br>
+DateTime : 2005:04:29 19:52:41<br>
+ImageDescription : M4031D-4202<br>
+Make : Trust<br>
+Model : DC-4200 CAM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 205</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust962Z_POWER.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:01:12 13:26:25<br>
+DateTimeOriginal : 2005:01:12 13:26:25<br>
+ExifVersion : 2.10<br>
+ExposureBias : 13.2<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 589<br>
+DateTime : 2005:01:12 13:26:25<br>
+ImageDescription : M3321T-0015<br>
+Make : TRUST<br>
+Model : 962Z POWER<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 205</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust960POWERCAM.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:04:03 20:24:33<br>
+DateTimeOriginal : 2005:04:03 20:24:33<br>
+ExifVersion : 2.10<br>
+ExposureBias : 4.5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 585<br>
+DateTime : 2005:04:03 20:24:33<br>
+ImageDescription : TF3-1100<br>
+Make : TRUST<br>
+Model : 960 POWERC@M<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust950PowerCamZoom.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:06:06 22:25<br>
+DateTimeOriginal : 2004:06:06 22:25<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/64<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 21930 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+_IFDpointer_Interop : 1296<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2004:06:06 22:25<br>
+ImageDescription : UUUUUUUUUUUUUUUUUUUUUUUU<br>
+Make : Trust<br>
+Model : 950 PowerC@m Zoom<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.991028646<br>
+CompressedBitsPerPixel : 1.9910286458333333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust913POWER.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.20<br>
+ExposureBias : NaN<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/9<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+ISO : 40<br>
+LightSource : Fluorescent<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 512 px w<br>
+PixelYDimension : 384 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/9<br>
+_IFDpointer_Interop : 1296<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 1,1999<br>
+DateTime : <br>
+ImageDescription : <br>
+Make : TRUST<br>
+Model : 913 POWER<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.998128255<br>
+CompressedBitsPerPixel : 3.9981282552083335<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust760POWERCAM.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:01:28 15:53:34<br>
+DateTimeOriginal : 2005:01:28 15:53:34<br>
+ExifVersion : 2.10<br>
+ExposureBias : 7<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/42<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 559<br>
+DateTime : 2005:01:28 15:53:34<br>
+ImageDescription : TF2-A0A3<br>
+Make : TRUST<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported">Model : 760 POWERC@M<br>
+Model : 760 POWERC@<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust738AV_LCD_PV.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6058<br>
+DateTimeDigitized : 2000:01:01 01:29:01<br>
+DateTimeOriginal : 2000:01:01 01:29:01<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 52525 mm<br>
+ISO : 100<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/5<br>
+_IFDpointer_Interop : 1296<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 5,2003<br>
+DateTime : 2000:01:01 01:29:01<br>
+ImageDescription : bcEoWdaU.n\C97;Uv\9)wrWAnEmmwCoUV-fi..u7mkW<br>
+Make : Trust<br>
+Model : 738AV LCD PV<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">DigitalZoomRatio : 8.13197641<br>
+DigitalZoomRatio : 8.131976410309255<br>
+<br>
+FNumber : 1.6<br>
+FNumber : 1.5836888808786547<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust735SPowerCam.jpg</td>
+<td class="supported">BrightnessValue : 1.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 200370101000029<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.09090909090909091<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : 3<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 735<br>
+DateTime : 200370101000029<br>
+ImageDescription : <br>
+Make : <br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported">DateTimeOriginal : 2003701?0100?0029E<br>
+DateTimeOriginal : 200370101000029<br>
+<br>
+SubjectArea : 640 480 1280 960<br>
+SubjectArea : 640,480,1280,960<br>
+<br>
+Model : 735S POWE<br>
+Model : 735S POW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust550POWER.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : <br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.1 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 588<br>
+DateTime : <br>
+ImageDescription : Exif JPG 422<br>
+Make : Trust<br>
+Model : 550 POWER<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 230</td>
+<td class="unsupported">DateTimeOriginal : <br>
+DateTimeOriginal : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust1220S_PowerCamZoom.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeOriginal : 2004:12:21 04:49:22<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 832 px w<br>
+PixelYDimension : 624 px h<br>
+SceneType : 0<br>
+_IFDpointer_Interop : 656<br>
+DateTime : 2005:01:19 18:04:00<br>
+ImageDescription : PIC01314.JPG<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Adobe Photoshop CS Macintosh<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 296</td>
+<td class="unsupported">DateTimeDigitized : 2004:12:21 04:49:22+01:00<br>
+DateTimeDigitized : 2004:12:21 04:49:22<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+Make : Trust Computer Products<br>
+Make : Trust Computer Product<br>
+<br>
+Model : 1220S PowerC@m Optical Zoom<br>
+Model : 1220S PowerC@m Optical Zoo<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Trust/Trust1210K_POWERCAM_Zoom.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:01:06 15:05:30<br>
+DateTimeOriginal : 2003:01:06 15:05:30<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/49<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/49<br>
+_IFDpointer_Interop : 1164<br>
+_IFDpointer_Makernote : 852<br>
+DateTime : 2003:01:06 15:05:30<br>
+ImageDescription : TRUST 1210K POWERC@M OPTICAL ZOOM<br>
+Make : TRUST<br>
+Model : 1210K POWERC@M OPTICAL ZOOM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 458<br>
+PrintIM : 338</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

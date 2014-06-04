@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Agfa/Agfa_sensor505-D.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:01:01 00:13:12<br>
+DateTimeOriginal : 2008:01:01 00:13:12<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/14<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/14<br>
+_IFDpointer_Interop : 1178<br>
+_IFDpointer_Makernote : 696<br>
+DateTime : 2008:01:01 00:13:12<br>
+ImageDescription : My beautiful picture<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.045931133<br>
+CompressedBitsPerPixel : 2.045931133465427<br>
+<br>
+Copyright : Copyright 2007<br>
+Copyright : Copyright 200<br>
+<br>
+Make : AgfaPhoto<br>
+Make : AgfaPhot<br>
+<br>
+Model : sensor 505-D<br>
+Model : sensor 505-<br>
+<br>
+Software : Sensor 505-D.00.47<br>
+Software : Sensor 505-D.00.4<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhotoCL50.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 1999:07:10 15:57:21<br>
+DateTimeOriginal : 1999:07:10 15:57:21<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/811<br>
+FNumber : 9.3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 1999:07:10 15:57:21<br>
+ImageDescription : AGFA DIGITAL CAMERA<br>
+Make : Agfa Gevaert<br>
+Model : SR841<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v841-72<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhotoCL30.jpg</td>
+<td class="supported">ColorSpace : 0<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.00<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 864 px h<br>
+Make : Agfa<br>
+Model : ePhoto CL30<br>
+ResolutionUnit : 0<br>
+Software : 1.70C<br>
+XResolution : 144.00000000<br>
+YCbCrPositioning : 0<br>
+YResolution : 144.00000000<br>
+_IFDpointer_EXIF : 504</td>
+<td class="unsupported">ImageDescription : Exif_Jpeg<br>
+ImageDescription : ExifJpeg<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhotoCL18.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhoto1680.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhoto1280.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaSnapScan_e25.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:12:20 16:24:47<br>
+Make : Agfa<br>
+Model : SnapScan e25<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 94</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaSR841.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2002:04:18 11:05:28<br>
+DateTimeOriginal : 2002:04:18 11:05:28<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1.5<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+UserComment : 642<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+DateTime : 2002:04:18 11:05:28<br>
+ImageDescription : AGFA DIGITAL CAMERA<br>
+Make : Agfa Gevaert<br>
+Model : SR841<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v841p-73<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA8328m.jpg</td>
+<td class="supported">ApertureValue : 5.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2011:07:05 13:07:56<br>
+DateTimeOriginal : 2011:07:05 13:07:56<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/738<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light not detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 31 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/738<br>
+UserComment : 805<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3777<br>
+_IFDpointer_Makernote : 1099<br>
+Copyright : Copyright 2008<br>
+DateTime : 2011:07:05 13:07:56<br>
+ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : OPTIMA 8328m<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 315</td>
+<td class="unsupported">Software : 0.7201<br>
+Software : 0.720<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA2338mT.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.778152<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:05 23:11:31<br>
+DateTimeOriginal : 2010:03:05 23:11:31<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3.1<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 46376<br>
+_IFDpointer_Makernote : 1056<br>
+DateTime : 2010:03:05 23:11:31<br>
+Make : AGFAPHOTO<br>
+Model : OPTIMA 2338mT<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.40.00.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 566<br>
+PrintIM : 218</td>
+<td class="unsupported">UserComment : PL 0417 0633 PB 0430 0604 CL 0580 0381 t 0671 0315 CB 0482 0456 t 0557 0376 t 0588 0380 RH 0671 RL 0428 BH 0531 BL 0308 i 030 009 I 034 009 T 2 V 05.5 S 1 FR 000.21 WN 0125 WF 0583 m 00
+ V 06.2T0587 Y 0496 I 0 S 000050 G 0924 I 0 S 000060 G 0199 C 000060 C 0199 V 001 L 317 G 0392 C 2 D 0256
+ZP 0628 FR 04 FJ +315 FT +02 FM 01 FP +382
+R 8448 PM 0002 CM 0122 PO -100 PO -100 CO 3259 CO 3278 S 0224 Y 0507 R 0473 B 0475 SO 0758 YO 1006 RO 1066 BO 0878 F P767
+0.40.00.00  BarCo_A095HD101055    0    ST 00 F 01 I 0000.<br>
+UserComment : 37920<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA1438m.jpg</td>
+<td class="supported">ApertureValue : 5.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:29 08:19:31<br>
+DateTimeOriginal : 2010:04:29 08:19:31<br>
+ExifVersion : 2.20<br>
+ExposureBias : -1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/286<br>
+FNumber : 5.1<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 64<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/286<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 40792<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2010:04:29 08:19:31<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 1438m<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.03    AVIT<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA1338mT.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:02 14:42:57<br>
+DateTimeOriginal : 2010:05:02 14:42:57<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/250<br>
+FNumber : 3.1<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 43558<br>
+_IFDpointer_Makernote : 1054<br>
+DateTime : 2010:05:02 14:42:57<br>
+Make : AGFAPHOTO<br>
+Model : OPTIMA 1338mT<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.59.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 564<br>
+PrintIM : 216</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.557511286<br>
+CompressedBitsPerPixel : 2.5575112855237507<br>
+<br>
+UserComment : PL 0486 0520 PB 0522 0431 CL 0456 0527 t 0555 0375 CB 0516 0472 t 0627 0335 t 0620 0348 RH 0555 RL 0510 BH 0420 BL 0375 i 039 003 I 038 005 T 0 V 14.1 S 1 FR 001.63 WN 0474 WF 0291 m 00
+ V 14.3T0486 Y 0443 I 1 S 001412 G 0399 I 1 S 000250 G 0080 C 002000 C 0199 V 001 L 588 G 0506 C 2 D 0256
+ZP 0629 FR 00 FJ +327 FT +00 FM 01 FP +367
+R 8225 PM 0012 CM 0126 PO -050 PO -050 CO 1900 CO 1673 S 0338 Y 0530 R 0450 B 0551 SO 0852 YO 1020 RO 1038 BO 0921 F P767
+0.59.01     BarCo_A08BFA102156         ST 08 F 01 I 0000.<br>
+UserComment : 37918<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA105.jpg</td>
+<td class="supported">ApertureValue : 3.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 8<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2011:06:26 10:02:00<br>
+DateTimeOriginal : 2011:07:01 14:38:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.4 mm<br>
+FocalLengthIn35mmFilm : 50 mm<br>
+ISO : 200<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3915 px w<br>
+PixelYDimension : 1953 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1581<br>
+_IFDpointer_Makernote : 743<br>
+Copyright : Copyright 2009<br>
+DateTime : 2011:07:01 14:38:31<br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 105<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.4200<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 237</td>
+<td class="unsupported">UserComment : Edited with Nokia Editor Application<br>
+UserComment : 1529<br>
+<br>
+ImageDescription : ?<br>
+ImageDescription : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA104.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2011:05:06 18:49:10<br>
+DateTimeOriginal : 2011:05:06 18:49:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : 27<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubsecTime : 49<br>
+UserComment : 3842<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4254<br>
+_IFDpointer_Makernote : 842<br>
+Copyright : Copyright 2010<br>
+DateTime : 2011:05:06 18:49:10<br>
+ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 104<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.370<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 316</td>
+<td class="unsupported">FocalLength : 5.1 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA103.jpg</td>
+<td class="supported">ApertureValue : 6.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 7<br>
+DateTimeDigitized : 2011:05:15 15:05:10<br>
+DateTimeOriginal : 2011:05:15 15:05:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Landscape<br>
+ExposureTime : 1/291<br>
+FNumber : 6.3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.2 mm<br>
+FocalLengthIn35mmFilm : 112 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+RelatedSoundFile : <br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/291<br>
+SubsecTime : 49<br>
+UserComment : 3842<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4254<br>
+_IFDpointer_Makernote : 842<br>
+Copyright : Copyright 2009<br>
+DateTime : 2011:05:15 15:05:10<br>
+ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 103<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.410<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 316</td>
+<td class="unsupported">Contrast : High<br>
+Contrast : Hard<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA102.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+DateTimeDigitized : 2010:05:22 16:51:50<br>
+DateTimeOriginal : 2010:05:22 16:51:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/112<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/112<br>
+SubsecTime : 49<br>
+UserComment : 772<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3744<br>
+_IFDpointer_Makernote : 1066<br>
+Copyright : Copyright 2009<br>
+DateTime : 2010:05:22 16:51:50<br>
+ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 102<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.050<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA100.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+DateTimeDigitized : 2010:05:18 19:43:38<br>
+DateTimeOriginal : 2010:05:18 19:43:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubsecTime : 48<br>
+UserComment : 772<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3744<br>
+_IFDpointer_Makernote : 1066<br>
+Copyright : Copyright 2009<br>
+DateTime : 2010:05:18 19:43:38<br>
+ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.050<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-833m.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010:05:20 19:29:40<br>
+DateTimeOriginal : 2010:05:20 19:29:40<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/65<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 31 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/65<br>
+UserComment : 800<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3772<br>
+_IFDpointer_Makernote : 1094<br>
+Copyright : Copyright 2008<br>
+DateTime : 2010:05:20 19:29:40<br>
+ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : DC-833m<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.770<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 310</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-733s.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010:04:28 17:11:38<br>
+DateTimeOriginal : 2010:04:28 17:11:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 31 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+UserComment : 800<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3772<br>
+_IFDpointer_Makernote : 1094<br>
+Copyright : Copyright 2007<br>
+DateTime : 2010:04:28 17:11:38<br>
+ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : DC-733s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.080<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 310</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-600uw.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:08:05 15:56:50<br>
+DateTimeOriginal : 2010:08:05 15:56:50<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/229<br>
+FNumber : 7<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/225<br>
+_IFDpointer_Interop : 41834<br>
+_IFDpointer_Makernote : 692<br>
+Copyright : Copyright 2002<br>
+DateTime : 2010:08:05 15:56:50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6131A-0208<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 254</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.692650493<br>
+CompressedBitsPerPixel : 3.6926504928546833<br>
+<br>
+Flash : Unknown (0x1e)<br>
+Flash : 30<br>
+<br>
+UserComment : 0000001,0000140,0000141,0000588,0000353,0000085,0000201,0000167,0000144,0000076,0000595,0000352,0000130,-000256,-000256,-000256,-000256,0000000,0000000,0000000,<br>
+UserComment : 0000001,0000140,0000141,0000588,0000353,0000085,0000201,0000167,0000144,0000076,0000595,0000352,0000130,-000256,-000256,-000256,-000256,0000000,0000000,0000000<br>
+<br>
+ImageDescription : Digital Camera<br>
+ImageDescription : Digital Camer<br>
+<br>
+Make : AgfaPhoto<br>
+Make : AgfaPhot<br>
+<br>
+Model : DC-600uw<br>
+Model : DC-600u<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:01:08 01:58:29<br>
+DateTimeOriginal : 2004:01:08 01:58:29<br>
+ExifVersion : 2.10<br>
+ExposureBias : 12.8<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/192<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneType : 0<br>
+_IFDpointer_Interop : 557<br>
+DateTime : 2004:01:08 01:58:29<br>
+Make : AGFAPHOTO<br>
+Model : DC-500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V7.4.0.5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 199</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-302.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2007:01:01 02:31:41<br>
+DateTimeOriginal : 2007:01:01 02:31:41<br>
+ExifVersion : 2.10<br>
+ExposureBias : 14.9<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/921<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : 8<br>
+_IFDpointer_Interop : 557<br>
+DateTime : 2007:01:01 02:31:41<br>
+Make : AGFAPHOTO<br>
+Model : DC-302<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V0.2.1.L<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 199</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-2030m.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+DateTimeDigitized : 2010:05:13 14:56:48<br>
+DateTimeOriginal : 2010:05:13 14:56:48<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/120<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/125<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4516<br>
+_IFDpointer_Makernote : 784<br>
+Copyright : Copyright 2009<br>
+DateTime : 2010:05:13 14:56:48<br>
+ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 922<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported">Model : DC-2030m<br>
+Model : DC-2030<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-1033m.jpg</td>
+<td class="supported">ApertureValue : 5.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010:05:21 15:52:28<br>
+DateTimeOriginal : 2010:05:21 15:52:28<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/378<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/378<br>
+UserComment : 801<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3773<br>
+_IFDpointer_Makernote : 1095<br>
+Copyright : Copyright 2008<br>
+DateTime : 2010:05:21 15:52:28<br>
+ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : DC-1033m<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 311</td>
+<td class="unsupported">Software : 0.8402<br>
+Software : 0.840<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaCompact102.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 7<br>
+DateTimeDigitized : 2011:06:01 03:27:58<br>
+DateTimeOriginal : 2011:06:01 03:27:58<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubsecTime : 49<br>
+UserComment : 773<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3745<br>
+_IFDpointer_Makernote : 1067<br>
+Copyright : Copyright 2009<br>
+DateTime : 2011:06:01 03:27:58<br>
+ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : Compact 102<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.960<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 271</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaCompact100.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 7<br>
+DateTimeDigitized : 2009:02:21 16:18:00<br>
+DateTimeOriginal : 2009:02:21 16:18:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/60<br>
+SubsecTime : 49<br>
+UserComment : 773<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3745<br>
+_IFDpointer_Makernote : 1067<br>
+Copyright : Copyright 2009<br>
+DateTime : 2009:02:21 16:18:00<br>
+ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : Compact 100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.960<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 271</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaARCUS_II.jpg</td>
+<td class="supported">PixelXDimension : 200 px w<br>
+PixelYDimension : 200 px h<br>
+DateTime : 2004:05:19 22:30:59<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Adobe Photoshop 7.0<br>
+XResolution : 140.00000000<br>
+YResolution : 140.00000000<br>
+_IFDpointer_EXIF : 188</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Make : AGFA<br>
+Make : AGF<br>
+<br>
+Model : ARCUS II<br>
+Model : ARCUS I<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

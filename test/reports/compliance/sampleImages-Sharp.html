@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Sharp/SharpWX-T91.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:07:19 17:38:00<br>
+DateTimeOriginal : 2008:07:19 17:38:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2008:07:19 17:38:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : WX-T91<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVN-EZ5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:01:06 01:26:52<br>
+DateTimeOriginal : 2005:01:06 01:26:52<br>
+ExifVersion : 2.10<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 296<br>
+_IFDpointer_Makernote : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 2005:01:06 01:26:52<br>
+Make : SHARP<br>
+Model : VN-EZ5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : INTERNET VIEWCAM VN-EZ5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVN-EZ1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:05:28 14:44:43<br>
+DateTimeOriginal : 2002:05:28 14:44:43<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 428<br>
+DateTime : 2002:05:28 14:44:43<br>
+Make : SHARP<br>
+Model : VN-EZ1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera VN-EZ1 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z961.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:11:04 14:23:00<br>
+DateTimeOriginal : 2004:11:04 14:23:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/90<br>
+FNumber : 11<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/91<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 3,2,68,86,49,2<br>
+DateTime : 2004:11:04 14:23:00<br>
+Make : SHARP<br>
+Model : VL-Z961<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z961    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z950.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:28 18:42:00<br>
+DateTimeOriginal : 2004:09:28 18:42:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.9 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/32<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 3,2,68,86,49,1<br>
+DateTime : 2004:09:28 18:42:00<br>
+Make : SHARP<br>
+Model : VL-Z950<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z950    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:04:29 12:43:00<br>
+DateTimeOriginal : 2007:04:29 12:43:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.3 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 3,2,68,86,49,1<br>
+DateTime : 2007:04:29 12:43:00<br>
+Make : SHARP<br>
+Model : VL-Z800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z800    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z8.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:03:09 22:42:00<br>
+DateTimeOriginal : 2005:03:09 22:42:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 1.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 738<br>
+_IFDpointer_Makernote : 3,2,0,0,0,0<br>
+DateTime : 2005:03:09 22:42:00<br>
+Make : SHARP<br>
+Model : VL-Z8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z8      v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:06 17:24:00<br>
+DateTimeOriginal : 2008:01:06 17:24:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 1.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/32<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 3,2,68,86,49,1<br>
+DateTime : 2008:01:06 17:24:00<br>
+Make : SHARP<br>
+Model : VL-Z700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z700    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z7.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:24 15:42:00<br>
+DateTimeOriginal : 2004:09:24 15:42:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 3,2,0,0,0,0<br>
+DateTime : 2004:09:24 15:42:00<br>
+Make : SHARP<br>
+Model : VL-Z7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z7      v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported">FocalLength : 12.0 mm<br>
+FocalLength : 12 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:21 13:49:00<br>
+DateTimeOriginal : 2009:06:21 13:49:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 1.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 0,2,68,86,49,2<br>
+DateTime : 2009:06:21 13:49:00<br>
+Make : SHARP<br>
+Model : VL-Z500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z500    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:18 00:19:00<br>
+DateTimeOriginal : 2004:07:18 00:19:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Shutter speed priority AE<br>
+ExposureTime : 1/12<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.7 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/16<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2004:07:18 00:19:00<br>
+Make : SHARP<br>
+Model : VL-Z5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z5      v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z301.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 1.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : <br>
+Make : SHARP<br>
+Model : VL-Z301<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z301    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-Z3.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:04 03:58:00<br>
+DateTimeOriginal : 2004:01:04 03:58:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.3 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 750<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 894<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2004:01:04 03:58:00<br>
+Make : SHARP<br>
+Model : VL-Z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-Z3      v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,4,0,1,0,22,0,22,0,2,0,1,0,0,0,0,1,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-WD650.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 484<br>
+_IFDpointer_Makernote : 434<br>
+DateTime : 2004:01:26 12:45:08<br>
+Make : SHARP<br>
+Model : VL-WD650<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FinePixViewer Ver.3.2<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-WD450.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:10:27 20:21:09<br>
+DateTimeOriginal : 2002:10:27 20:21:09<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 432<br>
+DateTime : 2002:10:27 20:21:00<br>
+Make : SHARP<br>
+Model : VL-WD450<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera VL-WD450 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-WD255.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:01:29 09:24:19<br>
+DateTimeOriginal : 2005:01:29 09:24:19<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 432<br>
+DateTime : 2005:01:29 09:24:00<br>
+Make : SHARP<br>
+Model : VL-WD255<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera VL-WD255 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-PD7.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:07:09 12:55:00<br>
+DateTimeOriginal : 2004:07:09 12:55:00<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 428<br>
+DateTime : 2004:07:09 12:55:00<br>
+Make : SHARP<br>
+Model : VL-PD7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera VL-PD7 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ80.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:11:10 17:48:00<br>
+DateTimeOriginal : 2002:11:10 15:17:01<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+UserComment : 462<br>
+_IFDpointer_Interop : 598<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2002:11:10 17:48:00<br>
+Make : SHARP<br>
+Model : VL-NZ80<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-NZ80    V1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ8.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:02:04 20:19:00<br>
+DateTimeOriginal : 2002:02:03 14:54:40<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+UserComment : 462<br>
+_IFDpointer_Interop : 598<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2002:02:04 20:19:00<br>
+Make : SHARP<br>
+Model : VL-NZ8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-NZ8     V1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ50.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : 5840<br>
+DateTimeDigitized : 2004:08:30 17:24:56<br>
+DateTimeOriginal : 2004:08:30 17:24:56<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : 2864<br>
+ExposureTime : 1/60<br>
+FNumber : 1.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.6 mm<br>
+ISO : 3136<br>
+LightSource : 3056<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : 2912<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : 208<br>
+SensingMethod : 2640<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 814<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2004:08:30 17:24:00<br>
+Make : SHARP<br>
+Model : VL-NZ50<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-NZ50    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414</td>
+<td class="unsupported">Flash : Unknown (0xc80)<br>
+Flash : 3200<br>
+<br>
+PageName : 3?632296555809842320?64014?0?1?0?C:\Documents and Settings\Terry\My Documents\My Pictures\wick holders\wick holders 004.jpg<br>
+PageName : 363229655580984232064014010C:\Documents and Settings\Terry\My Documents\My Pictures\wick holders\wick holders 004.jpg<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ150.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2003:07:12 13:39:01<br>
+DateTimeOriginal : 2003:07:12 13:39:01<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 25<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/128<br>
+UserComment : 650<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2003:07:12 13:39:00<br>
+Make : SHARP<br>
+Model : VL-NZ150<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-NZ150   v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ105.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:08:01 14:33:10<br>
+DateTimeOriginal : 2004:08:01 14:33:10<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.5<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/100<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/91<br>
+UserComment : 650<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2004:08:01 14:33:00<br>
+Make : SHARP<br>
+Model : VL-NZ105<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-NZ105   v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2003:03:05 19:17:33<br>
+DateTimeOriginal : 2003:03:05 19:17:33<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 13.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 650<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2003:03:05 19:17:00<br>
+Make : SHARP<br>
+Model : VL-NZ100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-NZ100   v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-NZ10.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:08:30 14:51:28<br>
+DateTimeOriginal : 2003:08:30 14:51:28<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 11<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/128<br>
+UserComment : 668<br>
+_IFDpointer_Interop : 812<br>
+_IFDpointer_Makernote : 618<br>
+DateTime : 2003:09:08 19:55:24<br>
+Make : SHARP<br>
+Model : VL-NZ10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FinePix Viewer Ver.2.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-MX1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:02:18 11:49:00<br>
+DateTimeOriginal : 2003:02:18 11:49:00<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 446<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2003:02:18 11:49:00<br>
+Make : SHARP<br>
+Model : VL-MX1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital CameraVL-MX1  Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-MR1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:17 14:26:00<br>
+DateTimeOriginal : 2004:12:15 01:36:00<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 484<br>
+_IFDpointer_Makernote : 434<br>
+DateTime : 2004:12:19 14:10:20<br>
+Make : SHARP<br>
+Model : VL-MR1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : FinePix Viewer Ver.3.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-MG10.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 1.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.6 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/64<br>
+UserComment : 650<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 3,2,0,0,0,0<br>
+DateTime : <br>
+Make : SHARP<br>
+Model : VL-MG10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-MG10    v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-ME100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:05:01 09:09:00<br>
+DateTimeOriginal : 2004:05:01 09:09:00<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 450<br>
+_IFDpointer_Makernote : 3,2,0,0,0,0<br>
+DateTime : 2004:05:01 09:09:00<br>
+Make : SHARP<br>
+Model : VL-ME100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-ME100   v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-MC500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:06:26 11:49:00<br>
+DateTimeOriginal : 2005:06:26 11:49:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.6 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/512<br>
+UserComment : 650<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 0,2,0,0,0,0<br>
+DateTime : 2005:06:26 11:49:00<br>
+Make : SHARP<br>
+Model : VL-MC500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-MC500   v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-DD10.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.4<br>
+DateTimeDigitized : 2004:11:28 10:50:04<br>
+DateTimeOriginal : 2004:11:28 10:50:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/350<br>
+FNumber : 4.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1824 px w<br>
+PixelYDimension : 1216 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/362<br>
+UserComment : 972<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1236<br>
+_IFDpointer_Makernote : 716<br>
+DateTime : 2004:11:28 10:50:04<br>
+Make : SHARP<br>
+Model : VL-DD10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCamera v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-AX1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:05:22 18:22:00<br>
+DateTimeOriginal : 2004:05:22 18:22:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.3 mm<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 864 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/32<br>
+UserComment : 650<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 3,2,0,0,0,0<br>
+DateTime : 2004:05:22 18:22:00<br>
+Make : SHARP<br>
+Model : VL-AX1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCameraVL-AX1     v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVL-AD260.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:02:09 02:15:55<br>
+DateTimeOriginal : 2003:02:09 02:15:55<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 432<br>
+DateTime : 2003:02:09 02:15:00<br>
+Make : SHARP<br>
+Model : VL-AD260<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera VL-AD260 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVE-CG40.jpg</td>
+<td class="supported">ApertureValue : 6.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.5<br>
+DateTimeDigitized : 2003:01:30 14:17:17<br>
+DateTimeOriginal : 2003:01:30 14:17:17<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/350<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 16.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2448 px w<br>
+PixelYDimension : 1632 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/362<br>
+UserComment : 972<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1236<br>
+_IFDpointer_Makernote : 716<br>
+DateTime : 2003:01:30 14:17:17<br>
+Make : SHARP<br>
+Model : VE-CG40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCamera v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpVE-CG30.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+DateTimeDigitized : :  :     :  :<br>
+DateTimeOriginal : :  :     :  :<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FNumber : 2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2160 px w<br>
+PixelYDimension : 1440 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/16<br>
+UserComment : 972<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1236<br>
+_IFDpointer_Makernote : 716<br>
+DateTime : :  :     :  :<br>
+Make : SHARP<br>
+Model : VE-CG30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DigitalCamera v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV903SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:04:07 08:23:00<br>
+DateTimeOriginal : 2006:04:07 08:23:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2006:04:07 08:23:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V903SH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV902SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:06:19 03:35:00<br>
+DateTimeOriginal : 2005:06:19 03:35:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+DateTime : 2005:06:19 03:35:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V902SH<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV802SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:28 22:18:00<br>
+DateTimeOriginal : 2005:04:28 22:18:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+DateTime : 2005:04:28 22:18:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V802SH<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV801SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:11:25 09:35:00<br>
+DateTimeOriginal : 2004:11:25 09:35:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2004:11:25 09:35:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V801SH<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV703SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:07:15 11:32:00<br>
+DateTimeOriginal : 2007:07:15 11:32:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2007:07:15 11:32:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V703SH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV601SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:09:19 18:24:00<br>
+DateTimeOriginal : 2005:09:19 18:24:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2005:09:19 18:24:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V601SH<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV401SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:06:22 09:22:00<br>
+DateTimeOriginal : 2004:06:22 09:22:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2004:06:22 09:22:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V401SH<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpV301SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:08:12 11:40:00<br>
+DateTimeOriginal : 2004:08:12 11:40:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 347<br>
+DateTime : 2004:08:12 11:40:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : V301SH<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 193</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpTM200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:14:14:27:08<br>
+DateTimeOriginal : 2005:04:14:14:27:08<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+DateTime : 2005:04:14:14:27:08<br>
+Make : SHARP<br>
+Model : TM200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpTM150.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:10:30:21:29:12<br>
+DateTimeOriginal : 2005:10:30:21:29:12<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2005:10:30:21:29:12<br>
+Make : SHARP<br>
+Model : TM150<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpSX833.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:11:29 20:19:00<br>
+DateTimeOriginal : 2005:11:29 20:19:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2005:11:29 20:19:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : SX833<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpSX813.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:11:20 19:30:00<br>
+DateTimeOriginal : 2005:11:20 19:30:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1224 px w<br>
+PixelYDimension : 1632 px h<br>
+DateTime : 2005:11:20 19:30:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : SX813<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpJ-SH53.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:07:13 18:38:00<br>
+DateTimeOriginal : 2004:07:13 18:38:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2004:07:13 18:38:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : J-SH53<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpJ-SH52.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:19 13:32:00<br>
+DateTimeOriginal : 2004:12:19 13:32:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2004:12:19 13:32:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : J-SH52<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpJ-SH51.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:02 12:24:00<br>
+DateTimeOriginal : 2005:04:02 12:24:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2005:04:02 12:24:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : J-SH51<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/SharpJ-SH010.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:02:01 10:38:00<br>
+DateTimeOriginal : 2004:02:01 10:38:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2004:02:01 10:38:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : J-SH010<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/Sharp933SH.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:06 16:17:00<br>
+DateTimeOriginal : 2010:04:06 16:17:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/322<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/322<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 636<br>
+DateTime : 2010:04:06 16:17:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : 933SH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/Sharp912SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:09:16 13:03:00<br>
+DateTimeOriginal : 2009:09:16 13:03:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2009:09:16 13:03:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : 912SH<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/Sharp910SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:09:12 14:32:00<br>
+DateTimeOriginal : 2008:09:12 14:32:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+FNumber : 3.6<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 594<br>
+DateTime : 2008:09:12 14:32:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : 910SH<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+Software : 1.09R<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/Sharp816SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:11:08 17:31:00<br>
+DateTimeOriginal : 2009:11:08 17:31:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 348<br>
+DateTime : 2009:11:08 17:31:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : 816SH<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sharp/Sharp705SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:07:06 07:43:00<br>
+DateTimeOriginal : 2009:07:06 07:43:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 370<br>
+DateTime : 2009:07:06 07:43:00<br>
+ImageDescription : untitled<br>
+Make : SHARP<br>
+Model : 705SH<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+Software : 1.03R<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

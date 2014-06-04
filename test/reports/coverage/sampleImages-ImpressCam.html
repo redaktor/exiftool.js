@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamUltra_Zoom.jpg</td>
+<td class="supported">ImageDescription : PIC00435.JPG<br>
+Make : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/932<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2005:06:22 05:13:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Daylight<br>
+Flash : No Flash<br>
+FocalLength : 58.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 0</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamUltra_Zoom.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamUltra_Zoom.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 31 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : 5M DSC<br>
+Model : 5M DS<br>
+<br>
+Software : Software version 013<br>
+Software : Software version 01<br>
+<br>
+ModifyDate : 2005:06:22 05:14:34<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.4<br>
+FNumber : 3.41<br>
+<br>
+CreateDate : 2005:06:22 05:13:43<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1660<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9814<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/932<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9814 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 58.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamTravel_DXG.jpg</td>
+<td class="supported">ImageDescription : I3010013.JPG<br>
+Make : DXG TECHNOLOGY CO., LTD.<br>
+Model : 010101<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : DVC301 Ver1.18<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:05:30 06:26:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.1 mm<br>
+UserComment : 631<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamTravel_DXG.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamTravel_DXG.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:05:30 06:26:57<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:05:30 06:26:42<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1061<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6211<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6211 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamQ-63.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : CAMERA<br>
+Model : 6MP-9J5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/440<br>
+FNumber : 6.7<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:02:01 13:30:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/440<br>
+ApertureValue : 6.7<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamQ-63.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamQ-63.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:02:01 13:30:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:02:01 13:30:21<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15887<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/440<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15887 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 15.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamMini_Cam.jpg</td>
+<td class="supported">ImageDescription : PIC00096.JPG<br>
+Make : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/811<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2004:01:03 05:39:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Shade<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 15</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamMini_Cam.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamMini_Cam.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 35 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : 5M DSC<br>
+Model : 5M DS<br>
+<br>
+Software : Software version 045<br>
+Software : Software version 04<br>
+<br>
+ModifyDate : 2004:01:03 05:40:47<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.88<br>
+<br>
+CreateDate : 2004:01:03 05:39:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1660<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7375<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/811<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7375 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamIdeal_DSC_33.jpg</td>
+<td class="supported">Make : <br>
+Model : 3MDSC<br>
+ExposureTime : 1/1414<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005/05/04 19:19:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.9<br>
+ShutterSpeedValue : 1/1261<br>
+ApertureValue : 4.4<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamIdeal_DSC_33.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamIdeal_DSC_33.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 56 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 1.01{B0591}<br>
+Software : 1.01B0591<br>
+<br>
+FNumber : 4.7<br>
+FNumber : 4.65<br>
+<br>
+CreateDate : 2005/05/04 19:19:21<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 808<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3570<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1414<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3570 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamElite_DSC_13.jpg</td>
+<td class="supported">ImageDescription : PIC00013.JPG<br>
+Make : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/189<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2004:11:10 12:31:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Shade<br>
+Flash : No Flash<br>
+FocalLength : 6.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 0</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamElite_DSC_13.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamElite_DSC_13.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 41 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : 4M DSC<br>
+Model : 4M DS<br>
+<br>
+Software : Software version 714<br>
+Software : Software version 71<br>
+<br>
+ModifyDate : 2004:11:10 12:33:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:11:10 12:31:27<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1636<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8575<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/189<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8575 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamElite_DSC_11.jpg</td>
+<td class="supported">Make : <br>
+Model : 4MDSC<br>
+ExposureTime : 1/1072<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004/09/09 11:32:37<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.2<br>
+ShutterSpeedValue : 1/1024<br>
+ApertureValue : 5.1<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 9.2 mm<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamElite_DSC_11.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamElite_DSC_11.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 56 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 1.00{B0648}<br>
+Software : 1.00B0648<br>
+<br>
+FNumber : 5.1<br>
+FNumber : 5.14<br>
+<br>
+CreateDate : 2004/09/09 11:32:37<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 808<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3533<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1072<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3533 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/ImpressCam/ImpressCamC630.jpg</td>
+<td class="supported">ImageDescription : PIC00042.JPG<br>
+Make : <br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1149<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2005:04:22 14:36:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Daylight<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 0</td>
+<td class="unsupported">SourceFile : sampleImages/ImpressCam/ImpressCamC630.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ImpressCamC630.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/ImpressCam<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : 6M DSC<br>
+Model : 6M DS<br>
+<br>
+Software : Software version 030<br>
+Software : Software version 03<br>
+<br>
+ModifyDate : 2005:04:22 14:36:41<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 4.9<br>
+FNumber : 4.93<br>
+<br>
+CreateDate : 2005:04:22 14:36:06<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2128<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1636<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4489<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1149<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4489 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 15.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

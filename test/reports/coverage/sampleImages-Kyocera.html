@@ -1,0 +1,3495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Kyocera/KyoceraWX310K.jpg</td>
+<td class="supported">ImageDescription : K3100096<br>
+Make : KYOCERA<br>
+Model : WX310K<br>
+Orientation : 0<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2007:01:22 14:33:53<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ImageUniqueID : 9ba157bcf32b326c07dc1dd608feab8a</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraWX310K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraWX310K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2007:01:22 14:33:53<br>
+CreateDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 480<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8465<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8465 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraSAMURAI2100DG.jpg</td>
+<td class="supported">Make : KYOCERA<br>
+Model : SAMURAI 2100DG<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : SAMURAI 2100DG Ver1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1999:07:24 00:41:32<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+ShutterSpeedValue : 1/17<br>
+ApertureValue : 3.3<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 10.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraSAMURAI2100DG.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraSAMURAI2100DG.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:07:24 00:41:32<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1999:07:24 00:41:32<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1632<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1232<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 642<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5847<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/17<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5847 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 10.9 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamSL400R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam SL400R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/90<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:31 00:39:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/91<br>
+ApertureValue : 3.5<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 10.1 mm<br>
+UserComment : 6582<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamSL400R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamSL400R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : FC-SL400R_ Ver 1.00<br>
+Software : FC-SL400R Ver 1.00<br>
+<br>
+ModifyDate : 2005:05:31 00:39:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:05:31 00:39:51<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 6880<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11587<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/90<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11587 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 10.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS5R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S5R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S5R Ver 1.04<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 120<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:06 09:59:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.3 mm<br>
+UserComment : 1198<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamS5R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamS5R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:05:06 09:59:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:05:06 09:59:48<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1496<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10003<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10003 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS3R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S3R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S3R Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/500<br>
+FNumber : 9.6<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:06:17 10:47:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/474<br>
+ApertureValue : 9.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.3 mm<br>
+UserComment : 4526<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamS3R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamS3R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:06:17 10:47:09<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:06:17 10:47:09<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4824<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12437<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 9.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/500<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12437 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS3L.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S3L<br>
+Orientation : 0<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S3L Ver 1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 120<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:28 23:44:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 0.5<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.3 mm<br>
+UserComment : 56188<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamS3L.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamS3L.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 61 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:05:28 23:44:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:05:28 23:44:22<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1797<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1519<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56486<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5002<br>
+ThumbnailLength : undefined<br>
+<br>
+CurrentIPTCDigest : 63a44e09f0872abdd8145a40be8ada1c<br>
+CurrentIPTCDigest : undefined<br>
+<br>
+By-line : Picasa 2.0<br>
+By-line : undefined<br>
+<br>
+Contact : <picasastamp/>
+<br>
+Contact : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5002 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamS3.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S3   Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:07:16 10:48:03<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+ShutterSpeedValue : 1/549<br>
+ApertureValue : 6.2<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 7.8 mm<br>
+UserComment : 56022<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamS3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamS3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:07:16 10:48:03<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:07:16 10:48:03<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56312<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/549<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamM410R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam M410R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-M410R Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/125<br>
+FNumber : 3.2<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:08:13 17:22:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/147<br>
+ApertureValue : 3.2<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 5.7 mm<br>
+UserComment : 6648<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamM410R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamM410R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 22 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:08:13 17:22:28<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:08:13 17:22:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubSecTime : 563<br>
+SubSecTime : undefined<br>
+<br>
+SubSecTimeOriginal : 563<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 563<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 6946<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15439<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/125<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2004:08:13 17:22:28.563<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2004:08:13 17:22:28.563<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+SubSecModifyDate : 2004:08:13 17:22:28.563<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15439 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecamM400R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam M400R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-M400R Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/250<br>
+FNumber : 5<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:01 06:02:15<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/294<br>
+ApertureValue : 5.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.7 mm<br>
+UserComment : 6648<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecamM400R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecamM400R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:01:01 06:02:15<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:01 06:02:15<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubSecTime : 466<br>
+SubSecTime : undefined<br>
+<br>
+SubSecTimeOriginal : 466<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 466<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 6946<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7886<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/250<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2004:01:01 06:02:15.466<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2004:01:01 06:02:15.466<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+SubSecModifyDate : 2004:01:01 06:02:15.466<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7886 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L4.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L4<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-L4  Ver 1.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1000<br>
+FNumber : 8<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:02:17 16:17:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/955<br>
+ApertureValue : 8.3<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.7 mm<br>
+UserComment : 56328<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecam-L4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecam-L4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:02:17 16:17:06<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:02:17 16:17:06<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56608<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1000<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 16.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L3v.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L3v<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-L3v Ver 1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:12:21 23:27:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.8 mm<br>
+UserComment : 56328<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecam-L3v.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecam-L3v.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:12:21 23:27:35<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:12:21 23:27:35<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56626<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L30.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L30<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-L30 Ver 1.2.09<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/50<br>
+FNumber : 3.3<br>
+ExposureProgram : Program AE<br>
+ISO : 70<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:06:07 01:23:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/32<br>
+ApertureValue : 3.5<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 10.1 mm<br>
+UserComment : 1220<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecam-L30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecam-L30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+Comment : ??<br>
+Comment : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:06:07 01:23:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:06:07 01:23:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1532<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15388<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15388 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 10.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFinecam-L3.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-L3  Ver 1.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:11 18:26:58<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.8 mm<br>
+UserComment : 56328<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFinecam-L3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFinecam-L3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:05:11 18:26:58<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:05:11 18:26:58<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56608<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamSL300R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam SL300R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/250<br>
+FNumber : 7.5<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:20 14:30:37<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/274<br>
+ApertureValue : 8.3<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 7.7 mm<br>
+UserComment : 1206<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFineCamSL300R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFineCamSL300R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : FC-SL300R_ Ver 1.04<br>
+Software : FC-SL300R Ver 1.04<br>
+<br>
+ModifyDate : 2004:01:20 14:30:37<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:20 14:30:37<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1486<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 16387<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 7.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/250<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 16387 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamS5.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam S5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S5  Ver 1.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/90<br>
+FNumber : 6.7<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2002:01:26 23:50:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/97<br>
+ApertureValue : 11.9<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 12.6 mm<br>
+UserComment : 56188<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFineCamS5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFineCamS5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:01:26 23:50:09<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:01:26 23:50:09<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.3<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56468<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/90<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 12.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamS4.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S4<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S4   Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:01:02 18:04:56<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+ShutterSpeedValue : 1/104<br>
+ApertureValue : 10.6<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 9.8 mm<br>
+UserComment : 56022<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFineCamS4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFineCamS4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:01:02 18:04:56<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:01:02 18:04:56<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56294<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 10.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/104<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFineCamL4V.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : Finecam-L4v<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-L4v Ver 1.03<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/180<br>
+FNumber : 8<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:20 14:23:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/208<br>
+ApertureValue : 8.3<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 7.7 mm<br>
+UserComment : 56328<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFineCamL4V.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFineCamL4V.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:01:20 14:23:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:20 14:23:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56608<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/180<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFC-S3x.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S3x<br>
+Software : FC-S3x  Ver 1.03<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ISO : 120<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:01:18 19:19:17<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+ShutterSpeedValue : 1/11<br>
+ApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 7.5 mm<br>
+UserComment : 55942<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFC-S3x.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFC-S3x.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 55 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:01:18 19:19:17<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:01:18 19:19:17<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/11<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFC-S3.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-S3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-S3   Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:05:02 05:42:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+ShutterSpeedValue : 1/388<br>
+ApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : No Flash<br>
+FocalLength : 7.8 mm<br>
+UserComment : 56022<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFC-S3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFC-S3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:05:02 05:42:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:05:02 05:42:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0100<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56294<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/388<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraFC-3300.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : FC-3300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : FC-3300 Ver 1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:05:21 17:56:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+ShutterSpeedValue : 1/78<br>
+ApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+Flash : On, Flash fired<br>
+FocalLength : 7.8 mm<br>
+UserComment : 55718<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraFC-3300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraFC-3300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:05:21 17:56:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:05:21 17:56:45<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56008<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8194<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/78<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8194 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraEZ1.3.jpg</td>
+<td class="supported">Make : KYOCERA<br>
+Model : EZ 1.3<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Software : 1.53Y<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:10:03 00:27:28<br>
+FlashpixVersion : 1.00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ColorSpace : sRGB<br>
+ExposureTime : 1/25<br>
+ISO : 200<br>
+Flash : On, Flash fired<br>
+FNumber : 2.8<br>
+ShutterSpeedValue : 1/26<br>
+ApertureValue : 2.8</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraEZ1.3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraEZ1.3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 23 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:10:03 00:27:28<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:10:03 00:27:28<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3107<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10229<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/25<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10229 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 6.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraContaxU4R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX U4R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : CX-U4R Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/90<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:09:08 10:57:47<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/97<br>
+ApertureValue : 3.5<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 10.1 mm<br>
+UserComment : 7652<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain down<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraContaxU4R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraContaxU4R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:09:08 10:57:47<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:09:08 10:57:47<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubSecTime : 963<br>
+SubSecTime : undefined<br>
+<br>
+SubSecTimeOriginal : 963<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 963<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 7932<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8021<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/90<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2004:09:08 10:57:47.963<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2004:09:08 10:57:47.963<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+SubSecModifyDate : 2004:09:08 10:57:47.963<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8021 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 10.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraContaxSL300R_Tx.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0.7<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:07:25 22:09:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 0.8<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+UserComment : 1208<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Night scene<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraContaxSL300R_Tx.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraContaxSL300R_Tx.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : CONTAX SL300R T*<br>
+Model : CONTAX SL300R T<br>
+<br>
+Software : CX-SL300R T*_Ver1.00<br>
+Software : CX-SL300R TVer1.0<br>
+<br>
+ModifyDate : 2004:07:25 22:09:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:07:25 22:09:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1488<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11856<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0.7<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11856 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 3.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraContaxNDigital.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX N DIGITAL<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : N DSC ver 1.03<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:05:18 14:15:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/181<br>
+ApertureValue : 5.7<br>
+MaxApertureValue : 2.8<br>
+Flash : No Flash<br>
+UserComment : 858<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraContaxNDigital.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraContaxNDigital.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 1262 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:05:18 14:15:44<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:05:18 14:15:44<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 97.0 mm<br>
+FocalLength : 97 mm<br>
+<br>
+MakerNoteUnknownText : (Binary data 256 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3008<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2008<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/181<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 97.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/KyoceraCONTAXi4R.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX i4R<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : CX-i4R Ver 1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/6<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:03:28 19:43:56<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/6<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 6.5 mm<br>
+UserComment : 7652<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/KyoceraCONTAXi4R.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KyoceraCONTAXi4R.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:03:28 19:43:56<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:03:28 19:43:56<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubSecTime : 755<br>
+SubSecTime : undefined<br>
+<br>
+SubSecTimeOriginal : 755<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 755<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 7932<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8517<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/6<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2005:03:28 19:43:56.755<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2005:03:28 19:43:56.755<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+SubSecModifyDate : 2005:03:28 19:43:56.755<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8517 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 4.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Kyocera/ContaxTVS.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : KYOCERA<br>
+Model : CONTAX Tvs Digital<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : CX-Tvs Ver 1.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/350<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 80<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:04:12 14:24:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+ShutterSpeedValue : 1/338<br>
+ApertureValue : 6.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 17.5 mm<br>
+UserComment : 56188<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain down<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Kyocera/ContaxTVS.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ContaxTVS.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Kyocera<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:04:12 14:24:23<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:04:12 14:24:23<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.3<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 56486<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8192<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/350<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8192 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 17.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

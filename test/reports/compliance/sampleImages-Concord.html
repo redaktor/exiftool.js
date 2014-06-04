@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Concord/JenoptikJM_Multimedia.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:12:26 11:54:48<br>
+DateTimeOriginal : 2006:12:26 11:54:48<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.6 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 1124<br>
+_IFDpointer_Makernote : 642<br>
+DateTime : 2006:12:26 11:54:48<br>
+Make : Concord Camera Corp.<br>
+Model : JM Multimedia<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : C.08.095<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.044999174<br>
+CompressedBitsPerPixel : 2.0449991744144693<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD_C50SL.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:01:03 07:19:46<br>
+DateTimeOriginal : 2005:01:03 07:19:46<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1649<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 47<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 1417<br>
+_IFDpointer_Makernote : 685<br>
+DateTime : 2005:01:03 07:19:52<br>
+ImageDescription : .JPG<br>
+Make : Jenoptik Camera GmbH<br>
+Model : Jenoptik JD C5.0SL<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 403<br>
+PrintIM : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD_C31z3.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:01:01 00:00:21<br>
+DateTimeOriginal : 2004:01:01 00:00:21<br>
+ExposureBias : 0<br>
+ExposureIndex : 58<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 718<br>
+_IFDpointer_Makernote : 68,90,51,51,52,54,1,0<br>
+Copyright : <br>
+DateTime : 2004:01:01 00:00:21<br>
+Make : JENIMAGE<br>
+Model : JD C 3.1 z3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.5.21.48<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 262</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.565587362<br>
+CompressedBitsPerPixel : 1.5655873616536458<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+ImageDescription : 310 256 ?32 081 <br>
+ImageDescription : 310 256 32 081<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJDC30S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:01:01 00:29:35<br>
+DateTimeOriginal : 2004:01:01 00:29:35<br>
+ExifVersion : 2.10<br>
+ExposureBias : 7.1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 568<br>
+DateTime : 2004:01:01 00:29:35<br>
+Make : Concord Camera GmbH<br>
+Model : JDC 3.0S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0.8<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJDC30C.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2008:02:23 17:10:01<br>
+DateTimeOriginal : 2008:02:23 17:10:01<br>
+ExifVersion : 2.10<br>
+ExposureBias : 7<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.3 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 568<br>
+DateTime : 2008:02:23 17:10:01<br>
+Make : Concord Camera GmbH<br>
+Model : JDC 3.0C<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : C1.0.7N<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD80Z3CL.jpg</td>
+<td class="supported">ApertureValue : 5.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:02 11:38:30<br>
+DateTimeOriginal : 2010:04:02 11:38:30<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/1189<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1189<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3824<br>
+_IFDpointer_Makernote : 708<br>
+Copyright : Copyright 2007<br>
+DateTime : 2010:04:02 11:38:30<br>
+Make : GrandTech GmbH<br>
+Model : JD 8.0Z3 CL<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0847<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 238</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.587529436<br>
+CompressedBitsPerPixel : 1.5875294357939254<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD60z3MPEG4.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD60z3EasyShot.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:03 20:10:52<br>
+DateTimeOriginal : 2010:04:03 20:10:52<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+_IFDpointer_Interop : 2028<br>
+_IFDpointer_Makernote : 672<br>
+Copyright : <br>
+DateTime : 2010:04:03 20:10:52<br>
+Make : Concord Camera GmbH<br>
+Model : JD 6.0z3 EasyShot<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.99578988<br>
+CompressedBitsPerPixel : 1.9957898804946814<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.85<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD60Z3C.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:29 20:53:04<br>
+DateTimeOriginal : 2010:05:29 20:53:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+ISO : 50<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1728 px w<br>
+PixelYDimension : 2304 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/60<br>
+_IFDpointer_Makernote : 676<br>
+Copyright : <br>
+DateTime : 2010:05:29 20:53:04<br>
+Make : GrandTech GmbH<br>
+Model : JD 6.0Z3 C<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0527<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.253301424<br>
+CompressedBitsPerPixel : 2.2533014242541154<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD52z3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 3.45<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:05:31:24:56:55<br>
+DateTimeOriginal : 2006:05:31:24:56:55<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/17<br>
+FNumber : 3.4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.8<br>
+SubjectDistanceRange : Distant view<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 880<br>
+_IFDpointer_Makernote : 804<br>
+Make : JENIMAGE<br>
+Model : JD5.2z3<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">FocalLength : 19.0 mm<br>
+FocalLength : 19 mm<br>
+<br>
+Software : JD521-V:01_07_05<br>
+Software : JD521-V:010705<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD52Zoom.jpg</td>
+<td class="supported">BrightnessValue : 9.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:08 11:41:41<br>
+DateTimeOriginal : 2010:05:08 11:41:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/535<br>
+FNumber : 5.3<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 70<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.3<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1598<br>
+_IFDpointer_Makernote : 858<br>
+Copyright : ---<br>
+DateTime : 2010:05:08 11:41:45<br>
+ImageDescription : 0M DigitalCAM<br>
+Make : Concord Camera GmbH<br>
+Model : Jenoptik JD 5.2 zoom<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.16<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 412<br>
+PrintIM : 264</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.762506033<br>
+CompressedBitsPerPixel : 2.7625060331250317<br>
+<br>
+Flash : Unknown (0x1e)<br>
+Flash : 30<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD5200Z.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:02:27 01:04:24<br>
+DateTimeOriginal : 2003:02:27 01:04:21<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.3<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/338<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2003:02:27 01:04:21<br>
+ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1119023398<br>
+CompressedBitsPerPixel : 0.11190233977619532<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Model : JD5200Z<br>
+Model : JD5200<br>
+<br>
+Software : VJ302244<br>
+Software : VJ30224<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD5200.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:05:28 11:04:54<br>
+DateTimeOriginal : 2004:05:28 11:04:54<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Average<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/708<br>
+_IFDpointer_Interop : 843<br>
+_IFDpointer_Makernote : 579<br>
+DateTime : 2004:05:28 11:04:54<br>
+ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD5200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VJ30506<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 255</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1119023398<br>
+CompressedBitsPerPixel : 0.11190233977619532<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD50Z3C.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:26 20:45:39<br>
+DateTimeOriginal : 2010:05:26 20:45:39<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/273<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 1718 px w<br>
+PixelYDimension : 1437 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/273<br>
+SubsecTime : 562<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3762<br>
+_IFDpointer_Makernote : 718<br>
+Copyright : <br>
+DateTime : 2010:05:27 16:36:59<br>
+Make : GrandTech GmbH<br>
+Model : JD 5.0Z3 C<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.570030382<br>
+CompressedBitsPerPixel : 1.5700303819444446<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4363z.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:11 14:00:22<br>
+DateTimeOriginal : 2004:01:11 14:00:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/59<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 786<br>
+Copyright : <br>
+DateTime : 32004:01:11 14:00:<br>
+ImageDescription : <br>
+Make : Concord Camera GmbH<br>
+Model : Jenoptik JD 4363z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 4.02.<br>
+XResolution : 0.00000000<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 254</td>
+<td class="unsupported">YResolution : 0.01388888889<br>
+YResolution : 0.01388889<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4360z.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2000:01:27 17:33:34<br>
+DateTimeOriginal : 2000:01:27 17:33:34<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/760<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 776<br>
+Copyright : <br>
+DateTime : 2000:01:27 17:33:34<br>
+ImageDescription : <br>
+Make : Concord Camera GmbH<br>
+Model : Jenoptik JD 4360z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 6.03.05A<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD41Z8.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/500<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+LightSource : Daylight<br>
+MeteringMode : Average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/512<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,JD4.1Z8 USER,2003<br>
+DateTime : 2005:07:19 02:58:54<br>
+Make : JENOPTIFIED<br>
+Model : JD4.1Z8<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256</td>
+<td class="unsupported">UserComment : GAIN082083MAX000000000000SUM000000000000MIN000000000NOWY13361FLASH0000FLAY00000AFD0SV29ZOOM07000000000000000000000000000<br>
+UserComment : 566<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4100Z3S.jpg</td>
+<td class="supported">ApertureValue : 4.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:10:17 10:26:36<br>
+DateTimeOriginal : 2003:10:17 10:26:36<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.2 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/140<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD4100Z3S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VER0712<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.3732638889<br>
+CompressedBitsPerPixel : 0.3732638888888889<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4100.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:01:03 15:19:44<br>
+DateTimeOriginal : 2001:01:03 15:19:45<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+ShutterSpeedValue : 1/38<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD4100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.2712477396<br>
+CompressedBitsPerPixel : 0.27124773960216997<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4.0LCD.jpg</td>
+<td class="supported">ApertureValue : 1125899906842624.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:23 15:57:44<br>
+DateTimeOriginal : 2005:05:23 15:57:44<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : -27.817<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1326<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 4 mm<br>
+GainControl : None<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 764<br>
+Copyright : <br>
+DateTime : 2005:05:23 15:57:44<br>
+ImageDescription : <br>
+Make : JENOPTIK<br>
+Model : JD4.0LCD<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 3.06.05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">FNumber : 6.1<br>
+FNumber : 6.07<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD3300.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:08:20 20:51:44<br>
+DateTimeOriginal : 2001:08:20 20:51:43<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/54<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 1999:01:04 19:13:54<br>
+ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD3300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.2544529262<br>
+CompressedBitsPerPixel : 0.2544529262086514<br>
+<br>
+ISO : 100, 100, 100, 100<br>
+ISO : 100,100,100,100<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD3.3x4ie.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:04 23:14:46<br>
+DateTimeOriginal : 2005:04:04 23:14:46<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/235<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/235<br>
+SubsecTime : 968<br>
+_IFDpointer_Makernote : 640<br>
+Copyright : (C) JD 3.3x4ie<br>
+DateTime : 2005:04:05 12:10:41<br>
+ImageDescription : <br>
+Make : JENOPTIK<br>
+Model : JD 3.3x4ie<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.09960905711<br>
+CompressedBitsPerPixel : 0.0996090571085612<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD2100f.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:04:02 00:00:00<br>
+DateTimeOriginal : 2002:04:02 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/15<br>
+FNumber : 3.6<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 3.6<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 592 px h<br>
+ShutterSpeedValue : 1/16<br>
+_IFDpointer_Interop : 672<br>
+DateTime : 2002:04:02 00:00:00<br>
+ImageDescription : JD 2100f Image Data MACRO OFF<br>
+Make : JENOPTIK<br>
+Model : JD 2100f<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Software Version J1.0<br>
+XResolution : 128.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 128.00000000<br>
+_IFDpointer_EXIF : 260</td>
+<td class="unsupported">UserComment : Quality=74 Shutter=1/15 Iris=F3.6 Delay=5188 Avg=189 Clip=628 blk=20,20,24 wht=409,576,485 wht0=1023,1023,1023 Batt=2.29V,Q=66<br>
+UserComment : 538<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD2100Z3S.jpg</td>
+<td class="supported">ApertureValue : 5.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:03:19 12:12:09<br>
+DateTimeOriginal : 2004:03:19 12:12:09<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.1 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/395<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD2100Z3S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VER0618<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.07378472222<br>
+CompressedBitsPerPixel : 0.07378472222222222<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD100z3EasyShot.jpg</td>
+<td class="supported">ApertureValue : 4.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:05 16:02:17<br>
+DateTimeOriginal : 2010:06:05 16:02:17<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/220<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/219<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2558<br>
+_IFDpointer_Makernote : 690<br>
+Copyright : <br>
+DateTime : 2010:06:05 16:02:17<br>
+Make : Concord Camera GmbH<br>
+Model : JD 10.0z3 EasyShot<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 00.00.714<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.963859558<br>
+CompressedBitsPerPixel : 3.9638595581054688<br>
+<br>
+FNumber : 4.2<br>
+FNumber : 4.182<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordJenoptikJD3.1exclusiv.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:01:03 12:42:30<br>
+DateTimeOriginal : 2004:01:03 12:42:30<br>
+ExposureBias : 0<br>
+ExposureIndex : 10<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/250<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 722<br>
+_IFDpointer_Makernote : 68,90,51,51,52,54,1,0<br>
+Copyright : <br>
+DateTime : 2004:01:03 12:42:30<br>
+Make : Concord Camera GmbH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2.1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.610287984<br>
+CompressedBitsPerPixel : 1.6102879842122395<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+ImageDescription : 365 256 ?34 016 <br>
+ImageDescription : 365 256 34 016<br>
+<br>
+Model : Jenoptik JD 3.1 exclusiv<br>
+Model : Jenoptik JD 3.1 exclusi<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordJD8.0.jpg</td>
+<td class="supported">ApertureValue : 6.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:12:19 13:23:51<br>
+DateTimeOriginal : 2006:12:19 13:23:51<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/297<br>
+FNumber : 6.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+FocalLengthIn35mmFilm : 49 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/290<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4826<br>
+_IFDpointer_Makernote : 722<br>
+Copyright : <br>
+DateTime : 2006:12:19 13:23:51<br>
+ImageDescription : <br>
+Make : Concord Camera GmbH<br>
+Model : JD 8.0<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported">CompressedBitsPerPixel : 4.076679167<br>
+CompressedBitsPerPixel : 4.076679166666667<br>
+<br>
+XResolution : 0.3333333333<br>
+XResolution : 0.33333333<br>
+<br>
+YResolution : 0.3333333333<br>
+YResolution : 0.33333333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordJD5.0z3EasyShot.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:12:31 20:58:18<br>
+DateTimeOriginal : 2005:12:31 20:58:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4824<br>
+_IFDpointer_Makernote : 720<br>
+Copyright : <br>
+DateTime : 2005:12:31 20:58:18<br>
+Make : Concord Camera GmbH<br>
+Model : JD 5.0z3 EasyShot<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.024549154<br>
+CompressedBitsPerPixel : 2.0245491536458333<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEyeQ3132z.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:08:15 06:29:20<br>
+DateTimeOriginal : 2003:08:15 06:29:20<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/46<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0<br>
+_IFDpointer_Interop : 1848<br>
+_IFDpointer_Makernote : 804<br>
+Copyright : Copyright 1,2003<br>
+DateTime : 2003:08:15 06:29:20<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : EyeQ 3132z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.500874837<br>
+CompressedBitsPerPixel : 1.5008748372395833<br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.663<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEyeQ3103.jpg</td>
+<td class="supported">BrightnessValue : 8.4375<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2005:01:01 22:26:43<br>
+DateTimeOriginal : 2005:01:01 22:26:43<br>
+DigitalZoomRatio : 3<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 70<br>
+LightSource : Unknown<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1122<br>
+_IFDpointer_Makernote : 846<br>
+DateTime : 2005:01:01 22:26:43<br>
+Make : Concord camera Corp<br>
+Model : EyeQ 3103<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 320<br>
+PrintIM : 268</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+SubjectArea : 1 1 1 1<br>
+SubjectArea : 1,1,1,1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q5345Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:05:07 11:59:12<br>
+DateTimeOriginal : 2004:05:07 11:59:12<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 4.1<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.2 mm<br>
+FocalLengthIn35mmFilm : 84 mm<br>
+GainControl : High gain up<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+_IFDpointer_Interop : 32950<br>
+_IFDpointer_Makernote : 750<br>
+DateTime : 2004:05:07 11:59:12<br>
+Make : <br>
+Model : 5.0M DigitalCAM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 276<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,0,4,0,1,0,22,0,22,0,2,1,0,0,0,1,0,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.833333333<br>
+CompressedBitsPerPixel : 3.8333333333333335<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+WhiteBalance : Flash<br>
+WhiteBalance : Auto<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q5062AF.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:01:01 00:00:51<br>
+DateTimeOriginal : 2004:01:01 00:00:51<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/59<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 48 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 790<br>
+Copyright : <br>
+DateTime : 2004:01:01 00:00:51<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 5062AF<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : B.03.09<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported">FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q4363Z.jpg</td>
+<td class="supported">ApertureValue : 10.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:10:01 00:12:43<br>
+DateTimeOriginal : 2004:10:01 00:12:43<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/126<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.5 mm<br>
+FocalLengthIn35mmFilm : 56 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 782<br>
+Copyright : <br>
+DateTime : 2004:10:01 00:12:43<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 4363Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.02.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported">FNumber : 6.9<br>
+FNumber : 6.86<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q4360Z.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:04:11 04:34:57<br>
+DateTimeOriginal : 2004:04:11 04:34:57<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/59<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 768<br>
+Copyright : <br>
+DateTime : 2004:04:11 04:34:57<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 4360Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 4.02.06<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q4060AF.jpg</td>
+<td class="supported">ApertureValue : 1125899906842624.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:15 14:24:34<br>
+DateTimeOriginal : 2005:08:15 14:24:34<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : -12.529<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/210<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 4 mm<br>
+GainControl : None<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 764<br>
+Copyright : <br>
+DateTime : 2005:08:15 14:24:34<br>
+ImageDescription : <br>
+Model : Eye-Q 4060 AF<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">FNumber : 6.1<br>
+FNumber : 6.07<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : Concord Camera Corp<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3346z.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:09:20 17:16:27<br>
+DateTimeOriginal : 2005:09:20 17:16:27<br>
+ExposureBias : 0<br>
+ExposureIndex : 10<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 718<br>
+_IFDpointer_Makernote : 68,90,51,51,52,54,1,0<br>
+Copyright : <br>
+DateTime : 2005:09:20 17:16:27<br>
+ImageDescription : 365 256 002 032<br>
+Model : Concord Eye-Q 3346z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.5.21.46<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 262</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.573371887<br>
+CompressedBitsPerPixel : 1.5733718872070312<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : Concord Camera Corp<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3345z.jpg</td>
+<td class="supported">ApertureValue : 1.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:01:01 02:06:54<br>
+DateTimeOriginal : 2004:01:01 02:06:54<br>
+ExposureBias : 0<br>
+ExposureIndex : 10<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 718<br>
+_IFDpointer_Makernote : 68,90,51,51,52,54,0,0<br>
+Copyright : <br>
+DateTime : 2004:01:01 02:06:54<br>
+ImageDescription : 365 256 012 032<br>
+Model : Concord Eye-Q 3345z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.5.21.47<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 262</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.574239095<br>
+CompressedBitsPerPixel : 3.5742390950520835<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : Concord Camera Corp<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3341Z.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:24 14:10:08<br>
+DateTimeOriginal : 2005:04:24 14:10:08<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/36<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+LightSource : Other<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 768<br>
+Copyright : <br>
+DateTime : 2005:04:24 14:10:08<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 3341Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00.07<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3340z.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.58<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:05:18 12:02:12<br>
+DateTimeOriginal : 2004:05:18 12:02:12<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 4.98<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/245<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.6 mm<br>
+FocalLengthIn35mmFilm : 76 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 824<br>
+Copyright : <br>
+DateTime : 2004:05:18 12:02:12<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 3340z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.04<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEYE_Q3042.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : zws6<br>
+DateTimeOriginal : zws6<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : <br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/250<br>
+FNumber : 5.6<br>
+FileSource : 0<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FlashpixVersion : -<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+ISO : 100<br>
+LightSource : 100<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : <br>
+SceneType : 0<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.5<br>
+_IFDpointer_Interop : <br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : zws6<br>
+ImageDescription : uwwwzowwwkwVn<br>
+Make : Concord Camera Corp.<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0.8 N<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.548548381<br>
+CompressedBitsPerPixel : 3.548548380533854<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Model : EYE_Q3042<br>
+Model : EYEQ3042<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEYE_Q3040.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 8<br>
+FNumber : 2.8<br>
+FileSource : 0<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : -<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+ISO : 100<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneType : 0<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.5<br>
+_IFDpointer_Interop : 535<br>
+Make : Concord Camera Corp.<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0.8 N<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 177</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.98227946<br>
+CompressedBitsPerPixel : 1.9822794596354167<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+LightSource : White Fluorescent<br>
+LightSource : White fluorescent (WW 3200 - 3700K)<br>
+<br>
+Model : EYE_Q3040<br>
+Model : EYEQ3040<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord6340z.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord5340z.jpg</td>
+<td class="supported">BrightnessValue : 3.763<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:24 10:31:21<br>
+DateTimeOriginal : 2010:04:24 10:31:21<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1598<br>
+_IFDpointer_Makernote : 858<br>
+Copyright : ---<br>
+DateTime : 2010:04:24 10:31:25<br>
+ImageDescription : 0M DigitalCAM<br>
+Make : Concord Camera Corp.<br>
+Model : Concord 5340zM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.16<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 412<br>
+PrintIM : 264</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.716470114<br>
+CompressedBitsPerPixel : 2.71647011380379<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord5040.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 8<br>
+DateTimeDigitized : 2005:02:08 13:31:12<br>
+DateTimeOriginal : 2005:02:08 13:31:12<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/49<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 84<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 1449<br>
+_IFDpointer_Makernote : 717<br>
+DateTime : 2005:02:08 13:31:19<br>
+ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Concord 5040<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 403<br>
+PrintIM : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord4340z.jpg</td>
+<td class="supported">BrightnessValue : 4.176<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:14 21:22:22<br>
+DateTimeOriginal : 2005:05:14 21:22:22<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1566<br>
+_IFDpointer_Makernote : 826<br>
+DateTime : 2005:05:14 21:22:25<br>
+ImageDescription : CONCORD DIGITAL STILL CAMERA<br>
+Make : Concord Camera Corp.<br>
+Model : Concord 4340zM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.57<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 380<br>
+PrintIM : 232</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.144575457<br>
+CompressedBitsPerPixel : 2.144575456532922<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord3045.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:04:29 09:10:58<br>
+DateTimeOriginal : 2005:04:29 09:10:58<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Makernote : 614<br>
+DateTime : 2005:04:29 09:11:02<br>
+ImageDescription : DSCI0003.JPG<br>
+Make : <br>
+Model : CONCORD 3045<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Exif Software Version 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256</td>
+<td class="unsupported">FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord2000.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.10<br>
+ExposureBias : NaN<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/15<br>
+FNumber : 9.9<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/15<br>
+_IFDpointer_Interop : 1264<br>
+_IFDpointer_Makernote : 784<br>
+Copyright : Copyright 1,1999<br>
+DateTime : <br>
+ImageDescription : @P<br>
+Make : Concord Corporation<br>
+Model : Concord 2000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Concord 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.07459960938<br>
+CompressedBitsPerPixel : 0.074599609375<br>
+<br>
+Flash : Unknown (0x810)<br>
+Flash : 2064<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

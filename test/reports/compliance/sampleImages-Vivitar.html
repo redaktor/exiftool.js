@@ -1,0 +1,2820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam8400.jpg</td>
+<td class="supported">ApertureValue : 5.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:14 05:15:39<br>
+DateTimeOriginal : 2007:03:14 05:15:39<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/61<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/61<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2007:03:14 05:15:39<br>
+ImageDescription : <br>
+Make : Vivitar<br>
+Model : Vivicam 8400<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0009.5V<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">FocalLength : 51.0 mm<br>
+FocalLength : 51 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam8320.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : -5.01<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:19 13:51:15<br>
+DateTimeOriginal : 2009:11:19 13:51:15<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/40<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/40<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+Make : Vivitar<br>
+Model : Vivicam 8320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0050v<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam8300s.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:06:29 17:39:48<br>
+DateTimeOriginal : 2006:06:29 17:39:48<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/62<br>
+FNumber : 11<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.5 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10706<br>
+_IFDpointer_Makernote : 698<br>
+DateTime : 2006:06:29 17:39:48<br>
+ImageDescription : Digital Camera<br>
+Make : Vivitar Corporation<br>
+Model : Vivicam 8300s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V0.31V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam8225.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:01:02 19:49:45<br>
+DateTimeOriginal : 2009:01:02 19:49:45<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/24<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 42104<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:01:02 19:49:45<br>
+ImageDescription : <br>
+Make : ViviCam<br>
+Model : <br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1500O7GNMS52F38VT4<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam8025.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:09:04 10:27:58<br>
+DateTimeOriginal : 2009:09:04 10:27:58<br>
+ExifVersion : 2.20<br>
+ExposureBias : -2<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/659<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/630<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 41040<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:09:04 10:27:58<br>
+ImageDescription : <br>
+Make : ViviCam<br>
+Model : V8025<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1500F2GNS5120VT003<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam6150s.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:01:02 11:11:43<br>
+DateTimeOriginal : 2009:01:02 11:11:43<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:01:02 11:11:43<br>
+ImageDescription : Digital image<br>
+Make : Vivitar<br>
+Model : Vivicam6150s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.00.092VI<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam5199.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:01:01 23:33:24<br>
+DateTimeOriginal : 2007:01:01 23:33:24<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/507<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/508<br>
+_IFDpointer_Interop : 1200<br>
+_IFDpointer_Makernote : 718<br>
+DateTime : 2007:01:01 23:33:24<br>
+ImageDescription : My beautiful picture<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 292</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.364168953<br>
+CompressedBitsPerPixel : 1.3641689529035208<br>
+<br>
+Copyright : Copyright 2007<br>
+Copyright : Copyright 200<br>
+<br>
+Make : Vivitar corporation<br>
+Make : Vivitar corporatio<br>
+<br>
+Model : Vivicam 5199<br>
+Model : Vivicam 519<br>
+<br>
+Software : Vivicam5199Ware TD56024.01.04<br>
+Software : Vivicam5199Ware TD56024.01.0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam5150s.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:08:10 08:03:03<br>
+DateTimeOriginal : 2009:08:10 08:03:03<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:08:10 08:03:03<br>
+ImageDescription : Digital image<br>
+Make : Vivitar<br>
+Model : Vivicam5150s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.00.091VI<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam5105s.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 8.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:08:04 17:14:49<br>
+DateTimeOriginal : 2006:08:04 17:14:49<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/721<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/721<br>
+SubjectDistance : 10 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : 2006:08:04 17:14:49<br>
+Make : Vivitar<br>
+Model : Vivicam 5105s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.15V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam4345.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam4100.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 7.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:07 09:42:44<br>
+DateTimeOriginal : 2005:07:07 09:42:44<br>
+ExifVersion : 2.20<br>
+ExposureBias : -0.7<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/191<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 50<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/191<br>
+SubjectDistance : 10 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : <br>
+DateTime : 2005:07:07 09:42:44<br>
+Make : Vivitar<br>
+Model : Vivicam 4100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.13V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam4000.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:05 20:54:36<br>
+DateTimeOriginal : 2005:04:05 20:54:36<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 0.5<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 0.5<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:04:05 20:54:36<br>
+ImageDescription : Digital StillCamera<br>
+Make : Vivitar<br>
+Model : Vivicam4000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.11<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3930.jpg</td>
+<td class="supported">ApertureValue : 6.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:02:14 11:18:39<br>
+DateTimeOriginal : 2005:02:14 11:18:39<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/500<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 105 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/512<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:02:14 11:18:39<br>
+ImageDescription : Digital StillCamera<br>
+Make : Vivitar<br>
+Model : Vivicam3930<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 0.33 x<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3915.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : -1.6<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2005:09:18 01:45:16<br>
+DateTimeOriginal : 2005:09:18 01:45:16<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 8988<br>
+_IFDpointer_Makernote : 788<br>
+Copyright : Copyright<br>
+DateTime : 2005:09:18 01:45:16<br>
+Make : Vivitar<br>
+Model : Vivicam3915<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware EEP Ver 0.10V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3830s.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:04 07:33:17<br>
+DateTimeOriginal : 2005:06:04 07:33:17<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 32 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/51<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:06:04 07:33:17<br>
+ImageDescription : Digital StillCamera<br>
+Make : Vivitar<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.11<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">Model : Vivicam3830s<br>
+Model : Vivicam3830<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3815.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+BrightnessValue : 8.7<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2002:11:20 01:32:08<br>
+DateTimeOriginal : 2002:11:20 01:32:08<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/513<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/513<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 8988<br>
+_IFDpointer_Makernote : 788<br>
+Copyright : Copyright<br>
+DateTime : 2002:11:20 01:32:08<br>
+Make : Vivitar<br>
+Model : Vivicam3815<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware EEP Ver 2.05V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3785.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:10:22 15:27:55<br>
+DateTimeOriginal : 2005:10:22 15:27:55<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/330<br>
+FNumber : 3<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 758<br>
+_IFDpointer_Makernote : 108 131 056 062 046 058 008 014 122 127 000 087 018 117 120 0000 56789012345678901234567890123456789012345678901234567890123<br>
+Copyright : (C) by Vivitar User<br>
+DateTime : 2005:10:22 15:27:55<br>
+ImageDescription : Exif-JPEG-422<br>
+Make : Vivitar Corporation.<br>
+Model : Vivicam 3785<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.02.16V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3780s.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 8.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:26 14:51:44<br>
+DateTimeOriginal : 2005:07:26 14:51:44<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/230<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1056 px w<br>
+PixelYDimension : 792 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/230<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 8988<br>
+_IFDpointer_Makernote : 788<br>
+Copyright : Copyright<br>
+DateTime : 2005:07:26 14:51:44<br>
+Make : Vivitar Corporation<br>
+Model : Vivicam 3780s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 999Ver1.56Viv<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3760.jpg</td>
+<td class="supported">ApertureValue : 3.7<br>
+BrightnessValue : 8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:01:03 00:53:56<br>
+DateTimeOriginal : 2004:01:03 00:53:56<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/147<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.7 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 13.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2032 px w<br>
+PixelYDimension : 1520 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/147<br>
+SubjectDistance : 3.47 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Vivitar<br>
+DateTime : 2004:01:03 00:53:56<br>
+Make : Vivitar Corporation<br>
+Model : Vivicam 3760<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : current camera firmware version<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 3.9<br>
+FNumber : 3.94<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3750.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:04:13 11:41:27<br>
+DateTimeOriginal : 2005:04:13 11:41:27<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.7 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/512<br>
+_IFDpointer_Interop : 621<br>
+DateTime : 2005:04:13 11:41:27<br>
+ImageDescription : <br>
+Make : Vivitar Corporation<br>
+Model : Vivicam 3750<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 2.00 V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 243</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3730.jpg</td>
+<td class="supported">BrightnessValue : 13.4375<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2004:06:19 11:06:56<br>
+DateTimeOriginal : 2004:06:19 11:06:56<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/177<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 70<br>
+LightSource : Unknown<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1122<br>
+_IFDpointer_Makernote : 846<br>
+DateTime : 2004:06:19 11:06:56<br>
+Make : Vivitar corporation<br>
+Model : Vivi cam3730<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 320<br>
+PrintIM : 268</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+SubjectArea : 1 1 1 1<br>
+SubjectArea : 1,1,1,1<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3715.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:03:14 00:08:26<br>
+DateTimeOriginal : 2003:03:14 00:08:26<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.9 mm<br>
+ISO : 144<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 768<br>
+_IFDpointer_Interop : 896<br>
+_IFDpointer_Makernote : 620<br>
+DateTime : 2003:03:14 00:08:26<br>
+ImageDescription : IM00<br>
+Make : Vivitar<br>
+Model : Vivicam 3715<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : er. 1.17V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported">CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam3705B.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:02:14 00:29:58<br>
+DateTimeOriginal : 2003:02:14 00:29:58<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.9 mm<br>
+ISO : 144<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1532 px h<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Close view<br>
+UserComment : 768<br>
+_IFDpointer_Interop : 896<br>
+_IFDpointer_Makernote : 620<br>
+DateTime : 2003:02:14 00:29:58<br>
+ImageDescription : IM00<br>
+Make : Vivitar<br>
+Model : Vivicam 3705B<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.30V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported">CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVivicam2005.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:01:01:00:00:00<br>
+DateTimeOriginal : 2004:01:01:00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.8809468632362468<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/10<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 52275<br>
+LightSource : 52243<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/10<br>
+_IFDpointer_Interop : 1264<br>
+_IFDpointer_Makernote : 784<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2004:01:01:00:00:00<br>
+ImageDescription : L:3h3MrLL7H3L3THDNMsD3L2LwL1LHl3cL;l3s\L3D1H3<br>
+Make : Vivitar<br>
+Model : Vivicam 2005<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.782135417<br>
+CompressedBitsPerPixel : 2.7821354166666667<br>
+<br>
+FNumber : 1<br>
+FNumber : 0.9999999906595161<br>
+<br>
+Flash : Unknown (0xec23)<br>
+Flash : 60451<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCamX625.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:24 15:29:49<br>
+DateTimeOriginal : 2008:11:24 15:29:49<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.9 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3680 px w<br>
+PixelYDimension : 2760 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 35700<br>
+_IFDpointer_Makernote : 692<br>
+DateTime : 2008:11:24 15:29:49<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam X625<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.04v.04<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCamX345.jpg</td>
+<td class="supported">ApertureValue : 6.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:09 23:36:06<br>
+DateTimeOriginal : 2007:01:09 23:36:06<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/251<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/251<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 32296<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2007:01:09 23:36:06<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam X345<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.04.000VV<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCamX325.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:26 14:21:08<br>
+DateTimeOriginal : 2007:08:26 14:21:08<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/508<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 17.4 mm<br>
+ISO : 64<br>
+LightSource : Other<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/508<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 628<br>
+DateTime : 2007:08:26 14:21:08<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCamX325<br>
+Software : 1.07.000Vi<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCamX30.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:12:17 15:01:04<br>
+DateTimeOriginal : 2009:12:17 15:01:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/150<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Soft<br>
+ShutterSpeedValue : 1/149<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2009:12:17 15:01:04<br>
+ImageDescription : Digital StillCamera<br>
+Make : Vivitar<br>
+Model : ViviCam X30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.06<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCamV5024.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2009:03:26 13:20:40<br>
+DateTimeOriginal : 2009:03:26 13:20:40<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 64<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/29296<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 28.8 mm<br>
+GainControl : None<br>
+LightSource : Flash<br>
+MeteringMode : Average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+SubsecTime :    <br>
+UserComment : 1296<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 788<br>
+DateTime : 2009:03:26 13:20:40<br>
+ImageDescription : My beautiful picture<br>
+Make : ViviCam<br>
+Model : V5024<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1310DT2JSMI3120VT013<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam8380.jpg</td>
+<td class="supported">ApertureValue : 4.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:01 01:18:06<br>
+DateTimeOriginal : 2008:01:01 01:18:06<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/1992<br>
+FNumber : 4.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/1992<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 42776<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2008:01:01 01:18:06<br>
+ImageDescription : Vivitar<br>
+Make : Vivitar<br>
+Model : ViviCam 8380<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.01VI<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam8340.jpg</td>
+<td class="supported">ApertureValue : 7.2<br>
+BrightnessValue : 8.088<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:02:23 13:53:54<br>
+DateTimeOriginal : 2009:02:23 13:53:54<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 80<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/116<br>
+FNumber : 7.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/115<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+ImageDescription : VIVITAR DIGITAL CAMERA<br>
+Make : VIVITAR<br>
+Model : ViviCam8340<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0040<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam8010.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:19 10:18:57<br>
+DateTimeOriginal : 2010:01:19 10:18:57<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 862<br>
+_IFDpointer_Makernote : 892<br>
+Copyright : <br>
+ImageDescription : <br>
+Make : ViviCam<br>
+Model : 8010<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 08.05.10.01.FR<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam7340.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+BrightnessValue : 1.756<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:09:17 13:19:46<br>
+DateTimeOriginal : 2008:09:17 13:19:46<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 200<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/47<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 45 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/47<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3540<br>
+_IFDpointer_Makernote : 942<br>
+ImageDescription : VIVITAR DIGITAL CAMERA<br>
+Make : VIVITAR<br>
+Model : ViviCam 7340<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Jasc<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported">LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam7330.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:04 16:53:57<br>
+DateTimeOriginal : 2008:10:04 16:53:57<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21270<br>
+_IFDpointer_Makernote : 1262<br>
+DateTime : 2008:10:04 16:53:57<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam 7330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.03V<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 804<br>
+PrintIM : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam7320.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:27 23:34:16<br>
+DateTimeOriginal : 2007:01:27 23:34:16<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.1 mm<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 41576<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2007:01:27 23:34:16<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam 7320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.03.000VI<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam7310.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:10 01:43:42<br>
+DateTimeOriginal : 2007:08:10 01:43:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Creative (Slow speed)<br>
+ExposureTime : 1/479<br>
+FNumber : 5.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 450 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Hard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21260<br>
+_IFDpointer_Makernote : 1252<br>
+DateTime : 2007:08:10 01:43:42<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam 7310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00.10V<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 806<br>
+PrintIM : 260</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam7100s.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:11:14 23:09:04<br>
+DateTimeOriginal : 2007:11:14 23:09:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 3072 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 42172<br>
+_IFDpointer_Makernote : 740<br>
+DateTime : 2007:11:14 23:09:04<br>
+ImageDescription : Digital image<br>
+Make : Vivitar<br>
+Model : ViviCam7100s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00.015VI<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam6330s.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:08:22 16:20:16<br>
+DateTimeOriginal : 2008:08:22 16:20:16<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/237<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10700<br>
+_IFDpointer_Makernote : 692<br>
+DateTime : 2008:08:22 16:20:16<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam 6330s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.11vi<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam6324.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:09:15 21:26:12<br>
+DateTimeOriginal : 2006:09:15 21:26:12<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/432<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 64<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9598<br>
+_IFDpointer_Makernote : 664<br>
+DateTime : 2006:09:15 21:26:12<br>
+ImageDescription : Vivitar<br>
+Make : Vivitar<br>
+Model : ViviCam 6324<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 230<br>
+PrintIM : 9638</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam6320.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:14 13:39:14<br>
+DateTimeOriginal : 2007:01:14 13:39:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/100<br>
+FNumber : 4.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 14.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21034<br>
+_IFDpointer_Makernote : 1026<br>
+DateTime : 2007:01:14 13:39:14<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam 6320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.02<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam6300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:07:01 00:06:32<br>
+DateTimeOriginal : 2005:07:01 00:06:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11046<br>
+_IFDpointer_Makernote : 1038<br>
+DateTime : 2005:07:01 00:06:32<br>
+ImageDescription : ViviCam 6300<br>
+Make : Vivitar<br>
+Model : ViviCam 6300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.02<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 592<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam5388.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:17 09:11:35<br>
+DateTimeOriginal : 2007:03:17 09:11:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/30<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 21032<br>
+_IFDpointer_Makernote : 1024<br>
+DateTime : 2007:03:17 09:11:35<br>
+ImageDescription : Digital Image<br>
+Make : Vivitar<br>
+Model : ViviCam 5388<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.14VIV<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 590<br>
+PrintIM : 240</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam5355.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:10:14 13:15:47<br>
+DateTimeOriginal : 2007:10:14 13:15:47<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/200<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/199<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 31860<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2007:10:14 13:15:47<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar<br>
+Model : ViviCam5355<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.08V<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam5010.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:01 12:00:00<br>
+DateTimeOriginal : 2007:01:01 12:00:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Landscape<br>
+ExposureTime : 1/1757<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.5 mm<br>
+ISO : 200<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3648 px w<br>
+PixelYDimension : 2736 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Landscape<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/1663<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 27792<br>
+_IFDpointer_Makernote : 728<br>
+DateTime : 2008:01:01 12:00:00<br>
+ImageDescription : <br>
+Make : Vivitar<br>
+Model : ViviCam5010<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver4.2.1V<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3945S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:12:01 05:18:33<br>
+DateTimeOriginal : 2005:12:01 05:18:33<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 4.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 16.2 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10968<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11102<br>
+_IFDpointer_Makernote : 968<br>
+DateTime : 2005:12:01 05:18:33<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : VIVITAR<br>
+Model : ViviCam 3945S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.02VIE1<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 510<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3835.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 3.2<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2005:08:22 10:07:40<br>
+DateTimeOriginal : 2005:08:22 10:07:40<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 20.6 mm<br>
+ISO : 200<br>
+LightSource : Flash<br>
+MaxApertureValue : 13.7<br>
+MeteringMode : Average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistance : 5.32 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 2004<br>
+DateTime : 2005:08:22 10:07:40<br>
+Make : Vivitar<br>
+Model : ViviCam 3835<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver: V1.11VI2<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3786s.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3765.jpg</td>
+<td class="supported">ApertureValue : 6.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:11:25:13:31:23<br>
+DateTimeOriginal : 2004:11:25:13:31:23<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/666<br>
+FNumber : 6.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1472 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/664<br>
+_IFDpointer_Interop : 1164<br>
+_IFDpointer_Makernote : 852<br>
+DateTime : 2004:11:25:13:31:23<br>
+ImageDescription : ViviCam 3765<br>
+Make : Vivitar<br>
+Model : ViviCam 3765<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1020D<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 458<br>
+PrintIM : 338</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3746.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:03:06 09:33:49<br>
+DateTimeOriginal : 2003:03:06 09:33:49<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/128<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000001045<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/128<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 528<br>
+DateTime : 2003:03:06 09:33:49<br>
+Make : Vivitar<br>
+Model : ViviCam3746<br>
+ResolutionUnit : inches<br>
+Software : 1.11V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 7.7<br>
+FNumber : 7.72<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3705.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:10:02 17:16:53<br>
+DateTimeOriginal : 2004:10:02 17:16:53<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.9 mm<br>
+ISO : 144<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 788<br>
+_IFDpointer_Interop : 916<br>
+_IFDpointer_Makernote : 628<br>
+DateTime : 2004:10:02 21:04:54<br>
+Make : Vivitar Corporation<br>
+Model : ViviCam 3705<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Jasc<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported">CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+ImageDescription : ?<br>
+ImageDescription : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3350B.jpg</td>
+<td class="supported">Artist : <br>
+Copyright : <br>
+DateTime : 2005:05:08 15:56:59<br>
+Make : Vivitar<br>
+Model : ViviCam 3350B<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : SN9C2028 F005<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported">ImageDescription : Exif_JPEG_420<br>
+ImageDescription : ExifJPEG420<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam3105s.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarViviCam.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:08 21:44:35<br>
+DateTimeOriginal : 2004:12:08 21:44:35<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/10<br>
+FNumber : 3<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/128<br>
+_IFDpointer_Interop : 758<br>
+_IFDpointer_Makernote : 125 148 118 148 100 000 008 014 005 066 130 079 023 136 133 H576 56789012345678901234567890123456789012345678901234567890123<br>
+Copyright : (C) by Vivitar User<br>
+DateTime : 2004:12:08 21:44:35<br>
+ImageDescription : Exif-JPEG-422<br>
+Make : Vivitar Corporation.<br>
+Model : ViviCam<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.13V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarVIVICAM5340S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:07:19 21:33:09<br>
+DateTimeOriginal : 2006:07:19 21:33:09<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10968<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11102<br>
+_IFDpointer_Makernote : 968<br>
+DateTime : 2006:07:19 21:33:09<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : VIVITAR<br>
+Model : VIVICAM 5340S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.961VIE<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 510<br>
+PrintIM : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarV3935.jpg</td>
+<td class="supported">ApertureValue : 5.3<br>
+BrightnessValue : 10.4<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2005:04:02 10:41:04<br>
+DateTimeOriginal : 2005:04:02 10:41:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/602<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/602<br>
+SubjectDistance : 2.33 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright<br>
+DateTime : 2005:04:02 10:41:04<br>
+Make : Vivitar Corporation<br>
+Model : V3935 Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver 1.10.06V Rev 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarV3826.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+BrightnessValue : 8.9<br>
+ColorSpace : sRGB<br>
+DateTimeDigitized : 2003:01:01 00:46:04<br>
+DateTimeOriginal : 2003:01:01 00:46:04<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/429<br>
+FNumber : 5.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+ISO : 100<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/429<br>
+SubjectDistance : 2.48 m<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 9008<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright<br>
+DateTime : 2003:01:01 00:46:04<br>
+Make : Vivitar Corporation<br>
+Model : V3826 Digital Camera<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC Firmware Ver 1.49.16 Rev 1.00P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 306</td>
+<td class="unsupported">ComponentsConfiguration : -, Y, Cb, Cr<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarV3755.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:12:06 00:18:56<br>
+DateTimeOriginal : 2004:12:06 00:18:56<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 2<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 0.5<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 0.5<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 658<br>
+DateTime : 2004:12:06 00:18:56<br>
+ImageDescription : <br>
+Make : Vivitar<br>
+Model : V 3755<br>
+Software : DSC V 3755   Ver0.91<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 184</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarV3345.jpg</td>
+<td class="supported">BrightnessValue : 7.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.10<br>
+ExposureBias : 12.5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/233<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.8 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+DateTime : <br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Vivitar Corporation<br>
+Model : V3345<br>
+ReferenceBlackWhite : 0 255 128 255 128 255<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 292</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarT328.jpg</td>
+<td class="supported">ApertureValue : 4.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:08:25 01:12:23<br>
+DateTimeOriginal : 2010:08:25 01:12:23<br>
+ExifVersion : 2.20<br>
+ExposureBias : 3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/630<br>
+FNumber : 4.2<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/630<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 42316<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2010:08:25 01:12:23<br>
+ImageDescription : <br>
+Make : ViviCam<br>
+Model : T328<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1800O5GNMS52F08VT0<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported">FocalLength : 14.0 mm<br>
+FocalLength : 14 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarDVR310.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:05:16 10:04:27<br>
+DateTimeOriginal : 2006:05:16 10:04:27<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/275<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+GainControl : Low gain up<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25950<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 26084<br>
+_IFDpointer_Makernote : 950<br>
+DateTime : 2006:05:16 10:04:27<br>
+ImageDescription : VIVITAR<br>
+Make : VIVITAR<br>
+Model : DVR310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.05V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 492<br>
+PrintIM : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarDVR-530.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:07:25 22:46:28<br>
+DateTimeOriginal : 2010:07:25 22:46:28<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/124<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 25950<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 26084<br>
+_IFDpointer_Makernote : 950<br>
+DateTime : 2010:07:25 22:46:28<br>
+ImageDescription : VIVITAR<br>
+Make : VIVITAR<br>
+Model : DVR-530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 492<br>
+PrintIM : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarDVR-310.jpg</td>
+<td class="supported">ApertureValue : 14.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:07:17 16:18:24<br>
+DateTimeOriginal : 2005:07:17 16:18:24<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+ExposureTime : 1/390<br>
+FNumber : 3<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000000081<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/388<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 530<br>
+DateTime : 2005:07:17 16:18:24<br>
+Make : VIVITAR<br>
+Model : DVR-310<br>
+ResolutionUnit : inches<br>
+Software : 1.03V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 188</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarDVR-210.jpg</td>
+<td class="supported">ApertureValue : 14.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:06:02 06:00:43<br>
+DateTimeOriginal : 2005:06:02 06:00:43<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+ExposureTime : 1/541<br>
+FNumber : 3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000000093<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/549<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 530<br>
+DateTime : 2005:06:02 06:00:43<br>
+Make : VIVITAR<br>
+Model : DVR-210<br>
+ResolutionUnit : inches<br>
+Software : 1.19V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 188</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vivitar/VivitarDVR-200.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:05:15 12:05:09<br>
+DateTimeOriginal : 2005:05:15 12:05:09<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+ExposureTime : 1/168<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+ImageUniqueID : 00000000000000000000000000000129<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/169<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 524<br>
+DateTime : 2005:05:15 12:05:09<br>
+Make : VIVITAR<br>
+Model : DVR-200<br>
+ResolutionUnit : inches<br>
+Software : 1.23V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

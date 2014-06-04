@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Toshiba/Toshiba_camessepetit.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+_IFDpointer_Interop : 312<br>
+Make : TOSHIBA<br>
+Model : camesse petit<br>
+ResolutionUnit : inches<br>
+Software : v1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaTS705.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:29 20:13:36<br>
+DateTimeOriginal : 2010:06:29 20:13:36<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 406<br>
+Make : TOSHIBA<br>
+Model : TS705<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : WG43TS1311<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaTG01.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2010:10:31 13:19:20<br>
+DateTimeOriginal : 2010:10:31 13:19:20<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 442<br>
+Make : TOSHIBA<br>
+Model : TG01<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 140<br>
+_IFDpointer_GPS : 472</td>
+<td class="unsupported">FNumber : 3.2<br>
+FNumber : 3.19921875<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR_M21.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:02:09 19:10:21<br>
+DateTimeOriginal : 2000:02:09 19:10:21<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+ExposureTime : 1/32<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 400 px w<br>
+PixelYDimension : 300 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/32<br>
+_IFDpointer_Interop : 672<br>
+_IFDpointer_Makernote : 65,17,1,48,69,64,90,71,1,89,5,21,5,31,0,0<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2002:05:17 23:02:45<br>
+ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Toshiba Corporation<br>
+Model : PDR M21<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.06324791667<br>
+CompressedBitsPerPixel : 0.06324791666666667<br>
+<br>
+Software : V1.68_916F_19<br>
+Software : V1.68916F19<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDRM40.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1999:03:06 02:37:25<br>
+DateTimeOriginal : 1999:03:06 02:37:25<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1000<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/1024<br>
+_IFDpointer_Interop : 580<br>
+_IFDpointer_Makernote : 0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 1999:03:06 02:37:25<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM40 Ver1.37<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR5.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1998:08:08 11:58:00<br>
+DateTimeOriginal : 1998:08:08 11:58:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 432<br>
+_IFDpointer_Makernote : 0,31,0,53,0,30,0,53,0,30,0,38,0,50,0,4,0,149,0,168<br>
+DateTime : 1998:08:08 11:58:00<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-5  Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR2300.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:09:29 09:11:19<br>
+DateTimeOriginal : 2002:09:29 09:11:19<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/30<br>
+FNumber : 2.9<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/30<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2002:09:29 09:11:19<br>
+Make : TOSHIBA<br>
+Model : PDR2300<br>
+ResolutionUnit : inches<br>
+Software : 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T30.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:04:28 19:00:33<br>
+DateTimeOriginal : 2004:04:28 19:00:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/45<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 734<br>
+DateTime : 2004:04:28 19:00:33<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-T30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-T30 Ver1.05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T20.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:01 15:59:12<br>
+DateTimeOriginal : 2005:08:01 15:59:12<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/138<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 38 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/137<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 734<br>
+DateTime : 2005:08:01 15:59:12<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-T20<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-T20 Ver1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T15.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.1<br>
+DateTimeDigitized : 2003:10:22 05:13:13<br>
+DateTimeOriginal : 2003:10:22 05:13:13<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 730<br>
+_IFDpointer_Interop : 896<br>
+_IFDpointer_Makernote : 650<br>
+DateTime : 2003:10:22 05:13:13<br>
+ImageDescription : Toshiba Digital Camera<br>
+Make : TOSHIBA<br>
+Model : PDR-T15<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 272</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-T10.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4.1<br>
+DateTimeDigitized : 2004:04:20 12:22:14<br>
+DateTimeOriginal : 2004:04:20 12:22:14<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/300<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 760<br>
+_IFDpointer_Interop : 888<br>
+_IFDpointer_Makernote : 620<br>
+DateTime : 2004:04:20 12:22:14<br>
+ImageDescription : Toshiba Digital Camera<br>
+Make : TOSHIBA<br>
+Model : PDR-T10<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.10a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M81.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:07:12 13:10:40<br>
+DateTimeOriginal : 2001:07:12 13:10:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.5<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/240<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2400 px w<br>
+PixelYDimension : 1600 px h<br>
+ShutterSpeedValue : 1/239<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2001:07:12 13:10:40<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM81<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM81 Ver0.70<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M71.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:03:03 17:13:59<br>
+DateTimeOriginal : 2001:03:03 17:13:59<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/140<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/137<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2001:03:03 17:13:59<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M71<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM71 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M700.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:07:15 09:18:02<br>
+DateTimeOriginal : 2003:07:15 09:18:02<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/220<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/223<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 734<br>
+DateTime : 2003:07:15 09:18:02<br>
+ImageDescription : Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-M700 Ver1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M70.jpg</td>
+<td class="supported">ApertureValue : 4.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:07:10 09:28:35<br>
+DateTimeOriginal : 2000:07:10 09:28:35<br>
+ExifVersion : 2.10<br>
+ExposureBias : -0.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/35<br>
+FNumber : 4.4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/34<br>
+_IFDpointer_Interop : 612<br>
+_IFDpointer_Makernote : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 2000:07:10 09:28:35<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM70<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM70 Ver1.07<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M65.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:16 13:37:01<br>
+DateTimeOriginal : 2000:01:16 13:37:01<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/121<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/120<br>
+_IFDpointer_Interop : 560<br>
+DateTime : 2000:01:16 13:37:01<br>
+ImageDescription : Toshiba Exif JPEG<br>
+Make : Toshiba<br>
+Model : PDR-M65<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v6.0.7<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 278</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 3.02<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M61.jpg</td>
+<td class="supported">ApertureValue : 7.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:09:14 09:19:28<br>
+DateTimeOriginal : 2004:09:14 09:19:28<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/97<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+ShutterSpeedValue : 1/96<br>
+_IFDpointer_Interop : 560<br>
+DateTime : 2004:09:14 09:19:28<br>
+ImageDescription : Toshiba Exif JPEG<br>
+Make : Toshiba<br>
+Model : PDR-M61<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v8.3.12<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 278</td>
+<td class="unsupported">FNumber : 7<br>
+FNumber : 6.96<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M60.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:11:29 14:54:59<br>
+DateTimeOriginal : 2000:11:29 14:54:59<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/62<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 896 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/64<br>
+_IFDpointer_Interop : 560<br>
+DateTime : 2000:11:29 14:54:59<br>
+ImageDescription : Toshiba Exif JPEG<br>
+Make : Toshiba<br>
+Model : PDR-M60<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v1.2.4<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 278</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 3.02<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M500.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:21 19:16:33<br>
+DateTimeOriginal : 2004:03:21 19:16:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/19<br>
+FNumber : 3.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 370 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/18<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 794<br>
+_IFDpointer_Makernote : 734<br>
+DateTime : 2004:03:21 19:16:33<br>
+ImageDescription : Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC PDR-M500 Ver1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported">FocalLength : 57.0 mm<br>
+FocalLength : 57 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M5.jpg</td>
+<td class="supported">ApertureValue : 3.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1999:10:15 14:54:27<br>
+DateTimeOriginal : 1999:10:15 14:54:27<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/55<br>
+FNumber : 3.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/54<br>
+_IFDpointer_Interop : 580<br>
+_IFDpointer_Makernote : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 1999:10:15 14:54:27<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDRM5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDRM5  Ver2.04<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M4.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1999:08:06 21:34:20<br>
+DateTimeOriginal : 1999:08:06 21:34:20<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/55<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/54<br>
+_IFDpointer_Interop : 568<br>
+_IFDpointer_Makernote : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 1999:08:06 21:34:20<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-M4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-M4 Ver1.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M3.jpg</td>
+<td class="supported">ApertureValue : 3.8<br>
+BrightnessValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 1999:03:08 21:31:45<br>
+DateTimeOriginal : 1999:03:08 21:31:45<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 3.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 16.7 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 893.000000<br>
+FocalPlaneYResolution : 893.000000<br>
+ISO : 100<br>
+MaxApertureValue : 3.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/28<br>
+_IFDpointer_Interop : 708<br>
+Copyright : <br>
+DateTime : 1999:03:08 21:31:45<br>
+Make : TOSHIBA<br>
+Model : PDR-M3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-M3 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M25.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.6<br>
+DateTimeDigitized : 2000:01:01 13:54:07<br>
+DateTimeOriginal : 2000:01:01 13:54:07<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/33<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 756<br>
+_IFDpointer_Interop : 884<br>
+_IFDpointer_Makernote : 616<br>
+DateTime : 2000:01:01 13:54:07<br>
+ImageDescription : Toshiba Digital Camera<br>
+Make : Toshiba<br>
+Model : PDR-M25<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v17.4.18<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M11.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:04:28 04:09:16<br>
+DateTimeOriginal : 2001:04:28 04:09:16<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+ExposureTime : 1/32<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/32<br>
+_IFDpointer_Interop : 672<br>
+_IFDpointer_Makernote : 107,93,49,50,69,64,11,71,4,102,5,5,5,30,0,0<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2001:04:28 04:09:16<br>
+ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Toshiba Corporation<br>
+Model : PDR M11<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.1256347656<br>
+CompressedBitsPerPixel : 0.125634765625<br>
+<br>
+Software : V1.08_916F_19<br>
+Software : V1.08916F19<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-M1.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 1998:06:13 14:35:07<br>
+DateTimeOriginal : 1998:06:13 14:35:07<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+FocalPlaneXResolution : 893.000000<br>
+FocalPlaneYResolution : 893.000000<br>
+ISO : 100<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/91<br>
+_IFDpointer_Interop : 708<br>
+Copyright : <br>
+DateTime : 1998:06:13 14:35:07<br>
+Make : TOSHIBA<br>
+Model : PDR-M1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera PDR-M1 Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-5300.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003:03:09 03:55:32<br>
+DateTimeOriginal : 2003:03:09 03:55:32<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/4<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2003:03:09 03:55:32<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-5300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-4300.jpg</td>
+<td class="supported">ApertureValue : 3.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:01:17 13:32:06<br>
+DateTimeOriginal : 2003:01:17 13:32:06<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+FNumber : 3.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2400 px w<br>
+PixelYDimension : 1600 px h<br>
+ShutterSpeedValue : 1/64<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2003:01:17 13:32:06<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-4300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PDR-4300 Ver1.03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3330.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:07:11 20:38:01<br>
+DateTimeOriginal : 2004:07:11 20:38:01<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/45<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2004:07:11 20:38:01<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-3330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PDR-3330 Ver1.05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3320.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.5<br>
+DateTimeDigitized : 2003:05:29 15:39:02<br>
+DateTimeOriginal : 2003:05:29 15:39:02<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/199<br>
+FNumber : 6.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.4 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+UserComment : 748<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 884<br>
+_IFDpointer_Makernote : 668<br>
+DateTime : 2003:05:29 15:39:02<br>
+ImageDescription : Toshiba Digital Camera<br>
+Make : Toshiba<br>
+Model : PDR-3320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver. 1.2<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3310.jpg</td>
+<td class="supported">ApertureValue : 11.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+DateTimeDigitized : 2002:08:05 14:50:22<br>
+DateTimeOriginal : 2002:08:05 14:50:22<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0.3<br>
+ExposureProgram : Program AE<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 12.6 mm<br>
+ISO : 120<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/119<br>
+UserComment : 56022<br>
+_IFDpointer_Interop : 56158<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2002:08:05 14:50:22<br>
+ImageDescription : <br>
+Make : TOSHIBA<br>
+Model : PDR-3310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PDR-3310 Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-3300.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:10:07 12:00:49<br>
+DateTimeOriginal : 2003:10:07 12:00:49<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Landscape<br>
+ExposureTime : 1/550<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+ShutterSpeedValue : 1/549<br>
+_IFDpointer_Interop : 704<br>
+_IFDpointer_Makernote : 604<br>
+DateTime : 2003:10:07 12:00:49<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-3300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PDR-3300 Ver1.04<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaPDR-2.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 1.10<br>
+_IFDpointer_Makernote : 0,27,0,12,0,70,0,12,0,73,116,75,67,0<br>
+ImageDescription : TOSHIBA Exif JPEG<br>
+Make : TOSHIBA<br>
+Model : PDR-2<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaJ-T010.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:17 12:56:41<br>
+DateTimeOriginal : 2004:12:17 12:56:41<br>
+ExifVersion : 2.00<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 200 px w<br>
+PixelYDimension : 150 px h<br>
+DateTime : 2004:12:17 12:57:54<br>
+ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : J-T010<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00900269<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00900269<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaG910.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:08 18:22:26<br>
+DateTimeOriginal : 2010:09:08 18:22:26<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 450<br>
+Make : TOSHIBA<br>
+Model : G910/G920<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaG8103.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2010:04:19 16:13:36<br>
+DateTimeOriginal : 2010:04:19 16:13:36<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 542<br>
+Make : Toshiba<br>
+Model : Toshiba G810 3.0 MP CMOS SENSOR<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Quanta Qcamera ver 5.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaCamileoProHDDV.jpg</td>
+<td class="supported">ApertureValue : 2153768011353.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:06:28 12:57:14<br>
+DateTimeOriginal : 2009:06:28 12:57:14<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/256<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 73<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/256<br>
+SubjectDistance : 0 m<br>
+_IFDpointer_Makernote : 1234<br>
+DateTime : 2009:06:28 12:57:14<br>
+ImageDescription : DCIM\100MEDIA<br>
+Make : TOSHIBAa<br>
+Model : Camileo Pro HDDV<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0.000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.779891968<br>
+CompressedBitsPerPixel : 3.7798919677734375<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FNumber : 3.6<br>
+FNumber : 3.64<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaCamileoProHD.jpg</td>
+<td class="supported">ApertureValue : 2153768011353.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:27 13:44:40<br>
+DateTimeOriginal : 2010:04:27 13:44:40<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.3 mm<br>
+ISO : 95<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/10<br>
+SubjectDistance : 0 m<br>
+_IFDpointer_Makernote : 1234<br>
+DateTime : 2010:04:27 13:44:40<br>
+ImageDescription : DCIM\100MEDIA<br>
+Make : TOSHIBAa<br>
+Model : Camileo Pro HD<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.0.000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.338598029<br>
+CompressedBitsPerPixel : 2.3385980287557793<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FNumber : 3.8<br>
+FNumber : 3.81<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/ToshibaCamileoH30.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:01:19 01:50:25<br>
+DateTimeOriginal : 2009:01:19 01:50:25<br>
+DigitalZoomRatio : 3258713.064<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/332<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.9 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 4608 px w<br>
+PixelYDimension : 3456 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/332<br>
+SubjectDistance : 0 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 1270<br>
+DateTime : 2009:01:19 01:50:25<br>
+ImageDescription : DCIM\100MEDIA<br>
+Make : <br>
+Model : DV<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : A2S-SDK33H-091210.0620<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.811449592<br>
+CompressedBitsPerPixel : 1.811449592496142<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FNumber : 3.6<br>
+FNumber : 3.64<br>
+<br>
+LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/Toshiba921T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:01:31 22:22:20<br>
+DateTimeOriginal : 2009:01:31 22:22:20<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+DateTime : 2009:01:31 22:22:20<br>
+ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : 921T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/Toshiba910T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:02:26 15:06:09<br>
+DateTimeOriginal : 2008:02:26 15:06:09<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+DateTime : 2008:02:26 15:06:09<br>
+ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : 910T<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Toshiba/Toshiba811T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:07:30 23:44:15<br>
+DateTimeOriginal : 2007:07:30 23:44:15<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2008:02:19 15:40:45<br>
+ImageDescription : untitled<br>
+Make : TOSHIBA<br>
+Model : 811T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

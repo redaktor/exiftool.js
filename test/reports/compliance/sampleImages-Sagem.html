@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Sagem/Sagem_myX6-2.jpg</td>
+<td class="supported">DateTime : 2008:07:02 18:28:00<br>
+Make : SAGEM<br>
+Model : myX6-2<br>
+Orientation : Horizontal (normal)</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_myX-8.jpg</td>
+<td class="supported">Make : SAGEM<br>
+Model : myX-8</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_myMovieBox.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:07:26 13:51:54<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : Mobile SAGEM<br>
+DateTime : 2008:07:26 13:51:54<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : myMovieBox<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LC5,UQ:<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my850C.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2009:06:21 13:57:33<br>
+DateTimeOriginal : 2009:06:21 13:57:33<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+_IFDpointer_Interop : 370<br>
+Copyright : Copyright Not Specified<br>
+DateTime : 2004:01:01 16:30:36<br>
+Make : SAGEM<br>
+Model : my850C<br>
+ResolutionUnit : cm<br>
+XResolution : 40.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 40.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported">ComponentsConfiguration : R, G, B, -<br>
+ComponentsConfiguration : RGB uncompressed<br>
+<br>
+Software : EAE_1G<br>
+Software : EAE1G<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my750X.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2010:02:18 14:02:40<br>
+DateTimeOriginal : 2010:02:18 14:02:40<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Copyright : Copyright Not Specified<br>
+DateTime : 2004:01:01 16:30:36<br>
+Make : SAGEM<br>
+Model : my750X<br>
+ResolutionUnit : cm<br>
+XResolution : 40.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 40.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported">ComponentsConfiguration : R, G, B, -<br>
+ComponentsConfiguration : RGB uncompressed<br>
+<br>
+Software : ETE_4D<br>
+Software : ETE4D<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my730C.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2010:01:23 10:39:47<br>
+DateTimeOriginal : 2010:01:23 10:39:47<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+_IFDpointer_Interop : 370<br>
+Copyright : Copyright Not Specified<br>
+DateTime : 2004:01:01 16:30:36<br>
+Make : SAGEM<br>
+Model : my730C<br>
+ResolutionUnit : cm<br>
+XResolution : 40.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 40.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported">ComponentsConfiguration : R, G, B, -<br>
+ComponentsConfiguration : RGB uncompressed<br>
+<br>
+Software : ETE_3C<br>
+Software : ETE3C<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my700x.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2008:01:30 22:21:10<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+Artist : Mobile SAGEM<br>
+DateTime : 2008:01:30 22:21:10<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : my700x<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LB5,EC:<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my511X.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:18 11:36:02<br>
+DateTimeOriginal : 2009:06:18 11:36:02<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+_IFDpointer_Interop : 449<br>
+DateTime : 2009:06:18 11:36:02<br>
+Make : SAGEM<br>
+Model : my511X<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ERN,DB: 081007 1012<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 203</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my501X.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:26 23:37:06<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 768 px w<br>
+PixelYDimension : 1024 px h<br>
+Artist : Mobile SAGEM<br>
+DateTime : 2010:04:26 23:37:06<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : my501X<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LS5,KB:<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my411X.jpg</td>
+<td class="supported">Artist : Mobile SAGEM<br>
+DateTime : 2011:08:30 11:44:16<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : my411X<br>
+_IFDpointer_EXIF : 151</td>
+<td class="unsupported">UserComment : MFM Team<br>
+UserComment : 77,70,77,32,84,101,97,109<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my411V.jpg</td>
+<td class="supported">Artist : Mobile SAGEM<br>
+DateTime : 2009:05:17 11:32:55<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : my411V<br>
+_IFDpointer_EXIF : 151</td>
+<td class="unsupported">UserComment : MFM Team<br>
+UserComment : 77,70,77,32,84,101,97,109<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my411C.jpg</td>
+<td class="supported">Artist : Mobile SAGEM<br>
+DateTime : 2011:11:16 07:59:45<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : my411C<br>
+_IFDpointer_EXIF : 151</td>
+<td class="unsupported">UserComment : MFM Team<br>
+UserComment : 77,70,77,32,84,101,97,109<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/Sagem_my401C.jpg</td>
+<td class="supported">Artist : Mobile SAGEM<br>
+DateTime : 2010:04:30 23:49:44<br>
+ImageDescription : Image Mobile SAGEM<br>
+Make : SAGEM<br>
+Model : my401C<br>
+_IFDpointer_EXIF : 151</td>
+<td class="unsupported">UserComment : MFM Team<br>
+UserComment : 77,70,77,32,84,101,97,109<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sagem/SagemVF527.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:02:21 14:56:58<br>
+DateTimeOriginal : 2010:02:21 14:56:58<br>
+ExifVersion : 2.20<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2010:02:21 14:56:58<br>
+Make : SAGEM<br>
+Model : VF527<br>
+ResolutionUnit : inches<br>
+Software : EVN,PL: 050808 1802<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

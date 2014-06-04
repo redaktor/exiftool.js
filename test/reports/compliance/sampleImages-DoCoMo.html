@@ -1,0 +1,2414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSO905iCS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : :  :     :  :<br>
+DateTimeOriginal : :  :     :  :<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1429<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/1428<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 644<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : :  :     :  :<br>
+ImageDescription : --------------<br>
+Make : DoCoMo<br>
+Model : SO905iCS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported">UserComment : --------------<br>
+UserComment : 0,0,0,0,0,0,0,0,45,45,45,45,45,45,45,45,45,45,45,45,45,45<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSO903i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:02:08 17:09:20<br>
+DateTimeOriginal : 2008:02:08 17:09:20<br>
+DigitalZoomRatio : 5.82<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/370<br>
+FNumber : 2.8<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 432 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/367<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 642<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2008:02:08 17:09:20<br>
+ImageDescription : 20080208170922<br>
+Make : DoCoMo<br>
+Model : SO903i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported">UserComment : 20080208170922<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,56,48,50,48,56,49,55,48,57,50,50<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSO506iC.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:11:14 03:03:23<br>
+DateTimeOriginal : 2004:11:14 03:03:23<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureTime : 1/15<br>
+FNumber : 4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ISO : 1250<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2004:11:14 03:03:23<br>
+Make : DoCoMo<br>
+Model : SO506iC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 242</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSO506i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:28 14:52:12<br>
+DateTimeOriginal : 2005:04:28 14:52:12<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/193<br>
+FNumber : 4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 516<br>
+DateTime : 2005:04:28 14:52:12<br>
+Make : DoCoMo<br>
+Model : SO506i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSO505iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:01 12:46:03<br>
+DateTimeOriginal : 2005:05:01 12:46:03<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.3333333333333333<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/205<br>
+FNumber : 4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 504<br>
+DateTime : 2005:05:01 12:46:03<br>
+Make : DoCoMo<br>
+Model : SO505iS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSO505i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:31 10:46:08<br>
+DateTimeOriginal : 2004:03:31 10:46:08<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/263<br>
+FNumber : 4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ISO : 170<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 504<br>
+DateTime : 2004:03:31 10:46:09<br>
+Make : DoCoMo<br>
+Model : SO505i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH905i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:03:05 14:18:06<br>
+DateTimeOriginal : 2009:03:05 14:18:06<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 398<br>
+_IFDpointer_Makernote : 0<br>
+DateTime : 2009:03:05 14:16:32<br>
+Make : DoCoMo<br>
+Model : SH905i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">UserComment : convert_ed<br>
+UserComment : 0,0,0,0,0,0,0,0,99,111,110,118,101,114,116,95,101,100<br>
+<br>
+ImageDescription : convert_ed.jpg<br>
+ImageDescription : converted.jpg<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH904i.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:06 14:46:54<br>
+DateTimeOriginal : 2009:06:06 14:46:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.5<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/25<br>
+FNumber : 3.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/25<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2009:06:06 14:46:57<br>
+Make : DoCoMo<br>
+Model : SH904i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,3,0,1,0,20,0,20,0,1,1,1,0,0,0,16,1,128,0,0,0</td>
+<td class="unsupported">UserComment : 090606_144653<br>
+UserComment : 0,0,0,0,0,0,0,0,48,57,48,54,48,54,95,49,52,52,54,53,51<br>
+<br>
+ImageDescription : 090606_144653<br>
+ImageDescription : 090606144653<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH903iTV.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:07:09 11:45:18<br>
+DateTimeOriginal : 2007:07:09 11:45:18<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+_IFDpointer_Makernote : 0<br>
+DateTime : 2007:07:09 22:21:32<br>
+ImageDescription : DVC00118<br>
+Make : DoCoMo<br>
+Model : SH903iTV<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">UserComment : 070709_114518_ed<br>
+UserComment : 0,0,0,0,0,0,0,0,48,55,48,55,48,57,95,49,49,52,53,49,56,95,101,100<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH903i.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:02:04 12:59:06<br>
+DateTimeOriginal : 2008:02:04 12:59:06<br>
+DigitalZoomRatio : 1.2<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/30<br>
+FNumber : 3.4<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/30<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2008:02:04 12:59:15<br>
+Make : DoCoMo<br>
+Model : SH903i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,3,0,1,0,20,0,20,0,1,1,1,0,0,0,16,1,128,0,0,0</td>
+<td class="unsupported">UserComment : 080204_125905<br>
+UserComment : 0,0,0,0,0,0,0,0,48,56,48,50,48,52,95,49,50,53,57,48,53<br>
+<br>
+ImageDescription : 080204_125905<br>
+ImageDescription : 080204125905<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH902i.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH901iC.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:16 11:25:31<br>
+DateTimeOriginal : 2005:04:16 11:25:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/3000<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/2998<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 705<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2005:04:16 11:25:31<br>
+ImageDescription : DVC00001.JPG<br>
+Make : DoCoMo<br>
+Model : SH901iC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 251<br>
+PrintIM : 731</td>
+<td class="unsupported">UserComment : 050416_112531<br>
+UserComment : 0,0,0,0,0,0,0,0,48,53,48,52,49,54,95,49,49,50,53,51,49,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH900i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:06:04 12:16:17<br>
+DateTimeOriginal : 2005:06:04 12:16:17<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+_IFDpointer_Interop : 394<br>
+DateTime : 2005:06:04 23:15:03<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : SH900i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported">UserComment : 050604_121617<br>
+UserComment : 0,0,0,0,0,0,0,0,48,53,48,54,48,52,95,49,50,49,54,49,55,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH703i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:12:07 16:47:37<br>
+DateTimeOriginal : 2009:12:07 16:47:37<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+_IFDpointer_Makernote : 0<br>
+DateTime : 2009:12:07 16:52:42<br>
+Make : DoCoMo<br>
+Model : SH703i<br>
+Orientation : 0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported">UserComment : 091207_164737_ed<br>
+UserComment : 0,0,0,0,0,0,0,0,48,57,49,50,48,55,95,49,54,52,55,51,55,95,101,100<br>
+<br>
+ImageDescription : 091207_164737_ed<br>
+ImageDescription : 091207164737ed<br>
+<br>
+ResolutionUnit : None<br>
+ResolutionUnit : unknown<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH702iD.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:02 22:58:50<br>
+DateTimeOriginal : 2006:10:02 22:58:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/5<br>
+FNumber : 3.4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.4 mm<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 998<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2006:10:02 22:58:57<br>
+ImageDescription : DVC00005.JPG<br>
+Make : DoCoMo<br>
+Model : SH702iD<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 544<br>
+PrintIM : 250</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ShutterSpeedValue : 1.2<br>
+ShutterSpeedValue : 0.8<br>
+<br>
+UserComment : 061002_225848<br>
+UserComment : 0,0,0,0,0,0,0,0,48,54,49,48,48,50,95,50,50,53,56,52,56,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH700i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:05:01 08:46:14<br>
+DateTimeOriginal : 2005:05:01 08:46:14<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 425<br>
+DateTime : 2005:05:01 08:56:59<br>
+ImageDescription : DVC00066.JPG<br>
+Make : DoCoMo<br>
+Model : SH700i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 227</td>
+<td class="unsupported">UserComment : 050501_084614_Ed<br>
+UserComment : 0,0,0,0,0,0,0,0,48,53,48,53,48,49,95,48,56,52,54,49,52,95,69,100,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH506iC.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:05 11:04:01<br>
+DateTimeOriginal : 2004:08:05 11:04:01<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/100<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 638<br>
+DateTime : 2004:08:05 11:04:06<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : SH506iC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208<br>
+PrintIM : 664</td>
+<td class="unsupported">UserComment : 040805_1104<br>
+UserComment : 0,0,0,0,0,0,0,0,48,52,48,56,48,53,95,49,49,48,52,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH505iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:08:29 15:57:14<br>
+DateTimeOriginal : 2004:08:29 15:57:14<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+_IFDpointer_Interop : 394<br>
+DateTime : 2004:08:29 16:09:38<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported">UserComment : 040829_1557<br>
+UserComment : 0,0,0,0,0,0,0,0,48,52,48,56,50,57,95,49,53,53,55,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+<br>
+Model : SH505iS<br>
+Model : SH505i<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH505i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:02:05 18:28:10<br>
+DateTimeOriginal : 2005:02:05 18:28:10<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+_IFDpointer_Interop : 394<br>
+DateTime : 2005:02:05 18:28:23<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : SH505i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported">UserComment : 050205_1828<br>
+UserComment : 0,0,0,0,0,0,0,0,48,53,48,50,48,53,95,49,56,50,56,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH06A.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:01:29 11:42:48<br>
+DateTimeOriginal : 2010:01:29 11:42:48<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 854 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Makernote : 0<br>
+DateTime : 2010:01:29 14:56:03<br>
+Make : DoCoMo<br>
+Model : SH06A<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">UserComment : 100129_114248_ed<br>
+UserComment : 0,0,0,0,0,0,0,0,49,48,48,49,50,57,95,49,49,52,50,52,56,95,101,100<br>
+<br>
+ImageDescription : 100129_114248_ed<br>
+ImageDescription : 100129114248ed<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH03A.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:11:07 14:47:21<br>
+DateTimeOriginal : 2009:11:07 14:47:21<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureTime : 1/565<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/564<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2009:11:07 14:47:29<br>
+ImageDescription : DVC00179.JPG<br>
+Make : DoCoMo<br>
+Model : SH03A<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 330<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,4,0,1,0,20,0,20,0,2,0,1,0,0,0,1,1,1,0,0,0,16,1,130,0,0,0</td>
+<td class="unsupported">UserComment : 091107_144720<br>
+UserComment : 0,0,0,0,0,0,0,0,48,57,49,49,48,55,95,49,52,52,55,50,48<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoSH01A.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:07 00:19:09<br>
+DateTimeOriginal : 2010:03:07 00:19:09<br>
+DigitalZoomRatio : 1.9<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 854 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/4<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2010:03:07 00:19:32<br>
+Make : DoCoMo<br>
+Model : SH01A<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 262<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,4,0,1,0,20,0,20,0,2,0,1,0,0,0,1,1,1,0,0,0,16,1,130,0,0,0</td>
+<td class="unsupported">UserComment : 100307_001906<br>
+UserComment : 0,0,0,0,0,0,0,0,49,48,48,51,48,55,95,48,48,49,57,48,54<br>
+<br>
+ImageDescription : 100307_001906<br>
+ImageDescription : 100307001906<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP905i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:05:18 17:22:00<br>
+DateTimeOriginal : 2008:05:18 17:22:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+_IFDpointer_Interop : 456<br>
+DateTime : 2008:07:26 13:02:06<br>
+ImageDescription : 2008051817220000<br>
+Make : DoCoMo<br>
+Model : P905i<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+Software : Paint Shop Pro Photo 11.20<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 258</td>
+<td class="unsupported">UserComment : 2008/ 5/18 17:22<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,56,47,32,53,47,49,56,32,49,55,58,50,50,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP903i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:10:07 22:22:00<br>
+DateTimeOriginal : 2008:10:07 22:22:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 240 px h<br>
+_IFDpointer_Interop : 452<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2008:10:07 22:35:00<br>
+ImageDescription : 197753798<br>
+Make : DoCoMo<br>
+Model : P903i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246<br>
+PrintIM : 482</td>
+<td class="unsupported">UserComment : ?????~?N<br>
+UserComment : 0,0,0,0,0,0,0,0,143,137,137,185,131,126,131,78,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP901i.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:03 15:17:00<br>
+DateTimeOriginal : 2005:04:03 15:17:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+FNumber : 4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.7 mm<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/2048<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 656<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2005:04:03 15:17:00<br>
+ImageDescription : 200504031517000<br>
+Make : DoCoMo<br>
+Model : P901i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">UserComment : 2005/04/03 15:17<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,53,47,48,52,47,48,51,32,49,53,58,49,55,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP900iV.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:02:06 13:37:00<br>
+DateTimeOriginal : 2005:02:06 13:37:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+_IFDpointer_Interop : 284<br>
+Make : DoCoMo<br>
+Model : P900iV<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 130</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP900i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:03:24 10:44:00<br>
+DateTimeOriginal : 2004:03:24 10:44:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+_IFDpointer_Interop : 282<br>
+Make : DoCoMo<br>
+Model : P900i<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 128</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP705i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:04:29 11:20:00<br>
+DateTimeOriginal : 2009:04:29 11:20:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 432 px h<br>
+_IFDpointer_Interop : 522<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2009:04:29 11:20:00<br>
+ImageDescription : 39<br>
+Make : DoCoMo<br>
+Model : P705i<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 316<br>
+PrintIM : 246</td>
+<td class="unsupported">UserComment : <br>
+UserComment : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP700i.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:20 17:28:00<br>
+DateTimeOriginal : 2005:06:20 17:28:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+FNumber : 4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/20<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 656<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2005:06:20 17:28:00<br>
+ImageDescription : 200506201728000<br>
+Make : DoCoMo<br>
+Model : P700i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">UserComment : 2005/06/20 17:28<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,53,47,48,54,47,50,48,32,49,55,58,50,56,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP506iC.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:26 15:08:16<br>
+DateTimeOriginal : 2005:03:26 15:08:15<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 328<br>
+DateTime : 2005:03:26 15:08:16<br>
+Make : DoCoMo<br>
+Model : P506iC<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP505iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:09:17 21:48:43<br>
+DateTimeOriginal : 2004:09:17 21:48:40<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 328<br>
+DateTime : 2004:09:17 21:48:43<br>
+Make : DoCoMo<br>
+Model : P505iS<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP505i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:19 17:03:28<br>
+DateTimeOriginal : 2005:03:19 17:03:24<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+_IFDpointer_Interop : 328<br>
+DateTime : 2005:03:19 17:03:28<br>
+Make : DoCoMo<br>
+Model : P505i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP253i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:26 18:47:06<br>
+DateTimeOriginal : 2005:03:26 18:46:52<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+_IFDpointer_Interop : 328<br>
+DateTime : 2005:03:26 18:47:06<br>
+Make : DoCoMo<br>
+Model : P253i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP252iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:05 20:21:34<br>
+DateTimeOriginal : 2005:03:05 20:21:25<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+_IFDpointer_Interop : 328<br>
+DateTime : 2005:03:05 20:21:34<br>
+Make : DoCoMo<br>
+Model : P252iS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP252i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:24 14:49:31<br>
+DateTimeOriginal : 2005:03:24 14:49:27<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+_IFDpointer_Interop : 328<br>
+DateTime : 2005:03:24 14:49:31<br>
+Make : DoCoMo<br>
+Model : P252i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoP2102V.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:12:03 18:22:00<br>
+DateTimeOriginal : 2005:12:03 18:22:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 284<br>
+Make : DoCoMo<br>
+Model : P2102V<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 130</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN906imyu.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:02:16 11:25:00<br>
+DateTimeOriginal : 2011:02:16 11:25:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+_IFDpointer_Interop : 490<br>
+_IFDpointer_Makernote : 78,69,67,32,77,111,98,105,108,101<br>
+Copyright : <br>
+DateTime : 2011:02:16 11:36:00<br>
+ImageDescription : 201102161136000<br>
+Make : DoCoMo<br>
+Model : N906imyu<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 238</td>
+<td class="unsupported">UserComment : 2011/02/16 11:36<br>
+UserComment : 426<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN904i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:06:25 10:56:00<br>
+DateTimeOriginal : 2008:06:25 10:56:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/100<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 632<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2008:06:25 10:56:00<br>
+ImageDescription : 200806251056000<br>
+Make : DoCoMo<br>
+Model : N904i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+<br>
+UserComment : 2008/06/25 10:56<br>
+UserComment : 568<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN901iC.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:23 14:35:00<br>
+DateTimeOriginal : 2005:04:23 14:35:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 646<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2005:04:23 14:35:00<br>
+ImageDescription : 200504231435000<br>
+Make : DoCoMo<br>
+Model : N901iC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248<br>
+PrintIM : 676</td>
+<td class="unsupported">UserComment : 2005/04/23 14:35<br>
+UserComment : 582<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN900iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:12:05 18:02:00<br>
+DateTimeOriginal : 2004:12:05 18:02:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1616 px w<br>
+PixelYDimension : 1212 px h<br>
+SceneCaptureType : Landscape<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 458<br>
+DateTime : 2004:12:05 18:02:00<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : N900iS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208<br>
+PrintIM : 488</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN900i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:08 05:48:00<br>
+DateTimeOriginal : 2004:07:08 05:48:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1616 px w<br>
+PixelYDimension : 1212 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 456<br>
+DateTime : 2004:07:08 05:48:00<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : N900i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 206<br>
+PrintIM : 486</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN703iD.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:04:05 23:09:00<br>
+DateTimeOriginal : 2008:04:05 23:09:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+_IFDpointer_Interop : 478<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2008:04:05 23:09:00<br>
+Make : DoCoMo<br>
+Model : N703iD<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">UserComment : mono800_600<br>
+UserComment : 414<br>
+<br>
+ImageDescription : mono800_600<br>
+ImageDescription : mono800600<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN700i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:03 13:54:00<br>
+DateTimeOriginal : 2005:04:03 13:54:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.5<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/16<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 644<br>
+_IFDpointer_Makernote : <br>
+Copyright : <br>
+DateTime : 2005:04:03 13:54:00<br>
+ImageDescription : 200504031354001<br>
+Make : DoCoMo<br>
+Model : N700i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246<br>
+PrintIM : 674</td>
+<td class="unsupported">UserComment : 2005/04/03 13:54<br>
+UserComment : 580<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN506iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:24 17:21:00<br>
+DateTimeOriginal : 2005:04:24 17:18:00<br>
+ExifVersion : 2.20<br>
+FNumber : 4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 674<br>
+DateTime : 2005:04:24 17:24:00<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : N506iS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 416<br>
+PrintIM : 208</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN506i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:12 08:32:00<br>
+DateTimeOriginal : 2004:09:12 08:32:00<br>
+ExifVersion : 2.20<br>
+FNumber : 4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 672<br>
+DateTime : <br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : N506i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 414<br>
+PrintIM : 206</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN505iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:24 11:06:00<br>
+DateTimeOriginal : 2005:04:24 11:06:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+_IFDpointer_Interop : 350<br>
+DateTime : 2005:04:24 19:47:00<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : N505iS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN505i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:08:10 18:07:00<br>
+DateTimeOriginal : 2003:08:10 18:07:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+DateTime : 2003:08:10 18:07:00<br>
+ImageDescription : untitled<br>
+Make : DoCoMo<br>
+Model : N505i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoN01A.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:10 17:34:00<br>
+DateTimeOriginal : 2010:04:10 17:34:00<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.2 mm<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 854 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/141<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 642<br>
+_IFDpointer_Makernote : 78,69,67,32,77,111,98,105,108,101<br>
+Copyright : <br>
+DateTime : 2010:04:10 17:34:00<br>
+ImageDescription : 201004101735000<br>
+Make : DoCoMo<br>
+Model : N01A<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">UserComment : 2010/04/10 17:35<br>
+UserComment : 578<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoM702iG.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:11:18 18:44:59<br>
+DateTimeOriginal : 2009:11:18 18:44:59<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : <br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 670<br>
+_IFDpointer_Makernote : 83,47,87,32,86,101,114,58,32,86,50,48,48,48,95,85,95,57,48,46,50,49,46,48,67,46,67,50,73,0<br>
+Copyright : <br>
+DateTime : 2009:11:18 18:44:59<br>
+Make : DOCOMO<br>
+Model : M702iG<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 370</td>
+<td class="unsupported">FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+UserComment : 11-18-09_1845       <br>
+UserComment : 11-18-091845<br>
+<br>
+ImageDescription : 11-18-09_1845<br>
+ImageDescription : 11-18-091845<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF905i.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:04 03:43:51<br>
+DateTimeOriginal : 2009:11:04 03:43:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.26300048828125<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 1343.800000<br>
+FocalPlaneYResolution : 2389.100000<br>
+GainControl : None<br>
+ISO : 206<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/4<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 978<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2009:11:04 03:43:51<br>
+ImageDescription : 20091104034333<br>
+Make : DoCoMo<br>
+Model : F905i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F905i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 310<br>
+PrintIM : 264</td>
+<td class="unsupported">BrightnessValue : -1.01550293<br>
+BrightnessValue : -1.0155029296875<br>
+<br>
+CompressedBitsPerPixel : 0.4638020833<br>
+CompressedBitsPerPixel : 0.46380208333333334<br>
+<br>
+UserComment : 20091104034333<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,57,49,49,48,52,48,51,52,51,51,51<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF901iC.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : 2005:04:20 19:15:37<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+_IFDpointer_Makernote : 0<br>
+DateTime : 2005:04:20 19:15:37<br>
+ImageDescription : 20050420191537<br>
+Make : DoCoMo<br>
+Model : F901iC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">UserComment : 20050420191537<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,53,48,52,50,48,49,57,49,53,51,55<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF900iT.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 1.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:27 07:00:46<br>
+DateTimeOriginal : 2005:01:27 07:00:43<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 3.6<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 176 px w<br>
+PixelYDimension : 144 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 830<br>
+Copyright : <br>
+DateTime : 2005:01:27 07:00:46<br>
+Make : DoCoMo<br>
+Model : F900iT<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F900iT Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported">FileSource : Unknown ( )<br>
+FileSource : 3,0<br>
+<br>
+FocalPlaneXResolution : 0.494062984<br>
+FocalPlaneXResolution : 0.494063<br>
+<br>
+FocalPlaneYResolution : 0.3586807146<br>
+FocalPlaneYResolution : 0.358681<br>
+<br>
+SceneType : Unknown ( )<br>
+SceneType : Directly photographed<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF900iC.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 5.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4.1871875<br>
+DateTimeDigitized : 2005:03:19 15:10:42<br>
+DateTimeOriginal : 2005:03:19 15:10:37<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/100<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/91<br>
+Copyright : <br>
+DateTime : 2005:03:19 15:10:42<br>
+Make : DoCoMo<br>
+Model : F900iC<br>
+ResolutionUnit : inches<br>
+Software : F900iC Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 356</td>
+<td class="unsupported">FocalPlaneXResolution : 0.5863490609<br>
+FocalPlaneXResolution : 0.586349<br>
+<br>
+FocalPlaneYResolution : 0.4956117708<br>
+FocalPlaneYResolution : 0.495612<br>
+<br>
+UserComment : 20050319151037<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,53,48,51,49,57,49,53,49,48,51,55<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF900i.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 4.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:02 16:43:13<br>
+DateTimeOriginal : 2005:04:02 16:43:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/50<br>
+FNumber : 3.6<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/45<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 826<br>
+Copyright : <br>
+DateTime : 2005:04:02 16:43:18<br>
+Make : DoCoMo<br>
+Model : F900i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F900i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported">FileSource : Unknown ( )<br>
+FileSource : 3,0<br>
+<br>
+FocalPlaneXResolution : 0.4956117708<br>
+FocalPlaneXResolution : 0.495612<br>
+<br>
+FocalPlaneYResolution : 0.3298213468<br>
+FocalPlaneYResolution : 0.329821<br>
+<br>
+SceneType : Unknown ( )<br>
+SceneType : Directly photographed<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF506i.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:08 15:45:00<br>
+DateTimeOriginal : 2005:04:08 15:45:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/7<br>
+FNumber : 5.4<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.7 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/8<br>
+DateTime : 2005:04:08 15:45:00<br>
+Make : DoCoMo<br>
+Model : F506i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F506i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 338</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.130366162<br>
+CompressedBitsPerPixel : 3.1303661616161618<br>
+<br>
+FocalPlaneXResolution : 0.60400151<br>
+FocalPlaneXResolution : 0.604002<br>
+<br>
+FocalPlaneYResolution : 0.5145797599<br>
+FocalPlaneYResolution : 0.514580<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF505iGPS.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 10.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:23 12:04:00<br>
+DateTimeOriginal : 2005:04:23 12:04:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/4000<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/4096<br>
+DateTime : 2005:04:23 12:04:00<br>
+Make : DoCoMo<br>
+Model : F505iGPS<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F505iGPS Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 346</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.734059343<br>
+CompressedBitsPerPixel : 1.7340593434343434<br>
+<br>
+FocalPlaneXResolution : 0.1465872652<br>
+FocalPlaneXResolution : 0.146587<br>
+<br>
+FocalPlaneYResolution : 0.1239029427<br>
+FocalPlaneYResolution : 0.123903<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF505i.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 2.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:29 17:19:00<br>
+DateTimeOriginal : 2005:01:29 17:19:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+FocalPlaneResolutionUnit : cm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/11<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 820<br>
+DateTime : 2005:01:29 17:19:00<br>
+Make : DoCoMo<br>
+Model : F505i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F505i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.358229167<br>
+CompressedBitsPerPixel : 2.358229166666667<br>
+<br>
+FocalPlaneXResolution : 0.4956117708<br>
+FocalPlaneXResolution : 0.495612<br>
+<br>
+FocalPlaneYResolution : 0.5863490609<br>
+FocalPlaneYResolution : 0.586349<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoF2102V.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : <br>
+DateTimeOriginal : <br>
+ExifVersion : 2.00<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+DateTime : 2004:04:27 11:29:34<br>
+ImageDescription : 20040427111032<br>
+Make : DoCoMo<br>
+Model : F2102V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoEggy.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:11:13 08:41:07<br>
+DateTimeOriginal : 2003:11:13 08:41:07<br>
+ExifVersion : 2.10<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 296<br>
+_IFDpointer_Makernote : 0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 2003:11:13 08:41:07<br>
+Make : NTT DoCoMo<br>
+Model : eggy<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : eggy Ver.1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD905i.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:10:04 16:46:27<br>
+DateTimeOriginal : 2009:10:04 16:46:27<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/100<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+FocalLengthIn35mmFilm : 29 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 3513.400000<br>
+FocalPlaneYResolution : 3513.200000<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/100<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1022<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2009:10:04 16:46:27<br>
+ImageDescription : D1000017.JPG<br>
+Make : DoCoMo<br>
+Model : D905i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : D905i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 386<br>
+PrintIM : 262</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.059143066<br>
+CompressedBitsPerPixel : 3.05914306640625<br>
+<br>
+UserComment : 20091004164627<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,57,49,48,48,52,49,54,52,54,50,55<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD904i.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:12:21 21:24:52<br>
+DateTimeOriginal : 2007:12:21 21:24:35<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/13<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+FocalLengthIn35mmFilm : 29 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 686.200000<br>
+FocalPlaneYResolution : 548.900000<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/13<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1022<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2007:12:21 21:24:52<br>
+ImageDescription : 20071221212435<br>
+Make : DoCoMo<br>
+Model : D904i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : D904i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 386<br>
+PrintIM : 262</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.583666667<br>
+CompressedBitsPerPixel : 1.5836666666666666<br>
+<br>
+UserComment : 20071221212435<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,55,49,50,50,49,50,49,50,52,51,53<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD901i.jpg</td>
+<td class="supported">ApertureValue : 3.6<br>
+BrightnessValue : 7.94<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.46453125<br>
+DateTimeDigitized : 2005:05:03 07:39:27<br>
+DateTimeOriginal : 2005:05:03 07:39:27<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/435<br>
+FNumber : 3.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 6135.000000<br>
+FocalPlaneYResolution : 6135.000000<br>
+ISO : 70<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/437<br>
+_IFDpointer_Makernote : 0<br>
+Copyright : <br>
+DateTime : 2005:05:03 07:39:27<br>
+ImageDescription : 20050503073927<br>
+Make : DoCoMo<br>
+Model : D901i<br>
+ResolutionUnit : inches<br>
+Software : D901i Ver1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 380</td>
+<td class="unsupported">UserComment : 20050503073927<br>
+UserComment : 0,0,0,0,0,0,0,0,50,48,48,53,48,53,48,51,48,55,51,57,50,55<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD900i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:19 02:09:00<br>
+DateTimeOriginal : 2005:03:19 02:09:00<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Makernote : 364<br>
+DateTime : 2005:03:19 02:09:00<br>
+Make : DoCoMo<br>
+Model : D900i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">UserComment : copy="  " <br>
+UserComment : copy<br>
+<br>
+ImageDescription : PIC_0016.JPG<br>
+ImageDescription : PIC0016.JPG<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD506i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:11 15:37:15<br>
+DateTimeOriginal : 2005:04:11 15:37:15<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/16<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 684<br>
+_IFDpointer_Makernote : 580<br>
+DateTime : 2005:04:11 15:37:15<br>
+Make : DoCoMo<br>
+Model : D506i<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 210</td>
+<td class="unsupported">UserComment : 05/04/11 15:37<br>
+UserComment : 85,78,73,67,79,68,69,0,255,254,48,0,53,0,47,0,48,0,52,0,47,0,49,0,49,0,32,0,49,0,53,0,58,0,51,0,55,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD505iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:13 14:34:47<br>
+DateTimeOriginal : 2004:07:13 14:34:47<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/655<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 560<br>
+_IFDpointer_Makernote : 456<br>
+DateTime : 2004:07:13 14:34:47<br>
+Make : DoCoMo<br>
+Model : D505iS<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">UserComment : 04/07/13 14:34<br>
+UserComment : 85,78,73,67,79,68,69,0,255,254,48,0,52,0,47,0,48,0,55,0,47,0,49,0,51,0,32,0,49,0,52,0,58,0,51,0,52,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD505i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:07 20:51:45<br>
+DateTimeOriginal : 2005:04:07 20:51:45<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+_IFDpointer_Interop : 480<br>
+_IFDpointer_Makernote : 376<br>
+DateTime : 2005:04:07 20:51:45<br>
+Make : DoCoMo<br>
+Model : D505i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">UserComment : 05/04/07 20:51<br>
+UserComment : 85,78,73,67,79,68,69,0,255,254,48,0,53,0,47,0,48,0,52,0,47,0,48,0,55,0,32,0,50,0,48,0,58,0,53,0,49,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD253iWM.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:05 12:54:58<br>
+DateTimeOriginal : 2005:01:05 12:54:58<br>
+ExifVersion : 2.21<br>
+ExposureMode : Auto<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 220 px w<br>
+PixelYDimension : 176 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 684<br>
+_IFDpointer_Makernote : 580<br>
+DateTime : 2005:01:05 12:54:58<br>
+Make : DoCoMo<br>
+Model : D253iWM<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 322<br>
+PrintIM : 210</td>
+<td class="unsupported">ExposureTime : 1/50<br>
+ExposureTime : 1/49<br>
+<br>
+UserComment : 05/01/05 12:54<br>
+UserComment : 85,78,73,67,79,68,69,0,255,254,48,0,53,0,47,0,48,0,49,0,47,0,48,0,53,0,32,0,49,0,50,0,58,0,53,0,52,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD252i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:03:14 18:12:18<br>
+DateTimeOriginal : 2005:03:14 18:12:18<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 288 px w<br>
+PixelYDimension : 352 px h<br>
+_IFDpointer_Interop : 480<br>
+_IFDpointer_Makernote : 376<br>
+DateTime : 2005:03:14 18:12:18<br>
+Make : DoCoMo<br>
+Model : D252i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">UserComment : 05/03/14 18:12<br>
+UserComment : 85,78,73,67,79,68,69,0,255,254,48,0,53,0,47,0,48,0,51,0,47,0,49,0,52,0,32,0,49,0,56,0,58,0,49,0,50,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD251iS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:07:24 14:04:47<br>
+DateTimeOriginal : 2004:07:24 14:04:47<br>
+ExifVersion : 2.00<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+Make : DoCoMo<br>
+Model : D251iS<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 154</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DoCoMo/DoCoMoD251i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : :  :     :  :<br>
+DateTimeOriginal : :  :     :  :<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 352 px w<br>
+PixelYDimension : 288 px h<br>
+Make : DoCoMo<br>
+Model : D251i<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 154</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

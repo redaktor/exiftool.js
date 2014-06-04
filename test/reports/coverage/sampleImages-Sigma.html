@@ -1,0 +1,3166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Sigma/SigmaSD9.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA SD9<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : SIGMA PhotoPro 3<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/500<br>
+FNumber : 4<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:04:30 17:29:24<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+SerialNumber : 01007024<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : MF<br>
+FocusSetting : M<br>
+WhiteBalance : Auto<br>
+MeteringMode : Center-weighted average<br>
+Contrast : 0.5<br>
+Shadow : -0.6<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0.5<br>
+X3FillLight : 0.2<br>
+AdjustmentMode : Custom: Current Unsaved Setting<br>
+Quality : 10<br>
+Firmware : 2.0.4.1642 Release<br>
+AutoBracket : <br>
+MakerNoteVersion : 1.00<br>
+AFPoint : <br>
+Calibration : <br>
+ColorMode : n/a<br>
+LensApertureRange : 32 to 4<br>
+BurstShot : 0<br>
+ExposureCompensation : +0.5<br>
+SensorTemperature : <br>
+FlashExposureComp : 0<br>
+UserComment : 9234<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 30313030373032347427364638B58CB8</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaSD9.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaSD9.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:05:03 02:19:08<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:05:03 02:19:08<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 300.0 mm<br>
+FocalLength : 300 mm<br>
+<br>
+LensFocalRange : 100 to 300<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : 0<br>
+<br>
+ExifImageWidth : 2268<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1512<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 510 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 328<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8519<br>
+ThumbnailLength : undefined<br>
+<br>
+Warning : Bad length ICC_Profile (length 3144)<br>
+Warning : undefined<br>
+<br>
+ProfileCMMType : Lino<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.1.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Display Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 1998:02:09 06:49:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Microsoft Corporation<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : IEC <br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : sRGB<br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : HP  <br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+ProfileCopyright : Copyright (c) 1998 Hewlett-Packard Company<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescription : sRGB IEC61966-2.1<br>
+ProfileDescription : undefined<br>
+<br>
+MediaWhitePoint : 0.95045 1 1.08905<br>
+MediaWhitePoint : undefined<br>
+<br>
+MediaBlackPoint : 0 0 0<br>
+MediaBlackPoint : undefined<br>
+<br>
+RedMatrixColumn : 0.43607 0.22249 0.01392<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.38515 0.71687 0.09708<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.14307 0.06061 0.7141<br>
+BlueMatrixColumn : undefined<br>
+<br>
+DeviceMfgDesc : IEC http://www.iec.ch<br>
+DeviceMfgDesc : undefined<br>
+<br>
+DeviceModelDesc : IEC 61966-2.1 Default RGB colour space - sRGB<br>
+DeviceModelDesc : undefined<br>
+<br>
+ViewingCondDesc : Reference Viewing Condition in IEC61966-2.1<br>
+ViewingCondDesc : undefined<br>
+<br>
+ViewingCondIlluminant : 19.6445 20.3718 16.8089<br>
+ViewingCondIlluminant : undefined<br>
+<br>
+ViewingCondSurround : 3.92889 4.07439 3.36179<br>
+ViewingCondSurround : undefined<br>
+<br>
+ViewingCondIlluminantType : D50<br>
+ViewingCondIlluminantType : undefined<br>
+<br>
+Luminance : 76.03647 80 87.12462<br>
+Luminance : undefined<br>
+<br>
+MeasurementObserver : CIE 1931<br>
+MeasurementObserver : undefined<br>
+<br>
+MeasurementBacking : 0 0 0<br>
+MeasurementBacking : undefined<br>
+<br>
+MeasurementGeometry : Unknown (0)<br>
+MeasurementGeometry : undefined<br>
+<br>
+MeasurementFlare : 0.999%<br>
+MeasurementFlare : undefined<br>
+<br>
+MeasurementIlluminant : D65<br>
+MeasurementIlluminant : undefined<br>
+<br>
+Technology : Cathode Ray Tube Display<br>
+Technology : undefined<br>
+<br>
+RedTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/500<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8519 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 4.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 300.0 mm (35 mm equivalent: 510.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1273.04 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaSD1Merrill.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA SD1 Merrill<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : SIGMA Photo Pro 5.2.1.0000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+FNumber : 5.6<br>
+ExposureProgram : Manual<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2012:03:27 17:55:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+Flash : No Flash<br>
+SerialNumber : 90501018<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : MF<br>
+FocusSetting : M<br>
+MeteringMode : Multi-segment<br>
+LensFocalRange : 17 to 50<br>
+Contrast : +0.0<br>
+Shadow : +0.0<br>
+Highlight : +0.0<br>
+Saturation : +0.0<br>
+Sharpness : +0.0<br>
+X3FillLight : +0.0<br>
+ColorAdjustment : 0<br>
+AdjustmentMode : X3F Setting Mode<br>
+Quality : 12<br>
+Firmware : 1.00.0.6538<br>
+AutoBracket : <br>
+ChrominanceNoiseReduction : +0.000<br>
+LuminanceNoiseReduction : +0.000<br>
+ColorMode : Landscape<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto bracket<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 3030353031303138FDFE714F33334446</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaSD1Merrill.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaSD1Merrill.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:04:07 22:02:43<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:04:07 22:02:43<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 23.0 mm<br>
+FocalLength : 23 mm<br>
+<br>
+WhiteBalance : Shade<br>
+WhiteBalance : Manual<br>
+<br>
+ExposureCompensation : +0.0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 4704<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3136<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 34 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 323<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7793<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 1.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7793 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.020 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 55.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 23.0 mm (35 mm equivalent: 34.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 4.65 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaSD15.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA SD15<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.93.0.000000000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1<br>
+FNumber : 8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 50<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:06:15 14:02:54<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+SerialNumber : 1001044<br>
+DriveMode : 2S<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+AutoBracket : <br>
+AFPoint : Center     <br>
+ColorMode : Standard<br>
+BurstShot : 1<br>
+FlashExposureComp : 0<br>
+PictureMode : Standard<br>
+UserComment : 2112<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 30313030313034340e88174c36396562<br>
+Gamma : 2.2</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaSD15.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaSD15.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 56 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:15 14:02:54<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:15 14:02:54<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 18.0 mm<br>
+FocalLength : 18 mm<br>
+<br>
+LensFocalRange : 18 to 50<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+Firmware : 0.93.0.000<br>
+Firmware : 101<br>
+<br>
+PreviewImageStart : 16724<br>
+PreviewImageStart : 4<br>
+<br>
+PreviewImageLength : 40348<br>
+PreviewImageLength : 48,49,48,48<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : undefined<br>
+<br>
+MakerNoteVersion : 0100<br>
+MakerNoteVersion : undefined<br>
+<br>
+FileFormat : JPG-S<br>
+FileFormat : 0<br>
+<br>
+Calibration : C24_CalibrationSoft Version 1.00
+RunID:C72Cal-001;Runtime:2010-05-12-13:38:24<br>
+Calibration : 2.8 to 22  <br>
+<br>
+LensApertureRange : 2.8 to 22<br>
+LensApertureRange : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : Off<br>
+<br>
+SensorTemperature : 36 C<br>
+SensorTemperature : 36             <br>
+<br>
+ExifImageWidth : 2640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1760<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 30 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 14351<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 40348 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 14351 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 61.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 18.0 mm (35 mm equivalent: 30.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.25 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaSD14.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA SD14<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : SIGMA PhotoPro 3<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/200<br>
+FNumber : 8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:01:20 10:05:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+SerialNumber : 01001021<br>
+DriveMode : MULTI<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Center-weighted average<br>
+Contrast : 0.4<br>
+Shadow : -0.4<br>
+Highlight : 0.1<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : X3F<br>
+Quality : 12<br>
+Firmware : SD14 0.00.0.160<br>
+AutoBracket : 0 of 0<br>
+AFPoint : <br>
+Calibration : 22 to 2.8<br>
+ColorMode : n/a<br>
+ExposureTime2 : 1/197<br>
+BurstShot : 3<br>
+SensorTemperature : <br>
+FlashExposureComp : 0<br>
+UserComment : 7762<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto bracket<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 303130303130323178E9B145FD215700</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaSD14.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaSD14.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:02:13 11:26:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:02:13 11:26:51<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 70.0 mm<br>
+FocalLength : 70 mm<br>
+<br>
+LensFocalRange : 70<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageStart : 1920<br>
+PreviewImageStart : 0<br>
+<br>
+PreviewImageLength : 38519<br>
+PreviewImageLength : 48,49,48,48<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : undefined<br>
+<br>
+MakerNoteVersion : 0100<br>
+MakerNoteVersion : undefined<br>
+<br>
+FileFormat : X3F<br>
+FileFormat : 0<br>
+<br>
+LensApertureRange : 22 to 2.8<br>
+LensApertureRange : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : Off<br>
+<br>
+ExifImageWidth : 1760<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2640<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 119 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 330<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6998<br>
+ThumbnailLength : undefined<br>
+<br>
+Warning : Bad length ICC_Profile (length 3144)<br>
+Warning : undefined<br>
+<br>
+ProfileCMMType : Lino<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.1.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Display Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 1998:02:09 06:49:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Microsoft Corporation<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : IEC <br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : sRGB<br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : HP  <br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+ProfileCopyright : Copyright (c) 1998 Hewlett-Packard Company<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescription : sRGB IEC61966-2.1<br>
+ProfileDescription : undefined<br>
+<br>
+MediaWhitePoint : 0.95045 1 1.08905<br>
+MediaWhitePoint : undefined<br>
+<br>
+MediaBlackPoint : 0 0 0<br>
+MediaBlackPoint : undefined<br>
+<br>
+RedMatrixColumn : 0.43607 0.22249 0.01392<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.38515 0.71687 0.09708<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.14307 0.06061 0.7141<br>
+BlueMatrixColumn : undefined<br>
+<br>
+DeviceMfgDesc : IEC http://www.iec.ch<br>
+DeviceMfgDesc : undefined<br>
+<br>
+DeviceModelDesc : IEC 61966-2.1 Default RGB colour space - sRGB<br>
+DeviceModelDesc : undefined<br>
+<br>
+ViewingCondDesc : Reference Viewing Condition in IEC61966-2.1<br>
+ViewingCondDesc : undefined<br>
+<br>
+ViewingCondIlluminant : 19.6445 20.3718 16.8089<br>
+ViewingCondIlluminant : undefined<br>
+<br>
+ViewingCondSurround : 3.92889 4.07439 3.36179<br>
+ViewingCondSurround : undefined<br>
+<br>
+ViewingCondIlluminantType : D50<br>
+ViewingCondIlluminantType : undefined<br>
+<br>
+Luminance : 76.03647 80 87.12462<br>
+Luminance : undefined<br>
+<br>
+MeasurementObserver : CIE 1931<br>
+MeasurementObserver : undefined<br>
+<br>
+MeasurementBacking : 0 0 0<br>
+MeasurementBacking : undefined<br>
+<br>
+MeasurementGeometry : Unknown (0)<br>
+MeasurementGeometry : undefined<br>
+<br>
+MeasurementFlare : 0.999%<br>
+MeasurementFlare : undefined<br>
+<br>
+MeasurementIlluminant : D65<br>
+MeasurementIlluminant : undefined<br>
+<br>
+Technology : Cathode Ray Tube Display<br>
+Technology : undefined<br>
+<br>
+RedTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 38519 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/200<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6998 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 17.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 70.0 mm (35 mm equivalent: 119.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 34.65 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaSD10.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA SD10<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : SIGMA PhotoPro 2.0.0.1586<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/320<br>
+FNumber : 8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:11:27 10:31:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.5<br>
+Flash : No Flash<br>
+SerialNumber : 02000019<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+MeteringMode : Multi-segment<br>
+LensFocalRange : 24 to 70<br>
+Contrast : +0.0<br>
+Shadow : +0.0<br>
+Highlight : +0.0<br>
+Saturation : +0.4<br>
+Sharpness : +1.0<br>
+X3FillLight : +0.0<br>
+ColorAdjustment : 0<br>
+AdjustmentMode : X3F Setting Mode<br>
+Quality : 12<br>
+Firmware : 2.0.4.1642 Release<br>
+AutoBracket : <br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Sigma Digital Camera<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 303230303030313986D2C53F8ABDA2A6</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaSD10.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaSD10.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:03:19 17:48:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:03:19 17:48:51<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 60.0 mm<br>
+FocalLength : 60 mm<br>
+<br>
+WhiteBalance : Sunlight<br>
+WhiteBalance : Manual<br>
+<br>
+ExposureCompensation : +0.8<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2268<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1512<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 102 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 315<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10534<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/320<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10534 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 20.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 60.0 mm (35 mm equivalent: 102.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 25.46 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaSD1.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA SD1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.0.5445<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/500<br>
+FNumber : 5.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+SensitivityType : ISO Speed<br>
+ExifVersion : 2.30<br>
+DateTimeOriginal : 2011:06:22 10:15:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/498<br>
+ApertureValue : 5.6<br>
+BrightnessValue : 7.62<br>
+MaxApertureValue : 2.8<br>
+SubjectDistance : 1.07 m<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+SerialNumber : 90101473<br>
+DriveMode : MULTI<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+AutoBracket : 2 of 3<br>
+PreviewImageLength : 40837<br>
+MakerNoteVersion : 1.00<br>
+FileFormat : JPG-P<br>
+PictureMode : Standard<br>
+ExposureTime2 : 1/469483568<br>
+ExposureCompensation : -1.3<br>
+FlashExposureComp : 0<br>
+DigitalFilter : Standard<br>
+UserComment : 3239<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 3030313031343733BAC0014E31343345<br>
+Gamma : 0</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaSD1.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaSD1.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 55 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:06:22 10:15:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:06:22 10:15:22<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 45.0 mm<br>
+FocalLength : 45 mm<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+Firmware : 1.00.0.5445<br>
+Firmware : Ver 1.0<br>
+<br>
+PreviewImageStart : 15064<br>
+PreviewImageStart : 40,480<br>
+<br>
+LensType : Sigma 17-50mm F2.8 EX DC OS<br>
+LensType : 583<br>
+<br>
+LensFocalRange : 17 to 50<br>
+LensFocalRange : 17,50<br>
+<br>
+LensMaxApertureRange : 2.8 to 22<br>
+LensMaxApertureRange : 2.8,22<br>
+<br>
+Calibration : F20_CalibrationSoft Version 11-04-22
+RunID:F20Cal-01-001
+Runtime:2011-5-26 14:22:41<<br>
+Calibration : 2.8 to 22  <br>
+<br>
+LensApertureRange : 2.8 to 22<br>
+LensApertureRange : undefined<br>
+<br>
+SensorTemperature : 38 C<br>
+SensorTemperature : 38             <br>
+<br>
+ExifImageWidth : 4704<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 67 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3524<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11537<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+LensID : Sigma 17-50mm F2.8 EX DC OS<br>
+LensID : undefined<br>
+<br>
+PreviewImage : (Binary data 40837 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/500<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11537 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.020 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+DOF : 0.12 m (1.01 - 1.13)<br>
+DOF : undefined<br>
+<br>
+FOV : 30.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 45.0 mm (35 mm equivalent: 67.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 17.92 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP3Merrill.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : SIGMA<br>
+Model : SIGMA DP3 Merrill<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.1.6876<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2012<br>
+ExposureTime : 1/320<br>
+FNumber : 5.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.30<br>
+DateTimeOriginal : 2013:02:16 15:23:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/320<br>
+ApertureValue : 5.6<br>
+BrightnessValue : 9<br>
+MaxApertureValue : 2.8<br>
+SubjectDistance : 7.759 m<br>
+LightSource : Daylight<br>
+Flash : No Flash<br>
+SerialNumber : 90601173<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+MeteringMode : Multi-segment<br>
+Shadow : 0<br>
+Highlight : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : NORMAL<br>
+AutoBracket : <br>
+PreviewImageLength : 41090<br>
+MakerNoteVersion : 1.00<br>
+FileFormat : JPG-S<br>
+PictureMode : Standard<br>
+ExposureTime2 : 1/332225914<br>
+ExposureCompensation : +0.7<br>
+FlashExposureComp : 0<br>
+DigitalFilter : Standard<br>
+UserComment : 4636<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ImageUniqueID : 30303630313137338035355135313335<br>
+Gamma : 2.2</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP3Merrill.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP3Merrill.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 58 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:02:16 15:23:18<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:02:16 15:23:18<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+WhiteBalance : Daylight<br>
+WhiteBalance : Manual<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+Firmware : 1.00.1.6876<br>
+Firmware : 1.02.6457<br>
+<br>
+PreviewImageStart : 17572<br>
+PreviewImageStart : 640,480<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : undefined<br>
+<br>
+LensType : Sigma 50mm F2.8 Macro<br>
+LensType : 1005<br>
+<br>
+LensFocalRange : 50 to 50<br>
+LensFocalRange : 50,50<br>
+<br>
+LensMaxApertureRange : 2.8 to 2.8<br>
+LensMaxApertureRange : 2.8,2.8<br>
+<br>
+Calibration : F20_CalibrationSoft Version 1.00 13-01-10
+RunID:F20Cal-01-001
+Runtime:2013-1-16 15:39:7<br>
+Calibration : 2.8 to 16  <br>
+<br>
+LensApertureRange : 2.8 to 16<br>
+LensApertureRange : undefined<br>
+<br>
+SensorTemperature : 18 C<br>
+SensorTemperature : 18             <br>
+<br>
+ExifImageWidth : 4704<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 75 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Warning : Bad PrintIM size<br>
+Warning : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4984<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12588<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+LensID : Sigma 50mm F2.8 Macro<br>
+LensID : undefined<br>
+<br>
+PreviewImage : (Binary data 41090 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/320<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12588 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.020 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+DOF : 6.10 m (5.76 - 11.86)<br>
+DOF : undefined<br>
+<br>
+FOV : 27.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 50.0 mm (35 mm equivalent: 75.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 22.29 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP2X.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA DP2X<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.0.005000000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/160<br>
+FNumber : 5.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2011:06:05 21:33:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 24.2 mm<br>
+SerialNumber : <br>
+DriveMode : SINGLE<br>
+ResolutionMode : MED<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+Firmware : 1.00.0.005<br>
+AutoBracket : <br>
+PreviewImageLength : 40007<br>
+MakerNoteVersion : 1.00<br>
+AFPoint : Center     <br>
+ColorMode : Standard<br>
+LensApertureRange : 2.8 to 14  <br>
+BurstShot : 0<br>
+ExposureCompensation : +1<br>
+FlashExposureComp : 0<br>
+UserComment : 2112<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 302000000000000043F6EB4D36323438</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP2X.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP2X.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 55 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:06:05 21:33:55<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:06:05 21:33:55<br>
+CreateDate : undefined<br>
+<br>
+LensFocalRange : 24.2<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageStart : 15980<br>
+PreviewImageStart : 15968<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : 4<br>
+<br>
+FileFormat : JPG-S<br>
+FileFormat : 0<br>
+<br>
+Calibration : C76_CalibrationSoft Version 1.00
+RunID:C76Cal-001;Runtime:2011-04-05-16:01:32<br>
+Calibration : C76CalibrationSoft Version 1.00RunID:C76Cal-001;Runtime:2011-04-05-16:01:32<br>
+<br>
+ExposureTime2 : 1/160<br>
+ExposureTime2 : NaN<br>
+<br>
+SensorTemperature : 41 C<br>
+SensorTemperature : 41             <br>
+<br>
+ExifImageWidth : 1872<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1248<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 41 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Gamma : undef<br>
+Gamma : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13606<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 40007 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/160<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13606 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 47.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 24.2 mm (35 mm equivalent: 41.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 5.90 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 12.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP2S.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA DP2S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.0.005000000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/100<br>
+FNumber : 5.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:03:28 13:10:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 24.2 mm<br>
+SerialNumber : 1001212<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+Firmware : 1.00.0.005<br>
+AutoBracket : 3<br>
+PreviewImageLength : 43996<br>
+MakerNoteVersion : 1.00<br>
+AFPoint : Center     <br>
+ColorMode : Standard<br>
+LensApertureRange : 2.8 to 14  <br>
+BurstShot : 3<br>
+ExposureCompensation : +1<br>
+FlashExposureComp : 0<br>
+UserComment : 2112<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 30313030313231324b55af4b35663335</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP2S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP2S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 60 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:03:28 13:10:35<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:03:28 13:10:35<br>
+CreateDate : undefined<br>
+<br>
+LensFocalRange : 24.2<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageStart : 17680<br>
+PreviewImageStart : 17668<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : 4<br>
+<br>
+FileFormat : JPG-S<br>
+FileFormat : 0<br>
+<br>
+Calibration : Starting calibration file for SD14F13_Rev3; S/N C75_00001212; SD14Cal Rel_17; TestExec V2.4; 
+RunID: SD14Cal-001; Run time: 14-Dec-2009 08:16:34<br>
+Calibration : Starting calibration file for SD14F13Rev3; S/N C7500001212; SD14Cal Rel17; TestExec V2.4; RunID: SD14Cal-001; Run time: 14-Dec-2009 08:16:34<br>
+<br>
+ExposureTime2 : 1/100<br>
+ExposureTime2 : NaN<br>
+<br>
+SensorTemperature : 29 C<br>
+SensorTemperature : 29             <br>
+<br>
+ExifImageWidth : 2640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1760<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 41 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Gamma : undef<br>
+Gamma : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15307<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 43996 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15307 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 47.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 24.2 mm (35 mm equivalent: 41.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 5.90 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP2Merrill.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : SIGMA<br>
+Model : SIGMA DP2 Merrill<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.0.5017<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2012<br>
+ExposureTime : 1/200<br>
+FNumber : 8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.30<br>
+DateTimeOriginal : 2012:01:11 21:24:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/199<br>
+ApertureValue : 8.0<br>
+BrightnessValue : 8.87<br>
+MaxApertureValue : 2.8<br>
+SubjectDistance : 4294967.295 m<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+SerialNumber : 90401355<br>
+DriveMode : MULTI<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Shadow : 0<br>
+Highlight : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+AutoBracket : 3 of 3<br>
+PreviewImageLength : 41540<br>
+MakerNoteVersion : 1.00<br>
+FileFormat : JPG-P<br>
+PictureMode : Vivid<br>
+ExposureTime2 : 1/197238659<br>
+ExposureCompensation : +0.3<br>
+FlashExposureComp : 0<br>
+DigitalFilter : Vivid<br>
+UserComment : 4104<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ImageUniqueID : 3030343031333535F5FD0D4F41373438<br>
+Gamma : 2.2</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP2Merrill.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP2Merrill.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 60 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:01:11 21:24:05<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:01:11 21:24:05<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 30.0 mm<br>
+FocalLength : 30 mm<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+Firmware : 1.00.0.5017<br>
+Firmware : 1.02.4882<br>
+<br>
+PreviewImageStart : 20000<br>
+PreviewImageStart : 640,480<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : undefined<br>
+<br>
+LensType : Sigma 30mm F2.8<br>
+LensType : 1004<br>
+<br>
+LensFocalRange : 30 to 30<br>
+LensFocalRange : 30,30<br>
+<br>
+LensMaxApertureRange : 2.8 to 2.8<br>
+LensMaxApertureRange : 2.8,2.8<br>
+<br>
+Calibration : F20_CalibrationSoft Version 12-06-08
+RunID:F20Cal-01-001
+Runtime:2012-6-19 12:24:37<br>
+Calibration : 2.8 to 16  <br>
+<br>
+LensApertureRange : 2.8 to 16<br>
+LensApertureRange : undefined<br>
+<br>
+SensorTemperature : 39 C<br>
+SensorTemperature : 39             <br>
+<br>
+ExifImageWidth : 4704<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 45 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Warning : Bad PrintIM size<br>
+Warning : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4452<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15548<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+LensID : Sigma 30mm F2.8<br>
+LensID : undefined<br>
+<br>
+PreviewImage : (Binary data 41540 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/200<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15548 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.020 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+DOF : inf (5.62 m - inf)<br>
+DOF : undefined<br>
+<br>
+FOV : 43.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 30.0 mm (35 mm equivalent: 45.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 5.62 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP2.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA DP2<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.01.0.000000000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/40<br>
+FNumber : 8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2009:07:28 15:39:03<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 24.2 mm<br>
+SerialNumber : 1008251<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+Firmware : 1.01.0.000<br>
+AutoBracket : <br>
+PreviewImageLength : 44492<br>
+MakerNoteVersion : 1.00<br>
+AFPoint : Center     <br>
+ColorMode : Standard<br>
+LensApertureRange : 2.8 to 14  <br>
+BurstShot : 0<br>
+FlashExposureComp : 0<br>
+UserComment : 2112<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 3031303038323531971b6f4a32326335</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 61 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:07:28 15:39:03<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:07:28 15:39:03<br>
+CreateDate : undefined<br>
+<br>
+LensFocalRange : 24.2<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageStart : 17400<br>
+PreviewImageStart : 17388<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : 4<br>
+<br>
+FileFormat : JPG-S<br>
+FileFormat : 0<br>
+<br>
+Calibration : C72_CalibrationSoft Version 1.00
+RunID:C72Cal-001;Runtime:2009-05-29-11:23:32<br>
+Calibration : C72CalibrationSoft Version 1.00RunID:C72Cal-001;Runtime:2009-05-29-11:23:32<br>
+<br>
+ExposureTime2 : 1/40<br>
+ExposureTime2 : NaN<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : Off<br>
+<br>
+SensorTemperature : 33 C<br>
+SensorTemperature : 33             <br>
+<br>
+ExifImageWidth : 2640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1760<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 41 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Gamma : undef<br>
+Gamma : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 15026<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 44492 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 15026 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 47.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 24.2 mm (35 mm equivalent: 41.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 4.13 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP1X.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA DP1X<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : SIGMA Photo Pro 4.2.0.1046<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/40<br>
+FNumber : 8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:01:22 15:53:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 10.9<br>
+Flash : No Flash<br>
+FocalLength : 16.6 mm<br>
+SerialNumber : 1001302<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+MeteringMode : Multi-segment<br>
+LensFocalRange : 16.6<br>
+Contrast : +0.0<br>
+Shadow : +0.0<br>
+Highlight : +0.0<br>
+Saturation : +0.0<br>
+Sharpness : +0.0<br>
+X3FillLight : +0.0<br>
+ColorAdjustment : 0<br>
+AdjustmentMode : X3F Setting Mode<br>
+Quality : 10<br>
+Firmware : 1.01.0.002<br>
+AutoBracket : 1<br>
+ChrominanceNoiseReduction : +0.500<br>
+LuminanceNoiseReduction : +0.500<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto bracket<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 303130303133303263FD3A4D34333166</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP1X.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP1X.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:01:22 20:46:24<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:01:22 20:46:24<br>
+CreateDate : undefined<br>
+<br>
+WhiteBalance : Daylight<br>
+WhiteBalance : Manual<br>
+<br>
+ExposureCompensation : +0.0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1760<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 316<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10113<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10113 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 16.6 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.93 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 12.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP1S.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA DP1S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.00.0.000000000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/80<br>
+FNumber : 8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:02:11 12:41:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 4.0<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 16.6 mm<br>
+SerialNumber : 1002829<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : Auto Setting Mode<br>
+Quality : FINE  <br>
+Firmware : 2.00.0<br>
+AutoBracket : <br>
+PreviewImageLength : 43588<br>
+MakerNoteVersion : 1.00<br>
+AFPoint : Center     <br>
+ColorMode : n/a<br>
+LensApertureRange : 4.0        <br>
+BurstShot : 0<br>
+FlashExposureComp : 0<br>
+UserComment : 2112<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 3031303032383239e1fa734b61633633</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP1S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP1S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 54 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:02:11 12:41:05<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:02:11 12:41:05<br>
+CreateDate : undefined<br>
+<br>
+LensFocalRange : 16.6<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageStart : 11796<br>
+PreviewImageStart : 11784<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : 4<br>
+<br>
+FileFormat : JPG-S<br>
+FileFormat : 0<br>
+<br>
+Calibration : Starting calibration file for SD14F13_Rev3; S/N C70_7102829; SD14Cal Rel_17; TestExec V2.4; 
+RunID: SD14Cal-001; Run time: 23-Mar-2009 10:53:38<br>
+Calibration : Starting calibration file for SD14F13Rev3; S/N C707102829; SD14Cal Rel17; TestExec V2.4; RunID: SD14Cal-001; Run time: 23-Mar-2009 10:53:38<br>
+<br>
+ExposureTime2 : 1/80<br>
+ExposureTime2 : NaN<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : Off<br>
+<br>
+SensorTemperature : 26 C<br>
+SensorTemperature : 26             <br>
+<br>
+ExifImageWidth : 2640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1760<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Gamma : undef<br>
+Gamma : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9422<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 43588 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/80<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9422 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 16.6 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.93 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 12.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP1Merrill.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : SIGMA<br>
+Model : SIGMA DP1 Merrill<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.1.5665<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2012<br>
+ExposureTime : 1/400<br>
+FNumber : 8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.30<br>
+DateTimeOriginal : 2012:01:04 22:52:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/399<br>
+ApertureValue : 8.0<br>
+BrightnessValue : 8.62<br>
+MaxApertureValue : 2.8<br>
+SubjectDistance : 5.875 m<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+SerialNumber : 90301346<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Shadow : 0<br>
+Highlight : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : <br>
+Quality : FINE  <br>
+AutoBracket : <br>
+PreviewImageLength : 40784<br>
+MakerNoteVersion : 1.00<br>
+FileFormat : JPG-P<br>
+PictureMode : Standard<br>
+ExposureTime2 : 1/395256917<br>
+FlashExposureComp : 0<br>
+DigitalFilter : Standard<br>
+UserComment : 4104<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+ImageUniqueID : 303033303133343627D8044F39334542<br>
+Gamma : 2.2</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP1Merrill.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP1Merrill.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 58 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2012:01:04 22:52:23<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2012:01:04 22:52:23<br>
+CreateDate : undefined<br>
+<br>
+FocalLength : 19.0 mm<br>
+FocalLength : 19 mm<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+Firmware : 1.00.1.5665<br>
+Firmware : 1.02.5391<br>
+<br>
+PreviewImageStart : 18060<br>
+PreviewImageStart : 640,480<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : undefined<br>
+<br>
+LensType : Sigma 19mm F2.8<br>
+LensType : 1003<br>
+<br>
+LensFocalRange : 19 to 19<br>
+LensFocalRange : 19,19<br>
+<br>
+LensMaxApertureRange : 2.8 to 2.8<br>
+LensMaxApertureRange : 2.8,2.8<br>
+<br>
+Calibration : F20_CalibrationSoft Version 1.00 12-08-10
+RunID:F20Cal-01-001
+Runtime:2012-8-23 15:6:59<br>
+Calibration : 2.8 to 16  <br>
+<br>
+LensApertureRange : 2.8 to 16<br>
+LensApertureRange : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : Off<br>
+<br>
+SensorTemperature : 19 C<br>
+SensorTemperature : 19             <br>
+<br>
+ExifImageWidth : 4704<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Warning : Bad PrintIM size<br>
+Warning : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4452<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13605<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+LensID : Sigma 19mm F2.8<br>
+LensID : undefined<br>
+<br>
+PreviewImage : (Binary data 40784 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/400<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13605 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.020 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+DOF : inf (1.61 m - inf)<br>
+DOF : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 19.0 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.21 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Sigma/SigmaDP1.jpg</td>
+<td class="supported">Make : SIGMA<br>
+Model : SIGMA DP1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.39.0.000000000<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/13<br>
+FNumber : 4<br>
+ExposureProgram : Program AE<br>
+ISO : 800<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 1978:01:24 19:39:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 4.0<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 16.6 mm<br>
+SerialNumber : 0000877<br>
+DriveMode : SINGLE<br>
+ResolutionMode : HI<br>
+AFMode : AF-S<br>
+FocusSetting : AF<br>
+WhiteBalance : Auto<br>
+MeteringMode : Multi-segment<br>
+Contrast : 0<br>
+Shadow : 0<br>
+Highlight : 0<br>
+Saturation : 0<br>
+Sharpness : 0<br>
+X3FillLight : 0<br>
+AdjustmentMode : Auto Setting Mode<br>
+Quality : FINE  <br>
+Firmware : 0.39.0.000<br>
+AutoBracket : <br>
+PreviewImageLength : 43920<br>
+MakerNoteVersion : 1.00<br>
+AFPoint : Center     <br>
+ColorMode : n/a<br>
+LensApertureRange : 4.0        <br>
+BurstShot : 0<br>
+FlashExposureComp : 10<br>
+UserComment : 2112<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+ImageUniqueID : 3030303030383737e8a52b f32356631</td>
+<td class="unsupported">SourceFile : sampleImages/Sigma/SigmaDP1.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SigmaDP1.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Sigma<br>
+Directory : undefined<br>
+<br>
+FileSize : 52 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1978:01:24 19:39:20<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1978:01:24 19:39:20<br>
+CreateDate : undefined<br>
+<br>
+LensFocalRange : 16.6<br>
+LensFocalRange : 0<br>
+<br>
+ColorAdjustment : 0 0 0<br>
+ColorAdjustment : 0,0,0<br>
+<br>
+PreviewImageStart : 8808<br>
+PreviewImageStart : 8796<br>
+<br>
+PreviewImageSize : 640 480<br>
+PreviewImageSize : 4<br>
+<br>
+FileFormat : JPG-S<br>
+FileFormat : 0<br>
+<br>
+Calibration : Starting calibration file for SD14F13_Rev3; S/N C70_090; SD14Cal Rel_17; TestExec V2.4-2; 
+RunID: SD14Cal-001; Run time: 25-Jul-2007 08:15:05<br>
+Calibration : Starting calibration file for SD14F13Rev3; S/N C70090; SD14Cal Rel17; TestExec V2.4-2; RunID: SD14Cal-001; Run time: 25-Jul-2007 08:15:05<br>
+<br>
+ExposureTime2 : 1/13<br>
+ExposureTime2 : NaN<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : Off<br>
+<br>
+SensorTemperature : 31 C<br>
+SensorTemperature : 31             <br>
+<br>
+ExifImageWidth : 2640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1760<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Gamma : undef<br>
+Gamma : NaN<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2372<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6435<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 43920 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 1.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/13<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6435 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.018 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 16.6 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.87 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 4.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/SiPix/SipixSC3300.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:01 03:36:29<br>
+DateTimeOriginal : 2002:01:01 03:36:29<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/32<br>
+FNumber : 1<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : 43981<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/32<br>
+_IFDpointer_Interop : 1264<br>
+_IFDpointer_Makernote : 784<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2002:01:01 03:36:29<br>
+ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Sipix Corporation<br>
+Model : SC3300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 0.2376686732<br>
+CompressedBitsPerPixel : 0.23766867319742838<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SiPix/SipixSC2300.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.0999421875<br>
+DateTimeDigitized : 2002:01:01 05:51:43<br>
+DateTimeOriginal : 2002:01:01 05:51:43<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+ExposureTime : 1/35<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/35<br>
+_IFDpointer_Interop : 672<br>
+_IFDpointer_Makernote : 65,17,0,0,69,65,85,71,1,67,1,66,5,66,0,0<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2002:01:01 05:51:43<br>
+ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Sipix Corporation<br>
+Model : SC2300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">Software : V1.05_916F_19<br>
+Software : V1.05916F19<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SiPix/SipixSC2100.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:01 21:46:22<br>
+DateTimeOriginal : 2000:01:01 21:46:22<br>
+ExifVersion : 2.10<br>
+ExposureBias : 1<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : <br>
+ShutterSpeedValue : 1/23<br>
+_IFDpointer_Interop : 652<br>
+_IFDpointer_Makernote : 65,18,0,0,69,60,119,71,1,109,2,44,1,71,0,0<br>
+Copyright : Copyright 1,1999<br>
+DateTime : 2000:01:01 21:46:22<br>
+ImageDescription : MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM<br>
+Make : Sipix Corporation<br>
+Model : SC 21000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.870434864<br>
+CompressedBitsPerPixel : 2.8704348644578315<br>
+<br>
+Software : V1.89_91690<br>
+Software : V1.8991690<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SiPix/SipixBlink.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/SiPix/NucamSP-1300.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2000:01:15 20:08:30<br>
+DateTimeOriginal : 2000:01:15 20:08:30<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+RelatedSoundFile : xxx.avi<br>
+ShutterSpeedValue : 1/15<br>
+_IFDpointer_Interop : 652<br>
+_IFDpointer_Makernote : 1,0,0,70,50,46,56,0,4,101,115,0,0,0,2,0<br>
+Copyright : Copyright 2001-2002<br>
+DateTime : 2000:01:15 20:08:30<br>
+ImageDescription : Nucam Tulip Project<br>
+Make : Nucam Corporation<br>
+Model : SP-1300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : NUCAMWARE V1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 342</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.917565104<br>
+CompressedBitsPerPixel : 2.9175651041666666<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

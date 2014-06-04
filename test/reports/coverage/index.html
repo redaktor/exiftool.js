@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <p><span class="label label-success large">42.11% total coverage &mdash; sort by <select class="sort-options"><option value="">default</option><option value="coverageDesc">coverage descending</option><option value="coverage">coverage ascending</option><option value="title">title alphabetically</option></select> </span></p><p>6534 total files: <br>244152 supported tags, 335700 unsupported tags</p><ul id="grid" class="row-fluid"><li class="span12" data-coverage="44.49047224523612" data-title="sampleImages-Acer"><b class="label label-warning">44.49%</b> &nbsp;<a href="sampleImages-Acer.html">sampleImages-Acer.html</a>
+Supported: 537, Unsupported: 670</li>
+<li class="span12" data-coverage="41.7115499700778" data-title="sampleImages-Agfa"><b class="label label-warning">41.71%</b> &nbsp;<a href="sampleImages-Agfa.html">sampleImages-Agfa.html</a>
+Supported: 697, Unsupported: 974</li>
+<li class="span12" data-coverage="46.33838383838384" data-title="sampleImages-Aiptek"><b class="label label-warning">46.34%</b> &nbsp;<a href="sampleImages-Aiptek.html">sampleImages-Aiptek.html</a>
+Supported: 367, Unsupported: 425</li>
+<li class="span12" data-coverage="43.19526627218935" data-title="sampleImages-Apple"><b class="label label-warning">43.20%</b> &nbsp;<a href="sampleImages-Apple.html">sampleImages-Apple.html</a>
+Supported: 438, Unsupported: 576</li>
+<li class="span12" data-coverage="39.1644908616188" data-title="sampleImages-BBK"><b class="label label-warning">39.16%</b> &nbsp;<a href="sampleImages-BBK.html">sampleImages-BBK.html</a>
+Supported: 150, Unsupported: 233</li>
+<li class="span12" data-coverage="42.56648224165625" data-title="sampleImages-BenQ"><b class="label label-warning">42.57%</b> &nbsp;<a href="sampleImages-BenQ.html">sampleImages-BenQ.html</a>
+Supported: 2385, Unsupported: 3218</li>
+<li class="span12" data-coverage="43.01786896095301" data-title="sampleImages-Camera"><b class="label label-warning">43.02%</b> &nbsp;<a href="sampleImages-Camera.html">sampleImages-Camera.html</a>
+Supported: 1950, Unsupported: 2583</li>
+<li class="span12" data-coverage="54.36696005416385" data-title="sampleImages-Canon"><b class="label label-warning">54.37%</b> &nbsp;<a href="sampleImages-Canon.html">sampleImages-Canon.html</a>
+Supported: 47377, Unsupported: 39766</li>
+<li class="span12" data-coverage="30.289001122334458" data-title="sampleImages-Casio"><b class="label label-warning">30.29%</b> &nbsp;<a href="sampleImages-Casio.html">sampleImages-Casio.html</a>
+Supported: 4318, Unsupported: 9938</li>
+<li class="span12" data-coverage="43.2300163132137" data-title="sampleImages-Concord"><b class="label label-warning">43.23%</b> &nbsp;<a href="sampleImages-Concord.html">sampleImages-Concord.html</a>
+Supported: 1325, Unsupported: 1740</li>
+<li class="span12" data-coverage="46.52862362971986" data-title="sampleImages-Creative"><b class="label label-warning">46.53%</b> &nbsp;<a href="sampleImages-Creative.html">sampleImages-Creative.html</a>
+Supported: 382, Unsupported: 439</li>
+<li class="span12" data-coverage="43.9932318104907" data-title="sampleImages-DXG"><b class="label label-warning">43.99%</b> &nbsp;<a href="sampleImages-DXG.html">sampleImages-DXG.html</a>
+Supported: 260, Unsupported: 331</li>
+<li class="span12" data-coverage="37.86666666666667" data-title="sampleImages-Daisy"><b class="label label-warning">37.87%</b> &nbsp;<a href="sampleImages-Daisy.html">sampleImages-Daisy.html</a>
+Supported: 142, Unsupported: 233</li>
+<li class="span12" data-coverage="48.223350253807105" data-title="sampleImages-Digilife"><b class="label label-warning">48.22%</b> &nbsp;<a href="sampleImages-Digilife.html">sampleImages-Digilife.html</a>
+Supported: 95, Unsupported: 102</li>
+<li class="span12" data-coverage="38.0065717415115" data-title="sampleImages-DoCoMo"><b class="label label-warning">38.01%</b> &nbsp;<a href="sampleImages-DoCoMo.html">sampleImages-DoCoMo.html</a>
+Supported: 1388, Unsupported: 2264</li>
+<li class="span12" data-coverage="34.61756373937677" data-title="sampleImages-Epson"><b class="label label-warning">34.62%</b> &nbsp;<a href="sampleImages-Epson.html">sampleImages-Epson.html</a>
+Supported: 611, Unsupported: 1154</li>
+<li class="span12" data-coverage="0.2828546562228024" data-title="sampleImages-FLIR"><b class="label label-warning">0.28%</b> &nbsp;<a href="sampleImages-FLIR.html">sampleImages-FLIR.html</a>
+Supported: 13, Unsupported: 4583</li>
+<li class="span12" data-coverage="46.24277456647399" data-title="sampleImages-Fly"><b class="label label-warning">46.24%</b> &nbsp;<a href="sampleImages-Fly.html">sampleImages-Fly.html</a>
+Supported: 160, Unsupported: 186</li>
+<li class="span12" data-coverage="51.79820942952303" data-title="sampleImages-FujiFilm"><b class="label label-warning">51.80%</b> &nbsp;<a href="sampleImages-FujiFilm.html">sampleImages-FujiFilm.html</a>
+Supported: 16952, Unsupported: 15775</li>
+<li class="span12" data-coverage="42.299349240780906" data-title="sampleImages-GE"><b class="label label-warning">42.30%</b> &nbsp;<a href="sampleImages-GE.html">sampleImages-GE.html</a>
+Supported: 780, Unsupported: 1064</li>
+<li class="span12" data-coverage="42.80936454849498" data-title="sampleImages-Gateway"><b class="label label-warning">42.81%</b> &nbsp;<a href="sampleImages-Gateway.html">sampleImages-Gateway.html</a>
+Supported: 128, Unsupported: 171</li>
+<li class="span12" data-coverage="48.59611231101512" data-title="sampleImages-Genius"><b class="label label-warning">48.60%</b> &nbsp;<a href="sampleImages-Genius.html">sampleImages-Genius.html</a>
+Supported: 225, Unsupported: 238</li>
+<li class="span12" data-coverage="47.89029535864979" data-title="sampleImages-GoPro"><b class="label label-warning">47.89%</b> &nbsp;<a href="sampleImages-GoPro.html">sampleImages-GoPro.html</a>
+Supported: 227, Unsupported: 247</li>
+<li class="span12" data-coverage="36.749517648394054" data-title="sampleImages-HP"><b class="label label-warning">36.75%</b> &nbsp;<a href="sampleImages-HP.html">sampleImages-HP.html</a>
+Supported: 3238, Unsupported: 5573</li>
+<li class="span12" data-coverage="33.14974182444062" data-title="sampleImages-HTC"><b class="label label-warning">33.15%</b> &nbsp;<a href="sampleImages-HTC.html">sampleImages-HTC.html</a>
+Supported: 963, Unsupported: 1942</li>
+<li class="span12" data-coverage="22.07792207792208" data-title="sampleImages-Hasselblad"><b class="label label-warning">22.08%</b> &nbsp;<a href="sampleImages-Hasselblad.html">sampleImages-Hasselblad.html</a>
+Supported: 34, Unsupported: 120</li>
+<li class="span12" data-coverage="37.83982365907421" data-title="sampleImages-Hitachi"><b class="label label-warning">37.84%</b> &nbsp;<a href="sampleImages-Hitachi.html">sampleImages-Hitachi.html</a>
+Supported: 515, Unsupported: 846</li>
+<li class="span12" data-coverage="40.78947368421053" data-title="sampleImages-ImpressCam"><b class="label label-warning">40.79%</b> &nbsp;<a href="sampleImages-ImpressCam.html">sampleImages-ImpressCam.html</a>
+Supported: 186, Unsupported: 270</li>
+<li class="span12" data-coverage="44.18533292420988" data-title="sampleImages-KDDI"><b class="label label-warning">44.19%</b> &nbsp;<a href="sampleImages-KDDI.html">sampleImages-KDDI.html</a>
+Supported: 1440, Unsupported: 1819</li>
+<li class="span12" data-coverage="39.120631341600905" data-title="sampleImages-Kodak"><b class="label label-warning">39.12%</b> &nbsp;<a href="sampleImages-Kodak.html">sampleImages-Kodak.html</a>
+Supported: 5552, Unsupported: 8640</li>
+<li class="span12" data-coverage="40.7205982324949" data-title="sampleImages-Konica"><b class="label label-warning">40.72%</b> &nbsp;<a href="sampleImages-Konica.html">sampleImages-Konica.html</a>
+Supported: 599, Unsupported: 872</li>
+<li class="span12" data-coverage="47.51686082158185" data-title="sampleImages-Kyocera"><b class="label label-warning">47.52%</b> &nbsp;<a href="sampleImages-Kyocera.html">sampleImages-Kyocera.html</a>
+Supported: 775, Unsupported: 856</li>
+<li class="span12" data-coverage="39.71300448430493" data-title="sampleImages-LG"><b class="label label-warning">39.71%</b> &nbsp;<a href="sampleImages-LG.html">sampleImages-LG.html</a>
+Supported: 2214, Unsupported: 3361</li>
+<li class="span12" data-coverage="45.48192771084337" data-title="sampleImages-Legend"><b class="label label-warning">45.48%</b> &nbsp;<a href="sampleImages-Legend.html">sampleImages-Legend.html</a>
+Supported: 302, Unsupported: 362</li>
+<li class="span12" data-coverage="35.292560232989146" data-title="sampleImages-Leica"><b class="label label-warning">35.29%</b> &nbsp;<a href="sampleImages-Leica.html">sampleImages-Leica.html</a>
+Supported: 1333, Unsupported: 2444</li>
+<li class="span12" data-coverage="39.63133640552996" data-title="sampleImages-Logitech"><b class="label label-warning">39.63%</b> &nbsp;<a href="sampleImages-Logitech.html">sampleImages-Logitech.html</a>
+Supported: 86, Unsupported: 131</li>
+<li class="span12" data-coverage="46.578947368421055" data-title="sampleImages-Lumicron"><b class="label label-warning">46.58%</b> &nbsp;<a href="sampleImages-Lumicron.html">sampleImages-Lumicron.html</a>
+Supported: 177, Unsupported: 203</li>
+<li class="span12" data-coverage="43.10631229235881" data-title="sampleImages-Medion"><b class="label label-warning">43.11%</b> &nbsp;<a href="sampleImages-Medion.html">sampleImages-Medion.html</a>
+Supported: 519, Unsupported: 685</li>
+<li class="span12" data-coverage="39.959839357429715" data-title="sampleImages-Mercury"><b class="label label-warning">39.96%</b> &nbsp;<a href="sampleImages-Mercury.html">sampleImages-Mercury.html</a>
+Supported: 199, Unsupported: 299</li>
+<li class="span12" data-coverage="40.39334341906203" data-title="sampleImages-Minolta"><b class="label label-warning">40.39%</b> &nbsp;<a href="sampleImages-Minolta.html">sampleImages-Minolta.html</a>
+Supported: 1869, Unsupported: 2758</li>
+<li class="span12" data-coverage="39.40175348117587" data-title="sampleImages-Motorola"><b class="label label-warning">39.40%</b> &nbsp;<a href="sampleImages-Motorola.html">sampleImages-Motorola.html</a>
+Supported: 764, Unsupported: 1175</li>
+<li class="span12" data-coverage="37.628865979381445" data-title="sampleImages-Mustek"><b class="label label-warning">37.63%</b> &nbsp;<a href="sampleImages-Mustek.html">sampleImages-Mustek.html</a>
+Supported: 146, Unsupported: 242</li>
+<li class="span12" data-coverage="23.783783783783786" data-title="sampleImages-NEC"><b class="label label-warning">23.78%</b> &nbsp;<a href="sampleImages-NEC.html">sampleImages-NEC.html</a>
+Supported: 44, Unsupported: 141</li>
+<li class="span12" data-coverage="33.694210431977055" data-title="sampleImages-Nikon"><b class="label label-warning">33.69%</b> &nbsp;<a href="sampleImages-Nikon.html">sampleImages-Nikon.html</a>
+Supported: 9399, Unsupported: 18496</li>
+<li class="span12" data-coverage="24.489795918367346" data-title="sampleImages-Nintendo"><b class="label label-warning">24.49%</b> &nbsp;<a href="sampleImages-Nintendo.html">sampleImages-Nintendo.html</a>
+Supported: 24, Unsupported: 74</li>
+<li class="span12" data-coverage="42.621411322779714" data-title="sampleImages-Nokia"><b class="label label-warning">42.62%</b> &nbsp;<a href="sampleImages-Nokia.html">sampleImages-Nokia.html</a>
+Supported: 3177, Unsupported: 4277</li>
+<li class="span12" data-coverage="29.93421052631579" data-title="sampleImages-Noritsu"><b class="label label-warning">29.93%</b> &nbsp;<a href="sampleImages-Noritsu.html">sampleImages-Noritsu.html</a>
+Supported: 91, Unsupported: 213</li>
+<li class="span12" data-coverage="46.88" data-title="sampleImages-ODYS"><b class="label label-warning">46.88%</b> &nbsp;<a href="sampleImages-ODYS.html">sampleImages-ODYS.html</a>
+Supported: 293, Unsupported: 332</li>
+<li class="span12" data-coverage="35.8974358974359" data-title="sampleImages-OMG"><b class="label label-warning">35.90%</b> &nbsp;<a href="sampleImages-OMG.html">sampleImages-OMG.html</a>
+Supported: 14, Unsupported: 25</li>
+<li class="span12" data-coverage="50.96495683087861" data-title="sampleImages-Olympus"><b class="label label-warning">50.96%</b> &nbsp;<a href="sampleImages-Olympus.html">sampleImages-Olympus.html</a>
+Supported: 16056, Unsupported: 15448</li>
+<li class="span12" data-coverage="45.483870967741936" data-title="sampleImages-Oregon"><b class="label label-warning">45.48%</b> &nbsp;<a href="sampleImages-Oregon.html">sampleImages-Oregon.html</a>
+Supported: 141, Unsupported: 169</li>
+<li class="span12" data-coverage="40.4040404040404" data-title="sampleImages-Packard"><b class="label label-warning">40.40%</b> &nbsp;<a href="sampleImages-Packard.html">sampleImages-Packard.html</a>
+Supported: 40, Unsupported: 59</li>
+<li class="span12" data-coverage="32.64490882904427" data-title="sampleImages-Panasonic"><b class="label label-warning">32.64%</b> &nbsp;<a href="sampleImages-Panasonic.html">sampleImages-Panasonic.html</a>
+Supported: 12013, Unsupported: 24786</li>
+<li class="span12" data-coverage="34.42367601246106" data-title="sampleImages-Pantech"><b class="label label-warning">34.42%</b> &nbsp;<a href="sampleImages-Pantech.html">sampleImages-Pantech.html</a>
+Supported: 221, Unsupported: 421</li>
+<li class="span12" data-coverage="44.03778040141677" data-title="sampleImages-Pentacon"><b class="label label-warning">44.04%</b> &nbsp;<a href="sampleImages-Pentacon.html">sampleImages-Pentacon.html</a>
+Supported: 1119, Unsupported: 1422</li>
+<li class="span12" data-coverage="24.37131325675256" data-title="sampleImages-Pentax"><b class="label label-warning">24.37%</b> &nbsp;<a href="sampleImages-Pentax.html">sampleImages-Pentax.html</a>
+Supported: 3925, Unsupported: 12180</li>
+<li class="span12" data-coverage="43.28493647912885" data-title="sampleImages-Polaroid"><b class="label label-warning">43.28%</b> &nbsp;<a href="sampleImages-Polaroid.html">sampleImages-Polaroid.html</a>
+Supported: 1908, Unsupported: 2500</li>
+<li class="span12" data-coverage="41.06194690265487" data-title="sampleImages-RIM"><b class="label label-warning">41.06%</b> &nbsp;<a href="sampleImages-RIM.html">sampleImages-RIM.html</a>
+Supported: 232, Unsupported: 333</li>
+<li class="span12" data-coverage="21.864951768488748" data-title="sampleImages-Reconyx"><b class="label label-warning">21.86%</b> &nbsp;<a href="sampleImages-Reconyx.html">sampleImages-Reconyx.html</a>
+Supported: 68, Unsupported: 243</li>
+<li class="span12" data-coverage="39.827531140210795" data-title="sampleImages-Ricoh"><b class="label label-warning">39.83%</b> &nbsp;<a href="sampleImages-Ricoh.html">sampleImages-Ricoh.html</a>
+Supported: 2494, Unsupported: 3768</li>
+<li class="span12" data-coverage="45.54931836407378" data-title="sampleImages-Rollei"><b class="label label-warning">45.55%</b> &nbsp;<a href="sampleImages-Rollei.html">sampleImages-Rollei.html</a>
+Supported: 568, Unsupported: 679</li>
+<li class="span12" data-coverage="27.74327122153209" data-title="sampleImages-Sagem"><b class="label label-warning">27.74%</b> &nbsp;<a href="sampleImages-Sagem.html">sampleImages-Sagem.html</a>
+Supported: 134, Unsupported: 349</li>
+<li class="span12" data-coverage="41.41240711551452" data-title="sampleImages-Samsung"><b class="label label-warning">41.41%</b> &nbsp;<a href="sampleImages-Samsung.html">sampleImages-Samsung.html</a>
+Supported: 14713, Unsupported: 20815</li>
+<li class="span12" data-coverage="40.625" data-title="sampleImages-Sanyo"><b class="label label-warning">40.63%</b> &nbsp;<a href="sampleImages-Sanyo.html">sampleImages-Sanyo.html</a>
+Supported: 2405, Unsupported: 3515</li>
+<li class="span12" data-coverage="44.95192307692308" data-title="sampleImages-SeaLife"><b class="label label-warning">44.95%</b> &nbsp;<a href="sampleImages-SeaLife.html">sampleImages-SeaLife.html</a>
+Supported: 187, Unsupported: 229</li>
+<li class="span12" data-coverage="42.57318395374051" data-title="sampleImages-Sharp"><b class="label label-warning">42.57%</b> &nbsp;<a href="sampleImages-Sharp.html">sampleImages-Sharp.html</a>
+Supported: 1178, Unsupported: 1589</li>
+<li class="span12" data-coverage="37.1900826446281" data-title="sampleImages-SiPix"><b class="label label-warning">37.19%</b> &nbsp;<a href="sampleImages-SiPix.html">sampleImages-SiPix.html</a>
+Supported: 90, Unsupported: 152</li>
+<li class="span12" data-coverage="51.236979166666664" data-title="sampleImages-Sigma"><b class="label label-warning">51.24%</b> &nbsp;<a href="sampleImages-Sigma.html">sampleImages-Sigma.html</a>
+Supported: 787, Unsupported: 749</li>
+<li class="span12" data-coverage="41.13597246127367" data-title="sampleImages-Skanhex"><b class="label label-warning">41.14%</b> &nbsp;<a href="sampleImages-Skanhex.html">sampleImages-Skanhex.html</a>
+Supported: 239, Unsupported: 342</li>
+<li class="span12" data-coverage="42.565814612955776" data-title="sampleImages-Sony"><b class="label label-warning">42.57%</b> &nbsp;<a href="sampleImages-Sony.html">sampleImages-Sony.html</a>
+Supported: 21165, Unsupported: 28558</li>
+<li class="span12" data-coverage="38.455303381195" data-title="sampleImages-SonyEricsson"><b class="label label-warning">38.46%</b> &nbsp;<a href="sampleImages-SonyEricsson.html">sampleImages-SonyEricsson.html</a>
+Supported: 3321, Unsupported: 5315</li>
+<li class="span12" data-coverage="46.2962962962963" data-title="sampleImages-Sprint"><b class="label label-warning">46.30%</b> &nbsp;<a href="sampleImages-Sprint.html">sampleImages-Sprint.html</a>
+Supported: 25, Unsupported: 29</li>
+<li class="span12" data-coverage="48.046875" data-title="sampleImages-Sunplus"><b class="label label-warning">48.05%</b> &nbsp;<a href="sampleImages-Sunplus.html">sampleImages-Sunplus.html</a>
+Supported: 123, Unsupported: 133</li>
+<li class="span12" data-coverage="30.136986301369863" data-title="sampleImages-T-Mobile"><b class="label label-warning">30.14%</b> &nbsp;<a href="sampleImages-T-Mobile.html">sampleImages-T-Mobile.html</a>
+Supported: 22, Unsupported: 51</li>
+<li class="span12" data-coverage="42.722794446932376" data-title="sampleImages-Toshiba"><b class="label label-warning">42.72%</b> &nbsp;<a href="sampleImages-Toshiba.html">sampleImages-Toshiba.html</a>
+Supported: 954, Unsupported: 1279</li>
+<li class="span12" data-coverage="43.89027431421446" data-title="sampleImages-Traveler"><b class="label label-warning">43.89%</b> &nbsp;<a href="sampleImages-Traveler.html">sampleImages-Traveler.html</a>
+Supported: 704, Unsupported: 900</li>
+<li class="span12" data-coverage="40.780911062906725" data-title="sampleImages-Trust"><b class="label label-warning">40.78%</b> &nbsp;<a href="sampleImages-Trust.html">sampleImages-Trust.html</a>
+Supported: 376, Unsupported: 546</li>
+<li class="span12" data-coverage="39.548022598870055" data-title="sampleImages-UMAX"><b class="label label-warning">39.55%</b> &nbsp;<a href="sampleImages-UMAX.html">sampleImages-UMAX.html</a>
+Supported: 70, Unsupported: 107</li>
+<li class="span12" data-coverage="48.68421052631579" data-title="sampleImages-Uniden"><b class="label label-warning">48.68%</b> &nbsp;<a href="sampleImages-Uniden.html">sampleImages-Uniden.html</a>
+Supported: 37, Unsupported: 39</li>
+<li class="span12" data-coverage="50" data-title="sampleImages-Visioneer"><b class="label label-warning">50.00%</b> &nbsp;<a href="sampleImages-Visioneer.html">sampleImages-Visioneer.html</a>
+Supported: 31, Unsupported: 31</li>
+<li class="span12" data-coverage="21.35922330097087" data-title="sampleImages-VistaQuest"><b class="label label-warning">21.36%</b> &nbsp;<a href="sampleImages-VistaQuest.html">sampleImages-VistaQuest.html</a>
+Supported: 22, Unsupported: 81</li>
+<li class="span12" data-coverage="44.848771266540645" data-title="sampleImages-Vivitar"><b class="label label-warning">44.85%</b> &nbsp;<a href="sampleImages-Vivitar.html">sampleImages-Vivitar.html</a>
+Supported: 1898, Unsupported: 2334</li>
+<li class="span12" data-coverage="38.96457765667575" data-title="sampleImages-Vodafone"><b class="label label-warning">38.96%</b> &nbsp;<a href="sampleImages-Vodafone.html">sampleImages-Vodafone.html</a>
+Supported: 143, Unsupported: 224</li>
+<li class="span12" data-coverage="39.447731755424066" data-title="sampleImages-Yakumo"><b class="label label-warning">39.45%</b> &nbsp;<a href="sampleImages-Yakumo.html">sampleImages-Yakumo.html</a>
+Supported: 200, Unsupported: 307</li>
+<li class="span12" data-coverage="51.48514851485149" data-title="sampleImages-Yashica"><b class="label label-warning">51.49%</b> &nbsp;<a href="sampleImages-Yashica.html">sampleImages-Yashica.html</a>
+Supported: 104, Unsupported: 98</li>
+<li class="span12" data-coverage="39.814043453697586" data-title="sampleImages-_Other"><b class="label label-warning">39.81%</b> &nbsp;<a href="sampleImages-_Other.html">sampleImages-_Other.html</a>
+Supported: 41579, Unsupported: 62854</li>
+</ul>
+    </div>
+
+</body>
+</html>

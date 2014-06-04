@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/UMAX/UmaxAstraCam.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/UMAX/UMAX_MagicScan.jpg</td>
+<td class="supported">DateTime : 2005: 3:13 12:17:53<br>
+ImageDescription : <br>
+Model : <br>
+PlanarConfiguration : Chunky<br>
+Predictor : None<br>
+RowsPerStrip : 1176<br>
+SamplesPerPixel : 3<br>
+Software : UMAX MagicScan<br>
+StripByteCounts : 6329232</td>
+<td class="unsupported">BitsPerSample : 8<br>
+BitsPerSample : 8,8,8<br>
+<br>
+Compression : Uncompressed<br>
+Compression : 1<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 1176<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 1794<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : 2<br>
+<br>
+StripOffsets : 38<br>
+StripOffsets : 8<br>
+<br>
+MSPropertySetStorage : (Binary data 5632 bytes, use -b option to extract)<br>
+MSPropertySetStorage : 404<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/UMAX/UMAX_AstraSlimF4.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001/11/10 16:44:41<br>
+DateTimeOriginal : 2001/11/10 16:44:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.1<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/50<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 65535 mm<br>
+ISO : 0<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2976 px w<br>
+PixelYDimension : 2240 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 1296<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 2004<br>
+DateTime : 2001/11/10 16:44:41<br>
+ImageDescription : wso:u7owswgssoNwvvznV<br>
+Make : UMAX<br>
+Model : AstraSlim F4<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Software 2.05<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.999767185<br>
+CompressedBitsPerPixel : 1.9997671850998464<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/UMAX/UMAX_AstraPix590.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005/03/07 01:22:09<br>
+DateTimeOriginal : 2005/03/07 01:22:09<br>
+DigitalZoomRatio : 3.4<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.1<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/4<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 21930 mm<br>
+ISO : 0<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.8<br>
+_IFDpointer_Interop : 1296<br>
+_IFDpointer_Makernote : 808<br>
+Copyright : Copyright 2003<br>
+DateTime : 2005/03/07 01:22:09<br>
+ImageDescription : UUUUUUUUUUUUUUUUUUUUUUUU<br>
+Make : UMAX<br>
+Model : AstraPix 590<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Software 2.04<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.00008138<br>
+CompressedBitsPerPixel : 1.0000813802083333<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Konica/Konica_e-miniD.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+DateTimeDigitized : 2000:01:01 00:23:49<br>
+DateTimeOriginal : 2000:01:01 00:23:49<br>
+ExifVersion : 2.10<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/4<br>
+_IFDpointer_Interop : 480<br>
+DateTime : 2000:01:01 00:23:49<br>
+Make : Konica<br>
+Model : e-miniD<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 2001 03 16     Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 278</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 2.97<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaRevioKD-100.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:03:02 13:54:30<br>
+DateTimeOriginal : 2004:03:02 13:54:30<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/512<br>
+_IFDpointer_Interop : 593<br>
+DateTime : 2004:03:02 13:54:30<br>
+ImageDescription : DigiCam<br>
+Make : KONICA<br>
+Model : Digital Revio KD-100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.18 O<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 247</td>
+<td class="unsupported">FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaRevioC2.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.20734375<br>
+DateTimeDigitized : 2025:01:13 00:03:36<br>
+DateTimeOriginal : 2025:01:13 00:03:36<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/666<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/664<br>
+SubjectDistance : 1.1 m<br>
+_IFDpointer_Interop : 700<br>
+_IFDpointer_Makernote : 48,48,54,48,49,55,50,56,51,54,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+DateTime : 2025:01:13 00:03:36<br>
+Make : Konica<br>
+Model : Revio C2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaQ-M200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+DateTimeDigitized : 2001:08:26 18:49:05<br>
+DateTimeOriginal : 2001:08:26 18:49:05<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/64<br>
+FNumber : 3.2<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 2605.000000<br>
+FocalPlaneYResolution : 2605.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SubjectDistance : 1.29 m<br>
+_IFDpointer_Interop : 404<br>
+_IFDpointer_Makernote : 752<br>
+Copyright : <br>
+Make : KONICA CORPORATION<br>
+Model : Konica Digital Camera Q-M200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaQ-M100V.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.5<br>
+DateTimeOriginal : 2005:03:25 18:32:29<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/104<br>
+FNumber : 5.6<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 5770.000000<br>
+FocalPlaneYResolution : 5770.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 872 px h<br>
+SubjectDistance : 1.224 m<br>
+_IFDpointer_Makernote : 75,67,50,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,3,60,2,30,0,0,255,255<br>
+ImageDescription : DSC00024<br>
+Make : KONICA CORPORATION<br>
+Model : Konica Digital Camera Q-M100V<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 0 128 0 128<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 386</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaQ-M100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.5<br>
+DateTimeOriginal : 1997:10:19 22:07:00<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/97<br>
+FNumber : 11<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 5770.000000<br>
+FocalPlaneYResolution : 5770.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 872 px h<br>
+SubjectDistance : 1.224 m<br>
+_IFDpointer_Makernote : 75,67,65,0,0,0,0,0,0,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,255,255,255,255<br>
+ImageDescription : DSC00002<br>
+Make : KONICA CORPORATION<br>
+Model : Konica Digital Camera Q-M100<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 0 128 0 128<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 386</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKDC1310.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:04:15 03:12:40<br>
+DateTimeOriginal : 2002:04:15 03:12:40<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/25<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/26<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2002:04:15 03:12:40<br>
+Make : Konica Co., Ltd.<br>
+Model : KONICA KDC1310<br>
+ResolutionUnit : inches<br>
+Software : 1.62KC<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-510Z.jpg</td>
+<td class="supported">BrightnessValue : -3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:03:07 23:01:24<br>
+DateTimeOriginal : 2004:03:07 23:01:24<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 39 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3610<br>
+_IFDpointer_Makernote : 662<br>
+Make : Konica<br>
+Model : Konica Digital Camera KD-510Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 176</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-500Z.jpg</td>
+<td class="supported">BrightnessValue : -1.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:29 22:54:44<br>
+DateTimeOriginal : 2005:05:29 22:54:44<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 39 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 500<br>
+_IFDpointer_Makernote : 782<br>
+Make : Konica Corporation<br>
+Model : Konica Digital Camera KD-500Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-410Z.jpg</td>
+<td class="supported">BrightnessValue : 7.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:12 11:18:13<br>
+DateTimeOriginal : 2004:07:12 11:18:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/167<br>
+FNumber : 4.9<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 116 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 922 px w<br>
+PixelYDimension : 682 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 659<br>
+Make : Konica<br>
+Model : Konica Digital Camera KD-410Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 175</td>
+<td class="unsupported">FocalLength : 24.0 mm<br>
+FocalLength : 24 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-400Z.jpg</td>
+<td class="supported">BrightnessValue : 6.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2001:01:29 04:19:21<br>
+DateTimeOriginal : 2001:01:29 04:19:21<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/115<br>
+FNumber : 4.7<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 39 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Spot<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 500<br>
+_IFDpointer_Makernote : 782<br>
+Make : Konica Corporation<br>
+Model : Konica Digital Camera KD-400Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported">FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-3300.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:11:22 12:14:01<br>
+DateTimeOriginal : 2004:11:22 12:14:01<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/351<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+ImageUniqueID : 00000000000000000000000000000255<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/362<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 528<br>
+DateTime : 2004:11:22 12:14:01<br>
+Make : KONICA<br>
+Model : KD-3300<br>
+ResolutionUnit : inches<br>
+Software : 1.15K<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 5.2<br>
+FNumber : 5.15<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-310Z.jpg</td>
+<td class="supported">BrightnessValue : -1.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:05 09:48:18<br>
+DateTimeOriginal : 2005:01:05 09:48:18<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/68<br>
+FNumber : 3.3<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.3 mm<br>
+FocalLengthIn35mmFilm : 55 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 500<br>
+_IFDpointer_Makernote : 782<br>
+Make : Konica Corporation<br>
+Model : Konica Digital Camera KD-310Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-3100.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:03:01 13:07:08<br>
+DateTimeOriginal : 2003:03:01 13:07:08<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0.5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+ImageUniqueID : 00000000000000000000000000000605<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 0.4<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 528<br>
+DateTime : 2003:03:01 13:07:08<br>
+Make : KONICA<br>
+Model : KD-3100<br>
+ResolutionUnit : inches<br>
+Software : 1.12KD<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.88<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-30M.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:10:18 07:40:55<br>
+DateTimeOriginal : 2005:10:18 07:40:55<br>
+ExifVersion : 2.10<br>
+ExposureBias : 7.3<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/6<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 585<br>
+DateTime : 2005:10:18 07:40:55<br>
+ImageDescription : KF3-A003<br>
+Make : KONICA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported">Model : KONICA KD-30M<br>
+Model : KONICA KD-30<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-300Z.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.6<br>
+DateTimeDigitized : 2001:05:04 01:11:40<br>
+DateTimeOriginal : 2001:05:04 01:11:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.8 mm<br>
+ISO : 100<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ShutterSpeedValue : 1/69<br>
+UserComment : 56022<br>
+_IFDpointer_Interop : 56158<br>
+_IFDpointer_Makernote : 558<br>
+DateTime : 2001:05:04 01:11:40<br>
+ImageDescription : <br>
+Make : KONICA<br>
+Model : KD-300Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KD-300Z Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-25.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:06:18 21:24:09<br>
+DateTimeOriginal : 2004:06:18 21:24:09<br>
+ExifVersion : 2.10<br>
+ExposureBias : 13.3<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/118<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+DateTime : 2004:06:18 21:24:09<br>
+ImageDescription : KF2-22A0<br>
+Make : KONICA<br>
+Model : KONICA KD-25<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">UserComment : KONICA Camera    <br>
+UserComment : KONICACamera<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-220Z.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:01:01 00:23:35<br>
+DateTimeOriginal : 2002:01:01 00:23:35<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/40<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+ShutterSpeedValue : 1/42<br>
+_IFDpointer_Interop : 476<br>
+DateTime : 2002:01:01 00:23:35<br>
+Make : Konica<br>
+Model : KD-220Z<br>
+ResolutionUnit : inches<br>
+Software : 1,40K<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.83<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-210Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeDigitized : 2002:09:09 09:26:28<br>
+DateTimeOriginal : 2002:09:09 09:26:28<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 356<br>
+_IFDpointer_Makernote : 630<br>
+Make : Konica Corporation<br>
+Model : Konica Digital Camera KD-210Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-20M.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:01:05 19:57:33<br>
+DateTimeOriginal : 2004:01:05 19:57:33<br>
+ExifVersion : 2.10<br>
+ExposureBias : 4.5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 561<br>
+DateTime : 2004:01:05 19:57:33<br>
+ImageDescription : KF2-2206<br>
+Make : KONICA<br>
+Model : KONICA KD-20M<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 203</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-200Z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1.7<br>
+DateTimeDigitized : 2002:04:15 17:19:52<br>
+DateTimeOriginal : 2002:04:15 17:19:52<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/45<br>
+FNumber : 3.5<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 356<br>
+_IFDpointer_Makernote : 630<br>
+Make : Konica Corporation<br>
+Model : Konica Digital Camera KD-200Z<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-20.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:02:07 06:44:05<br>
+DateTimeOriginal : 2004:02:07 06:44:05<br>
+ExifVersion : 2.10<br>
+ExposureBias : 13.5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/135<br>
+FNumber : 8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 559<br>
+DateTime : 2004:02:07 06:44:05<br>
+ImageDescription : KF2-2002<br>
+Make : KONICA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported">Model : KONICA KD-20<br>
+Model : KONICA KD-2<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaKD-2.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaDG-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.7<br>
+DateTimeDigitized : 2003:07:06 21:49:23<br>
+DateTimeOriginal : 2003:07:06 21:49:23<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/169<br>
+FNumber : 9.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SubjectDistance : 0.599 m<br>
+_IFDpointer_Interop : 344<br>
+_IFDpointer_Makernote : 624<br>
+Make : Konica Corporation<br>
+Model : Konica Digital Camera DG-2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 110</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Konica/KonicaDG-1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.1<br>
+DateTimeOriginal : 1998:09:16 15:52:26<br>
+ExifVersion : 2.00<br>
+ExposureBias : 0<br>
+ExposureTime : 1/64<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 5770.000000<br>
+FocalPlaneYResolution : 5770.000000<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 872 px h<br>
+SubjectDistance : 0.24 m<br>
+_IFDpointer_Makernote : 75,67,18,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,3,3,60,2,31,0,0,255,255<br>
+ImageDescription : DSC00006<br>
+Make : KONICA CORPORATION<br>
+Model : Konica Digital Camera DG-1<br>
+Orientation : Horizontal (normal)<br>
+PrimaryChromaticities : 0.64 0.33 0.3 0.6 0.15 0.06<br>
+ReferenceBlackWhite : 0 255 0 128 0 128<br>
+ResolutionUnit : inches<br>
+WhitePoint : 0.3127 0.329<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 386</td>
+<td class="unsupported">YCbCrCoefficients : 0.299 0.587 0.114<br>
+YCbCrCoefficients : 0.299,0.587,0.114<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

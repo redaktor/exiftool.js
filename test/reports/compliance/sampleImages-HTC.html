@@ -1,0 +1,1979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/HTC/HTC_XdaOrbit.jpg</td>
+<td class="supported">DateTimeOriginal : 2009:12:16 16:12:36<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2009:12:16 16:12:36<br>
+Make : HTC<br>
+Model : Xda Orbit<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_X7510.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:10:06 19:51:54<br>
+ExifVersion : 2.10<br>
+Flash : On, Flash fired<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 273<br>
+Artist : Lavr<br>
+DateTime : 2010:10:06 19:51:54<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 161</td>
+<td class="unsupported">Model : HTC_X7510<br>
+Model : HTCX7510<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_X7500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2010:03:15 14:24:18<br>
+DateTimeOriginal : 2010:03:15 14:24:18<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 316<br>
+DateTime : 2010:03:15 14:24:18<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 172</td>
+<td class="unsupported">Artist : ??????? ???????<br>
+Artist : <br>
+<br>
+Model : HTC_X7500<br>
+Model : HTCX7500<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_WildfireS_A510e.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:05:27 01:06:39<br>
+DateTimeOriginal : 2011:05:27 01:06:39<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.5 mm<br>
+ISO : 589<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1728 px h<br>
+_IFDpointer_Interop : 334<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2011:05:26<br>
+GPSLatitude : 55° 32' 51.2800" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 37° 33' 6.1200" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 21:06:39<br>
+GPSVersion : 2.2.0<br>
+Make : HTC<br>
+Model : HTC Wildfire S A510e<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 148<br>
+_IFDpointer_GPS : 364</td>
+<td class="unsupported">GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Wildfire.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:19 11:01:51<br>
+DateTimeOriginal : 2010:09:19 11:01:51<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1952 px h<br>
+_IFDpointer_Interop : 294<br>
+Make : HTC<br>
+Model : HTC Wildfire<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 128</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_VOGU100.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:08:29 18:00:44<br>
+DateTimeOriginal : 2010:08:29 18:00:44<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2010:08:29 18:00:44<br>
+Make : HTC<br>
+Model : VOGU100<br>
+ResolutionUnit : inches<br>
+Software : PhotoScape<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 165</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Universal.jpg</td>
+<td class="supported">DateTimeOriginal : 2006:06:02 15:59:26<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+Artist : Craig Garner<br>
+DateTime : 2006:06:02 15:59:26<br>
+Model : Universal<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 169</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TyTN_II.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:02 18:55:09<br>
+DateTimeOriginal : 2010:06:02 18:55:09<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneType : Directly photographed<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 152</td>
+<td class="unsupported">Model : HTC_TyTN_II<br>
+Model : HTCTyTNII<br>
+<br>
+Software : 4_08_30595_00<br>
+Software : 4083059500<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Trinity.jpg</td>
+<td class="supported">DateTimeDigitized : 2007:04:07 09:23:59<br>
+DateTimeOriginal : 2007:04:07 09:23:59<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 286<br>
+DateTime : 2007:04:07 09:23:59<br>
+Make : HTC<br>
+Model : Trinity<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchVivaT2223.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:04:25 16:57:02<br>
+DateTimeOriginal : 2010:04:25 16:57:02<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2010:04:25 16:57:02<br>
+Make : HTC<br>
+Model : HTC Touch Viva T2223<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 156</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchProT7272.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:06 20:27:53<br>
+DateTimeOriginal : 2010:06:06 20:27:53<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 538<br>
+DateTime : 2010:06:06 20:27:53<br>
+Model : HTC Touch Pro T7272<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Software : 6_01_32976_00<br>
+Software : 6013297600<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchPro2T7373.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:29 15:16:01<br>
+DateTimeOriginal : 2010:05:29 15:16:01<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.7 mm<br>
+ISO : 128<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1216 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/16<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 768<br>
+DateTime : 2010:05:29 15:16:01<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 250</td>
+<td class="unsupported">FNumber : 2.6<br>
+FNumber : 2.55<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Pro2 T7373<br>
+Model : HTC Touch Pro2 T737<br>
+<br>
+Software : 6_16_34566_0<br>
+Software : 616345660<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchHD_T8282.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:02 15:25:27<br>
+DateTimeOriginal : 2010:06:02 15:25:27<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 534<br>
+DateTime : 2010:06:02 15:25:27<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch HD T8282<br>
+Model : HTC Touch HD T828<br>
+<br>
+Software : 6_6_32687_8<br>
+Software : 66326878<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchElf.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:05:31 23:39:15<br>
+DateTimeOriginal : 2010:05:31 23:39:15<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : slavutich<br>
+DateTime : 2010:05:31 23:39:15<br>
+Make : HTC<br>
+Model : HTC Touch Elf<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDual.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:03 16:52:18<br>
+DateTimeOriginal : 2010:06:03 16:52:18<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 420<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : Touch Dual<br>
+Model : Touch Dua<br>
+<br>
+Software : 5_06_28956_00<br>
+Software : 5062895600<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDiamondP3700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:06 23:20:45<br>
+DateTimeOriginal : 2010:06:06 23:20:45<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 542<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Diamond P3700<br>
+Model : HTC Touch Diamond P370<br>
+<br>
+Software : 6_00_31516_00<br>
+Software : 6003151600<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDiamondP370.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:03:22 11:04:33<br>
+DateTimeOriginal : 2011:03:22 11:04:33<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_Padding : 2414<br>
+DateTime : 2011:03:22 11:04:33<br>
+Make : HT<br>
+Model : HTC Touch Diamond P370<br>
+Orientation : Horizontal (normal)<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 2228</td>
+<td class="unsupported">Software : 6_00_31364_00<br>
+Software : 6003136400<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchDiamond2T5353.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:08 14:09:39<br>
+DateTimeOriginal : 2010:06:08 14:09:39<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 300<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 532<br>
+DateTime : 2010:06:08 14:09:39<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 254</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Diamond2 T5353<br>
+Model : HTC Touch Diamond2 T535<br>
+<br>
+Software : 6_15_37497_1<br>
+Software : 615374971<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_TouchCruiseT4242.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:06 23:18:46<br>
+DateTimeOriginal : 2010:06:06 23:18:46<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 432<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch Cruise T4242<br>
+Model : HTC Touch Cruise T424<br>
+<br>
+Software : 5_04_31875_00<br>
+Software : 5043187500<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Touch3G_T3232.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:23 12:06:28<br>
+DateTimeOriginal : 2010:05:23 12:06:28<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 450<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch 3G T3232<br>
+Model : HTC Touch 3G T323<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Touch2T3333.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:04 17:29:43<br>
+DateTimeOriginal : 2010:06:04 17:29:43<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 349<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 524<br>
+DateTime : 2010:06:04 17:29:43<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Touch2 T3333<br>
+Model : HTC Touch2 T333<br>
+<br>
+Software : 6_29_19183128_01<br>
+Software : 6291918312801<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Tattoo.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:25 21:06<br>
+DateTimeOriginal : 2010:05:25 21:06<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 800<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 359<br>
+Make : HTC<br>
+Model : HTC Tattoo<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+Software : Android 1.6<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174<br>
+_IFDpointer_GPS : 390</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_T-Mobile_myTouch3G.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:07:22 12:38:45<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 372<br>
+Make : HTC<br>
+Model : T-Mobile myTouch 3G<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Android 1.5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,4,0,0,0</td>
+<td class="unsupported">DateTimeDigitized : 2009:07:22 12:38:45-04:00<br>
+DateTimeDigitized : 2009:07:22 12:38:45<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_T-MobileG1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:11:30 15:58:01<br>
+DateTimeOriginal : 2008:11:30 15:58:01<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 480<br>
+GPSAltitude : 4294967284 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 1961:05:29<br>
+GPSLatitude : 37° 33' 0.7200" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 121° 58' 11.3600" W<br>
+GPSLongitudeRef : West<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 04:22:24<br>
+GPSVersion : 2.2.0.0<br>
+Make : HTC<br>
+Model : T-Mobile G1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 242<br>
+_IFDpointer_GPS : 510<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,4,0,0,0</td>
+<td class="unsupported">GPSProcessingMethod : HYBRID-FIX<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,72,89,66,82,73,68,45,70,73,88<br>
+<br>
+Software : ?<br>
+Software : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_SnapS521.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:12:07 13:06:22<br>
+DateTimeOriginal : 2010:12:07 13:06:22<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 522<br>
+DateTime : 2010:12:07 13:06:22<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC Snap S521<br>
+Model : HTC Snap S52<br>
+<br>
+Software : 6_18_36336_0<br>
+Software : 618363360<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_SensationZ710e.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011/07/07 21:24:48<br>
+DateTimeOriginal : 2011/07/07 21:24:48<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+ISO : 284<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 1840 px h<br>
+_IFDpointer_Interop : 484<br>
+Make : HTC<br>
+Model : HTC Sensation Z710e<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 298</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_STAR100.jpg</td>
+<td class="supported">DateTimeOriginal : 2006:10:24 18:29:14<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+DateTime : 2006:10:24 18:29:14<br>
+Model : STAR 100<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 143</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_S740.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:13 17:23:32<br>
+DateTimeOriginal : 2010:04:13 17:23:32<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 440<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M7500BSAAAAAAD3050<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC S740<br>
+Model : HTC S74<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_S710.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:05:01 17:04:59<br>
+DateTimeOriginal : 2010:05:01 17:04:59<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 600 px w<br>
+PixelYDimension : 450 px h<br>
+DateTime : 2010:05:01 17:04:59<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 143</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_S710<br>
+Model : HTCS710<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_S621.jpg</td>
+<td class="supported">DateTimeDigitized : 2009:11:16 14:10:24<br>
+DateTimeOriginal : 2009:11:16 14:10:24<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+DateTime : 2009:11:16 14:10:24<br>
+Make : HTC<br>
+Model : HTC-S621<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 143</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_PC36100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:29 11:50:07<br>
+DateTimeOriginal : 2010:05:29 11:50:07<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 1952 px w<br>
+PixelYDimension : 3264 px h<br>
+_IFDpointer_Interop : 288<br>
+Make : HTC<br>
+Model : PC36100<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P4600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:07:13 20:52:41<br>
+DateTimeOriginal : 2009:07:13 20:52:41<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 538<br>
+DateTime : 2009:07:13 20:52:41<br>
+Model : HTC-P4600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">Make : HTC-P4600<br>
+Make : HTC-P460<br>
+<br>
+Software : 6_01_31727_01<br>
+Software : 6013172701<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P4350.jpg</td>
+<td class="supported">DateTimeDigitized : 2009:10:02 18:43:01<br>
+DateTimeOriginal : 2009:10:02 18:43:01<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+DateTime : 2009:10:02 18:43:01<br>
+Make : HTC<br>
+Model : HTC-P4350<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3650.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:10:02 14:48:40<br>
+DateTimeOriginal : 2009:10:02 14:48:40<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 420<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC_P3650<br>
+Model : HTCP365<br>
+<br>
+Software : 5_04_29195_00<br>
+Software : 5042919500<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3600i.jpg</td>
+<td class="supported">DateTimeDigitized : 2009:05:23 01:30:48<br>
+DateTimeOriginal : 2009:05:23 01:30:48<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 285<br>
+DateTime : 2009:05:23 01:30:48<br>
+Make : HTC<br>
+Model : P3600i<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 141</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3600.jpg</td>
+<td class="supported">DateTimeOriginal : 2010:05:25 12:47:04<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+PixelXDimension : 1472 px w<br>
+PixelYDimension : 915 px h<br>
+SubsecTime : 697<br>
+_IFDpointer_Interop : 383<br>
+Artist : Shatra<br>
+DateTime : 2010:05:25 13:50:31<br>
+Make : HTC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 261</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_P3600<br>
+Model : HTCP3600<br>
+<br>
+Software : ????????? ???????? ????????? ??????????? ???????? ACD Systems<br>
+Software : ACD Systems<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3470.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:06:01 20:53:34<br>
+DateTimeOriginal : 2010:06:01 20:53:34<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2010:06:01 20:53:34<br>
+Make : HTC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 156</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_P3470<br>
+Model : HTCP3470<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3452.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:03:10 18:12:01<br>
+DateTimeOriginal : 2010:03:10 18:12:01<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : Alex<br>
+DateTime : 2010:03:10 18:12:01<br>
+Make : HTC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 173</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_P3452<br>
+Model : HTCP3452<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3450.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:02:02 13:46:05<br>
+DateTimeOriginal : 2010:02:02 13:46:05<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2010:02:02 13:46:05<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 172</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Artist : ?????? ????????<br>
+Artist : <br>
+<br>
+Model : HTC_P3450<br>
+Model : HTCP3450<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3400.jpg</td>
+<td class="supported">DateTimeDigitized : 2007:09:05 14:43:37<br>
+DateTimeOriginal : 2007:09:05 14:43:37<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+Artist : Gagandeep Singh Sodhi<br>
+DateTime : 2007:09:05 14:43:37<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 178</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_P3400<br>
+Model : HTCP3400<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3350.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:07:11 09:54:01<br>
+DateTimeOriginal : 2010:07:11 09:54:01<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+DateTime : 2010:07:11 09:54:01<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_P3350<br>
+Model : HTCP3350<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3300.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:12:12 13:19:12<br>
+DateTimeOriginal : 2010:12:12 13:19:12<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : Nick<br>
+DateTime : 2010:12:12 13:19:12<br>
+Make : HTC<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 161</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+Model : HTC_P3300<br>
+Model : HTCP3300<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_P3050.jpg</td>
+<td class="supported">DateTimeDigitized : 2008:04:23 19:49:24<br>
+DateTimeOriginal : 2008:04:23 19:49:24<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : Natalia Senkevich<br>
+DateTime : 2008:04:23 19:49:24<br>
+Make : HTC<br>
+Model : P3050<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Oxygen.jpg</td>
+<td class="supported">DateTimeOriginal : 2009:05:22 16:45:24<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+DateTime : 2009:05:22 16:45:24<br>
+Make : HTC<br>
+Model : Oxygen<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_One_mini.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+BrightnessValue : 9.099503<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:08:27 11:51:23<br>
+DateTimeOriginal : 2013:08:27 11:51:23<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/5495<br>
+FNumber : 2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Other<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1520 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/5486<br>
+SubsecTimeOriginal : 845<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1432<br>
+_IFDpointer_Makernote : 892<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2013:08:27<br>
+GPSLatitude : 53° 13' 57.9547" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSProcessingMethod : ASCIIGPS<br>
+GPSTimeStamp : 10:51:26<br>
+DateTime : 2013:08:27 11:51:23<br>
+Make : HTC<br>
+Model : HTC One mini<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 354<br>
+_IFDpointer_GPS : 1462</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.702168997<br>
+CompressedBitsPerPixel : 3.7021689967105265<br>
+<br>
+GPSAltitude : 85.6 m Above Sea Level<br>
+GPSAltitude : 85.699 m Above Sea Level<br>
+<br>
+GPSLongitude : 1 deg 2' 41.36" W<br>
+GPSLongitude : 1° 2' 41.3582" W<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_One_M8.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+BrightnessValue : 6.665079<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 4<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2014:03:25 16:29:39<br>
+DateTimeOriginal : 2014:03:25 16:29:39<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1015<br>
+FNumber : 2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Other<br>
+PixelXDimension : 2688 px w<br>
+PixelYDimension : 1520 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/1015<br>
+SubsecTimeOriginal : 632<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4636<br>
+_IFDpointer_Makernote : 718<br>
+DateTime : 2014:03:25 16:29:39<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 180<br>
+_IFDpointer_GPS : 4666</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC One_M8<br>
+Model : HTC OneM<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_One.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+BrightnessValue : 2.906857<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2013:05:29 09:26:07<br>
+DateTimeOriginal : 2013:05:29 09:26:07<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.0<br>
+MeteringMode : Other<br>
+PixelXDimension : 2688 px w<br>
+PixelYDimension : 1520 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/60<br>
+SubsecTimeOriginal : 782<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 888<br>
+DateTime : 2013:05:29 09:26:07<br>
+Make : HTC<br>
+Model : HTC One<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 354<br>
+_IFDpointer_GPS : 918</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.366104715<br>
+CompressedBitsPerPixel : 2.366104714912281<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_NexusOne.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:12:06 06:31:05<br>
+DateTimeOriginal : 2009:12:06 06:31:05<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ImageUniqueID : 7b862f9d7924562b62cd6b6ee3867ee7<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 348<br>
+Make : HTC<br>
+Model : Nexus One<br>
+ResolutionUnit : inches<br>
+Software : Picasa 3.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 148</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Magic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:19 14:08:57<br>
+DateTimeOriginal : 2010:05:19 14:08:57<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 278<br>
+Make : HTC<br>
+Model : HTC Magic<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 124</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_MAX4G.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:02 09:21:36<br>
+DateTimeOriginal : 2010:05:02 09:21:36<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1216 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 528<br>
+DateTime : 2010:05:02 09:21:36<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC MAX 4G<br>
+Model : HTC MAX 4<br>
+<br>
+Software : 6_30_34215_0<br>
+Software : 630342150<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_IncredibleS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:06:05 18:13:51<br>
+DateTimeOriginal : 2011:06:05 18:13:51<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+ISO : 100<br>
+PixelXDimension : 1296 px w<br>
+PixelYDimension : 768 px h<br>
+_IFDpointer_Interop : 330<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2011:06:05<br>
+GPSLatitude : 59° 48' 34.6200" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 30° 19' 11.3900" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 14:13:51<br>
+GPSVersion : 2.2.0<br>
+Make : HTC<br>
+Model : HTC Incredible S<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 144<br>
+_IFDpointer_GPS : 360</td>
+<td class="unsupported">GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Hero.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:25 20:48:36<br>
+DateTimeOriginal : 2010:05:25 20:48:36<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1712 px w<br>
+PixelYDimension : 2560 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 466<br>
+Make : HTC<br>
+Model : HTC Hero<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Android 1.5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,26,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Hermes.jpg</td>
+<td class="supported">DateTimeOriginal : 2007:02:08 10:24:29<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2007:02:08 10:24:29<br>
+Model : Hermes<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 141</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD_T8282.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:14 13:52:14<br>
+DateTimeOriginal : 2010:09:14 13:52:14<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 530<br>
+DateTime : 2010:09:14 13:52:14<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">Make : HTC<br>
+Make : HT<br>
+<br>
+Model : HTC HD T8282<br>
+Model : HTC HD T828<br>
+<br>
+Software : 6_15_35844_1<br>
+Software : 615358441<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD7.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:11:24 19:12:30<br>
+DateTimeOriginal : 2010:11:24 19:12:30<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Interop : 402<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 100<br>
+GPSLatitude : 35° 50' 23.2720" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+Artist : Hello from Seattle<br>
+DateTime : 2010:11:24 19:12:30<br>
+Make : HTC<br>
+Model : HD7<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone OS 7.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234<br>
+_IFDpointer_GPS : 400</td>
+<td class="unsupported">GPSLongitude : 78 deg 40' 47.01" W<br>
+GPSLongitude : 78° 40' 47.0080" W<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD2T8585.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2010:05:28 11:16:57<br>
+DateTimeOriginal : 2010:05:28 11:16:57<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/171<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+LightSource : Other<br>
+MaxApertureValue : 3.0<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 536<br>
+DateTime : 2010:05:28 11:16:57<br>
+Make : HTC<br>
+Model : HTC HD2 T8585<br>
+Orientation : 56636<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214<br>
+_IFDpointer_GPS : 566</td>
+<td class="unsupported">FNumber : 3.2<br>
+FNumber : 3.19921875<br>
+<br>
+Software : 6_26_19211625_00<br>
+Software : 6261921162500<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_HD2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:07:06 23:37:59<br>
+DateTimeOriginal : 2011:07:06 23:37:59<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+ISO : 227<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+_IFDpointer_Interop : 308<br>
+Make : HTC<br>
+Model : HTC HD2<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_GratiaA6380.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:12:25 13:59:15<br>
+DateTimeOriginal : 2010:12:25 13:59:15<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.5 mm<br>
+ISO : 121<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1728 px h<br>
+_IFDpointer_Interop : 318<br>
+Make : HTC<br>
+Model : HTC Gratia A6380<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Elf100.jpg</td>
+<td class="supported">DateTimeDigitized : 2009:03:25 13:56:06<br>
+DateTimeOriginal : 2009:03:25 13:56:06<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2009:03:25 13:56:06<br>
+Make : HTC<br>
+Model : Elf100<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 141</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Dream.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_DesireS.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:05:29 10:31:54<br>
+DateTimeOriginal : 2011:05:29 10:31:54<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.5 mm<br>
+ISO : 75<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+_IFDpointer_Interop : 326<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2011:05:29<br>
+GPSLatitude : 56° 47' 36.8800" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 53° 26' 11.3400" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 10:31:54<br>
+GPSVersion : 2.2.0<br>
+Make : HTC<br>
+Model : HTC Desire S<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 140<br>
+_IFDpointer_GPS : 356</td>
+<td class="unsupported">GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_DesireHD.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:12:04 20:46:38<br>
+DateTimeOriginal : 2010:12:04 20:46:38<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 598<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+_IFDpointer_Interop : 302<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2010:12:04<br>
+GPSLatitude : 59° 55' 52.5600" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 30° 21' 25.3200" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 17:46:38<br>
+GPSVersion : 2.2.0<br>
+Make : HTC<br>
+Model : Desire HD<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 136<br>
+_IFDpointer_GPS : 332</td>
+<td class="unsupported">GPSProcessingMethod : NETWORK<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,78,69,84,87,79,82,75<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Desire.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:06 13:07:51<br>
+DateTimeOriginal : 2010:06:06 13:07:51<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1552 px h<br>
+_IFDpointer_Interop : 292<br>
+Make : HTC<br>
+Model : HTC Desire<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 126</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_DL_DesireZv34final.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:06:24 18:49:49<br>
+DateTimeOriginal : 2011:06:24 18:49:49<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+ISO : 53<br>
+PixelXDimension : 1552 px w<br>
+PixelYDimension : 2592 px h<br>
+_IFDpointer_Interop : 322<br>
+Make : HTC<br>
+Model : DL DesireZ v3.4 final<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 136</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Breeze.jpg</td>
+<td class="supported">DateTimeOriginal : 2009:08:09 17:24:22<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+SubsecTime : 625<br>
+DateTime : 2009:08:13 21:53:02<br>
+Make : HTC<br>
+Model : Breeze<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 205</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_Artemis.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:07:10 20:39:40<br>
+DateTimeOriginal : 2010:07:10 20:39:40<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : SyMPDA<br>
+DateTime : 2010:07:10 20:39:40<br>
+Make : HTC<br>
+Model : Artemis<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_8900.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:01 16:08:35<br>
+DateTimeOriginal : 2010:06:01 16:08:35<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneType : Directly photographed<br>
+Make : HTC-8900<br>
+Model : HTC-8900<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported">Software : 4_08_28288_00<br>
+Software : 4082828800<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_7Trophy.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:08:15 14:29:32<br>
+DateTimeOriginal : 2011:08:15 14:29:32<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 800<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Interop : 392<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 3000<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+Artist : <br>
+DateTime : 2011:08:15 14:29:32<br>
+Make : HTC<br>
+Model : 7 Trophy<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone OS 7.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224<br>
+_IFDpointer_GPS : 390</td>
+<td class="unsupported">GPSLatitude : 42 deg 16' 5.16" N<br>
+GPSLatitude : 42° 16' 5.1590" N<br>
+<br>
+GPSLongitude : 2 deg 57' 33.77" E<br>
+GPSLongitude : 2° 57' 33.7680" E<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_7ProT7576.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2013:05:30 17:40:21<br>
+DateTimeOriginal : 2013:05:30 17:40:21<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Interop : 390<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 3000<br>
+GPSLatitude : 47° 25' 27.6240" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 9° 22' 46.4520" E<br>
+GPSLongitudeRef : East<br>
+GPSMeasureMode : 2-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+Artist : <br>
+DateTime : 2013:05:30 17:40:21<br>
+Make : HTC<br>
+Model : 7 Pro T7576<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone 7.5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 224<br>
+_IFDpointer_GPS : 390</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC_7Mozart.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:05:03 21:03:33<br>
+DateTimeOriginal : 2011:05:03 21:03:33<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+_IFDpointer_Interop : 392<br>
+Artist : <br>
+DateTime : 2011:05:03 21:03:33<br>
+Make : HTC<br>
+Model : 7 Mozart<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone OS 7.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/HTC/HTC-S620.jpg</td>
+<td class="supported">DateTimeDigitized : 2008:01:15 13:35:26<br>
+DateTimeOriginal : 2008:01:15 13:35:26<br>
+ExifVersion : 2.10<br>
+Flash : No Flash<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+DateTime : 2008:01:15 13:35:26<br>
+Make : HTC<br>
+Model : HTC-S620<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 143</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

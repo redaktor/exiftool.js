@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Acer/AcerX960.jpg</td>
+<td class="supported">DateTimeDigitized : 2009-09-23 17:40:52 UTC<br>
+DateTimeOriginal : 2009-09-23 17:40:52 UTC<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+DateTime : 2009-09-23 17:40:52 UTC<br>
+Make : ACER<br>
+Model : X960<br>
+Software : ACER Camera<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported">Artist : ???????<br>
+Artist : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerStream.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:12:08 12:00:00<br>
+DateTimeOriginal : 2011:05:27 13:18:32<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Interop : 286<br>
+Make : Acer<br>
+Model : Acer Stream<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerS200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:04 18:25:39<br>
+DateTimeOriginal : 2010:06:04 18:25:39<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Interop : 398<br>
+Copyright : Copyrights 2009 Acer Incorporate<br>
+DateTime : 2010:06:04 18:25:39<br>
+Make : ACER<br>
+Model : ACER S200<br>
+ResolutionUnit : inches<br>
+Software : ACER Camera<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244<br>
+_IFDpointer_GPS : 428</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerM900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:12:18 02:32:55<br>
+DateTimeOriginal : 2010:12:18 02:32:55<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureIndex : 400<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+LightSource : Daylight<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : 8<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4564<br>
+_IFDpointer_Makernote : 922<br>
+Make : Acer<br>
+Model : M900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 02.1006<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerLiquidMetal.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:02:13 14:01:35<br>
+DateTimeOriginal : 2011:02:13 14:01:35<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.5 mm<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Interop : 320<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Below Sea Level<br>
+GPSDateStamp : 2002:12:08<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : South<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : West<br>
+GPSTimeStamp : 12:00:00<br>
+Make : Acer<br>
+Model : Liquid Metal<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146<br>
+_IFDpointer_GPS : 350</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerLiquid.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:04 08:09:42<br>
+DateTimeOriginal : 2010:06:04 08:09:42<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.3 mm<br>
+FocalLengthIn35mmFilm : 33 mm<br>
+MeteringMode : Average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 406<br>
+Make : Acer<br>
+Model : Acer Liquid<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 144<br>
+_IFDpointer_GPS : 436</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerE101.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010-06-09 23:15:52 UTC<br>
+DateTimeOriginal : 2010-06-09 23:15:52 UTC<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 573<br>
+GPSLatitude : 59° 56' 49.9600" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 30° 11' 35.3900" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS84<br>
+GPSTimeStamp : 19:15:07<br>
+GPSVersion : 2.0.0.0<br>
+DateTime : 2010-06-09 23:15:52 UTC<br>
+Make : ACER<br>
+Model : ACER E101<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACER Camera<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 299<br>
+_IFDpointer_GPS : 603</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerDX650.jpg</td>
+<td class="supported">DateTimeDigitized : 2010-11-14 16:25:16 UTC<br>
+DateTimeOriginal : 2010-11-14 16:25:16 UTC<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+DateTime : 2010-11-14 16:25:16 UTC<br>
+Make : ACER<br>
+Model : DX650<br>
+Software : ACER Camera<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported">Artist : @????@<br>
+Artist : @@<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCU-6530.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:20 16:59:50<br>
+DateTimeOriginal : 2010:01:20 16:59:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/380<br>
+FNumber : 5.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/377<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2010:01:20 16:59:50<br>
+ImageDescription : Digital StillCamera<br>
+Make : acer<br>
+Model : CU-6530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCS6530.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:02 05:11:38<br>
+DateTimeOriginal : 2005:01:02 05:11:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FNumber : 3.2<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 39 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/15<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:01:02 05:11:38<br>
+ImageDescription : Digital StillCamera<br>
+Make : acer<br>
+Model : CS6530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCS5531.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:06:11 04:43:02<br>
+DateTimeOriginal : 2008:06:11 04:43:02<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : High gain up<br>
+ISO : 200<br>
+LightSource : Daylight<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+UserComment : 10958<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11092<br>
+_IFDpointer_Makernote : 958<br>
+DateTime : 2008:06:11 04:43:02<br>
+ImageDescription : DIGITAL IMAGE<br>
+Make : ACER<br>
+Model : CS5531<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.06ACE<br>
+XResolution : 200.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 200.00000000<br>
+_IFDpointer_EXIF : 500<br>
+PrintIM : 232</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCR8530.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:01 17:00:34<br>
+DateTimeOriginal : 2005:01:01 17:00:34<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/55<br>
+FNumber : 4<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 51 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/55<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 890<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2005:01:01 17:00:34<br>
+ImageDescription : Digital StillCamera<br>
+Make : acer<br>
+Model : CR8530<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCP-8660.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:07:06 20:45:12<br>
+DateTimeOriginal : 2010:07:06 20:45:12<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/64<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 75 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/64<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1010<br>
+_IFDpointer_Makernote : 768<br>
+DateTime : 2010:07:06 20:45:12<br>
+ImageDescription : Digital StillCamera<br>
+Make : Acer<br>
+Model : CP-8660<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCP-8531.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:07:24 12:52:36<br>
+DateTimeOriginal : 2011:07:24 12:52:36<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/638<br>
+FNumber : 6.7<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10688<br>
+_IFDpointer_Makernote : 680<br>
+DateTime : 2011:07:24 12:52:36<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : acer<br>
+Model : CP-8531<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V0.23<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 222</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCL-6300.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:05:09 20:14:31<br>
+DateTimeOriginal : 2009:05:09 20:14:31<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:05:09 20:14:31<br>
+ImageDescription : Digital image<br>
+Make : Acer<br>
+Model : CL-6300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.00.004AC<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCL-5300.jpg</td>
+<td class="supported">ApertureValue : 3.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:27 14:03:26<br>
+DateTimeOriginal : 2009:11:27 14:03:26<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/55<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/55<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2009:11:27 14:03:26<br>
+ImageDescription : Digital image<br>
+Make : Digital Camera<br>
+Model : CL-5300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.01ver.<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCI6330.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:24 18:15:26<br>
+DateTimeOriginal : 2008:07:24 18:15:26<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/235<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 11042<br>
+_IFDpointer_Makernote : 1034<br>
+DateTime : 2008:07:24 18:15:26<br>
+ImageDescription : Acer Image<br>
+Make : Acer Corporation<br>
+Model : CI6330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 588<br>
+PrintIM : 238</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCI-8330.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:27 19:48:50<br>
+DateTimeOriginal : 2005:01:27 19:48:50<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.7<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2005:01:27 19:48:50<br>
+ImageDescription : <br>
+Make : acer<br>
+Model : CI-8330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0004.2A<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCE6430.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:31 17:46:50<br>
+DateTimeOriginal : 2008:07:31 17:46:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Action (High speed)<br>
+ExposureTime : 1/1042<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 21026<br>
+_IFDpointer_Makernote : 1018<br>
+DateTime : 2008:07:31 17:46:50<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Acer<br>
+Model : CE6430<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V0.21<br>
+XResolution : 314.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 314.00000000<br>
+_IFDpointer_EXIF : 584<br>
+PrintIM : 234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCE-5330.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:10:10 22:58:22<br>
+DateTimeOriginal : 2009:10:10 22:58:22<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10676<br>
+_IFDpointer_Makernote : 668<br>
+DateTime : 2009:10:10 22:58:22<br>
+ImageDescription : ACER<br>
+Make : ACER<br>
+Model : CE-5330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 222</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

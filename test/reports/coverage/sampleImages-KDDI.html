@@ -1,0 +1,7213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/KDDI/KDDI_talby.jpg</td>
+<td class="supported">Make : KDDI-ST<br>
+Model : talby<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:03:05 20:17:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_talby.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_talby.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 539 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050305_2017~001<br>
+ImageDescription : 0503052017001<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W64SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W64SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/120<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:26 13:33:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W64SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W64SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 743 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 100426_1333<br>
+ImageDescription : 1004261333<br>
+<br>
+ModifyDate : 2010:04:26 13:33:43<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:26 13:33:38<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +9<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 800<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/120<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W61CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : W61CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/11<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:04:11 18:41:56<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W61CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W61CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 745 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 090411_1841~0002<br>
+ImageDescription : 09041118410002<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/11<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W55T.jpg</td>
+<td class="supported">ImageDescription : TS3G0002<br>
+Make : KDDI-TS<br>
+Model : W55T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : 72<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:11:30 01:29:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W55T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W55T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2008:11:30 01:29:25<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 712<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5728<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5728 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W54T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : W54T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:08:23 22:19:08<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W54T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W54T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 711 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 080823_2219<br>
+ImageDescription : 0808232219<br>
+<br>
+CreateDate : 2008:08:23 22:19:08<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 800<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W53T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : W53T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:08:27 12:53:59<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W53T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W53T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 691 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 090827_1253<br>
+ImageDescription : 0908271253<br>
+<br>
+CreateDate : 2009:08:27 12:53:59<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 400<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W53CA.jpg</td>
+<td class="supported">ImageDescription : CA390085<br>
+Make : KDDI-CA<br>
+Model : W53CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/1587<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:09:04 11:06:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W53CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W53CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2007:09:04 11:06:38<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 712<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7557<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1587<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7557 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : W52T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:08:19 11:41:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W52T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W52T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 729 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 080819_1141<br>
+ImageDescription : 0808191141<br>
+<br>
+CreateDate : 2008:08:19 11:41:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 480<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 800<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52SH.jpg</td>
+<td class="supported">Make : KDDI-SH<br>
+Model : W52SH<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/5<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:11:22 17:29:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.291015625<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W52SH.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W52SH.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 719 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 081122_1729<br>
+ImageDescription : 0811221729<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/5<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52SA.jpg</td>
+<td class="supported">ImageDescription : img003<br>
+Make : KDDI-SA<br>
+Model : W52SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:09:18 20:37:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W52SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W52SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 613 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:09:18 20:37:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:09:18 20:37:48<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52S.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : W52S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/8<br>
+FNumber : 3.2<br>
+ISO : 160<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:09:14 03:00:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+FocalLength : 3.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W52S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W52S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 889 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 090914_0300~01<br>
+ImageDescription : 090914030001<br>
+<br>
+ModifyDate : 2009:09:14 03:00:33<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:09:14 03:00:33<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 432<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 3.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 5.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : W52CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:09:06 16:42:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W52CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W52CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 573 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 090906_1642~0001<br>
+ImageDescription : 09090616420001<br>
+<br>
+ModifyDate : 2009:09:06 16:44:39<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W51P.jpg</td>
+<td class="supported">Make : KDDI-MA<br>
+Model : W51P<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/5<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:10:11 17:50:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.25<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W51P.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W51P.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 677 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 081011_1750~0001<br>
+ImageDescription : 08101117500001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 400<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/5<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W51CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : W51CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/140<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:02:18 13:45:11<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W51CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W51CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 745 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 100218_1345~0001<br>
+ImageDescription : 10021813450001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/140<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W47T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : W47T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:08:06 22:58:47<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : High saturation<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W47T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W47T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 1271 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 070806_2258<br>
+ImageDescription : 0708062258<br>
+<br>
+CreateDate : 2007:08:06 22:58:47<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W44T.jpg</td>
+<td class="supported">ImageDescription : TS370246<br>
+Make : KDDI-TS<br>
+Model : W44T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:07:01 22:44:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W44T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W44T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2009:07:01 22:44:57<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 712<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5817<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5817 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W43S.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : W43S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+FNumber : 4<br>
+ISO : 320<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:06:30 00:36:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+FocalLength : 3.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.62<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W43S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W43S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 879 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 070630_0036~04<br>
+ImageDescription : 070630003604<br>
+<br>
+ModifyDate : 2007:06:30 00:36:49<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:06:30 00:36:49<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 3.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 5.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W43H.jpg</td>
+<td class="supported">Make : KDDI-HI<br>
+Model : W43H<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/25<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:05:22 14:11:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.25<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W43H.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W43H.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 745 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 090522_1411~0001<br>
+ImageDescription : 09052214110001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/25<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W43CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : W43CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/25<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:05:22 21:11:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.25<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W43CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W43CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 763 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 070522_2111~0001<br>
+ImageDescription : 07052221110001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 400<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/25<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W42T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : W42T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:09:17 14:35:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W42T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W42T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 691 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 080917_1435<br>
+ImageDescription : 0809171435<br>
+<br>
+CreateDate : 2008:09:17 14:35:01<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W42K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : W42K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6550B-KCC-30304<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/14<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:06:04 17:32:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W42K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W42K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 889 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 070604_1732~01<br>
+ImageDescription : 070604173201<br>
+<br>
+CreateDate : 2007:06:04 17:32:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/14<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W41SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W41SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+FNumber : 3.4<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:11:02 21:20:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 3.2<br>
+BrightnessValue : 1<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 3.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.3<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W41SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W41SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 917 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 061102_2120~01<br>
+ImageDescription : 061102212001<br>
+<br>
+ModifyDate : 2006:11:02 21:20:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:11:02 21:20:44<br>
+CreateDate : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 9.2<br>
+ScaleFactor35efl : undefined<br>
+<br>
+CircleOfConfusion : 0.003 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 3.4 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.02 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W41CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : W41CA<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/60<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:08:30 14:11:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W41CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W41CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 751 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 070830_1411~0001<br>
+ImageDescription : 07083014110001<br>
+<br>
+ExifImageWidth : 400<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 1.25<br>
+DigitalZoomRatio : undefined<br>
+<br>
+SceneCaptureType : Standard<br>
+SceneCaptureType : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W33SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W33SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:10:03 12:25:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W33SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W33SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 651 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 061003_1225~02<br>
+ImageDescription : 061003122502<br>
+<br>
+ModifyDate : 2006:10:03 14:51:36<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:10:03 12:25:42<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W32SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W32SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+FNumber : 2.8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:11:26 10:04:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.6<br>
+BrightnessValue : 1<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.03<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W32SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W32SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 917 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 051126_1004~03<br>
+ImageDescription : 051126100403<br>
+<br>
+ModifyDate : 2005:11:26 10:04:55<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:11:26 10:04:55<br>
+CreateDate : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.2 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.16 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31T.jpg</td>
+<td class="supported">ImageDescription : TS320382<br>
+Make : KDDI-TS<br>
+Model : W31T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:10:24 01:42:16<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W31T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W31T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 721 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:10:24 01:42:30<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:10:24 01:42:16<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W31SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:10:21 15:15:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W31SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W31SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 621 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 051021_1515~01<br>
+ImageDescription : 051021151501<br>
+<br>
+ModifyDate : 2005:10:21 15:17:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:10:21 15:15:50<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31S.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : W31S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/19<br>
+FNumber : 2.8<br>
+ISO : 160<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:06:13 08:40:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W31S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W31S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 849 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050613_0841~01<br>
+ImageDescription : 050613084101<br>
+<br>
+ModifyDate : 2005:06:13 08:40:36<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:06:13 08:40:36<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/19<br>
+ShutterSpeed : undefined<br>
+<br>
+LightValue : 6.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : W31K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/256<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:10 13:21:58<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W31K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W31K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 701 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050410_1321~003<br>
+ImageDescription : 0504101321003<br>
+<br>
+CreateDate : 2005:04:10 13:21:58<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 3<br>
+DigitalZoomRatio : undefined<br>
+<br>
+SceneCaptureType : Standard<br>
+SceneCaptureType : undefined<br>
+<br>
+SubjectDistanceRange : Unknown<br>
+SubjectDistanceRange : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/256<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31H.jpg</td>
+<td class="supported">Make : KDDI-HI<br>
+Model : W31H<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/45<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:03:12 13:20:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W31H.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W31H.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 746 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050312_1320~0001<br>
+ImageDescription : 05031213200001<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : 1.333333333<br>
+DigitalZoomRatio : 1.3333333333333333<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : W31CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/9<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:01:14 00:47:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W31CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W31CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 701 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+OcadRevision : 14797<br>
+OcadRevision : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 080114_0047~0001<br>
+ImageDescription : 08011400470001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 400<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : 1.19047619<br>
+DigitalZoomRatio : 1.1904761904761905<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/9<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W22SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W22SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+FNumber : 3.4<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:10:21 12:24:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 3.2<br>
+BrightnessValue : 1<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+Flash : No Flash<br>
+FocalLength : 4.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1.36<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W22SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W22SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 917 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 051021_1224~01<br>
+ImageDescription : 051021122401<br>
+<br>
+ModifyDate : 2005:10:21 12:24:08<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:10:21 12:24:06<br>
+CreateDate : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 41 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 8.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 47.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.8 mm (35 mm equivalent: 41.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.94 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W22H.jpg</td>
+<td class="supported">Make : KDDI-HI<br>
+Model : W22H<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/17<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:29 18:32:58<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W22H.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W22H.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 742 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050429_1832~0001<br>
+ImageDescription : 05042918320001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : 1.333333333<br>
+DigitalZoomRatio : 1.3333333333333333<br>
+<br>
+PrintIMVersion : 0260<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/17<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : W21SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+FNumber : 2.8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:12:05 12:44:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.6<br>
+BrightnessValue : 1<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Average<br>
+LightSource : Cloudy weather<br>
+Flash : No Flash<br>
+FocalLength : 5.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W21SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W21SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 899 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041205_1244~01<br>
+ImageDescription : 041205124401<br>
+<br>
+ModifyDate : 2004:12:05 12:44:14<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:12:05 12:44:14<br>
+CreateDate : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.2 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.16 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21S.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : W21S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/26<br>
+ISO : 160<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:02 12:57:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.07<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W21S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W21S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 819 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050402_1257~01<br>
+ImageDescription : 050402125701<br>
+<br>
+ModifyDate : 2005:04:02 12:57:28<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : inf<br>
+FNumber : Infinity<br>
+<br>
+CreateDate : 2005:04:02 12:57:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0260<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : inf<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/26<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21K.jpg</td>
+<td class="supported">ImageDescription : KC320001<br>
+Make : KDDI-KC<br>
+Model : W21K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/7<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:27 21:57:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 4<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W21K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W21K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 719 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2005:01:27 21:57:27<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/7<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21H.jpg</td>
+<td class="supported">ImageDescription : 09270001<br>
+Make : KDDI-HI<br>
+Model : W21H<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:09:27 08:57:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W21H.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W21H.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 601 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21CA.jpg</td>
+<td class="supported">ImageDescription : CA310001<br>
+Make : KDDI-CA<br>
+Model : W21CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/667<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:01 12:34:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W21CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W21CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 802 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:04:01 12:40:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:04:01 12:34:22<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/667<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W11K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : W11K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:02:26 17:18:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.5<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W11K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W11K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 637 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050226_1718~01<br>
+ImageDescription : 050226171801<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W11H.jpg</td>
+<td class="supported">Make : KDDI-HI<br>
+Model : W11H<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:10:10 10:27:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_W11H.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_W11H.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 619 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041010_1027~01<br>
+ImageDescription : 041010102701<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_QCAM40a.jpg</td>
+<td class="supported">Make : KDDI-AA<br>
+Model : QCAM40a<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:04 04:15:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : On, Did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_QCAM40a.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_QCAM40a.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 699 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2005:01:04 04:15:40<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : 1.996826172<br>
+DigitalZoomRatio : 1.996826171875<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_INFOBAR.jpg</td>
+<td class="supported">Make : KDDI-ST<br>
+Model : INFOBAR<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:07:10 20:07:33<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_INFOBAR.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_INFOBAR.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 554 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040710_2007001<br>
+ImageDescription : 0407102007001<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5527SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A5527SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/26<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:02:15 20:13:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5527SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5527SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 611 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 090215_2013~0001<br>
+ImageDescription : 09021520130001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/26<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5512CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : A5512CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/16<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:09:10 17:57:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5512CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5512CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 747 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050910_1757~0001<br>
+ImageDescription : 05091017570001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : 1.818181818<br>
+DigitalZoomRatio : 1.8181818181818181<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/16<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5507SA.jpg</td>
+<td class="supported">Make : KDDI-ST<br>
+Model : A5507SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:29 15:36:29<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5507SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5507SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 649 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050429_1536~001<br>
+ImageDescription : 0504291536001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0260<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5506T.jpg</td>
+<td class="supported">ImageDescription : TS280375<br>
+Make : KDDI-TS<br>
+Model : A5506T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:08:01 11:25:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5506T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5506T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2005:08:01 11:25:39<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 596<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13616<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13616 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5505SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A5505SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+FNumber : 2.8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:09:11 20:46:11<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.8<br>
+BrightnessValue : 1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.48<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5505SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5505SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 869 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040911_2046~01<br>
+ImageDescription : 040911204601<br>
+<br>
+CreateDate : 2004:09:11 20:46:11<br>
+CreateDate : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+FocalLength : 1200.0 mm<br>
+FocalLength : 1200 mm<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 0<br>
+ScaleFactor35efl : undefined<br>
+<br>
+CircleOfConfusion : 1.030 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 1200.0 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 499.23 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5504T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : A5504T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:08:10 17:04:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5504T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5504T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 653 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040810_1704~01<br>
+ImageDescription : 040810170401<br>
+<br>
+CreateDate : 2004:08:10 17:04:21<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5503SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A5503SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:08:01 17:46:17<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5503SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5503SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 623 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040801_1745~01<br>
+ImageDescription : 040801174501<br>
+<br>
+ModifyDate : 2004:08:01 17:46:17<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:08:01 17:46:17<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5502K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : A5502K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 2.8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:11:23 16:05:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5502K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5502K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 717 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041123_1605~002<br>
+ImageDescription : 0411231605002<br>
+<br>
+ModifyDate : 2004:11:23 16:05:29<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:11:23 16:05:27<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5501T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : A5501T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:08:07 15:47:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5501T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5501T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 653 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050807_1547~01<br>
+ImageDescription : 050807154701<br>
+<br>
+CreateDate : 2005:08:07 15:47:18<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 144<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5407CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : A5407CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:02:11 16:44:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1.25<br>
+SceneCaptureType : Landscape</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5407CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5407CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 761 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050211_1644~0001<br>
+ImageDescription : 05021116440001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5406CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : A5406CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/10<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:30 19:34:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1.28<br>
+SceneCaptureType : Landscape</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5406CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5406CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 743 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050430_1934~0001<br>
+ImageDescription : 05043019340001<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/10<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5405SA.jpg</td>
+<td class="supported">Make : KDDI-ST<br>
+Model : A5405SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/10<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:08:08 19:04:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5405SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5405SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 627 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040808_1904~001<br>
+ImageDescription : 0408081904001<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/10<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5404S.jpg</td>
+<td class="supported">ImageDescription : SN250275<br>
+Make : KDDI-SN<br>
+Model : A5404S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/245<br>
+ISO : 160<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:09:11 13:52:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5404S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5404S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:09:11 13:52:18<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:09:11 13:52:18<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 672<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4468<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/245<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4468 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5403CA.jpg</td>
+<td class="supported">ImageDescription : CA240007<br>
+Make : KDDI-CA<br>
+Model : A5403CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 0.6<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:07:19 19:22:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Night scene</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5403CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5403CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 787 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:07:19 19:53:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:07:19 19:22:14<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0.6<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5402S.jpg</td>
+<td class="supported">Make : KDDI-SE<br>
+Model : A5402S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:11 12:58:24<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5402S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5402S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 573 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050411_1258~01<br>
+ImageDescription : 050411125801<br>
+<br>
+ModifyDate : 2005:04:11 12:58:24<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5401CA.jpg</td>
+<td class="supported">ImageDescription : 08120006<br>
+Make : KDDI-CA<br>
+Model : A5401CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/5<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:08:12 23:01:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5401CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5401CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 603 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/5<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5306ST.jpg</td>
+<td class="supported">Make : KDDI-ST<br>
+Model : A5306ST<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:06:04 16:42:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5306ST.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5306ST.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 541 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050604_1642002<br>
+ImageDescription : 0506041642002<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5305K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : A5305K<br>
+Orientation : Horizontal (normal)<br>
+YResolution : 0.00625000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:25 13:10:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5305K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5305K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 539 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040525_1310~01<br>
+ImageDescription : 040525131001<br>
+<br>
+XResolution : 0.008333333333<br>
+XResolution : 0.00833333<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5304T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : A5304T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:07:10 13:39:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5304T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5304T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 539 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040710_1339~01<br>
+ImageDescription : 040710133901<br>
+<br>
+ExifImageWidth : 144<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5303H2.jpg</td>
+<td class="supported">Make : KDDI-HI<br>
+Model : A5303H2<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:03 14:12:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5303H2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5303H2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 541 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040103_1412~01<br>
+ImageDescription : 040103141201<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5303H.jpg</td>
+<td class="supported">Make : KDDI-HI<br>
+Model : A5303H<br>
+Orientation : Horizontal (normal)<br>
+YResolution : 0.00625000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:03 17:48:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5303H.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5303H.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 539 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050503_1748~01<br>
+ImageDescription : 050503174801<br>
+<br>
+XResolution : 0.008333333333<br>
+XResolution : 0.00833333<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5302CA.jpg</td>
+<td class="supported">ImageDescription : 09270001<br>
+Make : KDDI-CA<br>
+Model : A5302CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:09:27 16:59:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5302CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5302CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 535 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5301T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : A5301T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:05:24 22:21:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSTimeStamp : 22:29:14<br>
+GPSMapDatum : WGS-84<br>
+GPSDateStamp : 2003:05:24<br>
+GPSAltitude : 78 m Above Sea Level<br>
+GPSLatitude : 35° 36' 57.6700" N<br>
+GPSLongitude : 139° 41' 50.3400" E</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A5301T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A5301T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 805 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 030524_2221~01<br>
+ImageDescription : 030524222101<br>
+<br>
+ExifImageWidth : 144<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+GPSVersionID : 2.2.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+GPSProcessingMethod : HYBRID-FIX<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,72,89,66,82,73,68,45,70,73,88<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2003:05:24 22:29:14Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 35 deg 36' 57.67" N, 139 deg 41' 50.34" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A3015SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A3015SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:16 21:42:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A3015SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A3015SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 590 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040516_2141~00<br>
+ImageDescription : 040516214100<br>
+<br>
+ModifyDate : 2004:05:16 21:42:23<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A3012CA.jpg</td>
+<td class="supported">Make : KDDI-CA<br>
+Model : A3012CA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:11:13 15:05:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A3012CA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A3012CA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 545 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:11:13 15:06:24<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1404S.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : A1404S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:09:09 21:58:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1404S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1404S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 591 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050909_2158~01<br>
+ImageDescription : 050909215801<br>
+<br>
+ModifyDate : 2005:09:09 21:58:09<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1403K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : A1403K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/15<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:03:14 11:10:16<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 3<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1403K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1403K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 721 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050314_1<br>
+ImageDescription : 0503141<br>
+<br>
+CreateDate : 2005:03:14 11:10:16<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1402S2.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : A1402S2<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:11:09 18:25:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1402S2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1402S2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 591 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041109_1825~01<br>
+ImageDescription : 041109182501<br>
+<br>
+ModifyDate : 2004:11:09 18:25:27<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1402S.jpg</td>
+<td class="supported">Make : KDDI-SN<br>
+Model : A1402S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:10:09 00:43:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1402S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1402S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 591 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041009_0043~01<br>
+ImageDescription : 041009004301<br>
+<br>
+ModifyDate : 2004:10:09 00:43:41<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1401K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : A1401K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 2.8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:03:21 15:49:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.188<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1401K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1401K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 641 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050321_1549~001<br>
+ImageDescription : 0503211549001<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1305SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A1305SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:12:11 13:44:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1305SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1305SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 605 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041211_1344~02<br>
+ImageDescription : 041211134402<br>
+<br>
+ModifyDate : 2004:12:11 13:44:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:12:11 13:44:45<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1304T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : A1304T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:11:03 11:51:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1304T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1304T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 539 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 041103_1151~01<br>
+ImageDescription : 041103115101<br>
+<br>
+ExifImageWidth : 144<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1303SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A1303SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:03:25 22:57:32<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1303SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1303SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 623 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040325_2257~01<br>
+ImageDescription : 040325225701<br>
+<br>
+ModifyDate : 2004:03:25 22:57:32<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:03:25 22:57:32<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1302SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A1302SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:24 09:12:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1302SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1302SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 571 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040524_0912~03<br>
+ImageDescription : 04052409120<br>
+<br>
+ModifyDate : 2004:05:24 09:12:01<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1301S.jpg</td>
+<td class="supported">Make : KDDI-SE<br>
+Model : A1301S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:08:23 17:01:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1301S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1301S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 573 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 030823_1701~03<br>
+ImageDescription : 030823170103<br>
+<br>
+ModifyDate : 2003:08:23 17:01:50<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1013K.jpg</td>
+<td class="supported">Make : KDDI-KC<br>
+Model : A1013K<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2003:08:26 10:05:37<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI_A1013K.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI_A1013K.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 605 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 030826_1005~001<br>
+ImageDescription : 0308261005001<br>
+<br>
+ModifyDate : <br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 120<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 160<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI-TS_W21T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : W21T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:09:05 22:32:25<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Macro</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI-TS_W21T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI-TS_W21T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 709 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050905_2232<br>
+ImageDescription : 0509052232<br>
+<br>
+CreateDate : 2005:09:05 22:32:25<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 240<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 320<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI-TS_A5509T.jpg</td>
+<td class="supported">Make : KDDI-TS<br>
+Model : A5509T<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:03 15:11:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+GainControl : None<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI-TS_A5509T.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI-TS_A5509T.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 747 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 050503_1511~03<br>
+ImageDescription : 050503151103<br>
+<br>
+ModifyDate : 2005:05:03 17:50:56<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:05:03 15:11:55<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 320<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 240<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI-SA_A3015SA.jpg</td>
+<td class="supported">Make : KDDI-SA<br>
+Model : A3015SA<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:16 21:42:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/KDDI/KDDI-SA_A3015SA.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : KDDI-SA_A3015SA.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/KDDI<br>
+Directory : undefined<br>
+<br>
+FileSize : 590 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 040516_2141~00<br>
+ImageDescription : 040516214100<br>
+<br>
+ModifyDate : 2004:05:16 21:42:23<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 132<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 176<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,3546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Traveler/TravelerSuperSlimX8.jpg</td>
+<td class="supported">ImageDescription : Camera<br>
+Make : Traveler<br>
+Model : Super Slim X8<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.00SG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/246<br>
+FNumber : 4.7<br>
+ExposureProgram : Not Defined<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:03:26 03:54:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/246<br>
+ApertureValue : 4.7<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/TravelerSuperSlimX8.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TravelerSuperSlimX8.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 52 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:03:26 03:54:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:03:26 03:54:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 38141 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 43248<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9336<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/246<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9336 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerSX330Z.jpg</td>
+<td class="supported">ImageDescription : TRAVELER DIGITAL CAMERA<br>
+Make : TRAVELER OPTICAL CO,LTD<br>
+Model : SX330Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:01:20 13:52:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/70<br>
+ApertureValue : 3.4<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 23.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/TravelerSX330Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TravelerSX330Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:01:20 13:52:44<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1272264631<br>
+CompressedBitsPerPixel : 0.1272264631043257<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2459<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6495<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/70<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6495 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 23.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerSLIMLINE_X5.jpg</td>
+<td class="supported">ImageDescription : DIGITAL IMAGE<br>
+Make : TRAVELER<br>
+Model : SLIMLINE X5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 200.00000000<br>
+YResolution : 200.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.02SN<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/32<br>
+FNumber : 3.3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:09:13 00:06:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.8 mm<br>
+UserComment : 10966<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/TravelerSLIMLINE_X5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TravelerSLIMLINE_X5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:09:13 00:06:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:09:13 00:06:22<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Medium-Fine<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 0 0 0 0 0 0<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (DS5341)<br>
+CameraType : undefined<br>
+<br>
+CameraID : PREMIER IMAGE TECH CORPORATION <br>
+CameraID : undefined<br>
+<br>
+Warning : Bad FocusInfo directory<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11254<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6123<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6123 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 39.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.8 mm (35 mm equivalent: 50.9 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.98 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerHS9.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Traveler<br>
+Model : HS 9<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.00ST<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/181<br>
+FNumber : 5.6<br>
+ExposureProgram : Action (High speed)<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:03:26 10:42:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/181<br>
+ApertureValue : 5.6<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/TravelerHS9.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TravelerHS9.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 39 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:03:26 10:42:09<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:03:26 10:42:09<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 31688 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 3472<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2604<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 33796<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5804<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/181<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5804 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerDC-8300.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : Traveler<br>
+Model : DC-8300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 2.05SG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/50<br>
+FNumber : 4<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:02:05 08:47:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/51<br>
+ApertureValue : 4.0<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/TravelerDC-8300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TravelerDC-8300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:02:05 08:47:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:02:05 08:47:00<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 85 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1066<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12911<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12911 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/TravelerDC-4300.jpg</td>
+<td class="supported">ImageDescription : DC4300 Digital Camera<br>
+Make : Traveler<br>
+Model : DC-4300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Traveler V0602-0105<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/21<br>
+FNumber : 4.8<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2002:01:01 00:00:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 4.8<br>
+MaxApertureValue : 2.9<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 20.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/TravelerDC-4300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : TravelerDC-4300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:01:01 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:01:01 00:00:00<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.133333333<br>
+CompressedBitsPerPixel : 2.1333333333333333<br>
+<br>
+Warning : Bad MakerNotes offset for tag 0x0002<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 965<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6146<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/21<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6146 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 20.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/Traveler410Z.jpg</td>
+<td class="supported">ImageDescription : TRAVELER DIGITAL CAMERA<br>
+Make : TRAVELER OPTICAL CO,LTD<br>
+Model : TRAVELER 410Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:11:22 20:20:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/45<br>
+ApertureValue : 15.0<br>
+MeteringMode : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/Traveler410Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Traveler410Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:11:22 20:20:04<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1356238698<br>
+CompressedBitsPerPixel : 0.13562386980108498<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9367<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 15<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9367 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraTravelerDV5040.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : Traveler DV 5040<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 200.00000000<br>
+YResolution : 200.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.10S.<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/307<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 52<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:03:28 06:38:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.6 mm<br>
+UserComment : 25968<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraTravelerDV5040.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraTravelerDV5040.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 35 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:03:28 06:38:44<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:03:28 06:38:44<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 26256<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9187<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/307<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9187 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraTCM_X50.jpg</td>
+<td class="supported">ImageDescription : DIGITAL IMAGE<br>
+Make : SUPRA<br>
+Model : TCM X50<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.02SG2L2<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:28 03:30:14<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.4 mm<br>
+UserComment : 10960<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraTCM_X50.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraTCM_X50.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 20 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:01:28 03:30:14<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:28 03:30:14<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : HQ (Normal)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 0 0 0 0 0 0<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (DS5341)<br>
+CameraType : undefined<br>
+<br>
+CameraID : PREMIER IMAGE TECH CORPORATION <br>
+CameraID : undefined<br>
+<br>
+Warning : Bad FocusInfo directory<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 460<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 345<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11248<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9234<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9234 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 35.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraSuperSlimXS70.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : Super Slim XS70<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.00SG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/40<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 270<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:06:03 19:42:13<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/40<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraSuperSlimXS70.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraSuperSlimXS70.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 53 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:06:03 19:42:13<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:06:03 19:42:13<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 40171 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 45236<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8296<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8296 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraSuperSlimXS7.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : Super Slim XS7<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V2.00SB<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2000:03:12 02:46:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraSuperSlimXS7.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraSuperSlimXS7.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 36 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:03:12 02:46:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2000:03:12 02:46:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 26240 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+SceneCaptureType : Standard<br>
+SceneCaptureType : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 31242<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5400<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5400 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraSLIMLINE_X6.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : SUPRA<br>
+Model : SLIMLINE X6<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 3.00SG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/175<br>
+FNumber : 5.6<br>
+ExposureProgram : Action (High speed)<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:09:08 14:12:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraSLIMLINE_X6.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraSLIMLINE_X6.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 19 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:09:08 14:12:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:09:08 14:12:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -4<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 0<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 0.1517450683 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 100 0 -176 -386 -470 -186<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (d??SL)<br>
+CameraType : undefined<br>
+<br>
+CameraID : IMLIDIGITAL CAMERA     <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 7158 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10848<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8482<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 285.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/175<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8482 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 1.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 1539.7 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 49.41 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDV5060.jpg</td>
+<td class="supported">ImageDescription : DIGITAL VIDEO<br>
+Make : Supra<br>
+Model : DV 5060<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.20sh<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/753<br>
+FNumber : 3.2<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:01:04 14:45:06<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/755<br>
+ApertureValue : 3.2<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : No Flash<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDV5060.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDV5060.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 47 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:01:04 14:45:06<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:01:04 14:45:06<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 42024<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5684<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/753<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5684 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC7900.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : DC 7900<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.00.006SU<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/703<br>
+FNumber : 5.4<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:27 18:22:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/704<br>
+ApertureValue : 5.4<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 6.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDC7900.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDC7900.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 48 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:27 18:22:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:27 18:22:21<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 36098 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 41204<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7652<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/703<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7652 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 15<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC6800.jpg</td>
+<td class="supported">ImageDescription : Supra<br>
+Make : Supra<br>
+Model : DC6800<br>
+XResolution : 314.00000000<br>
+YResolution : 314.00000000<br>
+ResolutionUnit : inches<br>
+Software : V0.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/6<br>
+FNumber : 2.8<br>
+ExposureProgram : Portrait<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:02:08 12:27:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDC6800.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDC6800.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 33 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:02:08 12:27:02<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:02:08 12:27:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +2<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -16<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : -176 -386 -470 -186 -412 -504<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraParameters : (Binary data 10 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2112<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2816<br>
+ExifImageHeight : undefined<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 1<br>
+DigitalZoomRatio : undefined<br>
+<br>
+SceneCaptureType : Portrait<br>
+SceneCaptureType : undefined<br>
+<br>
+GainControl : Low gain up<br>
+GainControl : undefined<br>
+<br>
+Contrast : Normal<br>
+Contrast : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Hard<br>
+Sharpness : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 21108<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12068<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/6<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12068 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.5 mm (35 mm equivalent: 36.1 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.36 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 5.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC5900.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Supra<br>
+Model : DC 5900<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/400<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:08:20 18:27:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/399<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDC5900.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDC5900.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 45 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:08:20 18:27:04<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:08:20 18:27:04<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 36987 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 38980<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6840<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/400<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6840 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC-XZ6.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : Supra<br>
+Model : DC-XZ6<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.01 SG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/50<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:03 15:13:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/51<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDC-XZ6.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDC-XZ6.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 19 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:03 15:13:42<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:03 15:13:42<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : -2<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1168<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 18272<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 18272 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC-8600.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : Supra<br>
+Model : DC-8600<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 3.21 SG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/64<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:05:13 14:14:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 3.4<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : High saturation<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDC-8600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDC-8600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:05:13 18:13:49<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:05:13 14:14:07<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1.3<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1175<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 910<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1129<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8705<br>
+ThumbnailLength : undefined<br>
+<br>
+ProfileCMMType : Lino<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.1.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Display Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 1998:02:09 06:49:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Microsoft Corporation<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : IEC <br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : sRGB<br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : HP  <br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+ProfileCopyright : Copyright (c) 1998 Hewlett-Packard Company<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescription : sRGB IEC61966-2.1<br>
+ProfileDescription : undefined<br>
+<br>
+MediaWhitePoint : 0.95045 1 1.08905<br>
+MediaWhitePoint : undefined<br>
+<br>
+MediaBlackPoint : 0 0 0<br>
+MediaBlackPoint : undefined<br>
+<br>
+RedMatrixColumn : 0.43607 0.22249 0.01392<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.38515 0.71687 0.09708<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.14307 0.06061 0.7141<br>
+BlueMatrixColumn : undefined<br>
+<br>
+DeviceMfgDesc : IEC http://www.iec.ch<br>
+DeviceMfgDesc : undefined<br>
+<br>
+DeviceModelDesc : IEC 61966-2.1 Default RGB colour space - sRGB<br>
+DeviceModelDesc : undefined<br>
+<br>
+ViewingCondDesc : Reference Viewing Condition in IEC61966-2.1<br>
+ViewingCondDesc : undefined<br>
+<br>
+ViewingCondIlluminant : 19.6445 20.3718 16.8089<br>
+ViewingCondIlluminant : undefined<br>
+<br>
+ViewingCondSurround : 3.92889 4.07439 3.36179<br>
+ViewingCondSurround : undefined<br>
+<br>
+ViewingCondIlluminantType : D50<br>
+ViewingCondIlluminantType : undefined<br>
+<br>
+Luminance : 76.03647 80 87.12462<br>
+Luminance : undefined<br>
+<br>
+MeasurementObserver : CIE 1931<br>
+MeasurementObserver : undefined<br>
+<br>
+MeasurementBacking : 0 0.00999 3e-05<br>
+MeasurementBacking : undefined<br>
+<br>
+MeasurementGeometry : Unknown (0)<br>
+MeasurementGeometry : undefined<br>
+<br>
+MeasurementFlare : 0%<br>
+MeasurementFlare : undefined<br>
+<br>
+MeasurementIlluminant : Unknown (0)<br>
+MeasurementIlluminant : undefined<br>
+<br>
+Technology : Cathode Ray Tube Display<br>
+Technology : undefined<br>
+<br>
+RedTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 2060 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/64<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8705 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 10.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/SupraDC-6900.jpg</td>
+<td class="supported">ImageDescription : Supra<br>
+Make : Supra<br>
+Model : DC-6900<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 314.00000000<br>
+YResolution : 314.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.01<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/211<br>
+FNumber : 5.6<br>
+ExposureProgram : Portrait<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:23 11:56:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 5.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Portrait<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Soft</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/SupraDC-6900.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SupraDC-6900.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 32 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:23 11:56:44<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:23 11:56:44<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 13044<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6317<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/211<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6317 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonX60.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : SUPRA<br>
+Model : MAGINON X60<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 3.01SGM<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 4.7<br>
+ExposureProgram : Program AE<br>
+ISO : 120<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:08:11 07:48:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/MaginonX60.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MaginonX60.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 21 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:08:11 07:48:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:08:11 07:48:45<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Flash : Unknown (0x32)<br>
+Flash : 50<br>
+<br>
+FocalLength : 12.0 mm<br>
+FocalLength : 12 mm<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -4<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 0<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 0.1517450683 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 100 0 79 132 148 63<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (c)<br>
+CameraType : undefined<br>
+<br>
+CameraID : GINODIGITAL CAMERA     <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 6560 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10830<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10348<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 285.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10348 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 0.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 12.0 mm (35 mm equivalent: 3421.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 290.75 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonX50.jpg</td>
+<td class="supported">ImageDescription : DIGITAL IMAGE<br>
+Make : SUPRA<br>
+Model : MAGINON X50<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 200.00000000<br>
+YResolution : 200.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.03SGM<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:09:05 20:42:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.4 mm<br>
+UserComment : 10962<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/MaginonX50.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MaginonX50.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:09:05 20:42:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:09:05 20:42:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +0.7<br>
+ExposureCompensation : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Small-Fine<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 0 0 0 0 0 0<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (DS5341)<br>
+CameraType : undefined<br>
+<br>
+CameraID : PREMIER IMAGE TECH CORPORATION <br>
+CameraID : undefined<br>
+<br>
+Warning : Bad FocusInfo directory<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11232<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4421<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4421 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 35.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonSX330Z.jpg</td>
+<td class="supported">ImageDescription : MAGINON  DIGITAL CAMERA<br>
+Make : MAGINON  OPTICAL CO,LTD<br>
+Model : SX330Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:01:13 03:40:24<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/54<br>
+ApertureValue : 3.4<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/MaginonSX330Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MaginonSX330Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 12 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:01:13 03:40:24<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.2543315848<br>
+CompressedBitsPerPixel : 0.2543315848036878<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2459<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5544<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/54<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5544 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Traveler/MaginonPERFORMIC_S5.jpg</td>
+<td class="supported">ImageDescription : DIGITAL IMAGE<br>
+Make : MAGINON<br>
+Model : PERFORMIC S5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 314.00000000<br>
+YResolution : 314.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.961SUG<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:11:15 14:25:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.4 mm<br>
+UserComment : 10968<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Traveler/MaginonPERFORMIC_S5.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : MaginonPERFORMIC_S5.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Traveler<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:11:15 14:25:20<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:11:15 14:25:20<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Standard Light A<br>
+LightSource : Standard light A<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Medium-Fine<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 0 0 0 0 0 0<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (DS5340)<br>
+CameraType : undefined<br>
+<br>
+CameraID : PREMIER IMAGE TECH CORPORATION <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 7264 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11238<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6120<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6120 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 35.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

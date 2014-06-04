@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/RIM/RIM_BlackberryZ10.jpg</td>
+<td class="supported">DateTimeDigitized : 2013:02:02 14:52:18<br>
+DateTimeOriginal : 2013:02:02 14:52:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureTime : 1/2222<br>
+FNumber : 2.2<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 4.1 mm<br>
+FocalLengthIn35mmFilm : 31 mm<br>
+ISO : 70<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistance : 5 m<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 82,73,77,48,82,68,48,48,10<br>
+DateTime : 2013:02:02 14:52:18<br>
+Make : Research In Motion<br>
+Model : Blackberry Z10<br>
+Orientation : Horizontal (normal)<br>
+Software : Blackberry 10.0.9.2372<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerryStorm2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:08:03 16:58:50<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 0 m<br>
+GPSAltitude : 113 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSSpeed : 0<br>
+GPSTrack : 0<br>
+GPSVersion : 50.50.48.48<br>
+DateTime : 2010:08:03 16:58:50<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9520<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240<br>
+_IFDpointer_GPS : 414</td>
+<td class="unsupported">GPSLatitude : 54 deg 56' 37.02" N<br>
+GPSLatitude : 54,56,37.01999999999984<br>
+<br>
+GPSLatitudeRef : North<br>
+GPSLatitudeRef : <br>
+<br>
+GPSLongitude : 1 deg 36' 16.80" W<br>
+GPSLongitude : 1,36,16.800000000000068<br>
+<br>
+GPSLongitudeRef : West<br>
+GPSLongitudeRef : <br>
+<br>
+GPSSpeedRef : km/h<br>
+GPSSpeedRef : <br>
+<br>
+GPSTrackRef : True North<br>
+GPSTrackRef : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerryPearlFlip8220.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:07:24 18:59:36<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:07:24 18:59:36<br>
+Make : Research In Motion<br>
+Model : BlackBerry 8220<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported">DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:09:27 10:35:05<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:09:27 10:35:05<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9800<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported">DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:05:01 16:25:32<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:05:01 16:25:32<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9650.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:11:19 02:36:49<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:11:19 02:36:49<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9650<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9550.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:06 00:33:29<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:06:06 00:33:29<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9550<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:11:29 15:02:39<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:11:29 15:02:39<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9105.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:10:29 15:02:13<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:10:29 15:02:13<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9105<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9100.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:11:26 07:56:26<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:11:26 07:56:26<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9000.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:09:05 07:38:35<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2009:09:05 07:38:35<br>
+Make : Research In Motion<br>
+Model : BlackBerry 9000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8900.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:12:01 19:50:59<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 1856 px w<br>
+PixelYDimension : 1392 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:12:01 19:50:59<br>
+Make : Research In Motion<br>
+Model : BlackBerry 8900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8520.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:04:24 11:01:18<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+Flash : Off, No flash function<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SubjectDistance : 0 m<br>
+DateTime : 2010:04:24 11:01:18<br>
+Make : Research In Motion<br>
+Model : BlackBerry 8520<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 228</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8310.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2010:06:09 20:01:38<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2010:06:09 20:01:38<br>
+Make : Research In Motion<br>
+Model : BlackBerry 8310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:12:30 14:01:12<br>
+ExifVersion : 2.20<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2009:12:30 14:01:12<br>
+Make : Research In Motion<br>
+Model : BlackBerry 8300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

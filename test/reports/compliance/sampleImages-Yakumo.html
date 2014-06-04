@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Yakumo/YakumoYK-47sx.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.25<br>
+DateTimeDigitized : 2049:09:06 19:21:13<br>
+DateTimeOriginal : 2049:09:06 19:21:13<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.6 mm<br>
+ISO : 100<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+ShutterSpeedValue : 1/42<br>
+_IFDpointer_Interop : 886<br>
+_IFDpointer_Makernote : 536<br>
+DateTime : 2001:12:00 00:00:00<br>
+ImageDescription : YAKUMO   DIGITAL CAMERA<br>
+Model : YK-47sx<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Y406140<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Make :   YAKUMO  OPTICAL CO,LTD<br>
+Make : YAKUMO  OPTICAL CO,LT<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoMegaImageXII.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:02:22 17:50:00<br>
+DateTimeOriginal : 2005:02:22 17:50:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 3040 px w<br>
+PixelYDimension : 4048 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Makernote : 1,0,2,24,3,365,4,256,5,330<br>
+Artist : Digital Camera<br>
+Copyright : Digital Camera<br>
+DateTime : 2005:02:22 17:50:00<br>
+ImageDescription : PHOT0047.JPG<br>
+Make : Yakumo<br>
+Model : Mega Image XII<br>
+ResolutionUnit : inches<br>
+Software : F/W Version: 1.0.41X<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 366</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.300592235<br>
+CompressedBitsPerPixel : 1.3005922352818806<br>
+<br>
+FocalLength : 8.2 mm<br>
+FocalLength : 8.3 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoMega-ImageIII.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2086:02:20 21:49:45<br>
+DateTimeOriginal : 2086:02:20 21:49:45<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/483<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 90<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/478<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 661<br>
+_IFDpointer_Makernote : 1<br>
+DateTime : 2086:02:20 21:49:45<br>
+Model : Mega-Image III<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 187</td>
+<td class="unsupported">ImageDescription : ?<br>
+ImageDescription : <br>
+<br>
+Make : ?<br>
+Make : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoMega-Image410.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/30<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+MeteringMode : Average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,Mega-Im USER,2003<br>
+DateTime : 2005:06:18 18:24:30<br>
+Make : YAKUMO<br>
+Model : Mega-Image 410<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256</td>
+<td class="unsupported">UserComment : GAIN099064MAX000000000000SUM000000000000MIN000000000NOWY09777FLASH0000FLAY00000AFD0SV17ZOOM00000000000000000000000000000<br>
+UserComment : 566<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoCamMasterSD542.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 1904:12:02 15:52:00<br>
+DateTimeOriginal : 1904:12:02 15:52:00<br>
+DigitalZoomRatio : 2.725<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/11<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.2 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 4048 px w<br>
+PixelYDimension : 3040 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 850<br>
+_IFDpointer_Makernote : 1,0,2,3,3,380,4,256,5,355<br>
+Artist : Digital Camera<br>
+Copyright : Digital Camera<br>
+DateTime : 1904:12:02 15:52:00<br>
+ImageDescription : PHOT0009.JPG<br>
+Make : Yakumo<br>
+Model : CamMaster SD 542<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : F/W Version: 2.98B DE02<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 302</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.097982109<br>
+CompressedBitsPerPixel : 1.097982109423757<br>
+<br>
+XResolution : 0.3333333333<br>
+XResolution : 0.33333333<br>
+<br>
+YResolution : 0.3333333333<br>
+YResolution : 0.33333333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/YakumoAG.jpg</td>
+<td class="supported">BrightnessValue : 7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:06:29 04:54:03<br>
+DateTimeOriginal : 2005:06:29 04:54:03<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/400<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 37 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2816 px w<br>
+PixelYDimension : 2112 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 828<br>
+_IFDpointer_Makernote : 138, 88, 0, 0, 2, 0, 1,   5,   0,   0,   0,   0,   0<br>
+DateTime : 2005:06:29 04:54:03<br>
+ImageDescription : YAKUMO DIGITAL CAMERA<br>
+Make : YAKUMO AG<br>
+Model : <br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 254</td>
+<td class="unsupported">FNumber : 4<br>
+FNumber : 3.953125<br>
+<br>
+UserComment : 202, 88, 207, 0, 0, 486   5,   0,   0,   0,   0,   0   ??    <br>
+UserComment : 202, 88, 207, 0, 0, 486  5,   0,   0,   0,   0,   0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/Yakumo524Z3.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Yakumo/Yakumo1210.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2000:12:31 00:00:00<br>
+DateTimeOriginal : 2000:12:31 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/125<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.5 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/128<br>
+_IFDpointer_Interop : 773<br>
+_IFDpointer_Makernote : 859<br>
+Copyright : Yakumo2006<br>
+ImageDescription : ExifImageTitle<br>
+Make : Yakumo GmbH<br>
+Model : 1210<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 06.05.18.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 223</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

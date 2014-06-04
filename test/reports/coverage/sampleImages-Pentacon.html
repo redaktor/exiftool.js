@@ -1,0 +1,5560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Pentacon/Pentacon_luxmedia7103.jpg</td>
+<td class="supported">ImageDescription : D:\DCIM\101DICAM\DSCI1946.JPG<br>
+Make : PENTACON GERMANYluxme<br>
+Model : luxmedia 7103x<br>
+Orientation : 0<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2005<br>
+ExposureTime : 1/1043<br>
+FNumber : 10.4<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:01 14:22:53<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/1000<br>
+ApertureValue : 10.4<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 18.6 mm<br>
+UserComment : 782<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1.2<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/Pentacon_luxmedia7103.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Pentacon_luxmedia7103.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 41 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 0.0084<br>
+Software : 0.008<br>
+<br>
+ModifyDate : 2010:05:01 14:24:27<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:01 14:22:53<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 3072 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 46477 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4308<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8193<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 10.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 2498.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/1043<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8193 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 0.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 18.6 mm (35 mm equivalent: 46477.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2766.48 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconPrakticaDVC54HDMI.jpg</td>
+<td class="supported">ImageDescription : DCIM\100MEDIA<br>
+Make : PentaconrPEOdE<br>
+Model : Praktica DVC 5.4 HDMI<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : DVH586-V1.14-DE01-3.2V<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/267<br>
+FNumber : 3.6<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:04 12:07:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/267<br>
+ApertureValue : 3.6<br>
+MaxApertureValue : 3.2<br>
+SubjectDistance : 0 m<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconPrakticaDVC54HDMI.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconPrakticaDVC54HDMI.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:04 12:07:05<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:04 12:07:05<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.058540365<br>
+CompressedBitsPerPixel : 2.0585403647817913<br>
+<br>
+ExposureCompensation : +1<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 9.0 mm<br>
+FocalLength : 9 mm<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+SensingMethod : Not defined<br>
+SensingMethod : Monochrome area<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 4 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8655<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/267<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8655 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconPRAKTICA_LM7403.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+ExposureTime : 1/45<br>
+ExposureProgram : Program AE<br>
+ISO : 300<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:11 10:50:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/44<br>
+ApertureValue : 3.6<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : 65<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconPRAKTICA_LM7403.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconPRAKTICA_LM7403.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 51 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : Digital Camera<br>
+ImageDescription : Digital Camer<br>
+<br>
+Make : Pentacon<br>
+Make : Pentaco<br>
+<br>
+Model : PRAKTICA LM7403<br>
+Model : PRAKTICA LM740<br>
+<br>
+Software : M7021-V04171<br>
+Software : M7021-V0417<br>
+<br>
+ModifyDate : 2010:04:11 10:50:34<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.6<br>
+FNumber : 3.59<br>
+<br>
+CreateDate : 2010:04:11 10:50:34<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.693945991<br>
+CompressedBitsPerPixel : 3.6939459906684027<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 40960 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : ?         ?       ?  <   h   ?  ?      S   ?  7   ȯ  W        ?   ?   ?              ?   J   ̫     ?   ?     ?     ?      S   ?     A  ?     |   q   8   ?  A      P?     ;   8         ????;   ?   ?   ,  ?  ?  ?  ?  O   K   G   C   ?   ;   7   ??  ??  E ? ? ? ?     ??                      \?  I?  ? ? y ? ? ?  ?  ?   ?   ?                               ^  ^  ?    ?   ?B        H  >   1?                                                                                                                                                                                                                                                                                                                                          <br>
+UserComment : 5000,1,0,166,0,5001,60,104,448,401,0,83,5002,55,45000,599,1,8,140,134,5003,1,1,3,5,170,74,43980,2,167,5004,27,138,276,672,0,83,5005,22,16667,502,1,124,113,56,5006,65,1,50000,1,59,56,1,1,4294963199,59,134,215,300,391,486,575,653,79,75,71,67,63,59,55,59267,62378,65861,70620,70334,69002,70048,0,99999,24,24,25,25,25,25,25,59740,62793,66212,70902,70521,69093,70048,425,426,188,188,5007,1,1,1,0,1,0,1,1,1,3678,3678,1004,1052,139,17056,6,6,2120,62,54321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 42648<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9182<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9182 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLuxmedia8403.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : Luxmedia 8403<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : PENTACON Ver 1.0100<br>
+YCbCrPositioning : Co-sited<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/99<br>
+ApertureValue : 4.6<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Fluorescent<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 13.7 mm<br>
+FNumber : 4.6<br>
+ExposureTime : 1/100<br>
+DateTimeOriginal : 2010:04:19 08:43:46<br>
+ISO : 310<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 310<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLuxmedia8403.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLuxmedia8403.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 61 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:04:19 08:43:46<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 82 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 7840<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2700<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 41064 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 40924 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2700 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 24.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 13.7 mm (35 mm equivalent: 82.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 8.13 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLuxmedia7203.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/197<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 70<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:08:30 10:26:24<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Fluorescent<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLuxmedia7203.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLuxmedia7203.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 35 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : DIGITAL CAMERA<br>
+ImageDescription : DIGITAL CAMER<br>
+<br>
+Make : Pentacon<br>
+Make : Pentaco<br>
+<br>
+Model : Luxmedia 7203<br>
+Model : Luxmedia 720<br>
+<br>
+Software : M7011M-1046<br>
+Software : M7011M-104<br>
+<br>
+ModifyDate : 2006:08:30 10:26:24<br>
+ModifyDate : undefined<br>
+<br>
+Copyright : Copyright 2006<br>
+Copyright : Copyright 200<br>
+<br>
+FNumber : 7.3<br>
+FNumber : 7.28<br>
+<br>
+CreateDate : 2006:08:30 10:26:24<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.970714428<br>
+CompressedBitsPerPixel : 3.970714427806713<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 329 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1544<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5904<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 7.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/197<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5904 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLuxmedia6503.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/33<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 110<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:05 02:50:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 4.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Fluorescent<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLuxmedia6503.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLuxmedia6503.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 62 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : DIGITAL CAMERA<br>
+ImageDescription : DIGITAL CAMER<br>
+<br>
+Make : Pentacon<br>
+Make : Pentaco<br>
+<br>
+Model : Luxmedia 6503<br>
+Model : Luxmedia 650<br>
+<br>
+Software : M6051-0019<br>
+Software : M6051-001<br>
+<br>
+ModifyDate : 2010:06:05 02:50:49<br>
+ModifyDate : undefined<br>
+<br>
+Copyright : Copyright 2006<br>
+Copyright : Copyright 200<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.88<br>
+<br>
+CreateDate : 2010:06:05 02:50:49<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.865009739<br>
+CompressedBitsPerPixel : 3.865009738722452<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+ExposureCompensation : -3/2<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+PreviewImage : (Binary data 51200 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 283 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 52282<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11122<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/33<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11122 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM8503.jpg</td>
+<td class="supported">ImageDescription : PENTACON DIGITAL CAMERA<br>
+Make : PENTACON<br>
+Model : LM 8503<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0900<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 4.7<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:23 12:43:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/458<br>
+ApertureValue : 4.7<br>
+BrightnessValue : 9.335<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-segment<br>
+LightSource : Cloudy weather<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 80<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+CustomRendered : Normal<br>
+ExposureTime : 1/459<br>
+ISO : 80</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM8503.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM8503.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 61 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:23 12:43:30<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 34 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+MaxAperture : 47<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2010/05/23 12:43:30<br>
+CameraDateTime : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3612<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 44892 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 44752 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/459<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3612 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 55.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm (35 mm equivalent: 34.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.37 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM8303.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : LM 8303<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0030p<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2034:04:13 06:42:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/40<br>
+ApertureValue : 2.8<br>
+BrightnessValue : -0.486<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 200<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+CustomRendered : Normal<br>
+ExposureTime : 1/40<br>
+ISO : 200</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM8303.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM8303.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 81 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2034:04:13 06:42:46<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+MaxAperture : 2.8<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2034/04/13 06:42:46<br>
+CameraDateTime : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3904<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 66112 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 65972 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3904 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.41 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM8203.jpg</td>
+<td class="supported">ImageDescription : D:\DCIM\100DICAM\DSCI1921.JPG<br>
+Make : PENTACONLM 8203x.0<br>
+Model : LM 8203x.04xCo<br>
+Orientation : 0<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.100<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/125<br>
+FNumber : 3.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:01 14:45:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/125<br>
+ApertureValue : 3.8<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light not detected<br>
+FocalLength : 10.7 mm<br>
+UserComment : 770<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Portrait</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM8203.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM8203.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 48 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:01 14:46:27<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:01 14:45:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 64438 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3784<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8373<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6022.2<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/125<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8373 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 0.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 10.7 mm (35 mm equivalent: 64438.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 6038.82 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM8003.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : PENTACON<br>
+Model : LM 8003<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2005<br>
+ExposureTime : 1/210<br>
+FNumber : 2.8<br>
+ExposureProgram : Landscape<br>
+ISO : 50<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2009:08:13 15:19:13<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/200<br>
+ApertureValue : 2.9<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Landscape<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM8003.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM8003.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:08:13 15:19:13<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:08:13 15:19:13<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.980914834<br>
+CompressedBitsPerPixel : 3.9809148341049383<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 4096 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 40 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4980<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9359<br>
+ThumbnailLength : undefined<br>
+<br>
+ProfileCMMType : appl<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.2.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Input Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 2003:07:01 00:00:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Apple Computer Inc.<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : appl<br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : <br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : appl<br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+RedMatrixColumn : 0.45427 0.24263 0.01482<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.35332 0.67441 0.09042<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.15662 0.08336 0.71953<br>
+BlueMatrixColumn : undefined<br>
+<br>
+MediaWhitePoint : 0.95047 1 1.0891<br>
+MediaWhitePoint : undefined<br>
+<br>
+ChromaticAdaptation : 1.04788 0.02292 -0.0502 0.02957 0.99049 -0.01706 -0.00923 0.01508 0.75165<br>
+ChromaticAdaptation : undefined<br>
+<br>
+RedTRC : (Binary data 14 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 14 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 14 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ProfileDescription : Camera RGB Profile<br>
+ProfileDescription : undefined<br>
+<br>
+ProfileCopyright : Copyright 2003 Apple Computer Inc., all rights reserved.<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescriptionML : Camera RGB Profile<br>
+ProfileDescriptionML : undefined<br>
+<br>
+ProfileDescriptionML-es-ES : Perfil RGB para Cámara<br>
+ProfileDescriptionML-es-ES : undefined<br>
+<br>
+ProfileDescriptionML-da-DK : RGB-beskrivelse til Kamera<br>
+ProfileDescriptionML-da-DK : undefined<br>
+<br>
+ProfileDescriptionML-de-DE : RGB-Profil für Kameras<br>
+ProfileDescriptionML-de-DE : undefined<br>
+<br>
+ProfileDescriptionML-fi-FI : Kameran RGB-profiili<br>
+ProfileDescriptionML-fi-FI : undefined<br>
+<br>
+ProfileDescriptionML-fr-FU : Profil RVB de l’appareil-photo<br>
+ProfileDescriptionML-fr-FU : undefined<br>
+<br>
+ProfileDescriptionML-it-IT : Profilo RGB Fotocamera<br>
+ProfileDescriptionML-it-IT : undefined<br>
+<br>
+ProfileDescriptionML-nl-NL : RGB-profiel Camera<br>
+ProfileDescriptionML-nl-NL : undefined<br>
+<br>
+ProfileDescriptionML-no-NO : RGB-kameraprofil<br>
+ProfileDescriptionML-no-NO : undefined<br>
+<br>
+ProfileDescriptionML-pt-BR : Perfil RGB de Câmera<br>
+ProfileDescriptionML-pt-BR : undefined<br>
+<br>
+ProfileDescriptionML-sv-SE : RGB-profil för Kamera<br>
+ProfileDescriptionML-sv-SE : undefined<br>
+<br>
+ProfileDescriptionML-ja-JP : カメラ RGB プロファイル<br>
+ProfileDescriptionML-ja-JP : undefined<br>
+<br>
+ProfileDescriptionML-ko-KR : 카메라 RGB 프로파일<br>
+ProfileDescriptionML-ko-KR : undefined<br>
+<br>
+ProfileDescriptionML-zh-TW : 數位相機 RGB 色彩描述<br>
+ProfileDescriptionML-zh-TW : undefined<br>
+<br>
+ProfileDescriptionML-zh-CN : 相机 RGB 描述文件<br>
+ProfileDescriptionML-zh-CN : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/210<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9359 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 48.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm (35 mm equivalent: 40.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.92 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM7303.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : LM 7303<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0070<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:08 22:52:59<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/40<br>
+ApertureValue : 2.8<br>
+BrightnessValue : -1.437<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 200<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+CustomRendered : Normal<br>
+ExposureTime : 1/40<br>
+ISO : 200</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM7303.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM7303.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 66 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:08 22:52:59<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+MaxAperture : 2.8<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2010/05/08 22:52:59<br>
+CameraDateTime : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3320<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 50673 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 50533 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/40<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3320 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.41 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM6403.jpg</td>
+<td class="supported">ImageDescription : Digital Camera<br>
+Make : Pentacon<br>
+Model : LM 6403<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2004<br>
+ExposureTime : 1/60<br>
+FNumber : 2.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2006:01:30 05:28:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.5<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM6403.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM6403.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 630_V1.27<br>
+Software : 630V1.27<br>
+<br>
+ModifyDate : 2006:01:30 05:28:42<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:01:30 05:28:42<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.009847678<br>
+CompressedBitsPerPixel : 2.0098476777720387<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+MakerNoteUnknownText : PE023 CE080 R500 G236 B312 MS639 FLASH02726 <br>
+MakerNoteUnknownText : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1366<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5630<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5630 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM6105.jpg</td>
+<td class="supported">ImageDescription : Digital Camera<br>
+Make : Pentacon<br>
+Model : LM 6105<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : version 3.12 (B016)<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2006<br>
+ExposureTime : 1/20<br>
+FNumber : 4.5<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2057:09:07 09:04:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/20<br>
+ApertureValue : 4.5<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Multi-spot<br>
+LightSource : Other<br>
+FocalLength : 9.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM6105.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM6105.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 53 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2057:09:07 09:04:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2057:09:07 09:04:22<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.183383349<br>
+CompressedBitsPerPixel : 3.1833833487226837<br>
+<br>
+ExposureCompensation : -1<br>
+ExposureCompensation : undefined<br>
+<br>
+Flash : Off, Did not fire, Return not detected<br>
+Flash : 20<br>
+<br>
+PreviewImage : (Binary data 45312 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 46192<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8110<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8110 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM5003.jpg</td>
+<td class="supported">ImageDescription : PRAKTICA<br>
+Make : PRAKTICA<br>
+Model : LM 5003<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : EXIF Software Version 0.01a<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : PRAKTICA<br>
+ExposureTime : 1/125<br>
+FNumber : 2.6<br>
+ExposureProgram : 11<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:02:03 08:35:59<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+ShutterSpeedValue : 1/125<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 7.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM5003.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM5003.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:02:03 08:36:36<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:02:03 08:35:59<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : PRAKTICA<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+UserComment : LM 5003<br>
+UserComment : 65,83,67,73,73,0,0,0,76,77,32,53,48,48,51,0<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+FlashEnergy : undef<br>
+FlashEnergy : NaN<br>
+<br>
+FocalPlaneXResolution : undef<br>
+FocalPlaneXResolution : NaN<br>
+<br>
+FocalPlaneYResolution : undef<br>
+FocalPlaneYResolution : NaN<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1191<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7940<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/125<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7940 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM10-XS.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : LM 10-XS<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0878<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/60<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:02 15:19:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Flash<br>
+Flash : On, Flash fired, red-eye reduction mode<br>
+FocalLength : 7.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM10-XS.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM10-XS.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:02 15:19:50<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : 2.837<br>
+<br>
+CreateDate : 2010:06:02 15:19:50<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.488798596<br>
+CompressedBitsPerPixel : 3.488798595610119<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3584<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2688<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 1<br>
+DigitalZoomRatio : undefined<br>
+<br>
+Sharpness : Normal<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+ThumbnailOffset : 3910<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3189<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 57377 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3189 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconLM10-X3.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : LM10-X3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.00.714<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/210<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:08:26 22:29:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/210<br>
+ApertureValue : 6.4<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconLM10-X3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconLM10-X3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:08:26 22:29:31<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 6.4<br>
+FNumber : 6.446<br>
+<br>
+CreateDate : 2006:08:26 22:29:31<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.017400106<br>
+CompressedBitsPerPixel : 2.017400105794271<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2684<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5568<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/210<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5568 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDpix820Z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Pentacon<br>
+Model : Dpix 820Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.560<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:01:01 15:06:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 6.2 mm<br>
+UserComment : 801<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDpix820Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDpix820Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:01:01 15:06:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:01:01 15:06:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3815<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6797<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6797 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDpix5000WP.jpg</td>
+<td class="supported">ImageDescription : PHOT0029.JPG<br>
+Make : PRAKTICA<br>
+Model : Dpix 5000WP<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver:1.2.10<br>
+Artist : Digital Camera<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Digital Camera<br>
+ExposureTime : 1/2952<br>
+FNumber : 3.2<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:02:23 13:02:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 3.0<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 0.9296875<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Soft</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDpix5000WP.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDpix5000WP.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 256 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:02:23 13:02:18<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:02:23 13:02:18<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.01255727<br>
+CompressedBitsPerPixel : 2.012557269639882<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : Bad MakerNotes offset for tag 0x0080<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1016<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5804<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/2952<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5804 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDpix1100Z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : PENTACON<br>
+Model : PENTACON Dpix 1100Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/33<br>
+FNumber : 2.8<br>
+ExposureProgram : Landscape<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:13 17:35:19<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/33<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 6.2 mm<br>
+UserComment : 811<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Landscape<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDpix1100Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDpix1100Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 0.8402<br>
+Software : 0.840<br>
+<br>
+ModifyDate : 2010:05:13 17:35:19<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:13 17:35:19<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3825<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7505<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/33<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7505 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.58 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDVC101HDMI.jpg</td>
+<td class="supported">ImageDescription : DVC 10.1 HDMI<br>
+Make : PRAKTICA<br>
+Model : DVC 10.1 HDMI<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DV V0.a900<br>
+YCbCrPositioning : Centered<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/173<br>
+FNumber : 3.6<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:09 11:31:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 10.3 mm<br>
+FlashpixVersion : <br>
+ColorSpace : 0<br>
+SensingMethod : 0<br>
+FileSource : 0<br>
+SceneType : 0<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Portrait<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDVC101HDMI.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDVC101HDMI.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+XResolution : 0.1892747337<br>
+XResolution : 0.18927473<br>
+<br>
+YResolution : 0.1892747337<br>
+YResolution : 0.18927473<br>
+<br>
+ModifyDate : 2010:05:09 11:31:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:09 11:31:48<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.850808333<br>
+CompressedBitsPerPixel : 3.850808333333333<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+ApertureValue : 1<br>
+ApertureValue : NaN<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+UserComment : <br>
+UserComment : 0,0,0,0,0,0,0,0,32,32,32,32,32,32,32,0<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 57 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 4 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3072<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11907<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/173<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11907 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 35.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 10.3 mm (35 mm equivalent: 57.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 5.41 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 12.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDPix750Z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : PENTACON<br>
+Model : DPix 750Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.070<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:01:02 11:21:47<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FocalLength : 6.2 mm<br>
+UserComment : 801<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDPix750Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDPix750Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:01:02 11:21:47<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:01:02 11:21:47<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3815<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7689<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7689 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 6.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDPix740Z.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/246<br>
+ExposureProgram : Program AE<br>
+ISO : 70<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:04 07:37:54<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/245<br>
+ApertureValue : 7.2<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : 0<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDPix740Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDPix740Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 46 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : Digital Camera<br>
+ImageDescription : Digital Camer<br>
+<br>
+Make : PENTACON<br>
+Make : PENTACO<br>
+<br>
+Model : DPix 740Z<br>
+Model : DPix 740<br>
+<br>
+Software : M7041M-1016<br>
+Software : M7041M-101<br>
+<br>
+ModifyDate : 2010:04:04 07:37:54<br>
+ModifyDate : undefined<br>
+<br>
+Copyright : Copyright 2007<br>
+Copyright : Copyright 200<br>
+<br>
+FNumber : 7.3<br>
+FNumber : 7.28<br>
+<br>
+CreateDate : 2010:04:04 07:37:54<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.044319059<br>
+CompressedBitsPerPixel : 2.0443190586419755<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+PreviewImage : (Binary data 40960 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : ?  ?  t          ?0          s   o               x   ?   ?         a  ?     /   ?  ?   ? U       ?   ?   ?   ?          ?????????   ?   ?????????????  #   ,   }  ?     /   ?  x    ?0 ?       ?   |   ?   ?                              ?  ?        ?  ?[        ?   1?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <br>
+UserComment : 5000,5006,116,1,0,12500,0,0,115,111,0,0,0,120,150,5001,32,19,353,474,23,47,5002,146,246034,85,0,157,160,133,5003,0,0,4294967295,4294967295,180,177,4294967295,4294967295,4294967295,5004,35,44,381,467,23,47,5005,120,3200000,179,0,156,124,150,5007,1,0,1,0,1,0,1,0,762,762,1024,1024,490,23444,13,13,178,54321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+<br>
+ExifImageWidth : 3456<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2592<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 42640<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4525<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 7.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/246<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4525 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDPix530Z.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : DPix 530Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.1020<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/800<br>
+FNumber : 5.5<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:04:18 11:28:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/798<br>
+ApertureValue : 5.5<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 100<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDPix530Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDPix530Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 94 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:04:18 11:28:44<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2576<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1932<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4992<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4244<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 86532 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 86392 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/800<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4244 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.23 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDPIX540Z.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : PENTACON<br>
+Model : DPIX 540Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M5071M-1024<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/56<br>
+ExposureProgram : Program AE<br>
+ISO : 60<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:08 02:51:53<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Other<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDPIX540Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDPIX540Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:08 02:52:47<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.2<br>
+FNumber : 3.24<br>
+<br>
+CreateDate : 2005:01:08 02:51:53<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +2<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1045<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4699<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/56<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4699 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ83.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : PENTACON<br>
+Model : DCZ 8.3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.780<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/60<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:01 22:40:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 5.6<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light not detected<br>
+FocalLength : 6.2 mm<br>
+UserComment : 799<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ83.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ83.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:01 22:40:30<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:01 22:40:30<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3813<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6044<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6044 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.14 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ82.jpg</td>
+<td class="supported">ImageDescription : PENTACON DIGITAL CAMERA<br>
+Make : PENTACON<br>
+Model : DCZ 8.2<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0000<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 3.4<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:26 22:38:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/55<br>
+ApertureValue : 3.4<br>
+BrightnessValue : -5.05<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 9.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 200<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+CustomRendered : Normal<br>
+ExposureTime : 1/55<br>
+ISO : 200</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ82.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ82.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 53 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:05:26 22:38:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+ExifImageWidth : 2576<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1932<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 54 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+MaxAperture : 3.4<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2010/05/26 22:38:02<br>
+CameraDateTime : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2764<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 36969 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 36829 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 5.9<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/55<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2764 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 36.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 9.1 mm (35 mm equivalent: 54.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 4.82 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ81.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Pentacon<br>
+Model : DCZ  8.1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/192<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:08:30 05:16:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/192<br>
+ApertureValue : 5.6<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 6.2 mm<br>
+UserComment : 800<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ81.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ81.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 65 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 1.2001<br>
+Software : 1.200<br>
+<br>
+ModifyDate : 2007:08:30 05:16:07<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:08:30 05:16:07<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3814<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6704<br>
+ThumbnailLength : undefined<br>
+<br>
+ProfileCMMType : appl<br>
+ProfileCMMType : undefined<br>
+<br>
+ProfileVersion : 2.2.0<br>
+ProfileVersion : undefined<br>
+<br>
+ProfileClass : Input Device Profile<br>
+ProfileClass : undefined<br>
+<br>
+ColorSpaceData : RGB <br>
+ColorSpaceData : undefined<br>
+<br>
+ProfileConnectionSpace : XYZ <br>
+ProfileConnectionSpace : undefined<br>
+<br>
+ProfileDateTime : 2003:07:01 00:00:00<br>
+ProfileDateTime : undefined<br>
+<br>
+ProfileFileSignature : acsp<br>
+ProfileFileSignature : undefined<br>
+<br>
+PrimaryPlatform : Apple Computer Inc.<br>
+PrimaryPlatform : undefined<br>
+<br>
+CMMFlags : Not Embedded, Independent<br>
+CMMFlags : undefined<br>
+<br>
+DeviceManufacturer : appl<br>
+DeviceManufacturer : undefined<br>
+<br>
+DeviceModel : <br>
+DeviceModel : undefined<br>
+<br>
+DeviceAttributes : Reflective, Glossy, Positive, Color<br>
+DeviceAttributes : undefined<br>
+<br>
+RenderingIntent : Perceptual<br>
+RenderingIntent : undefined<br>
+<br>
+ConnectionSpaceIlluminant : 0.9642 1 0.82491<br>
+ConnectionSpaceIlluminant : undefined<br>
+<br>
+ProfileCreator : appl<br>
+ProfileCreator : undefined<br>
+<br>
+ProfileID : 0<br>
+ProfileID : undefined<br>
+<br>
+RedMatrixColumn : 0.45427 0.24263 0.01482<br>
+RedMatrixColumn : undefined<br>
+<br>
+GreenMatrixColumn : 0.35332 0.67441 0.09042<br>
+GreenMatrixColumn : undefined<br>
+<br>
+BlueMatrixColumn : 0.15662 0.08336 0.71953<br>
+BlueMatrixColumn : undefined<br>
+<br>
+MediaWhitePoint : 0.95047 1 1.0891<br>
+MediaWhitePoint : undefined<br>
+<br>
+ChromaticAdaptation : 1.04788 0.02292 -0.0502 0.02957 0.99049 -0.01706 -0.00923 0.01508 0.75165<br>
+ChromaticAdaptation : undefined<br>
+<br>
+RedTRC : (Binary data 14 bytes, use -b option to extract)<br>
+RedTRC : undefined<br>
+<br>
+GreenTRC : (Binary data 14 bytes, use -b option to extract)<br>
+GreenTRC : undefined<br>
+<br>
+BlueTRC : (Binary data 14 bytes, use -b option to extract)<br>
+BlueTRC : undefined<br>
+<br>
+ProfileDescription : Camera RGB Profile<br>
+ProfileDescription : undefined<br>
+<br>
+ProfileCopyright : Copyright 2003 Apple Computer Inc., all rights reserved.<br>
+ProfileCopyright : undefined<br>
+<br>
+ProfileDescriptionML : Camera RGB Profile<br>
+ProfileDescriptionML : undefined<br>
+<br>
+ProfileDescriptionML-es-ES : Perfil RGB para Cámara<br>
+ProfileDescriptionML-es-ES : undefined<br>
+<br>
+ProfileDescriptionML-da-DK : RGB-beskrivelse til Kamera<br>
+ProfileDescriptionML-da-DK : undefined<br>
+<br>
+ProfileDescriptionML-de-DE : RGB-Profil für Kameras<br>
+ProfileDescriptionML-de-DE : undefined<br>
+<br>
+ProfileDescriptionML-fi-FI : Kameran RGB-profiili<br>
+ProfileDescriptionML-fi-FI : undefined<br>
+<br>
+ProfileDescriptionML-fr-FU : Profil RVB de l’appareil-photo<br>
+ProfileDescriptionML-fr-FU : undefined<br>
+<br>
+ProfileDescriptionML-it-IT : Profilo RGB Fotocamera<br>
+ProfileDescriptionML-it-IT : undefined<br>
+<br>
+ProfileDescriptionML-nl-NL : RGB-profiel Camera<br>
+ProfileDescriptionML-nl-NL : undefined<br>
+<br>
+ProfileDescriptionML-no-NO : RGB-kameraprofil<br>
+ProfileDescriptionML-no-NO : undefined<br>
+<br>
+ProfileDescriptionML-pt-BR : Perfil RGB de Câmera<br>
+ProfileDescriptionML-pt-BR : undefined<br>
+<br>
+ProfileDescriptionML-sv-SE : RGB-profil för Kamera<br>
+ProfileDescriptionML-sv-SE : undefined<br>
+<br>
+ProfileDescriptionML-ja-JP : カメラ RGB プロファイル<br>
+ProfileDescriptionML-ja-JP : undefined<br>
+<br>
+ProfileDescriptionML-ko-KR : 카메라 RGB 프로파일<br>
+ProfileDescriptionML-ko-KR : undefined<br>
+<br>
+ProfileDescriptionML-zh-TW : 數位相機 RGB 色彩描述<br>
+ProfileDescriptionML-zh-TW : undefined<br>
+<br>
+ProfileDescriptionML-zh-CN : 相机 RGB 描述文件<br>
+ProfileDescriptionML-zh-CN : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/192<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6704 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.14 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ74.jpg</td>
+<td class="supported">ImageDescription : PENTACON DIGITAL CAMERA<br>
+Make : PENTACON<br>
+Model : DCZ 7.4<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version 1.0060<br>
+YCbCrPositioning : Co-sited<br>
+FNumber : 4.5<br>
+ExposureProgram : Portrait<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:04 01:23:24<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/471<br>
+ApertureValue : 4.5<br>
+BrightnessValue : 8.422<br>
+MaxApertureValue : 4.5<br>
+MeteringMode : Multi-segment<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 15.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 80<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Portrait<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Unknown<br>
+CustomRendered : Normal<br>
+ExposureTime : 1/474<br>
+ISO : 80</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ74.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ74.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 81 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:06:04 01:23:24<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 94 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+MaxAperture : 4.5<br>
+MaxAperture : undefined<br>
+<br>
+CameraDateTime : 2010/06/04 01:23:24<br>
+CameraDateTime : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3584<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3696<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 65872 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 65732 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/474<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3696 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 21.7 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 15.7 mm (35 mm equivalent: 94.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 10.92 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ71.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : DCZ 7.1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.00.1099<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2006<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:12:16 20:54:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Flash<br>
+Flash : On, Flash fired, red-eye reduction mode<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ71.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ71.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:12:16 20:54:43<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:12:16 20:54:43<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.80831005<br>
+CompressedBitsPerPixel : 3.8083100495515048<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3770<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4693<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4693 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ68.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : DCZ 6.8<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0458<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2030:10:10 13:24:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : On, Flash fired, red-eye reduction mode<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ68.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ68.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 69 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2030:10:10 13:24:04<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2030:10:10 13:24:04<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.326140136<br>
+CompressedBitsPerPixel : 1.32614013575109<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2784<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1856<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3898<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11063<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 55236 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11063 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ58.jpg</td>
+<td class="supported">Make : PENTACON<br>
+Model : DCZ 5.8<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0550<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:01:09 16:06:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : On, Flash fired, red-eye reduction mode<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ58.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ58.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 63 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:01:09 16:06:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:01:09 16:06:50<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.283850911<br>
+CompressedBitsPerPixel : 2.2838509114583334<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3898<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3923<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 56221 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3923 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ55.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : PENTACON<br>
+Model : DCZ 5.5<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6041M-1011<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/35<br>
+ExposureProgram : Program AE<br>
+ISO : 150<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:09 11:05:07<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ55.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ55.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:09 11:05:58<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.2<br>
+FNumber : 3.24<br>
+<br>
+CreateDate : 2010:06:09 11:05:07<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1043<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3695<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/35<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3695 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDCZ121.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : PENTACON<br>
+Model : PENTACON DCZ 12.1<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 974<br>
+YCbCrPositioning : Centered<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/115<br>
+FNumber : 3.8<br>
+ExposureProgram : Program AE<br>
+ISO : 125<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2030:02:11 19:54:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/115<br>
+ApertureValue : 3.8<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+LightSource : Cloudy weather<br>
+Flash : No Flash<br>
+FocalLength : 9.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Soft</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDCZ121.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDCZ121.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 71 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2030:02:11 19:54:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2030:02:11 19:54:26<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 56 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4676<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8387<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 59495 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/115<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8387 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 35.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 9.4 mm (35 mm equivalent: 56.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 4.61 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 10.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Pentacon/PentaconDC60.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : PENTACON<br>
+Model : DC60<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6021M-1009<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 150<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:30 17:30:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Spot<br>
+LightSource : Cloudy weather<br>
+Flash : On, Flash fired<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Pentacon/PentaconDC60.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : PentaconDC60.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Pentacon<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:30 17:31:24<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:30 17:30:04<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1041<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3602<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3602 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

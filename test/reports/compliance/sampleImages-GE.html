@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/GE/GeniusGShot511.jpg</td>
+<td class="supported">BrightnessValue : 2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:09 11:01:38<br>
+DateTimeOriginal : 2007:01:09 11:01:38<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.09090909090909091<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 735<br>
+DateTime : 2007:01:09 11:01:38<br>
+ImageDescription : Genius<br>
+Make : Genius<br>
+Model : GShot511<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported">SubjectArea : 512 384 1024 768<br>
+SubjectArea : 512,384,1024,768<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GeniusGShot312.jpg</td>
+<td class="supported">BrightnessValue : 9.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:07:09 11:01:05<br>
+DateTimeOriginal : 2006:07:09 11:01:05<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.09090909090909091<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1540<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 735<br>
+DateTime : 2006:07:09 11:01:05<br>
+ImageDescription : Genius<br>
+Make : Genius<br>
+Model : GShot312<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported">SubjectArea : 800 600 1600 1200<br>
+SubjectArea : 800,600,1600,1200<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GeniusG-ShotV3.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:29 11:08:16<br>
+DateTimeOriginal : 2009:06:29 11:08:16<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1.3<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/98<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : High saturation<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Hard<br>
+ShutterSpeedValue : 1/98<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 32480<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2009:06:29 11:08:16<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : Genius<br>
+Model : G-Shot V3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.08.000KYE<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 282</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GeniusG-ShotP850.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010:10:18 00:47:48<br>
+DateTimeOriginal : 2010:10:18 00:47:48<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.2 mm<br>
+FocalLengthIn35mmFilm : 31 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+RelatedSoundFile : <br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+UserComment : 801<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 3773<br>
+_IFDpointer_Makernote : 1095<br>
+Copyright : Copyright 2008<br>
+DateTime : 2010:10:18 00:47:48<br>
+ImageDescription : <br>
+Make : Genius<br>
+Model : G-Shot P850<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 0.720<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 311</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GeniusG-ShotG512.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:10:31 06:48:01<br>
+DateTimeOriginal : 2004:10:31 06:48:09<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.5 mm<br>
+LightSource : Daylight<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 1006<br>
+DateTime : 2004:10:31 06:48:09<br>
+Make : KYE Systems Corp.<br>
+Model : G-Shot G512<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : EXIF Software Version 0.06a<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 272</td>
+<td class="unsupported">CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+MaxApertureValue : 1<br>
+MaxApertureValue : NaN<br>
+<br>
+UserComment : E@U@TidxF1 06:48:09  x  	                     Lq	    s   ?                                                                                                                                                                ???E@U@TidxF1 06:48:09    <br>
+UserComment : 618<br>
+<br>
+ImageDescription : KYE_0036.JPG                   <br>
+ImageDescription : KYE0036.JPG<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GeniusG-ShotA435.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:30 18:51:45<br>
+DateTimeOriginal : 2010:05:30 18:51:45<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 100<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/797<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+FocalLengthIn35mmFilm : 34 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2272 px w<br>
+PixelYDimension : 1704 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/792<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2516<br>
+_IFDpointer_Makernote : 910<br>
+Make : KYE Systems Corp.<br>
+Model : G-Shot A435<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.5010<br>
+XResolution : 230.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 230.00000000<br>
+_IFDpointer_EXIF : 340</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GeniusDV210.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2003:09:06 14:58:33<br>
+DateTimeOriginal : 2003:09:06 14:58:33<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+ExposureTime : 1/135<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+ImageUniqueID : 00000000000000000000000000000022<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/137<br>
+SubjectDistanceRange : Distant view<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 524<br>
+DateTime : 2003:09:06 14:58:33<br>
+Make : Genius<br>
+Model : DV210<br>
+ResolutionUnit : inches<br>
+Software : 1.23K<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_X5.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:06 14:46:49<br>
+DateTimeOriginal : 2010:06:06 14:46:49<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1500<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+FocalPlaneXResolution : 6129.000000<br>
+FocalPlaneYResolution : 6129.000000<br>
+GainControl : None<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+SceneCaptureType : Standard<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/1663<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1142<br>
+_IFDpointer_Makernote : 782<br>
+DateTime : 2010:06:06 14:46:49<br>
+ImageDescription : GEDSC DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Model : X5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 284<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,2,0,2,0,1,0,0,0,1,1,0,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_J1470S.jpg</td>
+<td class="supported">ApertureValue : 4.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:12:02 12:40:03<br>
+DateTimeOriginal : 2011:12:02 12:40:03<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/219<br>
+FNumber : 4.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.6 mm<br>
+GainControl : None<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.0<br>
+MeteringMode : Average<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/208<br>
+UserComment : 746<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 2036<br>
+_IFDpointer_Makernote : 872<br>
+DateTime : 2011:12:02 12:40:03<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 276</td>
+<td class="unsupported">Model : J1470S<br>
+Model : J1470<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_G2.jpg</td>
+<td class="supported">ApertureValue : 4.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:03:28 15:43:50<br>
+DateTimeOriginal : 2008:03:28 15:43:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/325<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.7 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 3280 px w<br>
+PixelYDimension : 2460 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/333<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1048<br>
+_IFDpointer_Makernote : 708<br>
+DateTime : 2008:03:28 15:43:50<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : G2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">FNumber : 4.3<br>
+FNumber : 4.27<br>
+<br>
+UserComment : R:  164 G:  255 B:  169 X:43952 Y:55628 S:    0 Zs:   3 Zp: 190 F:65494 I:    4 ImgVer:08.01.09.10<br>
+UserComment : 930<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_G100.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:04:13 13:15:44<br>
+DateTimeOriginal : 2012:04:13 13:15:44<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/45<br>
+FNumber : 4.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 11.5 mm<br>
+FocalLengthIn35mmFilm : 64 mm<br>
+GainControl : None<br>
+ISO : 102<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.9<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/45<br>
+SubjectDistance : 1.7 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 692<br>
+_IFDpointer_Makernote : 1221<br>
+DateTime : 2012:04:13 13:15:44<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Model : G100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.00<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.171280293<br>
+CompressedBitsPerPixel : 1.1712802926383172<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_G1.jpg</td>
+<td class="supported">ApertureValue : 5.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:27 16:00:38<br>
+DateTimeOriginal : 2007:06:27 16:00:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/504<br>
+FNumber : 5.7<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/526<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 998<br>
+_IFDpointer_Makernote : 706<br>
+DateTime : 2007:06:27 16:00:38<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : G1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">UserComment : R:  150 G:  255 B:  162 X:54092 Y: 2784 S:    0 Z:65528 F:65512<br>
+UserComment : 916<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_E850.jpg</td>
+<td class="supported">ApertureValue : 5.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:07:31 13:43:39<br>
+DateTimeOriginal : 2007:07:31 13:43:39<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/140<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 15.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/141<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 998<br>
+_IFDpointer_Makernote : 706<br>
+DateTime : 2007:07:31 13:43:39<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : E850<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">FNumber : 5.5<br>
+FNumber : 5.48<br>
+<br>
+UserComment : R:  148 G:  255 B:  173 X:58188 Y:17088 S:    0 Z:  270 F:  232<br>
+UserComment : 916<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_E1486TW.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:01:21 20:54:15<br>
+DateTimeOriginal : 2011:01:21 20:54:15<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/32<br>
+FNumber : 3.3<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Average<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/32<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1196<br>
+_IFDpointer_Makernote : 744<br>
+DateTime : 2011:01:21 20:54:15<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Model : E1486 TW<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera GE E1486 TW Ver1.00 0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_E1410SW.jpg</td>
+<td class="supported">ApertureValue : 9.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:03:19 16:49:13<br>
+DateTimeOriginal : 2012:03:19 16:49:13<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/116<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 28 mm<br>
+GainControl : None<br>
+ISO : 112<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+PixelXDimension : 4320 px w<br>
+PixelYDimension : 3240 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/116<br>
+SubjectDistance : 0.1 m<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 692<br>
+_IFDpointer_Makernote : 1224<br>
+DateTime : 2012:03:19 16:49:13<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Model : E1410SW<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.879961134<br>
+CompressedBitsPerPixel : 1.8799611339734796<br>
+<br>
+ExposureIndex : undef<br>
+ExposureIndex : NaN<br>
+<br>
+FNumber : 9.9<br>
+FNumber : 9.92<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_E1255W.jpg</td>
+<td class="supported">ApertureValue : 5.2<br>
+BrightnessValue : 5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:06:27 14:11:01<br>
+DateTimeOriginal : 2009:06:27 14:11:01<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Manual<br>
+ExposureTime : 1/240<br>
+FNumber : 5.1<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 24.9 mm<br>
+FocalPlaneResolutionUnit : 0<br>
+FocalPlaneXResolution : 6129.000000<br>
+FocalPlaneYResolution : 6129.000000<br>
+ISO : 64<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Average<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/232<br>
+SubjectDistanceRange : Unknown<br>
+_IFDpointer_Interop : 1808<br>
+_IFDpointer_Makernote : 848<br>
+Copyright : <br>
+DateTime : 2009:06:27 14:11:01<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Model : E1255W<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 298<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,2,0,2,0,1,0,0,0,1,1,0,0,0,0</td>
+<td class="unsupported">CompressedBitsPerPixel : undef<br>
+CompressedBitsPerPixel : NaN<br>
+<br>
+LightSource : Fine Weather<br>
+LightSource : Fine weather<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : Manual<br>
+<br>
+Software : Version 1.02<br>
+Software : Version 1.0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_E1250TW.jpg</td>
+<td class="supported">ApertureValue : 5.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:08:13 10:54:16<br>
+DateTimeOriginal : 2009:08:13 10:54:16<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Manual<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/316<br>
+FNumber : 5.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.3<br>
+MeteringMode : Average<br>
+PixelXDimension : 4000 px w<br>
+PixelYDimension : 3000 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/322<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1172<br>
+_IFDpointer_Makernote : 720<br>
+DateTime : 2009:08:13 10:54:16<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : GENERAL IMAGING CO.<br>
+Model : E1250 TW<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Digital Camera GE E1250 TW Ver1.04 0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 270</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_E1035.jpg</td>
+<td class="supported">ApertureValue : 5.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:09:17 04:18:57<br>
+DateTimeOriginal : 2008:09:17 04:18:57<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/77<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 22.5 mm<br>
+GainControl : None<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.1<br>
+MeteringMode : Average<br>
+PixelXDimension : 0 px w<br>
+PixelYDimension : 0 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/77<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1036<br>
+_IFDpointer_Makernote : 700<br>
+DateTime : 2009:07:05 23:58:52<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : E1035<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GIMP 2.6.3<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 238</td>
+<td class="unsupported">FNumber : 5.1<br>
+FNumber : 5.08<br>
+<br>
+UserComment : R:  139 G:  255 B:  189 X:39852 Y:    0 S:    0 Zs:   6 Zp: 115 F:  531 I:    1 ImgVer:08.01.09.10<br>
+UserComment : 920<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_A835.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:03:11 15:11:11<br>
+DateTimeOriginal : 2009:03:11 15:11:11<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/34<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.1 mm<br>
+GainControl : None<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/34<br>
+UserComment : 746<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 41968<br>
+_IFDpointer_Makernote : 872<br>
+DateTime : 2009:03:11 15:11:11<br>
+ImageDescription : GEDSC DIGITAL CAMERA<br>
+Make : GEDSC IMAGING CORP.<br>
+Model : A835<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.08<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 276</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_A830.jpg</td>
+<td class="supported">ApertureValue : 5.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:14 08:39:50<br>
+DateTimeOriginal : 2007:06:14 08:39:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1618<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/1663<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 998<br>
+_IFDpointer_Makernote : 706<br>
+DateTime : 2007:06:14 08:39:50<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : A830<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 244</td>
+<td class="unsupported">FNumber : 5.8<br>
+FNumber : 5.79<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+UserComment : R:  146 G:  255 B:  160 X:49972 Y: 8896 S:    0 Z:  114 F:   98<br>
+UserComment : 916<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_A735.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:21 18:59:03<br>
+DateTimeOriginal : 2008:07:21 18:59:03<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 6.1 mm<br>
+GainControl : None<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/30<br>
+UserComment : 746<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 40604<br>
+_IFDpointer_Makernote : 872<br>
+DateTime : 2008:07:21 18:59:03<br>
+ImageDescription : GEDSC DIGITAL CAMERA<br>
+Make : GEDSC IMAGING CORP.<br>
+Model : A735<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 1.02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 276</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_A730.jpg</td>
+<td class="supported">ApertureValue : 4.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:08:12 17:39:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/440<br>
+FNumber : 4.8<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.3 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+MaxApertureValue : 4.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 3072 px w<br>
+PixelYDimension : 2304 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/455<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 4778<br>
+_OffsetSchema : 4148<br>
+_Padding : 2642<br>
+DateTime : 2007:08:12 17:39:10<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : A730<br>
+Orientation : Horizontal (normal)<br>
+Software : Version Ver 1.04<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 2276</td>
+<td class="unsupported">UserComment : R:  137 G:  255 B:  161 X:54064 Y:17288 S:    0 Z:  313 F:   78<br>
+UserComment : 4986<br>
+<br>
+XPComment : R:  137 G:  255 B:  161 X:54064 Y:17288 S:    0 Z:  313 F:   78 <br>
+XPComment : 82,0,58,0,32,0,32,0,49,0,51,0,55,0,32,0,71,0,58,0,32,0,32,0,50,0,53,0,53,0,32,0,66,0,58,0,32,0,32,0,49,0,54,0,49,0,32,0,88,0,58,0,53,0,52,0,48,0,54,0,52,0,32,0,89,0,58,0,49,0,55,0,50,0,56,0,56,0,32,0,83,0,58,0,32,0,32,0,32,0,32,0,48,0,32,0,90,0,58,0,32,0,32,0,51,0,49,0,51,0,32,0,70,0,58,0,32,0,32,0,32,0,55,0,56,0,32,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_A1230.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:01:06 05:41:14<br>
+DateTimeOriginal : 2009:01:06 05:41:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/167<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+ImageUniqueID : D099A124286A4E04A8248E2BF9F83B03<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 4032 px w<br>
+PixelYDimension : 3024 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/170<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 5232<br>
+_IFDpointer_Makernote : 4904<br>
+_OffsetSchema : 0<br>
+_Padding : 2760<br>
+DateTime : 2009:01:06 22:30:07<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : A1230<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Microsoft Windows Photo Gallery 6.0.6001.18000<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2358</td>
+<td class="unsupported">FNumber : 2.9<br>
+FNumber : 2.88<br>
+<br>
+UserComment : R:  131 G:  255 B:  201 X:39852 Y:    0 S:    0 Zs:   0 Zp:   0 F:  684 I:    1 ImgVer:08.05.07.23<br>
+UserComment : 5124<br>
+<br>
+XPKeywords : Fiesta Key & Edgewater Motel sunset<br>
+XPKeywords : 70,0,105,0,101,0,115,0,116,0,97,0,32,0,75,0,101,0,121,0,32,0,38,0,32,0,69,0,100,0,103,0,101,0,119,0,97,0,116,0,101,0,114,0,32,0,77,0,111,0,116,0,101,0,108,0,32,0,115,0,117,0,110,0,115,0,101,0,116,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/GE/GE_A1200.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:13 15:38:52<br>
+DateTimeOriginal : 2010:05:13 15:38:52<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.21<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+GainControl : High gain up<br>
+ISO : 161<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+PixelXDimension : 4032 px w<br>
+PixelYDimension : 3024 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/30<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1048<br>
+_IFDpointer_Makernote : 708<br>
+DateTime : 2010:05:13 15:38:52<br>
+ImageDescription : GE DIGITAL CAMERA<br>
+Make : General Imaging Co.<br>
+Model : A1200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported">FNumber : 2.9<br>
+FNumber : 2.88<br>
+<br>
+UserComment : R:  141 G:  255 B:  194 X:39852 Y:    0 S:  146 Zs:   0 Zp:   0 F:  710 I:    0 ImgVer:08.05.07.23<br>
+UserComment : 930<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

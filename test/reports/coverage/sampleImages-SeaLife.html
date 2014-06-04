@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC800.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : SeaLife<br>
+Model : DC800<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : Nero PhotoSnap 1, 4, 0, 0<br>
+ExposureTime : 1/309<br>
+FNumber : 2.7<br>
+ExposureProgram : Not Defined<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:12 06:26:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/309<br>
+ApertureValue : 2.7<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+FocalLength : 4.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+Saturation : High saturation<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC800.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC800.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 34 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:18 00:15:57<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:12 06:26:40<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Flash : Unknown (0x11)<br>
+Flash : 17<br>
+<br>
+PreviewImage : (Binary data 25395 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 180<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3264<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 30540<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4136<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/309<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4136 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 4.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC600.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : SeaLife<br>
+Model : DC600<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.09PIE2<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/120<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:06:17 02:34:08<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FocalLength : 5.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC600.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC600.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 13 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:06:17 02:34:08<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:06:17 02:34:08<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2848<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 836<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11748<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/120<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11748 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 12.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC500.jpg</td>
+<td class="supported">ImageDescription : DIGITAL IMAGE<br>
+Make : SeaLife<br>
+Model : DC500<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 314.00000000<br>
+YResolution : 314.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.12PIE<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/288<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2007:06:24 11:37:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 5.4 mm<br>
+UserComment : 10958<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC500.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC500.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:06:24 11:37:28<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:06:24 11:37:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Medium-Fine<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 0 0 0 0 0 0<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (DC500)<br>
+CameraType : undefined<br>
+<br>
+CameraID : PIONEER SEALIFE CAMERAS         <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 5590 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11228<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5932<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/288<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5932 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 35.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.14 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC300.jpg</td>
+<td class="supported">Make : SeaLife<br>
+Model : DC300/DC310<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.13P<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/143<br>
+FNumber : 3.5<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:09:13 13:47:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/147<br>
+ApertureValue : 3.5<br>
+Flash : On, Flash fired<br>
+FocalLength : 7.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:09:13 13:47:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:09:13 13:47:51<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10240<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5492<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/143<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5492 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC250.jpg</td>
+<td class="supported">Make : SeaLife<br>
+Model : DC250<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.22P<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/261<br>
+FNumber : 8<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2000:01:08 04:32:15<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/256<br>
+ApertureValue : 8.0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC250.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC250.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:01:08 04:32:15<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2000:01:08 04:32:15<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10240<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7432<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/261<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7432 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 14<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC1310.jpg</td>
+<td class="supported">Make : PIONEER<br>
+Model : DC1310<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Software : 2.0I<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:08:04 15:38:20<br>
+FlashpixVersion : 1.00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ColorSpace : sRGB<br>
+ExposureTime : 1/83<br>
+ISO : 100<br>
+Flash : No Flash<br>
+FNumber : 8<br>
+ShutterSpeedValue : 1/87<br>
+ApertureValue : 8.0</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC1310.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC1310.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 23 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:08:04 15:38:20<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:08:04 15:38:20<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3107<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7465<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/83<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7465 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 12.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/SeaLife/SealifeDC1000.jpg</td>
+<td class="supported">ImageDescription : Digital Camera<br>
+Make : SeaLife<br>
+Model : DC1000<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.25PIT<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/228<br>
+FNumber : 5.3<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:26 14:30:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/228<br>
+ApertureValue : 5.3<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 6.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+Saturation : High saturation<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/SeaLife/SealifeDC1000.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : SealifeDC1000.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/SeaLife<br>
+Directory : undefined<br>
+<br>
+FileSize : 38 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:26 14:30:40<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:26 14:30:40<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 25688 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 30796<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7608<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/228<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7608 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.4 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

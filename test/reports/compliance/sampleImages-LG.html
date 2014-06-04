@@ -1,0 +1,3774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/LG/LG_VX8600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:11:15 15:32:20<br>
+DateTimeOriginal : 2009:11:15 15:32:20<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 176 px w<br>
+PixelYDimension : 144 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 512<br>
+Make : LG Electronics<br>
+Model : LG-VX8600<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : T86ATV05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210</td>
+<td class="unsupported">DigitalZoomRatio : 2.397705078<br>
+DigitalZoomRatio : 2.397705078125<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX8560.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 0000:00:00 00:00:00<br>
+Make : LG Electronics Inc<br>
+Model : LG-VX8560<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 225</td>
+<td class="unsupported">ImageDescription : EXIF_JPEG_T422<br>
+ImageDescription : EXIFJPEGT422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX8360.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:05:12 17:14:11<br>
+DateTimeOriginal : 2010:05:12 17:14:11<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 522<br>
+Make : LG Electronics, Inc.<br>
+Model : LG-VX8360<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : VX836V02<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX8350.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:01:22 11:10:12<br>
+DateTimeOriginal : 2010:01:22 11:10:12<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 512<br>
+Make : LG Electronics<br>
+Model : LG-VX8350<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PX83PC03<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX8300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:19 22:37:10<br>
+DateTimeOriginal : 2009:06:19 22:37:10<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/21<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 176 px w<br>
+PixelYDimension : 144 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 544<br>
+Make : LG Electronics<br>
+Model : LG-VX8300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : T83VZV01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210</td>
+<td class="unsupported">DigitalZoomRatio : 3.329345703<br>
+DigitalZoomRatio : 3.329345703125<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX-9200.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 03.10.2010 15:24:39<br>
+DateTimeOriginal : 03.10.2010 15:24:39<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 434<br>
+Make : LG Electronics<br>
+Model : VX-9200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX-8800.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 04.12.2009 17:0500<br>
+DateTimeOriginal : 04.12.2009 17:0500<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 434<br>
+Make : LG Electronics<br>
+Model : VX-8800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_VX-8550.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 09.19.2009 17:1000<br>
+DateTimeOriginal : 09.19.2009 17:1000<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 434<br>
+Make : LG Electronics<br>
+Model : VX-8550<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_U990i.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:09:19 20:04:49<br>
+DateTimeOriginal : 2009:09:19 20:04:49<br>
+DigitalZoomRatio : 2.09<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/7<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+ISO : 267<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/7<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 614<br>
+GPSVersion : 50.50.48.48<br>
+DateTime : 2009:09:19 20:04:49<br>
+ImageDescription : Viewty<br>
+Make : LG Electronics<br>
+Model : U990i<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 198<br>
+_IFDpointer_GPS : 680</td>
+<td class="unsupported">XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_U960.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:03:05 10:37:39<br>
+DateTimeOriginal : 2010:03:05 10:37:39<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 502<br>
+Make : LG Elec.<br>
+Model : U960<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KU990-MSM6280-V10e-OCT-25-2007-XX<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 188</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_T320.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:12:11 14:10:36<br>
+DateTimeOriginal : 2010:12:11 14:10:36<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+DateTime : 2010:12:11 14:10:36<br>
+ImageDescription : PLUM3G<br>
+Make : LG Electronics<br>
+Model : T320<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_T310.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:01:22 16:14:00<br>
+DateTimeOriginal : 2011:01:22 16:14:00<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+DateTime : 2011:01:22 16:14:00<br>
+ImageDescription : PLUM2G<br>
+Make : LG Electronics<br>
+Model : T310<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_T300.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:12:12 21:57:00<br>
+DateTimeOriginal : 2010:12:12 21:57:00<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+DateTime : 2010:12:12 21:57:00<br>
+ImageDescription : PAPAYA<br>
+Make : LG Electronics<br>
+Model : T300<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SV420.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010: 6: 7 20:13:11<br>
+DateTimeOriginal : 2010: 6: 7 20:13:11<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+Flash : No Flash<br>
+FlashpixVersion : 0.10<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 436<br>
+DateTime : 2010: 6: 7 20:13:11<br>
+Make : LGE<br>
+Model : SV420<br>
+ResolutionUnit : inches<br>
+Software : HeraNeo<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SU950.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 8.26<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 1980:01:23 02:25:47<br>
+DateTimeOriginal : 1980:01:23 02:25:47<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/626<br>
+FileSource : Digital Camera<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Other<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Landscape<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/626<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1070<br>
+_IFDpointer_Makernote : 714<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSVersion : 2.2.0.0<br>
+Make : LG CYON<br>
+Model : SU950<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 184<br>
+_IFDpointer_GPS : 924</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FNumber : 2.8<br>
+FNumber : 2.7890625<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SU910.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 60<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:05:05 15:53:06<br>
+DateTimeOriginal : 2010:05:05 15:53:06<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 524<br>
+Make : LG CYON<br>
+Model : SU910<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : SU910905<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 190<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SH-210.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 70<br>
+DateTimeDigitized : 2010: 2:22 16:36:26<br>
+DateTimeOriginal : 2010: 2:22 16:36:26<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/4<br>
+FlashpixVersion : 0.10<br>
+ISO : 159<br>
+PixelXDimension : 928 px w<br>
+PixelYDimension : 903 px h<br>
+_IFDpointer_Interop : 272<br>
+DateTime : 2010:02:22 20:55:21<br>
+Make : LG CYON<br>
+Model : SH-210<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SH-150.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 75<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:05:29 17:27:35<br>
+DateTimeOriginal : 2009:05:29 17:27:35<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 512<br>
+Make : LG CYON<br>
+Model : SH-150<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6280A-KLRZ-4.0.5050T<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 178</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SH-130.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:12:18 17:08:12<br>
+DateTimeOriginal : 2009:12:18 17:08:12<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 512<br>
+Make : LG CYON<br>
+Model : SH-130<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6280A-KLRZ-2.3.40253C<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 178</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SD910.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:24 15:15:17<br>
+DateTimeOriginal : 2009:11:24 15:15:17<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 408<br>
+Make : LG CYON<br>
+Model : SD 910<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SC330.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:02:13 10:00:04<br>
+DateTimeOriginal : 2010:02:13 10:00:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 0<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 510<br>
+Make : LG CYON<br>
+Model : SC 330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6100C-SC330-6750<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SB-310.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:05:30 18:31:25<br>
+DateTimeOriginal : 2010:05:30 18:31:25<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 506<br>
+Make : LG CYON<br>
+Model : SB-310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6550B-s310-4450<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 172</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_SB-210.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+DateTimeDigitized : 2011:11:03 12:43:17<br>
+DateTimeOriginal : 2011:11:03 12:43:17<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneType : Directly photographed<br>
+Make : LG CYON<br>
+Model : SB-210<br>
+ResolutionUnit : inches<br>
+Software : SB210903<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 272<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_Rumour2.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:09:17 19:04:18<br>
+DateTimeOriginal : 2011:09:17 19:04:18<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+Make : LG Electronics, Inc.<br>
+Model : LG Rumour 2<br>
+ResolutionUnit : inches<br>
+Software : Q6055BCX265B05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 268</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_RUMOR2.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:01:20 16:53:45<br>
+DateTimeOriginal : 2010:01:20 16:53:45<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 500<br>
+Make : LG Electronics, Inc.<br>
+Model : LG RUMOR2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Q6055BLX265V05<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_P520.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:12:25 12:27:00<br>
+DateTimeOriginal : 2010:12:25 12:27:00<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 2010:12:25 12:27:00<br>
+ImageDescription : TERRY<br>
+Make : LG Electronics<br>
+Model : P520<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_MX-8550.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 09.12.2009 15:0100<br>
+DateTimeOriginal : 09.12.2009 15:0100<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 434<br>
+Make : LG Electronics<br>
+Model : MX-8550<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics<br>
+XResolution : 150.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 150.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_MG810.jpg</td>
+<td class="supported">DateTime : 2008:02:09 19:17:54<br>
+Make : LGE<br>
+Model : MG810<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_MG295d.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010.05.14 13:11:42<br>
+DateTimeOriginal : 2010.05.14 13:11:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,2006<br>
+DateTime : 2010.05.14 13:11:42<br>
+Make : LG Mobile<br>
+Model : MG295d<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+UserComment : SelfTimer Off<br>
+UserComment : 686<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_LV4200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008-11-30 14:32: 4<br>
+DateTimeOriginal : 2008-11-30 14:32: 4<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+Flash : No Flash<br>
+FlashpixVersion : 0.10<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 436<br>
+DateTime : 2008-11-30 14:32: 4<br>
+Make : LGE<br>
+Model : LV4200<br>
+ResolutionUnit : inches<br>
+Software : HeraNeo<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_LU2300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:11:28 20:44:10<br>
+DateTimeOriginal : 2010:11:28 20:44:10<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 466<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSVersion : 2.2.0.0<br>
+Make : LG CYON<br>
+Model : LU2300<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142<br>
+_IFDpointer_GPS : 320</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_LC3200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:22 22:10:13<br>
+DateTimeOriginal : 2009:11:22 22:10:13<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 408<br>
+Make : LG CYON<br>
+Model : LC 3200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_LB2800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:03:13 20:45:31<br>
+DateTimeOriginal : 2009:03:13 20:45:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 416<br>
+Make : LG CYON<br>
+Model : LG-LB2800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6500C-LB280-6330<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_LB1700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 1980:01:06 09:40:42<br>
+DateTimeOriginal : 1980:01:06 09:40:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 416<br>
+Make : LG CYON<br>
+Model : LG-LB1700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6500C-LB170-6330<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_LB-3100.jpg</td>
+<td class="supported">Make : LG CYON<br>
+Model : LB-3100<br>
+Orientation : Horizontal (normal)<br>
+Software : SK Communications CyImage Uploader</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KV4200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009-11-16 13:44:28<br>
+DateTimeOriginal : 2009-11-16 13:44:28<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+Flash : No Flash<br>
+FlashpixVersion : 0.10<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 436<br>
+DateTime : 2009-11-16 13:44:28<br>
+Make : LGE<br>
+Model : KV4200<br>
+ResolutionUnit : inches<br>
+Software : HeraNeo<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KU990.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:03:08 01:35:17<br>
+DateTimeOriginal : 2010:03:08 01:35:17<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/7<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+ISO : 203<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+DateTime : 2010:03:08 01:35:17<br>
+ImageDescription : NYX<br>
+Make : LG Electronics<br>
+Model : KU990<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 179</td>
+<td class="unsupported">Flash : Off, No flash function<br>
+Flash : 48<br>
+<br>
+XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KU580.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2008:06:16 09:50:18<br>
+DateTimeOriginal : 2008:06:16 09:50:18<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+_IFDpointer_Interop : 354<br>
+Copyright : Copyright Not Specified<br>
+DateTime : 2004:01:01 16:30:36<br>
+Make : KU580<br>
+Model : LG Innotek<br>
+ResolutionUnit : cm<br>
+XResolution : 40.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 40.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">ComponentsConfiguration : R, G, B, -<br>
+ComponentsConfiguration : RGB uncompressed<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KU4000.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:10:17 15:41:08<br>
+DateTimeOriginal : 2009:10:17 15:41:08<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 526<br>
+Make : LG CYON<br>
+Model : KU4000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KU400906<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KS660.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:12:22 23:03:25<br>
+DateTimeOriginal : 2009:12:22 23:03:25<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+ImageDescription : ALBIREO<br>
+Make : LG Electronics<br>
+Model : KS660<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 186</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+ISO : 80, 0<br>
+ISO : 80,0<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KS360.jpg</td>
+<td class="supported">CustomRendered : Custom<br>
+DateTimeOriginal : 2008:03:18 04:02:12<br>
+DigitalZoomRatio : 0.002<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureProgram : Shutter speed priority AE<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FocalLength : 325.4 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 2.210000<br>
+FocalPlaneYResolution : 6.000000<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+WhiteBalance : Manual<br>
+Make : LG Electronics<br>
+Model : KS360<br>
+Orientation : 10<br>
+ResolutionUnit : inches<br>
+Software : Exif Software Version 1.00a<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 175</td>
+<td class="unsupported">ColorSpace : Adobe RGB<br>
+ColorSpace : 2<br>
+<br>
+FNumber : 0<br>
+FNumber : 0.0000234<br>
+<br>
+SubjectDistance : 1.264705882 m<br>
+SubjectDistance : 1.2647058823529411 m<br>
+<br>
+UserComment : ASCI   Act<br>
+UserComment : 65,83,67,73,0,0,0,65,99,116<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KS20.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:05:30 07:25:20<br>
+DateTimeOriginal : 2009:05:30 07:25:20<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 418<br>
+Make : LGE<br>
+Model : KS20<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : <br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 180</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP570.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:10:16 14:18:47<br>
+DateTimeOriginal : 2010:10:16 14:18:47<br>
+ExifVersion : 2.20<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ImageDescription : S<br>
+Make : LG Electronics<br>
+Model : KP570<br>
+Orientation : Horizontal (normal)<br>
+_IFDpointer_EXIF : 114</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP500.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:27 19:20:47<br>
+DateTimeOriginal : 2010:04:27 19:20:47<br>
+ExifVersion : 2.20<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ImageDescription : S<br>
+Make : LG Electronics<br>
+Model : KP500<br>
+Orientation : Horizontal (normal)<br>
+_IFDpointer_EXIF : 114</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP4500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:09:11 21:42:35<br>
+DateTimeOriginal : 2009:09:11 21:42:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 408<br>
+Make : LG CYON<br>
+Model : KP 4500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP4000.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:06:09 11:14:20<br>
+DateTimeOriginal : 2009:06:09 11:14:20<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 408<br>
+Make : LG CYON<br>
+Model : KP 4000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP3800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:02:11 09:16:50<br>
+DateTimeOriginal : 2006:02:11 09:16:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 408<br>
+Make : LG CYON<br>
+Model : KP 3800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP320.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/14<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 250<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Makernote : 608<br>
+DateTime : 2010/06/05 18:34:52<br>
+Make : LG Mobile<br>
+Model : KP320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 7S7610RU00-001-R1T<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 382</td>
+<td class="unsupported">ImageDescription : [1]102,115,15,80,144,7,37,21,12/idx:19/R:132,GR:128,GB:128,B:194, Gma(3):203c5569,8da8c0d7,e1ebf500,Led:0, edge:1, 332c:8,con:7, EDGE:20002, AF:s(270/1023)(0/4:0)<br>
+ImageDescription : 1102,115,15,80,144,7,37,21,12/idx:19/R:132,GR:128,GB:128,B:194, Gma(3):203c5569,8da8c0d7,e1ebf500,Led:0, edge:1, 332c:8,con:7, EDGE:20002, AF:s(270/1023)(0/4:0)<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP293i.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 0123456789KLMNOPQRS<br>
+DateTimeOriginal : 0123456789KLMNOPQRS<br>
+DigitalZoomRatio : 0.66<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/2000<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/2048<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,2006<br>
+DateTime : 0123456789KLMNOPQRS<br>
+Make : LG Mobile<br>
+Model : KP293i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+UserComment : SelfTimer Off<br>
+UserComment : 686<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP235.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 0000.00.00 00:00:00<br>
+DateTimeOriginal : 0000.00.00 00:00:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,2006<br>
+DateTime : 0000.00.00 00:00:00<br>
+Make : LG ELEC<br>
+Model : KP235<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+UserComment : SelfTimer Off<br>
+UserComment : 686<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP230.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 0000.00.00 00:00:00<br>
+DateTimeOriginal : 0000.00.00 00:00:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : -5<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,2006<br>
+DateTime : 0000.00.00 00:00:00<br>
+Make : LG ELEC<br>
+Model : KP230<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+UserComment : SelfTimer Off<br>
+UserComment : 686<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP202.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2006.11.11 11:20:05<br>
+DateTimeOriginal : 2006.11.11 11:20:05<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,2006<br>
+DateTime : 2006.11.11 11:20:05<br>
+Make : LG ELEC<br>
+Model : KP202<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+UserComment : SelfTimer Off<br>
+UserComment : 686<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP199.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/39<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 128 px w<br>
+PixelYDimension : 160 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Makernote : 658<br>
+DateTime : 2010:05:25 10:53:27<br>
+ImageDescription : 80808080,720905,185991177,371261449,723218,185993490,371263762,725531,185995803,371266075/idx:49/R:128,GR:128,GB:128,B:128, AWB:2432101a, Gma(0):41647a88,a4bacee0,e8f0f800, sensor edge:2, sensor de-noise:1,con:1, EDGE:80010<br>
+Make : LGE<br>
+Model : KP199<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 7S7339RU00-001-R1B<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 432</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KP130.jpg</td>
+<td class="supported">ApertureValue : 8.0<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 0000.00.00 00:00:00<br>
+DateTimeOriginal : 0000.00.00 00:00:00<br>
+DigitalZoomRatio : 1.58<br>
+ExifVersion : 2.20<br>
+ExposureBias : -4<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/30<br>
+FNumber : 8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Average<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+ShutterSpeedValue : 1/32<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : Copyright,2006<br>
+DateTime : 0000.00.00 00:00:00<br>
+Make : LG ELEC<br>
+Model : KP130<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">FocalLength : 50.0 mm<br>
+FocalLength : 50 mm<br>
+<br>
+UserComment : SelfTimer Off<br>
+UserComment : 686<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KM900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:07 14:36:52<br>
+DateTimeOriginal : 2010:06:07 14:36:52<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/10<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSTimeStamp : 00:00:00<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2010:06:07 14:36:53<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208<br>
+_IFDpointer_GPS : 530</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.79998779296875<br>
+<br>
+GPSMapDatum : WGS-84<br>
+GPSMapDatum : WGS-8<br>
+<br>
+ImageDescription : ARENA<br>
+ImageDescription : AREN<br>
+<br>
+Make : LG Electronics<br>
+Make : LG Electronic<br>
+<br>
+Model : KM900<br>
+Model : KM90<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KM710.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 0000:00:00 00:00:00<br>
+Make : LG Mobile<br>
+Model : LG-KM710<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported">ImageDescription : EXIF_JPEG_T422<br>
+ImageDescription : EXIFJPEGT422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KM555.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:23 21:44:53<br>
+DateTimeOriginal : 2010:04:23 21:44:53<br>
+ExifVersion : 2.20<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ImageDescription : Dorothy<br>
+Make : LG Electronics<br>
+Model : KM555<br>
+Orientation : Horizontal (normal)<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KM500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+DateTime : 0000:00:00 00:00:00<br>
+Make : LG Mobile<br>
+Model : LG-KM500<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported">ImageDescription : Telechips Exif_JPEG<br>
+ImageDescription : Telechips ExifJPEG<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KM380.jpg</td>
+<td class="supported">CustomRendered : Custom<br>
+DateTimeOriginal : 2008:03:18 04:02:12<br>
+DigitalZoomRatio : 0.002<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureProgram : Shutter speed priority AE<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FocalLength : 325.4 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 2.210000<br>
+FocalPlaneYResolution : 6.000000<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+WhiteBalance : Manual<br>
+Make : LG Electronics<br>
+Model : KM380<br>
+Orientation : 10<br>
+ResolutionUnit : inches<br>
+Software : Exif Software Version 1.00a<br>
+XResolution : 3.60000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 175</td>
+<td class="unsupported">ColorSpace : Adobe RGB<br>
+ColorSpace : 2<br>
+<br>
+FNumber : 0<br>
+FNumber : 0.0000234<br>
+<br>
+SubjectDistance : 1.264705882 m<br>
+SubjectDistance : 1.2647058823529411 m<br>
+<br>
+UserComment : ASCI   Act<br>
+UserComment : 65,83,67,73,0,0,0,65,99,116<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KM330.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/24<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Makernote : 466<br>
+DateTime : 2010/09/22 16:30:16<br>
+ImageDescription : 1234567<br>
+Make : LG Mobile<br>
+Model : KM330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KM330-00-V10i-CIS-XX-JUN-15-2009<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 240</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KH8000.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:08:05 21:47:44<br>
+DateTimeOriginal : 2009:08:05 21:47:44<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 526<br>
+Make : LG CYON<br>
+Model : KH8000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KW800907<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KH5200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2010:08:19 21:00:51<br>
+DateTimeOriginal : 2010:08:19 21:00:51<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/8<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+Make : LG Electronics<br>
+Model : KH5200<br>
+Orientation : Horizontal (normal)<br>
+Software : ArcSoft Camera Version 1.0.0.0<br>
+_IFDpointer_EXIF : 127</td>
+<td class="unsupported">ComponentsConfiguration : Err (48), Err (48), Err (50), Err (49)<br>
+ComponentsConfiguration : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KH1800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+DateTimeDigitized : 2009:12:07 21:19:21<br>
+DateTimeOriginal : 2009:12:07 21:19:21<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 426<br>
+Make : LG CYON<br>
+Model : KH1800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KW180711<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KH1600.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+DateTimeDigitized : 2010:03:28 17:09:41<br>
+DateTimeOriginal : 2010:03:28 17:09:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 360 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+Make : LG CYON<br>
+Model : KH1600<br>
+Software : KW160711<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 100</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KH-3100.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 90<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:03:25 07:54:30<br>
+DateTimeOriginal : 2010:03:25 07:54:30<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 526<br>
+Make : LG CYON<br>
+Model : KH-3100<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KW310905<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KH-1200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:08:05 23:41:51<br>
+DateTimeOriginal : 2007:08:05 23:41:51<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 432<br>
+Make : LG CYON<br>
+Model : KH-1200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KH1200-M6250D-V10h-APR-26-2007-KTF<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KG920.jpg</td>
+<td class="supported">ApertureValue : 5.6<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/313<br>
+FNumber : 5.6<br>
+Flash : Off, Flash did not fire<br>
+FocalPlaneResolutionUnit : cm<br>
+ISO : <br>
+MeteringMode : Multi-spot<br>
+ShutterSpeedValue : 1/313<br>
+WhiteBalance : Manual<br>
+DateTime : 2009.02.16<br>
+Make : LG Electronics Inc.<br>
+Model : KG920<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">BrightnessValue : 8.264953613<br>
+BrightnessValue : 8.26495361328125<br>
+<br>
+FocalPlaneXResolution : 0.5675318962<br>
+FocalPlaneXResolution : 0.567532<br>
+<br>
+FocalPlaneYResolution : 0.4254289485<br>
+FocalPlaneYResolution : 0.425429<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:09 13:33:33<br>
+DateTimeOriginal : 2010:05:09 13:33:33<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/500<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ImageDescription : QP<br>
+Make : LG Electronics<br>
+Model : KF900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 178</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+ISO : 50, 0<br>
+ISO : 50,0<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF750.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 6 Aug 2009 20:09:44<br>
+DateTimeOriginal : 6 Aug 2009 20:09:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+ISO : 610<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 607<br>
+DateTime : 6 Aug 2009 20:09:44<br>
+ImageDescription : M1<br>
+Make : LG Electronics<br>
+Model : KF750<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 191</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF700.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2002:12:08 12:00:00<br>
+DateTimeOriginal : 2002:12:08 12:00:00<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Manual<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+ImageDescription : VIRGO<br>
+Make : LG Electronics<br>
+Model : KF700<br>
+_IFDpointer_EXIF : 108</td>
+<td class="unsupported">ComponentsConfiguration : -, -, Cb, Y<br>
+ComponentsConfiguration : <br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF690.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:12:08 12:00:00<br>
+DateTimeOriginal : 2002:12:08 12:00:00<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Manual<br>
+FNumber : 1<br>
+FlashpixVersion : 1.00<br>
+ISO : 127<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/1024<br>
+ImageDescription : VIRGO<br>
+Make : LG Electronics<br>
+Model : KF690<br>
+Orientation : Horizontal (normal)<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported">Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF600.jpg</td>
+<td class="supported">CustomRendered : Custom<br>
+DateTimeOriginal : 2006:02:03 04:02:12<br>
+DigitalZoomRatio : 0.002<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureProgram : Shutter speed priority AE<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FocalLength : 325.4 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 6.000000<br>
+FocalPlaneYResolution : 2.210000<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+WhiteBalance : Manual<br>
+Make : LG Electronics<br>
+Model : KF600<br>
+Software : Exif Software Version 1.00a<br>
+_IFDpointer_EXIF : 112</td>
+<td class="unsupported">ColorSpace : Adobe RGB<br>
+ColorSpace : 2<br>
+<br>
+FNumber : 0<br>
+FNumber : 0.0000234<br>
+<br>
+SubjectDistance : 1.264705882 m<br>
+SubjectDistance : 1.2647058823529411 m<br>
+<br>
+UserComment : ASCI   @ct<br>
+UserComment : 65,83,67,73,0,0,0,64,99,116<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF510.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:01:01 15:04:05<br>
+DateTimeOriginal : 2010:01:01 15:04:05<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+WhiteBalance : Auto<br>
+Make : LG Electronics<br>
+Model : KF510<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 136</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF310.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:06:17 22:54:50<br>
+DateTimeOriginal : 2010:06:17 22:54:50<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 530<br>
+Make : LG Elec.<br>
+Model : KF310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KF310-MSM6245-V10a-MAY-14-2008-XX<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 216<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF301.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.5<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Interop : 1628<br>
+_IFDpointer_Makernote : 408<br>
+DateTime : 2010.07.01 19:59:26<br>
+Make : LG Electronics<br>
+Model : KF301<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KF301-00-V10f-CIS-XX-APR-08-2010<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF300.jpg</td>
+<td class="supported">ExifVersion : 2.20<br>
+Model : KF300<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 152</td>
+<td class="unsupported">Make : LG_Electronics<br>
+Make : LGElectronics<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF240.jpg</td>
+<td class="supported">ExifVersion : 2.20<br>
+Model : KF240<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 152</td>
+<td class="unsupported">Make : LG_Electronics<br>
+Make : LGElectronics<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KF-350.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2009-11-22 17:34:19<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2009-11-22 17:34:19<br>
+Make : LG Electronics Inc.<br>
+Model : KF-350<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KE998.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:08:02 00:06:08<br>
+DateTimeOriginal : 2009:08:02 00:06:08<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/12<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+ISO : 400<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/16<br>
+WhiteBalance : Auto<br>
+DateTime : 2009:08:02 00:06:08<br>
+ImageDescription : NYX<br>
+Make : LG Electronics<br>
+Model : KE998<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 179</td>
+<td class="unsupported">Flash : Unknown (0x79)<br>
+Flash : 121<br>
+<br>
+XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KE990.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:25 12:39:08<br>
+DateTimeOriginal : 2010:05:25 12:39:08<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/526<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+ISO : 53<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/1024<br>
+WhiteBalance : Auto<br>
+DateTime : 2010:05:25 12:39:08<br>
+ImageDescription : NYX<br>
+Make : LG Electronics<br>
+Model : KE990<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 179</td>
+<td class="unsupported">Flash : Off, No flash function<br>
+Flash : 48<br>
+<br>
+XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KE850.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:18 09:17:06<br>
+DateTimeOriginal : 2010:09:18 09:17:06<br>
+ExifVersion : 2.20<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+WhiteBalance : Auto<br>
+Make : LG Electronics<br>
+Model : KE850<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 152</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KE590.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : Nov 21 2007<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : LG Electronics Inc.<br>
+Copyright : LG Electronics Inc.<br>
+DateTime : Nov 21 2007<br>
+ImageDescription : No Description<br>
+Make : LG Electronics Inc.<br>
+Model : KE590<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics Inc.<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KE500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : Oct 24 2007<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Artist : LG Electronics Inc.<br>
+Copyright : LG Electronics Inc.<br>
+DateTime : Oct 24 2007<br>
+ImageDescription : No Description<br>
+Make : LG Electronics Inc.<br>
+Model : KE500<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics Inc.<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KC910.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:07 11:07:00<br>
+DateTimeOriginal : 2010:06:07 11:07:00<br>
+DigitalZoomRatio : 1.44<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.1 mm<br>
+ISO : 303<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 682<br>
+GPSVersion : 50.50.48.48<br>
+DateTime : 2010:06:07 11:07:00<br>
+ImageDescription : RENOIR<br>
+Make : LG Electronics<br>
+Model : KC910<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 210<br>
+_IFDpointer_GPS : 748</td>
+<td class="unsupported">Flash : Off, No flash function<br>
+Flash : 48<br>
+<br>
+XResolution : undef<br>
+XResolution : NaN<br>
+<br>
+YResolution : undef<br>
+YResolution : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KC780.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:03 09:55:51<br>
+DateTimeOriginal : 2010:05:03 09:55:51<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+ShutterSpeedValue : 1/64<br>
+WhiteBalance : Auto<br>
+ImageDescription : Reina<br>
+Make : LG Electronics<br>
+Model : KC780<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported">ISO : 67, 0<br>
+ISO : 67,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KC550.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:07 10:11:10<br>
+DateTimeOriginal : 2010:04:07 10:11:10<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto bracket<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+ShutterSpeedValue : 1/64<br>
+WhiteBalance : Auto<br>
+ImageDescription : Orsay<br>
+Make : LG Electronics<br>
+Model : KC550<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 154</td>
+<td class="unsupported">ISO : 200, 0<br>
+ISO : 200,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KC-560.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2009-10-10 19:41:48<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2009-10-10 19:41:48<br>
+Make : LG Electronics Inc.<br>
+Model : KC-560<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_KB770.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:01:24 17:24:44<br>
+DateTimeOriginal : 2010:01:24 17:24:44<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 534<br>
+Make : LG Elec.<br>
+Model : KB770<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : KB770-MSM6280-V10c-OCT-16-2008-OPN-DE<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 220<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GX500.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:02 17:56:46<br>
+DateTimeOriginal : 2010:05:02 17:56:46<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+DateTime : 2010:05:02 17:56:46<br>
+ImageDescription : JANUS<br>
+Make : LG Electronics<br>
+Model : GX500<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GX200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FlashpixVersion : 1.00<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Interop : 1628<br>
+_IFDpointer_Makernote : 408<br>
+DateTime : 2010.05.09 16:48:02<br>
+Make : LG Electronics<br>
+Model : GX200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GX200-00-V10i-CIS-XX-FEB-24-2010<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GX-300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:8:16 14:39:0<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010:8:16 14:39:0<br>
+Make : LG Electronics Inc.<br>
+Model : GX-300<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GW550.jpg</td>
+<td class="supported">DateTimeDigitized : 2011:8:22 19:52:46<br>
+DateTimeOriginal : 2011:8:22 19:52:46<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : <br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Make : LG<br>
+Model : GW550<br>
+_IFDpointer_EXIF : 56</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GW520.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:23 16:21:18<br>
+DateTimeOriginal : 2010:05:23 16:21:18<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+DateTime : 2010:05:23 16:21:18<br>
+ImageDescription : ETNA3G<br>
+Make : LG Electronics<br>
+Model : GW520<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 205</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GU-230.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:5:15 19:43:0<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010:5:15 19:43:0<br>
+Make : LG Electronics Inc.<br>
+Model : GU-230<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GT540.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:11 12:59:10<br>
+DateTimeOriginal : 2010:09:11 12:59:10<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/8<br>
+FlashpixVersion : 1.00<br>
+ISO : 0<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+Make : LG Electronics<br>
+Model : GT540<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ArcSoft Camera Version 1.0.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GT365.jpg</td>
+<td class="supported">CustomRendered : Custom<br>
+DateTimeOriginal : 2008:03:18 04:02:12<br>
+DigitalZoomRatio : 0.002<br>
+ExifVersion : 2.20<br>
+ExposureBias : 1<br>
+ExposureProgram : Shutter speed priority AE<br>
+ExposureTime : 0<br>
+Flash : No Flash<br>
+FocalLength : 325.4 mm<br>
+FocalPlaneResolutionUnit : inches<br>
+FocalPlaneXResolution : 2.210000<br>
+FocalPlaneYResolution : 6.000000<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+WhiteBalance : Manual<br>
+Make : LG Electronics<br>
+Model : GT365<br>
+Orientation : 10<br>
+ResolutionUnit : inches<br>
+Software : Exif Software Version 1.00a<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 175</td>
+<td class="unsupported">ColorSpace : Adobe RGB<br>
+ColorSpace : 2<br>
+<br>
+FNumber : 0<br>
+FNumber : 0.0000234<br>
+<br>
+SubjectDistance : 1.264705882 m<br>
+SubjectDistance : 1.2647058823529411 m<br>
+<br>
+UserComment : ASCI   Act<br>
+UserComment : 65,83,67,73,0,0,0,65,99,116<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GT350.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:11:05<br>
+DateTimeOriginal : 2010:11:05<br>
+ExifVersion : 2.20<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2010:11:05<br>
+ImageDescription : ETNA PLUS<br>
+Make : LG Electronics<br>
+Model : GT350<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GS505.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2011:03:01 13:07:10<br>
+DateTimeOriginal : 2011:03:01 13:07:10<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 528<br>
+Make : LGE<br>
+Model : GS505<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GS505-MSM260140T-V10j-MAY-22-2010-TMO-US<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 214<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GS500.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:26 17:59:52<br>
+DateTimeOriginal : 2010:05:26 17:59:52<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+DateTime : 2010:05:26 17:59:52<br>
+ImageDescription : SWEET<br>
+Make : LG Electronics<br>
+Model : GS500<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 204</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GS290.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:27<br>
+DateTimeOriginal : 2010:05:27<br>
+ExifVersion : 2.20<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+DateTime : 2010:05:27<br>
+ImageDescription : COOKIE2<br>
+Make : LG Electronics<br>
+Model : GS290<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GS205.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/11<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 160 px w<br>
+PixelYDimension : 128 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Makernote : 472<br>
+DateTime : 2010/09/22 16:10:56<br>
+ImageDescription : 1234567<br>
+Make : LG Electronics<br>
+Model : GS205<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GS205-00-V10b-CIS-XX-APR-26-2010<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GS200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/19<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MeteringMode : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+SceneCaptureType : Standard<br>
+_IFDpointer_Makernote : 472<br>
+DateTime : 2010/09/18 18:32:37<br>
+ImageDescription : 1234567<br>
+Make : LG Electronics<br>
+Model : GS200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GS200-00-V10c-CIS-XX-NOV-05-2009<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GS155.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2009.03.19 13:13:13<br>
+DateTimeOriginal : 2009.03.19 13:13:13<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 6<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 1.4 mm<br>
+MaxApertureValue : 1.4<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/128<br>
+SubjectDistance : 1.5 m<br>
+SubsecTime : 0<br>
+SubsecTimeDigitized : 0<br>
+SubsecTimeOriginal : 0<br>
+WhiteBalance : Auto<br>
+Copyright : LG<br>
+DateTime : 2009.03.19 13:13:13<br>
+Make : LG electronics<br>
+Model : GS155<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 236</td>
+<td class="unsupported">UserComment : SelfTimer Off<br>
+UserComment : 698<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GM360.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:09:13 08:47:30<br>
+DateTimeOriginal : 2010:09:13 08:47:30<br>
+ExifVersion : 2.20<br>
+ExposureProgram : Program AE<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+DateTime : 2010:09:13 08:47:30<br>
+ImageDescription : BALI<br>
+Make : LG Electronics<br>
+Model : GM360<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 163</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GM200.jpg</td>
+<td class="supported">ExifVersion : 2.20<br>
+Model : GM200<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 152</td>
+<td class="unsupported">Make : LG_Electronics<br>
+Make : LGElectronics<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GM-310.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010-7-22 22:28:10<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010-7-22 22:28:10<br>
+Make : LG Electronics Inc.<br>
+Model : GM-310<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GD900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:05:27 21:14:45<br>
+DateTimeOriginal : 2010:05:27 21:14:45<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/10<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/8<br>
+WhiteBalance : Auto<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSTimeStamp : 00:00:00<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2010:05:27 21:14:45<br>
+ImageDescription : CRYSTAL<br>
+Make : LG Electronics<br>
+Model : GD900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212<br>
+_IFDpointer_GPS : 534</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.79998779296875<br>
+<br>
+GPSMapDatum : WGS-84<br>
+GPSMapDatum : WGS-8<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GD880.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:07:04 15:07:10<br>
+DateTimeOriginal : 2010:07:04 15:07:10<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 800<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 526<br>
+GPSAltitude : 198 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2020:07:08<br>
+GPSLatitude : 55° 39' 30.5300" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 37° 11' 34.6800" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 11:08:23<br>
+GPSVersion : 2.2.0.0<br>
+Make : LG Elec.<br>
+Model : GD880<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : GD880-MSM76XX-V10b-APR-06-2010-XX<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 272<br>
+_IFDpointer_GPS : 556<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">GPSProcessingMethod : HYBRID-FIX<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,72,89,66,82,73,68,45,70,73,88<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GD510.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:05<br>
+DateTimeOriginal : 2010:06:05<br>
+ExifVersion : 2.20<br>
+FNumber : 2.8<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+DateTime : 2010:06:05<br>
+ImageDescription : S<br>
+Make : LG Electronics<br>
+Model : GD510<br>
+Orientation : Horizontal (normal)<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported">FocalLength : 3.6 mm<br>
+FocalLength : 3.5 mm<br>
+<br>
+Software : LGE_SW<br>
+Software : LGESW<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GD-350.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:9:11 13:25:0<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010:9:11 13:25:0<br>
+Make : LG Electronics Inc.<br>
+Model : GD-350<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GD-330.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeDigitized : 2010:6:8 20:11:0<br>
+DateTimeOriginal : 2010:6:8 20:11:0<br>
+ExifVersion : 2.10<br>
+ExposureMode : Auto<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 320<br>
+DateTime : 2010:6:8 20:11:0<br>
+Make : LG Electronics Inc.<br>
+Model : GD-330<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
+ComponentsConfiguration : <br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GC900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:28 19:26:19<br>
+DateTimeOriginal : 2010:04:28 19:26:19<br>
+DigitalZoomRatio : 2.5<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 200<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+ShutterSpeedValue : 1/16<br>
+WhiteBalance : Auto<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 0° 0' 0.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSTimeStamp : 00:00:00<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2010:04:28 19:26:19<br>
+ImageDescription : VIEWTY2<br>
+Make : LG Electronics<br>
+Model : GC900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212<br>
+_IFDpointer_GPS : 534</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.79998779296875<br>
+<br>
+GPSMapDatum : WGS-84<br>
+GPSMapDatum : WGS-8<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GB210.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ExifVersion : 2.10<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Artist : LG Electronics<br>
+Copyright : LG Electronics<br>
+DateTime : 2010-06-08 19:46:06<br>
+ImageDescription : LGE software<br>
+Make : LGE<br>
+Model : GB210<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : LG Electronics<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 404</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GB-250.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:8:13 9:6:50<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010:8:13 9:6:50<br>
+Make : LG Electronics Inc.<br>
+Model : GB-250<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GB-230.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:5:26 12:9:0<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010:5:26 12:9:0<br>
+Make : LG Electronics Inc.<br>
+Model : GB-230<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_GB-220.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+DateTimeOriginal : 2010:6:5 21:41:0<br>
+ExifVersion : 2.10<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 188<br>
+DateTime : 2010:6:5 21:41:0<br>
+Make : LG Electronics Inc.<br>
+Model : GB-220<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 98</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_CU915.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 1981:10:27 16:47:11<br>
+DateTimeOriginal : 1981:10:27 16:47:11<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 492<br>
+Make : LGE<br>
+Model : CU915<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 178<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Software : CU915-<br>
+Software : CU915<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_CU720.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:04:22 18:45:36<br>
+DateTimeOriginal : 2010:04:22 18:45:36<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 510<br>
+Make : LG ELECTRONICS<br>
+Model : CU720<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : REV 1.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,0</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_BL40.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:08 10:59:39<br>
+DateTimeOriginal : 2010:06:08 10:59:39<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+ISO : 800<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 510<br>
+Make : LG Elec.<br>
+Model : BL40<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : BL40-MSM76XX-V10c-AUG-30-2009-XX<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 256<br>
+PrintIM : 80,114,105,110,116,73,77,22,48,51,48,48,68,32,240,195</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_AX260.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:01:13 18:32:10<br>
+DateTimeOriginal : 2010:01:13 18:32:10<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 520<br>
+Make : LG Electronics<br>
+Model : LG-AX260<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6100D-AX260-6750<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 218</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_A310.jpg</td>
+<td class="supported">BrightnessValue : -0.1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/104<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+FocalLengthIn35mmFilm : 36 mm<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view<br>
+UserComment : 852<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 1080<br>
+_IFDpointer_Makernote : 1110<br>
+DateTime : 0000:00:00 00:00:00<br>
+ImageDescription : LG Digital Still Camera<br>
+Make : LG Electronics Inc.<br>
+Model : A310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v714r-72<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 318<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,53,48,0,0,1,0,1,1,1,0,0,0</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LG_8300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:08:25 06:44:48<br>
+DateTimeOriginal : 2009:08:25 06:44:48<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/21<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 542<br>
+Make : LG Electronics<br>
+Model : LG8300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : PD83PC08<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/LG/LGE_Nexus5.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:12:08 12:00:00<br>
+DateTimeOriginal : 2013:11:12 15:07:55<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureTime : 1/13<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 158<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+ShutterSpeedValue : 1/12<br>
+_IFDpointer_Interop : 412<br>
+GPSImgDirection : 249<br>
+GPSImgDirectionRef : Magnetic North<br>
+Make : LGE<br>
+Model : Nexus 5<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134<br>
+_IFDpointer_GPS : 442</td>
+<td class="unsupported">FocalLength : 4.0 mm<br>
+FocalLength : 4 mm<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

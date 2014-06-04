@@ -1,0 +1,6761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Concord/JenoptikJM_Multimedia.jpg</td>
+<td class="supported">Make : Concord Camera Corp.<br>
+Model : JM Multimedia<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : C.08.095<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 3<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 50<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2006:12:26 11:54:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 3.2<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJM_Multimedia.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJM_Multimedia.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2006:12:26 11:54:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:12:26 11:54:48<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.044999174<br>
+CompressedBitsPerPixel : 2.0449991744144693<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1272<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5196<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5196 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.6 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD_C50SL.jpg</td>
+<td class="supported">ImageDescription : .JPG<br>
+Make : Jenoptik Camera GmbH<br>
+Model : Jenoptik JD C5.0SL<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v1.0<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1649<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 47<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:03 07:19:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD_C50SL.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD_C50SL.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:03 07:19:52<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:03 07:19:46<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1459<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4811<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1649<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4811 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD_C31z3.jpg</td>
+<td class="supported">Make : JENIMAGE<br>
+Model : JD C 3.1 z3<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.5.21.48<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+DateTimeOriginal : 2004:01:01 00:00:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 58<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD_C31z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD_C31z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 310 256 ?32 081 <br>
+ImageDescription : 310 256 32 081<br>
+<br>
+ModifyDate : 2004:01:01 00:00:21<br>
+ModifyDate : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+CreateDate : 2004:01:01 00:00:21<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.565587362<br>
+CompressedBitsPerPixel : 1.5655873616536458<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 866<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8701<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8701 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJDC30S.jpg</td>
+<td class="supported">Make : Concord Camera GmbH<br>
+Model : JDC 3.0S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0.8<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:01:01 00:29:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJDC30S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJDC30S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:01:01 00:29:35<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:01 00:29:35<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +7.1<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 729<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13880<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Concord Corp. <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13880 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJDC30C.jpg</td>
+<td class="supported">Make : Concord Camera GmbH<br>
+Model : JDC 3.0C<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : C1.0.7N<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2008:02:23 17:10:01<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJDC30C.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJDC30C.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:02:23 17:10:01<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:02:23 17:10:01<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +7<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 729<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 14580<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment :               <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 14580 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD80Z3CL.jpg</td>
+<td class="supported">Make : GrandTech GmbH<br>
+Model : JD 8.0Z3 CL<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0847<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/1189<br>
+FNumber : 5.6<br>
+ExposureProgram : Portrait<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:02 11:38:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/1189<br>
+ApertureValue : 5.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD80Z3CL.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD80Z3CL.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 77 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:02 11:38:30<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:02 11:38:30<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.587529436<br>
+CompressedBitsPerPixel : 1.5875294357939254<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3972<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 18760<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 55598 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/1189<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 18760 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 16.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD60z3MPEG4.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD60z3MPEG4.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD60z3MPEG4.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : <br>
+ImageDescription : undefined<br>
+<br>
+Make : Jenimage Europe GmbH<br>
+Make : undefined<br>
+<br>
+Model : Jenoptik JD 6.0 z3 MPEG4<br>
+Model : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+YCbCrPositioning : Co-sited<br>
+YCbCrPositioning : undefined<br>
+<br>
+ExposureTime : 1/50<br>
+ExposureTime : undefined<br>
+<br>
+FNumber : 2.8<br>
+FNumber : undefined<br>
+<br>
+ExposureProgram : Program AE<br>
+ExposureProgram : undefined<br>
+<br>
+ISO : 50<br>
+ISO : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2010:04:14 23:03:23<br>
+DateTimeOriginal : undefined<br>
+<br>
+CreateDate : 2010:04:14 23:03:23<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ComponentsConfiguration : undefined<br>
+<br>
+CompressedBitsPerPixel : 4<br>
+CompressedBitsPerPixel : undefined<br>
+<br>
+ApertureValue : 2.6<br>
+ApertureValue : undefined<br>
+<br>
+BrightnessValue : 1<br>
+BrightnessValue : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MaxApertureValue : 2.8<br>
+MaxApertureValue : undefined<br>
+<br>
+MeteringMode : Center-weighted average<br>
+MeteringMode : undefined<br>
+<br>
+LightSource : Unknown<br>
+LightSource : undefined<br>
+<br>
+Flash : Auto, Fired<br>
+Flash : undefined<br>
+<br>
+FocalLength : 7.7 mm<br>
+FocalLength : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+UserComment : 0.0.49J_,(Z0,220),FP=143,FC=134,ZP=13,S=0.020000,I=0,G=1.2000,TY=210,Flash=2000,t.s=-1,st=121<br>
+UserComment : undefined<br>
+<br>
+FlashpixVersion : 0100<br>
+FlashpixVersion : undefined<br>
+<br>
+ColorSpace : sRGB<br>
+ColorSpace : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Manual<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 0<br>
+DigitalZoomRatio : undefined<br>
+<br>
+SceneCaptureType : Landscape<br>
+SceneCaptureType : undefined<br>
+<br>
+Contrast : Normal<br>
+Contrast : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Normal<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1536<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5120<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5120 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD60z3EasyShot.jpg</td>
+<td class="supported">Make : Concord Camera GmbH<br>
+Model : JD 6.0z3 EasyShot<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/30<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2010:04:03 20:10:52<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.9<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD60z3EasyShot.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD60z3EasyShot.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:03 20:10:52<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.9<br>
+FNumber : 2.85<br>
+<br>
+CreateDate : 2010:04:03 20:10:52<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.99578988<br>
+CompressedBitsPerPixel : 1.9957898804946814<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2176<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5942<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5942 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD60Z3C.jpg</td>
+<td class="supported">Make : GrandTech GmbH<br>
+Model : JD 6.0Z3 C<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.01.0527<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:29 20:53:04<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD60Z3C.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD60Z3C.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 66 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:29 20:53:04<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:29 20:53:04<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.253301424<br>
+CompressedBitsPerPixel : 2.2533014242541154<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1728<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Auto<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 1<br>
+DigitalZoomRatio : undefined<br>
+<br>
+Sharpness : Normal<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+ThumbnailOffset : 3838<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6739<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 56454 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6739 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD52z3.jpg</td>
+<td class="supported">Make : JENIMAGE<br>
+Model : JD5.2z3<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/17<br>
+FNumber : 3.4<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2006:05:31:24:56:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.8<br>
+ApertureValue : 2.8<br>
+BrightnessValue : 3.45<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CFAPattern : [Green,Red][Blue,Green]<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Distant view</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD52z3.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD52z3.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : JD521-V:01_07_05<br>
+Software : JD521-V:010705<br>
+<br>
+CreateDate : 2006:05:31:24:56:55<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 19.0 mm<br>
+FocalLength : 19 mm<br>
+<br>
+MakerNoteUnknownText : Test program                                                <br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 00<br>
+SubSecTime : undefined<br>
+<br>
+SubSecTimeOriginal : 00<br>
+SubSecTimeOriginal : undefined<br>
+<br>
+SubSecTimeDigitized : 00<br>
+SubSecTimeDigitized : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1028<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3927<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/17<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecCreateDate : 2006:05:31:24:56:55<br>
+SubSecCreateDate : undefined<br>
+<br>
+SubSecDateTimeOriginal : 2006:05:31:24:56:55<br>
+SubSecDateTimeOriginal : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3927 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 19.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD52Zoom.jpg</td>
+<td class="supported">ImageDescription : 0M DigitalCAM<br>
+Make : Concord Camera GmbH<br>
+Model : Jenoptik JD 5.2 zoom<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.16<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : ---<br>
+ExposureTime : 1/535<br>
+FNumber : 5.3<br>
+ExposureProgram : Program AE<br>
+ISO : 70<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:08 11:41:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 9.9<br>
+MaxApertureValue : 5.3<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+FocalLength : 5.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD52Zoom.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD52Zoom.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:08 11:41:45<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:08 11:41:41<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.762506033<br>
+CompressedBitsPerPixel : 2.7625060331250317<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Flash : Unknown (0x1e)<br>
+Flash : 30<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+<br>
+MakerNoteUnknownText : (Binary data 256 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1640<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5018<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/535<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5018 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD5200Z.jpg</td>
+<td class="supported">ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:02:27 01:04:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/338<br>
+ApertureValue : 3.4<br>
+MeteringMode : Center-weighted average<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD5200Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD5200Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : JD5200Z<br>
+Model : JD5200<br>
+<br>
+Software : VJ302244<br>
+Software : VJ30224<br>
+<br>
+ModifyDate : 2003:02:27 01:04:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:02:27 01:04:24<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1119023398<br>
+CompressedBitsPerPixel : 0.11190233977619532<br>
+<br>
+ExposureCompensation : +0.3<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1691<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 14758<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/338<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 14758 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD5200.jpg</td>
+<td class="supported">ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD5200<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : VJ30506<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:05:28 11:04:54<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/708<br>
+ApertureValue : 4.8<br>
+MeteringMode : Average<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD5200.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD5200.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 58 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:05:28 11:04:54<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:05:28 11:04:54<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.1119023398<br>
+CompressedBitsPerPixel : 0.11190233977619532<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 600<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : Uncompressed<br>
+Compression : undefined<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : undefined<br>
+<br>
+StripOffsets : 1092<br>
+StripOffsets : undefined<br>
+<br>
+SamplesPerPixel : 3<br>
+SamplesPerPixel : undefined<br>
+<br>
+RowsPerStrip : 120<br>
+RowsPerStrip : undefined<br>
+<br>
+StripByteCounts : 57600<br>
+StripByteCounts : undefined<br>
+<br>
+PlanarConfiguration : Chunky<br>
+PlanarConfiguration : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/708<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD50Z3C.jpg</td>
+<td class="supported">Make : GrandTech GmbH<br>
+Model : JD 5.0Z3 C<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/273<br>
+FNumber : 2.8<br>
+ExposureProgram : Creative (Slow speed)<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:26 20:45:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/273<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 6.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD50Z3C.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD50Z3C.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:27 16:36:59<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:26 20:45:39<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.570030382<br>
+CompressedBitsPerPixel : 1.5700303819444446<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+SubSecTime : 562<br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 1718<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1437<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : Unknown ()<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : <br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3854<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11237<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/273<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2010:05:27 16:36:59.562<br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11237 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4363z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera GmbH<br>
+Model : Jenoptik JD 4363z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 0.00000000<br>
+ResolutionUnit : inches<br>
+Software : 4.02.<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/59<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:11 14:00:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+ISO : 100<br>
+LightSource : Other<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD4363z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD4363z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+YResolution : 0.01388888889<br>
+YResolution : 0.01388889<br>
+<br>
+ModifyDate : 3<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:11 14:00:22<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1536<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6158<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/59<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6158 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.10 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4360z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera GmbH<br>
+Model : Jenoptik JD 4360z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 6.03.05A<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/760<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2000:01:27 17:33:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 7.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD4360z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD4360z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.9 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2000:01:27 17:33:34<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2000:01:27 17:33:34<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1536<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8351<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/760<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8351 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.55 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD41Z8.jpg</td>
+<td class="supported">Make : JENOPTIFIED<br>
+Model : JD4.1Z8<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright,JD4.1Z8 USER,2003<br>
+ExposureTime : 1/500<br>
+FNumber : 3.2<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/512<br>
+ApertureValue : 3.0<br>
+MeteringMode : Average<br>
+LightSource : Daylight<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 2<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD41Z8.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD41Z8.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : Exif_JPEG_422<br>
+ImageDescription : ExifJPEG422<br>
+<br>
+ModifyDate : 2005:07:19 02:58:54<br>
+ModifyDate : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : GAIN082083MAX000000000000SUM000000000000MIN000000000NOWY13361FLASH0000FLAY00000AFD0SV29ZOOM07000000000000000000000000000<br>
+UserComment : 566<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+Software : JD4.1Z8 V1.00 2003/08/31<br>
+Software : undefined<br>
+<br>
+ThumbnailOffset : 841<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5228<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/500<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5228 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4100Z3S.jpg</td>
+<td class="supported">ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD4100Z3S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : VER0712<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:10:17 10:26:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/140<br>
+ApertureValue : 4.7<br>
+MeteringMode : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 11.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD4100Z3S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD4100Z3S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2003:10:17 10:26:36<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.3732638889<br>
+CompressedBitsPerPixel : 0.3732638888888889<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6714<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/140<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6714 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 11.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4100.jpg</td>
+<td class="supported">ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD4100<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:01:03 15:19:45<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/38<br>
+ApertureValue : 3.4<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD4100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD4100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2001:01:03 15:19:44<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.2712477396<br>
+CompressedBitsPerPixel : 0.27124773960216997<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11041<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/38<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11041 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD4.0LCD.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : JENOPTIK<br>
+Model : JD4.0LCD<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 3.06.05<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/1326<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:23 15:57:44<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 1125899906842624.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD4.0LCD.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD4.0LCD.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:05:23 15:57:44<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 6.1<br>
+FNumber : 6.07<br>
+<br>
+CreateDate : 2005:05:23 15:57:44<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : -27.8<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 4 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1554<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4877<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 0.4<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/1326<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4877 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.075 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 154.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 10.0 mm (35 mm equivalent: 4.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 0.22 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD3300.jpg</td>
+<td class="supported">ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD3300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v951-78<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2001:08:20 20:51:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/54<br>
+ApertureValue : 3.4<br>
+MeteringMode : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD3300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD3300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:01:04 19:13:54<br>
+ModifyDate : undefined<br>
+<br>
+ISO : 100, 100, 100, 100<br>
+ISO : 100,100,100,100<br>
+<br>
+CreateDate : 2001:08:20 20:51:44<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.2544529262<br>
+CompressedBitsPerPixel : 0.2544529262086514<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2477<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4566<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/54<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4566 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD3.3x4ie.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : JENOPTIK<br>
+Model : JD 3.3x4ie<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+YCbCrPositioning : Centered<br>
+Copyright : (C) JD 3.3x4ie<br>
+ExposureTime : 1/235<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 400<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:04 23:14:46<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/235<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD3.3x4ie.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD3.3x4ie.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 1387 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+XResolution : 96<br>
+XResolution : undefined<br>
+<br>
+YResolution : 96<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:04:05 12:10:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:04:04 23:14:46<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.09960905711<br>
+CompressedBitsPerPixel : 0.0996090571085612<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+SubSecTime : 968<br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/235<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2005:04:05 12:10:41.968<br>
+SubSecModifyDate : undefined<br>
+<br>
+LightValue : 8.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD2100f.jpg</td>
+<td class="supported">ImageDescription : JD 2100f Image Data MACRO OFF<br>
+Make : JENOPTIK<br>
+Model : JD 2100f<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 128.00000000<br>
+YResolution : 128.00000000<br>
+ResolutionUnit : inches<br>
+Software : DSC Software Version J1.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/15<br>
+FNumber : 3.6<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:04:02 00:00:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/16<br>
+ApertureValue : 3.6<br>
+MaxApertureValue : 3.6<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD2100f.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD2100f.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:04:02 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:04:02 00:00:00<br>
+CreateDate : undefined<br>
+<br>
+UserComment : Quality=74 Shutter=1/15 Iris=F3.6 Delay=5188 Avg=189 Clip=628 blk=20,20,24 wht=409,576,485 wht0=1023,1023,1023 Batt=2.29V,Q=66<br>
+UserComment : 538<br>
+<br>
+ExifImageWidth : 800<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 592<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 826<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7143<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7143 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD2100Z3S.jpg</td>
+<td class="supported">ImageDescription : JENOPTIK DIGITAL CAMERA<br>
+Make : JENOPTIK OPTICAL CO,LTD<br>
+Model : JD2100Z3S<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : VER0618<br>
+YCbCrPositioning : Co-sited<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:03:19 12:12:09<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/395<br>
+ApertureValue : 5.3<br>
+MeteringMode : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 15.1 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD2100Z3S.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD2100Z3S.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 10 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2001:12:00 00:00:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:03:19 12:12:09<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.07378472222<br>
+CompressedBitsPerPixel : 0.07378472222222222<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2141<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4462<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/395<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4462 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 15.1 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/JenoptikJD100z3EasyShot.jpg</td>
+<td class="supported">Make : Concord Camera GmbH<br>
+Model : JD 10.0z3 EasyShot<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 00.00.714<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/220<br>
+ExposureProgram : Creative (Slow speed)<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:05 16:02:17<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/219<br>
+ApertureValue : 4.2<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 15.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/JenoptikJD100z3EasyShot.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : JenoptikJD100z3EasyShot.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:05 16:02:17<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 4.2<br>
+FNumber : 4.182<br>
+<br>
+CreateDate : 2010:06:05 16:02:17<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.963859558<br>
+CompressedBitsPerPixel : 3.9638595581054688<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2706<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6545<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/220<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6545 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 15.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordJenoptikJD3.1exclusiv.jpg</td>
+<td class="supported">Make : Concord Camera GmbH<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 2.1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/250<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+DateTimeOriginal : 2004:01:03 12:42:30<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 10<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordJenoptikJD3.1exclusiv.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordJenoptikJD3.1exclusiv.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : 365 256 ?34 016 <br>
+ImageDescription : 365 256 34 016<br>
+<br>
+Model : Jenoptik JD 3.1 exclusiv<br>
+Model : Jenoptik JD 3.1 exclusi<br>
+<br>
+ModifyDate : 2004:01:03 12:42:30<br>
+ModifyDate : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+CreateDate : 2004:01:03 12:42:30<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.610287984<br>
+CompressedBitsPerPixel : 1.6102879842122395<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 888<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7119<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/250<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7119 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 10.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordJD8.0.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera GmbH<br>
+Model : JD 8.0<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/297<br>
+FNumber : 6.4<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2006:12:19 13:23:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/290<br>
+ApertureValue : 6.4<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordJD8.0.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordJD8.0.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+XResolution : 0.3333333333<br>
+XResolution : 0.33333333<br>
+<br>
+YResolution : 0.3333333333<br>
+YResolution : 0.33333333<br>
+<br>
+ModifyDate : 2006:12:19 13:23:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2006:12:19 13:23:51<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 4.076679167<br>
+CompressedBitsPerPixel : 4.076679166666667<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 4096 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 49 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4992<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9084<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.9<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/297<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9084 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 40.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm (35 mm equivalent: 49.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.10 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 14.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordJD5.0z3EasyShot.jpg</td>
+<td class="supported">Make : Concord Camera GmbH<br>
+Model : JD 5.0z3 EasyShot<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Portrait<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2005:12:31 20:58:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.9<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordJD5.0z3EasyShot.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordJD5.0z3EasyShot.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:12:31 20:58:18<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:12:31 20:58:18<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.024549154<br>
+CompressedBitsPerPixel : 2.0245491536458333<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+MakerNoteUnknownText : (Binary data 4096 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4990<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5893<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.9<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5893 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.48 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEyeQ3132z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : EyeQ 3132z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,2003<br>
+ExposureTime : 1/46<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2003:08:15 06:29:20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0<br>
+ApertureValue : 2.5<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEyeQ3132z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEyeQ3132z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2003:08:15 06:29:20<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 2.7<br>
+FNumber : 2.663<br>
+<br>
+CreateDate : 2003:08:15 06:29:20<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.500874837<br>
+CompressedBitsPerPixel : 1.5008748372395833<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2015<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4082<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/46<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4082 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEyeQ3103.jpg</td>
+<td class="supported">Make : Concord camera Corp<br>
+Model : EyeQ 3103<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/32<br>
+FNumber : 3.3<br>
+ExposureProgram : Program AE<br>
+ISO : 70<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:01 22:26:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+BrightnessValue : 8.4375<br>
+MaxApertureValue : 8.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 3<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEyeQ3103.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEyeQ3103.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:01 22:26:43<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:01 22:26:43<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+<br>
+SubjectArea : 1 1 1 1<br>
+SubjectArea : 1,1,1,1<br>
+<br>
+Warning : Invalid PrintIM header<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1277<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13108<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13108 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 6.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q5345Z.jpg</td>
+<td class="supported">Make : <br>
+Model : 5.0M DigitalCAM<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/60<br>
+FNumber : 4.1<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2004:05:07 11:59:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 17.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q5345Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q5345Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 41 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:05:07 11:59:12<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:05:07 11:59:12<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.833333333<br>
+CompressedBitsPerPixel : 3.8333333333333335<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImageSize : 320x240<br>
+PreviewImageSize : undefined<br>
+<br>
+PreviewImageLength : 30922<br>
+PreviewImageLength : undefined<br>
+<br>
+PreviewImageStart : 2040<br>
+PreviewImageStart : undefined<br>
+<br>
+FirmwareDate : 2004:03:04 13:08<br>
+FirmwareDate : undefined<br>
+<br>
+WhiteBalanceBias : 365 301<br>
+WhiteBalanceBias : undefined<br>
+<br>
+WhiteBalance : Flash<br>
+WhiteBalance : Auto<br>
+<br>
+AFPointPosition : 0.31 0.5<br>
+AFPointPosition : undefined<br>
+<br>
+ObjectDistance : 1 m<br>
+ObjectDistance : undefined<br>
+<br>
+FlashDistance : 38<br>
+FlashDistance : undefined<br>
+<br>
+RecordMode : Program AE<br>
+RecordMode : undefined<br>
+<br>
+ReleaseMode : Normal<br>
+ReleaseMode : undefined<br>
+<br>
+Quality : Fine<br>
+Quality : undefined<br>
+<br>
+FocusMode : Single-Area Auto Focus<br>
+FocusMode : undefined<br>
+<br>
+HometownCity : <br>
+HometownCity : undefined<br>
+<br>
+BestShotMode : Off<br>
+BestShotMode : undefined<br>
+<br>
+AutoISO : On<br>
+AutoISO : undefined<br>
+<br>
+AFMode : Multi<br>
+AFMode : undefined<br>
+<br>
+ISO : 200<br>
+ISO : undefined<br>
+<br>
+ColorMode : Off<br>
+ColorMode : undefined<br>
+<br>
+Enhancement : Off<br>
+Enhancement : undefined<br>
+<br>
+ColorFilter : Off<br>
+ColorFilter : undefined<br>
+<br>
+ArtMode : Normal<br>
+ArtMode : undefined<br>
+<br>
+SequenceNumber : 0<br>
+SequenceNumber : undefined<br>
+<br>
+BracketSequence : 0 0<br>
+BracketSequence : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 84 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 33086<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8346<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 30922 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 4.9<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8346 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+DOF : 0.17 m (0.92 - 1.09)<br>
+DOF : undefined<br>
+<br>
+FOV : 24.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 17.2 mm (35 mm equivalent: 84.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 11.73 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q5062AF.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 5062AF<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : B.03.09<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/59<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:01:01 00:00:51<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+ISO : 200<br>
+LightSource : Other<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q5062AF.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q5062AF.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:01:01 00:00:51<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:01 00:00:51<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 48 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1554<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4071<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.8<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/59<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4071 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 41.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 10.0 mm (35 mm equivalent: 48.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 5.33 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q4363Z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 4363Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.02.01<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/126<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:10:01 00:12:43<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 10.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+ISO : 100<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 11.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q4363Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q4363Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:10:01 00:12:43<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 6.9<br>
+FNumber : 6.86<br>
+<br>
+CreateDate : 2004:10:01 00:12:43<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 56 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1536<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7068<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.9<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/126<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7068 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 35.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 11.5 mm (35 mm equivalent: 56.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.14 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 12.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q4360Z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 4360Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 4.02.06<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/59<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:04:11 04:34:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Other<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q4360Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q4360Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:04:11 04:34:57<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:04:11 04:34:57<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1554<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5760<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/59<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5760 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.10 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q4060AF.jpg</td>
+<td class="supported">ImageDescription : <br>
+Model : Eye-Q 4060 AF<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.02<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/210<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:08:15 14:24:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 1125899906842624.0<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q4060AF.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q4060AF.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : Concord Camera Corp<br>
+<br>
+ModifyDate : 2005:08:15 14:24:34<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 6.1<br>
+FNumber : 6.07<br>
+<br>
+CreateDate : 2005:08:15 14:24:34<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : -12.5<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 10.0 mm<br>
+FocalLength : 10 mm<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 4 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1554<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6763<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 0.4<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/210<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6763 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.075 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 154.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 10.0 mm (35 mm equivalent: 4.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 0.22 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3346z.jpg</td>
+<td class="supported">ImageDescription : 365 256 002 032<br>
+Model : Concord Eye-Q 3346z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.5.21.46<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 200<br>
+DateTimeOriginal : 2005:09:20 17:16:27<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 10<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q3346z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q3346z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : Concord Camera Corp<br>
+<br>
+ModifyDate : 2005:09:20 17:16:27<br>
+ModifyDate : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+CreateDate : 2005:09:20 17:16:27<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 1.573371887<br>
+CompressedBitsPerPixel : 1.5733718872070312<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 884<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9936<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9936 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3345z.jpg</td>
+<td class="supported">ImageDescription : 365 256 012 032<br>
+Model : Concord Eye-Q 3345z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.5.21.47<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/100<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 200<br>
+DateTimeOriginal : 2004:01:01 02:06:54<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1<br>
+ApertureValue : 1.0<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 10<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q3345z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q3345z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : Concord Camera Corp<br>
+<br>
+ModifyDate : 2004:01:01 02:06:54<br>
+ModifyDate : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : 022<br>
+<br>
+CreateDate : 2004:01:01 02:06:54<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.574239095<br>
+CompressedBitsPerPixel : 3.5742390950520835<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : DZ3346  <br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 884<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 17127<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/100<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 17127 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3341Z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 3341Z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.07<br>
+YCbCrPositioning : Centered<br>
+Copyright : <br>
+ExposureTime : 1/36<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:24 14:10:08<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.23<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Other<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q3341Z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q3341Z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:04:24 14:10:08<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:04:24 14:10:08<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1554<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5586<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 4.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/36<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5586 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 3.10 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEye-Q3340z.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Eye-Q 3340z<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.04<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/245<br>
+FNumber : 3.6<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2004:05:18 12:02:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.58<br>
+ApertureValue : 3.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 11.6 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEye-Q3340z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEye-Q3340z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:05:18 12:02:12<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:05:18 12:02:12<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +4.98<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 76 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1536<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13678<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/245<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13678 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 26.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 11.6 mm (35 mm equivalent: 76.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 8.15 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEYE_Q3042.jpg</td>
+<td class="supported">ImageDescription : uwwwzowwwkwVn<br>
+Make : Concord Camera Corp.<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0.8 N<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : <br>
+ExposureTime : 1/250<br>
+FNumber : 5.6<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : zws6<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.5<br>
+ApertureValue : 7.0<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : 100<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FlashpixVersion : -<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : <br>
+SensingMethod : One-chip color area<br>
+FileSource : 0<br>
+SceneType : 0</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEYE_Q3042.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEYE_Q3042.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 14 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : EYE_Q3042<br>
+Model : EYEQ3042<br>
+<br>
+ModifyDate : <br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : <br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.548548381<br>
+CompressedBitsPerPixel : 3.548548380533854<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1463<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12352<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/250<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12352 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 12.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/ConcordEYE_Q3040.jpg</td>
+<td class="supported">Make : Concord Camera Corp.<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0.8 N<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 8<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.5<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : -<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : 0<br>
+SceneType : 0</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/ConcordEYE_Q3040.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : ConcordEYE_Q3040.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : EYE_Q3040<br>
+Model : EYEQ3040<br>
+<br>
+CompressedBitsPerPixel : 1.98227946<br>
+CompressedBitsPerPixel : 1.9822794596354167<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+LightSource : White Fluorescent<br>
+LightSource : White fluorescent (WW 3200 - 3700K)<br>
+<br>
+ExifImageWidth : 1024<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 768<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : Unknown ()<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : <br>
+InteropVersion : undefined<br>
+<br>
+DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 706<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7619<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7619 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 0<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord6340z.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Concord/Concord6340z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Concord6340z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.0 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : <br>
+ImageDescription : undefined<br>
+<br>
+Make : Concord Camera Corp.<br>
+Make : undefined<br>
+<br>
+Model : Concord 6340z<br>
+Model : undefined<br>
+<br>
+Orientation : Horizontal (normal)<br>
+Orientation : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+YResolution : 72<br>
+YResolution : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+YCbCrPositioning : Co-sited<br>
+YCbCrPositioning : undefined<br>
+<br>
+ExposureTime : 1/50<br>
+ExposureTime : undefined<br>
+<br>
+FNumber : 4.5<br>
+FNumber : undefined<br>
+<br>
+ExposureProgram : Program AE<br>
+ExposureProgram : undefined<br>
+<br>
+ISO : 50<br>
+ISO : undefined<br>
+<br>
+ExifVersion : 0220<br>
+ExifVersion : undefined<br>
+<br>
+DateTimeOriginal : 2005:01:21 14:11:23<br>
+DateTimeOriginal : undefined<br>
+<br>
+CreateDate : 2005:01:21 14:11:23<br>
+CreateDate : undefined<br>
+<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ComponentsConfiguration : undefined<br>
+<br>
+CompressedBitsPerPixel : 4<br>
+CompressedBitsPerPixel : undefined<br>
+<br>
+ApertureValue : 4.8<br>
+ApertureValue : undefined<br>
+<br>
+BrightnessValue : 1<br>
+BrightnessValue : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MaxApertureValue : 2.8<br>
+MaxApertureValue : undefined<br>
+<br>
+MeteringMode : Center-weighted average<br>
+MeteringMode : undefined<br>
+<br>
+LightSource : Unknown<br>
+LightSource : undefined<br>
+<br>
+Flash : Auto, Fired<br>
+Flash : undefined<br>
+<br>
+FocalLength : 19.3 mm<br>
+FocalLength : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+UserComment : 0.0.52C,(Z7,206),FP=139,FC=110,ZP=667,S=0.020000,I=0,G=1.2000,TY=210,Flash=135,t.s=-1,st=121<br>
+UserComment : undefined<br>
+<br>
+FlashpixVersion : 0100<br>
+FlashpixVersion : undefined<br>
+<br>
+ColorSpace : sRGB<br>
+ColorSpace : undefined<br>
+<br>
+ExifImageWidth : 2848<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+CustomRendered : Normal<br>
+CustomRendered : undefined<br>
+<br>
+ExposureMode : Auto<br>
+ExposureMode : undefined<br>
+<br>
+WhiteBalance : Manual<br>
+WhiteBalance : undefined<br>
+<br>
+DigitalZoomRatio : 0<br>
+DigitalZoomRatio : undefined<br>
+<br>
+SceneCaptureType : Landscape<br>
+SceneCaptureType : undefined<br>
+<br>
+Contrast : Normal<br>
+Contrast : undefined<br>
+<br>
+Saturation : Normal<br>
+Saturation : undefined<br>
+<br>
+Sharpness : Normal<br>
+Sharpness : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1536<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3072<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/50<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3072 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 19.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord5340z.jpg</td>
+<td class="supported">ImageDescription : 0M DigitalCAM<br>
+Make : Concord Camera Corp.<br>
+Model : Concord 5340zM<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.16<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : ---<br>
+ExposureTime : 1/45<br>
+FNumber : 2.6<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:24 10:31:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 3.763<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FocalLength : 5.9 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/Concord5340z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Concord5340z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:24 10:31:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:24 10:31:21<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.716470114<br>
+CompressedBitsPerPixel : 2.71647011380379<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+<br>
+MakerNoteUnknownText : (Binary data 256 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1640<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4868<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4868 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord5040.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : Concord Camera Corp.<br>
+Model : Concord 5040<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v1.0<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/49<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 84<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:02:08 13:31:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 8.2 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/Concord5040.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Concord5040.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.7 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:02:08 13:31:19<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:02:08 13:31:12<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1509<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7199<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/49<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7199 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 8.2 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord4340z.jpg</td>
+<td class="supported">ImageDescription : CONCORD DIGITAL STILL CAMERA<br>
+Make : Concord Camera Corp.<br>
+Model : Concord 4340zM<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 00.57<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/45<br>
+FNumber : 2.9<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:05:14 21:22:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+BrightnessValue : 4.176<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/Concord4340z.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Concord4340z.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:05:14 21:22:25<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:05:14 21:22:22<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.144575457<br>
+CompressedBitsPerPixel : 2.144575456532922<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+<br>
+MakerNoteUnknownText : (Binary data 256 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2304<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1728<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0101<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 0 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1626<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4885<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/45<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4885 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord3045.jpg</td>
+<td class="supported">ImageDescription : DSCI0003.JPG<br>
+Make : <br>
+Model : CONCORD 3045<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Exif Software Version 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:04:29 09:10:58<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/Concord3045.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Concord3045.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 4.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:04:29 09:11:02<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:04:29 09:10:58<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1018<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3428<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3428 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 6.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Concord/Concord2000.jpg</td>
+<td class="supported">ImageDescription : @P<br>
+Make : Concord Corporation<br>
+Model : Concord 2000<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : Concord 1.0<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 1,1999<br>
+ExposureTime : 1/15<br>
+FNumber : 9.9<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : <br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 3.0<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+LightSource : Unknown<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Concord/Concord2000.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Concord2000.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Concord<br>
+Directory : undefined<br>
+<br>
+FileSize : 5.8 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : <br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : <br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 0.07459960938<br>
+CompressedBitsPerPixel : 0.074599609375<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Flash : Unknown (0x810)<br>
+Flash : 2064<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1431<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 4222<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 9.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 4222 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 10.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

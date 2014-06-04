@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Logitech/LogitechPocketDigital130.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : wow<br>
+DateTimeOriginal : wow<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.4701835426996402<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/1142<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 61437 mm<br>
+ISO : 63229<br>
+LightSource : 32767<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/16865109<br>
+WhiteBalance : 65535<br>
+_IFDpointer_Interop : 1308<br>
+_IFDpointer_Makernote : 820<br>
+Copyright : <br>
+DateTime : wow<br>
+ImageDescription : gwogooo<br>
+Make : Logitech Inc.<br>
+Model : Pocket Digital 130<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : COACHWare 1.0<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 358</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.976647949<br>
+CompressedBitsPerPixel : 1.97664794921875<br>
+<br>
+DigitalZoomRatio : 0.9960324838<br>
+DigitalZoomRatio : 0.9960324838016055<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Logitech/LogitechDC2320.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2000:02:18 15:51:08<br>
+DateTimeOriginal : 2000:02:18 15:51:08<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/33<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 48<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1792 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 674<br>
+_IFDpointer_Interop : 800<br>
+_IFDpointer_Makernote : 600<br>
+DateTime : 2000:02:18 15:51:08<br>
+ImageDescription : Digital Camera<br>
+Model : DC2320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : v19.4.5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported">FNumber : 3<br>
+FNumber : 3.02<br>
+<br>
+FocalLength : 5.0 mm<br>
+FocalLength : 5 mm<br>
+<br>
+Make : ?<br>
+Make : <br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Logitech/LogitechClickSmart820.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2.3<br>
+DateTimeDigitized : 2000:00:00 00:00:00<br>
+DateTimeOriginal : 2000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/10<br>
+FNumber : 4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.9 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 574<br>
+_IFDpointer_Makernote : 604<br>
+Make : Logitech Inc.Cli<br>
+Model : ClickSmart 820H<br>
+ResolutionUnit : inches<br>
+Software : 1.04 bN10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 280</td>
+<td class="unsupported">ImageDescription : Logitech Exif JP<br>
+ImageDescription : Logitech Exif J<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Logitech/LogitechClickSmart.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 08:00:00<br>
+ExifVersion : 2.10<br>
+ExposureTime : 1/1234<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+_IFDpointer_Interop : 370<br>
+ImageDescription : Logitech Exif JPEG<br>
+Make : Logitech Inc.<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 176</td>
+<td class="unsupported">DateTimeOriginal :  08:00:00<br>
+DateTimeOriginal : 08:00:002001:01:0<br>
+<br>
+FNumber : 0.98<br>
+FNumber : 0.980461346078952<br>
+<br>
+Model : ClickSmart<br>
+Model : ClickSmar<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

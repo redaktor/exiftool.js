@@ -1,0 +1,2680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Acer/AcerX960.jpg</td>
+<td class="supported">Make : ACER<br>
+Model : X960<br>
+Software : ACER Camera<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009-09-23 17:40:52 UTC<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerX960.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerX960.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 503 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009-09-23 17:40:52 UTC<br>
+ModifyDate : undefined<br>
+<br>
+Artist : ???????<br>
+Artist : <br>
+<br>
+CreateDate : 2009-09-23 17:40:52 UTC<br>
+CreateDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerStream.jpg</td>
+<td class="supported">Make : Acer<br>
+Model : Acer Stream<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:05:27 13:18:32<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerStream.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerStream.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 38 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2002:12:08 12:00:00<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 422<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 38233<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 38233 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerS200.jpg</td>
+<td class="supported">Make : ACER<br>
+Model : ACER S200<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : ACER Camera<br>
+YCbCrPositioning : Centered<br>
+Copyright : Copyrights 2009 Acer Incorporate<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:04 18:25:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerS200.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerS200.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 695 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:04 18:25:39<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:06:04 18:25:39<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerM900.jpg</td>
+<td class="supported">Make : Acer<br>
+Model : M900<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 230.00000000<br>
+YResolution : 230.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 02.1006<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:12:18 02:32:55<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.2<br>
+ShutterSpeedValue : 1/8<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 4.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureIndex : 400<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Custom<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : 8<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerM900.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerM900.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 30 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:12:18 02:32:55<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 36 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4608<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2436<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen Nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 30020010-C06F-D011-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 7986:04:26 21:08:05<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 7986:04:26 21:08:05<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 14629 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 14489 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ScaleFactor35efl : 7.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/8<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2436 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.8 mm (35 mm equivalent: 36.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.06 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerLiquidMetal.jpg</td>
+<td class="supported">Make : Acer<br>
+Model : Liquid Metal<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:02:13 14:01:35<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FocalLength : 3.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+GPSLatitudeRef : South<br>
+GPSLongitudeRef : West<br>
+GPSAltitudeRef : Below Sea Level<br>
+GPSTimeStamp : 12:00:00<br>
+GPSDateStamp : 2002:12:08<br>
+GPSAltitude : 0 m Above Sea Level<br>
+GPSLatitude : 0° 0' 0.0000" N<br>
+GPSLongitude : 0° 0' 0.0000" E</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerLiquidMetal.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerLiquidMetal.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 42 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2011:02:13 14:01:35<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 650<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 42167<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSDateTime : 2002:12:08 12:00:00Z<br>
+GPSDateTime : undefined<br>
+<br>
+GPSPosition : 0 deg 0' 0.00" N, 0 deg 0' 0.00" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 42167 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 3.5 mm<br>
+FocalLength35efl : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerLiquid.jpg</td>
+<td class="supported">Make : Acer<br>
+Model : Acer Liquid<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+FNumber : 2.8<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:04 08:09:42<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ApertureValue : 2.8<br>
+MeteringMode : Average<br>
+FocalLength : 4.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerLiquid.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerLiquid.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:06:04 08:09:42<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 33 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 548<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5979<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 7.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5979 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 57.2 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.3 mm (35 mm equivalent: 33.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.69 m<br>
+HyperfocalDistance : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerE101.jpg</td>
+<td class="supported">Make : ACER<br>
+Model : ACER E101<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : ACER Camera<br>
+YCbCrPositioning : Centered<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010-06-09 23:15:52 UTC<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSTimeStamp : 19:15:07<br>
+GPSMapDatum : WGS84<br>
+GPSLatitude : 59° 56' 49.9600" N<br>
+GPSLongitude : 30° 11' 35.3900" E</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerE101.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerE101.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 11 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010-06-09 23:15:52 UTC<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010-06-09 23:15:52 UTC<br>
+CreateDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+GPSVersionID : 2.0.0.0<br>
+GPSVersionID : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 877<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10380<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSPosition : 59 deg 56' 49.96" N, 30 deg 11' 35.39" E<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10380 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerDX650.jpg</td>
+<td class="supported">Make : ACER<br>
+Model : DX650<br>
+Software : ACER Camera<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010-11-14 16:25:16 UTC<br>
+Flash : No Flash</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerDX650.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerDX650.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 503 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010-11-14 16:25:16 UTC<br>
+ModifyDate : undefined<br>
+<br>
+Artist : @????@<br>
+Artist : @@<br>
+<br>
+CreateDate : 2010-11-14 16:25:16 UTC<br>
+CreateDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCU-6530.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : acer<br>
+Model : CU-6530<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.01<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/380<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:01:20 16:59:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/377<br>
+ApertureValue : 5.7<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCU-6530.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCU-6530.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:01:20 16:59:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:01:20 16:59:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 17300<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/380<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 17300 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 14.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCS6530.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : acer<br>
+Model : CS6530<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/15<br>
+FNumber : 3.2<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:02 05:11:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/15<br>
+ApertureValue : 3.2<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Night scene<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCS6530.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCS6530.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 21 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:02 05:11:38<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:02 05:11:38<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1.3<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 39 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 20485<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/15<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 20485 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCS5531.jpg</td>
+<td class="supported">ImageDescription : DIGITAL IMAGE<br>
+Make : ACER<br>
+Model : CS5531<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 200.00000000<br>
+YResolution : 200.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.06ACE<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/32<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:06:11 04:43:02<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.4 mm<br>
+UserComment : 10958<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Manual<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCS5531.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCS5531.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 17 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:06:11 04:43:02<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:06:11 04:43:02<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Medium-Fine<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 0 0 0 0 0 0<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (CS5531)<br>
+CameraType : undefined<br>
+<br>
+CameraID : PREMIER IMAGE TECH CORPORATION <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 6824 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0250<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11228<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5970<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/32<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5970 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.8 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 35.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCR8530.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : acer<br>
+Model : CR8530<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/55<br>
+FNumber : 4<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:01 17:00:34<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/55<br>
+ApertureValue : 4.0<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCR8530.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCR8530.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 23 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:01 17:00:34<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:01 17:00:34<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 51 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1048<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 22135<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/55<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 22135 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 10.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCP-8660.jpg</td>
+<td class="supported">ImageDescription : Digital StillCamera<br>
+Make : Acer<br>
+Model : CP-8660<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.03<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/64<br>
+FNumber : 3.5<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:07:06 20:45:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/64<br>
+ApertureValue : 3.4<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCP-8660.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCP-8660.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 15 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:07:06 20:45:12<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:07:06 20:45:12<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 75 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1168<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 13760<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.5<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/64<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 13760 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCP-8531.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : acer<br>
+Model : CP-8531<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V0.23<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/638<br>
+FNumber : 6.7<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:07:24 12:52:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCP-8531.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCP-8531.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 16 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:07:24 12:52:36<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:07:24 12:52:36<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -4<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : HQ (Normal)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 0<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 0.1517450683 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 100 0 -176 -386 -470 -186<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (d??CP)<br>
+CameraType : undefined<br>
+<br>
+CameraID : -853DIGITAL CAMERA     <br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 8374 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10824<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5671<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 285.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/638<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5671 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 1.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 1539.7 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 41.30 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 15.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCL-6300.jpg</td>
+<td class="supported">ImageDescription : Digital image<br>
+Make : Acer<br>
+Model : CL-6300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.00.004AC<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 3.3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:05:09 20:14:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 3.1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCL-6300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCL-6300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:05:09 20:14:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:05:09 20:14:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 968<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6444<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6444 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCL-5300.jpg</td>
+<td class="supported">ImageDescription : Digital image<br>
+Make : Digital Camera<br>
+Model : CL-5300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.01ver.<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/55<br>
+FNumber : 3.3<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:11:27 14:03:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/55<br>
+ApertureValue : 3.1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 7.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCL-5300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCL-5300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 9.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:11:27 14:03:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:11:27 14:03:26<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 968<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8364<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/55<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8364 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCI6330.jpg</td>
+<td class="supported">ImageDescription : Acer Image<br>
+Make : Acer Corporation<br>
+Model : CI6330<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 314.00000000<br>
+YResolution : 314.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/235<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:07:24 18:15:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Did not fire, Red-eye reduction<br>
+FocalLength : 7.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCI6330.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCI6330.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 18 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:07:24 18:15:26<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:07:24 18:15:26<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -4<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 0<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 0.1517450683 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 100 0 -176 -386 -470 -186<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraParameters : (Binary data 10 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2848<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2136<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 11178<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6877<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 285.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/235<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6877 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 1.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 7.5 mm (35 mm equivalent: 2138.5 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 190.64 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCI-8330.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : acer<br>
+Model : CI-8330<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.0004.2A<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2005:01:27 19:48:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 0.7<br>
+ApertureValue : 2.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 7.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCI-8330.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCI-8330.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2005:01:27 19:48:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2005:01:27 19:48:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +1.3<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 968<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7536<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7536 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCE6430.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : Acer<br>
+Model : CE6430<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 314.00000000<br>
+YResolution : 314.00000000<br>
+ResolutionUnit : inches<br>
+Software : V0.21<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/1042<br>
+FNumber : 2.8<br>
+ExposureProgram : Action (High speed)<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2008:07:31 17:46:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FocalLength : 5.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : High saturation<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCE6430.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCE6430.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 28 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2008:07:31 17:46:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2008:07:31 17:46:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 1<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 6.59 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : -176 -386 -470 -186 -412 -504<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraParameters : (Binary data 10 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 21162<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6962<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/1042<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6962 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.0 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.5 mm (35 mm equivalent: 36.1 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.36 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Acer/AcerCE-5330.jpg</td>
+<td class="supported">ImageDescription : ACER<br>
+Make : ACER<br>
+Model : CE-5330<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:10:10 22:58:22<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Flash<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 5.4 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Acer/AcerCE-5330.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AcerCE-5330.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Acer<br>
+Directory : undefined<br>
+<br>
+FileSize : 22 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:10:10 22:58:22<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:10:10 22:58:22<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Adjusted MakerNotes base by -4<br>
+Warning : undefined<br>
+<br>
+SpecialMode : Normal, Sequence: 0, Panorama: (none)<br>
+SpecialMode : undefined<br>
+<br>
+Quality : Unknown (0)<br>
+Quality : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+BWMode : Off<br>
+BWMode : undefined<br>
+<br>
+DigitalZoom : 0<br>
+DigitalZoom : undefined<br>
+<br>
+FocalPlaneDiagonal : 0.1517450683 mm<br>
+FocalPlaneDiagonal : undefined<br>
+<br>
+LensDistortionParams : 100 0 -176 -386 -470 -186<br>
+LensDistortionParams : undefined<br>
+<br>
+CameraType : Unknown (d??CE)<br>
+CameraType : undefined<br>
+<br>
+CameraID : 5330ACER<br>
+CameraID : undefined<br>
+<br>
+CameraParameters : (Binary data 5500 bytes, use -b option to extract)<br>
+CameraParameters : undefined<br>
+<br>
+ExifImageWidth : 2560<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1920<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 10812<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11531<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 285.1<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11531 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.000 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 1.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.4 mm (35 mm equivalent: 1539.7 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 98.83 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

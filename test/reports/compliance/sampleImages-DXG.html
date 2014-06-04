@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/DXG/DXG_FashionCam.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2001:08:29 15:56:21<br>
+DateTimeOriginal : 2001:08:29 15:56:21<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/488<br>
+FNumber : 3<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SensingMethod : Color sequential area<br>
+_IFDpointer_Interop : 738<br>
+_IFDpointer_Makernote : 124 124 033 041 033 062 008 010 119 112 333 100 015 120 141 069 018 w86 013 67890123456789012345Novatek Microelectronics<br>
+Copyright : (C) by FashionCam User<br>
+DateTime : 2001:08:29 15:56:21<br>
+ImageDescription : Exif-JPEG-422<br>
+Make : DXG Technology Co. Ltd.<br>
+Model : FashionCam<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.0.01.033<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_DZ358.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2004:01:18 09:22:30<br>
+DateTimeOriginal : 2004:01:18 09:22:30<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 0.15625<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/12<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.3 mm<br>
+ISO : 100<br>
+LightSource : Fluorescent<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+RelatedSoundFile : RelatedSound<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Soft<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 4978<br>
+_IFDpointer_Makernote : 1,20,2,148,3,310,4,256,5,404<br>
+_OffsetSchema : 4156<br>
+_Padding : 2788<br>
+DateTime : 2004:01:18 09:22:30<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 0.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 0.00000000<br>
+_IFDpointer_EXIF : 2362</td>
+<td class="unsupported">CompressedBitsPerPixel : 2.490804036<br>
+CompressedBitsPerPixel : 2.4908040364583335<br>
+<br>
+Artist : DXG Digital Camera<br>
+Artist : DXG Digital Camer<br>
+<br>
+Copyright : DXG Proprietary<br>
+Copyright : DXG Proprietar<br>
+<br>
+ImageDescription : PHOT0067.JPG<br>
+ImageDescription : PHOT0067.JP<br>
+<br>
+Make : DXG Technologies,Inc.<br>
+Make : DXG Technologies,Inc<br>
+<br>
+Model : DXG DZ358<br>
+Model : DXG DZ35<br>
+<br>
+Software : 2.1.42<br>
+Software : 2.1.4<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_DSC608.jpg</td>
+<td class="supported">ApertureValue : 1.7<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 0.58<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:22 09:50:50<br>
+DateTimeOriginal : 2006:10:22 09:50:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 0.3<br>
+FNumber : 2.9<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+FocalLengthIn35mmFilm : 34 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Other<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 2848 px w<br>
+PixelYDimension : 2136 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 868<br>
+Copyright : COPYRIGHT<br>
+DateTime : 2006:10:22 09:50:50<br>
+ImageDescription : Image Description<br>
+Make : DXG<br>
+Model : DSC608<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : R1.30<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 290</td>
+<td class="unsupported">UserComment : <br>
+UserComment : 65,83,67,73,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_DSC502.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:05:20 12:13:45<br>
+DateTimeOriginal : 2004:05:20 12:13:45<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/108<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 1968 px w<br>
+PixelYDimension : 2608 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 1062<br>
+DateTime : 2004:05:20 12:14:06<br>
+ImageDescription : DATA0286.JPG<br>
+Make : DXG TECHNOLOGY CO., LTD.<br>
+Model : DSC502<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : DSC502 Ver1.12<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 704<br>
+RelatedImageHeight : 0996:1232<br>
+RelatedImageWidth : 1000:1016</td>
+<td class="unsupported">FNumber : 2.9<br>
+FNumber : 2.88<br>
+<br>
+FocalLength : 6.0 mm<br>
+FocalLength : 6 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_DSC.jpg</td>
+<td class="supported">ApertureValue : 2.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:03:27 20:24:59<br>
+DateTimeOriginal : 2007:03:27 20:24:59<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 8<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+RelatedSoundFile : RelatedSound<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+_IFDpointer_Interop : 1202<br>
+_IFDpointer_Makernote : 720<br>
+Copyright : Copyright 2004<br>
+DateTime : 2007:03:27 20:24:59<br>
+ImageDescription : Digital Camera<br>
+Make : DXG Company<br>
+Model : DSC<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 96.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 96.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.879347025<br>
+CompressedBitsPerPixel : 3.8793470253518265<br>
+<br>
+ShutterSpeedValue : 1<br>
+ShutterSpeedValue : 0<br>
+<br>
+Software : 529_V1.12<br>
+Software : 529V1.12<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_DCS711.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2010:02:28 18:37:41<br>
+DateTimeOriginal : 2010:02:28 18:37:41<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/90<br>
+FNumber : 5.9<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 18.9 mm<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.9<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2760 px w<br>
+PixelYDimension : 3680 px h<br>
+SceneType : Directly photographed<br>
+UserComment : 3068<br>
+_IFDpointer_Makernote : 1114<br>
+DateTime : 2010:02:28 18:37:41<br>
+ImageDescription : DXG DIGITAL CAMERA<br>
+Make : DXG TECH CORP<br>
+Model : DCS711<br>
+ResolutionUnit : inches<br>
+Software : ver1.0.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 724<br>
+PrintIM : 374</td>
+<td class="unsupported">BrightnessValue : inf<br>
+BrightnessValue : -Infinity<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_409.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2015:11:24 14:26:16<br>
+DateTimeOriginal : 2015:11:24 14:26:16<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Aperture-priority AE<br>
+ExposureTime : 1/1522<br>
+FNumber : 6.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2304 px w<br>
+PixelYDimension : 1728 px h<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1<br>
+_IFDpointer_Interop : 758<br>
+_IFDpointer_Makernote : 155 139 088 138 098 002 235 020 147 000 005 100 22 137 140 0000 56789012345678901234567890123456789012345678901234567890123<br>
+Copyright : (C) by DXG 409 User<br>
+DateTime : 2015:11:24 14:26:16<br>
+ImageDescription : Exif-JPEG-422<br>
+Make : DXG Corporation.<br>
+Model : DXG 409<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver.1.00.037V<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 294</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG_106.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 0000:00:00 00:00:00<br>
+DateTimeOriginal : 0000:00:00 00:00:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureTime : 1/250<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+MeteringMode : Average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SubsecTime : 790<br>
+UserComment : 515<br>
+_IFDpointer_Interop : 561<br>
+DateTime : 2003:12:21 12:42:15<br>
+ImageDescription : DXG Digital Camera<br>
+Make : DXG Technology Corp.<br>
+Model : DXG106<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : ACD Systems Digital Imaging<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 257</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/DXG/DXG528.jpg</td>
+<td class="supported">ApertureValue : 2.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+DateTimeDigitized : 2007:03:27 21:22:38<br>
+DateTimeOriginal : 2007:03:27 21:22:38<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 8<br>
+FNumber : 2.6<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Multi-spot<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+RelatedSoundFile : <br>
+Saturation : Normal<br>
+SceneCaptureType : Night scene<br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistance : 0 m<br>
+SubjectDistanceRange : Unknown<br>
+UserComment : 3807<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 4195<br>
+_IFDpointer_Makernote : <br>
+DateTime : 2007:03:27 21:23:17<br>
+ImageDescription : MYDC0003.JPG<br>
+Make : l<br>
+Model : DXG528 sete<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Firmware 1.37<br>
+WhitePoint : 0 0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 301</td>
+<td class="unsupported">CFAPattern : [Red,Green][Green,Blue]<br>
+CFAPattern : truncated data<br>
+<br>
+SubjectArea : 0 0 0 0<br>
+SubjectArea : 0,0,0,0<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

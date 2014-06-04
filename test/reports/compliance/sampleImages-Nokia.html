@@ -1,0 +1,4706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Nokia/NokiaX6-00.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:04 14:17:34<br>
+DateTimeOriginal : 2010:06:04 14:17:34<br>
+DigitalZoomRatio : 1.41<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+GainControl : High gain up<br>
+ISO : 800<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : X6-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaX5-01.jpg</td>
+<td class="supported">ApertureValue : 1.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:11:05 17:58:49<br>
+DateTimeOriginal : 2010:11:05 17:58:49<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.4 mm<br>
+GainControl : High gain up<br>
+ISO : 415<br>
+LightSource : Flash<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+SubsecTime : 134<br>
+SubsecTimeDigitized : 134<br>
+SubsecTimeOriginal : 134<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : X5-01<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaX3-00.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:06 21:59:00<br>
+DateTimeOriginal : 2010:06:06 21:59:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : X3-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.11<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaX2-00.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:08:03 19:32:44<br>
+DateTimeOriginal : 2010:08:03 19:32:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1944 px w<br>
+PixelYDimension : 2592 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : X2-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.25<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN97mini.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 14:05:15<br>
+DateTimeOriginal : 2010:06:09 14:05:15<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1000<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+GainControl : Low gain up<br>
+ISO : 107<br>
+LightSource : Unknown<br>
+PixelXDimension : 1944 px w<br>
+PixelYDimension : 2592 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/999<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 504<br>
+Make : Nokia<br>
+Model : N97 mini<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN97.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 00:12:15<br>
+DateTimeOriginal : 2010:06:08 00:12:15<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : High gain up<br>
+ISO : 492<br>
+LightSource : Flash<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : N97<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN96.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN958GB.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:19 10:13:36<br>
+DateTimeOriginal : 2008:10:19 10:13:36<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/250<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/250<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 502<br>
+Make : Nokia<br>
+Model : N95 8GB<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN95.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:29 16:31:02<br>
+DateTimeOriginal : 2007:01:29 16:31:02<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/33<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/33<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : N95<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN93i.jpg</td>
+<td class="supported">ApertureValue : 3.3<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:01:29 11:33:46<br>
+DateTimeOriginal : 2007:01:29 11:33:46<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/270<br>
+FNumber : 3.3<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/270<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N93i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN93.jpg</td>
+<td class="supported">ApertureValue : 5.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:09:10 16:40:31<br>
+DateTimeOriginal : 2006:09:10 16:40:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/810<br>
+FNumber : 5<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.2 mm<br>
+GainControl : None<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/810<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N93<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN91.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:08:15 13:17:20<br>
+DateTimeOriginal : 2006:08:15 13:17:20<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/19<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/19<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N91<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN900.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:01:21 01:29:23<br>
+DateTimeOriginal : 2011:01:18 17:32:24<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.10<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/16<br>
+FNumber : 2.8<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+GainControl : Low gain up<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+PixelXDimension : 1448 px w<br>
+PixelYDimension : 2576 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/16<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 638<br>
+DateTime : 2011:01:21 01:29:23<br>
+Make : Nokia<br>
+Model : N900<br>
+Orientation : Rotate 90 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">UserComment : Edited with Nokia Image Editor 2.7.4<br>
+UserComment : 4742<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN90-1.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:22 00:22:32<br>
+DateTimeOriginal : 2005:09:22 00:22:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+FNumber : 2.9<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.5 mm<br>
+GainControl : High gain up<br>
+ISO : 1000<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : N90-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN9.jpg</td>
+<td class="supported">ApertureValue : 2.2<br>
+Contrast : Normal<br>
+DateTimeOriginal : 2011:11:30 13:43:12<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.30<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Not Defined<br>
+ExposureTime : 1/30<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+ISOSpeed : 200<br>
+MeteringMode : Average<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SensitivityType : ISO Speed<br>
+Sharpness : Normal<br>
+ShutterSpeedValue : 1/30<br>
+SubsecTimeOriginal : 677<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 474<br>
+Make : Nokia<br>
+Model : N9<br>
+Orientation : Rotate 90 CW<br>
+_IFDpointer_EXIF : 4578</td>
+<td class="unsupported">FNumber : 2.2<br>
+FNumber : 2.200000047683716<br>
+<br>
+FocalLength : 28.0 mm<br>
+FocalLength : 28 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN868MP.jpg</td>
+<td class="supported">ApertureValue : 4.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 15:23:56<br>
+DateTimeOriginal : 2010:06:09 15:23:56<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1000<br>
+FNumber : 4.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+GainControl : Low gain up<br>
+ISO : 107<br>
+LightSource : Unknown<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/999<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 514<br>
+GPSAltitude : 616.5 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 42° 51' 13.5149" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 71° 24' 4.7807" E<br>
+GPSLongitudeRef : East<br>
+GPSVersion : 2.2.0.0<br>
+Make : Nokia<br>
+Model : N86 8MP<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 152<br>
+_IFDpointer_GPS : 2726</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN85.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:02:07 16:42:44<br>
+DateTimeOriginal : 2009:02:07 16:42:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : Low gain up<br>
+ISO : 187<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : N85<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN82.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:18 14:07:52<br>
+DateTimeOriginal : 2008:10:18 14:07:52<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/125<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/125<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : N82<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN81.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:03 19:28:53<br>
+DateTimeOriginal : 2010:05:03 19:28:53<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : Nokia N81<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN80.jpg</td>
+<td class="supported">ApertureValue : 3.5<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:09 14:26:51<br>
+DateTimeOriginal : 2006:10:09 14:26:51<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.5<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.7 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N80<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN8.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:04:27 09:11:16<br>
+DateTimeOriginal : 2011:04:27 09:11:16<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 4850 px w<br>
+PixelYDimension : 1056 px h<br>
+DateTime : 2011:04:27 09:11:16<br>
+Make : Nokia<br>
+Model : N8<br>
+ResolutionUnit : inches<br>
+Software : Mobile Panorama 0.81r1635<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN8-00.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:12:13 17:35:02<br>
+DateTimeOriginal : 2010:12:13 17:35:02<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/50<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.9 mm<br>
+GainControl : High gain up<br>
+ISO : 475<br>
+LightSource : Flash<br>
+PixelXDimension : 3000 px w<br>
+PixelYDimension : 4000 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/50<br>
+SubsecTime : 11<br>
+SubsecTimeDigitized : 11<br>
+SubsecTimeOriginal : 11<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 588<br>
+DateTime : 2010:12:13 17:35:02<br>
+Make : Nokia<br>
+Model : N8-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">FNumber : 2.8<br>
+FNumber : 2.796875<br>
+<br>
+SubjectArea : 1633 900 441 441<br>
+SubjectArea : 1633,900,441,441<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN79.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:27 19:40:54<br>
+DateTimeOriginal : 2010:05:27 19:40:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/200<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/200<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : N79<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN78.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:10:28 09:01:03<br>
+DateTimeOriginal : 2008:10:28 09:01:03<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.6 mm<br>
+GainControl : High gain up<br>
+ISO : 243<br>
+LightSource : Flash<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/15<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 550<br>
+GPSAltitude : 43.5 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 52° 12' 11.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 4° 40' 43.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2008:10:28 09:01:06<br>
+Make : Nokia<br>
+Model : N78<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 176<br>
+_IFDpointer_GPS : 1686</td>
+<td class="unsupported">UserComment : testomschrijving<br>
+UserComment : 85,78,73,67,79,68,69,0,116,0,101,0,115,0,116,0,111,0,109,0,115,0,99,0,104,0,114,0,105,0,106,0,118,0,105,0,110,0,103,0<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN77.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:25 09:04:14<br>
+DateTimeOriginal : 2010:05:25 09:04:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N77<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN76.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 19:08:21<br>
+DateTimeOriginal : 2010:06:09 19:08:21<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N76<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN75.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:10:25 18:26:36<br>
+DateTimeOriginal : 2006:10:25 18:26:36<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N75<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN73.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:30 16:10:06<br>
+DateTimeOriginal : 2007:03:30 16:10:06<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+LightSource : Flash<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/15<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : N73<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN72.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 14:42:44<br>
+DateTimeOriginal : 2010:06:09 14:42:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : High gain up<br>
+ISO : 500<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N72<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN71.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:22 15:33:35<br>
+DateTimeOriginal : 2007:03:22 15:33:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 125<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N71<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN70-5.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:03:17 11:26:33<br>
+DateTimeOriginal : 2008:03:17 11:26:33<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N70-5<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaN70-1.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:12:12 12:56:54<br>
+DateTimeOriginal : 2005:12:12 12:56:54<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/33<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/33<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : N70-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaLumia925.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2013:07:01 17:13:35<br>
+DateTimeOriginal : 2013:07:01 17:13:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/2825<br>
+FNumber : 2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MeteringMode : Average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/2825<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 4674<br>
+_Padding : 2534<br>
+GPSAltitude : 103 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 14<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 1° 14' 21.1210" W<br>
+GPSLongitudeRef : West<br>
+GPSMeasureMode : 3-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+Make : Nokia<br>
+Model : Lumia 925<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2252<br>
+_IFDpointer_GPS : 21862</td>
+<td class="unsupported">GPSLatitude : 53 deg 21' 10.42" N<br>
+GPSLatitude : 53° 21' 10.4170" N<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaLumia920.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2012:12:11 11:03:49<br>
+DateTimeOriginal : 2012:12:11 11:03:49<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureTime : 1/588<br>
+FNumber : 2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 100<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+_IFDpointer_Interop : 9805<br>
+_IFDpointer_Makernote : 4574<br>
+_Padding : 2450<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 0.05<br>
+GPSLatitude : 53° 14' 0.9350" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : West<br>
+GPSMeasureMode : 3-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+Make : Nokia<br>
+Model : Lumia 920<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2252<br>
+_IFDpointer_GPS : 9836</td>
+<td class="unsupported">GPSAltitude : 0 m Above Sea Level<br>
+GPSAltitude : 0.009900990099009901 m Above Sea Level<br>
+<br>
+GPSLongitude : 1 deg 2' 37.81" W<br>
+GPSLongitude : 1° 2' 37.8070" W<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaLumia1520.jpg</td>
+<td class="supported">ApertureValue : 2.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2014:01:22 17:07:02<br>
+DateTimeOriginal : 2014:01:22 17:07:02<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/12<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+ISO : 800<br>
+LightSource : Unknown<br>
+MeteringMode : Average<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1936 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/12<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 4676<br>
+_Padding : 2536<br>
+Make : Nokia<br>
+Model : Lumia 1520<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 2254<br>
+_IFDpointer_GPS : 24086</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaLumia1020.jpg</td>
+<td class="supported">ApertureValue : 2.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2013:08:09 15:58:23<br>
+DateTimeOriginal : 2013:08:09 15:58:23<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/60<br>
+FNumber : 2.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+LightSource : Unknown<br>
+MeteringMode : Average<br>
+PixelXDimension : 7136 px w<br>
+PixelYDimension : 5360 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/60<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 556<br>
+_Padding : 22174<br>
+Make : Nokia<br>
+Model : Lumia 1020<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194<br>
+_IFDpointer_GPS : 24234</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE90.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:21 13:41:31<br>
+DateTimeOriginal : 2010:05:21 13:41:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Flash<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 494<br>
+Make : Nokia<br>
+Model : E90<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE75-1.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:04 18:00:04<br>
+DateTimeOriginal : 2010:06:04 18:00:04<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/500<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : None<br>
+ISO : 74<br>
+LightSource : Unknown<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/500<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : E75-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE72-1.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:05 16:58:48<br>
+DateTimeOriginal : 2010:06:05 16:58:48<br>
+DigitalZoomRatio : 1.04<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/119<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.4 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/119<br>
+SubsecTime : 534<br>
+SubsecTimeDigitized : 534<br>
+SubsecTimeOriginal : 534<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : E72-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE71x.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:09:09 17:01:30<br>
+DateTimeOriginal : 2010:09:09 17:01:30<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Flash<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E71x<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE71.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:02:03 17:17:43<br>
+DateTimeOriginal : 2009:02:03 17:17:43<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E71<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE70.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:17 16:00:19<br>
+DateTimeOriginal : 2007:03:17 16:00:19<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/135<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 80<br>
+LightSource : Unknown<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/135<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E70<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE7-00.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:06:04 13:25:03<br>
+DateTimeOriginal : 2011:06:04 13:25:03<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : High gain up<br>
+ISO : 278<br>
+LightSource : Daylight<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 1832 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+SubsecTime : 919<br>
+SubsecTimeDigitized : 919<br>
+SubsecTimeOriginal : 919<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 528<br>
+DateTime : 2011:06:04 13:25:03<br>
+Make : Nokia<br>
+Model : E7-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">SubjectArea : 1683 818 844 844<br>
+SubjectArea : 1683,818,844,844<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE66.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:09 15:27:23<br>
+DateTimeOriginal : 2010:05:09 15:27:23<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E66<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE65.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:06:26 14:34:33<br>
+DateTimeOriginal : 2008:06:26 14:34:33<br>
+DigitalZoomRatio : 100<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_Padding : 2438<br>
+Make : Nokia<br>
+Model : E65<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 0.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 0.00000000<br>
+_IFDpointer_EXIF : 2204</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE63.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:20 18:24:31<br>
+DateTimeOriginal : 2010:03:20 18:24:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E63<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE61i.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:07 15:35:39<br>
+DateTimeOriginal : 2010:06:07 15:35:39<br>
+DigitalZoomRatio : 157<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E61i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE55-1.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:24 18:54:07<br>
+DateTimeOriginal : 2010:01:24 18:54:07<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/10<br>
+FNumber : 2.4<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+GainControl : High gain up<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/10<br>
+SubsecTime : 524<br>
+SubsecTimeDigitized : 524<br>
+SubsecTimeOriginal : 524<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : E55-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE52-1.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:28 12:28:28<br>
+DateTimeOriginal : 2010:05:28 12:28:28<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/24<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+GainControl : Low gain up<br>
+ISO : 200<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/24<br>
+SubsecTime : 200<br>
+SubsecTimeDigitized : 200<br>
+SubsecTimeOriginal : 200<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : E52-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE51.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 10:24:49<br>
+DateTimeOriginal : 2010:06:09 10:24:49<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E51<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE50.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:03:21 15:35:17<br>
+DateTimeOriginal : 2007:03:21 15:35:17<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : E50<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 132</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaE5-00.jpg</td>
+<td class="supported">ApertureValue : 1.6<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:09:05 03:01:25<br>
+DateTimeOriginal : 2010:09:05 03:01:25<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/15<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.4 mm<br>
+GainControl : High gain up<br>
+ISO : 800<br>
+LightSource : Flash<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/15<br>
+SubsecTime : 899<br>
+SubsecTimeDigitized : 899<br>
+SubsecTimeOriginal : 899<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : E5-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC7-00.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:12:11 14:27:42<br>
+DateTimeOriginal : 2010:12:11 14:27:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/266<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/266<br>
+SubsecTime : 641<br>
+SubsecTimeDigitized : 641<br>
+SubsecTimeOriginal : 641<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 508<br>
+DateTime : 2010:12:11 14:27:42<br>
+Make : Nokia<br>
+Model : C7-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC6-01.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:01:20 12:49:25<br>
+DateTimeOriginal : 2011:01:20 12:49:25<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/338<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 1832 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/338<br>
+SubsecTime : 598<br>
+SubsecTimeDigitized : 598<br>
+SubsecTimeOriginal : 598<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 528<br>
+DateTime : 2011:01:20 12:49:25<br>
+Make : Nokia<br>
+Model : C6-01<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">SubjectArea : 2281 1089 189 189<br>
+SubjectArea : 2281,1089,189,189<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC6-00.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:08:12 17:13:43<br>
+DateTimeOriginal : 2010:08:12 17:13:43<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.7 mm<br>
+GainControl : High gain up<br>
+ISO : 295<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : C6-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC5-00.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:02 14:57:24<br>
+DateTimeOriginal : 2010:06:02 14:57:24<br>
+DigitalZoomRatio : 1.41<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1562<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/1562<br>
+SubsecTime : 267<br>
+SubsecTimeDigitized : 267<br>
+SubsecTimeOriginal : 267<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : C5-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC3-01.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:07:26 21:50:16<br>
+DateTimeOriginal : 2011:07:26 21:50:16<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+_IFDpointer_Makernote : <br>
+Make : Nokia<br>
+Model : C3-01<br>
+ResolutionUnit : inches<br>
+Software : V 05.65<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC3-00.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:12:14 09:48:42<br>
+DateTimeOriginal : 2010:12:14 09:48:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600,0<br>
+PixelYDimension : 1200,0<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+DateTime : 2010:12:14 10:11:11<br>
+Make : Nokia<br>
+Model : C3-00<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.45<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC2-01.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:06:06 14:44:59<br>
+DateTimeOriginal : 2011:06:06 14:44:59<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : C2-01<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 10.50<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/NokiaC1-01.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2011:02:04 18:24:16<br>
+DateTimeOriginal : 2011:02:04 18:24:16<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 388,0<br>
+PixelYDimension : 392,0<br>
+DateTime : 2011: 2: 5  0:13:27<br>
+Make : Nokia<br>
+Model : C1-01<br>
+ResolutionUnit : inches<br>
+Software : V 03.35<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 246</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia8800e-1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 18:10:18<br>
+DateTimeOriginal : 2010:06:08 18:10:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @K@iaL©8;r--7kVlmw6fpOCe@RcE2YD,,1wH,)c5FtOoaTw@AbRXJ9FI)x96b tqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6<br>
+Make : Nokia<br>
+Model : 8800e-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.40<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia8800SI.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 8800SI<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.93<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 159</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia8800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 8800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.51<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia8600Luna.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 8600 Luna<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.52<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 162</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia808PureView.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2012:05:15 05:44:29<br>
+DateTimeOriginal : 2012:05:15 05:44:29<br>
+DigitalZoomRatio : 2.72<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/186<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/186<br>
+SubsecTime : 178<br>
+SubsecTimeDigitized : 178<br>
+SubsecTimeOriginal : 178<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 588<br>
+GPSAltitude : 602 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 1.5<br>
+GPSLatitudeRef : North<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSMeasureMode : 3-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+DateTime : 2012:05:15 05:44:29<br>
+Make : Nokia<br>
+Model : 808 PureView<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 190<br>
+_IFDpointer_GPS : 4640</td>
+<td class="unsupported">FNumber : 2.4<br>
+FNumber : 2.3984375<br>
+<br>
+FocalLength : 8.0 mm<br>
+FocalLength : 8 mm<br>
+<br>
+GPSLatitude : 48 deg 46' 53.67" N<br>
+GPSLatitude : 48° 46' 53.6679" N<br>
+<br>
+GPSLongitude : 10 deg 6' 37.00" E<br>
+GPSLongitude : 10° 6' 36.9975" E<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia800.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2013:10:14 17:03:07<br>
+DateTimeOriginal : 2013:10:14 17:03:07<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/526<br>
+FNumber : 2.2<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+_IFDpointer_Interop : 414<br>
+GPSAltitude : 14.2 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDOP : 48.3165<br>
+GPSLatitude : 31° 59' 36.3100" S<br>
+GPSLatitudeRef : South<br>
+GPSLongitudeRef : East<br>
+GPSMeasureMode : 3-Dimensional Measurement<br>
+GPSVersion : 2.2.0.0<br>
+Artist : <br>
+Make : Nokia<br>
+Model : Nokia 800<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Windows Phone 7.5<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196<br>
+_IFDpointer_GPS : 414</td>
+<td class="unsupported">GPSLongitude : 115 deg 54' 44.01" E<br>
+GPSLongitude : 115° 54' 44.0060" E<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7900.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 16:00:35<br>
+DateTimeOriginal : 2010:06:09 16:00:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7900<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.61<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7650.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7610Supernova.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:02:21 15:33:31<br>
+DateTimeOriginal : 2010:02:21 15:33:31<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @nHAsYZxy1Bd,cTj4kW@©E\ol(3ftjh07)Z(hDC9Yl5C/g /\Iy4aKPJTK4L4;r2z-7kVlmw6VOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cT<br>
+Make : Nokia<br>
+Model : 7610 Supernova<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.72<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 167</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7510Supernova.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:04:22 18:49:57<br>
+DateTimeOriginal : 2010:04:22 18:49:57<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 7510 Supernova<br>
+ResolutionUnit : inches<br>
+Software : V 06.65<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 224</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7500.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:19 18:47:41<br>
+DateTimeOriginal : 2010:05:19 18:47:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 0 px w<br>
+PixelYDimension : 0 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.20<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7390.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+_IFDpointer_Makernote : <br>
+Make : Nokia<br>
+Model : 7390<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.84<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7373.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+Make : Nokia<br>
+Model : 7373<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.90<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7370.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 800 px w<br>
+PixelYDimension : 600 px h<br>
+Make : Nokia<br>
+Model : 7370<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 105.015.003<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 161</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7310.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:03:19 16:24:17<br>
+DateTimeOriginal : 2009:03:19 16:24:17<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7310<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 08.20<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7230.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:09 11:19:05<br>
+DateTimeOriginal : 2010:05:09 11:19:05<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7230<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.71<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7210Supernova.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:03:23 21:48:20<br>
+DateTimeOriginal : 2009:03:23 21:48:20<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7210 Supernova<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.87<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 167</td>
+<td class="unsupported">DigitalZoomRatio : 2.280623608<br>
+DigitalZoomRatio : 2.2806236080178173<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7100s-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 12:47:46<br>
+DateTimeOriginal : 2010:06:08 12:47:46<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7100s-2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.22<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia7020.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 11:43:50<br>
+DateTimeOriginal : 2010:06:09 11:43:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 7020<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.41<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6730c.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:04 19:09:56<br>
+DateTimeOriginal : 2010:06:04 19:09:56<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+GainControl : High gain up<br>
+ISO : 228<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+SubsecTime : 665<br>
+SubsecTimeDigitized : 665<br>
+SubsecTimeOriginal : 665<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : 6730c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6730c-1.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2011:10:12 12:53:21<br>
+DateTimeOriginal : 2011:10:12 12:53:21<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1562<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/1562<br>
+SubsecTime : 231<br>
+SubsecTimeDigitized : 231<br>
+SubsecTimeOriginal : 231<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 538<br>
+Make : Nokia<br>
+Model : 6730c-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6720c.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:04 18:26:31<br>
+DateTimeOriginal : 2010:06:04 18:26:31<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/253<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 1944 px w<br>
+PixelYDimension : 2592 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/253<br>
+SubsecTime : 50<br>
+SubsecTimeDigitized : 50<br>
+SubsecTimeOriginal : 50<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : 6720c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6710s.jpg</td>
+<td class="supported">ApertureValue : 2.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:20 18:49:44<br>
+DateTimeOriginal : 2010:05:20 18:49:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/351<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/351<br>
+SubsecTime : 38<br>
+SubsecTimeDigitized : 38<br>
+SubsecTimeOriginal : 38<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 536<br>
+Make : Nokia<br>
+Model : 6710s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6700c-1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:28 16:10:34<br>
+DateTimeOriginal : 2010:05:28 16:10:34<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : <br>
+Make : Nokia<br>
+Model : 6700c-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 07.90<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6682.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:11:08 20:45:35<br>
+DateTimeOriginal : 2005:11:08 20:45:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/7<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : High gain up<br>
+ISO : 1250<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Night scene<br>
+ShutterSpeedValue : 1/7<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6682<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6681.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:16 17:21:58<br>
+DateTimeOriginal : 2005:09:16 17:21:58<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/10<br>
+FNumber : 3.2<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 250<br>
+LightSource : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Night scene<br>
+ShutterSpeedValue : 1/10<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6681<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6680.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:12:26 14:47:00<br>
+DateTimeOriginal : 2005:12:26 14:47:00<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+FNumber : 3.2<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 400<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+WhiteBalance : Manual<br>
+Make : Nokia<br>
+Model : 6680<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6650fold.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:28 15:44:46<br>
+DateTimeOriginal : 2010:03:28 15:44:46<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6650 fold<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6630.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:03:20 13:38:45<br>
+DateTimeOriginal : 2005:03:20 13:38:45<br>
+DigitalZoomRatio : 1.42<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/7890<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.5 mm<br>
+GainControl : Low gain up<br>
+ISO : 500<br>
+LightSource : Unknown<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/7886<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6630<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6600s.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:20 14:02:16<br>
+DateTimeOriginal : 2010:01:20 14:02:16<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @8thsgv; /\IuFT4aS3;r2YXEa,.kVPlZ6pTnw1-aD.QBdSNL6u4w©EbRXJP:U0)x(9GH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuF<br>
+Make : Nokia<br>
+Model : 6600s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.23<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6600i-1c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:19 09:09:40<br>
+DateTimeOriginal : 2010:03:19 09:09:40<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1944 px w<br>
+PixelYDimension : 2592 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @IcT4oMb9©W©EbRXJP:U0Js6Hm8 /KuHI1KDkTP4aLS3;r2zoXbsqxecmplWQfpCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJ<br>
+Make : Nokia<br>
+Model : 6600i-1c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 36.14<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 161</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6600f.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:06 17:44:41<br>
+DateTimeOriginal : 2010:06:06 17:44:41<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 29-7plmw6fpOCenAsYZyaBd,04w4M)5W@R)vGhjQc0)x(9DGHxw9obthqgg<br>
+Make : Nokia<br>
+Model : 6600f<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.20<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6600.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6555.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 6555<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.31<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6500s-1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:01 12:56:32<br>
+DateTimeOriginal : 2008:11:01 12:56:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @o©RP:T)x(9DGH8thqgvg©4/\IGvW899@ioi3uIz-XsqxcVlmw6fpOCe0Rs-1,Bd1tSb)L:UBHw@cn6z4)j:6JLH9dpbblTAz6mH\IIV3ZTT72xs 0xcghVHVSno2-QD,W,blO6 zJJVAbR1Vz)/jHJ(LUT968lZGYoBymH:u.:;KFTg)2Y@,X:0xcv0(hojqVCwVREE-.Ay,1.nS7KHz,JocnJ\)ijdH6J\LKca9bhqgZa4H:s7ZKTx)53C5w,bs7kVlmw6fpOCenAsYZ1y1.QBd,cTFj4oMW©EbRXJvGP:U0)x(9DGH8thq<br>
+Make : Nokia<br>
+Model : 6500s-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.81<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6500c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6500c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.21<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6315i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:02:14 14:38:43<br>
+DateTimeOriginal : 2010:02:14 14:38:43<br>
+DigitalZoomRatio : 2<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/21<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 510<br>
+Make : Nokia<br>
+Model : 6315i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208</td>
+<td class="unsupported">Software : M6500C-SNVQ-M04_0.169<br>
+Software : M6500C-SNVQ-M040.169<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6303i_classic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 13:58:33<br>
+DateTimeOriginal : 2010:06:08 13:58:33<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6303i classic<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.61<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6303classic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:02 14:23:42<br>
+DateTimeOriginal : 2010:06:02 14:23:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6303 classic<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 09.10<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 165</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6301.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 15:33:21<br>
+DateTimeOriginal : 2010:06:09 15:33:21<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6301<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 09.40<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6300i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:08:01 12:46:04<br>
+DateTimeOriginal : 2010:08:01 12:46:04<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 6300i<br>
+ResolutionUnit : inches<br>
+Software : V 03.41<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+Make : Nokia<br>
+Model : 6300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.01<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6290.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:13 10:11:07<br>
+DateTimeOriginal : 2010:04:13 10:11:07<br>
+DigitalZoomRatio : 1.41<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6290<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6288.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+UserComment : <br>
+Make : Nokia<br>
+Model : 6288<br>
+ResolutionUnit : inches<br>
+Software : V 05.92<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6280.jpg</td>
+<td class="supported">ResolutionUnit : inches</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6275i.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 6275i<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V BL290V0100.nep<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 167</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6275.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Make : Nokia<br>
+Model : 6275<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V BL190V0400.nep<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 166</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6267.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6267<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.22<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6263.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6263<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.44<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6234.jpg</td>
+<td class="supported">ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+ImageUniqueID : 4596cbbc13e8464901fe0165ed4fdcc9<br>
+PixelXDimension : 1592 px w<br>
+PixelYDimension : 1114 px h<br>
+Make : Nokia<br>
+Model : 6234<br>
+Orientation : 0<br>
+ResolutionUnit : inches<br>
+Software : V 04.52<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported">ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6233.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 6233<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.52<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6220c-1.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 19:57:42<br>
+DateTimeOriginal : 2010:06:09 19:57:42<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/33<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.6 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Flash<br>
+PixelXDimension : 2592 px w<br>
+PixelYDimension : 1944 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/33<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 502<br>
+Make : Nokia<br>
+Model : 6220c-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6212classic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:19 07:25:32<br>
+DateTimeOriginal : 2010:06:19 07:25:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : fWgCenTNYZ1-y1.QBd,cTFu3o2MWt©(XJVP:HFqxdG2Hx@8b ls5v5 IuFKPDk<br>
+Make : Nokia<br>
+Model : 6212 classic<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.20<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 165</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6210Navig.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:07:13 17:00:06<br>
+DateTimeOriginal : 2008:07:13 17:00:06<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1000<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+GainControl : None<br>
+ISO : 60<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/999<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 506<br>
+Make : Nokia<br>
+Model : 6210 Navig<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6210.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:12:31 02:29:32<br>
+DateTimeOriginal : 2009:12:31 02:29:32<br>
+DigitalZoomRatio : 1.62<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+GainControl : High gain up<br>
+ISO : 960<br>
+LightSource : Flash<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/15<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 506<br>
+Make : Nokia<br>
+Model : Nokia 6210<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6208c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:20 10:16:50<br>
+DateTimeOriginal : 2010:03:20 10:16:50<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @42z-7PkVlmw6fpOCenAsYZZMa,BQ.d04NFtOu35LWAnozb)jU0)x(9DGPKt8 lkKq5v/g /\IuFNK@icLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAs<br>
+Make : Nokia<br>
+Model : 6208c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.50<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported">DigitalZoomRatio : 1.321290323<br>
+DigitalZoomRatio : 1.3212903225806452<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6151.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 6151<br>
+ResolutionUnit : inches<br>
+Software : V 04.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6136.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+Make : Nokia<br>
+Model : 6136<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.21<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6133.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 6133<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.10<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6131.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Make : Nokia<br>
+Model : 6131<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.50<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6126.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 6126<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.28<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6125.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+Make : Nokia<br>
+Model : 6125<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 003.018.016<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 161</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6122.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:24 14:56:41<br>
+DateTimeOriginal : 2010:01:24 14:56:41<br>
+DigitalZoomRatio : 1.52<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : Nokia 6122<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 144</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6120c.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:01:05 14:57:20<br>
+DateTimeOriginal : 2008:01:05 14:57:20<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6120c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6111.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia6110.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:08 20:26:19<br>
+DateTimeOriginal : 2008:11:08 20:26:19<br>
+DigitalZoomRatio : 1.32<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 6110<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5800Xpres.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:04:24 20:12:28<br>
+DateTimeOriginal : 2009:04:24 20:12:28<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/111<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : None<br>
+ISO : 74<br>
+LightSource : Unknown<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/111<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 518<br>
+GPSAltitude : 96 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSLatitude : 60° 48' 20.0000" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 25° 2' 50.0000" E<br>
+GPSLongitudeRef : East<br>
+GPSVersion : 2.2.0.0<br>
+Make : Nokia<br>
+Model : 5800 Xpres<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 156<br>
+_IFDpointer_GPS : 1966</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5730S-1.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 22:31:44<br>
+DateTimeOriginal : 2010:06:08 22:31:44<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : High gain up<br>
+ISO : 480<br>
+LightSource : Flash<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/17<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 502<br>
+Make : Nokia<br>
+Model : 5730S-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5700.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:21 11:41:09<br>
+DateTimeOriginal : 2008:11:21 11:41:09<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Flash<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 5700<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5630d-1.jpg</td>
+<td class="supported">ApertureValue : 1.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:11:23 16:03:10<br>
+DateTimeOriginal : 2009:11:23 16:03:10<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/20<br>
+FNumber : 2.4<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.3 mm<br>
+GainControl : High gain up<br>
+ISO : 319<br>
+LightSource : Flash<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/20<br>
+SubsecTime : 406<br>
+SubsecTimeDigitized : 406<br>
+SubsecTimeOriginal : 406<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 538<br>
+Make : Nokia<br>
+Model : 5630d-1<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 140</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5610d-1.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:09 12:52:04<br>
+DateTimeOriginal : 2010:06:09 12:52:04<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+UserComment : <br>
+_IFDpointer_Makernote : @NK@iHS3S2z-7kVlmw6fp(rRsAYZ-D,1B0Tk)FXj3kw@M©EbRXppfjUvJRJLHC96 .h:Gs/b9\S9@eH8/EuMkEcU4KX9YrK7qi4EZuBd,24HJNu7d(iPhifAKn-JTrIH7wGu6g b5vza/59\huQLfDDy84z<br>
+Make : Nokia<br>
+Model : 5610d-1<br>
+ResolutionUnit : inches<br>
+Software : V 06.60<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5500.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:12:30 01:49:48<br>
+DateTimeOriginal : 2006:12:30 01:49:48<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 5500<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 125</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5320.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:02:16 08:09:38<br>
+DateTimeOriginal : 2009:02:16 08:09:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1152 px w<br>
+PixelYDimension : 864 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 5320<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5310XpressMusic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:10:26 10:57:57<br>
+DateTimeOriginal : 2008:10:26 10:57:57<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 5310 XpressMusic<br>
+ResolutionUnit : inches<br>
+Software : V 05.81<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5300.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 5300<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.51<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5250.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:12:10 11:14:49<br>
+DateTimeOriginal : 2010:12:10 11:14:49<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/333<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : None<br>
+ISO : 60<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/333<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : 5250<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5235.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 11:51:02<br>
+DateTimeOriginal : 2010:06:08 11:51:02<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/250<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : None<br>
+ISO : 60<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/250<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : 5235<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5233.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:12:21 10:20:48<br>
+DateTimeOriginal : 2010:12:21 10:20:48<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/33<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : High gain up<br>
+ISO : 138<br>
+LightSource : Unknown<br>
+PixelXDimension : 1227 px w<br>
+PixelYDimension : 1078 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/33<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 622<br>
+DateTime : 2011:01:02 13:10:33<br>
+Make : Nokia<br>
+Model : 5233<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">UserComment : Edited with Nokia Image Editor 2.7.4<br>
+UserComment : 2070<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5230.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:04 19:20:50<br>
+DateTimeOriginal : 2010:06:04 19:20:50<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1000<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : Low gain up<br>
+ISO : 64<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/999<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : 5230<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5228.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:09:11 15:01:18<br>
+DateTimeOriginal : 2010:09:11 15:01:18<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1000<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+GainControl : None<br>
+ISO : 60<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/999<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : 500<br>
+Make : Nokia<br>
+Model : 5228<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 138</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5220XpressMusic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2009:10:02 10:16:17<br>
+DateTimeOriginal : 2009:10:02 10:16:17<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 5220 XpressMusic<br>
+ResolutionUnit : inches<br>
+Software : V 04.86<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5200.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+Make : Nokia<br>
+Model : 5200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.92<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5130c-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:09 16:10:46<br>
+DateTimeOriginal : 2010:06:09 16:10:46<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 5130c-2<br>
+ResolutionUnit : inches<br>
+Software : V 07.91<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 216</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5000d-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 17:04:09<br>
+DateTimeOriginal : 2010:06:09 17:04:09<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 5000d-2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.31<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia5000.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:01:07 15:07:14<br>
+DateTimeOriginal : 2010:01:07 15:07:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 5000<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.50<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3720c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2010:06:06 22:53:17<br>
+DateTimeOriginal : 2010:06:06 22:53:17<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 3720c<br>
+ResolutionUnit : inches<br>
+Software : V 09.10<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 214</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3710fold.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:06 19:03:06<br>
+DateTimeOriginal : 2010:06:06 19:03:06<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1536 px w<br>
+PixelYDimension : 2048 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 3710 fold<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.80<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 162</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3610a.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 3610a<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.56<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3600slide.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:11 18:12:29<br>
+DateTimeOriginal : 2010:06:11 18:12:29<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @i;©EbRqXJ:U0)x(9DGH8thq/ggvec3iaOr: -s0q6kVlmw6f5xnENf1aBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8<br>
+Make : Nokia<br>
+Model : 3600 slide<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.26<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 163</td>
+<td class="unsupported">DigitalZoomRatio : 1.110629067<br>
+DigitalZoomRatio : 1.1106290672451193<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3600s.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:04 21:23:30<br>
+DateTimeOriginal : 2010:03:04 21:23:30<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : @dNM©E(JPJP:U0)x(9DGH8th55 H:W :(@)SK@4ISbf4mXd057kVlmwyI8CeREM2Y1-.QBd,cTjoMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH8thqgv5 /\IuFNK@iaLS3;r2z-7kVlmw6fpOCenAsYZy1.QBd,cTj4oMW©EbRXJP:U0)x(9DGH<br>
+Make : Nokia<br>
+Model : 3600s<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.11<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3555c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Make : Nokia<br>
+Model : 3555c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.38<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3555.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+Make : Nokia<br>
+Model : 3555<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 03.46<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3500c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Make : Nokia<br>
+Model : 3500c<br>
+ResolutionUnit : inches<br>
+Software : V 07.21<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 146</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3310.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3250.jpg</td>
+<td class="supported">ApertureValue : 3.0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:02:18 06:56:32<br>
+DateTimeOriginal : 2007:02:18 06:56:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.9 mm<br>
+LightSource : Unknown<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Manual<br>
+Make : Nokia<br>
+Model : 3250<br>
+YCbCrPositioning : Centered<br>
+_IFDpointer_EXIF : 74</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3120classic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:10 01:04:16<br>
+DateTimeOriginal : 2010:06:10 01:04:16<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Makernote : Zny1-QmBdU,cTj4oMWZ/AoXv8Q@(©D;tl©FQK©2\H\IuFBNK@iaf<br>
+Make : Nokia<br>
+Model : 3120classic<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 07.16<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia3110c.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 1280 px h<br>
+Make : Nokia<br>
+Model : 3110c<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 04.91<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 158</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia2730classic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:03:16 18:16:47<br>
+DateTimeOriginal : 2010:03:16 18:16:47<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 2730 classic<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 07.70<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 165</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia2720a-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:07 09:05:35<br>
+DateTimeOriginal : 2010:06:07 09:05:35<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 960 px w<br>
+PixelYDimension : 1280 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 2720a-2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 09.55<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia2700classic.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:09 13:40:32<br>
+DateTimeOriginal : 2010:06:09 13:40:32<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 2700 classic<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 07.15<br>
+XResolution : 300.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 300.00000000<br>
+_IFDpointer_EXIF : 165</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia2690.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:03 21:13:24<br>
+DateTimeOriginal : 2010:06:03 21:13:24<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 2690<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 09.70<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 157</td>
+<td class="unsupported">DigitalZoomRatio : 1.732656514<br>
+DigitalZoomRatio : 1.7326565143824026<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia2680s-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:06:08 20:30:27<br>
+DateTimeOriginal : 2010:06:08 20:30:27<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 2680s-2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 05.28<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Nokia/Nokia2330c-2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:05:31 18:52:05<br>
+DateTimeOriginal : 2010:05:31 18:52:05<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 640 px h<br>
+SceneCaptureType : Night scene<br>
+WhiteBalance : Auto<br>
+Make : Nokia<br>
+Model : 2330c-2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V 06.75<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 160</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,3784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Agfa/Agfa_sensor505-D.jpg</td>
+<td class="supported">ImageDescription : My beautiful picture<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/14<br>
+FNumber : 2.8<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2008:01:01 00:13:12<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/14<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/Agfa_sensor505-D.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Agfa_sensor505-D.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 7.1 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : AgfaPhoto<br>
+Make : AgfaPhot<br>
+<br>
+Model : sensor 505-D<br>
+Model : sensor 505-<br>
+<br>
+Software : Sensor 505-D.00.47<br>
+Software : Sensor 505-D.00.4<br>
+<br>
+ModifyDate : 2008:01:01 00:13:12<br>
+ModifyDate : undefined<br>
+<br>
+Copyright : Copyright 2007<br>
+Copyright : Copyright 200<br>
+<br>
+CreateDate : 2008:01:01 00:13:12<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.045931133<br>
+CompressedBitsPerPixel : 2.045931133465427<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1326<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5703<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/14<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5703 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 6.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhotoCL50.jpg</td>
+<td class="supported">ImageDescription : AGFA DIGITAL CAMERA<br>
+Make : Agfa Gevaert<br>
+Model : SR841<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v841-72<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/811<br>
+FNumber : 9.3<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 1999:07:10 15:57:21<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Unknown<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 7.9 mm<br>
+UserComment : 642<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/Agfa_ePhotoCL50.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Agfa_ePhotoCL50.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 6.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 1999:07:10 15:57:21<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 1999:07:10 15:57:21<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2024<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3642<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 9.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/811<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3642 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.9 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 16.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhotoCL30.jpg</td>
+<td class="supported">Make : Agfa<br>
+Model : ePhoto CL30<br>
+XResolution : 144.00000000<br>
+YResolution : 144.00000000<br>
+ResolutionUnit : 0<br>
+Software : 1.70C<br>
+YCbCrPositioning : 0<br>
+ExifVersion : 2.00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : 0</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/Agfa_ePhotoCL30.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Agfa_ePhotoCL30.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 2.2 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : Exif_Jpeg<br>
+ImageDescription : ExifJpeg<br>
+<br>
+ExifImageWidth : 1152<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 864<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : Unknown (0)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 235870<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5913<br>
+ThumbnailLength : undefined<br>
+<br>
+DateTimeOriginal : 1999:12:13 14:32:05<br>
+DateTimeOriginal : undefined<br>
+<br>
+ExposureTime : 1/109<br>
+ExposureTime : undefined<br>
+<br>
+Flash : On<br>
+Flash : undefined<br>
+<br>
+Resolution : 3<br>
+Resolution : undefined<br>
+<br>
+ColorMode : 1<br>
+ColorMode : undefined<br>
+<br>
+FNumber : 8<br>
+FNumber : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+CameraType : AC100<br>
+CameraType : undefined<br>
+<br>
+Version : 1.70C-A0407B<br>
+Version : undefined<br>
+<br>
+ID : AGFA DIGITAL CAMERA<br>
+ID : undefined<br>
+<br>
+RSD : 4<br>
+RSD : undefined<br>
+<br>
+GSD : 4<br>
+GSD : undefined<br>
+<br>
+BSD : 3<br>
+BSD : undefined<br>
+<br>
+RHL : 247<br>
+RHL : undefined<br>
+<br>
+GHL : 255<br>
+GHL : undefined<br>
+<br>
+BHL : 216<br>
+BHL : undefined<br>
+<br>
+RMean : 102<br>
+RMean : undefined<br>
+<br>
+GMean : 105<br>
+GMean : undefined<br>
+<br>
+BMean : 86<br>
+BMean : undefined<br>
+<br>
+ROutputRef : 128<br>
+ROutputRef : undefined<br>
+<br>
+GOutputRef : 128<br>
+GOutputRef : undefined<br>
+<br>
+BOutputRef : 128<br>
+BOutputRef : undefined<br>
+<br>
+RGamma : 1.3<br>
+RGamma : undefined<br>
+<br>
+GGamma : 1.31<br>
+GGamma : undefined<br>
+<br>
+BGamma : 1.36<br>
+BGamma : undefined<br>
+<br>
+ExposRatio : 0.48<br>
+ExposRatio : undefined<br>
+<br>
+Iris : 80<br>
+Iris : undefined<br>
+<br>
+ITem : 36<br>
+ITem : undefined<br>
+<br>
+Gain : 85<br>
+Gain : undefined<br>
+<br>
+Offset : 10<br>
+Offset : undefined<br>
+<br>
+FlashTime : 10<br>
+FlashTime : undefined<br>
+<br>
+IrisPos : 0<br>
+IrisPos : undefined<br>
+<br>
+MotorPos : 20480<br>
+MotorPos : undefined<br>
+<br>
+FullyAuto : 0<br>
+FullyAuto : undefined<br>
+<br>
+Exposure0-1 : 80-80<br>
+Exposure0-1 : undefined<br>
+<br>
+Focus : 80<br>
+Focus : undefined<br>
+<br>
+Compress : 0<br>
+Compress : undefined<br>
+<br>
+WhiteBalance : 80<br>
+WhiteBalance : undefined<br>
+<br>
+Timer : 80<br>
+Timer : undefined<br>
+<br>
+Ext_Flash : 80<br>
+Ext_Flash : undefined<br>
+<br>
+Pic_Format : 0<br>
+Pic_Format : undefined<br>
+<br>
+PresetMode : 0<br>
+PresetMode : undefined<br>
+<br>
+RHighLight : 255<br>
+RHighLight : undefined<br>
+<br>
+GHighLight : 0<br>
+GHighLight : undefined<br>
+<br>
+BHighLight : 255<br>
+BHighLight : undefined<br>
+<br>
+RfHighLight : 0<br>
+RfHighLight : undefined<br>
+<br>
+GfHighLight : 0<br>
+GfHighLight : undefined<br>
+<br>
+BfHighLight : 0<br>
+BfHighLight : undefined<br>
+<br>
+RfMean : 0<br>
+RfMean : undefined<br>
+<br>
+GfMean : 0<br>
+GfMean : undefined<br>
+<br>
+BfMean : 0<br>
+BfMean : undefined<br>
+<br>
+RStdDev : 0<br>
+RStdDev : undefined<br>
+<br>
+GStdDev : 0<br>
+GStdDev : undefined<br>
+<br>
+BStdDev : 0<br>
+BStdDev : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/109<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5913 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhotoCL18.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/Agfa_ePhotoCL18.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Agfa_ePhotoCL18.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 302 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 150<br>
+XResolution : undefined<br>
+<br>
+YResolution : 150<br>
+YResolution : undefined<br>
+<br>
+Comment : LEAD Technologies Inc. V1.01<br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhoto1680.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/Agfa_ePhoto1680.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Agfa_ePhoto1680.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 269 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 144<br>
+XResolution : undefined<br>
+<br>
+YResolution : 144<br>
+YResolution : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/Agfa_ePhoto1280.jpg</td>
+<td class="supported"></td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/Agfa_ePhoto1280.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : Agfa_ePhoto1280.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 269 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 144<br>
+XResolution : undefined<br>
+<br>
+YResolution : 144<br>
+YResolution : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaSnapScan_e25.jpg</td>
+<td class="supported">Make : Agfa<br>
+Model : SnapScan e25<br>
+PageName : Reflective</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaSnapScan_e25.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaSnapScan_e25.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 411 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 600<br>
+XResolution : undefined<br>
+<br>
+YResolution : 600<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+CreateDate : 2010:12:20 16:24:47<br>
+CreateDate : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaSR841.jpg</td>
+<td class="supported">ImageDescription : AGFA DIGITAL CAMERA<br>
+Make : Agfa Gevaert<br>
+Model : SR841<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : v841p-73<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2002:04:18 11:05:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 1<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Unknown<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 5.3 mm<br>
+UserComment : 642<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaSR841.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaSR841.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.4 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2002:04:18 11:05:28<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2002:04:18 11:05:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +3/2<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 1280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 960<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 2042<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6314<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/20<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6314 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 7.3<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA8328m.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : OPTIMA 8328m<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/738<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:07:05 13:07:56<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/738<br>
+ApertureValue : 5.6<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light not detected<br>
+FocalLength : 6.2 mm<br>
+UserComment : 805<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA8328m.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA8328m.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 0.7201<br>
+Software : 0.720<br>
+<br>
+ModifyDate : 2011:07:05 13:07:56<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:07:05 13:07:56<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3819<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6865<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/738<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6865 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.14 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 15.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA2338mT.jpg</td>
+<td class="supported">Make : AGFAPHOTO<br>
+Model : OPTIMA 2338mT<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.40.00.00<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/60<br>
+FNumber : 3.1<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:03:05 23:11:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3.778152<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Standard<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Close view</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA2338mT.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA2338mT.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 180 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:03:05 23:11:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:03:05 23:11:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+UserComment : PL 0417 0633 PB 0430 0604 CL 0580 0381 t 0671 0315 CB 0482 0456 t 0557 0376 t 0588 0380 RH 0671 RL 0428 BH 0531 BL 0308 i 030 009 I 034 009 T 2 V 05.5 S 1 FR 000.21 WN 0125 WF 0583 m 00
+ V 06.2T0587 Y 0496 I 0 S 000050 G 0924 I 0 S 000060 G 0199 C 000060 C 0199 V 001 L 317 G 0392 C 2 D 0256
+ZP 0628 FR 04 FJ +315 FT +02 FM 01 FP +382
+R 8448 PM 0002 CM 0122 PO -100 PO -100 CO 3259 CO 3278 S 0224 Y 0507 R 0473 B 0475 SO 0758 YO 1006 RO 1066 BO 0878 F P767
+0.40.00.00  BarCo_A095HD101055    0    ST 00 F 01 I 0000.<br>
+UserComment : 37920<br>
+<br>
+ExifImageWidth : 4000<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3000<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 36 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 46512<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2951<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 135074 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2951 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.3 mm (35 mm equivalent: 36.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.43 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA1438m.jpg</td>
+<td class="supported">ImageDescription : DIGITAL CAMERA<br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 1438m<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 180.00000000<br>
+YResolution : 180.00000000<br>
+ResolutionUnit : inches<br>
+Software : V1.03    AVIT<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/286<br>
+FNumber : 5.1<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:29 08:19:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/286<br>
+ApertureValue : 5.1<br>
+MaxApertureValue : 2.9<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Daylight<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 5.8 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Manual<br>
+SceneCaptureType : Standard<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA1438m.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA1438m.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 51 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:29 08:19:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:29 08:19:31<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : -1<br>
+ExposureCompensation : undefined<br>
+<br>
+PreviewImage : (Binary data 38896 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ExifImageWidth : 640<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 480<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 40928<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 10656<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/286<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 10656 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 5.8 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA1338mT.jpg</td>
+<td class="supported">Make : AGFAPHOTO<br>
+Model : OPTIMA 1338mT<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.59.01<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/250<br>
+FNumber : 3.1<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:02 14:42:57<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired<br>
+FocalLength : 6.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 0<br>
+SceneCaptureType : Night scene<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Distant view</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA1338mT.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA1338mT.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 181 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:02 14:42:57<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:02 14:42:57<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 2.557511286<br>
+CompressedBitsPerPixel : 2.5575112855237507<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+UserComment : PL 0486 0520 PB 0522 0431 CL 0456 0527 t 0555 0375 CB 0516 0472 t 0627 0335 t 0620 0348 RH 0555 RL 0510 BH 0420 BL 0375 i 039 003 I 038 005 T 0 V 14.1 S 1 FR 001.63 WN 0474 WF 0291 m 00
+ V 14.3T0486 Y 0443 I 1 S 001412 G 0399 I 1 S 000250 G 0080 C 002000 C 0199 V 001 L 588 G 0506 C 2 D 0256
+ZP 0629 FR 00 FJ +327 FT +00 FM 01 FP +367
+R 8225 PM 0012 CM 0126 PO -050 PO -050 CO 1900 CO 1673 S 0338 Y 0530 R 0450 B 0551 SO 0852 YO 1020 RO 1038 BO 0921 F P767
+0.59.01     BarCo_A08BFA102156         ST 08 F 01 I 0000.<br>
+UserComment : 37918<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 36 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 43694<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2769<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 138307 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/250<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2769 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 53.1 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.3 mm (35 mm equivalent: 36.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.43 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 10.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA105.jpg</td>
+<td class="supported">Make : AgfaPhoto<br>
+Model : OPTIMA 105<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.4200<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/60<br>
+FNumber : 3.3<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:07:01 14:38:31<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 8<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 3.3<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FocalLength : 8.4 mm<br>
+FlashpixVersion : 1.00<br>
+ExposureProgram : Program AE<br>
+ColorSpace : sRGB<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal<br>
+SceneCaptureType : Standard<br>
+ExposureMode : Auto</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA105.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA105.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.3 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : ?<br>
+ImageDescription : <br>
+<br>
+ModifyDate : 2011:07:01 14:38:31<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:06:26 10:02:00<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 778 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+UserComment : Edited with Nokia Editor Application<br>
+UserComment : 1529<br>
+<br>
+ExifImageWidth : 3915<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1953<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 50 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1723<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6518<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6518 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 39.6 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 8.4 mm (35 mm equivalent: 50.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 4.24 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA104.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 104<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.370<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2010<br>
+ExposureTime : 1/60<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:05:06 18:49:10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+UserComment : 3842<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : 27<br>
+Contrast : Normal<br>
+Saturation : Normal<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA104.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA104.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 61 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:05:06 18:49:10<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:05:06 18:49:10<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 5.1 mm<br>
+FocalLength : 5 mm<br>
+<br>
+MakerNoteUnknownText : (Binary data 3000 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 1 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 4000<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3000<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4296<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7611<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2011:05:06 18:49:10.1 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7611 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 5.0 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.68 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA103.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 103<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.410<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/291<br>
+FNumber : 6.3<br>
+ExposureProgram : Landscape<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:05:15 15:05:10<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 7<br>
+ShutterSpeedValue : 1/291<br>
+ApertureValue : 6.3<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 20.2 mm<br>
+UserComment : 3842<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Saturation : High saturation<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA103.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA103.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 45 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:05:15 15:05:10<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:05:15 15:05:10<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 3000 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 1 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 4000<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3000<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 112 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Contrast : High<br>
+Contrast : Hard<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4296<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7226<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/291<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2011:05:15 15:05:10.1 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7226 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 18.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 20.2 mm (35 mm equivalent: 112.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 11.95 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA102.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 102<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.050<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/112<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:22 16:51:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/112<br>
+ApertureValue : 3.0<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 6.2 mm<br>
+UserComment : 772<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA102.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA102.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:22 16:51:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:22 16:51:50<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 1 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3786<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11266<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/112<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2010:05:22 16:51:50.1 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11266 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.41 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 11<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaOPTIMA100.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : OPTIMA 100<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.050<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/60<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:18 19:43:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 3.0<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.2 mm<br>
+UserComment : 772<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaOPTIMA100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaOPTIMA100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:18 19:43:38<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:18 19:43:38<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 0 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3786<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 11062<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2010:05:18 19:43:38.0 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 11062 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.41 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-833m.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : DC-833m<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.770<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/65<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 50<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:20 19:29:40<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/65<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 6.2 mm<br>
+UserComment : 800<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-833m.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-833m.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:20 19:29:40<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:20 19:29:40<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3814<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7572<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/65<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7572 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 10<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-733s.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : DC-733s<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 1.080<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2007<br>
+ExposureTime : 1/30<br>
+FNumber : 2.8<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:28 17:11:38<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/30<br>
+ApertureValue : 2.8<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.2 mm<br>
+UserComment : 800<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-733s.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-733s.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:28 17:11:38<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:04:28 17:11:38<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3072<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2304<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3814<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8186<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/30<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8186 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.006 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.28 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 7.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-600uw.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : M6131A-0208<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2002<br>
+ExposureTime : 1/229<br>
+FNumber : 7<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:08:05 15:56:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/225<br>
+ApertureValue : 7.0<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Multi-segment<br>
+LightSource : Cloudy weather<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : RelatedSound<br>
+ExposureIndex : 1<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-600uw.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-600uw.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 44 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ImageDescription : Digital Camera<br>
+ImageDescription : Digital Camer<br>
+<br>
+Make : AgfaPhoto<br>
+Make : AgfaPhot<br>
+<br>
+Model : DC-600uw<br>
+Model : DC-600u<br>
+<br>
+ModifyDate : 2010:08:05 15:56:50<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:08:05 15:56:50<br>
+CreateDate : undefined<br>
+<br>
+CompressedBitsPerPixel : 3.692650493<br>
+CompressedBitsPerPixel : 3.6926504928546833<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Flash : Unknown (0x1e)<br>
+Flash : 30<br>
+<br>
+PreviewImage : (Binary data 40960 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+Warning : Invalid EXIF text encoding<br>
+Warning : undefined<br>
+<br>
+UserComment : 0000001,0000140,0000141,0000588,0000353,0000085,0000201,0000167,0000144,0000076,0000595,0000352,0000130,-000256,-000256,-000256,-000256,0000000,0000000,0000000,<br>
+UserComment : 0000001,0000140,0000141,0000588,0000353,0000085,0000201,0000167,0000144,0000076,0000595,0000352,0000130,-000256,-000256,-000256,-000256,0000000,0000000,0000000<br>
+<br>
+ExifImageWidth : 2816<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2112<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 41982<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 2942<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 7<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/229<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 2942 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-500.jpg</td>
+<td class="supported">Software : V7.4.0.5<br>
+Make : AGFAPHOTO<br>
+Model : DC-500<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/192<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2004:01:08 01:58:29<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 9.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 0</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-500.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-500.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.5 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2004:01:08 01:58:29<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2004:01:08 01:58:29<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +12.8<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 717<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7731<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Sunplus Corp. ?<br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/192<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7731 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.8<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-302.jpg</td>
+<td class="supported">Software : V0.2.1.L<br>
+Make : AGFAPHOTO<br>
+Model : DC-302<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/921<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.10<br>
+DateTimeOriginal : 2007:01:01 02:31:41<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Center-weighted average<br>
+LightSource : Unknown<br>
+Flash : No Flash<br>
+FocalLength : 9.7 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : 8</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-302.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-302.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 8.6 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:01:01 02:31:41<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:01:01 02:31:41<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : +14.9<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 717<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7823<br>
+ThumbnailLength : undefined<br>
+<br>
+Comment : Sunplus Corp. <br>
+Comment : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 1/921<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7823 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 9.7 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 13<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-2030m.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Ver 922<br>
+YCbCrPositioning : Centered<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/120<br>
+FNumber : 3.1<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:13 14:56:48<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 5<br>
+ShutterSpeedValue : 1/125<br>
+ApertureValue : 3.1<br>
+MaxApertureValue : 3.1<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : On, Flash fired, compulsory flash mode, strobe return light detected<br>
+FocalLength : 6.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+SensingMethod : One-chip color area<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-2030m.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-2030m.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 71 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Model : DC-2030m<br>
+Model : DC-2030<br>
+<br>
+ModifyDate : 2010:05:13 14:56:48<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:13 14:56:48<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Unrecognized MakerNotes<br>
+Warning : undefined<br>
+<br>
+ExifImageWidth : 2272<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1704<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 38 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 4664<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8435<br>
+ThumbnailLength : undefined<br>
+<br>
+PreviewImage : (Binary data 59046 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/120<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8435 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 50.7 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.3 mm (35 mm equivalent: 38.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.57 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 9.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaDC-1033m.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AGFAPHOTO<br>
+Model : DC-1033m<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2008<br>
+ExposureTime : 1/378<br>
+FNumber : 5.6<br>
+ExposureProgram : Program AE<br>
+ISO : 100<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:21 15:52:28<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+ShutterSpeedValue : 1/378<br>
+ApertureValue : 5.6<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FocalLength : 6.2 mm<br>
+UserComment : 801<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaDC-1033m.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaDC-1033m.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Software : 0.8402<br>
+Software : 0.840<br>
+<br>
+ModifyDate : 2010:05:21 15:52:28<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2010:05:21 15:52:28<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 35 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3815<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6876<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 5.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/378<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6876 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 54.4 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 35.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.29 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaCompact102.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : Compact 102<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.960<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/60<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2011:06:01 03:27:58<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 7<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 3.0<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.2 mm<br>
+UserComment : 773<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Normal</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaCompact102.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaCompact102.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2011:06:01 03:27:58<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2011:06:01 03:27:58<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 1 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 4000<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3000<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3787<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 5651<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2011:06:01 03:27:58.1 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 5651 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 51.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 37.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.54 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaCompact100.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : AgfaPhoto<br>
+Model : Compact 100<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 96.00000000<br>
+YResolution : 96.00000000<br>
+ResolutionUnit : inches<br>
+Software : 0.960<br>
+YCbCrPositioning : Co-sited<br>
+Copyright : Copyright 2009<br>
+ExposureTime : 1/60<br>
+FNumber : 3<br>
+ExposureProgram : Program AE<br>
+ISO : 200<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:02:21 16:18:00<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 7<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 3.0<br>
+MaxApertureValue : 3.0<br>
+MeteringMode : Multi-spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 6.2 mm<br>
+UserComment : 773<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+RelatedSoundFile : <br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+Sharpness : Hard</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaCompact100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaCompact100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 64 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:02:21 16:18:00<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2009:02:21 16:18:00<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : (Binary data 2560 bytes, use -b option to extract)<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+SubSecTime : 1 <br>
+SubSecTime : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2736<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 37 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 3787<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8965<br>
+ThumbnailLength : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+SubSecModifyDate : 2009:02:21 16:18:00.1 <br>
+SubSecModifyDate : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8965 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.005 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 51.9 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 6.2 mm (35 mm equivalent: 37.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 2.54 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 8.1<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Agfa/AgfaARCUS_II.jpg</td>
+<td class="supported">Orientation : Horizontal (normal)<br>
+XResolution : 140.00000000<br>
+YResolution : 140.00000000<br>
+ResolutionUnit : inches<br>
+Software : Adobe Photoshop 7.0</td>
+<td class="unsupported">SourceFile : sampleImages/Agfa/AgfaARCUS_II.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : AgfaARCUS_II.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Agfa<br>
+Directory : undefined<br>
+<br>
+FileSize : 27 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+XMPToolkit : XMP toolkit 2.8.2-33, framework 1.5<br>
+XMPToolkit : undefined<br>
+<br>
+About : uuid:99e3a6d2-ab71-11d8-a734-f5ed6cd01ff9<br>
+About : undefined<br>
+<br>
+DocumentID : adobe:docid:photoshop:99e3a6d0-ab71-11d8-a734-f5ed6cd01ff9<br>
+DocumentID : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+Make : AGFA<br>
+Make : AGF<br>
+<br>
+Model : ARCUS II<br>
+Model : ARCUS I<br>
+<br>
+ModifyDate : 2004:05:19 22:30:59<br>
+ModifyDate : undefined<br>
+<br>
+ColorSpace : Uncalibrated<br>
+ColorSpace : 65535<br>
+<br>
+ExifImageWidth : 200<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 200<br>
+ExifImageHeight : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 5038<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 6612<br>
+ThumbnailLength : undefined<br>
+<br>
+IPTCDigest : 00000000000000000000000000000000<br>
+IPTCDigest : undefined<br>
+<br>
+DisplayedUnitsX : inches<br>
+DisplayedUnitsX : undefined<br>
+<br>
+DisplayedUnitsY : inches<br>
+DisplayedUnitsY : undefined<br>
+<br>
+GlobalAngle : 30<br>
+GlobalAngle : undefined<br>
+<br>
+GlobalAltitude : 30<br>
+GlobalAltitude : undefined<br>
+<br>
+CopyrightFlag : false<br>
+CopyrightFlag : undefined<br>
+<br>
+PhotoshopThumbnail : (Binary data 6612 bytes, use -b option to extract)<br>
+PhotoshopThumbnail : undefined<br>
+<br>
+PhotoshopQuality : 10<br>
+PhotoshopQuality : undefined<br>
+<br>
+PhotoshopFormat : Standard<br>
+PhotoshopFormat : undefined<br>
+<br>
+ProgressiveScans : 3 Scans<br>
+ProgressiveScans : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ThumbnailImage : (Binary data 6612 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

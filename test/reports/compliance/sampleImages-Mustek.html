@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Mustek/MustekMDC832z.jpg</td>
+<td class="supported">ApertureValue : 3.4<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:05:17 16:27:26<br>
+DateTimeOriginal : 2006:05:17 16:27:26<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.3333333333333333<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/30<br>
+FNumber : 3.5<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash fired, auto mode, red-eye reduction mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.3 mm<br>
+ISO : 100<br>
+LightSource : Flash<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 3264 px w<br>
+PixelYDimension : 2448 px h<br>
+SceneCaptureType : Portrait<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 0.7<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 832<br>
+_IFDpointer_Makernote : 704<br>
+DateTime : 2006:05:17 16:27:26<br>
+ImageDescription : <br>
+Make : Digital Camera<br>
+Model : 8MP-9T9<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 1.0000.8N<br>
+XResolution : 180.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 180.00000000<br>
+_IFDpointer_EXIF : 266</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/MustekMDC530z.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:05:17 16:32:26<br>
+DateTimeOriginal : 2006:05:17 16:32:26<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Portrait<br>
+ExposureTime : 1/286<br>
+FNumber : 4.2<br>
+FileSource : Digital Camera<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Portrait<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 10680<br>
+_IFDpointer_Makernote : 672<br>
+DateTime : 2006:05:17 16:32:26<br>
+ImageDescription : DIGITAL CAMERA<br>
+Make : CAMERA<br>
+Model : 5MP-9Q3<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.08P<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 226</td>
+<td class="unsupported">FocalLength : 12.0 mm<br>
+FocalLength : 12 mm<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/MustekDV5300SE.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 1970:01:01 00:00:00<br>
+DateTimeOriginal : 1970:01:01 00:00:00<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.6 mm<br>
+ISO : 100<br>
+MaxApertureValue : 2.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+RelatedSoundFile : 1.0y, 2005/<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 1017<br>
+DateTime : 1970:01:01 00:00:00<br>
+ImageDescription : IMAG0120.JPG<br>
+Make : MUSTEK<br>
+Model : DV5300SE<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : V1.0y, 2005/11/28<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported">FNumber : 3.1<br>
+FNumber : 3.05<br>
+<br>
+LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+UserComment : EFFECT=OFF, SCENE=AUTO<br>
+UserComment : 643<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek6LZ.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:06:14 11:26:17<br>
+DateTimeOriginal : 2005:06:14 11:26:17<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/86<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.8 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 5.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneType : 221<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 2005:06:14 11:26:17<br>
+ImageDescription : MW 2.30<br>
+Make : Mustek<br>
+Model : 6LZ<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported">FNumber : 3.7<br>
+FNumber : 3.66<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek5LF-SF.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2005:02:14 02:06:34<br>
+DateTimeOriginal : 2005:02:14 02:06:34<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/15<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 10.8 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : 239<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 2005:02:14 02:06:34<br>
+ImageDescription : FW V1.11<br>
+Make : Mustek<br>
+Model : 5LF-SF<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek2400CU_Plus.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:12:10 21:53:37<br>
+Make : WIA<br>
+Model : 2400CU Plus<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek1248UB.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:11:03 17:30:58<br>
+Make : WIA<br>
+Model : MUSTEK 1248UB<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mustek/Mustek1200UB_Plus.jpg</td>
+<td class="supported">DateTimeDigitized : 2010:10:15 21:08:47<br>
+Make : WIA<br>
+Model : 1200 UB Plus<br>
+PageName : Reflective<br>
+_IFDpointer_EXIF : 92</td>
+<td class="unsupported"></td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

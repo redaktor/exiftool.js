@@ -1,0 +1,2387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/KDDI/KDDI_talby.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:03:05 20:17:21<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+Make : KDDI-ST<br>
+Model : talby<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 050305_2017~001<br>
+ImageDescription : 0503052017001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W64SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2010:04:26 13:33:38<br>
+DateTimeOriginal : 2010:04:26 13:33:38<br>
+ExifVersion : 2.20<br>
+ExposureBias : 9<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/120<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 800 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2010:04:26 13:33:43<br>
+Make : KDDI-SA<br>
+Model : W64SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+ImageDescription : 100426_1333<br>
+ImageDescription : 1004261333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W61CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2009:04:11 18:41:56<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+ExposureTime : 1/11<br>
+Flash : Auto, Flash fired<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-CA<br>
+Model : W61CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 392</td>
+<td class="unsupported">ImageDescription : 090411_1841~0002<br>
+ImageDescription : 09041118410002<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W55T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:11:30 01:29:25<br>
+DateTimeOriginal : 2008:11:30 01:29:25<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 452<br>
+ImageDescription : TS3G0002<br>
+Make : KDDI-TS<br>
+Model : W55T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : 72<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174<br>
+PrintIM : 482</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W54T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:08:23 22:19:08<br>
+DateTimeOriginal : 2008:08:23 22:19:08<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 800 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : W54T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">ImageDescription : 080823_2219<br>
+ImageDescription : 0808232219<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W53T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:08:27 12:53:59<br>
+DateTimeOriginal : 2009:08:27 12:53:59<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : W53T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">ImageDescription : 090827_1253<br>
+ImageDescription : 0908271253<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W53CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:09:04 11:06:38<br>
+DateTimeOriginal : 2007:09:04 11:06:38<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/1587<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2560 px w<br>
+PixelYDimension : 1920 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 484<br>
+_IFDpointer_Makernote : 440<br>
+ImageDescription : CA390085<br>
+Make : KDDI-CA<br>
+Model : W53CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174<br>
+PrintIM : 514</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:08:19 11:41:02<br>
+DateTimeOriginal : 2008:08:19 11:41:02<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 480 px w<br>
+PixelYDimension : 800 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : W52T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">ImageDescription : 080819_1141<br>
+ImageDescription : 0808191141<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2008:11:22 17:29:01<br>
+DigitalZoomRatio : 1.291015625<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/5<br>
+FileSource : Digital Camera<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+Make : KDDI-SH<br>
+Model : W52SH<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">ImageDescription : 081122_1729<br>
+ImageDescription : 0811221729<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2007:09:18 20:37:48<br>
+DateTimeOriginal : 2007:09:18 20:37:48<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2007:09:18 20:37:48<br>
+ImageDescription : img003<br>
+Make : KDDI-SA<br>
+Model : W52SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:09:14 03:00:33<br>
+DateTimeOriginal : 2009:09:14 03:00:33<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+FNumber : 3.2<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.8 mm<br>
+ISO : 160<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 432 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2009:09:14 03:00:33<br>
+Make : KDDI-SN<br>
+Model : W52S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212<br>
+PrintIM : 582</td>
+<td class="unsupported">ImageDescription : 090914_0300~01<br>
+ImageDescription : 090914030001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W52CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:09:06 16:42:43<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2009:09:06 16:44:39<br>
+Make : KDDI-CA<br>
+Model : W52CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 090906_1642~0001<br>
+ImageDescription : 09090616420001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W51P.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2008:10:11 17:50:49<br>
+DigitalZoomRatio : 1.25<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/5<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-MA<br>
+Model : W51P<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">ImageDescription : 081011_1750~0001<br>
+ImageDescription : 08101117500001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W51CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2010:02:18 13:45:11<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/140<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-CA<br>
+Model : W51CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 392</td>
+<td class="unsupported">ImageDescription : 100218_1345~0001<br>
+ImageDescription : 10021813450001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W47T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2007:08:06 22:58:47<br>
+DateTimeOriginal : 2007:08:06 22:58:47<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : High saturation<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Makernote : 434<br>
+Make : KDDI-TS<br>
+Model : W47T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">ImageDescription : 070806_2258<br>
+ImageDescription : 0708062258<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W44T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2009:07:01 22:44:57<br>
+DateTimeOriginal : 2009:07:01 22:44:57<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 452<br>
+ImageDescription : TS370246<br>
+Make : KDDI-TS<br>
+Model : W44T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174<br>
+PrintIM : 482</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W43S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:30 00:36:49<br>
+DateTimeOriginal : 2007:06:30 00:36:49<br>
+DigitalZoomRatio : 1.62<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+FNumber : 4<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.7 mm<br>
+ISO : 320<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+ShutterSpeedValue : 1/8<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+DateTime : 2007:06:30 00:36:49<br>
+Make : KDDI-SN<br>
+Model : W43S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134</td>
+<td class="unsupported">ImageDescription : 070630_0036~04<br>
+ImageDescription : 070630003604<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W43H.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2009:05:22 14:11:44<br>
+DigitalZoomRatio : 1.25<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/25<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-HI<br>
+Model : W43H<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 392</td>
+<td class="unsupported">ImageDescription : 090522_1411~0001<br>
+ImageDescription : 09052214110001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W43CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2007:05:22 21:11:06<br>
+DigitalZoomRatio : 1.25<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/25<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-CA<br>
+Model : W43CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 392</td>
+<td class="unsupported">ImageDescription : 070522_2111~0001<br>
+ImageDescription : 07052221110001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W42T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2008:09:17 14:35:01<br>
+DateTimeOriginal : 2008:09:17 14:35:01<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : W42T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">ImageDescription : 080917_1435<br>
+ImageDescription : 0809171435<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W42K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:06:04 17:32:51<br>
+DateTimeOriginal : 2007:06:04 17:32:51<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/14<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-KC<br>
+Model : W42K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6550B-KCC-30304<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 268<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,51,48,48,0,0,0,4,0,1,0,22,0,22,0,2,1,0,0,0,1,0,5,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported">ImageDescription : 070604_1732~01<br>
+ImageDescription : 070604173201<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W41SA.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:11:02 21:20:44<br>
+DateTimeOriginal : 2006:11:02 21:20:44<br>
+DigitalZoomRatio : 1.3<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.4<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 3.4 mm<br>
+FocalLengthIn35mmFilm : 31 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2006:11:02 21:20:48<br>
+Make : KDDI-SA<br>
+Model : W41SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ImageDescription : 061102_2120~01<br>
+ImageDescription : 061102212001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W41CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2007:08:30 14:11:25<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/60<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 400 px w<br>
+PixelYDimension : 240 px h<br>
+Make : KDDI-CA<br>
+Model : W41CA<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 330<br>
+PrintIM : 238</td>
+<td class="unsupported">ImageDescription : 070830_1411~0001<br>
+ImageDescription : 07083014110001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W33SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:10:03 12:25:42<br>
+DateTimeOriginal : 2006:10:03 12:25:42<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+DateTime : 2006:10:03 14:51:36<br>
+Make : KDDI-SA<br>
+Model : W33SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 134</td>
+<td class="unsupported">ImageDescription : 061003_1225~02<br>
+ImageDescription : 061003122502<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W32SA.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:11:26 10:04:55<br>
+DateTimeOriginal : 2005:11:26 10:04:55<br>
+DigitalZoomRatio : 1.03<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2005:11:26 10:04:55<br>
+Make : KDDI-SA<br>
+Model : W32SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ImageDescription : 051126_1004~03<br>
+ImageDescription : 051126100403<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2007:10:24 01:42:16<br>
+DateTimeOriginal : 2007:10:24 01:42:16<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+DateTime : 2007:10:24 01:42:30<br>
+ImageDescription : TS320382<br>
+Make : KDDI-TS<br>
+Model : W31T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 194</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:10:21 15:15:50<br>
+DateTimeOriginal : 2005:10:21 15:15:50<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+DateTime : 2005:10:21 15:17:21<br>
+Make : KDDI-SA<br>
+Model : W31SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">ImageDescription : 051021_1515~01<br>
+ImageDescription : 051021151501<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:06:13 08:40:36<br>
+DateTimeOriginal : 2005:06:13 08:40:36<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/19<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+LightSource : Unknown<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2005:06:13 08:40:36<br>
+Make : KDDI-SN<br>
+Model : W31S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212<br>
+PrintIM : 542</td>
+<td class="unsupported">ImageDescription : 050613_0841~01<br>
+ImageDescription : 050613084101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:04:10 13:21:58<br>
+DateTimeOriginal : 2005:04:10 13:21:58<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/256<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+Make : KDDI-KC<br>
+Model : W31K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 248</td>
+<td class="unsupported">ImageDescription : 050410_1321~003<br>
+ImageDescription : 0504101321003<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31H.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:03:12 13:20:28<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/45<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-HI<br>
+Model : W31H<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 392</td>
+<td class="unsupported">DigitalZoomRatio : 1.333333333<br>
+DigitalZoomRatio : 1.3333333333333333<br>
+<br>
+ImageDescription : 050312_1320~0001<br>
+ImageDescription : 05031213200001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W31CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2008:01:14 00:47:22<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+ExposureTime : 1/9<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 400 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Manual<br>
+Make : KDDI-CA<br>
+Model : W31CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 122</td>
+<td class="unsupported">DigitalZoomRatio : 1.19047619<br>
+DigitalZoomRatio : 1.1904761904761905<br>
+<br>
+ImageDescription : 080114_0047~0001<br>
+ImageDescription : 08011400470001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W22SA.jpg</td>
+<td class="supported">ApertureValue : 3.2<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:10:21 12:24:06<br>
+DateTimeOriginal : 2005:10:21 12:24:06<br>
+DigitalZoomRatio : 1.36<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 3.4<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 4.8 mm<br>
+FocalLengthIn35mmFilm : 41 mm<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+DateTime : 2005:10:21 12:24:08<br>
+Make : KDDI-SA<br>
+Model : W22SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">LightSource : Tungsten (Incandescent)<br>
+LightSource : Tungsten (incandescent light)<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ImageDescription : 051021_1224~01<br>
+ImageDescription : 051021122401<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W22H.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:04:29 18:32:58<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/17<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-HI<br>
+Model : W22H<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 182<br>
+PrintIM : 392</td>
+<td class="unsupported">DigitalZoomRatio : 1.333333333<br>
+DigitalZoomRatio : 1.3333333333333333<br>
+<br>
+ImageDescription : 050429_1832~0001<br>
+ImageDescription : 05042918320001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21SA.jpg</td>
+<td class="supported">ApertureValue : 2.6<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:12:05 12:44:14<br>
+DateTimeOriginal : 2004:12:05 12:44:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 5.2 mm<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+LightSource : Cloudy weather<br>
+MaxApertureValue : 2.6<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+DateTime : 2004:12:05 12:44:14<br>
+Make : KDDI-SA<br>
+Model : W21SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ImageDescription : 041205_1244~01<br>
+ImageDescription : 041205124401<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:04:02 12:57:28<br>
+DateTimeOriginal : 2005:04:02 12:57:28<br>
+DigitalZoomRatio : 1.07<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/26<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2005:04:02 12:57:28<br>
+Make : KDDI-SN<br>
+Model : W21S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 212<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,54,48,0,0,0,2,0,2,1,0,0,0,1,1,1,0,0,0</td>
+<td class="unsupported">FNumber : inf<br>
+FNumber : Infinity<br>
+<br>
+ImageDescription : 050402_1257~01<br>
+ImageDescription : 050402125701<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:27 21:57:27<br>
+DateTimeOriginal : 2005:01:27 21:57:27<br>
+DigitalZoomRatio : 4<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/7<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 428<br>
+ImageDescription : KC320001<br>
+Make : KDDI-KC<br>
+Model : W21K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 162</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21H.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:09:27 08:57:41<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+ImageDescription : 09270001<br>
+Make : KDDI-HI<br>
+Model : W21H<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 162</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W21CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2005:04:01 12:34:22<br>
+DateTimeOriginal : 2005:04:01 12:34:22<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/667<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+DateTime : 2005:04:01 12:40:22<br>
+ImageDescription : CA310001<br>
+Make : KDDI-CA<br>
+Model : W21CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 206<br>
+PrintIM : 448</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W11K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:02:26 17:18:43<br>
+DigitalZoomRatio : 1.5<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+Flash : On, Flash fired, compulsory flash mode<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-KC<br>
+Model : W11K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 050226_1718~01<br>
+ImageDescription : 050226171801<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_W11H.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2004:10:10 10:27:38<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Manual<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-HI<br>
+Model : W11H<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 041010_1027~01<br>
+ImageDescription : 041010102701<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_QCAM40a.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:01:04 04:15:40<br>
+DateTimeOriginal : 2005:01:04 04:15:40<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : On, Did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 408<br>
+Make : KDDI-AA<br>
+Model : QCAM40a<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 142</td>
+<td class="unsupported">DigitalZoomRatio : 1.996826172<br>
+DigitalZoomRatio : 1.996826171875<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_INFOBAR.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:07:10 20:07:33<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+Make : KDDI-ST<br>
+Model : INFOBAR<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 169</td>
+<td class="unsupported">ImageDescription : 040710_2007001<br>
+ImageDescription : 0407102007001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5527SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2009:02:15 20:13:01<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/26<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-SA<br>
+Model : A5527SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 172</td>
+<td class="unsupported">ImageDescription : 090215_2013~0001<br>
+ImageDescription : 09021520130001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5512CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:09:10 17:57:46<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/16<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-CA<br>
+Model : A5512CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 184<br>
+PrintIM : 394</td>
+<td class="unsupported">DigitalZoomRatio : 1.818181818<br>
+DigitalZoomRatio : 1.8181818181818181<br>
+<br>
+ImageDescription : 050910_1757~0001<br>
+ImageDescription : 05091017570001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5507SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:04:29 15:36:29<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-ST<br>
+Model : A5507SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 210<br>
+PrintIM : 80,114,105,110,116,73,77,0,48,50,54,48,0,0,0,1,1,1,1,0,0,0</td>
+<td class="unsupported">ImageDescription : 050429_1536~001<br>
+ImageDescription : 0504291536001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5506T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:01 11:25:39<br>
+DateTimeOriginal : 2005:08:01 11:25:39<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 442<br>
+ImageDescription : TS280375<br>
+Make : KDDI-TS<br>
+Model : A5506T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5505SA.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+BrightnessValue : 1<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:11 20:46:11<br>
+DateTimeOriginal : 2004:09:11 20:46:11<br>
+DigitalZoomRatio : 1.48<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 35 mm<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Average<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-SA<br>
+Model : A5505SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">FocalLength : 1200.0 mm<br>
+FocalLength : 1200 mm<br>
+<br>
+SubjectDistance : undef<br>
+SubjectDistance : NaN m<br>
+<br>
+ImageDescription : 040911_2046~01<br>
+ImageDescription : 040911204601<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5504T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:08:10 17:04:21<br>
+DateTimeOriginal : 2004:08:10 17:04:21<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : A5504T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ImageDescription : 040810_1704~01<br>
+ImageDescription : 040810170401<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5503SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:08:01 17:46:17<br>
+DateTimeOriginal : 2004:08:01 17:46:17<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2004:08:01 17:46:17<br>
+Make : KDDI-SA<br>
+Model : A5503SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 040801_1745~01<br>
+ImageDescription : 040801174501<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5502K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:11:23 16:05:27<br>
+DateTimeOriginal : 2004:11:23 16:05:27<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2004:11:23 16:05:29<br>
+Make : KDDI-KC<br>
+Model : A5502K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 041123_1605~002<br>
+ImageDescription : 0411231605002<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5501T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:08:07 15:47:18<br>
+DateTimeOriginal : 2005:08:07 15:47:18<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 144 px w<br>
+PixelYDimension : 176 px h<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : A5501T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ImageDescription : 050807_1547~01<br>
+ImageDescription : 050807154701<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5407CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:02:11 16:44:42<br>
+DigitalZoomRatio : 1.25<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Landscape<br>
+WhiteBalance : Manual<br>
+Make : KDDI-CA<br>
+Model : A5407CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 184<br>
+PrintIM : 394</td>
+<td class="unsupported">ImageDescription : 050211_1644~0001<br>
+ImageDescription : 05021116440001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5406CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:04:30 19:34:01<br>
+DigitalZoomRatio : 1.28<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/10<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneCaptureType : Landscape<br>
+WhiteBalance : Manual<br>
+Make : KDDI-CA<br>
+Model : A5406CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 184<br>
+PrintIM : 394</td>
+<td class="unsupported">ImageDescription : 050430_1934~0001<br>
+ImageDescription : 05043019340001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5405SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:08:08 19:04:55<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/10<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-ST<br>
+Model : A5405SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ImageDescription : 040808_1904~001<br>
+ImageDescription : 0408081904001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5404S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:09:11 13:52:18<br>
+DateTimeOriginal : 2004:09:11 13:52:18<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/245<br>
+Flash : Off, No flash function<br>
+FlashpixVersion : 1.00<br>
+ISO : 160<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 498<br>
+DateTime : 2004:09:11 13:52:18<br>
+ImageDescription : SN250275<br>
+Make : KDDI-SN<br>
+Model : A5404S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5403CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2004:07:19 19:22:14<br>
+DateTimeOriginal : 2004:07:19 19:22:14<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 0.6<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+SceneCaptureType : Night scene<br>
+WhiteBalance : Manual<br>
+DateTime : 2004:07:19 19:53:31<br>
+ImageDescription : CA240007<br>
+Make : KDDI-CA<br>
+Model : A5403CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 208<br>
+PrintIM : 450</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5402S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:04:11 12:58:24<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2005:04:11 12:58:24<br>
+Make : KDDI-SE<br>
+Model : A5402S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 050411_1258~01<br>
+ImageDescription : 050411125801<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5401CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:08:12 23:01:27<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/5<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+ImageDescription : 08120006<br>
+Make : KDDI-CA<br>
+Model : A5401CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5306ST.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:06:04 16:42:40<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+Make : KDDI-ST<br>
+Model : A5306ST<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ImageDescription : 050604_1642002<br>
+ImageDescription : 0506041642002<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5305K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:05:25 13:10:02<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+Make : KDDI-KC<br>
+Model : A5305K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+YResolution : 0.00625000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 040525_1310~01<br>
+ImageDescription : 040525131001<br>
+<br>
+XResolution : 0.008333333333<br>
+XResolution : 0.00833333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5304T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:07:10 13:39:28<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 144 px w<br>
+PixelYDimension : 176 px h<br>
+Make : KDDI-TS<br>
+Model : A5304T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 040710_1339~01<br>
+ImageDescription : 040710133901<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5303H2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:01:03 14:12:04<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+Make : KDDI-HI<br>
+Model : A5303H2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ImageDescription : 040103_1412~01<br>
+ImageDescription : 040103141201<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5303H.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:05:03 17:48:42<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+Make : KDDI-HI<br>
+Model : A5303H<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Centered<br>
+YResolution : 0.00625000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 050503_1748~01<br>
+ImageDescription : 050503174801<br>
+<br>
+XResolution : 0.008333333333<br>
+XResolution : 0.00833333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5302CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:09:27 16:59:05<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+ImageDescription : 09270001<br>
+Make : KDDI-CA<br>
+Model : A5302CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A5301T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2003:05:24 22:21:01<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 144 px w<br>
+PixelYDimension : 176 px h<br>
+GPSAltitude : 78 m Above Sea Level<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSDateStamp : 2003:05:24<br>
+GPSLatitude : 35° 36' 57.6700" N<br>
+GPSLatitudeRef : North<br>
+GPSLongitude : 139° 41' 50.3400" E<br>
+GPSLongitudeRef : East<br>
+GPSMapDatum : WGS-84<br>
+GPSTimeStamp : 22:29:14<br>
+GPSVersion : 2.2.0.0<br>
+Make : KDDI-TS<br>
+Model : A5301T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 180<br>
+_IFDpointer_GPS : 290</td>
+<td class="unsupported">GPSProcessingMethod : HYBRID-FIX<br>
+GPSProcessingMethod : 65,83,67,73,73,0,0,0,72,89,66,82,73,68,45,70,73,88<br>
+<br>
+ImageDescription : 030524_2221~01<br>
+ImageDescription : 030524222101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A3015SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:05:16 21:42:23<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+DateTime : 2004:05:16 21:42:23<br>
+Make : KDDI-SA<br>
+Model : A3015SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported">ImageDescription : 040516_2141~00<br>
+ImageDescription : 040516214100<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A3012CA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2003:11:13 15:05:38<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+DateTime : 2003:11:13 15:06:24<br>
+Make : KDDI-CA<br>
+Model : A3012CA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 174</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1404S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2005:09:09 21:58:09<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2005:09:09 21:58:09<br>
+Make : KDDI-SN<br>
+Model : A1404S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 050909_2158~01<br>
+ImageDescription : 050909215801<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1403K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:03:14 11:10:16<br>
+DateTimeOriginal : 2005:03:14 11:10:16<br>
+DigitalZoomRatio : 3<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureTime : 1/15<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+SceneCaptureType : Standard<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 430<br>
+Make : KDDI-KC<br>
+Model : A1403K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">ImageDescription : 050314_1<br>
+ImageDescription : 0503141<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1402S2.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:11:09 18:25:27<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+DateTime : 2004:11:09 18:25:27<br>
+Make : KDDI-SN<br>
+Model : A1402S2<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 041109_1825~01<br>
+ImageDescription : 041109182501<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1402S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:10:09 00:43:41<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2004:10:09 00:43:41<br>
+Make : KDDI-SN<br>
+Model : A1402S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 041009_0043~01<br>
+ImageDescription : 041009004301<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1401K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeOriginal : 2005:03:21 15:49:09<br>
+DigitalZoomRatio : 1.188<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+FNumber : 2.8<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+SceneCaptureType : Standard<br>
+WhiteBalance : Auto<br>
+Make : KDDI-KC<br>
+Model : A1401K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 170</td>
+<td class="unsupported">ImageDescription : 050321_1549~001<br>
+ImageDescription : 0503211549001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1305SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:12:11 13:44:45<br>
+DateTimeOriginal : 2004:12:11 13:44:45<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+DateTime : 2004:12:11 13:44:45<br>
+Make : KDDI-SA<br>
+Model : A1305SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 041211_1344~02<br>
+ImageDescription : 041211134402<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1304T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:11:03 11:51:12<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 144 px w<br>
+PixelYDimension : 176 px h<br>
+Make : KDDI-TS<br>
+Model : A1304T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 168</td>
+<td class="unsupported">ImageDescription : 041103_1151~01<br>
+ImageDescription : 041103115101<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1303SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2004:03:25 22:57:32<br>
+DateTimeOriginal : 2004:03:25 22:57:32<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+DateTime : 2004:03:25 22:57:32<br>
+Make : KDDI-SA<br>
+Model : A1303SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 040325_2257~01<br>
+ImageDescription : 040325225701<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1302SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:05:24 09:12:01<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+DateTime : 2004:05:24 09:12:01<br>
+Make : KDDI-SA<br>
+Model : A1302SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 200</td>
+<td class="unsupported">ImageDescription : 040524_0912~03<br>
+ImageDescription : 04052409120<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1301S.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2003:08:23 17:01:50<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+DateTime : 2003:08:23 17:01:50<br>
+Make : KDDI-SE<br>
+Model : A1301S<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 030823_1701~03<br>
+ImageDescription : 030823170103<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI_A1013K.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2003:08:26 10:05:37<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 120 px w<br>
+PixelYDimension : 160 px h<br>
+DateTime : <br>
+Make : KDDI-KC<br>
+Model : A1013K<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 234</td>
+<td class="unsupported">ImageDescription : 030826_1005~001<br>
+ImageDescription : 0308261005001<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI-TS_W21T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:09:05 22:32:25<br>
+DateTimeOriginal : 2005:09:05 22:32:25<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : Auto<br>
+Make : KDDI-TS<br>
+Model : W21T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 164</td>
+<td class="unsupported">ImageDescription : 050905_2232<br>
+ImageDescription : 0509052232<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI-TS_A5509T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2005:05:03 15:11:55<br>
+DateTimeOriginal : 2005:05:03 15:11:55<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+Flash : Off, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+GainControl : None<br>
+PixelXDimension : 320 px w<br>
+PixelYDimension : 240 px h<br>
+Saturation : Normal<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+DateTime : 2005:05:03 17:50:56<br>
+Make : KDDI-TS<br>
+Model : A5509T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 202</td>
+<td class="unsupported">ImageDescription : 050503_1511~03<br>
+ImageDescription : 050503151103<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/KDDI/KDDI-SA_A3015SA.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeOriginal : 2004:05:16 21:42:23<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 132 px w<br>
+PixelYDimension : 176 px h<br>
+DateTime : 2004:05:16 21:42:23<br>
+Make : KDDI-SA<br>
+Model : A3015SA<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 201</td>
+<td class="unsupported">ImageDescription : 040516_2141~00<br>
+ImageDescription : 040516214100<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

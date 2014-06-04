@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Mercury/MercurySlimCamII.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2004:03:03 07:21:39<br>
+DateTimeOriginal : 2004:03:03 07:21:39<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/10<br>
+FNumber : 3<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 9.8 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.8<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 555<br>
+DateTime : 2004:03:03 07:21:39<br>
+ImageDescription : <br>
+Make : <br>
+Model : <br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryDeluxeClassicCam.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2012:07:07 14:29:40<br>
+DateTimeOriginal : 2012:07:07 14:29:40<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/1920<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 50<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 512 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 581<br>
+DateTime : 2012:07:07 14:29:40<br>
+ImageDescription : Unknown<br>
+Make : Mercury Peripherals Inc.<br>
+Model : Deluxe Classic Cam<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 223</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryCyberPixS-550V.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+DateTimeDigitized : 2006:01:20 08:04:00<br>
+DateTimeOriginal : 2006:01:20 08:04:00<br>
+ExifVersion : 2.10<br>
+ExposureBias : -0.6666666666666666<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/8<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 8.5 mm<br>
+ISO : 65<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 581<br>
+DateTime : 2006:01:20 08:04:00<br>
+ImageDescription : Unknown<br>
+Make : Mercury Peripherals Inc.<br>
+Model : CyberPix S-550V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 223</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryCyberPixS-450V.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+DateTimeDigitized : 2006:02:13 15:59:01<br>
+DateTimeOriginal : 2006:02:13 15:59:01<br>
+ExifVersion : 2.10<br>
+ExposureBias : 0<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/120<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+ISO : 56<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1024 px w<br>
+PixelYDimension : 768 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 581<br>
+DateTime : 2006:02:13 15:59:01<br>
+ImageDescription : Unknown<br>
+Make : Mercury Peripherals Inc.<br>
+Model : CyberPix S-450V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 223</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryCyberPixS-330.jpg</td>
+<td class="supported">BrightnessValue : 1.9<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 2<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2003,01@01T00Q0124<br>
+DigitalZoomRatio : 0<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0.09090909090909091<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/20<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : On, Flash fired, strobe return light detected<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 7.5 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : None<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 1.7<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1600 px w<br>
+PixelYDimension : 1200 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : 3<br>
+SubjectDistanceRange : Unknown<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 735<br>
+DateTime : 2003,01@01T00Q0124<br>
+ImageDescription : <br>
+Make : <br>
+Model : Cam 3200<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 197</td>
+<td class="unsupported">DateTimeOriginal : 2003,01@01T00Q01?24?<br>
+DateTimeOriginal : 2003,01@01T00Q0124<br>
+<br>
+SubjectArea : 800 600 1600 1200<br>
+SubjectArea : 800,600,1600,1200<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryCyberPixE-550V.jpg</td>
+<td class="supported"></td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryCyberPixE-450V.jpg</td>
+<td class="supported">ApertureValue : 2.8<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:05:03 10:17:36<br>
+DateTimeOriginal : 2006:05:03 10:17:36<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureIndex : 1<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/66<br>
+FNumber : 2.8<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLengthIn35mmFilm : 42 mm<br>
+ISO : 100<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1120 px w<br>
+PixelYDimension : 840 px h<br>
+RelatedSoundFile : <br>
+SceneType : Directly photographed<br>
+SensingMethod : One-chip color area<br>
+ShutterSpeedValue : 1/66<br>
+_IFDpointer_Interop : 1388<br>
+_IFDpointer_Makernote : 900<br>
+Copyright : Copyright Sep.2003<br>
+DateTime : 2006:05:03 10:17:36<br>
+ImageDescription : <br>
+Make : Mercury Peripherals Inc.<br>
+Model : CyberPix E-450V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : Ver 1.0<br>
+YCbCrPositioning : Co-sited<br>
+_IFDpointer_EXIF : 450<br>
+PrintIM : 370</td>
+<td class="unsupported">CompressedBitsPerPixel : 1.551887755<br>
+CompressedBitsPerPixel : 1.551887755102041<br>
+<br>
+XResolution : 0.3333333333<br>
+XResolution : 0.33333333<br>
+<br>
+YResolution : 0.3333333333<br>
+YResolution : 0.33333333<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Mercury/MercuryCyberPixE-350V.jpg</td>
+<td class="supported">BrightnessValue : 8.372<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Normal<br>
+DateTimeDigitized : 2006:09:23 13:56:40<br>
+DateTimeOriginal : 2006:09:23 13:56:40<br>
+DigitalZoomRatio : 1<br>
+ExifVersion : 2.20<br>
+ExposureBias : 0<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+ExposureTime : 1/411<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+FocalLength : 13.2 mm<br>
+FocalLengthIn35mmFilm : 0 mm<br>
+GainControl : Low gain up<br>
+ISO : 70<br>
+LightSource : Unknown<br>
+MaxApertureValue : 2.5<br>
+MeteringMode : Multi-segment<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+Saturation : Normal<br>
+SceneCaptureType : Standard<br>
+SceneType : Directly photographed<br>
+Sharpness : Soft<br>
+SubjectDistanceRange : Macro<br>
+WhiteBalance : 6<br>
+_IFDpointer_Interop : 1517<br>
+_IFDpointer_Makernote : 778<br>
+DateTime : 2006:09:23 13:56:59<br>
+ImageDescription : DSCI0005.JPG<br>
+Make : Mercury Peripherals Inc.<br>
+Model : CyberPix E-350V<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : 01011.0<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 332<br>
+PrintIM : 212</td>
+<td class="unsupported">CompressedBitsPerPixel : 3.195721944<br>
+CompressedBitsPerPixel : 3.1957219441731772<br>
+<br>
+FNumber : 4.2<br>
+FNumber : 4.243<br>
+<br>
+SubjectArea : 0 0<br>
+SubjectArea : 0,0<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

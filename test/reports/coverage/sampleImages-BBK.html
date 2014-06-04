@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/BBK/BBK_DP830.jpg</td>
+<td class="supported">ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP830<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.00<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/72<br>
+ExposureProgram : Program AE<br>
+ISO : 64<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:05:31 11:33:18<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/73<br>
+ApertureValue : 3.6<br>
+MaxApertureValue : 3.6<br>
+MeteringMode : Spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : None</td>
+<td class="unsupported">SourceFile : sampleImages/BBK/BBK_DP830.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : BBK_DP830.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/BBK<br>
+Directory : undefined<br>
+<br>
+FileSize : 190 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:31 11:33:18<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.6<br>
+FNumber : 3.61<br>
+<br>
+CreateDate : 2010:05:31 11:33:18<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 7.0 mm<br>
+FocalLength : 7 mm<br>
+<br>
+Warning : [minor] Suspicious MakerNotes offset for tag 0x0200<br>
+Warning : undefined<br>
+<br>
+UserComment : R:  144 G:  255 B:  177 X:39852 Y:    0 S:    0 Zs:   0 Zp: 232 F:65404 I:    4 ImgVer:08.01.09.10<br>
+UserComment : 928<br>
+<br>
+ExifImageWidth : 3280<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2460<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1182<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 12840<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 10000230-6FC0-11D0-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 10307.921514<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 15461.882268<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 179532 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.6<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 179392 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ShutterSpeed : 1/72<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 12840 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 7.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 10.5<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP810.jpg</td>
+<td class="supported">ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP810<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.052<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/279<br>
+ExposureProgram : Creative (Slow speed)<br>
+ISO : 80<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:06:24 14:33:56<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/286<br>
+ApertureValue : 6.9<br>
+MaxApertureValue : 4.2<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash did not fire<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up</td>
+<td class="unsupported">SourceFile : sampleImages/BBK/BBK_DP810.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : BBK_DP810.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/BBK<br>
+Directory : undefined<br>
+<br>
+FileSize : 137 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:24 14:33:56<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 6.9<br>
+FNumber : 6.94<br>
+<br>
+CreateDate : 2010:06:24 14:33:56<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+FocalLength : 14.0 mm<br>
+FocalLength : 14 mm<br>
+<br>
+Warning : [minor] Suspicious MakerNotes offset for tag 0x0200<br>
+Warning : undefined<br>
+<br>
+UserComment : R:  138 G:  255 B:  162 X:54188 Y:    0 S:    0 Z:  181 F:  134<br>
+UserComment : 916<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1134<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 9016<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 10000230-6FC0-11D0-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 10307.921514<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 15461.882268<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 128952 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 6.9<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 128812 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ShutterSpeed : 1/279<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 9016 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 14.0 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 14<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP710.jpg</td>
+<td class="supported">ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP710<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.052<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+FNumber : 4.8<br>
+ExposureProgram : Program AE<br>
+ISO : 400<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2007:05:24 21:09:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 4.9<br>
+MaxApertureValue : 4.9<br>
+MeteringMode : Spot<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 18.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : High gain up</td>
+<td class="unsupported">SourceFile : sampleImages/BBK/BBK_DP710.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : BBK_DP710.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/BBK<br>
+Directory : undefined<br>
+<br>
+FileSize : 147 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2007:05:24 21:09:39<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2007:05:24 21:09:39<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Suspicious MakerNotes offset for tag 0x0200<br>
+Warning : undefined<br>
+<br>
+UserComment : R:  118 G:  255 B:  179 X:54188 Y:    0 S:  546 Z:  313 F:  186<br>
+UserComment : 916<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1134<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 7692<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 10000230-6FC0-11D0-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 10307.921514<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 15461.882268<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 141212 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 4.8<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 141072 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 7692 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 18.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.4<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP1250.jpg</td>
+<td class="supported">ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP1250<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Version Ver 1.02<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/60<br>
+ExposureProgram : Program AE<br>
+ISO : 68<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2009:07:10 11:48:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/60<br>
+ApertureValue : 5.1<br>
+MaxApertureValue : 5.1<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 22.5 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 2.5<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up</td>
+<td class="unsupported">SourceFile : sampleImages/BBK/BBK_DP1250.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : BBK_DP1250.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/BBK<br>
+Directory : undefined<br>
+<br>
+FileSize : 87 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Big-endian (Motorola, MM)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:07:10 11:48:05<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 5.1<br>
+FNumber : 5.08<br>
+<br>
+CreateDate : 2009:07:10 11:48:05<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Suspicious MakerNotes offset for tag 0x0200<br>
+Warning : undefined<br>
+<br>
+UserComment : R:  168 G:  255 B:  178 X:39852 Y:    0 S:    0 Zs:   6 Zp: 115 F:  614 I:    4 ImgVer:08.01.09.10<br>
+UserComment : 930<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+Compression : JPEG (old-style)<br>
+Compression : undefined<br>
+<br>
+ThumbnailOffset : 1184<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 8148<br>
+ThumbnailLength : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 10000230-6FC0-11D0-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 10307.921514<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 15461.882268<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 79196 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 5.1<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 79056 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ShutterSpeed : 1/60<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 8148 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+FocalLength35efl : 22.5 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 11.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/BBK/BBK_DP1050.jpg</td>
+<td class="supported">ImageDescription : BBK DIGITAL CAMERA<br>
+Make : BBK Imaging Co.<br>
+Model : DP1050<br>
+Software : Version Ver 1.057<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 1/36<br>
+ExposureProgram : Creative (Slow speed)<br>
+ISO : 99<br>
+ExifVersion : 2.21<br>
+DateTimeOriginal : 2010:11:20 13:43:23<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ShutterSpeedValue : 1/36<br>
+ApertureValue : 3.2<br>
+MaxApertureValue : 3.2<br>
+MeteringMode : Average<br>
+LightSource : Unknown<br>
+Flash : Auto, Flash fired<br>
+FocalLength : 10.3 mm<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+CustomRendered : Normal<br>
+ExposureMode : Auto<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard<br>
+GainControl : Low gain up</td>
+<td class="unsupported">SourceFile : sampleImages/BBK/BBK_DP1050.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : BBK_DP1050.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/BBK<br>
+Directory : undefined<br>
+<br>
+FileSize : 85 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.02<br>
+JFIFVersion : undefined<br>
+<br>
+ResolutionUnit : inches<br>
+ResolutionUnit : undefined<br>
+<br>
+XResolution : 96<br>
+XResolution : undefined<br>
+<br>
+YResolution : 96<br>
+YResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:11:20 13:43:23<br>
+ModifyDate : undefined<br>
+<br>
+FNumber : 3.2<br>
+FNumber : 3.25<br>
+<br>
+CreateDate : 2010:11:20 13:43:23<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+Warning : [minor] Suspicious MakerNotes offset for tag 0x0200<br>
+Warning : undefined<br>
+<br>
+UserComment : R:  135 G:  255 B:  197 X:54212 Y:    0 S:  565 Z:   91 F:  765<br>
+UserComment : 838<br>
+<br>
+ExifImageWidth : 2736<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 3648<br>
+ExifImageHeight : undefined<br>
+<br>
+CodePage : Unicode UTF-16, little endian<br>
+CodePage : undefined<br>
+<br>
+UsedExtensionNumbers : 1<br>
+UsedExtensionNumbers : undefined<br>
+<br>
+ExtensionName : Screen nail<br>
+ExtensionName : undefined<br>
+<br>
+ExtensionClassID : 10000230-6FC0-11D0-BD01-00609719A180<br>
+ExtensionClassID : undefined<br>
+<br>
+ExtensionPersistence : Invalidated By Modification<br>
+ExtensionPersistence : undefined<br>
+<br>
+ExtensionCreateDate : 10307.921514<br>
+ExtensionCreateDate : undefined<br>
+<br>
+ExtensionModifyDate : 15461.882268<br>
+ExtensionModifyDate : undefined<br>
+<br>
+CreatingApplication : Picoss<br>
+CreatingApplication : undefined<br>
+<br>
+ExtensionDescription : Presized image for LCD display<br>
+ExtensionDescription : undefined<br>
+<br>
+Storage-StreamPathname : /Screen Nail_bd0100609719a180<br>
+Storage-StreamPathname : undefined<br>
+<br>
+ScreenNail : (Binary data 84944 bytes, use -b option to extract)<br>
+ScreenNail : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 3.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 84804 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+ShutterSpeed : 1/36<br>
+ShutterSpeed : undefined<br>
+<br>
+FocalLength35efl : 10.3 mm<br>
+FocalLength35efl : undefined<br>
+<br>
+LightValue : 8.6<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - compliance report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js compliance report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> against <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Vodafone/VodafoneV903T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:06:24 18:21:02<br>
+DateTimeOriginal : 2008:06:24 18:21:02<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 538 px w<br>
+PixelYDimension : 423 px h<br>
+_IFDpointer_Interop : 352<br>
+DateTime : 2008:06:24 18:21:02<br>
+ImageDescription : untitled<br>
+Make : Vodafone<br>
+Model : V903T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/VodafoneV902T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2006:12:20 11:46:51<br>
+DateTimeOriginal : 2006:12:20 11:46:51<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+DateTime : 2006:12:20 11:46:51<br>
+ImageDescription : untitled<br>
+Make : Vodafone<br>
+Model : V902T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/VodafoneV810.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2009:10:31 16:32:19<br>
+DateTimeOriginal : 2009:10:31 16:32:19<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1200 px w<br>
+PixelYDimension : 1600 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 506<br>
+Make : VODAFONE V810<br>
+Model : Vodafone V810<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Software : APP_Vodafone_810_B630SP06<br>
+Software : APPVodafone810B630SP06<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/VodafoneV803T.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:12:14 10:14:44<br>
+DateTimeOriginal : 2005:12:14 10:14:44<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 159 px w<br>
+PixelYDimension : 200 px h<br>
+DateTime : 2007:01:03 15:07:04<br>
+ImageDescription : untitled<br>
+Make : Vodafone<br>
+Model : V803T<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Co-sited<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 196</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/VodafoneV720.jpg</td>
+<td class="supported">BrightnessValue : 0<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+Contrast : Normal<br>
+CustomRendered : Custom<br>
+DateTimeDigitized : 2010:05:30 04:37:24<br>
+DateTimeOriginal : 2010:05:30 04:37:24<br>
+ExifVersion : 2.20<br>
+ExposureMode : Auto<br>
+ExposureProgram : Program AE<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+MeteringMode : Center-weighted average<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 1024 px h<br>
+Saturation : Normal<br>
+SceneType : Directly photographed<br>
+Sharpness : Normal<br>
+WhiteBalance : Manual<br>
+_IFDpointer_Interop : 506<br>
+Make : VODAFONE V720<br>
+Model : Vodafone V720<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 192</td>
+<td class="unsupported">DigitalZoomRatio : undef<br>
+DigitalZoomRatio : NaN<br>
+<br>
+Software : APP_Vodafone_720_B216SP02<br>
+Software : APPVodafone720B216SP02<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/VodafoneV602SH.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2005:08:05 13:47:00<br>
+DateTimeOriginal : 2005:08:05 13:47:00<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 1280 px w<br>
+PixelYDimension : 960 px h<br>
+_IFDpointer_Interop : 352<br>
+DateTime : 2005:08:05 13:47:00<br>
+ImageDescription : untitled<br>
+Make : Vodafone<br>
+Model : V602SH<br>
+Orientation : Rotate 270 CW<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/Vodafone845.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2002:12:08 12:00:00<br>
+DateTimeOriginal : 2011:01:05 12:11:20<br>
+ExifVersion : 2.20<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 2048 px w<br>
+PixelYDimension : 1536 px h<br>
+_IFDpointer_Interop : 302<br>
+GPSAltitude : 0 m undefined<br>
+Make : HUAWEI<br>
+Model : Vodafone 845<br>
+ResolutionUnit : inches<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 148<br>
+_IFDpointer_GPS : 332</td>
+<td class="unsupported">GPSLatitude : 56 deg 54' 20.68"<br>
+GPSLatitude : 56,54,20.678<br>
+<br>
+GPSLongitude : 24 deg 25' 3.13"<br>
+GPSLongitude : 24,25,3.129<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/Vodafone715.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:11:22 20:47:19<br>
+DateTimeOriginal : 2008:11:22 20:47:19<br>
+ExifVersion : 2.20<br>
+FileSource : Digital Camera<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 240 px w<br>
+PixelYDimension : 320 px h<br>
+SceneType : Directly photographed<br>
+_IFDpointer_Interop : 378<br>
+Make : Vodafone Group<br>
+Model : Vodafone 715<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : APP-V715V100R001C02B112SP03-SEC<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 198</td>
+<td class="unsupported"></td>
+</tr>
+<tr>
+<td>sampleImages/Vodafone/Vodafone710.jpg</td>
+<td class="supported">ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+DateTimeDigitized : 2008:08:27 14:50:03<br>
+DateTimeOriginal : 2008:08:27 14:50:03<br>
+ExifVersion : 2.20<br>
+ExposureTime : 1/15<br>
+FileSource : Digital Camera<br>
+Flash : No Flash<br>
+FlashpixVersion : 1.00<br>
+PixelXDimension : 640 px w<br>
+PixelYDimension : 480 px h<br>
+SceneType : Directly photographed<br>
+WhiteBalance : Auto<br>
+_IFDpointer_Interop : 432<br>
+Make : VODAFONE 710<br>
+Model : Vodafone 710<br>
+Orientation : Horizontal (normal)<br>
+ResolutionUnit : inches<br>
+Software : M6250D-VMSX-6.2.9340<br>
+XResolution : 72.00000000<br>
+YCbCrPositioning : Centered<br>
+YResolution : 72.00000000<br>
+_IFDpointer_EXIF : 190</td>
+<td class="unsupported">DigitalZoomRatio : 1.887451172<br>
+DigitalZoomRatio : 1.887451171875<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/RIM/RIM_BlackberryZ10.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : Blackberry Z10<br>
+Orientation : Horizontal (normal)<br>
+Software : Blackberry 10.0.9.2372<br>
+ExposureTime : 1/2222<br>
+FNumber : 2.2<br>
+ISO : 70<br>
+ExifVersion : 2.30<br>
+DateTimeOriginal : 2013:02:02 14:52:18<br>
+SubjectDistance : 5 m<br>
+MeteringMode : Multi-segment<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 4.1 mm<br>
+WhiteBalance : Auto<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackberryZ10.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackberryZ10.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 747 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2013:02:02 14:52:18<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:02:02 14:52:18<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : 0<br>
+ExposureCompensation : undefined<br>
+<br>
+MakerNoteUnknownText : RIM0RD00
+<br>
+MakerNoteUnknownText : undefined<br>
+<br>
+ExifImageWidth : 3264<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 2448<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 31 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 2.2<br>
+Aperture : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ScaleFactor35efl : 7.6<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/2222<br>
+ShutterSpeed : undefined<br>
+<br>
+CircleOfConfusion : 0.004 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+DOF : inf (1.39 m - inf)<br>
+DOF : undefined<br>
+<br>
+FOV : 60.3 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 4.1 mm (35 mm equivalent: 31.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 1.92 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 13.9<br>
+LightValue : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerryStorm2.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9520<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:08:03 16:58:50<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB<br>
+GPSAltitudeRef : Above Sea Level<br>
+GPSSpeed : 0<br>
+GPSTrack : 0<br>
+GPSAltitude : 113 m Above Sea Level</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerryStorm2.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerryStorm2.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 885 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:08:03 16:58:50<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+GPSVersionID : 2200<br>
+GPSVersionID : undefined<br>
+<br>
+GPSLatitudeRef : North<br>
+GPSLatitudeRef : <br>
+<br>
+GPSLongitudeRef : West<br>
+GPSLongitudeRef : <br>
+<br>
+GPSSpeedRef : km/h<br>
+GPSSpeedRef : <br>
+<br>
+GPSTrackRef : True North<br>
+GPSTrackRef : <br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+GPSLatitude : 54 deg 56' 37.02" N<br>
+GPSLatitude : 54,56,37.01999999999984<br>
+<br>
+GPSLongitude : 1 deg 36' 16.80" W<br>
+GPSLongitude : 1,36,16.800000000000068<br>
+<br>
+GPSPosition : 54 deg 56' 37.02" N, 1 deg 36' 16.80" W<br>
+GPSPosition : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerryPearlFlip8220.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 8220<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:07:24 18:59:36<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerryPearlFlip8220.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerryPearlFlip8220.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 681 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:07:24 18:59:36<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : <br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9800.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9800<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:09:27 10:35:05<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9800.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9800.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 666 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:09:27 10:35:05<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2592<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1944<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : <br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9700.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9700<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Software : Rim Exif Version1.00a<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:05:01 16:25:32<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExposureTime : 0<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9700.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9700.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:05:01 16:25:32<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9650.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9650<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:11:19 02:36:49<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9650.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9650.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:11:19 02:36:49<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9550.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9550<br>
+Orientation : Rotate 90 CW<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:06 00:33:29<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9550.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9550.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:06 00:33:29<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9300.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:11:29 15:02:39<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:11:29 15:02:39<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9105.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9105<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:10:29 15:02:13<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9105.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9105.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:10:29 15:02:13<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9100.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9100<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+Software : Rim Exif Version1.00a<br>
+YCbCrPositioning : Co-sited<br>
+ExposureTime : 0<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:11:26 07:56:26<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function<br>
+ColorSpace : sRGB</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9100.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9100.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:11:26 07:56:26<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 2048<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1536<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry9000.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 9000<br>
+Orientation : Horizontal (normal)<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Software : Rim Exif Version1.00a<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:09:05 07:38:35<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExposureTime : 0<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry9000.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry9000.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 681 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+JFIFVersion : 1.01<br>
+JFIFVersion : undefined<br>
+<br>
+XResolution : 72<br>
+XResolution : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:09:05 07:38:35<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8900.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 8900<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Software : Rim Exif Version1.00a<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:12:01 19:50:59<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExposureTime : 0<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry8900.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry8900.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:12:01 19:50:59<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1856<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1392<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8520.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 8520<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+Software : Rim Exif Version1.00a<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:04:24 11:01:18<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+ExposureTime : 0<br>
+SubjectDistance : 0 m<br>
+LightSource : Unknown<br>
+Flash : Off, No flash function</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry8520.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry8520.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 663 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:04:24 11:01:18<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+DeviceSettingDescription : (Binary data 0 bytes, use -b option to extract)<br>
+DeviceSettingDescription : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+ShutterSpeed : 0<br>
+ShutterSpeed : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8310.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 8310<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2010:06:09 20:01:38<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry8310.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry8310.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 553 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2010:06:09 20:01:38<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+<tr>
+<td>sampleImages/RIM/RIM_BlackBerry8300.jpg</td>
+<td class="supported">Make : Research In Motion<br>
+Model : BlackBerry 8300<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 72.00000000<br>
+YResolution : 72.00000000<br>
+ResolutionUnit : inches<br>
+YCbCrPositioning : Co-sited<br>
+ExifVersion : 2.20<br>
+DateTimeOriginal : 2009:12:30 14:01:12<br>
+ColorSpace : sRGB<br>
+ComponentsConfiguration : Y, Cb, Cr, -</td>
+<td class="unsupported">SourceFile : sampleImages/RIM/RIM_BlackBerry8300.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : RIM_BlackBerry8300.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/RIM<br>
+Directory : undefined<br>
+<br>
+FileSize : 553 bytes<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+ModifyDate : 2009:12:30 14:01:12<br>
+ModifyDate : undefined<br>
+<br>
+ExifImageWidth : 1600<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 1200<br>
+ExifImageHeight : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : undefined<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : undefined<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>

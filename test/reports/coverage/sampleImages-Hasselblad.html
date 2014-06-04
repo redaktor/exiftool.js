@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js - coverage report</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/shuffle.js"></script>
+<script type="text/javascript">
+// Sorting options
+$(function() {
+	var $grid = $('#grid');
+	$('.sort-options').on('change', function() {
+	  var sort = this.value,
+		  opts = {};
+	
+	  // We're given the element wrapped in jQuery
+	  if ( sort === 'coverage' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'coverageDesc' ) {
+		opts = {
+		  reverse: true,
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('coverage');
+		  }
+		};
+	  } else if ( sort === 'title' ) {
+		opts = {
+		  itemSelector: '.span12',
+		  by: function($el) {
+			return $el.data('title').toLowerCase();
+		  }
+		};
+	  }
+	
+	  // Filter elements
+	  
+	  $grid.shuffle('sort', opts);
+	});
+});
+</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p><a href="../">Comparison</a> of outputs from<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool reference</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a></p><hr>        
+		
+        <table class="table table-bordered"><thead><tr><th>image</th><th class="supported">supported tags</th><th class="unsupported">unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
+<td>sampleImages/Hasselblad/HasselbladStellar.jpg</td>
+<td class="supported">ImageDescription : <br>
+Make : HASSELBLAD<br>
+Model : Stellar<br>
+Orientation : Horizontal (normal)<br>
+XResolution : 350.00000000<br>
+YResolution : 350.00000000<br>
+PlanarConfiguration : Chunky<br>
+ResolutionUnit : inches<br>
+Software : Stellar v1.00<br>
+YCbCrPositioning : Centered<br>
+ExposureTime : 1/800<br>
+FNumber : 11<br>
+ExposureProgram : Aperture-priority AE<br>
+ISO : 125<br>
+SensitivityType : Recommended Exposure Index<br>
+RecommendedExposureIndex : 125<br>
+ExifVersion : 2.30<br>
+DateTimeOriginal : 2013:01:01 00:05:54<br>
+ComponentsConfiguration : Y, Cb, Cr, -<br>
+CompressedBitsPerPixel : 3<br>
+BrightnessValue : 11.415625<br>
+MaxApertureValue : 1.8<br>
+MeteringMode : Multi-segment<br>
+LightSource : Daylight<br>
+Flash : Off, Flash did not fire<br>
+FocalLength : 10.4 mm<br>
+UserComment : 866<br>
+FlashpixVersion : 1.00<br>
+ColorSpace : sRGB<br>
+FileSource : Digital Camera<br>
+SceneType : Directly photographed<br>
+CustomRendered : Normal<br>
+DigitalZoomRatio : 1<br>
+SceneCaptureType : Standard</td>
+<td class="unsupported">SourceFile : sampleImages/Hasselblad/HasselbladStellar.jpg<br>
+SourceFile : undefined<br>
+<br>
+ExifToolVersion : 9.62<br>
+ExifToolVersion : undefined<br>
+<br>
+FileName : HasselbladStellar.jpg<br>
+FileName : undefined<br>
+<br>
+Directory : sampleImages/Hasselblad<br>
+Directory : undefined<br>
+<br>
+FileSize : 33 kB<br>
+FileSize : undefined<br>
+<br>
+FilePermissions : rw-r--r--<br>
+FilePermissions : undefined<br>
+<br>
+FileType : JPEG<br>
+FileType : undefined<br>
+<br>
+MIMEType : image/jpeg<br>
+MIMEType : undefined<br>
+<br>
+ExifByteOrder : Little-endian (Intel, II)<br>
+ExifByteOrder : undefined<br>
+<br>
+Compression : Uncompressed<br>
+Compression : 1<br>
+<br>
+PhotometricInterpretation : RGB<br>
+PhotometricInterpretation : 2<br>
+<br>
+ModifyDate : 2014:01:06 13:34:47<br>
+ModifyDate : undefined<br>
+<br>
+CreateDate : 2013:01:01 00:05:54<br>
+CreateDate : undefined<br>
+<br>
+ExposureCompensation : -0.7<br>
+ExposureCompensation : undefined<br>
+<br>
+ExifImageWidth : 3648<br>
+ExifImageWidth : undefined<br>
+<br>
+ExifImageHeight : 5472<br>
+ExifImageHeight : undefined<br>
+<br>
+FocalLengthIn35mmFormat : 28 mm<br>
+FocalLengthIn35mmFormat : undefined<br>
+<br>
+LensInfo : 10.4-37.1mm f/1.8-4.9<br>
+LensInfo : undefined<br>
+<br>
+Quality : Fine<br>
+Quality : undefined<br>
+<br>
+FlashExposureComp : 0<br>
+FlashExposureComp : undefined<br>
+<br>
+WhiteBalanceFineTune : 0<br>
+WhiteBalanceFineTune : undefined<br>
+<br>
+Contrast : 0<br>
+Contrast : Normal<br>
+<br>
+Saturation : 0<br>
+Saturation : Normal<br>
+<br>
+Sharpness : 0<br>
+Sharpness : Normal<br>
+<br>
+Brightness : 0<br>
+Brightness : undefined<br>
+<br>
+LongExposureNoiseReduction : On (unused)<br>
+LongExposureNoiseReduction : undefined<br>
+<br>
+HighISONoiseReduction : Normal<br>
+HighISONoiseReduction : undefined<br>
+<br>
+HDR : Off; Uncorrected image<br>
+HDR : undefined<br>
+<br>
+MultiFrameNoiseReduction : Off<br>
+MultiFrameNoiseReduction : undefined<br>
+<br>
+PictureEffect : Off<br>
+PictureEffect : undefined<br>
+<br>
+SoftSkinEffect : Off<br>
+SoftSkinEffect : undefined<br>
+<br>
+ReleaseMode3 : Normal<br>
+ReleaseMode3 : undefined<br>
+<br>
+StopsAboveBaseISO : 0<br>
+StopsAboveBaseISO : undefined<br>
+<br>
+HDRSetting : Off<br>
+HDRSetting : undefined<br>
+<br>
+PictureEffect2 : Off<br>
+PictureEffect2 : undefined<br>
+<br>
+WB_RGBLevels : 517 256 568<br>
+WB_RGBLevels : undefined<br>
+<br>
+VignettingCorrection : n/a<br>
+VignettingCorrection : undefined<br>
+<br>
+LateralChromaticAberration : n/a<br>
+LateralChromaticAberration : undefined<br>
+<br>
+DistortionCorrection : n/a<br>
+DistortionCorrection : undefined<br>
+<br>
+WBShiftAB_GM : 0 0<br>
+WBShiftAB_GM : undefined<br>
+<br>
+AutoPortraitFramed : No<br>
+AutoPortraitFramed : undefined<br>
+<br>
+FaceInfoOffset : 94<br>
+FaceInfoOffset : undefined<br>
+<br>
+SonyDateTime : 2013:01:01 00:05:54<br>
+SonyDateTime : undefined<br>
+<br>
+SonyImageWidth : 5472<br>
+SonyImageWidth : undefined<br>
+<br>
+FacesDetected : 0<br>
+FacesDetected : undefined<br>
+<br>
+FaceInfoLength : 37<br>
+FaceInfoLength : undefined<br>
+<br>
+MetaVersion : DC7303320222000<br>
+MetaVersion : undefined<br>
+<br>
+SequenceImageNumber : 1<br>
+SequenceImageNumber : undefined<br>
+<br>
+SequenceFileNumber : 1<br>
+SequenceFileNumber : undefined<br>
+<br>
+ReleaseMode2 : Normal<br>
+ReleaseMode2 : undefined<br>
+<br>
+DigitalZoom : No<br>
+DigitalZoom : undefined<br>
+<br>
+ShotNumberSincePowerUp : 11<br>
+ShotNumberSincePowerUp : undefined<br>
+<br>
+SequenceLength : 1 shot<br>
+SequenceLength : undefined<br>
+<br>
+CameraOrientation : Rotate 270 CW<br>
+CameraOrientation : undefined<br>
+<br>
+Quality2 : JPEG<br>
+Quality2 : undefined<br>
+<br>
+SonyImageHeight : 3648<br>
+SonyImageHeight : undefined<br>
+<br>
+ModelReleaseYear : 2012<br>
+ModelReleaseYear : undefined<br>
+<br>
+AmbientTemperature : 10 C<br>
+AmbientTemperature : undefined<br>
+<br>
+AFAreaMode : Center<br>
+AFAreaMode : undefined<br>
+<br>
+CameraTemperature : 17 C<br>
+CameraTemperature : undefined<br>
+<br>
+FileFormat : ARW 2.3<br>
+FileFormat : undefined<br>
+<br>
+SonyModelID : DSC-RX100<br>
+SonyModelID : undefined<br>
+<br>
+CreativeStyle : Standard<br>
+CreativeStyle : undefined<br>
+<br>
+ColorTemperature : Auto<br>
+ColorTemperature : undefined<br>
+<br>
+ColorCompensationFilter : 0<br>
+ColorCompensationFilter : undefined<br>
+<br>
+SceneMode : Standard<br>
+SceneMode : undefined<br>
+<br>
+ZoneMatching : ISO Setting Used<br>
+ZoneMatching : undefined<br>
+<br>
+DynamicRangeOptimizer : Lv4<br>
+DynamicRangeOptimizer : undefined<br>
+<br>
+ImageStabilization : On<br>
+ImageStabilization : undefined<br>
+<br>
+ColorMode : Standard<br>
+ColorMode : undefined<br>
+<br>
+LensSpec : 28-100mm F1.8-4.9<br>
+LensSpec : undefined<br>
+<br>
+FullImageSize : 5472x3648<br>
+FullImageSize : undefined<br>
+<br>
+PreviewImageSize : 1616x1080<br>
+PreviewImageSize : undefined<br>
+<br>
+Macro : Off<br>
+Macro : undefined<br>
+<br>
+ExposureMode : Aperture-priority AE<br>
+ExposureMode : Auto<br>
+<br>
+AFIlluminator : Off<br>
+AFIlluminator : undefined<br>
+<br>
+JPEGQuality : Fine<br>
+JPEGQuality : undefined<br>
+<br>
+FlashLevel : Normal<br>
+FlashLevel : undefined<br>
+<br>
+ReleaseMode : Normal<br>
+ReleaseMode : undefined<br>
+<br>
+SequenceNumber : Single<br>
+SequenceNumber : undefined<br>
+<br>
+Anti-Blur : On (Shooting)<br>
+Anti-Blur : undefined<br>
+<br>
+FocusMode : AF-S<br>
+FocusMode : undefined<br>
+<br>
+HighISONoiseReduction2 : Normal<br>
+HighISONoiseReduction2 : undefined<br>
+<br>
+IntelligentAuto : Off<br>
+IntelligentAuto : undefined<br>
+<br>
+WhiteBalance : Daylight<br>
+WhiteBalance : Manual<br>
+<br>
+InteropIndex : R98 - DCF basic file (sRGB)<br>
+InteropIndex : undefined<br>
+<br>
+InteropVersion : 0100<br>
+InteropVersion : undefined<br>
+<br>
+PrintIMVersion : 0300<br>
+PrintIMVersion : undefined<br>
+<br>
+ThumbnailOffset : 26892<br>
+ThumbnailOffset : undefined<br>
+<br>
+ThumbnailLength : 3182<br>
+ThumbnailLength : undefined<br>
+<br>
+XMPToolkit : XMP Core 5.5.0<br>
+XMPToolkit : undefined<br>
+<br>
+Rating : 5<br>
+Rating : undefined<br>
+<br>
+MPFVersion : 0100<br>
+MPFVersion : undefined<br>
+<br>
+NumberOfImages : 2<br>
+NumberOfImages : undefined<br>
+<br>
+MPImageFlags : Dependent child image<br>
+MPImageFlags : undefined<br>
+<br>
+MPImageFormat : JPEG<br>
+MPImageFormat : undefined<br>
+<br>
+MPImageType : Large Thumbnail (full HD equivalent)<br>
+MPImageType : undefined<br>
+<br>
+MPImageLength : 777641<br>
+MPImageLength : undefined<br>
+<br>
+MPImageStart : 7581993<br>
+MPImageStart : undefined<br>
+<br>
+DependentImage1EntryNumber : 0<br>
+DependentImage1EntryNumber : undefined<br>
+<br>
+DependentImage2EntryNumber : 0<br>
+DependentImage2EntryNumber : undefined<br>
+<br>
+ImageWidth : 8<br>
+ImageWidth : 3648<br>
+<br>
+ImageHeight : 8<br>
+ImageHeight : 5472<br>
+<br>
+EncodingProcess : Baseline DCT, Huffman coding<br>
+EncodingProcess : undefined<br>
+<br>
+BitsPerSample : 8<br>
+BitsPerSample : undefined<br>
+<br>
+ColorComponents : 3<br>
+ColorComponents : undefined<br>
+<br>
+YCbCrSubSampling : YCbCr4:2:0 (2 2)<br>
+YCbCrSubSampling : undefined<br>
+<br>
+Aperture : 11<br>
+Aperture : undefined<br>
+<br>
+BlueBalance : 2.21875<br>
+BlueBalance : undefined<br>
+<br>
+ImageSize : 8x8<br>
+ImageSize : undefined<br>
+<br>
+PreviewImage : (Binary data 777641 bytes, use -b option to extract)<br>
+PreviewImage : undefined<br>
+<br>
+RedBalance : 2.019531<br>
+RedBalance : undefined<br>
+<br>
+ScaleFactor35efl : 2.7<br>
+ScaleFactor35efl : undefined<br>
+<br>
+ShutterSpeed : 1/800<br>
+ShutterSpeed : undefined<br>
+<br>
+ThumbnailImage : (Binary data 3182 bytes, use -b option to extract)<br>
+ThumbnailImage : undefined<br>
+<br>
+CircleOfConfusion : 0.011 mm<br>
+CircleOfConfusion : undefined<br>
+<br>
+FOV : 65.5 deg<br>
+FOV : undefined<br>
+<br>
+FocalLength35efl : 10.4 mm (35 mm equivalent: 28.0 mm)<br>
+FocalLength35efl : undefined<br>
+<br>
+HyperfocalDistance : 0.88 m<br>
+HyperfocalDistance : undefined<br>
+<br>
+LightValue : 16.2<br>
+LightValue : undefined<br>
+</td>
+</tr>
+</tbody></table>
+    </div>
+
+</body>
+</html>
