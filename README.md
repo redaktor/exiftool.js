@@ -1,12 +1,22 @@
 exiftool.js
 ===========
 
-WIP development fork - currently only node.js
-=============================================
+### *WIP* development fork - currently only node.js
+
+```javascript
+/* TODO
+// the files are in different modules 
+// next step is to add the 3 define lines to any module 
+// and use any amd loader to support it in the browser again ...
+
+// it is strongly recommended to review this code ("written from the scratch")
+// see the in-code comments like TODO, FIXME or NOTE ...
+*/
+```
 
 A pure javascript implementation of Phil Harvey's excellent [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/). This extends work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/) and aims to support parsing of all the tags that exiftool is capable of.
 
-See how well we're doing in the latest [Coverage report](http://mattburns.github.io/exiftool.js/test/generated/reports/)
+See how well _this dev fork_ is doing in the latest [Coverage report](http://redaktor.circinus.uberspace.de/exiftooljs/report/)
 
 
 Usage
@@ -49,24 +59,16 @@ Coverage
 ========
 
 You can view exactly how the results from this library fair verses the perl library against images from 6,000 different camera models here:
-[Coverage report](http://mattburns.github.io/exiftool.js/test/generated/reports/)
+[Coverage report master](http://mattburns.github.io/exiftool.js/test/generated/reports/)
+[Coverage report this fork](http://redaktor.circinus.uberspace.de/exiftooljs/report/)
 
-I see no reason why this library can't match (and exceed!) the parsing capabilities of the orginal perl library but I need your help. Please fork this repo, create pull request and issue, whatever. You can just play with making improvements to the code so that the coverage goes up. It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
+I see no reason why this library can't match (and exceed!) the parsing capabilities of the orginal perl library but I need your help. Please fork this repo, create pull request and issue, whatever. You can just play with making improvements to the code so that the coverage goes up. It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply go to the test folder and run:
 
 ```
-node testWithNode.js
+node reportNode.js
 ```
 
 This will thrash every sample image through exiftool.js, and variants of node-exif then generate the report files to compare the output.
-
-
-Alternatively, there's a slower version for the paranoid:
-
-```
-node testWithNode.js clean
-```
-
-This will do the same thing, but also ensure the json output files generated from the perl exiftool are up to date.
 
 
 
