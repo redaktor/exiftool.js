@@ -11,6 +11,7 @@ var img = './sampleImages/Canon/CanonEOS5D_MarkIII.jpg';
 exec( perl.concat(" -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate '", img, "'"), function(error, stdout, stderr) {
 	if (error !== null) {
 		console.log('could not generate REFERENCE RESULT (perl) - exec error with ' + img + ': ' + error);
+		console.log('if perl exiftool is installed but not in your PATH, specify the absolute path in this file ...')
 	} else {
 		// stdout string takes some munging...
 		var exifFromPerl = String(stdout);
