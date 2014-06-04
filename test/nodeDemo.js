@@ -10,7 +10,7 @@ var img = './sampleImages/Canon/CanonEOS5D_MarkIII.jpg';
 
 exec( perl.concat(" -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate '", img, "'"), function(error, stdout, stderr) {
 	if (error !== null) {
-		console.log('could not generate REFERENCE RESULT (perl) - exec error with ' + imgFile + ': ' + error);
+		console.log('could not generate REFERENCE RESULT (perl) - exec error with ' + img + ': ' + error);
 	} else {
 		// stdout string takes some munging...
 		var exifFromPerl = String(stdout);
