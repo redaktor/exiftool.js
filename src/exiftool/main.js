@@ -309,7 +309,7 @@
 
         function getImageData(oImg, fncCallback) {
             BinaryAjax(oImg.src, function(oHTTP) {
-                var oEXIF = findEXIFinJPEG(oHTTP.binaryResponse);
+                var oEXIF = findEXIFinJPEG(oHTTP.binaryResponse, oImg.src);
                 oImg.exifdata = oEXIF || {};
                 oImg.imageScanned = true;
                 if (fncCallback) fncCallback();
@@ -318,11 +318,13 @@
 
         function getExif (url, onComplete) {
 			if (typeof module !== 'undefined' && 'exports' in module){
-			// node.js
+			/* NOTE 
+			// RUNS IN node.js
+			*/
 				var fs = require('fs');	
 				var readBuffer = function(buffer){
 					var binaryResponse = new BinaryFile(buffer.toString('binary'), 0, buffer.length);
-					var oEXIF = findEXIFinJPEG(binaryResponse);
+					var oEXIF = findEXIFinJPEG(binaryResponse, url);
 					if (onComplete) onComplete((oEXIF || {}), url);
 				}
 				if (Buffer.isBuffer(url)){
@@ -342,7 +344,9 @@
 					});
 				}
 			} else {
-			// browsers
+			/* NOTE 
+			// RUNS IN browsers
+			*/
 				// TODO data/urls ...
 				BinaryAjax(url, (function(theUrl) { 
 					// I absolutely hate this closure syntax, hurts my head. Must try harder!
@@ -356,7 +360,7 @@
             
         }
 
-        function findEXIFinJPEG(oFile) {
+        function findEXIFinJPEG(oFile, fileName) {
             var aMarkers = [];
 
             if (oFile.getByteAt(0) != 0xFF || oFile.getByteAt(1) != 0xD8) {
@@ -383,7 +387,7 @@
 
                 if (iMarker == 22400) {
                     return readEXIFData(oFile, iOffset + 4, oFile.getShortAt(
-                            iOffset + 2, true) - 2);
+                            iOffset + 2, true) - 2, fileName);
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
 
                 } else if (iMarker == 225) {
@@ -439,7 +443,7 @@
 							oExifData = sortArrayByKeys(oExifData);
                         }
                     } else {
-                        oExifData = readEXIFData(oFile, iOffset + 4, oFile.getShortAt(iOffset + 2, true) - 2);
+                        oExifData = readEXIFData(oFile, iOffset + 4, oFile.getShortAt(iOffset + 2, true) - 2, fileName);
                     }
 
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
@@ -720,7 +724,7 @@
         }
 		
 
-        function readEXIFData(oFile, iStart, iLength) {
+        function readEXIFData(oFile, iStart, iLength, fileName) {
 			
             if (oFile.getStringAt(iStart, 4) != 'Exif') {
                 return false;
@@ -885,7 +889,8 @@
 				
 				// we already know values about the image which is basically metametadata
 				// put it to the image section for compliance with perl reference
-				oTags.image.SourceFile = { value: oFile, _val: oFile };
+				var srcFile = (typeof fileName === 'string') ? fileName : '[binary]';
+				oTags.image.SourceFile = { value: srcFile.replace(/^.\//,'') , _val: srcFile };
 				oTags.image.ExifByteOrder = { value: byteOrderStr, _val: bMakerNoteEndianess };
 				
 				var explainMakernote = function(tags, key){
