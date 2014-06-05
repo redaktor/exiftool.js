@@ -74,7 +74,7 @@
 	
 	/* TODO - check node mode (dev vs production) */
 	// MANUAL DEBUG - set to false in production
-	EXIF.debug = false;
+	EXIF.debug = true;
 	
     var BinaryFile = function(strData, iDataOffset, iDataLength) {
         var data = strData;
@@ -773,6 +773,7 @@
 				}
 				oTags[type] = eTags;
 			}
+			
 			if (EXIF.debug===true) console.log( '! READING "image"' );
 			oTags.image = readTags(oFile, iTIFFOffset, 8, EXIF.tiffTags, bBigEnd);
 			explainTags('image');
@@ -823,6 +824,7 @@
 				if (EXIF.debug===true && ('HeaderSize' in oMakeInfo || 'DefaultHeaderSize' in oMakeInfo)) console.log( 'headerStr', headerStr );
 				
                 var bMakerNoteEndianess = bBigEnd;
+				
                 if (oMakeInfo.MakerNoteByteAlignHeaderOffset) {
                     var iBigEndPointer = iTIFFOffset
                             + oTags.exif._IFDpointer_Makernote
@@ -879,6 +881,12 @@
                     }
                 }
 				
+				var byteOrderStr = (bMakerNoteEndianess===false) ? 'Little-endian (Intel, II)' : 'Big-endian (Motorola, MM)';
+				
+				// we already know values about the image which is basically metametadata
+				// put it to the image section for compliance with perl reference
+				oTags.image.SourceFile = { value: oFile, _val: oFile };
+				oTags.image.ExifByteOrder = { value: byteOrderStr, _val: bMakerNoteEndianess };
 				
 				var explainMakernote = function(tags, key){
 					var val = tags[key];
@@ -916,7 +924,7 @@
 							if (EXIF.debug===true) console.log( '[', key, ' is undefined]' );
 							continue;
 						}
-						/* check if its an IFD itself */
+						/* check if it's an IFD itself */
 						var isIFD = (key.substr(0,12)==='_IFDpointer_' && key!=oMakeInfo.SerialWithinIFD) ? true : false;
 						if (isIFD && key in oMakeInfo.ref && typeof tags[key] === 'number'){
 							if (EXIF.debug===true) console.log( '! READING subIFD "'.concat(key.split('_IFDpointer_').join(''), '"') );

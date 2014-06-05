@@ -5,7 +5,7 @@
 
 (function() {
     "use strict";
-    var exif = require('../');
+    var exif = require('../src/');
     var walk = require('walk'), fs = require('fs'), options, walker;
     var sys = require('sys')
     var exec = require('child_process').exec;

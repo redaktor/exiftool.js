@@ -3,11 +3,12 @@ var exec = require('child_process').exec;
 // optional, enter absolute path to perl exiftool here:
 var perl = 'exiftool';
 
-var exiftool = require('../');
+var exiftool = require('../src/');
 var util = require('util');
 
 var img = './sampleImages/Canon/CanonEOS5D_MarkIII.jpg';
 
+/*
 exec( perl.concat(" -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate '", img, "'"), function(error, stdout, stderr) {
 	if (error !== null) {
 		console.log('could not generate REFERENCE RESULT (perl) - exec error with ' + img + ': ' + error);
@@ -21,11 +22,11 @@ exec( perl.concat(" -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeCha
 		console.log( 'REFERENCE RESULT (perl) ', exifFromPerl );
 	}
 });
-
+*/
 
 exiftool.getExif(img, function(meta) {
 	console.log( 'js exiftool finished in ', Date.now()-start, ' ms' );
-	console.log( util.inspect(meta, {depth:8}) );
+	console.log( util.inspect(meta, {depth:12}) );
 	
 	/* 
 	// all tags in one object ...
