@@ -1,7 +1,7 @@
 exiftool.js
 ===========
 
-### *WIP* development fork - currently only node.js
+### *WIP* development fork - currently only node.js >= 0.10.0
 
 ```javascript
 /* TODO
