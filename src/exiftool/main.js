@@ -309,7 +309,7 @@
 
         function getImageData(oImg, fncCallback) {
             BinaryAjax(oImg.src, function(oHTTP) {
-                var oEXIF = findEXIFinJPEG(oHTTP.binaryResponse, oImg.src);
+                var oEXIF = findEXIFinJPEG(oHTTP.binaryResponse, {path: oImg.src});
                 oImg.exifdata = oEXIF || {};
                 oImg.imageScanned = true;
                 if (fncCallback) fncCallback();
@@ -322,23 +322,24 @@
 			// RUNS IN node.js
 			*/
 				var fs = require('fs');	
-				var readBuffer = function(buffer){
+				var readBuffer = function(buffer, info){
 					var binaryResponse = new BinaryFile(buffer.toString('binary'), 0, buffer.length);
-					var oEXIF = findEXIFinJPEG(binaryResponse, url);
+					info.path = url;
+					var oEXIF = findEXIFinJPEG(binaryResponse, info);
 					if (onComplete) onComplete((oEXIF || {}), url);
 				}
 				if (Buffer.isBuffer(url)){
 					readBuffer(buffer);
 				} else {
-					fs.open(url, 'r', function(status, fd) {
-						if (status) {
-							// TODO
-							if (EXIF.debug===true) console.log('Status ', status.message);
+					fs.open(url, 'r', function(err, fd) {
+						if (err) {
+							// TODO - error first callback
+							if (EXIF.debug===true) console.log('Status ', err.message);
 							return {};
 						}
 						var buffer = new Buffer(131072);
 						fs.read(fd, buffer, 0, buffer.length, 0, function(err, num) {
-							readBuffer(buffer);
+							readBuffer(buffer, fs.fstatSync(fd));
 							fs.close(fd);
 						});
 					});
@@ -360,7 +361,7 @@
             
         }
 
-        function findEXIFinJPEG(oFile, fileName) {
+        function findEXIFinJPEG(oFile, fileInfo) {
             var aMarkers = [];
 
             if (oFile.getByteAt(0) != 0xFF || oFile.getByteAt(1) != 0xD8) {
@@ -386,8 +387,7 @@
                 // but we're only looking for 0xFFE1 for EXIF and XMP data
 
                 if (iMarker == 22400) {
-                    return readEXIFData(oFile, iOffset + 4, oFile.getShortAt(
-                            iOffset + 2, true) - 2, fileName);
+                    return readEXIFData(oFile, iOffset + 4, oFile.getShortAt(iOffset + 2, true) - 2, fileInfo);
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
 
                 } else if (iMarker == 225) {
@@ -443,7 +443,7 @@
 							oExifData = sortArrayByKeys(oExifData);
                         }
                     } else {
-                        oExifData = readEXIFData(oFile, iOffset + 4, oFile.getShortAt(iOffset + 2, true) - 2, fileName);
+                        oExifData = readEXIFData(oFile, iOffset + 4, oFile.getShortAt(iOffset + 2, true) - 2, fileInfo);
                     }
 
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
@@ -724,7 +724,7 @@
         }
 		
 
-        function readEXIFData(oFile, iStart, iLength, fileName) {
+        function readEXIFData(oFile, iStart, iLength, fileInfo) {
 			
             if (oFile.getStringAt(iStart, 4) != 'Exif') {
                 return false;
@@ -750,7 +750,8 @@
                 return false;
             }
 			
-            var oTags = { image: {}, exif:{}, makernote:{}, gps:{}, thumb:{}, iptc:{}, xmp:{}, unknown:{} };
+            var oTags = { file: {}, image: {}, exif:{}, makernote:{}, gps:{}, thumb:{}, iptc:{}, xmp:{}, unknown:{} };
+			
 			var explainTags = function(type){
 				var eTags = oTags[type];
 				
@@ -885,13 +886,81 @@
                     }
                 }
 				
-				var byteOrderStr = (bMakerNoteEndianess===false) ? 'Little-endian (Intel, II)' : 'Big-endian (Motorola, MM)';
 				
-				// we already know values about the image which is basically metametadata
+				
+				// now we know the values from the image which are called Extra Tags in perl...
 				// put it to the image section for compliance with perl reference
-				var srcFile = (typeof fileName === 'string') ? fileName : '[binary]';
-				oTags.image.SourceFile = { value: srcFile.replace(/^.\//,'') , _val: srcFile };
+				// basically metametadata
+				
+				var _srcFile = (typeof fileInfo === 'object' && 'path' in fileInfo) ? fileInfo.path : '[binary]';
+				
+				var extra = {
+					srcFile : '', 
+					dirName : '',
+					fileName: ''
+				};
+				var getReadableFileSize = function(fileSizeInBytes) {
+					var i = -1;
+					var byteUnits = [' kB', ' MB', ' GB', ' TB', 'PB', 'EB', 'ZB', 'YB'];
+					do {
+						fileSizeInBytes = fileSizeInBytes / 1024;
+						i++;
+					} while (fileSizeInBytes > 1024);
+					return (fileSizeInBytes===0) ? 0 : Math.max(fileSizeInBytes, 0.1).toFixed(1) + byteUnits[i];
+				};
+				var getReadablePermissions = function(octalNumeric) {
+					var dec = parseInt(octalNumeric.toString(8), 10); //33188 = 100644
+					var decType = parseInt(dec.toString().substr(0,2), 10);
+					var decPerm = dec.toString().substr(3,6);
+					var types = { 4:'Directory', 10:'File', 12:'Symbolic link', 16:'Gitlink' };
+					var perms = { 0:'---', 1: '--x', 2: '-w-', 3: '-wx', 4: 'r--', 5: 'r-x', 6: 'rw-', 7: 'rwx' };
+					var tStr = 'n/a';
+					var pStr = '';
+					for (var i = 0; i < 3; i++) {
+						if (parseInt(decPerm[i]) in perms) pStr = pStr.concat(perms[decPerm[i]]);
+					}
+					if (decType in types) tStr = types[decType];
+					return { type: { value:tStr, _val:decType }, permissions: { value:pStr, _val:parseInt(decPerm) } };
+				};
+				
+				
+				if (_srcFile === '[binary]'){
+					extra.srcFile = '[binary]'; extra.fileName = '[binary]'; extra.dirName = '[binary]'; extra.filePerm = 'n/a';
+					// TODO - could be replaced by EXIF: extra.dateModi = 'n/a'; extra.dateCrea = 'n/a';
+					// TODO: // extra.mimeType = ''; extra.fileSize = ''; extra.fileType = ''; 
+				} else if (typeof module !== 'undefined' && 'exports' in module) {
+					extra.srcFile = _srcFile.replace(/^.\//,'');
+					extra.fileName = extra.srcFile.replace(/^.*[\\\/]/, '');
+					extra.dirName = extra.srcFile.replace(extra.fileName, '').replace(/[\\\/:]$/, '');
+					console.log( fileInfo );
+					if ('size' in fileInfo) { 
+						oTags.file.FileSize = { value: getReadableFileSize(fileInfo.size), _val: fileInfo.size };
+					}
+					if ('mode' in fileInfo) {
+						var pInfo = getReadablePermissions(fileInfo.mode);
+						oTags.file.FilePermissions = pInfo.permissions;
+						oTags.file.FileType = pInfo.type; 	
+						oTags.file.ModifyDate = { value:fileInfo.mtime, _val:Date.parse(fileInfo.mtime) };
+						oTags.file.CreateDate = { value:fileInfo.ctime, _val:Date.parse(fileInfo.ctime) };
+						/* file.fileType: is a "stub" here 
+						// image.fileType is more detailed and will have priority 
+						*/
+					}
+					
+				} else {
+					extra.srcFile = _srcFile.replace(/^.\//,'');
+					extra.fileName = extra.srcFile.replace(/^.*[\\\/]/, '');
+					extra.dirName = extra.srcFile.replace(extra.fileName, '').replace(/[\\\/:]$/, '');
+				}
+				
+				
+				oTags.file.SourceFile = { value: extra.srcFile , _val: _srcFile };
+				oTags.file.Directory = { value: extra.dirName, _val: extra.dirName };
+				oTags.file.FileName = { value: extra.fileName, _val: extra.fileName };
+				
+				var byteOrderStr = (bMakerNoteEndianess===false) ? 'Little-endian (Intel, II)' : 'Big-endian (Motorola, MM)';
 				oTags.image.ExifByteOrder = { value: byteOrderStr, _val: bMakerNoteEndianess };
+				
 				
 				var explainMakernote = function(tags, key){
 					var val = tags[key];
@@ -1266,8 +1335,7 @@
             var aImages = document.getElementsByTagName('img');
             for (var i = 0; i < aImages.length; i++) {
                 var filename = aImages[i].src.toLowerCase()
-                if (filename.substr(-3) === 'jpg'
-                        || filename.substr(-4) === 'jpeg') {
+                if (filename.substr(-3) === 'jpg' || filename.substr(-4) === 'jpeg') {
                     if (!aImages[i].complete) {
                         addEvent(aImages[i], 'load', function() {
                             EXIF.getData(this);
