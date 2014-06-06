@@ -36,7 +36,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Gateway/GatewayDV-S20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GatewayDV-S20.jpg",
 			"Directory": "sampleImages/Gateway",
 			"FileSize": "30 kB",
@@ -143,7 +143,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Gateway/GatewayDC-T50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GatewayDC-T50.jpg",
 			"Directory": "sampleImages/Gateway",
 			"FileSize": "15 kB",
@@ -249,7 +249,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Gateway/GatewayDC-M50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GatewayDC-M50.jpg",
 			"Directory": "sampleImages/Gateway",
 			"FileSize": "8.6 kB",
@@ -347,7 +347,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Gateway/GatewayDC-M42.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GatewayDC-M42.jpg",
 			"Directory": "sampleImages/Gateway",
 			"FileSize": "8.5 kB",
@@ -449,7 +449,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Gateway/GatewayDC-M40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GatewayDC-M40.jpg",
 			"Directory": "sampleImages/Gateway",
 			"FileSize": "14 kB",

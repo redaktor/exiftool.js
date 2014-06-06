@@ -4,7 +4,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/UMAX/UmaxAstraCam.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "UmaxAstraCam.jpg",
 			"Directory": "sampleImages/UMAX",
 			"FileSize": "275 bytes",
@@ -47,7 +47,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/UMAX/UMAX_MagicScan.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "UMAX_MagicScan.jpg",
 			"Directory": "sampleImages/UMAX",
 			"FileSize": "6.2 kB",
@@ -129,7 +129,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/UMAX/UMAX_AstraSlimF4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "UMAX_AstraSlimF4.jpg",
 			"Directory": "sampleImages/UMAX",
 			"FileSize": "14 kB",
@@ -240,7 +240,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/UMAX/UMAX_AstraPix590.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "UMAX_AstraPix590.jpg",
 			"Directory": "sampleImages/UMAX",
 			"FileSize": "7.0 kB",

@@ -39,7 +39,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sunplus/SunplusSpca533.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SunplusSpca533.jpg",
 			"Directory": "sampleImages/Sunplus",
 			"FileSize": "4.7 kB",
@@ -137,7 +137,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sunplus/SunplusSPCA536.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SunplusSPCA536.jpg",
 			"Directory": "sampleImages/Sunplus",
 			"FileSize": "5.7 kB",
@@ -253,7 +253,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sunplus/SunplusDVC302.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SunplusDVC302.jpg",
 			"Directory": "sampleImages/Sunplus",
 			"FileSize": "9.5 kB",
@@ -380,7 +380,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sunplus/SunplusDVC202.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SunplusDVC202.jpg",
 			"Directory": "sampleImages/Sunplus",
 			"FileSize": "11 kB",

@@ -53,7 +53,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i85.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i85.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -143,7 +143,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i819Phone.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i819Phone.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "402 bytes",
@@ -223,7 +223,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i8.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i8.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -308,7 +308,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i7500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i7500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "269 bytes",
@@ -381,7 +381,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "13 kB",
@@ -512,7 +512,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i7.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -645,7 +645,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung_i100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung_i100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -779,7 +779,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZV60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZV60.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "807 bytes",
@@ -851,7 +851,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZV50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZV50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "743 bytes",
@@ -930,7 +930,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZ720.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZ720.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.3 kB",
@@ -1013,7 +1013,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZ560.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZ560.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "829 bytes",
@@ -1089,7 +1089,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZ400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZ400.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -1171,7 +1171,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZ370.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZ370.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -1274,7 +1274,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungZ240.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungZ240.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "807 bytes",
@@ -1377,7 +1377,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWP10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWP10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -1513,7 +1513,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB850F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB850F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -1639,7 +1639,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB800F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB800F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -1766,7 +1766,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB750.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB750.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -1887,7 +1887,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -2016,7 +2016,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB650.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -2159,7 +2159,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -2301,7 +2301,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -2436,7 +2436,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB5000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB5000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -2573,7 +2573,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -2703,7 +2703,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB350F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB350F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "31 kB",
@@ -2836,7 +2836,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB30F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB30F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -2969,7 +2969,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB250F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB250F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -3105,7 +3105,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -3239,7 +3239,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB2000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB2000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -3367,7 +3367,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB150.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -3509,7 +3509,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungWB1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungWB1000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -3656,7 +3656,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-MS15.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-MS15.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -3796,7 +3796,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-MS11.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-MS11.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.7 kB",
@@ -3901,7 +3901,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DX205i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DX205i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "27 kB",
@@ -3983,7 +3983,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DX105i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DX105i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.3 kB",
@@ -4065,7 +4065,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DX103i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DX103i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.0 kB",
@@ -4147,7 +4147,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC575Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC575Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.4 kB",
@@ -4229,7 +4229,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC575WB.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC575WB.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.5 kB",
@@ -4311,7 +4311,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC565Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC565Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.6 kB",
@@ -4393,7 +4393,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC565W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC565W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.7 kB",
@@ -4475,7 +4475,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC563i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC563i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.8 kB",
@@ -4557,7 +4557,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC175Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC175Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.5 kB",
@@ -4639,7 +4639,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC175WB.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC175WB.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -4721,7 +4721,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC173.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC173.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.5 kB",
@@ -4803,7 +4803,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC165Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC165Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.4 kB",
@@ -4885,7 +4885,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC163i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC163i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.2 kB",
@@ -4967,7 +4967,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-DC163.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-DC163.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.7 kB",
@@ -5049,7 +5049,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D975Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D975Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.8 kB",
@@ -5131,7 +5131,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D975W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D975W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.8 kB",
@@ -5213,7 +5213,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D964Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D964Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.7 kB",
@@ -5295,7 +5295,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D964W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D964W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.0 kB",
@@ -5377,7 +5377,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D963i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D963i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.7 kB",
@@ -5459,7 +5459,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D963.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D963.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.3 kB",
@@ -5527,7 +5527,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D73.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D73.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10.0 kB",
@@ -5596,7 +5596,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D655i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D655i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.4 kB",
@@ -5710,7 +5710,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D6550i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D6550i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -5807,7 +5807,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D655.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D655.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.1 kB",
@@ -5889,7 +5889,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D653i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D653i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.9 kB",
@@ -5971,7 +5971,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D653.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D653.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.2 kB",
@@ -6085,7 +6085,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D6050i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D6050i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -6214,7 +6214,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D6050.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D6050.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -6343,7 +6343,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D6040i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D6040i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "13 kB",
@@ -6431,7 +6431,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D590.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D590.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.8 kB",
@@ -6511,7 +6511,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D5000i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D5000i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -6604,7 +6604,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D463i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D463i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.5 kB",
@@ -6686,7 +6686,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D463.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D463.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.5 kB",
@@ -6768,7 +6768,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D455i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D455i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.7 kB",
@@ -6850,7 +6850,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D455.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D455.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.9 kB",
@@ -6932,7 +6932,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D454i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D454i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.0 kB",
@@ -7014,7 +7014,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D453i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D453i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -7096,7 +7096,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D453.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D453.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.0 kB",
@@ -7178,7 +7178,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D39.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D39.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -7261,7 +7261,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D375Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D375Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.0 kB",
@@ -7343,7 +7343,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D375W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D375W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.5 kB",
@@ -7425,7 +7425,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D365Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D365Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.0 kB",
@@ -7507,7 +7507,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D364Wi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D364Wi.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.5 kB",
@@ -7589,7 +7589,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D364W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D364W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.7 kB",
@@ -7671,7 +7671,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D363i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D363i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.8 kB",
@@ -7753,7 +7753,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D355i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D355i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.1 kB",
@@ -7835,7 +7835,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D354i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D354i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.9 kB",
@@ -7917,7 +7917,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D353i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D353i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.3 kB",
@@ -7999,7 +7999,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D353.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D353.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.7 kB",
@@ -8081,7 +8081,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D33.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D33.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -8163,7 +8163,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D325.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D325.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.4 kB",
@@ -8245,7 +8245,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D323.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D323.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.3 kB",
@@ -8327,7 +8327,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D250.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -8409,7 +8409,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D24.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D24.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "13 kB",
@@ -8491,7 +8491,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D230.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D230.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -8573,7 +8573,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D23.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D23.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -8655,7 +8655,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D107i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D107i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.5 kB",
@@ -8737,7 +8737,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D105i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D105i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.9 kB",
@@ -8819,7 +8819,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVP-D103i.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVP-D103i.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -8901,7 +8901,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVM-DC570.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVM-DC570.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.1 kB",
@@ -9015,7 +9015,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVM-D7500S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVM-D7500S.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -9144,7 +9144,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVM-D7500B.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVM-D7500B.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -9241,7 +9241,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVM-C790.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVM-C790.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -9323,7 +9323,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVM-C730.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVM-C730.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -9414,7 +9414,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVM-C5000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVM-C5000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -9524,7 +9524,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungVLUUi80.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungVLUUi80.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "94 kB",
@@ -9628,7 +9628,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungV840.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungV840.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10 kB",
@@ -9728,7 +9728,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungV700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungV700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -9858,7 +9858,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU900.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -9964,7 +9964,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU80F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU80F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.0 kB",
@@ -10070,7 +10070,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.5 kB",
@@ -10167,7 +10167,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU708.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU708.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "753 bytes",
@@ -10257,7 +10257,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "753 bytes",
@@ -10342,7 +10342,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU-CA501.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU-CA501.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.8 kB",
@@ -10452,7 +10452,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU-CA4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU-CA4.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "22 kB",
@@ -10570,7 +10570,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungU-CA3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungU-CA3.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "24 kB",
@@ -10688,7 +10688,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungTL100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungTL100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "109 kB",
@@ -10816,7 +10816,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungT639.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungT639.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.1 kB",
@@ -10912,7 +10912,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST96.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST96.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -11042,7 +11042,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST95.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST95.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -11183,7 +11183,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST93.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST93.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -11324,7 +11324,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST90.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST90.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -11456,7 +11456,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST80.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST80.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -11583,7 +11583,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST76.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST76.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -11715,7 +11715,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "25 kB",
@@ -11845,7 +11845,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -11986,7 +11986,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST66.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST66.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -12128,7 +12128,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST6500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST6500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -12321,7 +12321,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST65.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "33 kB",
@@ -12470,7 +12470,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -12613,7 +12613,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST60.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -12748,7 +12748,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST5500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST5500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -12889,7 +12889,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -13021,7 +13021,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST5000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST5000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -13148,7 +13148,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -13286,7 +13286,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "348 kB",
@@ -13410,7 +13410,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST45.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST45.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "108 kB",
@@ -13537,7 +13537,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST30.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -13680,7 +13680,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -13818,7 +13818,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST150F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST150F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -13954,7 +13954,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST1000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -14097,7 +14097,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -14239,7 +14239,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungST10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungST10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -14329,7 +14329,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-S4750.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-S4750.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "481 bytes",
@@ -14388,7 +14388,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-S3900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-S3900.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -14440,7 +14440,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-S2300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-S2300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "46 kB",
@@ -14541,7 +14541,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-S1450.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-S1450.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "701 bytes",
@@ -14638,7 +14638,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-S1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-S1000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "32 kB",
@@ -14741,7 +14741,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M810.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M810.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "88 kB",
@@ -14823,7 +14823,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M620.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -14905,7 +14905,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M610.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M610.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "775 bytes",
@@ -15006,7 +15006,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "27 kB",
@@ -15088,7 +15088,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M520.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M520.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -15164,7 +15164,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -15242,7 +15242,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-M500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-M500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -15355,7 +15355,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-D710.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-D710.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "24 kB",
@@ -15419,7 +15419,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-A940.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-A940.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -15501,7 +15501,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-A920.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-A920.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.8 kB",
@@ -15581,7 +15581,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-A900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-A900.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -15634,7 +15634,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-A800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-A800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -15707,7 +15707,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSPH-A720.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSPH-A720.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "20 kB",
@@ -15787,7 +15787,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSMX-F34BN.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSMX-F34BN.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "27 kB",
@@ -15869,7 +15869,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSMX-F30BP.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSMX-F30BP.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -15951,7 +15951,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSMX-C20N.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSMX-C20N.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -16047,7 +16047,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSM-N900T.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSM-N900T.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "865 bytes",
@@ -16166,7 +16166,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSM-C105A.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSM-C105A.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -16303,7 +16303,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSM-C101.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSM-C101.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "36 kB",
@@ -16420,7 +16420,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSL620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSL620.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "348 kB",
@@ -16544,7 +16544,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSL201.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSL201.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "93 kB",
@@ -16667,7 +16667,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSH100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSH100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -16797,7 +16797,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH_G810.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH_G810.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "895 bytes",
@@ -16894,7 +16894,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-i908.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-i908.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -16992,7 +16992,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-i900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-i900.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.8 kB",
@@ -17082,7 +17082,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-i200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-i200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "738 bytes",
@@ -17163,7 +17163,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-Z510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-Z510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -17231,7 +17231,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-X700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-X700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "543 bytes",
@@ -17320,7 +17320,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T919.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T919.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -17433,7 +17433,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T819.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T819.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.7 kB",
@@ -17494,7 +17494,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T809.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T809.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "393 bytes",
@@ -17569,7 +17569,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T749.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T749.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -17637,7 +17637,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T739.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T739.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -17685,7 +17685,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T729.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T729.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -17770,7 +17770,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T659.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T659.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "29 kB",
@@ -17878,7 +17878,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T559.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T559.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -17983,7 +17983,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T469.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T469.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.6 kB",
@@ -18052,7 +18052,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T409.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T409.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -18100,7 +18100,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T239.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T239.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -18152,7 +18152,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-T229.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-T229.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "595 bytes",
@@ -18208,7 +18208,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-P270.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-P270.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "53 kB",
@@ -18259,7 +18259,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-M610.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-M610.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -18307,7 +18307,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-M200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-M200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -18381,7 +18381,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-M150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-M150.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1037 bytes",
@@ -18495,7 +18495,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-L811.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-L811.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.2 kB",
@@ -18571,7 +18571,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-L770.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-L770.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -18632,7 +18632,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-L700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-L700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "577 bytes",
@@ -18683,7 +18683,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-L600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-L600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -18731,7 +18731,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-L310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-L310.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -18815,7 +18815,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-L170.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-L170.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -18889,7 +18889,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "577 bytes",
@@ -18943,7 +18943,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J770.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J770.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "553 bytes",
@@ -18997,7 +18997,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J706.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J706.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "594 bytes",
@@ -19085,7 +19085,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J630.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J630.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.8 kB",
@@ -19161,7 +19161,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "612 bytes",
@@ -19250,7 +19250,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "811 bytes",
@@ -19320,7 +19320,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-J150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-J150.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "594 bytes",
@@ -19406,7 +19406,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-I917.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-I917.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10 kB",
@@ -19534,7 +19534,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-I747M.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-I747M.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -19635,7 +19635,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-I620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-I620.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "759 bytes",
@@ -19706,7 +19706,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-G608.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-G608.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -19774,7 +19774,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-G600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-G600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "931 bytes",
@@ -19879,7 +19879,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-G400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-G400.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "31 kB",
@@ -19958,7 +19958,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F700V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F700V.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.1 kB",
@@ -20014,7 +20014,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "38 kB",
@@ -20073,7 +20073,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F490.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F490.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "25 kB",
@@ -20132,7 +20132,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F488E.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F488E.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -20227,7 +20227,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F488.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F488.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "36 kB",
@@ -20342,7 +20342,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F480.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F480.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.1 kB",
@@ -20455,7 +20455,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F330.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "811 bytes",
@@ -20525,7 +20525,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F266.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F266.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "594 bytes",
@@ -20581,7 +20581,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F250.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "594 bytes",
@@ -20636,7 +20636,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-F110.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-F110.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -20686,7 +20686,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E830.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E830.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "535 bytes",
@@ -20734,7 +20734,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E780.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E780.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -20788,7 +20788,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E740.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E740.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "612 bytes",
@@ -20841,7 +20841,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -20889,7 +20889,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E480.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E480.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -20937,7 +20937,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E390.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E390.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -20985,7 +20985,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E380.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E380.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -21037,7 +21037,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E260.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E260.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "594 bytes",
@@ -21089,7 +21089,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E258.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E258.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -21137,7 +21137,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E250B.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E250B.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -21185,7 +21185,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E250.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -21260,7 +21260,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E2120.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E2120.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1051 bytes",
@@ -21342,7 +21342,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E200B.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E200B.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "539 bytes",
@@ -21391,7 +21391,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-E200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-E200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "531 bytes",
@@ -21444,7 +21444,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-D980.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-D980.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -21515,7 +21515,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-D880.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-D880.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -21568,7 +21568,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-D780.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-D780.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "69 kB",
@@ -21622,7 +21622,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-B2700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-B2700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "578 bytes",
@@ -21709,7 +21709,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-A737.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-A737.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.7 kB",
@@ -21815,7 +21815,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSGH-A736.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSGH-A736.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.9 kB",
@@ -21933,7 +21933,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-MS61B.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-MS61B.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.7 kB",
@@ -22071,7 +22071,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-K65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-K65.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.2 kB",
@@ -22209,7 +22209,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-K60S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-K60S.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.9 kB",
@@ -22347,7 +22347,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-K60R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-K60R.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.1 kB",
@@ -22485,7 +22485,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-K60B.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-K60B.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.8 kB",
@@ -22624,7 +22624,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-K50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-K50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.1 kB",
@@ -22731,7 +22731,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-200Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-200Z.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.9 kB",
@@ -22817,7 +22817,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSDC-130Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSDC-130Z.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.3 kB",
@@ -22901,7 +22901,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V890.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V890.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -22981,7 +22981,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V870.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V870.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.2 kB",
@@ -23060,7 +23060,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V740.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V740.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.1 kB",
@@ -23138,7 +23138,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V730.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V730.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.4 kB",
@@ -23216,7 +23216,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V720.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V720.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "701 bytes",
@@ -23290,7 +23290,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V650.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.5 kB",
@@ -23356,7 +23356,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-V490.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-V490.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "25 kB",
@@ -23427,7 +23427,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-U700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-U700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.1 kB",
@@ -23532,7 +23532,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-U650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-U650.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "20 kB",
@@ -23619,7 +23619,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-U620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-U620.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -23696,7 +23696,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-U540.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-U540.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.2 kB",
@@ -23796,7 +23796,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-U440.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-U440.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "825 bytes",
@@ -23898,7 +23898,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-U350.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-U350.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -23981,7 +23981,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-S390.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-S390.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -24059,7 +24059,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-S380.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-S380.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "701 bytes",
@@ -24132,7 +24132,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-R610.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-R610.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -24209,7 +24209,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-G100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-G100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -24288,7 +24288,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-E239.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-E239.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.2 kB",
@@ -24368,7 +24368,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-B490.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-B490.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "835 bytes",
@@ -24444,7 +24444,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-B360.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-B360.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -24524,7 +24524,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-B340.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-B340.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "24 kB",
@@ -24604,7 +24604,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-B300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-B300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -24684,7 +24684,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-A990.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-A990.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "42 kB",
@@ -24758,7 +24758,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-A970.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-A970.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.2 kB",
@@ -24831,7 +24831,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-A950.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-A950.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.1 kB",
@@ -24909,7 +24909,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-A930.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-A930.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.9 kB",
@@ -24987,7 +24987,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-A815.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-A815.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -25070,7 +25070,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCH-A303.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCH-A303.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.0 kB",
@@ -25186,7 +25186,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCD6040.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCD6040.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "20 kB",
@@ -25292,7 +25292,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCD5000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCD5000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -25385,7 +25385,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCD27.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCD27.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -25467,7 +25467,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCD23.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCD23.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -25550,7 +25550,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSCD107.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSCD107.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.2 kB",
@@ -25633,7 +25633,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSC-DC173U.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSC-DC173U.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.3 kB",
@@ -25747,7 +25747,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSC-D6550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSC-D6550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -25845,7 +25845,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSC-D453.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSC-D453.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.3 kB",
@@ -25927,7 +25927,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSC-D354.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSC-D354.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.6 kB",
@@ -26010,7 +26010,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSC-D353.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSC-D353.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.4 kB",
@@ -26092,7 +26092,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungSC-D230.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungSC-D230.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -26191,7 +26191,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS850.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS850.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -26313,7 +26313,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS85.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS85.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "40 kB",
@@ -26445,7 +26445,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS8300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS8300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "54 kB",
@@ -26564,7 +26564,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS7350.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS7350.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -26679,7 +26679,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS7220.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS7220.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -26789,7 +26789,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS5600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS5600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.7 kB",
@@ -26856,7 +26856,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS5230.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS5230.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "25 kB",
@@ -26911,7 +26911,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS5200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS5200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "549 bytes",
@@ -26964,7 +26964,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS5050.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS5050.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "549 bytes",
@@ -27018,7 +27018,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS3600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS3600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "591 bytes",
@@ -27094,7 +27094,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS1070.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS1070.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.8 kB",
@@ -27203,7 +27203,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS1065.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS1065.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "108 kB",
@@ -27325,7 +27325,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungS1060.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungS1060.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "107 kB",
@@ -27451,7 +27451,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPro815.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPro815.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -27579,7 +27579,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL90.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL90.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.9 kB",
@@ -27715,7 +27715,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL80.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL80.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.1 kB",
@@ -27855,7 +27855,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -27985,7 +27985,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL65.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "348 kB",
@@ -28113,7 +28113,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL60.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -28247,7 +28247,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL51.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL51.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -28381,7 +28381,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -28514,7 +28514,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -28652,7 +28652,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -28790,7 +28790,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -28931,7 +28931,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL170.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL170.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -29072,7 +29072,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL150.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -29213,7 +29213,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL120.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL120.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -29355,7 +29355,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungPL10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungPL10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -29471,7 +29471,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungP940.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungP940.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.9 kB",
@@ -29569,7 +29569,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "54 kB",
@@ -29711,7 +29711,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX30.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "48 kB",
@@ -29847,7 +29847,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -29980,7 +29980,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX2000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX2000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "48 kB",
@@ -30112,7 +30112,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "46 kB",
@@ -30241,7 +30241,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "60 kB",
@@ -30378,7 +30378,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX11.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX11.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "47 kB",
@@ -30518,7 +30518,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX1000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "58 kB",
@@ -30655,7 +30655,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -30799,7 +30799,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNX10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNX10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -30944,7 +30944,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV9.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV9.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -31076,7 +31076,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV8.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV8.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -31205,7 +31205,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV7.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -31335,7 +31335,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV5.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -31465,7 +31465,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV40.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "31 kB",
@@ -31597,7 +31597,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV4.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -31729,7 +31729,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV30.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -31860,7 +31860,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV3.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.1 kB",
@@ -31991,7 +31991,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV24HD.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV24HD.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "42 kB",
@@ -32121,7 +32121,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "26 kB",
@@ -32251,7 +32251,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV15.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV15.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -32381,7 +32381,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV11.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV11.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "22 kB",
@@ -32511,7 +32511,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV100HD.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV100HD.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "33 kB",
@@ -32641,7 +32641,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungNV10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungNV10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -32772,7 +32772,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungMV900F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungMV900F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -32913,7 +32913,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungMV800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungMV800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -33033,7 +33033,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungMINIKET_MEGA.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungMINIKET_MEGA.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -33115,7 +33115,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungMINIKET.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungMINIKET.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.5 kB",
@@ -33222,7 +33222,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungM7600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungM7600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -33300,7 +33300,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungM3510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungM3510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "549 bytes",
@@ -33362,7 +33362,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungLC3600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungLC3600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.1 kB",
@@ -33458,7 +33458,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL83T.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL83T.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "40 kB",
@@ -33585,7 +33585,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL830.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL830.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -33723,7 +33723,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL77.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL77.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "60 kB",
@@ -33857,7 +33857,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL768.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL768.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "807 bytes",
@@ -33959,7 +33959,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL760.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL760.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "807 bytes",
@@ -34060,7 +34060,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL74.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL74.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -34193,7 +34193,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL730.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL730.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -34362,7 +34362,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL73.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL73.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -34516,7 +34516,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -34637,7 +34637,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -34764,7 +34764,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL310W_L313M310W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL310W_L313M310W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "32 kB",
@@ -34898,7 +34898,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL310W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL310W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "31 kB",
@@ -35032,7 +35032,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -35162,7 +35162,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL201.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL201.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "109 kB",
@@ -35286,7 +35286,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -35420,7 +35420,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL110.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL110.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -35545,7 +35545,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungL100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungL100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -35682,7 +35682,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungKENOX_X77.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungKENOX_X77.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "59 kB",
@@ -35816,7 +35816,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungKENOX_S860.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungKENOX_S860.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -35950,7 +35950,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungKENOX_S760.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungKENOX_S760.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -36084,7 +36084,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungKENOX_S730.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungKENOX_S730.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -36218,7 +36218,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungKENOX_S630.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungKENOX_S630.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -36352,7 +36352,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungKENOX_S1050.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungKENOX_S1050.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -36454,7 +36454,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungJ770.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungJ770.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "590 bytes",
@@ -36510,7 +36510,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungJ700E.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungJ700E.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "591 bytes",
@@ -36598,7 +36598,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungIT100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungIT100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "20 kB",
@@ -36756,7 +36756,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungI8510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungI8510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.1 kB",
@@ -36905,7 +36905,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungI7110.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungI7110.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.7 kB",
@@ -37027,7 +37027,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungI5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungI5.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "48 kB",
@@ -37158,7 +37158,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-U20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-U20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -37296,7 +37296,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-U10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-U10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -37407,7 +37407,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-S15BP.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-S15BP.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -37525,7 +37525,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-S10BP.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-S10BP.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.9 kB",
@@ -37653,7 +37653,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-R10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-R10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -37777,7 +37777,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-Q10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-Q10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -37903,7 +37903,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-M20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-M20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.8 kB",
@@ -38022,7 +38022,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-H304.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-H304.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.5 kB",
@@ -38140,7 +38140,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-H300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-H300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -38248,7 +38248,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungHMX-E10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungHMX-E10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -38369,7 +38369,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGX20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGX20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "61 kB",
@@ -38607,7 +38607,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGX10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGX10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "52 kB",
@@ -38808,7 +38808,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGX-1S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGX-1S.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "62 kB",
@@ -38976,7 +38976,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGX-1L.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGX-1L.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "60 kB",
@@ -39989,7 +39989,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-i8910.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-i8910.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "144 kB",
@@ -40115,7 +40115,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-i7500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-i7500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -40233,7 +40233,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-i5700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-i5700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "43 kB",
@@ -40323,7 +40323,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S9402.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S9402.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.9 kB",
@@ -40423,7 +40423,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S8530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S8530.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "119 kB",
@@ -40542,7 +40542,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S8500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S8500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "228 kB",
@@ -40691,7 +40691,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S8000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S8000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "65 kB",
@@ -40795,7 +40795,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S7550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S7550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -40874,7 +40874,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S7070.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S7070.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "50 kB",
@@ -40985,7 +40985,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5830.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5830.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "13 kB",
@@ -41082,7 +41082,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5670.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5670.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -41172,7 +41172,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5660.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5660.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "899 bytes",
@@ -41260,7 +41260,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5620.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -41343,7 +41343,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "51 kB",
@@ -41429,7 +41429,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5570.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5570.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "48 kB",
@@ -41517,7 +41517,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5560.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5560.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "20 kB",
@@ -41628,7 +41628,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "49 kB",
@@ -41752,7 +41752,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -41873,7 +41873,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5350.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5350.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.9 kB",
@@ -41963,7 +41963,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5330.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -42053,7 +42053,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5260.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5260.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -42141,7 +42141,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5250.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -42224,7 +42224,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5233T.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5233T.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -42294,7 +42294,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5230.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5230.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -42362,7 +42362,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S5150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S5150.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -42454,7 +42454,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3850.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3850.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "42 kB",
@@ -42538,7 +42538,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3650.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "43 kB",
@@ -42622,7 +42622,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.9 kB",
@@ -42690,7 +42690,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -42788,7 +42788,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3370.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3370.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -42875,7 +42875,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3350.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3350.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "725 bytes",
@@ -42933,7 +42933,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3310.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "465 bytes",
@@ -42991,7 +42991,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "758 bytes",
@@ -43060,7 +43060,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-S3030.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-S3030.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.7 kB",
@@ -43156,7 +43156,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-M8910.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-M8910.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -43265,7 +43265,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-M8800H.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-M8800H.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "33 kB",
@@ -43353,7 +43353,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-M8800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-M8800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -43446,7 +43446,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-M3710.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-M3710.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "24 kB",
@@ -43533,7 +43533,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-M3310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-M3310.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "758 bytes",
@@ -43641,7 +43641,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9505.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9505.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "64 kB",
@@ -43790,7 +43790,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -43900,7 +43900,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "18 kB",
@@ -43973,7 +43973,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "60 kB",
@@ -44035,7 +44035,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9008.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9008.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "47 kB",
@@ -44164,7 +44164,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9003.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9003.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "42 kB",
@@ -44296,7 +44296,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9000M.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9000M.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -44435,7 +44435,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I9000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I9000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10 kB",
@@ -44564,7 +44564,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I8700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I8700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10 kB",
@@ -44696,7 +44696,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I8000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I8000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -44801,7 +44801,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I5800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I5800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -44893,7 +44893,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-I5500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-I5500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -44980,7 +44980,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E3210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E3210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "825 bytes",
@@ -45062,7 +45062,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2652W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2652W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -45143,7 +45143,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2652.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2652.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "725 bytes",
@@ -45221,7 +45221,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2550.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "802 bytes",
@@ -45303,7 +45303,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2530.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.9 kB",
@@ -45395,7 +45395,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1037 bytes",
@@ -45500,7 +45500,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2370.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2370.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1051 bytes",
@@ -45605,7 +45605,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1037 bytes",
@@ -45710,7 +45710,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2152.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2152.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1051 bytes",
@@ -45816,7 +45816,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2121B.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2121B.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1051 bytes",
@@ -45921,7 +45921,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-E2100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-E2100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1067 bytes",
@@ -46017,7 +46017,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C6112.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C6112.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "802 bytes",
@@ -46123,7 +46123,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C5510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C5510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "20 kB",
@@ -46212,7 +46212,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3530.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -46285,7 +46285,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "553 bytes",
@@ -46353,7 +46353,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3300K.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3300K.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "815 bytes",
@@ -46441,7 +46441,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3222.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3222.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "826 bytes",
@@ -46525,7 +46525,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3212.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3212.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "758 bytes",
@@ -46605,7 +46605,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -46675,7 +46675,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3110.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3110.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.0 kB",
@@ -46730,7 +46730,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-C3010.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-C3010.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -46818,7 +46818,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B7722.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B7722.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "919 bytes",
@@ -46931,7 +46931,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B7620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B7620.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "87 kB",
@@ -47048,7 +47048,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B7610.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B7610.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "102 kB",
@@ -47157,7 +47157,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B7350.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B7350.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "761 bytes",
@@ -47261,7 +47261,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B7320.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B7320.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "910 bytes",
@@ -47371,7 +47371,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B7300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B7300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "42 kB",
@@ -47460,7 +47460,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B5722.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B5722.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "790 bytes",
@@ -47542,7 +47542,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B5310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B5310.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "29 kB",
@@ -47629,7 +47629,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B3410W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B3410W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "53 kB",
@@ -47716,7 +47716,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B3410.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B3410.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "770 bytes",
@@ -47798,7 +47798,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B3310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B3310.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -47882,7 +47882,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B3210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B3210.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -47990,7 +47990,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungGT-B2710.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungGT-B2710.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "761 bytes",
@@ -48077,7 +48077,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungG800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungG800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "797 bytes",
@@ -48147,7 +48147,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungFM-1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungFM-1.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.1 kB",
@@ -48230,7 +48230,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungF400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungF400.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.1 kB",
@@ -48323,7 +48323,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungEX2F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungEX2F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "32 kB",
@@ -48445,7 +48445,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungEX1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungEX1.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -48570,7 +48570,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES80.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES80.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -48708,7 +48708,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES74.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES74.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -48849,7 +48849,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES73.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES73.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -48990,7 +48990,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -49132,7 +49132,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES55.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES55.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -49263,7 +49263,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES30.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.2 kB",
@@ -49402,7 +49402,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES28.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES28.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -49540,7 +49540,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES20.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "108 kB",
@@ -49668,7 +49668,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES15.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES15.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -49802,7 +49802,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungES10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungES10.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "128 kB",
@@ -49929,7 +49929,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungEK-GN120.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungEK-GN120.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "49 kB",
@@ -50107,7 +50107,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungEK-GC100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungEK-GC100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -50239,7 +50239,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxi6PMP.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxi6PMP.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -50368,7 +50368,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxi50MP3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxi50MP3.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "49 kB",
@@ -50497,7 +50497,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxi5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxi5.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "51 kB",
@@ -50626,7 +50626,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -50756,7 +50756,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -50897,7 +50897,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -51016,7 +51016,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV6.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "49 kB",
@@ -51157,7 +51157,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -51267,7 +51267,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV5.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -51388,7 +51388,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV4.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "9.6 kB",
@@ -51502,7 +51502,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxV3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxV3.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.2 kB",
@@ -51615,7 +51615,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxU-CA5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxU-CA5.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "52 kB",
@@ -51742,7 +51742,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxU-CA401.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxU-CA401.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.2 kB",
@@ -51859,7 +51859,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS830.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS830.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -51989,7 +51989,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS800.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -52118,7 +52118,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -52248,7 +52248,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS600.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -52377,7 +52377,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -52506,7 +52506,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS1030.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS1030.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -52636,7 +52636,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxS1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxS1000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -52761,7 +52761,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL85.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL85.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -52886,7 +52886,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL80.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL80.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -53012,7 +53012,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "40 kB",
@@ -53133,7 +53133,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL60.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -53267,7 +53267,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL55W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL55W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "55 kB",
@@ -53396,7 +53396,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -53518,7 +53518,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxL40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxL40.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -53643,7 +53643,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxD53.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxD53.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "45 kB",
@@ -53768,7 +53768,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA7.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.9 kB",
@@ -53882,7 +53882,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA6.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -53998,7 +53998,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA55W.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA55W.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "51 kB",
@@ -54108,7 +54108,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA503.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA503.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -54239,7 +54239,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA502.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA502.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.2 kB",
@@ -54347,7 +54347,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA50.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -54470,7 +54470,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA5.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.2 kB",
@@ -54588,7 +54588,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA403.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA403.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "44 kB",
@@ -54691,7 +54691,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA402.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA402.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.9 kB",
@@ -54791,7 +54791,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA400.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.1 kB",
@@ -54900,7 +54900,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA40.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -55015,7 +55015,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA4.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.4 kB",
@@ -55126,7 +55126,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimaxA302.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimaxA302.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.5 kB",
@@ -55246,7 +55246,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax530.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "4.5 kB",
@@ -55315,7 +55315,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax430.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax430.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "1285 bytes",
@@ -55425,7 +55425,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax420.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax420.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -55522,7 +55522,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax410.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax410.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10 kB",
@@ -55617,7 +55617,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax401.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax401.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -55730,7 +55730,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax370.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax370.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "52 kB",
@@ -55850,7 +55850,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax360.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax360.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -55956,7 +55956,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax350SE.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax350SE.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "13 kB",
@@ -56055,7 +56055,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax340.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax340.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.6 kB",
@@ -56146,7 +56146,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax330.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -56241,7 +56241,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax301.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax301.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.9 kB",
@@ -56340,7 +56340,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.5 kB",
@@ -56431,7 +56431,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax240.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax240.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "30 kB",
@@ -56518,7 +56518,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax230.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax230.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "10 kB",
@@ -56625,7 +56625,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax220SE.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax220SE.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -56730,7 +56730,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax210SE.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax210SE.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -56823,7 +56823,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax202.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax202.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.9 kB",
@@ -56921,7 +56921,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax201.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax201.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.4 kB",
@@ -57008,7 +57008,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax200.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -57084,7 +57084,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax130.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax130.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "23 kB",
@@ -57171,7 +57171,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDigimax101.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDigimax101.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "6.8 kB",
@@ -57263,7 +57263,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDVC.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDVC.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.6 kB",
@@ -57366,7 +57366,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDV300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDV300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "70 kB",
@@ -57504,7 +57504,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungDV150F.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungDV150F.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "28 kB",
@@ -57641,7 +57641,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungD75.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungD75.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "34 kB",
@@ -57775,7 +57775,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungD70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungD70.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -57913,7 +57913,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungD250DigitalCAM.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungD250DigitalCAM.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "3.1 kB",
@@ -58009,7 +58009,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungC5212.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungC5212.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "591 bytes",
@@ -58063,7 +58063,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungC3053.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungC3053.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -58119,7 +58119,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungC3050.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungC3050.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "37 kB",
@@ -58177,7 +58177,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungB5702.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungB5702.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "591 bytes",
@@ -58244,7 +58244,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungB2300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungB2300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -58317,7 +58317,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungB2100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungB2100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "549 bytes",
@@ -58381,7 +58381,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W4450.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W4450.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "41 kB",
@@ -58470,7 +58470,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W4100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W4100.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "25 kB",
@@ -58562,7 +58562,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W3500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W3500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -58646,7 +58646,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W3300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W3300.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "741 bytes",
@@ -58724,7 +58724,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W2900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W2900.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -58807,7 +58807,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W2700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W2700.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "773 bytes",
@@ -58888,7 +58888,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-W2500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-W2500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -58969,7 +58969,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-V9850.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-V9850.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -59049,7 +59049,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-V9000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-V9000.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "15 kB",
@@ -59130,7 +59130,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-S4850.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-S4850.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "767 bytes",
@@ -59208,7 +59208,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-C3250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-C3250.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -59289,7 +59289,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-C2350.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-C2350.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "7.3 kB",
@@ -59392,7 +59392,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-B8850.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-B8850.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "25 kB",
@@ -59476,7 +59476,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-B6650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-B6650.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -59556,7 +59556,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-B5650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-B5650.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -59642,7 +59642,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSPH-A503.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSPH-A503.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "35 kB",
@@ -59738,7 +59738,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSGH-i640.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSGH-i640.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "772 bytes",
@@ -59829,7 +59829,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W750.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W750.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "55 kB",
@@ -59924,7 +59924,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W720.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W720.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "14 kB",
@@ -59997,7 +59997,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W579.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W579.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "605 bytes",
@@ -60092,7 +60092,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W5500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W5500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "24 kB",
@@ -60186,7 +60186,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W460.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W460.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -60278,7 +60278,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W410.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W410.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "12 kB",
@@ -60374,7 +60374,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W390.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W390.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -60461,7 +60461,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W330.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "19 kB",
@@ -60554,7 +60554,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W270.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W270.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "897 bytes",
@@ -60619,7 +60619,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-W240.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-W240.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "456 bytes",
@@ -60680,7 +60680,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-V940.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-V940.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "21 kB",
@@ -60769,7 +60769,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-V900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-V900.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "17 kB",
@@ -60857,7 +60857,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-S510.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-S510.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.0 kB",
@@ -60940,7 +60940,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-S470.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-S470.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "767 bytes",
@@ -61023,7 +61023,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-B660.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-B660.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "16 kB",
@@ -61108,7 +61108,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-B540.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-B540.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -61188,7 +61188,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungAnycallSCH-B500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungAnycallSCH-B500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "8.5 kB",
@@ -61290,7 +61290,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungA767.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungA767.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "11 kB",
@@ -61378,7 +61378,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungA707.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungA707.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "5.1 kB",
@@ -61434,7 +61434,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/SamsungA500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SamsungA500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "269 bytes",
@@ -61504,7 +61504,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung730SC.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung730SC.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "765 bytes",
@@ -61580,7 +61580,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung709SC.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung709SC.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "837 bytes",
@@ -61656,7 +61656,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung707SCII.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung707SCII.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "26 kB",
@@ -61736,7 +61736,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung707SC.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung707SC.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "837 bytes",
@@ -61810,7 +61810,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Samsung/Samsung3500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Samsung3500.jpg",
 			"Directory": "sampleImages/Samsung",
 			"FileSize": "13 kB",

@@ -4,7 +4,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_i7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_i7.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "24 kB",
@@ -109,7 +109,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_i60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_i60.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "72 kB",
@@ -214,7 +214,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_i50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_i50.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "35 kB",
@@ -319,7 +319,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_i5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_i5.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "12 kB",
@@ -421,7 +421,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_i3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_i3.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "11 kB",
@@ -526,7 +526,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_b50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_b50.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "47 kB",
@@ -631,7 +631,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_b40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_b40.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "31 kB",
@@ -736,7 +736,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_Z-Camera.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_Z-Camera.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "15 kB",
@@ -841,7 +841,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCamSC660WES.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCamSC660WES.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "605 kB",
@@ -951,7 +951,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCamP660Wes.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCamP660Wes.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "605 kB",
@@ -1059,7 +1059,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_T-400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_T-400.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "155 kB",
@@ -1167,7 +1167,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_SC660Wes.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_SC660Wes.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "613 kB",
@@ -1287,7 +1287,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_SC640.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_SC640.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "605 kB",
@@ -1387,7 +1387,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_P660West.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_P660West.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "610 kB",
@@ -1496,7 +1496,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_P640.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_P640.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "661 kB",
@@ -1606,7 +1606,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_EX320.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_EX320.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "81 kB",
@@ -1709,7 +1709,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_E65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_E65.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "22 kB",
@@ -1839,7 +1839,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_A320.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_ThermaCAM_A320.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "3.7 kB",
@@ -1893,7 +1893,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T640.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T640.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "611 kB",
@@ -2004,7 +2004,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T620bx.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T620bx.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "613 kB",
@@ -2112,7 +2112,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T620.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "614 kB",
@@ -2234,7 +2234,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T425.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T425.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "157 kB",
@@ -2339,7 +2339,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T400Western.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T400Western.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "161 kB",
@@ -2447,7 +2447,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T400.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "155 kB",
@@ -2549,7 +2549,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T360_Western.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T360_Western.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "159 kB",
@@ -2654,7 +2654,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_T250_Western.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_T250_Western.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "68 kB",
@@ -2759,7 +2759,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_P660.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_P660.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "605 kB",
@@ -2867,7 +2867,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_P640.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_P640.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "612 kB",
@@ -2978,7 +2978,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_P60PAL.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_P60PAL.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "80 kB",
@@ -3087,7 +3087,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_P60NTSC.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_P60NTSC.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "79 kB",
@@ -3213,7 +3213,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_P60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_P60.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "89 kB",
@@ -3319,7 +3319,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E8.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E8.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "128 kB",
@@ -3435,7 +3435,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E60.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "158 kB",
@@ -3546,7 +3546,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E6.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "49 kB",
@@ -3662,7 +3662,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E50.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "146 kB",
@@ -3777,7 +3777,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E5.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "96 kB",
@@ -3893,7 +3893,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E40bx.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E40bx.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "45 kB",
@@ -4001,7 +4001,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E40.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "158 kB",
@@ -4117,7 +4117,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E4.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "102 kB",
@@ -4233,7 +4233,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E30bx.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E30bx.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "47 kB",
@@ -4346,7 +4346,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_E30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_E30.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "53 kB",
@@ -4455,7 +4455,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_Bertha3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_Bertha3.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "605 kB",
@@ -4564,7 +4564,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_B335.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_B335.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "1135 kB",
@@ -4680,7 +4680,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_B20HS.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_B20HS.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "85 kB",
@@ -4785,7 +4785,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_AX5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FLIR_AX5.jpg",
 			"Directory": "sampleImages/FLIR",
 			"FileSize": "222 kB",

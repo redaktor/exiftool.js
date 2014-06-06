@@ -46,7 +46,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Digilife/DigilifeDDC-690.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DigilifeDDC-690.jpg",
 			"Directory": "sampleImages/Digilife",
 			"FileSize": "55 kB",
@@ -160,7 +160,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Digilife/DigilifeDDC-680.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DigilifeDDC-680.jpg",
 			"Directory": "sampleImages/Digilife",
 			"FileSize": "28 kB",
@@ -275,7 +275,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Digilife/DigilifeDDC-580.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DigilifeDDC-580.jpg",
 			"Directory": "sampleImages/Digilife",
 			"FileSize": "25 kB",

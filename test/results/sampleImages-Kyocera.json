@@ -23,7 +23,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraWX310K.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraWX310K.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "9.0 kB",
@@ -94,7 +94,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraSAMURAI2100DG.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraSAMURAI2100DG.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "6.6 kB",
@@ -194,7 +194,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamSL400R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamSL400R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "18 kB",
@@ -313,7 +313,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamS5R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamS5R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "11 kB",
@@ -432,7 +432,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamS3R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamS3R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "17 kB",
@@ -551,7 +551,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamS3L.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamS3L.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "61 kB",
@@ -660,7 +660,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamS3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamS3.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "63 kB",
@@ -770,7 +770,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamM410R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamM410R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "22 kB",
@@ -898,7 +898,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecamM400R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecamM400R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "15 kB",
@@ -1023,7 +1023,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecam-L4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecam-L4.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "64 kB",
@@ -1141,7 +1141,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecam-L3v.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecam-L3v.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "64 kB",
@@ -1260,7 +1260,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecam-L30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecam-L30.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "17 kB",
@@ -1380,7 +1380,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFinecam-L3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFinecam-L3.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "64 kB",
@@ -1498,7 +1498,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFineCamSL300R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFineCamSL300R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "18 kB",
@@ -1616,7 +1616,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFineCamS5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFineCamS5.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "63 kB",
@@ -1721,7 +1721,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFineCamS4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFineCamS4.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "63 kB",
@@ -1827,7 +1827,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFineCamL4V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFineCamL4V.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "64 kB",
@@ -1927,7 +1927,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFC-S3x.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFC-S3x.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "55 kB",
@@ -2014,7 +2014,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFC-S3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFC-S3.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "63 kB",
@@ -2107,7 +2107,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraFC-3300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraFC-3300.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "63 kB",
@@ -2194,7 +2194,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraEZ1.3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraEZ1.3.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "23 kB",
@@ -2294,7 +2294,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraContaxU4R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraContaxU4R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "16 kB",
@@ -2417,7 +2417,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraContaxSL300R_Tx.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraContaxSL300R_Tx.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "13 kB",
@@ -2524,7 +2524,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraContaxNDigital.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraContaxNDigital.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "1262 bytes",
@@ -2629,7 +2629,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/KyoceraCONTAXi4R.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KyoceraCONTAXi4R.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "16 kB",
@@ -2752,7 +2752,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Kyocera/ContaxTVS.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ContaxTVS.jpg",
 			"Directory": "sampleImages/Kyocera",
 			"FileSize": "63 kB",

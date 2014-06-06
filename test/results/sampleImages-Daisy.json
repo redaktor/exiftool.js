@@ -44,7 +44,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyPhC70XX.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyPhC70XX.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "7.8 kB",
@@ -150,7 +150,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyPhC60XX.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyPhC60XX.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "5.3 kB",
@@ -274,7 +274,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyPH8300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyPH8300.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "36 kB",
@@ -336,7 +336,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyMultimedia.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyMultimedia.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "552 bytes",
@@ -428,7 +428,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM425Zr.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyDM425Zr.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "30 kB",
@@ -537,7 +537,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM334SF.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyDM334SF.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "38 kB",
@@ -646,7 +646,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM334.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyDM334.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "38 kB",
@@ -755,7 +755,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM2100a.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DaisyDM2100a.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "38 kB",

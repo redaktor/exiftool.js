@@ -22,7 +22,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/Toshiba_camessepetit.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Toshiba_camessepetit.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "621 bytes",
@@ -87,7 +87,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaTS705.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaTS705.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "12 kB",
@@ -167,7 +167,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaTG01.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaTG01.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "27 kB",
@@ -269,7 +269,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR_M21.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR_M21.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "7.1 kB",
@@ -380,7 +380,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDRM40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDRM40.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "7.8 kB",
@@ -482,7 +482,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR5.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "7.6 kB",
@@ -554,7 +554,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR2300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR2300.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "30 kB",
@@ -652,7 +652,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-T30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-T30.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -774,7 +774,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-T20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-T20.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -888,7 +888,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-T15.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-T15.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "1166 bytes",
@@ -986,7 +986,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-T10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-T10.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "6.6 kB",
@@ -1086,7 +1086,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M81.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M81.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -1183,7 +1183,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M71.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M71.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -1289,7 +1289,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M700.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -1421,7 +1421,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M70.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -1511,7 +1511,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M65.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "4.5 kB",
@@ -1598,7 +1598,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M61.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M61.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "5.1 kB",
@@ -1685,7 +1685,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M60.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "5.6 kB",
@@ -1814,7 +1814,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M500.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -1944,7 +1944,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M5.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "7.8 kB",
@@ -2054,7 +2054,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M4.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "7.8 kB",
@@ -2150,7 +2150,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M3.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "6.1 kB",
@@ -2258,7 +2258,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M25.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M25.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "4.6 kB",
@@ -2372,7 +2372,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M11.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M11.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "7.3 kB",
@@ -2471,7 +2471,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-M1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-M1.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "5.9 kB",
@@ -2589,7 +2589,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-5300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-5300.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "14 kB",
@@ -2697,7 +2697,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-4300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-4300.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -2794,7 +2794,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-3330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-3330.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -2897,7 +2897,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-3320.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-3320.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "5.3 kB",
@@ -2998,7 +2998,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-3310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-3310.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "63 kB",
@@ -3094,7 +3094,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-3300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-3300.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "10 kB",
@@ -3184,7 +3184,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaPDR-2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaPDR-2.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "475 bytes",
@@ -3235,7 +3235,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaJ-T010.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaJ-T010.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "599 bytes",
@@ -3296,7 +3296,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaG910.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaG910.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "5.0 kB",
@@ -3369,7 +3369,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaG8103.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaG8103.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "8.1 kB",
@@ -3460,7 +3460,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaCamileoProHDDV.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaCamileoProHDDV.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "15 kB",
@@ -3568,7 +3568,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaCamileoProHD.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaCamileoProHD.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "12 kB",
@@ -3686,7 +3686,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/ToshibaCamileoH30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ToshibaCamileoH30.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "23 kB",
@@ -3785,7 +3785,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/Toshiba921T.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Toshiba921T.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "615 bytes",
@@ -3843,7 +3843,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/Toshiba910T.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Toshiba910T.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "11 kB",
@@ -3904,7 +3904,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Toshiba/Toshiba811T.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Toshiba811T.jpg",
 			"Directory": "sampleImages/Toshiba",
 			"FileSize": "645 bytes",

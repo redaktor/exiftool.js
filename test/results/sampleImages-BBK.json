@@ -46,7 +46,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/BBK/BBK_DP830.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "BBK_DP830.jpg",
 			"Directory": "sampleImages/BBK",
 			"FileSize": "190 kB",
@@ -172,7 +172,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/BBK/BBK_DP810.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "BBK_DP810.jpg",
 			"Directory": "sampleImages/BBK",
 			"FileSize": "137 kB",
@@ -298,7 +298,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/BBK/BBK_DP710.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "BBK_DP710.jpg",
 			"Directory": "sampleImages/BBK",
 			"FileSize": "147 kB",
@@ -424,7 +424,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/BBK/BBK_DP1250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "BBK_DP1250.jpg",
 			"Directory": "sampleImages/BBK",
 			"FileSize": "87 kB",
@@ -545,7 +545,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/BBK/BBK_DP1050.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "BBK_DP1050.jpg",
 			"Directory": "sampleImages/BBK",
 			"FileSize": "85 kB",

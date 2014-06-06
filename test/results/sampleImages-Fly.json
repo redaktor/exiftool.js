@@ -31,7 +31,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlySX210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlySX210.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "1875 bytes",
@@ -107,7 +107,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlySX100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlySX100.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "1911 bytes",
@@ -180,7 +180,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyLX600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlyLX600.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "1903 bytes",
@@ -256,7 +256,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyLX500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlyLX500.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "1913 bytes",
@@ -332,7 +332,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlyE300.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "1875 bytes",
@@ -409,7 +409,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE155.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlyE155.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "9.1 kB",
@@ -491,7 +491,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE125.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlyE125.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "58 kB",
@@ -568,7 +568,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE105.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "FlyE105.jpg",
 			"Directory": "sampleImages/Fly",
 			"FileSize": "1907 bytes",

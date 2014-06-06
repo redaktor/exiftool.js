@@ -662,7 +662,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamUltra_Zoom.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamUltra_Zoom.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "31 kB",
@@ -761,7 +761,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamTravel_DXG.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamTravel_DXG.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "7.3 kB",
@@ -871,7 +871,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamQ-63.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamQ-63.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "17 kB",
@@ -1601,7 +1601,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamMini_Cam.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamMini_Cam.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "35 kB",
@@ -1691,7 +1691,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamIdeal_DSC_33.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamIdeal_DSC_33.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "56 kB",
@@ -2380,7 +2380,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamElite_DSC_13.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamElite_DSC_13.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "41 kB",
@@ -2470,7 +2470,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamElite_DSC_11.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamElite_DSC_11.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "56 kB",
@@ -3159,7 +3159,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/ImpressCam/ImpressCamC630.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ImpressCamC630.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "18 kB",

@@ -65,6 +65,15 @@
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 739,
 			"_IFDpointer_Makernote": "",
+			"CreateDate": "2014-05-31T15:31:02.000Z",
+			"Directory": "sampleImages/Sanyo",
+			"FileName": "SanyoWX310SA.jpg",
+			"FilePermissions": "rw-r--r--",
+			"FileSize": "5.2 kB",
+			"FileType": "File",
+			"ModifyDate": "2014-05-31T15:31:02.000Z",
+			"SourceFile": "sampleImages/Sanyo/SanyoWX310SA.jpg",
+			"ExifByteOrder": "Little-endian (Intel, II)",
 			"Make": "SANYO",
 			"Model": "WX310SA",
 			"Orientation": "Horizontal (normal)",
@@ -77,7 +86,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoWX310SA.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoWX310SA.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "5.2 kB",
@@ -191,7 +200,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-W800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-W800.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "39 kB",
@@ -304,7 +313,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-T850EX.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-T850EX.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "53 kB",
@@ -415,7 +424,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-T700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-T700.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "54 kB",
@@ -519,7 +528,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-SX550.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-SX550.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -629,7 +638,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-S700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-S700.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "39 kB",
@@ -742,7 +751,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-S600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-S600.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "32 kB",
@@ -855,7 +864,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-S500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-S500.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "45 kB",
@@ -969,7 +978,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-S1080.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-S1080.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "49 kB",
@@ -1087,7 +1096,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-MZ3GX.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-MZ3GX.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "1187 bytes",
@@ -1208,7 +1217,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-MZ3EX.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-MZ3EX.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "3.8 kB",
@@ -1356,7 +1365,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-MZ3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-MZ3.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "13 kB",
@@ -1490,7 +1499,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-G250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-G250.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "4.6 kB",
@@ -1593,7 +1602,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-E1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-E1000.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "39 kB",
@@ -1713,7 +1722,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-C5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-C5.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -1887,7 +1896,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoVPC-C4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoVPC-C4.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -2008,7 +2017,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoV801SA.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoV801SA.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "4.0 kB",
@@ -2087,7 +2096,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSX215.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSX215.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "16 kB",
@@ -2207,7 +2216,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSX212.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSX212.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "10 kB",
@@ -2312,7 +2321,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSX114.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSX114.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "11 kB",
@@ -2414,7 +2423,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSX113.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSX113.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -2516,7 +2525,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSX112.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSX112.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "17 kB",
@@ -2619,7 +2628,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSR813.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSR813.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "6.2 kB",
@@ -2722,7 +2731,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSR662.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSR662.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "4.5 kB",
@@ -2816,7 +2825,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSR66.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSR66.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "4.4 kB",
@@ -2910,7 +2919,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSR6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSR6.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "4.6 kB",
@@ -3005,7 +3014,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSR08.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSR08.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "6.2 kB",
@@ -3097,7 +3106,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoSR05.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoSR05.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "5.2 kB",
@@ -3198,7 +3207,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS760.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS760.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "16 kB",
@@ -3317,7 +3326,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS750.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS750.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "825 bytes",
@@ -3428,7 +3437,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS70.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS70.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -3580,7 +3589,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS650.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "77 kB",
@@ -3725,7 +3734,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS60.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -3876,7 +3885,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS6.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -4027,7 +4036,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS5.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -4201,7 +4210,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS4.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -4373,7 +4382,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS3.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -4507,7 +4516,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS103.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS103.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "825 bytes",
@@ -4641,7 +4650,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoS1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoS1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -4813,7 +4822,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoJ4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoJ4.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -4985,7 +4994,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoJ2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoJ2.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -5145,7 +5154,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoJ1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoJ1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "9.0 kB",
@@ -5277,7 +5286,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoIDC-1000Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoIDC-1000Z.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "7.0 kB",
@@ -5393,7 +5402,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoHD700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoHD700.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "20 kB",
@@ -5546,7 +5555,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoHD2000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoHD2000.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "56 kB",
@@ -5699,7 +5708,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoHD2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoHD2.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -5850,7 +5859,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoHD1A.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoHD1A.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -6001,7 +6010,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoHD1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoHD1000.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "16 kB",
@@ -6154,7 +6163,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoHD1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoHD1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -6305,7 +6314,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoFH1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoFH1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "56 kB",
@@ -6459,7 +6468,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoE760.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoE760.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "69 kB",
@@ -6604,7 +6613,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoE7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoE7.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -6755,7 +6764,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoE60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoE60.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -6906,7 +6915,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoE6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoE6.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -7057,7 +7066,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoE1090.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoE1090.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "63 kB",
@@ -7200,7 +7209,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoE1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoE1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "16 kB",
@@ -7338,7 +7347,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoDSC-R1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoDSC-R1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "5.7 kB",
@@ -7454,7 +7463,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoDSC-MZ3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoDSC-MZ3.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "11 kB",
@@ -7606,7 +7615,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoCG9.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoCG9.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "16 kB",
@@ -7759,7 +7768,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoCG65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoCG65.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "20 kB",
@@ -7910,7 +7919,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoCG6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoCG6.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "19 kB",
@@ -8061,7 +8070,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoCG100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoCG100.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "56 kB",
@@ -8214,7 +8223,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoCA65.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoCA65.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "13 kB",
@@ -8368,7 +8377,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoCA6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoCA6.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "15 kB",
@@ -8519,7 +8528,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoC6.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoC6.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -8670,7 +8679,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoC40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoC40.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -8844,7 +8853,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoC4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoC4.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -9016,7 +9025,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoC1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoC1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "14 kB",
@@ -9190,7 +9199,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoAZ3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoAZ3.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "9.3 kB",
@@ -9326,7 +9335,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoAZ1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoAZ1.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "9.3 kB",
@@ -9505,7 +9514,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/SanyoA5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SanyoA5.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "54 kB",
@@ -9633,7 +9642,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/Sanyo603.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sanyo603.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "29 kB",
@@ -9758,7 +9767,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sanyo/Sanyo503.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sanyo503.jpg",
 			"Directory": "sampleImages/Sanyo",
 			"FileSize": "29 kB",

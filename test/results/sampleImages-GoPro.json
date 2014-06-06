@@ -54,7 +54,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/GoPro/GoProYHDC5170.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GoProYHDC5170.jpg",
 			"Directory": "sampleImages/GoPro",
 			"FileSize": "35 kB",
@@ -185,7 +185,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/GoPro/GoProHero3-SilverEdition.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GoProHero3-SilverEdition.jpg",
 			"Directory": "sampleImages/GoPro",
 			"FileSize": "495 kB",
@@ -322,7 +322,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/GoPro/GoProHero3-BlackEdition.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GoProHero3-BlackEdition.jpg",
 			"Directory": "sampleImages/GoPro",
 			"FileSize": "60 kB",
@@ -459,7 +459,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/GoPro/GoProHERO3+BlackEdition.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GoProHERO3+BlackEdition.jpg",
 			"Directory": "sampleImages/GoPro",
 			"FileSize": "489 kB",
@@ -596,7 +596,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/GoPro/GoProHD3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GoProHD3.jpg",
 			"Directory": "sampleImages/GoPro",
 			"FileSize": "321 kB",
@@ -733,7 +733,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/GoPro/GoProHD2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GoProHD2.jpg",
 			"Directory": "sampleImages/GoPro",
 			"FileSize": "138 kB",

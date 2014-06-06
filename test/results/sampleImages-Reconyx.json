@@ -30,7 +30,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxRM45.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxRM45.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1698 bytes",
@@ -81,7 +81,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxRM30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxRM30.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "725 bytes",
@@ -135,7 +135,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxRC60HO.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxRC60HO.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1698 bytes",
@@ -183,7 +183,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxRC60.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxRC60.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1186 bytes",
@@ -209,7 +209,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxRC55.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxRC55.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1186 bytes",
@@ -235,7 +235,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxPM35.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxPM35.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1186 bytes",
@@ -276,7 +276,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxPC900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxPC900.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1204 bytes",
@@ -346,7 +346,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxHC600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxHC600.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1186 bytes",
@@ -415,7 +415,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Reconyx/ReconyxHC500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "ReconyxHC500.jpg",
 			"Directory": "sampleImages/Reconyx",
 			"FileSize": "1186 bytes",

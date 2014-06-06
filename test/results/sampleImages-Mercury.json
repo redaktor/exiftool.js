@@ -37,7 +37,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercurySlimCamII.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercurySlimCamII.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "7.7 kB",
@@ -133,7 +133,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryDeluxeClassicCam.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryDeluxeClassicCam.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "7.1 kB",
@@ -229,7 +229,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryCyberPixS-550V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryCyberPixS-550V.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "6.3 kB",
@@ -325,7 +325,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryCyberPixS-450V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryCyberPixS-450V.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "6.5 kB",
@@ -439,7 +439,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryCyberPixS-330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryCyberPixS-330.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "7.4 kB",
@@ -515,7 +515,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryCyberPixE-550V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryCyberPixE-550V.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "5.5 kB",
@@ -627,7 +627,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryCyberPixE-450V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryCyberPixE-450V.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "6.4 kB",
@@ -750,7 +750,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mercury/MercuryCyberPixE-350V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MercuryCyberPixE-350V.jpg",
 			"Directory": "sampleImages/Mercury",
 			"FileSize": "9.0 kB",

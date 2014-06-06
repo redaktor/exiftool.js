@@ -41,7 +41,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/T-Mobile/T-MobileSidekickLX.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "T-MobileSidekickLX.jpg",
 			"Directory": "sampleImages/T-Mobile",
 			"FileSize": "10 kB",
@@ -102,7 +102,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/T-Mobile/T-MobilePulse.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "T-MobilePulse.jpg",
 			"Directory": "sampleImages/T-Mobile",
 			"FileSize": "5.4 kB",

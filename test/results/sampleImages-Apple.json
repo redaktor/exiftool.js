@@ -53,7 +53,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPodTouch5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPodTouch5.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "16 kB",
@@ -175,7 +175,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPodTouch4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPodTouch4.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "9.0 kB",
@@ -296,7 +296,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone5s.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone5s.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "12 kB",
@@ -426,7 +426,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone5.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "8.7 kB",
@@ -569,7 +569,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone4S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone4S.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "12 kB",
@@ -689,7 +689,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone4-front.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone4-front.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "8.6 kB",
@@ -809,7 +809,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone4-back.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone4-back.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "13 kB",
@@ -920,7 +920,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone3GS.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone3GS.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "963 bytes",
@@ -1010,7 +1010,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone3G.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone3G.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "8.0 kB",
@@ -1083,7 +1083,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone2.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "722 bytes",
@@ -1140,7 +1140,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPhone.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPhone.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "6.0 kB",
@@ -1219,7 +1219,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPad_mini.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPad_mini.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "12 kB",
@@ -1326,7 +1326,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPad4.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPad4.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "13 kB",
@@ -1444,7 +1444,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPad3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPad3.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "12 kB",
@@ -1567,7 +1567,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/Apple_iPad2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Apple_iPad2.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "16 kB",
@@ -1667,7 +1667,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/AppleQT-200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AppleQT-200.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "10 kB",
@@ -1715,7 +1715,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/AppleQT-150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AppleQT-150.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "269 bytes",
@@ -1740,7 +1740,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Apple/AppleQT-100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AppleQT-100.jpg",
 			"Directory": "sampleImages/Apple",
 			"FileSize": "269 bytes",

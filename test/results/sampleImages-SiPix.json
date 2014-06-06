@@ -44,7 +44,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SiPix/SipixSC3300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SipixSC3300.jpg",
 			"Directory": "sampleImages/SiPix",
 			"FileSize": "14 kB",
@@ -161,7 +161,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SiPix/SipixSC2300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SipixSC2300.jpg",
 			"Directory": "sampleImages/SiPix",
 			"FileSize": "9.2 kB",
@@ -268,7 +268,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SiPix/SipixSC2100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SipixSC2100.jpg",
 			"Directory": "sampleImages/SiPix",
 			"FileSize": "7.3 kB",
@@ -327,7 +327,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SiPix/SipixBlink.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SipixBlink.jpg",
 			"Directory": "sampleImages/SiPix",
 			"FileSize": "269 bytes",
@@ -399,7 +399,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SiPix/NucamSP-1300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NucamSP-1300.jpg",
 			"Directory": "sampleImages/SiPix",
 			"FileSize": "14 kB",

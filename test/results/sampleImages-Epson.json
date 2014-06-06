@@ -27,7 +27,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonStylusPhotoRX700.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.7 kB",
@@ -87,7 +87,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX690.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonStylusPhotoRX690.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "9.5 kB",
@@ -145,7 +145,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX640.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonStylusPhotoRX640.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "8.8 kB",
@@ -204,7 +204,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX620.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonStylusPhotoRX620.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "6.0 kB",
@@ -258,7 +258,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX610.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonStylusPhotoRX610.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "5.6 kB",
@@ -312,7 +312,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX590.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonStylusPhotoRX590.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "1582 bytes",
@@ -388,7 +388,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonR-D1s.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonR-D1s.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "19 kB",
@@ -496,7 +496,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonR-D1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonR-D1.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "15 kB",
@@ -603,7 +603,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC850Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPhotoPC850Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
@@ -715,7 +715,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC800S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPhotoPC800S.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
@@ -824,7 +824,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPhotoPC800.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "5.8 kB",
@@ -934,7 +934,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC3100Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPhotoPC3100Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "29 kB",
@@ -1048,7 +1048,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC3000Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPhotoPC3000Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "9.3 kB",
@@ -1154,7 +1154,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC2100Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPhotoPC2100Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "1849 bytes",
@@ -1238,7 +1238,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfectionV700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPerfectionV700.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "4.0 kB",
@@ -1335,7 +1335,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfectionV100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPerfectionV100.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "558 bytes",
@@ -1383,7 +1383,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection4990.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPerfection4990.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "10 kB",
@@ -1450,7 +1450,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection2480.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPerfection2480.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "413 bytes",
@@ -1486,7 +1486,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection1660.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPerfection1660.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "413 bytes",
@@ -1522,7 +1522,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection1250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonPerfection1250.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "413 bytes",
@@ -1594,7 +1594,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonL-500V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonL-500V.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "14 kB",
@@ -1711,7 +1711,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonL-410.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonL-410.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "13 kB",
@@ -1826,7 +1826,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonL-400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonL-400.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "6.7 kB",
@@ -1950,7 +1950,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonL-300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonL-300.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.0 kB",
@@ -2057,7 +2057,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonExp10000XL.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonExp10000XL.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "4.7 kB",
@@ -2105,7 +2105,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCX4400.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCX4400.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "387 bytes",
@@ -2147,7 +2147,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCX3900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCX3900.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "5.9 kB",
@@ -2223,7 +2223,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-920Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCP-920Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "29 kB",
@@ -2337,7 +2337,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-900Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCP-900Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "9.3 kB",
@@ -2448,7 +2448,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-850Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCP-850Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "1955 bytes",
@@ -2552,7 +2552,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-80Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCP-80Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "8.7 kB",
@@ -2657,7 +2657,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-800S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCP-800S.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
@@ -2768,7 +2768,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "EpsonCP-800.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",

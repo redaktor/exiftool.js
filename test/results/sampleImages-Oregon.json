@@ -34,7 +34,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Oregon/OregonScientific_ds6638.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "OregonScientific_ds6638.jpg",
 			"Directory": "sampleImages/Oregon",
 			"FileSize": "3.9 kB",
@@ -133,7 +133,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Oregon/OregonScientificDS9810.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "OregonScientificDS9810.jpg",
 			"Directory": "sampleImages/Oregon",
 			"FileSize": "10 kB",
@@ -255,7 +255,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Oregon/OregonScientificDS9610.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "OregonScientificDS9610.jpg",
 			"Directory": "sampleImages/Oregon",
 			"FileSize": "7.6 kB",
@@ -364,7 +364,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Oregon/OregonScientificDS8228.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "OregonScientificDS8228.jpg",
 			"Directory": "sampleImages/Oregon",
 			"FileSize": "16 kB",
@@ -470,7 +470,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Oregon/OregonScientificDS6639.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "OregonScientificDS6639.jpg",
 			"Directory": "sampleImages/Oregon",
 			"FileSize": "979 bytes",

@@ -28,7 +28,8 @@ exiftool.getExif(img, function(meta) {
 	console.log( 'js exiftool finished in ', Date.now()-start, ' ms' );
 	console.log( util.inspect(meta, {depth:12}) );
 	
-	/* 
+	
+	
 	// all tags in one object ...
 	var r = {};
 	var flat = function(obj) {
@@ -37,24 +38,26 @@ exiftool.getExif(img, function(meta) {
 			
 			if (typeof obj[i] === 'object' && !(obj[i] instanceof Array)) {
 				if ('value' in obj[i]) {
-					if( !(i in r) || 'priority' in obj[i] ){ 
+					if( !(i in r) || 'priority' in obj[i] || r[i] === 'n/a' ){ 
 						r[i] = obj[i].value;
 					}
 				} else {
 					var flatObject = flat(obj[i]);
 					for (var x in flatObject) {
 						if (!flatObject.hasOwnProperty(x)) continue;
-						if( !(x in r) || (typeof flatObject[x] === 'object' && 'priority' in flatObject[x]) ){ 
+						if( !(x in r) || (typeof flatObject[x] === 'object' && 'priority' in flatObject[x]) || r[i] === 'n/a' ){ 
 							r[x] = (typeof flatObject[x] === 'object' && 'value' in flatObject[x]) ? flatObject[x].value : flatObject[x];
 						}
 					}
 				}
 			} else {
-				if( !(i in r) ) r[i] = obj[i];
+				if( !(i in r) || r[i] === 'n/a' ) r[i] = obj[i];
 			}
 		}
 		return r;
 	};
-	console.log( util.inspect(flat(meta), {depth:8}) );
-	*/
+	
+	console.log( flat(meta) );
+	
+	
 });

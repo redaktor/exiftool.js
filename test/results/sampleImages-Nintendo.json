@@ -4,7 +4,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Nintendo/NintendoWii.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NintendoWii.jpg",
 			"Directory": "sampleImages/Nintendo",
 			"FileSize": "251 bytes",
@@ -45,7 +45,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Nintendo/NintendoDSi.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NintendoDSi.jpg",
 			"Directory": "sampleImages/Nintendo",
 			"FileSize": "3.9 kB",
@@ -110,7 +110,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Nintendo/Nintendo3DS.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Nintendo3DS.jpg",
 			"Directory": "sampleImages/Nintendo",
 			"FileSize": "4.9 kB",

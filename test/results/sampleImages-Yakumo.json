@@ -35,7 +35,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/YakumoYK-47sx.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YakumoYK-47sx.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "10 kB",
@@ -146,7 +146,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/YakumoMegaImageXII.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YakumoMegaImageXII.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "5.1 kB",
@@ -260,7 +260,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/YakumoMega-ImageIII.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YakumoMega-ImageIII.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "7.7 kB",
@@ -364,7 +364,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/YakumoMega-Image410.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YakumoMega-Image410.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "8.7 kB",
@@ -485,7 +485,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/YakumoCamMasterSD542.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YakumoCamMasterSD542.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "7.3 kB",
@@ -603,7 +603,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/YakumoAG.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YakumoAG.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "9.8 kB",
@@ -673,7 +673,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/Yakumo524Z3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Yakumo524Z3.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "5.8 kB",
@@ -781,7 +781,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yakumo/Yakumo1210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Yakumo1210.jpg",
 			"Directory": "sampleImages/Yakumo",
 			"FileSize": "17 kB",

@@ -47,7 +47,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Lumicron/LumicronLDC-828Z3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LumicronLDC-828Z3.jpg",
 			"Directory": "sampleImages/Lumicron",
 			"FileSize": "42 kB",
@@ -160,7 +160,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Lumicron/LumicronLDC-825Z3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LumicronLDC-825Z3.jpg",
 			"Directory": "sampleImages/Lumicron",
 			"FileSize": "41 kB",
@@ -272,7 +272,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Lumicron/LumicronLDC-660S.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LumicronLDC-660S.jpg",
 			"Directory": "sampleImages/Lumicron",
 			"FileSize": "25 kB",
@@ -379,7 +379,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Lumicron/LumicronLDC-4028.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LumicronLDC-4028.jpg",
 			"Directory": "sampleImages/Lumicron",
 			"FileSize": "4.7 kB",
@@ -483,7 +483,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Lumicron/LumicronLDC-4013.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LumicronLDC-4013.jpg",
 			"Directory": "sampleImages/Lumicron",
 			"FileSize": "15 kB",
@@ -594,7 +594,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Lumicron/Lumicron616z3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Lumicron616z3.jpg",
 			"Directory": "sampleImages/Lumicron",
 			"FileSize": "6.2 kB",

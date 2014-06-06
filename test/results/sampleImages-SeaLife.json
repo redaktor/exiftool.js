@@ -44,7 +44,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC800.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "34 kB",
@@ -155,7 +155,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC600.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "13 kB",
@@ -270,7 +270,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC500.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "17 kB",
@@ -382,7 +382,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC300.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "30 kB",
@@ -462,7 +462,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC250.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC250.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "30 kB",
@@ -540,7 +540,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC1310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC1310.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "23 kB",
@@ -635,7 +635,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/SeaLife/SealifeDC1000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SealifeDC1000.jpg",
 			"Directory": "sampleImages/SeaLife",
 			"FileSize": "38 kB",

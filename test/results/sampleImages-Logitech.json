@@ -47,7 +47,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Logitech/LogitechPocketDigital130.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LogitechPocketDigital130.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "7.7 kB",
@@ -155,7 +155,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Logitech/LogitechDC2320.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LogitechDC2320.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "4.3 kB",
@@ -250,7 +250,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Logitech/LogitechClickSmart820.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LogitechClickSmart820.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "12 kB",
@@ -328,7 +328,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Logitech/LogitechClickSmart.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "LogitechClickSmart.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "696 bytes",

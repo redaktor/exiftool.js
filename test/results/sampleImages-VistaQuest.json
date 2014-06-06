@@ -37,7 +37,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/VistaQuest/VistaQuestVQ2110.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "VistaQuestVQ2110.jpg",
 			"Directory": "sampleImages/VistaQuest",
 			"FileSize": "16 kB",
@@ -99,7 +99,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/VistaQuest/VistaQuestVQ1015.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "VistaQuestVQ1015.jpg",
 			"Directory": "sampleImages/VistaQuest",
 			"FileSize": "3.3 kB",

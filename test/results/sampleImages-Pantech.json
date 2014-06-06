@@ -29,7 +29,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechPR-600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechPR-600.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "8.3 kB",
@@ -95,7 +95,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechPG-8000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechPG-8000.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "13 kB",
@@ -150,7 +150,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechPG-6200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechPG-6200.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "11 kB",
@@ -205,7 +205,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechPG-3600.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechPG-3600.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "13 kB",
@@ -260,7 +260,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechPG-3500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechPG-3500.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "13 kB",
@@ -349,7 +349,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-U300K.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-U300K.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "19 kB",
@@ -427,7 +427,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-U220K.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-U220K.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "6.5 kB",
@@ -505,7 +505,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-U220.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-U220.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "17 kB",
@@ -575,7 +575,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-U140.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-U140.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "2.3 kB",
@@ -629,7 +629,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-U110.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-U110.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "4.8 kB",
@@ -710,7 +710,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-S370.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-S370.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "17 kB",
@@ -762,7 +762,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-S340L.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-S340L.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "480 bytes",
@@ -799,7 +799,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-S250L.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-S250L.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "433 bytes",
@@ -853,7 +853,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-S230.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-S230.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "25 kB",
@@ -937,7 +937,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-S200K.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-S200K.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "31 kB",
@@ -1032,7 +1032,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-R300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-R300.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "21 kB",
@@ -1083,7 +1083,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Pantech/PantechIM-8100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PantechIM-8100.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "341 bytes",

@@ -26,7 +26,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/Konica_e-miniD.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Konica_e-miniD.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "4.9 kB",
@@ -108,7 +108,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaRevioKD-100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaRevioKD-100.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "11 kB",
@@ -244,7 +244,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaRevioC2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaRevioC2.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "8.9 kB",
@@ -352,7 +352,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaQ-M200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaQ-M200.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "8.0 kB",
@@ -491,7 +491,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaQ-M100V.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaQ-M100V.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "3.5 kB",
@@ -630,7 +630,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaQ-M100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaQ-M100.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "3.5 kB",
@@ -722,7 +722,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKDC1310.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKDC1310.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "23 kB",
@@ -816,7 +816,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-510Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-510Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "8.7 kB",
@@ -932,7 +932,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-500Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-500Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "8.5 kB",
@@ -1046,7 +1046,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-410Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-410Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "7.8 kB",
@@ -1160,7 +1160,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-400Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-400Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "9.3 kB",
@@ -1267,7 +1267,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-3300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-3300.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "60 kB",
@@ -1369,7 +1369,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-310Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-310Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "7.7 kB",
@@ -1476,7 +1476,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-3100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-3100.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "60 kB",
@@ -1570,7 +1570,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-30M.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-30M.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "6.1 kB",
@@ -1667,7 +1667,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-300Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-300Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "63 kB",
@@ -1762,7 +1762,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-25.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-25.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "15 kB",
@@ -1850,7 +1850,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-220Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-220Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "30 kB",
@@ -1933,7 +1933,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-210Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-210Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "7.2 kB",
@@ -2024,7 +2024,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-20M.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-20M.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "5.5 kB",
@@ -2116,7 +2116,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-200Z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-200Z.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "6.0 kB",
@@ -2208,7 +2208,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-20.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-20.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "6.6 kB",
@@ -2272,7 +2272,7 @@
 		"exifJS": {},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaKD-2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaKD-2.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "1237 bytes",
@@ -2376,7 +2376,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaDG-2.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaDG-2.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "8.4 kB",
@@ -2504,7 +2504,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Konica/KonicaDG-1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "KonicaDG-1.jpg",
 			"Directory": "sampleImages/Konica",
 			"FileSize": "4.4 kB",

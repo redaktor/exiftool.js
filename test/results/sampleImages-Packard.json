@@ -29,7 +29,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Packard/PackardBellDSC-220.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PackardBellDSC-220.jpg",
 			"Directory": "sampleImages/Packard",
 			"FileSize": "701 bytes",
@@ -110,7 +110,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Packard/PackardBellDSC-200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "PackardBellDSC-200.jpg",
 			"Directory": "sampleImages/Packard",
 			"FileSize": "9.5 kB",

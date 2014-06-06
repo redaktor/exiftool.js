@@ -44,7 +44,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/MustekMDC832z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MustekMDC832z.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "5.1 kB",
@@ -154,7 +154,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/MustekMDC530z.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MustekMDC530z.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "19 kB",
@@ -275,7 +275,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/MustekDV5300SE.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "MustekDV5300SE.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "3.4 kB",
@@ -374,7 +374,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/Mustek6LZ.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Mustek6LZ.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "6.0 kB",
@@ -470,7 +470,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/Mustek5LF-SF.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Mustek5LF-SF.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "6.9 kB",
@@ -540,7 +540,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/Mustek2400CU_Plus.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Mustek2400CU_Plus.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "409 bytes",
@@ -576,7 +576,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/Mustek1248UB.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Mustek1248UB.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "409 bytes",
@@ -612,7 +612,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Mustek/Mustek1200UB_Plus.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Mustek1200UB_Plus.jpg",
 			"Directory": "sampleImages/Mustek",
 			"FileSize": "409 bytes",

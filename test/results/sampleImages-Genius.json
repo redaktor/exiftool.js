@@ -55,7 +55,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusGShot511.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusGShot511.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "11 kB",
@@ -182,7 +182,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusGShot312.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusGShot312.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "5.6 kB",
@@ -300,7 +300,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusG-ShotV3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusG-ShotV3.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "37 kB",
@@ -417,7 +417,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusG-ShotP850.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusG-ShotP850.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "64 kB",
@@ -529,7 +529,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusG-ShotG512.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusG-ShotG512.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "6.6 kB",
@@ -638,7 +638,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusG-ShotA435.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusG-ShotA435.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "5.6 kB",
@@ -751,7 +751,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Genius/GeniusDV210.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "GeniusDV210.jpg",
 			"Directory": "sampleImages/Genius",
 			"FileSize": "30 kB",

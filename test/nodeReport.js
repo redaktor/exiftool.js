@@ -44,7 +44,7 @@
     var unsupportedByModel = {};
 
     /**
-     * Write a summary html file (report/{{compliance/coverage}}/index.html) which summarises the exiftool support and links to the other html files
+     * Write a summary html file (reports/{{compliance/coverage}}/index.html) which summarises the exiftool support and links to the other html files
      */
     var writeSummary = function() {
 		var percentT = totalSupportedTags / (totalSupportedTags+totalUnsupportedTags) *100;
@@ -81,13 +81,13 @@
 		
         html = html.concat('</ul>');
 
-        fs.readFile('report/template.html', 'utf8', function(err, data) {
+        fs.readFile('reports/template.html', 'utf8', function(err, data) {
             if (err) {
                 return console.log(err);
             }
             var result = data.replace(/{{type}}/g, reportType).replace(/{{desc}}/g, reportDesc).replace(/{{htmlbody}}/g, html);
 
-            var reportFile = 'report/'.concat(reportType, '/index.html');
+            var reportFile = 'reports/'.concat(reportType, '/index.html');
             fs.writeFile(reportFile, result, 'utf8', function(err) {
                 if (err) {
                     return console.log(err);
@@ -160,6 +160,8 @@
 						// we CURRENTLY keep the pointer when perl user comment might be empty - minor FIXME
 						|| (key === 'UserComment' && perlRes === '' && typeof jsRes === 'number')
 						
+						|| (reference === 'Perl' && key === 'ExifToolVersion' || key === 'FileSize')
+						
 					) {
                         supportedTags.push(key + " : " + jsRes);
                         totalSupportedTags++;
@@ -182,13 +184,13 @@
             html = html.concat('</tbody></table>');
             
 
-            fs.readFile('report/template.html', 'utf8', function(err, data) {
+            fs.readFile('reports/template.html', 'utf8', function(err, data) {
                 if (err) {
                     return console.log(err);
                 }
                 var result = data.replace(/{{type}}/g, reportType).replace(/{{desc}}/g, reportDesc).replace(/{{htmlbody}}/g, html);
 
-                var reportFile = 'report/'.concat(reportType, '/', pathString, '.html');
+                var reportFile = 'reports/'.concat(reportType, '/', pathString, '.html');
                 fs.writeFile(reportFile, result, 'utf8', function(err) {
                     if (err) {
                         return console.log(err);

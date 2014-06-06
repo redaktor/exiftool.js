@@ -21,7 +21,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuSI-2000.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuSI-2000.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "2.7 kB",
@@ -93,7 +93,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuSI-1080.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuSI-1080.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "25 kB",
@@ -166,7 +166,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuS2FilmScanner.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuS2FilmScanner.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "898 bytes",
@@ -231,7 +231,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuQSS-32_33.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuQSS-32_33.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "22 kB",
@@ -298,7 +298,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuQSS-31.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuQSS-31.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "11 kB",
@@ -371,7 +371,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuQSS-30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuQSS-30.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "12 kB",
@@ -448,7 +448,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Noritsu/NoritsuQSS-29_31.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "NoritsuQSS-29_31.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "13 kB",

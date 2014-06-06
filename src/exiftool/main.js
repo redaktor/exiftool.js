@@ -74,7 +74,7 @@
 	
 	/* TODO - check node mode (dev vs production) */
 	// MANUAL DEBUG - set to false in production
-	EXIF.debug = true;
+	EXIF.debug = false;
 	
     var BinaryFile = function(strData, iDataOffset, iDataLength) {
         var data = strData;

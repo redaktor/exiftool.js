@@ -54,7 +54,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yashica/YashicaTDC5010.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YashicaTDC5010.jpg",
 			"Directory": "sampleImages/Yashica",
 			"FileSize": "64 kB",
@@ -169,7 +169,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yashica/YashicaF537IR.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YashicaF537IR.jpg",
 			"Directory": "sampleImages/Yashica",
 			"FileSize": "45 kB",
@@ -285,7 +285,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Yashica/YashicaEZ_UW-5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "YashicaEZ_UW-5.jpg",
 			"Directory": "sampleImages/Yashica",
 			"FileSize": "6.6 kB",

@@ -24,7 +24,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpWX-T91.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpWX-T91.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "13 kB",
@@ -134,7 +134,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVN-EZ5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVN-EZ5.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.4 kB",
@@ -208,7 +208,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVN-EZ1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVN-EZ1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.4 kB",
@@ -350,7 +350,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z961.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z961.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.8 kB",
@@ -513,7 +513,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z950.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z950.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.0 kB",
@@ -676,7 +676,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z800.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z800.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.6 kB",
@@ -834,7 +834,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z8.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z8.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.9 kB",
@@ -996,7 +996,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z700.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z700.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.7 kB",
@@ -1159,7 +1159,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z7.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.7 kB",
@@ -1323,7 +1323,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z500.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
@@ -1486,7 +1486,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z5.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z5.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.9 kB",
@@ -1650,7 +1650,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z301.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z301.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.7 kB",
@@ -1813,7 +1813,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-Z3.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-Z3.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
@@ -1912,7 +1912,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-WD650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-WD650.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.9 kB",
@@ -1989,7 +1989,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-WD450.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-WD450.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.5 kB",
@@ -2065,7 +2065,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-WD255.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-WD255.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.7 kB",
@@ -2140,7 +2140,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-PD7.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-PD7.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.1 kB",
@@ -2225,7 +2225,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ80.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ80.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.2 kB",
@@ -2311,7 +2311,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ8.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ8.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.4 kB",
@@ -2407,7 +2407,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ50.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ50.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "1219 bytes",
@@ -2513,7 +2513,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ150.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.9 kB",
@@ -2625,7 +2625,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ105.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ105.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.0 kB",
@@ -2737,7 +2737,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ100.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.7 kB",
@@ -2842,7 +2842,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-NZ10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-NZ10.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "5.1 kB",
@@ -2943,7 +2943,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-MX1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-MX1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.0 kB",
@@ -3020,7 +3020,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-MR1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-MR1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.8 kB",
@@ -3117,7 +3117,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-MG10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-MG10.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.7 kB",
@@ -3217,7 +3217,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-ME100.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-ME100.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
@@ -3315,7 +3315,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-MC500.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-MC500.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.3 kB",
@@ -3425,7 +3425,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-DD10.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-DD10.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "17 kB",
@@ -3541,7 +3541,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-AX1.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-AX1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.0 kB",
@@ -3633,7 +3633,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVL-AD260.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVL-AD260.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.8 kB",
@@ -3726,7 +3726,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVE-CG40.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVE-CG40.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "17 kB",
@@ -3839,7 +3839,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpVE-CG30.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpVE-CG30.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "18 kB",
@@ -3931,7 +3931,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV903SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV903SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "12 kB",
@@ -3995,7 +3995,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV902SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV902SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "14 kB",
@@ -4056,7 +4056,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV802SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV802SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "9.3 kB",
@@ -4118,7 +4118,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV801SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV801SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.8 kB",
@@ -4180,7 +4180,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV703SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV703SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "13 kB",
@@ -4241,7 +4241,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV601SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV601SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "9.3 kB",
@@ -4304,7 +4304,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV401SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV401SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "14 kB",
@@ -4370,7 +4370,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpV301SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpV301SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "5.0 kB",
@@ -4434,7 +4434,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpTM200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpTM200.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "573 bytes",
@@ -4489,7 +4489,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpTM150.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpTM150.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "579 bytes",
@@ -4547,7 +4547,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpSX833.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpSX833.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "15 kB",
@@ -4611,7 +4611,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpSX813.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpSX813.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "15 kB",
@@ -4674,7 +4674,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpJ-SH53.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpJ-SH53.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "13 kB",
@@ -4739,7 +4739,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpJ-SH52.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpJ-SH52.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
@@ -4802,7 +4802,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpJ-SH51.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpJ-SH51.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "6.2 kB",
@@ -4867,7 +4867,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/SharpJ-SH010.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "SharpJ-SH010.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "5.5 kB",
@@ -4950,7 +4950,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/Sharp933SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sharp933SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.1 kB",
@@ -5041,7 +5041,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/Sharp912SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sharp912SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "7.2 kB",
@@ -5121,7 +5121,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/Sharp910SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sharp910SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "8.2 kB",
@@ -5204,7 +5204,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/Sharp816SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sharp816SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "9.6 kB",
@@ -5270,7 +5270,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Sharp/Sharp705SH.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "Sharp705SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "15 kB",

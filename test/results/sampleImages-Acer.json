@@ -15,7 +15,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerX960.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerX960.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "503 bytes",
@@ -63,7 +63,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerStream.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerStream.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "38 kB",
@@ -126,7 +126,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerS200.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerS200.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "695 bytes",
@@ -215,7 +215,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerM900.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerM900.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "30 kB",
@@ -336,7 +336,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerLiquidMetal.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerLiquidMetal.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "42 kB",
@@ -415,7 +415,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerLiquid.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerLiquid.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "6.6 kB",
@@ -501,7 +501,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerE101.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerE101.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "11 kB",
@@ -568,7 +568,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerDX650.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerDX650.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "503 bytes",
@@ -645,7 +645,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCU-6530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCU-6530.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "18 kB",
@@ -765,7 +765,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCS6530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCS6530.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "21 kB",
@@ -883,7 +883,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCS5531.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCS5531.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "17 kB",
@@ -1015,7 +1015,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCR8530.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCR8530.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "23 kB",
@@ -1135,7 +1135,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCP-8660.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCP-8660.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "15 kB",
@@ -1252,7 +1252,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCP-8531.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCP-8531.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "16 kB",
@@ -1378,7 +1378,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCL-6300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCL-6300.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "7.5 kB",
@@ -1486,7 +1486,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCL-5300.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCL-5300.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "9.4 kB",
@@ -1597,7 +1597,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCI6330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCI6330.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "18 kB",
@@ -1721,7 +1721,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCI-8330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCI-8330.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "8.5 kB",
@@ -1831,7 +1831,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCE6430.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCE6430.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "28 kB",
@@ -1955,7 +1955,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Acer/AcerCE-5330.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "AcerCE-5330.jpg",
 			"Directory": "sampleImages/Acer",
 			"FileSize": "22 kB",

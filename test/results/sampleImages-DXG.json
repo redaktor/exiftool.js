@@ -37,7 +37,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_FashionCam.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_FashionCam.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "12 kB",
@@ -159,7 +159,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DZ358.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_DZ358.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "10 kB",
@@ -326,7 +326,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DSC608.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_DSC608.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "19 kB",
@@ -445,7 +445,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DSC502.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_DSC502.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "9.6 kB",
@@ -549,7 +549,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DSC.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_DSC.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "11 kB",
@@ -654,7 +654,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DCS711.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_DCS711.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "8.4 kB",
@@ -767,7 +767,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_409.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_409.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "5.8 kB",
@@ -858,7 +858,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_106.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG_106.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "10.0 kB",
@@ -973,7 +973,7 @@
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG528.jpg",
-			"ExifToolVersion": 9.62,
+			"ExifToolVersion": 9.63,
 			"FileName": "DXG528.jpg",
 			"Directory": "sampleImages/DXG",
 			"FileSize": "6.5 kB",
