@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Yashica/YashicaTDC5010.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": -5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -24,6 +25,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "2592 px w",
@@ -32,6 +34,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/102",
 			"SubjectArea": [
 				1296,
 				972,
@@ -127,6 +130,7 @@
 	{
 		"img": "sampleImages/Yashica/YashicaF537IR.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -144,6 +148,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -151,6 +156,7 @@
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1189",
 			"ShutterSpeedValue": "1/1176",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 39100,
@@ -236,6 +242,7 @@
 	{
 		"img": "sampleImages/Yashica/YashicaEZ_UW-5.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"CFAPattern": "[Green,Red][Blue,Green]",
 			"ColorSpace": "sRGB",
@@ -256,6 +263,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Unknown",
@@ -266,6 +274,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",

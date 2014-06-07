@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Pentacon/Pentacon_luxmedia7103.jpg",
 		"exifJS": {
+			"Aperture": 10.4,
 			"ApertureValue": "10.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21,6 +22,7 @@
 			"FocalLength": "18.6 mm",
 			"FocalLengthIn35mmFilm": "46477 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -30,6 +32,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1043",
 			"ShutterSpeedValue": "1/1000",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -127,6 +130,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconPrakticaDVC54HDMI.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -150,6 +154,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -160,6 +165,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "Monochrome area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/267",
 			"ShutterSpeedValue": "1/267",
 			"SubjectDistance": "0 m",
 			"SubjectDistanceRange": "Unknown",
@@ -257,6 +263,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconPRAKTICA_LM7403.jpg",
 		"exifJS": {
+			"Aperture": 3.59,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -274,6 +281,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 300,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -282,6 +290,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": 65,
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/44",
 			"UserComment": [
 				5000,
@@ -572,6 +581,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLuxmedia8403.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ApertureValue": "4.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -595,6 +605,7 @@
 			"FocalLengthIn35mmFilm": "82 mm",
 			"GainControl": "High gain up",
 			"ISO": 310,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -605,6 +616,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/99",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -713,6 +725,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLuxmedia7203.jpg",
 		"exifJS": {
+			"Aperture": 7.28,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -730,6 +743,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -738,6 +752,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/197",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 1396,
 			"_IFDpointer_Makernote": 714,
@@ -825,6 +840,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLuxmedia6503.jpg",
 		"exifJS": {
+			"Aperture": 2.88,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -842,6 +858,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 110,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Center-weighted average",
@@ -850,6 +867,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 52134,
 			"_IFDpointer_Makernote": 712,
@@ -937,6 +955,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM8503.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ApertureValue": "4.7",
 			"BrightnessValue": 9.335,
 			"ColorSpace": "sRGB",
@@ -961,6 +980,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -971,6 +991,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/459",
 			"ShutterSpeedValue": "1/458",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1083,6 +1104,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM8303.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -0.486,
 			"ColorSpace": "sRGB",
@@ -1107,6 +1129,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1117,6 +1140,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1227,6 +1251,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM8203.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1246,6 +1271,7 @@
 			"FocalLength": "10.7 mm",
 			"FocalLengthIn35mmFilm": "64438 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -1254,6 +1280,7 @@
 			"RelatedSoundFile": "",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/125",
 			"UserComment": 770,
 			"WhiteBalance": "Auto",
@@ -1350,6 +1377,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM8003.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1369,6 +1397,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "40 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1378,6 +1407,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/210",
 			"ShutterSpeedValue": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4832,
@@ -1514,6 +1544,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM7303.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -1.437,
 			"ColorSpace": "sRGB",
@@ -1538,6 +1569,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1548,6 +1580,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1658,6 +1691,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM6403.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1674,6 +1708,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Average",
@@ -1682,6 +1717,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 1218,
 			"_IFDpointer_Makernote": 736,
@@ -1767,6 +1803,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM6105.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1784,6 +1821,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.2 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Multi-spot",
@@ -1792,6 +1830,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"_IFDpointer_Interop": 46044,
 			"_IFDpointer_Makernote": 710,
@@ -1878,6 +1917,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM5003.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1900,12 +1940,14 @@
 			"FocalPlaneXResolution": "NaN",
 			"FocalPlaneYResolution": "NaN",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/125",
 			"UserComment": [
 				65,
@@ -2027,6 +2069,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM10-XS.jpg",
 		"exifJS": {
+			"Aperture": 2.837,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2043,6 +2086,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -2050,6 +2094,7 @@
 			"PixelYDimension": "2688 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"_IFDpointer_Makernote": 684,
 			"Copyright": "Copyright 2007",
@@ -2133,6 +2178,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconLM10-X3.jpg",
 		"exifJS": {
+			"Aperture": 6.446,
 			"ApertureValue": "6.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2151,6 +2197,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.9 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -2158,6 +2205,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/210",
 			"ShutterSpeedValue": "1/210",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2536,
@@ -2244,6 +2292,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDpix820Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2263,6 +2312,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -2272,6 +2322,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"UserComment": 801,
 			"WhiteBalance": "Auto",
@@ -2369,6 +2420,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDpix5000WP.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2389,6 +2441,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -2399,6 +2452,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/2952",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 868,
 			"_IFDpointer_Makernote": [
@@ -2520,6 +2574,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDpix1100Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2539,6 +2594,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -2548,6 +2604,7 @@
 			"SceneCaptureType": "Landscape",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "1/33",
 			"UserComment": 811,
 			"WhiteBalance": "Auto",
@@ -2645,6 +2702,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDVC101HDMI.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "NaN",
 			"ColorSpace": 0,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2668,6 +2726,7 @@
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-spot",
@@ -2680,6 +2739,7 @@
 			],
 			"SensingMethod": 0,
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/173",
 			"ShutterSpeedValue": "0",
 			"SubjectDistance": "NaN m",
 			"SubjectDistanceRange": "Unknown",
@@ -2804,6 +2864,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDPix750Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2823,6 +2884,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -2832,6 +2894,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"UserComment": 801,
 			"WhiteBalance": "Auto",
@@ -2929,6 +2992,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDPix740Z.jpg",
 		"exifJS": {
+			"Aperture": 7.28,
 			"ApertureValue": "7.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2946,6 +3010,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2954,6 +3019,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": 0,
+			"ShutterSpeed": "1/246",
 			"ShutterSpeedValue": "1/245",
 			"UserComment": [
 				5000,
@@ -3244,6 +3310,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDPix530Z.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3267,6 +3334,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2576 px w",
@@ -3276,6 +3344,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"ShutterSpeedValue": "1/798",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3383,6 +3452,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDPIX540Z.jpg",
 		"exifJS": {
+			"Aperture": 3.24,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3398,6 +3468,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8 mm",
 			"ISO": 60,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -3405,6 +3476,7 @@
 			"PixelYDimension": "1728 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/56",
 			"_IFDpointer_Interop": 1003,
 			"DateTime": "2005:01:08 02:52:47",
 			"ImageDescription": "DIGITAL CAMERA",
@@ -3482,6 +3554,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ83.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3501,6 +3574,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -3510,6 +3584,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"UserComment": 799,
 			"WhiteBalance": "Auto",
@@ -3607,6 +3682,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ82.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"BrightnessValue": -5.05,
 			"ColorSpace": "sRGB",
@@ -3631,6 +3707,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -3641,6 +3718,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/55",
 			"ShutterSpeedValue": "1/55",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3753,6 +3831,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ81.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3772,6 +3851,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -3781,6 +3861,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/192",
 			"ShutterSpeedValue": "1/192",
 			"UserComment": 800,
 			"WhiteBalance": "Auto",
@@ -3919,6 +4000,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ74.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"BrightnessValue": 8.422,
 			"ColorSpace": "sRGB",
@@ -3943,6 +4025,7 @@
 			"FocalLengthIn35mmFilm": "94 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Multi-segment",
@@ -3953,6 +4036,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/474",
 			"ShutterSpeedValue": "1/471",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -4065,6 +4149,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ71.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4083,6 +4168,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -4091,6 +4177,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3622,
@@ -4178,6 +4265,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ68.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4196,6 +4284,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4204,6 +4293,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3750,
@@ -4292,6 +4382,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ58.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4310,6 +4401,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4318,6 +4410,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3750,
@@ -4406,6 +4499,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ55.jpg",
 		"exifJS": {
+			"Aperture": 3.24,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4421,6 +4515,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8 mm",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -4428,6 +4523,7 @@
 			"PixelYDimension": "2112 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/35",
 			"_IFDpointer_Interop": 1001,
 			"DateTime": "2010:06:09 11:05:58",
 			"ImageDescription": "DIGITAL CAMERA",
@@ -4505,6 +4601,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDCZ121.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4524,6 +4621,7 @@
 			"FocalLength": "9.4 mm",
 			"FocalLengthIn35mmFilm": "56 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -4533,6 +4631,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/115",
 			"ShutterSpeedValue": "1/115",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 4528,
@@ -4629,6 +4728,7 @@
 	{
 		"img": "sampleImages/Pentacon/PentaconDC60.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4644,6 +4744,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Spot",
@@ -4651,6 +4752,7 @@
 			"PixelYDimension": "2448 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"_IFDpointer_Interop": 999,
 			"DateTime": "2010:05:30 17:31:24",
 			"ImageDescription": "DIGITAL CAMERA",

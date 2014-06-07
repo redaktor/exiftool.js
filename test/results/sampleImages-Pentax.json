@@ -342,6 +342,7 @@
 	{
 		"img": "sampleImages/Pentax/Pentax_istDL2.jpg",
 		"exifJS": {
+			"Aperture": 16,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -360,6 +361,7 @@
 			"FocalLength": "100 mm",
 			"FocalLengthIn35mmFilm": "150 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2008 px h",
@@ -368,6 +370,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/4",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54606,
@@ -570,6 +573,7 @@
 	{
 		"img": "sampleImages/Pentax/Pentax_istDL.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -589,6 +593,7 @@
 			"FocalLengthIn35mmFilm": "21 mm",
 			"Gamma": 2.2,
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2008 px h",
@@ -597,6 +602,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 56092,
@@ -810,6 +816,7 @@
 	{
 		"img": "sampleImages/Pentax/Pentax_istD.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -828,6 +835,7 @@
 			"FocalLength": "28 mm",
 			"FocalLengthIn35mmFilm": "42 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2008 px h",
@@ -836,6 +844,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 904,
@@ -1032,6 +1041,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxX90.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -1050,6 +1060,7 @@
 			"FocalLength": "6.8 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -1057,6 +1068,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1110,
@@ -1196,6 +1208,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxX70.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -1214,6 +1227,7 @@
 			"FocalLength": "4.6 mm",
 			"FocalLengthIn35mmFilm": "26 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -1221,6 +1235,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1110,
@@ -1359,6 +1374,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxX-5.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1376,12 +1392,14 @@
 			"FocalLength": "104 mm",
 			"FocalLengthIn35mmFilm": "580 mm",
 			"ISO": 250,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4608 px w",
 			"PixelYDimension": "3456 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 51792,
@@ -1520,6 +1538,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxWG-3GPS.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1537,12 +1556,14 @@
 			"FocalLength": "6.9 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4608 px w",
 			"PixelYDimension": "2592 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 51806,
@@ -1689,6 +1710,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxWG-3.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1706,12 +1728,14 @@
 			"FocalLength": "5.9 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4608 px w",
 			"PixelYDimension": "3456 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Landscape",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 51716,
@@ -1850,6 +1874,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxWG-10.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1868,6 +1893,7 @@
 			"FocalLength": "13.7 mm",
 			"FocalLengthIn35mmFilm": "77 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
@@ -1875,6 +1901,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1136,
@@ -2014,6 +2041,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxQ7.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -2032,6 +2060,7 @@
 			"FocalLength": "6.8 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "PENTAX",
 			"LensModel": "02 STANDARD ZOOM",
 			"LensSpecification": [
@@ -2049,6 +2078,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "4682388",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "0.8",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 56560,
@@ -2254,6 +2284,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxQ10.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -2272,6 +2303,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "27 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "PENTAX",
 			"LensModel": "02 STANDARD ZOOM",
 			"LensSpecification": [
@@ -2289,6 +2321,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "4512886",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "0.3",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 56636,
@@ -2483,6 +2516,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxQ.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -2501,6 +2535,7 @@
 			"FocalLength": "8.5 mm",
 			"FocalLengthIn35mmFilm": "47 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "PENTAX",
 			"LensModel": "01 STANDARD PRIME",
 			"LensSpecification": [
@@ -2518,6 +2553,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "4103848",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 56636,
@@ -2712,6 +2748,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioZ10.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -2730,6 +2767,7 @@
 			"FocalLength": "32.5 mm",
 			"FocalLengthIn35mmFilm": "197 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -2737,6 +2775,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -2870,6 +2909,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioX.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -2888,6 +2928,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2560 px w",
@@ -2895,6 +2936,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Landscape",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1018,
@@ -3026,6 +3068,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioWS80.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -3044,6 +3087,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -3051,6 +3095,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -3187,6 +3232,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioWPi.jpg",
 		"exifJS": {
+			"Aperture": 7.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3205,6 +3251,7 @@
 			"FocalLength": "11.9 mm",
 			"FocalLengthIn35mmFilm": "72 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2816 px w",
@@ -3212,6 +3259,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1156,
@@ -3343,6 +3391,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioWP.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -3361,6 +3410,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -3368,6 +3418,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/4",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1152,
@@ -3498,6 +3549,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioWG-2GPS.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3515,12 +3567,14 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4608 px w",
 			"PixelYDimension": "3456 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1388,
@@ -3688,6 +3742,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioWG-1GPS.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -3706,6 +3761,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
@@ -3713,6 +3769,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1172,
@@ -3889,6 +3946,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioW90.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -3907,6 +3965,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -3914,6 +3973,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -4053,6 +4113,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioW80.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -4071,6 +4132,7 @@
 			"FocalLength": "13.7 mm",
 			"FocalLengthIn35mmFilm": "77 mm",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2592 px w",
@@ -4078,6 +4140,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1500",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 1122,
@@ -4217,6 +4280,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioW60.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -4235,6 +4299,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -4242,6 +4307,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -4376,6 +4442,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioW30.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -4394,6 +4461,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -4401,6 +4469,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1146,
@@ -4532,6 +4601,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioW20.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -4550,6 +4620,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -4557,6 +4628,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 1156,
@@ -4688,6 +4760,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioW10.jpg",
 		"exifJS": {
+			"Aperture": 6.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -4706,6 +4779,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2816 px w",
@@ -4713,6 +4787,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1156,
@@ -4843,6 +4918,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioVS20.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4860,12 +4936,14 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4608 px w",
 			"PixelYDimension": "3456 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 58956,
@@ -4997,6 +5075,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioV20.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -5015,6 +5094,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -5022,6 +5102,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -5156,6 +5237,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioV10.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -5174,6 +5256,7 @@
 			"FocalLength": "8.4 mm",
 			"FocalLengthIn35mmFilm": "48 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -5181,6 +5264,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -5313,6 +5397,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioT30.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -5331,6 +5416,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -5338,6 +5424,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1146,
@@ -5469,6 +5556,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioT20.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.0321598759403936,
@@ -5488,6 +5576,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -5497,6 +5586,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 33846,
 			"WhiteBalance": "Auto",
@@ -5608,6 +5698,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioT10.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.545683217114325,
@@ -5627,6 +5718,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -5636,6 +5728,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 42038,
 			"WhiteBalance": "Auto",
@@ -5970,6 +6063,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS7.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.257942482277199,
@@ -5989,6 +6083,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "3072 px w",
@@ -5996,6 +6091,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31048,
@@ -6139,6 +6235,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS60.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6706746419270835,
@@ -6157,6 +6254,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
@@ -6164,6 +6262,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31040,
@@ -6302,6 +6401,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS6.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.2141819473140494,
@@ -6321,6 +6421,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2816 px w",
@@ -6328,6 +6429,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31048,
@@ -6471,6 +6573,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS5z.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5,
@@ -6490,6 +6593,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2560 px w",
@@ -6497,6 +6601,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21662,
@@ -6636,6 +6741,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS5n.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5,
@@ -6655,6 +6761,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -6662,6 +6769,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33890,
@@ -6801,6 +6909,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS5i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5,
@@ -6819,6 +6928,7 @@
 			"FocalLength": "6.8 mm",
 			"FocalLengthIn35mmFilm": "41 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -6826,6 +6936,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31978,
@@ -7004,6 +7115,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS55.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.3653824869791666,
@@ -7022,6 +7134,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2560 px w",
@@ -7029,6 +7142,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31040,
@@ -7167,6 +7281,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS50.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.1056510416666665,
@@ -7185,6 +7300,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -7192,6 +7308,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31040,
@@ -7330,6 +7447,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS4i.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 6.666666666666667,
@@ -7348,6 +7466,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -7355,6 +7474,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34520,
@@ -7531,6 +7651,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS45.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.05420122813786,
@@ -7549,6 +7670,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2304 px w",
@@ -7556,6 +7678,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31040,
@@ -7693,6 +7816,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS40.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.617034912109375,
@@ -7711,6 +7835,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
@@ -7718,6 +7843,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Landscape",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30802,
@@ -7854,6 +7980,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS4.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.8333333333333334,
@@ -7872,6 +7999,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -7879,6 +8007,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34316,
@@ -8055,6 +8184,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS30.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.110453287760417,
@@ -8073,6 +8203,7 @@
 			"FocalLength": "14.6 mm",
 			"FocalLengthIn35mmFilm": "96 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
@@ -8080,6 +8211,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30802,
@@ -8214,6 +8346,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS12.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.784314,
@@ -8233,6 +8366,7 @@
 			"FocalLength": "13.7 mm",
 			"FocalLengthIn35mmFilm": "65 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -8240,6 +8374,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 52252,
@@ -8402,6 +8537,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS10.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.5417011323997127,
@@ -8421,6 +8557,7 @@
 			"FocalLength": "23.7 mm",
 			"FocalLengthIn35mmFilm": "113 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -8428,6 +8565,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 52252,
@@ -8572,6 +8710,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS1.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.9841630467916476,
@@ -8590,6 +8729,7 @@
 			"FocalLength": "13.3 mm",
 			"FocalLengthIn35mmFilm": "72 mm",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2592 px w",
@@ -8597,6 +8737,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 53044,
@@ -8733,6 +8874,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioS.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.3580729166666667,
@@ -8753,6 +8895,7 @@
 			"FocalLength": "10.2 mm",
 			"FocalLengthIn35mmFilm": "62 mm",
 			"GainControl": "Low gain down",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8761,6 +8904,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32662,
@@ -8933,6 +9077,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioRZ18.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -8950,12 +9095,14 @@
 			"FocalLength": "5.2 mm",
 			"FocalLengthIn35mmFilm": "29 mm",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4608 px w",
 			"PixelYDimension": "3456 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1082,
@@ -9090,6 +9237,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioRZ10.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -9108,6 +9256,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
@@ -9115,6 +9264,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -9251,6 +9401,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioRS1500.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -9269,6 +9420,7 @@
 			"FocalLength": "6.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
@@ -9276,6 +9428,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 55580,
@@ -9411,6 +9564,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioRS1000.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -9429,6 +9583,7 @@
 			"FocalLength": "4.9 mm",
 			"FocalLengthIn35mmFilm": "27 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
@@ -9436,6 +9591,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Landscape",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22808,
@@ -9571,6 +9727,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioP80.jpg",
 		"exifJS": {
+			"Aperture": 9.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -9589,6 +9746,7 @@
 			"FocalLength": "9.8 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -9596,6 +9754,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -9732,6 +9891,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioP70.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -9750,6 +9910,7 @@
 			"FocalLength": "4.9 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -9757,6 +9918,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -9891,6 +10053,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioNB1000.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -9909,6 +10072,7 @@
 			"FocalLength": "4.9 mm",
 			"FocalLengthIn35mmFilm": "27 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
@@ -9916,6 +10080,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21984,
@@ -10237,6 +10402,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM90.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.161290322580645,
@@ -10255,6 +10421,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -10262,6 +10429,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/69",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22006,
@@ -10407,6 +10575,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM85.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"ApertureValue": "5.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10430,6 +10599,7 @@
 			"FocalLengthIn35mmFilm": "102 mm",
 			"GainControl": "Low gain up",
 			"ISO": 126,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.3",
 			"MeteringMode": "Multi-segment",
@@ -10440,6 +10610,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/124",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -10560,6 +10731,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM60.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -10578,6 +10750,7 @@
 			"FocalLength": "14.1 mm",
 			"FocalLengthIn35mmFilm": "80 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -10585,6 +10758,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -10719,6 +10893,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM50.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -10737,6 +10912,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -10744,6 +10920,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -10878,6 +11055,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM40.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -10896,6 +11074,7 @@
 			"FocalLength": "7.4 mm",
 			"FocalLengthIn35mmFilm": "42 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -10903,6 +11082,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -11035,6 +11215,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM30.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -11053,6 +11234,7 @@
 			"FocalLength": "18.9 mm",
 			"FocalLengthIn35mmFilm": "114 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "5.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -11060,6 +11242,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1146,
@@ -11191,6 +11374,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM20.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -11209,6 +11393,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -11216,6 +11401,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1156,
@@ -11347,6 +11533,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioM10.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -11365,6 +11552,7 @@
 			"FocalLength": "17.4 mm",
 			"FocalLengthIn35mmFilm": "105 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2816 px w",
@@ -11372,6 +11560,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1156,
@@ -11502,6 +11691,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioLS465.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.143855103388711,
@@ -11520,6 +11710,7 @@
 			"FocalLength": "16.9 mm",
 			"FocalLengthIn35mmFilm": "95 mm",
 			"ISO": 6400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "7.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1944 px w",
@@ -11527,6 +11718,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 56934,
@@ -11669,6 +11861,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioLS1000.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -11687,6 +11880,7 @@
 			"FocalLength": "4.9 mm",
 			"FocalLengthIn35mmFilm": "27 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
@@ -11694,6 +11888,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22808,
@@ -11829,6 +12024,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioL70.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -11847,6 +12043,7 @@
 			"FocalLength": "4.9 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
@@ -11854,6 +12051,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -11988,6 +12186,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioL50.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -12006,6 +12205,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -12013,6 +12213,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -12149,6 +12350,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioL40.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -12167,6 +12369,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
@@ -12174,6 +12377,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -12306,6 +12510,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioL36.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -12324,6 +12529,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -12331,6 +12537,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1134,
@@ -12463,6 +12670,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioL30.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -12481,6 +12689,7 @@
 			"FocalLength": "17.3 mm",
 			"FocalLengthIn35mmFilm": "105 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -12488,6 +12697,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1146,
@@ -12619,6 +12829,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioL20.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.1424922236689814,
@@ -12638,6 +12849,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -12645,6 +12857,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31052,
@@ -12789,6 +13002,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioI-10.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -12807,6 +13021,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -12814,6 +13029,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -12950,6 +13166,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioH90.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -12968,6 +13185,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -12975,6 +13193,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -13111,6 +13330,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE90.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -13129,6 +13349,7 @@
 			"FocalLength": "5.7 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -13136,6 +13357,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Night scene",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11764,
@@ -13272,6 +13494,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE85.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13295,6 +13518,7 @@
 			"FocalLengthIn35mmFilm": "31 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -13305,6 +13529,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/370",
 			"ShutterSpeedValue": "1/370",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13425,6 +13650,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE80.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -13443,6 +13669,7 @@
 			"FocalLength": "5.7 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -13450,6 +13677,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11752,
@@ -13584,6 +13812,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE75.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13607,6 +13836,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -13617,6 +13847,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/549",
 			"ShutterSpeedValue": "1/549",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13737,6 +13968,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE70L.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ApertureValue": "5.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13760,6 +13992,7 @@
 			"FocalLengthIn35mmFilm": "96 mm",
 			"GainControl": "Low gain up",
 			"ISO": 196,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -13770,6 +14003,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/124",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13892,6 +14126,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE70.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -13910,6 +14145,7 @@
 			"FocalLength": "11.3 mm",
 			"FocalLengthIn35mmFilm": "63 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.3",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -13917,6 +14153,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1122,
@@ -14053,6 +14290,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE65.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"BrightnessValue": 0.548,
 			"ColorSpace": "sRGB",
@@ -14076,6 +14314,7 @@
 			"FocalLength": "5.7 mm",
 			"FocalLengthIn35mmFilm": "34 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -14086,6 +14325,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -14209,6 +14449,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE60.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -14227,6 +14468,7 @@
 			"FocalLength": "13.7 mm",
 			"FocalLengthIn35mmFilm": "77 mm",
 			"ISO": 6400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2592 px w",
@@ -14234,6 +14476,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11692,
@@ -14363,6 +14606,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE50.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -14381,6 +14625,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -14388,6 +14633,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 8552,
@@ -14515,6 +14761,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE40.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -14533,6 +14780,7 @@
 			"FocalLength": "7.6 mm",
 			"FocalLengthIn35mmFilm": "46 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -14540,6 +14788,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3556,
@@ -14666,6 +14915,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE35.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -14685,6 +14935,7 @@
 			"FocalLength": "18 mm",
 			"FocalLengthIn35mmFilm": "108 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -14692,6 +14943,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 5476,
@@ -14798,6 +15050,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE30.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2,
@@ -14817,6 +15070,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
@@ -14824,6 +15078,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 5472,
@@ -14930,6 +15185,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE25.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -14949,6 +15205,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "3072 px w",
@@ -14956,6 +15213,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Landscape",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/323",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 9270,
 			"_IFDpointer_Makernote": 684,
@@ -15053,6 +15311,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE20.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -15072,6 +15331,7 @@
 			"FocalLength": "8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -15079,6 +15339,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/79",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9274,
 			"_IFDpointer_Makernote": 684,
@@ -15176,6 +15437,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioE10.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -15195,6 +15457,7 @@
 			"FocalLength": "6.5 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -15202,6 +15465,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/206",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21044,
 			"_IFDpointer_Makernote": 1036,
@@ -15310,6 +15574,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioA40.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.4532,
@@ -15329,6 +15594,7 @@
 			"FocalLength": "13.7 mm",
 			"FocalLengthIn35mmFilm": "65 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
@@ -15336,6 +15602,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 52252,
@@ -15475,6 +15742,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioA30.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.668702549502411,
@@ -15494,6 +15762,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -15501,6 +15770,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 52252,
@@ -15640,6 +15910,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioA20.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.9292282240689442,
@@ -15659,6 +15930,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3648 px w",
@@ -15666,6 +15938,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31052,
@@ -15805,6 +16078,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptioA10.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.30185705818275,
@@ -15824,6 +16098,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
@@ -15831,6 +16106,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31052,
@@ -15976,6 +16252,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio750Z.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -15994,6 +16271,7 @@
 			"FocalLength": "10.9 mm",
 			"FocalLengthIn35mmFilm": "52 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3056 px w",
@@ -16001,6 +16279,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1018,
@@ -16131,6 +16410,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio60.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -16150,6 +16430,7 @@
 			"FocalLength": "12.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 98,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "600 px w",
@@ -16157,6 +16438,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/36",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11042,
 			"_IFDpointer_Makernote": 1034,
@@ -16267,6 +16549,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio555.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -16285,6 +16568,7 @@
 			"FocalLength": "7.8 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2592 px w",
@@ -16292,6 +16576,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 1006,
@@ -16417,6 +16702,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio550.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -16434,6 +16720,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2592 px w",
@@ -16441,6 +16728,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/158",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1034,
@@ -16565,6 +16853,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio50L.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -16584,6 +16873,7 @@
 			"FocalLength": "16.2 mm",
 			"GainControl": "Low gain up",
 			"ISO": 69,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -16592,6 +16882,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10694,
 			"_IFDpointer_Makernote": 686,
@@ -16703,6 +16994,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio50.jpg",
 		"exifJS": {
+			"Aperture": 9.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -16722,6 +17014,7 @@
 			"FocalLength": "14.5 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -16730,6 +17023,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/212",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10692,
 			"_IFDpointer_Makernote": 684,
@@ -16839,6 +17133,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio450.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 7,
@@ -16856,6 +17151,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.9 mm",
 			"FocalLengthIn35mmFilm": "52 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -16863,6 +17159,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/471",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1034,
@@ -16987,6 +17284,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio43WR.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -17005,6 +17303,7 @@
 			"FocalLength": "8.9 mm",
 			"FocalLengthIn35mmFilm": "57 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2288 px w",
@@ -17012,6 +17311,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1006,
@@ -17136,6 +17436,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio430RS.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.7346832814122534,
@@ -17153,6 +17454,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.2 mm",
 			"FocalLengthIn35mmFilm": "74 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -17161,6 +17463,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 32684,
 			"_IFDpointer_Makernote": 724,
@@ -17309,6 +17612,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio430.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -17323,10 +17627,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.2 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2240 px w",
 			"PixelYDimension": "1680 px h",
+			"ShutterSpeed": "1/800",
 			"_IFDpointer_Interop": 1020,
 			"_IFDpointer_Makernote": 566,
 			"DateTime": "2002:03:29 12:02:24",
@@ -17413,6 +17719,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio33WR.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -17430,6 +17737,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "48 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
@@ -17437,6 +17745,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 994,
@@ -17562,6 +17871,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio33LF.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.6200520833333334,
@@ -17580,6 +17890,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -17587,6 +17898,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30802,
@@ -17825,6 +18137,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio330RS.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.595703125,
@@ -17842,6 +18155,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -17850,6 +18164,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/400",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 32670,
 			"_IFDpointer_Makernote": 724,
@@ -18101,6 +18416,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio330.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -18115,10 +18431,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/500",
 			"_IFDpointer_Interop": 1020,
 			"_IFDpointer_Makernote": 566,
 			"DateTime": "2001:09:28 14:03:54",
@@ -18206,6 +18524,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxOptio30.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -18224,6 +18543,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
@@ -18231,6 +18551,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1006,
@@ -18450,6 +18771,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxMX-1.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -18467,12 +18789,14 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4000 px w",
 			"PixelYDimension": "3000 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 52296,
@@ -18628,6 +18952,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK20D.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -18646,6 +18971,7 @@
 			"FocalLength": "43 mm",
 			"FocalLengthIn35mmFilm": "64 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4672 px w",
 			"PixelYDimension": "3104 px h",
@@ -18654,6 +18980,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54284,
@@ -18886,6 +19213,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK200D.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -18904,6 +19232,7 @@
 			"FocalLength": "70 mm",
 			"FocalLengthIn35mmFilm": "105 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3872 px w",
 			"PixelYDimension": "2592 px h",
@@ -18912,6 +19241,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 46092,
@@ -19142,6 +19472,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK2000.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -19160,6 +19491,7 @@
 			"FocalLength": "40 mm",
 			"FocalLengthIn35mmFilm": "60 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3872 px w",
 			"PixelYDimension": "2592 px h",
@@ -19168,6 +19500,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54284,
@@ -19554,6 +19887,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK10D.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -19572,6 +19906,7 @@
 			"FocalLength": "21 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3872 px w",
 			"PixelYDimension": "2592 px h",
@@ -19580,6 +19915,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 46036,
@@ -19816,6 +20152,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK100D_Super.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -19834,6 +20171,7 @@
 			"FocalLength": "70 mm",
 			"FocalLengthIn35mmFilm": "105 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2008 px h",
@@ -19842,6 +20180,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 39872,
@@ -20083,6 +20422,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK100D.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -20101,6 +20441,7 @@
 			"FocalLength": "21 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2008 px h",
@@ -20109,6 +20450,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1.5",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 44142,
@@ -20314,6 +20656,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-x.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Soft",
@@ -20332,6 +20675,7 @@
 			"FocalLength": "55 mm",
 			"FocalLengthIn35mmFilm": "82 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4288 px w",
 			"PixelYDimension": "2848 px h",
@@ -20340,6 +20684,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/2000",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 54456,
@@ -20604,6 +20949,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-r.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -20622,6 +20968,7 @@
 			"FocalLength": "42.5 mm",
 			"FocalLengthIn35mmFilm": "64 mm",
 			"ISO": 25600,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "4288 px w",
 			"PixelYDimension": "2848 px h",
@@ -20630,6 +20977,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54456,
@@ -20896,6 +21244,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-m.jpg",
 		"exifJS": {
+			"Aperture": 1.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -20914,6 +21263,7 @@
 			"FocalLength": "85 mm",
 			"FocalLengthIn35mmFilm": "127 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3872 px w",
 			"PixelYDimension": "2592 px h",
@@ -20922,6 +21272,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/1600",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 54284,
@@ -21140,6 +21491,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-7.jpg",
 		"exifJS": {
+			"Aperture": 10,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -21158,6 +21510,7 @@
 			"FocalLength": "24 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4672 px w",
 			"PixelYDimension": "3104 px h",
@@ -21166,6 +21519,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54456,
@@ -21433,6 +21787,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-5IIs.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -21452,6 +21807,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"Gamma": 2.2,
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "PENTAX",
 			"LensModel": "smc PENTAX-D FA 50mm F2.8 Macro",
 			"LensSpecification": [
@@ -21468,6 +21824,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 11942,
@@ -21763,6 +22120,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-5II.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -21781,6 +22139,7 @@
 			"FocalLength": "70 mm",
 			"FocalLengthIn35mmFilm": "105 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "4928 px w",
 			"PixelYDimension": "3264 px h",
@@ -21789,6 +22148,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/10",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 54468,
@@ -22069,6 +22429,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-500.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -22087,6 +22448,7 @@
 			"FocalLength": "50 mm",
 			"FocalLengthIn35mmFilm": "75 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4928 px w",
 			"PixelYDimension": "3264 px h",
@@ -22095,6 +22457,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54468,
@@ -22319,6 +22682,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-50.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -22337,6 +22701,7 @@
 			"FocalLength": "70 mm",
 			"FocalLengthIn35mmFilm": "105 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4928 px w",
 			"PixelYDimension": "3264 px h",
@@ -22345,6 +22710,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/15",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 54468,
@@ -22569,6 +22935,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-5.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -22587,6 +22954,7 @@
 			"FocalLength": "16 mm",
 			"FocalLengthIn35mmFilm": "24 mm",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1728 px w",
 			"PixelYDimension": "1152 px h",
@@ -22595,6 +22963,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/25",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54404,
@@ -22972,6 +23341,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-30.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -22990,6 +23360,7 @@
 			"FocalLength": "36 mm",
 			"FocalLengthIn35mmFilm": "54 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "4928 px w",
 			"PixelYDimension": "3264 px h",
@@ -22998,6 +23369,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 54468,
@@ -23222,6 +23594,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxK-01.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2012:03:21 15:33:50",
@@ -23236,11 +23609,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "40 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "4928 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"_IFDpointer_Makernote": 1046,
 			"CreateDate": "2014-05-31T15:30:58.000Z",
 			"Directory": "sampleImages/Pentax",
@@ -23459,6 +23834,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxIQ_Digital59e.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -23478,6 +23854,7 @@
 			"FocalLength": "9 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -23486,6 +23863,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/42",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10692,
 			"_IFDpointer_Makernote": 684,
@@ -23596,6 +23974,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxEI-2000.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23609,11 +23988,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "20.9 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1280 px h",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistance": "0.32 m",
 			"_IFDpointer_Makernote": 508,
@@ -23701,6 +24082,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxEI-200.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23713,11 +24095,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistance": "1.07 m",
 			"_IFDpointer_Makernote": 494,
@@ -23804,6 +24188,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxEI-100.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23815,8 +24200,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/162",
 			"ShutterSpeedValue": "1/171",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2001:01:22 01:45:00",
@@ -23882,6 +24269,7 @@
 	{
 		"img": "sampleImages/Pentax/PentaxDB100.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"BrightnessValue": 9,
 			"ColorSpace": "sRGB",
@@ -23894,9 +24282,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.0",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"UserComment": 572,
 			"_IFDpointer_Interop": 668,
@@ -23970,6 +24360,7 @@
 	{
 		"img": "sampleImages/Pentax/Pentax645D.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Hard",
@@ -23988,6 +24379,7 @@
 			"FocalLength": "55 mm",
 			"FocalLengthIn35mmFilm": "43 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "7264 px w",
 			"PixelYDimension": "5440 px h",
@@ -23996,6 +24388,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 54456,

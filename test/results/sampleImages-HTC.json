@@ -2,9 +2,11 @@
 	{
 		"img": "sampleImages/HTC/HTC_XdaOrbit.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2009:12:16 16:12:36",
 			"ExifVersion": "2.20",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2009:12:16 16:12:36",
@@ -49,10 +51,12 @@
 	{
 		"img": "sampleImages/HTC/HTC_X7510.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:10:06 19:51:54",
 			"ExifVersion": "2.10",
 			"Flash": "On, Flash fired",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 273,
@@ -105,11 +109,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_X7500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeDigitized": "2010:03:15 14:24:18",
 			"DateTimeOriginal": "2010:03:15 14:24:18",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 316,
@@ -163,6 +169,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_WildfireS_A510e.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:05:27 01:06:39",
@@ -171,6 +178,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
 			"ISO": 589,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1728 px h",
 			"_IFDpointer_Interop": 334,
@@ -269,6 +277,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Wildfire.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:09:19 11:01:51",
@@ -276,6 +285,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1952 px h",
 			"_IFDpointer_Interop": 294,
@@ -331,11 +341,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_VOGU100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:08:29 18:00:44",
 			"DateTimeOriginal": "2010:08:29 18:00:44",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2010:08:29 18:00:44",
@@ -384,9 +396,11 @@
 	{
 		"img": "sampleImages/HTC/HTC_Universal.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2006:06:02 15:59:26",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"Artist": "Craig Garner",
@@ -437,6 +451,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TyTN_II.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:02 18:55:09",
@@ -444,6 +459,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneType": "Directly photographed",
@@ -499,11 +515,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_Trinity.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2007:04:07 09:23:59",
 			"DateTimeOriginal": "2007:04:07 09:23:59",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 286,
@@ -555,11 +573,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchVivaT2223.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:04:25 16:57:02",
 			"DateTimeOriginal": "2010:04:25 16:57:02",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2010:04:25 16:57:02",
@@ -609,6 +629,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchProT7272.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:06 20:27:53",
@@ -619,6 +640,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -686,6 +708,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchPro2T7373.jpg",
 		"exifJS": {
+			"Aperture": 2.55,
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -702,12 +725,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.7 mm",
 			"ISO": 128,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1216 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"ShutterSpeedValue": "1/16",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
@@ -789,6 +814,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchHD_T8282.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:02 15:25:27",
@@ -799,6 +825,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1552 px h",
 			"SceneType": "Directly photographed",
@@ -866,11 +893,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchElf.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:05:31 23:39:15",
 			"DateTimeOriginal": "2010:05:31 23:39:15",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "slavutich",
@@ -924,6 +953,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDual.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:03 16:52:18",
@@ -931,6 +961,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -991,6 +1022,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDiamondP3700.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:06 23:20:45",
@@ -1001,6 +1033,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -1068,6 +1101,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDiamondP370.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:03:22 11:04:33",
@@ -1078,6 +1112,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -1146,6 +1181,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDiamond2T5353.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:08 14:09:39",
@@ -1155,6 +1191,7 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"ISO": 300,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1552 px h",
 			"SceneType": "Directly photographed",
@@ -1225,6 +1262,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchCruiseT4242.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:06 23:18:46",
@@ -1232,6 +1270,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -1292,6 +1331,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Touch3G_T3232.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:23 12:06:28",
@@ -1299,6 +1339,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -1361,6 +1402,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Touch2T3333.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:04 17:29:43",
@@ -1370,6 +1412,7 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"ISO": 349,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -1437,6 +1480,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Tattoo.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:25 21:06",
@@ -1445,6 +1489,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"WhiteBalance": "Auto",
@@ -1508,6 +1553,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_T-Mobile_myTouch3G.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:07:22 12:38:45",
@@ -1515,6 +1561,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -1623,6 +1670,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_T-MobileG1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:11:30 15:58:01",
@@ -1630,6 +1678,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneType": "Directly photographed",
@@ -1755,6 +1804,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_SnapS521.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:12:07 13:06:22",
@@ -1764,6 +1814,7 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -1830,6 +1881,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_SensationZ710e.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011/07/07 21:24:48",
@@ -1838,6 +1890,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.3 mm",
 			"ISO": 284,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "1840 px h",
 			"_IFDpointer_Interop": 484,
@@ -1895,9 +1948,11 @@
 	{
 		"img": "sampleImages/HTC/HTC_STAR100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2006:10:24 18:29:14",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"DateTime": "2006:10:24 18:29:14",
@@ -1942,6 +1997,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_S740.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:04:13 17:23:32",
@@ -1949,6 +2005,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
@@ -2011,11 +2068,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_S710.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:05:01 17:04:59",
 			"DateTimeOriginal": "2010:05:01 17:04:59",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "450 px h",
 			"DateTime": "2010:05:01 17:04:59",
@@ -2065,11 +2124,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_S621.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2009:11:16 14:10:24",
 			"DateTimeOriginal": "2009:11:16 14:10:24",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"DateTime": "2009:11:16 14:10:24",
@@ -2116,6 +2177,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_PC36100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:29 11:50:07",
@@ -2123,6 +2185,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1952 px w",
 			"PixelYDimension": "3264 px h",
 			"_IFDpointer_Interop": 288,
@@ -2174,6 +2237,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P4600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:07:13 20:52:41",
@@ -2184,6 +2248,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2251,11 +2316,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P4350.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2009:10:02 18:43:01",
 			"DateTimeOriginal": "2009:10:02 18:43:01",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"DateTime": "2009:10:02 18:43:01",
@@ -2306,6 +2373,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3650.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:10:02 14:48:40",
@@ -2313,6 +2381,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -2373,11 +2442,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3600i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2009:05:23 01:30:48",
 			"DateTimeOriginal": "2009:05:23 01:30:48",
 			"ExifVersion": "2.20",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 285,
@@ -2428,10 +2499,12 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeOriginal": "2010:05:25 12:47:04",
 			"ExifVersion": "2.20",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1472 px w",
 			"PixelYDimension": "915 px h",
 			"SubsecTime": 697,
@@ -2490,11 +2563,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3470.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:06:01 20:53:34",
 			"DateTimeOriginal": "2010:06:01 20:53:34",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2010:06:01 20:53:34",
@@ -2546,11 +2621,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3452.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:03:10 18:12:01",
 			"DateTimeOriginal": "2010:03:10 18:12:01",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "Alex",
@@ -2604,11 +2681,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3450.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:02:02 13:46:05",
 			"DateTimeOriginal": "2010:02:02 13:46:05",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"Artist": "",
@@ -2660,11 +2739,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3400.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2007:09:05 14:43:37",
 			"DateTimeOriginal": "2007:09:05 14:43:37",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"Artist": "Gagandeep Singh Sodhi",
@@ -2713,11 +2794,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3350.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:07:11 09:54:01",
 			"DateTimeOriginal": "2010:07:11 09:54:01",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"DateTime": "2010:07:11 09:54:01",
@@ -2764,11 +2847,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:12:12 13:19:12",
 			"DateTimeOriginal": "2010:12:12 13:19:12",
 			"ExifVersion": "2.20",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "Nick",
@@ -2817,11 +2902,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3050.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2008:04:23 19:49:24",
 			"DateTimeOriginal": "2008:04:23 19:49:24",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "Natalia Senkevich",
@@ -2874,9 +2961,11 @@
 	{
 		"img": "sampleImages/HTC/HTC_Oxygen.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2009:05:22 16:45:24",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"DateTime": "2009:05:22 16:45:24",
@@ -2921,6 +3010,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_One_mini.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ApertureValue": "2.0",
 			"BrightnessValue": 9.099503,
 			"ColorSpace": "sRGB",
@@ -2943,6 +3033,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Other",
@@ -2951,6 +3042,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5495",
 			"ShutterSpeedValue": "1/5486",
 			"SubsecTimeOriginal": 845,
 			"WhiteBalance": "Auto",
@@ -3066,6 +3158,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_One_M8.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ApertureValue": "2.0",
 			"BrightnessValue": 6.665079,
 			"ColorSpace": "sRGB",
@@ -3088,6 +3181,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Other",
@@ -3096,6 +3190,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/1015",
 			"ShutterSpeedValue": "1/1015",
 			"SubsecTimeOriginal": 632,
 			"WhiteBalance": "Auto",
@@ -3187,6 +3282,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_One.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ApertureValue": "2.0",
 			"BrightnessValue": 2.906857,
 			"ColorSpace": "sRGB",
@@ -3209,6 +3305,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Other",
@@ -3217,6 +3314,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTimeOriginal": 782,
 			"WhiteBalance": "Auto",
@@ -3310,12 +3408,14 @@
 	{
 		"img": "sampleImages/HTC/HTC_NexusOne.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:12:06 06:31:05",
 			"DateTimeOriginal": "2009:12:06 06:31:05",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "7b862f9d7924562b62cd6b6ee3867ee7",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -3376,12 +3476,14 @@
 	{
 		"img": "sampleImages/HTC/HTC_Magic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:19 14:08:57",
 			"DateTimeOriginal": "2010:05:19 14:08:57",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 278,
@@ -3435,6 +3537,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_MAX4G.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:02 09:21:36",
@@ -3445,6 +3548,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1216 px h",
 			"SceneType": "Directly photographed",
@@ -3512,6 +3616,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_IncredibleS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:06:05 18:13:51",
@@ -3520,6 +3625,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1296 px w",
 			"PixelYDimension": "768 px h",
 			"_IFDpointer_Interop": 330,
@@ -3614,6 +3720,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Hero.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:25 20:48:36",
@@ -3621,6 +3728,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1712 px w",
 			"PixelYDimension": "2560 px h",
 			"SceneType": "Directly photographed",
@@ -3706,9 +3814,11 @@
 	{
 		"img": "sampleImages/HTC/HTC_Hermes.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2007:02:08 10:24:29",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2007:02:08 10:24:29",
@@ -3753,6 +3863,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD_T8282.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:09:14 13:52:14",
@@ -3763,6 +3874,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1552 px h",
 			"SceneType": "Directly photographed",
@@ -3830,6 +3942,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD7.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:11:24 19:12:30",
@@ -3837,6 +3950,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Interop": 402,
@@ -3918,6 +4032,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD2T8585.jpg",
 		"exifJS": {
+			"Aperture": 3.19921875,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3929,6 +4044,7 @@
 			"FNumber": 3.19921875,
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "3.0",
 			"PixelXDimension": "2592 px w",
@@ -3936,6 +4052,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/171",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 536,
@@ -4010,6 +4127,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:07:06 23:37:59",
@@ -4018,6 +4136,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.3 mm",
 			"ISO": 227,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1552 px h",
 			"_IFDpointer_Interop": 308,
@@ -4075,6 +4194,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_GratiaA6380.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:12:25 13:59:15",
@@ -4083,6 +4203,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
 			"ISO": 121,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1728 px h",
 			"_IFDpointer_Interop": 318,
@@ -4140,11 +4261,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_Elf100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2009:03:25 13:56:06",
 			"DateTimeOriginal": "2009:03:25 13:56:06",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2009:03:25 13:56:06",
@@ -4219,6 +4342,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_DesireS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:05:29 10:31:54",
@@ -4227,6 +4351,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
 			"ISO": 75,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1552 px h",
 			"_IFDpointer_Interop": 326,
@@ -4325,6 +4450,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_DesireHD.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:12:04 20:46:38",
@@ -4332,6 +4458,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 598,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"_IFDpointer_Interop": 302,
@@ -4428,6 +4555,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Desire.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:06 13:07:51",
@@ -4435,6 +4563,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1552 px h",
 			"_IFDpointer_Interop": 292,
@@ -4490,6 +4619,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_DL_DesireZv34final.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:06:24 18:49:49",
@@ -4498,6 +4628,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.3 mm",
 			"ISO": 53,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1552 px w",
 			"PixelYDimension": "2592 px h",
 			"_IFDpointer_Interop": 322,
@@ -4555,9 +4686,11 @@
 	{
 		"img": "sampleImages/HTC/HTC_Breeze.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2009:08:09 17:24:22",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"SubsecTime": 625,
@@ -4610,11 +4743,13 @@
 	{
 		"img": "sampleImages/HTC/HTC_Artemis.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2010:07:10 20:39:40",
 			"DateTimeOriginal": "2010:07:10 20:39:40",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "SyMPDA",
@@ -4665,6 +4800,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_8900.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:01 16:08:35",
@@ -4672,6 +4808,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneType": "Directly photographed",
@@ -4727,6 +4864,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_7Trophy.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:08:15 14:29:32",
@@ -4734,6 +4872,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Interop": 392,
@@ -4815,6 +4954,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_7ProT7576.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2013:05:30 17:40:21",
@@ -4822,6 +4962,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Interop": 390,
@@ -4907,6 +5048,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_7Mozart.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:05:03 21:03:33",
@@ -4914,6 +5056,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"_IFDpointer_Interop": 392,
@@ -4974,11 +5117,13 @@
 	{
 		"img": "sampleImages/HTC/HTC-S620.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2008:01:15 13:35:26",
 			"DateTimeOriginal": "2008:01:15 13:35:26",
 			"ExifVersion": "2.10",
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"DateTime": "2008:01:15 13:35:26",

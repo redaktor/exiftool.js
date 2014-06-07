@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Sprint/SprintKATANA_DLX.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14,11 +15,13 @@
 			"ExposureTime": "1/200",
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000000",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"RelatedSoundFile": "",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/190",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 652,

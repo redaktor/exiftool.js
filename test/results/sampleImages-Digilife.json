@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Digilife/DigilifeDDC-690.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19,6 +20,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -26,6 +28,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/250",
 			"UserComment": 1214,
 			"WhiteBalance": "Auto",
@@ -115,6 +118,7 @@
 	{
 		"img": "sampleImages/Digilife/DigilifeDDC-680.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -132,6 +136,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -140,6 +145,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/11",
 			"UserComment": 21214,
 			"WhiteBalance": "Auto",
@@ -230,6 +236,7 @@
 	{
 		"img": "sampleImages/Digilife/DigilifeDDC-580.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -247,6 +254,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -255,6 +263,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/300",
 			"ShutterSpeedValue": "1/11",
 			"UserComment": 21214,
 			"WhiteBalance": "Auto",

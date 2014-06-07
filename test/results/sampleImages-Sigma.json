@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD9.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -19,6 +20,7 @@
 			"FocalLength": "300 mm",
 			"FocalLengthIn35mmFilm": "510 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "30313030373032347427364638B58CB8",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
@@ -26,6 +28,7 @@
 			"PixelYDimension": "1512 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/500",
 			"UserComment": 9234,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 9296,
@@ -222,6 +225,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD1Merrill.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -239,6 +243,7 @@
 			"FocalLength": "23 mm",
 			"FocalLengthIn35mmFilm": "34 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "3030353031303138FDFE714F33334446",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -246,6 +251,7 @@
 			"PixelYDimension": "3136 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 8518,
 			"CreateDate": "2014-05-31T15:31:02.000Z",
@@ -378,6 +384,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD15.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -396,6 +403,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"Gamma": 2.2,
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "30313030313034340e88174c36396562",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -404,6 +412,7 @@
 			"PixelYDimension": "1760 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1",
 			"UserComment": 2112,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2200,
@@ -574,6 +583,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD14.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -591,6 +601,7 @@
 			"FocalLength": "70 mm",
 			"FocalLengthIn35mmFilm": "119 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "303130303130323178E9B145FD215700",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -599,6 +610,7 @@
 			"PixelYDimension": "2640 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/200",
 			"UserComment": 7762,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7298,
@@ -808,6 +820,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD10.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -825,6 +838,7 @@
 			"FocalLength": "60 mm",
 			"FocalLengthIn35mmFilm": "102 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "303230303030313986D2C53F8ABDA2A6",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -832,6 +846,7 @@
 			"PixelYDimension": "1512 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 11251,
 			"CreateDate": "2014-05-31T15:31:02.000Z",
@@ -958,6 +973,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD1.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"BrightnessValue": 7.62,
 			"ColorSpace": "sRGB",
@@ -978,6 +994,7 @@
 			"FocalLengthIn35mmFilm": "67 mm",
 			"Gamma": 0,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "3030313031343733BAC0014E31343345",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -987,6 +1004,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "ISO Speed",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/498",
 			"SubjectDistance": "1.07 m",
 			"UserComment": 3239,
@@ -1181,6 +1199,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP3Merrill.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"BrightnessValue": 9,
 			"ColorSpace": "sRGB",
@@ -1204,6 +1223,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"Gamma": 2.2,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "30303630313137338035355135313335",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
@@ -1215,6 +1235,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/320",
 			"SubjectDistance": "7.759 m",
 			"UserComment": 4636,
@@ -1444,6 +1465,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2X.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1462,6 +1484,7 @@
 			"FocalLengthIn35mmFilm": "41 mm",
 			"Gamma": null,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "302000000000000043F6EB4D36323438",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -1470,6 +1493,7 @@
 			"PixelYDimension": "1248 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/160",
 			"UserComment": 2112,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2200,
@@ -1637,6 +1661,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2S.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1655,6 +1680,7 @@
 			"FocalLengthIn35mmFilm": "41 mm",
 			"Gamma": null,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "30313030313231324b55af4b35663335",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -1663,6 +1689,7 @@
 			"PixelYDimension": "1760 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"UserComment": 2112,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2200,
@@ -1830,6 +1857,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2Merrill.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 8.87,
 			"ColorSpace": "sRGB",
@@ -1853,6 +1881,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"Gamma": 2.2,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "3030343031333535F5FD0D4F41373438",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -1864,6 +1893,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/199",
 			"SubjectDistance": "4294967.295 m",
 			"UserComment": 4104,
@@ -2093,6 +2123,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2111,6 +2142,7 @@
 			"FocalLengthIn35mmFilm": "41 mm",
 			"Gamma": null,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "3031303038323531971b6f4a32326335",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -2119,6 +2151,7 @@
 			"PixelYDimension": "1760 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"UserComment": 2112,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2200,
@@ -2286,6 +2319,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1X.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -2303,6 +2337,7 @@
 			"FocalLength": "16.6 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "303130303133303263FD3A4D34333166",
 			"MaxApertureValue": "10.9",
 			"MeteringMode": "Multi-segment",
@@ -2310,6 +2345,7 @@
 			"PixelYDimension": "1760 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 10831,
 			"CreateDate": "2014-05-31T15:31:02.000Z",
@@ -2440,6 +2476,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1S.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2458,6 +2495,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"Gamma": null,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "3031303032383239e1fa734b61633633",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
@@ -2466,6 +2504,7 @@
 			"PixelYDimension": "1760 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/80",
 			"UserComment": 2112,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2200,
@@ -2633,6 +2672,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1Merrill.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 8.62,
 			"ColorSpace": "sRGB",
@@ -2656,6 +2696,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"Gamma": 2.2,
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "303033303133343627D8044F39334542",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -2667,6 +2708,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/399",
 			"SubjectDistance": "5.875 m",
 			"UserComment": 4104,
@@ -2896,6 +2938,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2914,6 +2957,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"Gamma": null,
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "3030303030383737e8a52b f32356631",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
@@ -2922,6 +2966,7 @@
 			"PixelYDimension": "1760 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/13",
 			"UserComment": 2112,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2200,

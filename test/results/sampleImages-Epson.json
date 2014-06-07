@@ -2,10 +2,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX700.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1417 px w",
 			"PixelYDimension": "1964 px h",
 			"_IFDpointer_Interop": 402,
@@ -70,10 +72,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX690.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "747 px w",
 			"PixelYDimension": "1136 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -124,10 +128,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX640.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3296 px w",
 			"PixelYDimension": "2160 px h",
 			"SubsecTime": 104,
@@ -187,10 +193,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX620.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1632 px w",
 			"PixelYDimension": "1040 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -241,10 +249,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX610.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1184 px w",
 			"PixelYDimension": "1760 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -295,10 +305,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX590.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1504 px w",
 			"PixelYDimension": "240 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -349,6 +361,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonR-D1s.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -364,12 +377,14 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2000 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1.4",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 1290,
 			"_IFDpointer_Makernote": 598,
@@ -457,6 +472,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonR-D1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -472,12 +488,14 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "Low gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2000 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/17",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1290,
 			"_IFDpointer_Makernote": 598,
@@ -565,6 +583,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC850Z.jpg",
 		"exifJS": {
+			"Aperture": 9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -580,12 +599,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1984 px w",
 			"PixelYDimension": "1488 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/632",
 			"UserComment": 672,
 			"_IFDpointer_Interop": 892,
 			"_IFDpointer_Makernote": 922,
@@ -677,6 +698,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC800S.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -692,12 +714,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/31",
 			"UserComment": 672,
 			"_IFDpointer_Interop": 892,
 			"_IFDpointer_Makernote": 922,
@@ -788,6 +812,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC800.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -803,12 +828,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/789",
 			"UserComment": 1476,
 			"_IFDpointer_Makernote": 610,
 			"DateTime": "2005:03:19 14:35:15",
@@ -896,6 +923,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC3100Z.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -911,12 +939,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/471",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -1010,6 +1040,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC3000Z.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1025,12 +1056,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/17",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -1121,6 +1154,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC2100Z.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:11:02 08:19:50",
@@ -1134,9 +1168,11 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1800 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/45",
 			"UserComment": 1414,
 			"_IFDpointer_Interop": 808,
 			"_IFDpointer_Makernote": 548,
@@ -1217,10 +1253,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfectionV700.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeDigitized": "2009:01:26 17:58:21",
 			"DateTimeOriginal": "2009:01:26 17:58:21",
 			"ExifVersion": "2.20",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "693 px h",
 			"SubsecTime": 406,
@@ -1318,7 +1356,9 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfectionV100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:04:20 11:31:18",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "928 px w",
 			"PixelYDimension": "599 px h",
 			"SubsecTime": 359,
@@ -1369,7 +1409,9 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfection4990.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:12:04 17:41:11",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3883 px w",
 			"PixelYDimension": "5340 px h",
 			"_IFDpointer_Makernote": 248,
@@ -1442,6 +1484,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfection2480.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2009:12:25 23:13:18",
 			"Make": "Epson",
 			"Model": "Perfection2480",
@@ -1478,6 +1521,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfection1660.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:04:25 21:38:11",
 			"Make": "Epson",
 			"Model": "Perfection1660",
@@ -1514,6 +1558,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfection1250.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:11:21 14:41:55",
 			"Make": "Epson",
 			"Model": "Perfection1250",
@@ -1550,6 +1595,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-500V.jpg",
 		"exifJS": {
+			"Aperture": 6.19140625,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1568,12 +1614,14 @@
 			"FocalLength": "10 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/407",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 762,
 			"WhiteBalance": "Auto",
@@ -1666,6 +1714,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-410.jpg",
 		"exifJS": {
+			"Aperture": 2.828125,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1685,12 +1734,14 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/111",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 748,
 			"WhiteBalance": "Auto",
@@ -1782,6 +1833,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-400.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1801,12 +1853,14 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 3490,
 			"WhiteBalance": "Auto",
@@ -1906,6 +1960,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1925,12 +1980,14 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 3478,
 			"WhiteBalance": "Auto",
@@ -2030,8 +2087,10 @@
 	{
 		"img": "sampleImages/Epson/EpsonExp10000XL.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"ExifVersion": "2.20",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "300 px w",
 			"PixelYDimension": "1600 px h",
 			"BitsPerSample": [
@@ -2097,6 +2156,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCX4400.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:04:24 18:01:36",
 			"Make": "Epson",
 			"Model": "CX4400",
@@ -2129,10 +2189,12 @@
 	{
 		"img": "sampleImages/Epson/EpsonCX3900.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "\u0000\u0002\u0002",
 			"FlashpixVersion": "\u0000\u0001",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1752 px w",
 			"PixelYDimension": "1164 px h",
 			"DateTime": "2007:10:27 23:04:23",
@@ -2185,6 +2247,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-920Z.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -2200,12 +2263,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -2299,6 +2364,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-900Z.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -2314,12 +2380,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/32",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -2410,6 +2478,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-850Z.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -2425,12 +2494,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/13",
 			"UserComment": 1519,
 			"_IFDpointer_Interop": 892,
 			"_IFDpointer_Makernote": 653,
@@ -2519,6 +2590,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-80Z.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:02:29 19:23:46",
@@ -2532,9 +2604,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1800 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/360",
 			"UserComment": 588,
 			"_IFDpointer_Interop": 808,
 			"_IFDpointer_Makernote": 838,
@@ -2619,6 +2693,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-800S.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2634,12 +2709,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/239",
 			"UserComment": 672,
 			"_IFDpointer_Interop": 892,
 			"_IFDpointer_Makernote": 922,
@@ -2730,6 +2807,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-800.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -2745,12 +2823,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/202",
 			"UserComment": 672,
 			"_IFDpointer_Interop": 892,
 			"_IFDpointer_Makernote": 922,

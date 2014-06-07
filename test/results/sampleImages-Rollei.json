@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Rollei/Rollei_dsx410.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,6 +19,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "42 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2288 px w",
@@ -27,6 +29,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/293",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": "005:04:02 13:09:234",
 			"WhiteBalance": "Auto",
@@ -113,6 +116,7 @@
 	{
 		"img": "sampleImages/Rollei/Rollei_dr5.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.5",
 			"BrightnessValue": -3.4,
 			"ColorSpace": "sRGB",
@@ -130,6 +134,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 183,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -137,6 +142,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 22352,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22616,
@@ -224,6 +230,7 @@
 	{
 		"img": "sampleImages/Rollei/Rollei_dk4010.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -244,6 +251,7 @@
 			"FocalLength": "57 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2272 px w",
@@ -251,6 +259,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/180",
 			"ShutterSpeedValue": "1/208",
 			"SubsecTime": 33,
 			"SubsecTimeDigitized": 33,
@@ -352,6 +361,7 @@
 	{
 		"img": "sampleImages/Rollei/Rollei_da6325.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ApertureValue": "7.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -371,6 +381,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "32 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -379,6 +390,7 @@
 			"RelatedSoundFile": "",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"UserComment": 784,
 			"WhiteBalance": "Auto",
@@ -475,6 +487,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiXS-8.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -492,6 +505,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -501,6 +515,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/38",
 			"ShutterSpeedValue": "1/38",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 26068,
@@ -588,6 +603,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP_CL350.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -607,6 +623,7 @@
 			"FocalLength": "13 mm",
 			"FocalLengthIn35mmFilm": "73 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -616,6 +633,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 48,
 			"UserComment": 768,
@@ -717,6 +735,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP_CL200.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.3686526666666667,
@@ -736,6 +755,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -745,6 +765,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 37914,
 			"WhiteBalance": "Auto",
@@ -841,6 +862,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-8325X.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -858,6 +880,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3296 px w",
@@ -865,6 +888,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"UserComment": 1224,
 			"WhiteBalance": "Auto",
@@ -954,6 +978,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-7430XW.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -973,6 +998,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -982,6 +1008,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1113,6 +1140,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-7330X.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1132,6 +1160,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1140,6 +1169,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/347",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21264,
 			"_IFDpointer_Makernote": 1256,
@@ -1241,6 +1271,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-7325XS.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1258,6 +1289,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 238,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1265,6 +1297,7 @@
 			"PixelYDimension": "2304 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38972,
@@ -1350,6 +1383,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-7324.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1367,6 +1401,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1376,6 +1411,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 35664,
@@ -1463,6 +1499,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-6324.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1482,6 +1519,7 @@
 			"FocalLength": "13.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -1489,6 +1527,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12740,
 			"_IFDpointer_Makernote": 660,
@@ -1576,6 +1615,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-5324.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1593,6 +1633,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1600,6 +1641,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38172,
@@ -1685,6 +1727,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiRCP-10325X.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1702,6 +1745,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3680 px w",
@@ -1709,6 +1753,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/250",
 			"UserComment": 1226,
 			"WhiteBalance": "Auto",
@@ -1798,6 +1843,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiD41COM.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1810,9 +1856,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/54",
 			"ShutterSpeedValue": "1/54",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Makernote": 500,
@@ -1878,6 +1926,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiD330.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1894,6 +1943,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -1902,6 +1952,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/35184372088832",
 			"_IFDpointer_Interop": 1264,
 			"_IFDpointer_Makernote": 784,
@@ -1987,6 +2038,7 @@
 	{
 		"img": "sampleImages/Rollei/RolleiCompactline202.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ApertureValue": "4.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2006,6 +2058,7 @@
 			"FocalLength": "12.4 mm",
 			"FocalLengthIn35mmFilm": "70 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -2015,6 +2068,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/291",
 			"ShutterSpeedValue": "1/291",
 			"SubsecTime": 48,
 			"UserComment": 774,

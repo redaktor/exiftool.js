@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamUltra_Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.41,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -17,6 +18,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "58.3 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-spot",
@@ -25,6 +27,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/932",
 			"_IFDpointer_Interop": 1618,
 			"_IFDpointer_Makernote": [
 				12,
@@ -724,6 +727,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamTravel_DXG.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -739,12 +743,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": 631,
 			"_IFDpointer_Interop": 1019,
 			"DateTime": "2003:05:30 06:26:57",
@@ -823,6 +829,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamQ-63.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -843,6 +850,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -852,6 +860,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/440",
 			"ShutterSpeedValue": "1/440",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -943,6 +952,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamMini_Cam.jpg",
 		"exifJS": {
+			"Aperture": 2.88,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -958,12 +968,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Shade",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneType": 15,
+			"ShutterSpeed": "1/811",
 			"_IFDpointer_Interop": 1618,
 			"_IFDpointer_Makernote": [
 				12,
@@ -1663,6 +1675,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamIdeal_DSC_33.jpg",
 		"exifJS": {
+			"Aperture": 4.65,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1676,11 +1689,13 @@
 			"Flash": "No Flash",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/1414",
 			"ShutterSpeedValue": "1/1261",
 			"_IFDpointer_Interop": 766,
 			"_IFDpointer_Makernote": 510,
@@ -1744,6 +1759,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamElite_DSC_13.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1759,6 +1775,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Shade",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-spot",
@@ -1767,6 +1784,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/189",
 			"_IFDpointer_Interop": 1594,
 			"_IFDpointer_Makernote": [
 				11,
@@ -2442,6 +2460,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamElite_DSC_11.jpg",
 		"exifJS": {
+			"Aperture": 5.14,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2455,11 +2474,13 @@
 			"Flash": "No Flash",
 			"FocalLength": "9.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/1072",
 			"ShutterSpeedValue": "1/1024",
 			"_IFDpointer_Interop": 766,
 			"_IFDpointer_Makernote": 510,
@@ -2523,6 +2544,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamC630.jpg",
 		"exifJS": {
+			"Aperture": 4.93,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2538,6 +2560,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-spot",
@@ -2546,6 +2569,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/1149",
 			"_IFDpointer_Interop": 1594,
 			"_IFDpointer_Makernote": [
 				11,

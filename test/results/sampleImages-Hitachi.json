@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC756E.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19,6 +20,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -26,6 +28,7 @@
 			"PixelYDimension": "2304 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 40808,
@@ -111,6 +114,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC751E.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -130,6 +134,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -138,6 +143,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21262,
 			"_IFDpointer_Makernote": 1254,
@@ -239,6 +245,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-856E.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -256,6 +263,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -265,6 +273,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/94",
 			"ShutterSpeedValue": "1/94",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 39180,
@@ -353,6 +362,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-763E.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -372,6 +382,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -380,6 +391,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Night scene",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21264,
 			"_IFDpointer_Makernote": 1256,
@@ -481,6 +493,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-761E.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ApertureValue": "5.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -498,6 +511,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.1 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -507,6 +521,7 @@
 			"SceneCaptureType": "Portrait",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/709",
 			"ShutterSpeedValue": "1/709",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 36808,
@@ -595,6 +610,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-30X.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -611,6 +627,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -619,6 +636,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/881",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 41684,
 			"_IFDpointer_Makernote": 702,
@@ -703,6 +721,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-303X.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"CFAPattern": "[Green,Red][Blue,Green]",
 			"ColorSpace": "sRGB",
@@ -719,6 +738,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -726,6 +746,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 824,
 			"_IFDpointer_Makernote": 854,
@@ -808,6 +829,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-301Slim.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "NaN",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -826,6 +848,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -834,6 +857,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/128",
 			"ShutterSpeedValue": "1/128",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1232,
@@ -922,6 +946,7 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiHDC-1061E.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -939,6 +964,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -946,6 +972,7 @@
 			"PixelYDimension": "2112 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/25",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32488,
@@ -1031,12 +1058,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV780E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:05:03 11:01:33",
 			"DateTimeOriginal": "2008:05:03 11:01:33",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 286,
@@ -1090,12 +1119,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV750E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:10:04 14:07:37",
 			"DateTimeOriginal": "2008:10:04 14:07:37",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 286,
@@ -1149,12 +1180,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV730E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:12:23 17:47:57",
 			"DateTimeOriginal": "2009:12:23 17:47:57",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 286,
@@ -1208,12 +1241,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV580E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:07:15 11:50:16",
 			"DateTimeOriginal": "2010:07:15 11:50:16",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 300,
@@ -1267,12 +1302,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV580A.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:08:14 03:33:44",
 			"DateTimeOriginal": "2005:08:14 03:33:44",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 300,
@@ -1326,12 +1363,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV550E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:08:26 18:15:12",
 			"DateTimeOriginal": "2009:08:26 18:15:12",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 300,
@@ -1385,12 +1424,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV380E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:09:25 13:48:31",
 			"DateTimeOriginal": "2009:09:25 13:48:31",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 300,
@@ -1444,12 +1485,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV350E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:09:23 20:51:03",
 			"DateTimeOriginal": "2004:09:23 20:51:03",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 300,
@@ -1504,12 +1547,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV350A.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:10:30 16:08:01",
 			"DateTimeOriginal": "2005:10:30 16:08:01",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 300,
@@ -1563,12 +1608,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV270A.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:10:03 07:35:35",
 			"DateTimeOriginal": "2004:10:03 07:35:35",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 286,
@@ -1622,12 +1669,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-MV200E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:09:30 19:38:58",
 			"DateTimeOriginal": "2004:09:30 19:38:58",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
 			"_IFDpointer_Interop": 286,
@@ -1682,12 +1731,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-HS303E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:08:10 07:49:17",
 			"DateTimeOriginal": "2010:08:10 07:49:17",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2016 px w",
 			"PixelYDimension": "1512 px h",
 			"_IFDpointer_Interop": 286,
@@ -1741,12 +1792,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-GX5060E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:09:20 11:09:24",
 			"DateTimeOriginal": "2009:09:20 11:09:24",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "360 px h",
 			"_IFDpointer_Interop": 288,
@@ -1800,12 +1853,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-GX5020A.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:11:23 10:02:39",
 			"DateTimeOriginal": "2008:11:23 10:02:39",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 288,
@@ -1859,12 +1914,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-GX3300E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:09:10 20:22:26",
 			"DateTimeOriginal": "2009:09:10 20:22:26",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2016 px w",
 			"PixelYDimension": "1512 px h",
 			"_IFDpointer_Interop": 288,
@@ -1918,12 +1975,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-GX3200E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:02:21 19:59:53",
 			"DateTimeOriginal": "2009:02:21 19:59:53",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 288,
@@ -1977,12 +2036,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-GX3100E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:02:27 23:21:15",
 			"DateTimeOriginal": "2008:02:27 23:21:15",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 288,
@@ -2037,12 +2098,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-GX25M.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:09:10 17:45:09",
 			"DateTimeOriginal": "2011:09:10 17:45:09",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 286,
@@ -2096,12 +2159,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-BX37E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:07:24 07:42:54",
 			"DateTimeOriginal": "2008:07:24 07:42:54",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"Make": "HITACHI",
@@ -2152,12 +2217,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-BX35E.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:05:05 19:32:28",
 			"DateTimeOriginal": "2010:05:05 19:32:28",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 286,
@@ -2211,12 +2278,14 @@
 	{
 		"img": "sampleImages/Hitachi/HitachiDZ-BX35A.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:10:15 22:32:17",
 			"DateTimeOriginal": "2008:10:15 22:32:17",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 286,

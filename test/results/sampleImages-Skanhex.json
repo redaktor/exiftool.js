@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSX410Z3.jpg",
 		"exifJS": {
+			"Aperture": "4.7",
 			"ApertureValue": "4.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14,9 +15,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/93",
 			"ShutterSpeedValue": "1/93",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -93,6 +96,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSX3300.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -105,9 +109,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "0.4",
 			"ShutterSpeedValue": "0.4",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -185,6 +191,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSX-410Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -197,9 +204,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/76",
 			"ShutterSpeedValue": "1/76",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -276,6 +285,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSX-330Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -288,9 +298,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/197",
 			"ShutterSpeedValue": "1/197",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -367,6 +379,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSX-210Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.3",
 			"ApertureValue": "2.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -379,9 +392,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "14.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/83",
 			"ShutterSpeedValue": "1/83",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -458,6 +473,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSX-130F.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -468,9 +484,11 @@
 			"FNumber": 3.6,
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.6",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "1/4",
 			"UserComment": 522,
 			"_IFDpointer_Interop": 606,
@@ -542,6 +560,7 @@
 	{
 		"img": "sampleImages/Skanhex/SkanhexSK-210M.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -555,11 +574,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/256",
 			"ShutterSpeedValue": "1/256",
 			"_IFDpointer_Interop": 630,
 			"_IFDpointer_Makernote": "4239  001A4E419282C1C3F0  02             EN",
@@ -638,6 +659,7 @@
 	{
 		"img": "sampleImages/Skanhex/Skanhex636Z3.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -655,6 +677,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -663,6 +686,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/11",
 			"UserComment": 21210,
 			"WhiteBalance": "Auto",
@@ -753,6 +777,7 @@
 	{
 		"img": "sampleImages/Skanhex/Skanhex524Z3.jpg",
 		"exifJS": {
+			"Aperture": 6.671875,
 			"BrightnessValue": 12.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -769,6 +794,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -778,6 +804,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/329",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": "328, 51, 209, 0, 1, 476   5,   0,   0,   0,   0,   0",
 			"WhiteBalance": "Auto",
@@ -864,6 +891,7 @@
 	{
 		"img": "sampleImages/Skanhex/Skanhex521z3.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.6",
 			"BrightnessValue": 6.76,
 			"CFAPattern": "[Green,Red][Blue,Green]",
@@ -886,6 +914,7 @@
 			"FocalLength": "10 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -895,6 +924,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/16",
 			"SubjectDistanceRange": "Distant view",
 			"SubsecTime": 0,

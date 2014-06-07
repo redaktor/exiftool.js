@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX8600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:11:15 15:32:20",
@@ -12,9 +13,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "176 px w",
 			"PixelYDimension": "144 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 512,
 			"Make": "LG Electronics",
@@ -74,11 +77,13 @@
 	{
 		"img": "sampleImages/LG/LG_VX8560.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "0000:00:00 00:00:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "0000:00:00 00:00:00",
@@ -134,6 +139,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX8360.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -147,6 +153,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -240,6 +247,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX8350.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:01:22 11:10:12",
@@ -250,9 +258,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 512,
 			"Make": "LG Electronics",
@@ -316,6 +326,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX8300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -327,9 +338,11 @@
 			"ExposureTime": "1/21",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "176 px w",
 			"PixelYDimension": "144 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/21",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 544,
@@ -392,6 +405,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX-9200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -402,6 +416,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -467,6 +482,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX-8800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -477,6 +493,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -542,6 +559,7 @@
 	{
 		"img": "sampleImages/LG/LG_VX-8550.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -552,6 +570,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -617,6 +636,7 @@
 	{
 		"img": "sampleImages/LG/LG_U990i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -630,9 +650,11 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"ISO": 267,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/7",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 614,
@@ -710,6 +732,7 @@
 	{
 		"img": "sampleImages/LG/LG_U960.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -723,6 +746,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
@@ -797,6 +821,7 @@
 	{
 		"img": "sampleImages/LG/LG_T320.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -807,6 +832,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -869,6 +895,7 @@
 	{
 		"img": "sampleImages/LG/LG_T310.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -879,6 +906,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -941,6 +969,7 @@
 	{
 		"img": "sampleImages/LG/LG_T300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -951,6 +980,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -1013,6 +1043,7 @@
 	{
 		"img": "sampleImages/LG/LG_SV420.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010: 6: 7 20:13:11",
@@ -1022,8 +1053,10 @@
 			"ExposureTime": "1/21",
 			"Flash": "No Flash",
 			"FlashpixVersion": "0.10",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 436,
 			"DateTime": "2010: 6: 7 20:13:11",
@@ -1085,6 +1118,7 @@
 	{
 		"img": "sampleImages/LG/LG_SU950.jpg",
 		"exifJS": {
+			"Aperture": 2.7890625,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 8.26,
 			"ColorSpace": "sRGB",
@@ -1106,6 +1140,7 @@
 			"FocalLength": "3.7 mm",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Other",
@@ -1116,6 +1151,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/626",
 			"ShutterSpeedValue": "1/626",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1070,
@@ -1220,6 +1256,7 @@
 	{
 		"img": "sampleImages/LG/LG_SU910.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1234,6 +1271,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -1328,6 +1366,7 @@
 	{
 		"img": "sampleImages/LG/LG_SH-210.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 70,
@@ -1337,8 +1376,10 @@
 			"ExposureTime": "1/4",
 			"FlashpixVersion": "0.10",
 			"ISO": 159,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "928 px w",
 			"PixelYDimension": "903 px h",
+			"ShutterSpeed": "1/4",
 			"_IFDpointer_Interop": 272,
 			"DateTime": "2010:02:22 20:55:21",
 			"Make": "LG CYON",
@@ -1399,6 +1440,7 @@
 	{
 		"img": "sampleImages/LG/LG_SH-150.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1413,6 +1455,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -1488,6 +1531,7 @@
 	{
 		"img": "sampleImages/LG/LG_SH-130.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1502,6 +1546,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -1577,6 +1622,7 @@
 	{
 		"img": "sampleImages/LG/LG_SD910.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1588,9 +1634,11 @@
 			"ExposureTime": "0",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 408,
@@ -1655,6 +1703,7 @@
 	{
 		"img": "sampleImages/LG/LG_SC330.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:02:13 10:00:04",
@@ -1665,9 +1714,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "0",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 510,
 			"Make": "LG CYON",
@@ -1731,6 +1782,7 @@
 	{
 		"img": "sampleImages/LG/LG_SB-310.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1745,6 +1797,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -1820,6 +1873,7 @@
 	{
 		"img": "sampleImages/LG/LG_SB-210.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1830,6 +1884,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
@@ -1917,6 +1972,7 @@
 	{
 		"img": "sampleImages/LG/LG_Rumour2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1926,6 +1982,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -1993,6 +2050,7 @@
 	{
 		"img": "sampleImages/LG/LG_RUMOR2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2006,6 +2064,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
@@ -2077,6 +2136,7 @@
 	{
 		"img": "sampleImages/LG/LG_P520.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2087,6 +2147,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
@@ -2149,6 +2210,7 @@
 	{
 		"img": "sampleImages/LG/LG_MX-8550.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2159,6 +2221,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -2268,6 +2331,7 @@
 	{
 		"img": "sampleImages/LG/LG_MG295d.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -2284,10 +2348,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -2372,6 +2438,7 @@
 	{
 		"img": "sampleImages/LG/LG_LV4200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008-11-30 14:32: 4",
@@ -2381,8 +2448,10 @@
 			"ExposureTime": "1/21",
 			"Flash": "No Flash",
 			"FlashpixVersion": "0.10",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 436,
 			"DateTime": "2008-11-30 14:32: 4",
@@ -2444,6 +2513,7 @@
 	{
 		"img": "sampleImages/LG/LG_LU2300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:11:28 20:44:10",
@@ -2451,6 +2521,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
@@ -2523,6 +2594,7 @@
 	{
 		"img": "sampleImages/LG/LG_LC3200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2534,9 +2606,11 @@
 			"ExposureTime": "0",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 408,
@@ -2601,6 +2675,7 @@
 	{
 		"img": "sampleImages/LG/LG_LB2800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:03:13 20:45:31",
@@ -2611,9 +2686,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 416,
 			"Make": "LG CYON",
@@ -2677,6 +2754,7 @@
 	{
 		"img": "sampleImages/LG/LG_LB1700.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "1980:01:06 09:40:42",
@@ -2687,9 +2765,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 416,
 			"Make": "LG CYON",
@@ -2791,6 +2871,7 @@
 	{
 		"img": "sampleImages/LG/LG_KV4200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009-11-16 13:44:28",
@@ -2800,8 +2881,10 @@
 			"ExposureTime": "1/21",
 			"Flash": "No Flash",
 			"FlashpixVersion": "0.10",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 436,
 			"DateTime": "2009-11-16 13:44:28",
@@ -2863,6 +2946,7 @@
 	{
 		"img": "sampleImages/LG/LG_KU990.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2878,11 +2962,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 203,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/8",
 			"WhiteBalance": "Auto",
 			"DateTime": "2010:03:08 01:35:17",
@@ -2956,12 +3042,14 @@
 	{
 		"img": "sampleImages/LG/LG_KU580.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "RGB uncompressed",
 			"DateTimeDigitized": "2008:06:16 09:50:18",
 			"DateTimeOriginal": "2008:06:16 09:50:18",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"_IFDpointer_Interop": 354,
@@ -3015,6 +3103,7 @@
 	{
 		"img": "sampleImages/LG/LG_KU4000.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3029,6 +3118,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
@@ -3119,6 +3209,7 @@
 	{
 		"img": "sampleImages/LG/LG_KS660.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3136,9 +3227,11 @@
 				80,
 				0
 			],
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
+			"ShutterSpeed": "1/10",
 			"ImageDescription": "ALBIREO",
 			"Make": "LG Electronics",
 			"Model": "KS660",
@@ -3206,6 +3299,7 @@
 	{
 		"img": "sampleImages/LG/LG_KS360.jpg",
 		"exifJS": {
+			"Aperture": 0.0000234,
 			"ColorSpace": 2,
 			"CustomRendered": "Custom",
 			"DateTimeOriginal": "2008:03:18 04:02:12",
@@ -3220,8 +3314,10 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "2.210000",
 			"FocalPlaneYResolution": "6.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "0",
 			"SubjectDistance": "1.2647058823529411 m",
 			"UserComment": [
 				65,
@@ -3301,6 +3397,7 @@
 	{
 		"img": "sampleImages/LG/LG_KS20.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:05:30 07:25:20",
@@ -3308,6 +3405,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -3370,6 +3468,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP570.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3379,6 +3478,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"ImageDescription": "S",
@@ -3435,6 +3535,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP500.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3444,6 +3545,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"ImageDescription": "S",
@@ -3500,6 +3602,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP4500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3511,9 +3614,11 @@
 			"ExposureTime": "0",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 408,
@@ -3578,6 +3683,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP4000.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3589,9 +3695,11 @@
 			"ExposureTime": "0",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 408,
@@ -3652,6 +3760,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP3800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3663,9 +3772,11 @@
 			"ExposureTime": "0",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 408,
@@ -3730,6 +3841,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP320.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 1,
@@ -3741,11 +3853,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 250,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/14",
 			"_IFDpointer_Makernote": 608,
 			"DateTime": "2010/06/05 18:34:52",
 			"ImageDescription": "1102,115,15,80,144,7,37,21,12/idx:19/R:132,GR:128,GB:128,B:194, Gma(3):203c5569,8da8c0d7,e1ebf500,Led:0, edge:1, 332c:8,con:7, EDGE:20002, AF:s(270/1023)(0/4:0)",
@@ -3809,6 +3923,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP293i.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -3825,10 +3940,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/2000",
 			"ShutterSpeedValue": "1/2048",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -3913,6 +4030,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP235.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -3929,10 +4047,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Average",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -4017,6 +4137,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP230.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -4033,10 +4154,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -4121,6 +4244,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP202.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -4137,10 +4261,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -4225,6 +4351,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP199.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 1,
@@ -4236,11 +4363,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "128 px w",
 			"PixelYDimension": "160 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/39",
 			"_IFDpointer_Makernote": 658,
 			"DateTime": "2010:05:25 10:53:27",
 			"ImageDescription": "80808080,720905,185991177,371261449,723218,185993490,371263762,725531,185995803,371266075/idx:49/R:128,GR:128,GB:128,B:128, AWB:2432101a, Gma(0):41647a88,a4bacee0,e8f0f800, sensor edge:2, sensor de-noise:1,con:1, EDGE:80010",
@@ -4304,6 +4433,7 @@
 	{
 		"img": "sampleImages/LG/LG_KP130.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -4320,10 +4450,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Average",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -4408,6 +4540,7 @@
 	{
 		"img": "sampleImages/LG/LG_KM900.jpg",
 		"exifJS": {
+			"Aperture": 2.79998779296875,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4422,9 +4555,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/8",
 			"WhiteBalance": "Auto",
 			"GPSAltitude": "0 m Above Sea Level",
@@ -4515,11 +4650,13 @@
 	{
 		"img": "sampleImages/LG/LG_KM710.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "0000:00:00 00:00:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "0000:00:00 00:00:00",
@@ -4569,6 +4706,7 @@
 	{
 		"img": "sampleImages/LG/LG_KM555.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4578,6 +4716,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"ImageDescription": "Dorothy",
@@ -4634,11 +4773,13 @@
 	{
 		"img": "sampleImages/LG/LG_KM500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "0000:00:00 00:00:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "0000:00:00 00:00:00",
@@ -4688,6 +4829,7 @@
 	{
 		"img": "sampleImages/LG/LG_KM380.jpg",
 		"exifJS": {
+			"Aperture": 0.0000234,
 			"ColorSpace": 2,
 			"CustomRendered": "Custom",
 			"DateTimeOriginal": "2008:03:18 04:02:12",
@@ -4702,8 +4844,10 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "2.210000",
 			"FocalPlaneYResolution": "6.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
+			"ShutterSpeed": "0",
 			"SubjectDistance": "1.2647058823529411 m",
 			"UserComment": [
 				65,
@@ -4783,6 +4927,7 @@
 	{
 		"img": "sampleImages/LG/LG_KM330.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 2,
@@ -4794,11 +4939,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/24",
 			"_IFDpointer_Makernote": 466,
 			"DateTime": "2010/09/22 16:30:16",
 			"ImageDescription": "1234567",
@@ -4863,6 +5010,7 @@
 	{
 		"img": "sampleImages/LG/LG_KH8000.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4877,6 +5025,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
@@ -4967,6 +5116,7 @@
 	{
 		"img": "sampleImages/LG/LG_KH5200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"DateTimeDigitized": "2010:08:19 21:00:51",
@@ -4976,9 +5126,11 @@
 			"ExposureTime": "1/8",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/8",
 			"Make": "LG Electronics",
 			"Model": "KH5200",
 			"Orientation": "Horizontal (normal)",
@@ -5024,6 +5176,7 @@
 	{
 		"img": "sampleImages/LG/LG_KH1800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 90,
@@ -5035,9 +5188,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 426,
 			"Make": "LG CYON",
@@ -5098,6 +5253,7 @@
 	{
 		"img": "sampleImages/LG/LG_KH1600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 90,
@@ -5109,9 +5265,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "360 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Auto",
 			"Make": "LG CYON",
 			"Model": "KH1600",
@@ -5165,6 +5323,7 @@
 	{
 		"img": "sampleImages/LG/LG_KH-3100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5179,6 +5338,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -5273,6 +5433,7 @@
 	{
 		"img": "sampleImages/LG/LG_KH-1200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:08:05 23:41:51",
@@ -5283,9 +5444,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 432,
 			"Make": "LG CYON",
@@ -5349,6 +5512,7 @@
 	{
 		"img": "sampleImages/LG/LG_KG920.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"BrightnessValue": 8.26495361328125,
 			"ExifVersion": "2.20",
@@ -5362,6 +5526,7 @@
 			"FocalPlaneYResolution": "0.425429",
 			"ISO": [],
 			"MeteringMode": "Multi-spot",
+			"ShutterSpeed": "1/313",
 			"ShutterSpeedValue": "1/313",
 			"WhiteBalance": "Manual",
 			"DateTime": "2009.02.16",
@@ -5415,6 +5580,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF900.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5432,9 +5598,11 @@
 				50,
 				0
 			],
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/500",
 			"ImageDescription": "QP",
 			"Make": "LG Electronics",
 			"Model": "KF900",
@@ -5502,6 +5670,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF750.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5515,9 +5684,11 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"ISO": 610,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 607,
@@ -5594,6 +5765,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF700.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
@@ -5601,6 +5773,7 @@
 			"ExifVersion": "2.20",
 			"ExposureProgram": "Manual",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"ImageDescription": "VIRGO",
@@ -5651,6 +5824,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF690.jpg",
 		"exifJS": {
+			"Aperture": 1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
@@ -5660,9 +5834,11 @@
 			"FNumber": 1,
 			"FlashpixVersion": "1.00",
 			"ISO": 127,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/1024",
 			"ShutterSpeedValue": "1/1024",
 			"ImageDescription": "VIRGO",
 			"Make": "LG Electronics",
@@ -5723,6 +5899,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF600.jpg",
 		"exifJS": {
+			"Aperture": 0.0000234,
 			"ColorSpace": 2,
 			"CustomRendered": "Custom",
 			"DateTimeOriginal": "2006:02:03 04:02:12",
@@ -5737,8 +5914,10 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "6.000000",
 			"FocalPlaneYResolution": "2.210000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
+			"ShutterSpeed": "0",
 			"SubjectDistance": "1.2647058823529411 m",
 			"UserComment": [
 				65,
@@ -5806,12 +5985,14 @@
 	{
 		"img": "sampleImages/LG/LG_KF510.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:01:01 15:04:05",
 			"DateTimeOriginal": "2010:01:01 15:04:05",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"WhiteBalance": "Auto",
@@ -5864,6 +6045,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF310.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5877,6 +6059,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -5970,6 +6153,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF301.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 1,
@@ -5978,6 +6162,7 @@
 			"ExposureMode": "Auto",
 			"ExposureProgram": "Program AE",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
@@ -6044,6 +6229,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ExifVersion": "2.20",
 			"Make": "LGElectronics",
 			"Model": "KF300",
@@ -6083,6 +6269,7 @@
 	{
 		"img": "sampleImages/LG/LG_KF240.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ExifVersion": "2.20",
 			"Make": "LGElectronics",
 			"Model": "KF240",
@@ -6122,10 +6309,12 @@
 	{
 		"img": "sampleImages/LG/LG_KF-350.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2009-11-22 17:34:19",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 188,
@@ -6178,6 +6367,7 @@
 	{
 		"img": "sampleImages/LG/LG_KE998.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6193,11 +6383,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/12",
 			"ShutterSpeedValue": "1/16",
 			"WhiteBalance": "Auto",
 			"DateTime": "2009:08:02 00:06:08",
@@ -6272,6 +6464,7 @@
 	{
 		"img": "sampleImages/LG/LG_KE990.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6287,11 +6480,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 53,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/526",
 			"ShutterSpeedValue": "1/1024",
 			"WhiteBalance": "Auto",
 			"DateTime": "2010:05:25 12:39:08",
@@ -6365,6 +6560,7 @@
 	{
 		"img": "sampleImages/LG/LG_KE850.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:09:18 09:17:06",
@@ -6372,6 +6568,7 @@
 			"ExifVersion": "2.20",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"WhiteBalance": "Auto",
@@ -6428,11 +6625,13 @@
 	{
 		"img": "sampleImages/LG/LG_KE590.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "Nov 21 2007",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "LG Electronics Inc.",
@@ -6493,11 +6692,13 @@
 	{
 		"img": "sampleImages/LG/LG_KE500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "Oct 24 2007",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "LG Electronics Inc.",
@@ -6558,6 +6759,7 @@
 	{
 		"img": "sampleImages/LG/LG_KC910.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6573,11 +6775,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 303,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 682,
@@ -6662,6 +6866,7 @@
 	{
 		"img": "sampleImages/LG/LG_KC780.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6681,9 +6886,11 @@
 				67,
 				0
 			],
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/64",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "Reina",
@@ -6754,6 +6961,7 @@
 	{
 		"img": "sampleImages/LG/LG_KC550.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6773,9 +6981,11 @@
 				200,
 				0
 			],
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "Orsay",
@@ -6844,10 +7054,12 @@
 	{
 		"img": "sampleImages/LG/LG_KC-560.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2009-10-10 19:41:48",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 188,
@@ -6899,6 +7111,7 @@
 	{
 		"img": "sampleImages/LG/LG_KB770.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6912,6 +7125,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -7005,6 +7219,7 @@
 	{
 		"img": "sampleImages/LG/LG_GX500.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7016,6 +7231,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -7082,6 +7298,7 @@
 	{
 		"img": "sampleImages/LG/LG_GX200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 1,
@@ -7090,6 +7307,7 @@
 			"ExposureMode": "Auto",
 			"ExposureProgram": "Program AE",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
@@ -7156,10 +7374,12 @@
 	{
 		"img": "sampleImages/LG/LG_GX-300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:8:16 14:39:0",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 188,
@@ -7211,10 +7431,12 @@
 	{
 		"img": "sampleImages/LG/LG_GW550.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2011:8:22 19:52:46",
 			"DateTimeOriginal": "2011:8:22 19:52:46",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"Make": "LG",
@@ -7257,6 +7479,7 @@
 	{
 		"img": "sampleImages/LG/LG_GW520.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7268,6 +7491,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -7334,10 +7558,12 @@
 	{
 		"img": "sampleImages/LG/LG_GU-230.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:5:15 19:43:0",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 188,
@@ -7389,6 +7615,7 @@
 	{
 		"img": "sampleImages/LG/LG_GT540.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:09:11 12:59:10",
@@ -7398,9 +7625,11 @@
 			"ExposureTime": "1/8",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/8",
 			"Make": "LG Electronics",
 			"Model": "GT540",
 			"Orientation": "Horizontal (normal)",
@@ -7458,6 +7687,7 @@
 	{
 		"img": "sampleImages/LG/LG_GT365.jpg",
 		"exifJS": {
+			"Aperture": 0.0000234,
 			"ColorSpace": 2,
 			"CustomRendered": "Custom",
 			"DateTimeOriginal": "2008:03:18 04:02:12",
@@ -7472,8 +7702,10 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "2.210000",
 			"FocalPlaneYResolution": "6.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "0",
 			"SubjectDistance": "1.2647058823529411 m",
 			"UserComment": [
 				65,
@@ -7553,6 +7785,7 @@
 	{
 		"img": "sampleImages/LG/LG_GT350.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7562,6 +7795,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2010:11:05",
@@ -7618,6 +7852,7 @@
 	{
 		"img": "sampleImages/LG/LG_GS505.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7631,6 +7866,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -7724,6 +7960,7 @@
 	{
 		"img": "sampleImages/LG/LG_GS500.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7735,6 +7972,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -7801,6 +8039,7 @@
 	{
 		"img": "sampleImages/LG/LG_GS290.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7810,6 +8049,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2010:05:27",
@@ -7866,6 +8106,7 @@
 	{
 		"img": "sampleImages/LG/LG_GS205.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 1,
@@ -7877,11 +8118,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "160 px w",
 			"PixelYDimension": "128 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/11",
 			"_IFDpointer_Makernote": 472,
 			"DateTime": "2010/09/22 16:10:56",
 			"ImageDescription": "1234567",
@@ -7946,6 +8189,7 @@
 	{
 		"img": "sampleImages/LG/LG_GS200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DigitalZoomRatio": 1,
@@ -7957,11 +8201,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/19",
 			"_IFDpointer_Makernote": 472,
 			"DateTime": "2010/09/18 18:32:37",
 			"ImageDescription": "1234567",
@@ -8031,6 +8277,7 @@
 	{
 		"img": "sampleImages/LG/LG_GS155.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -8047,11 +8294,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "1.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistance": "1.5 m",
 			"SubsecTime": 0,
@@ -8139,6 +8388,7 @@
 	{
 		"img": "sampleImages/LG/LG_GM360.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8149,6 +8399,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
@@ -8211,6 +8462,7 @@
 	{
 		"img": "sampleImages/LG/LG_GM200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ExifVersion": "2.20",
 			"Make": "LGElectronics",
 			"Model": "GM200",
@@ -8250,10 +8502,12 @@
 	{
 		"img": "sampleImages/LG/LG_GM-310.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010-7-22 22:28:10",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 188,
@@ -8305,6 +8559,7 @@
 	{
 		"img": "sampleImages/LG/LG_GD900.jpg",
 		"exifJS": {
+			"Aperture": 2.79998779296875,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8319,9 +8574,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/8",
 			"WhiteBalance": "Auto",
 			"GPSAltitude": "0 m Above Sea Level",
@@ -8412,6 +8669,7 @@
 	{
 		"img": "sampleImages/LG/LG_GD880.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:07:04 15:07:10",
@@ -8420,6 +8678,7 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
@@ -8547,6 +8806,7 @@
 	{
 		"img": "sampleImages/LG/LG_GD510.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8556,6 +8816,7 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"DateTime": "2010:06:05",
@@ -8614,10 +8875,12 @@
 	{
 		"img": "sampleImages/LG/LG_GD-350.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:9:11 13:25:0",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 188,
@@ -8669,6 +8932,7 @@
 	{
 		"img": "sampleImages/LG/LG_GD-330.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"DateTimeDigitized": "2010:6:8 20:11:0",
@@ -8679,6 +8943,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -8746,6 +9011,7 @@
 	{
 		"img": "sampleImages/LG/LG_GC900.jpg",
 		"exifJS": {
+			"Aperture": 2.79998779296875,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8760,9 +9026,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/16",
 			"WhiteBalance": "Auto",
 			"GPSAltitude": "0 m Above Sea Level",
@@ -8853,8 +9121,10 @@
 	{
 		"img": "sampleImages/LG/LG_GB210.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ExifVersion": "2.10",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"Artist": "LG Electronics",
@@ -8913,10 +9183,12 @@
 	{
 		"img": "sampleImages/LG/LG_GB-250.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:8:13 9:6:50",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 188,
@@ -8968,10 +9240,12 @@
 	{
 		"img": "sampleImages/LG/LG_GB-230.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:5:26 12:9:0",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 188,
@@ -9023,10 +9297,12 @@
 	{
 		"img": "sampleImages/LG/LG_GB-220.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2010:6:5 21:41:0",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 188,
@@ -9078,6 +9354,7 @@
 	{
 		"img": "sampleImages/LG/LG_CU915.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9091,6 +9368,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -9184,6 +9462,7 @@
 	{
 		"img": "sampleImages/LG/LG_CU720.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9197,6 +9476,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -9290,6 +9570,7 @@
 	{
 		"img": "sampleImages/LG/LG_BL40.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:08 10:59:39",
@@ -9298,6 +9579,7 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
@@ -9380,6 +9662,7 @@
 	{
 		"img": "sampleImages/LG/LG_AX260.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:01:13 18:32:10",
@@ -9390,9 +9673,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 520,
 			"Make": "LG Electronics",
@@ -9456,6 +9741,7 @@
 	{
 		"img": "sampleImages/LG/LG_A310.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9478,6 +9764,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -9487,6 +9774,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/104",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -9610,6 +9898,7 @@
 	{
 		"img": "sampleImages/LG/LG_8300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -9621,9 +9910,11 @@
 			"ExposureTime": "1/21",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/21",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 542,
@@ -9686,6 +9977,7 @@
 	{
 		"img": "sampleImages/LG/LGE_Nexus5.jpg",
 		"exifJS": {
+			"Aperture": "2.4",
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9698,8 +9990,10 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4 mm",
 			"ISO": 158,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
+			"ShutterSpeed": "1/13",
 			"ShutterSpeedValue": "1/12",
 			"_IFDpointer_Interop": 412,
 			"GPSImgDirection": 249,

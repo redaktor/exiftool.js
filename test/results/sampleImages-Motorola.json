@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaXT890.jpg",
 		"exifJS": {
+			"Aperture": 2.65,
 			"ApertureValue": "2.5",
 			"BrightnessValue": 1.98,
 			"ColorSpace": "sRGB",
@@ -20,6 +21,7 @@
 			"FocalLength": "4 mm",
 			"GainControl": "None",
 			"ISO": 142,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Average",
@@ -27,6 +29,7 @@
 			"PixelYDimension": "3264 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "0 m",
 			"UserComment": [
@@ -135,6 +138,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaXT720.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 0.0625,
 			"ColorSpace": "sRGB",
@@ -156,6 +160,7 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "",
 			"LightSource": "D65",
 			"MeteringMode": "Center-weighted average",
@@ -166,6 +171,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/100",
 			"UserComment": 1296,
 			"WhiteBalance": "Auto",
@@ -320,11 +326,13 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaV600cellphone.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:10:01 00:33:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "160 px w",
 			"PixelYDimension": "120 px h",
 			"UserComment": 297,
@@ -418,6 +426,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaV3.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:10:28 09:46:00",
@@ -426,6 +435,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"ImageDescription": "S/W Ver: 85.99.50R",
@@ -482,6 +492,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaV1100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:04:07 11:53:23",
@@ -490,6 +501,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"DateTime": "2009:04:07 11:53:23",
@@ -548,6 +560,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaV1075.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:07:05 14:39:05",
@@ -556,6 +569,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"ImageDescription": "S/W Ver: 85.97.CDP",
@@ -612,6 +626,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV6vc.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:02:27 11:05:15",
@@ -620,6 +635,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2010:02:27 11:05:15",
@@ -678,6 +694,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV6v.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:05:30 14:47:58",
@@ -686,6 +703,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2009:05:30 14:47:58",
@@ -744,6 +762,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV6.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:02:11 12:12:53",
@@ -752,6 +771,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2007:02:11 12:12:53",
@@ -810,6 +830,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV3xx.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:08:31 14:30:41",
@@ -818,6 +839,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"DateTime": "2010:08:31 14:30:41",
@@ -876,6 +898,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV3xv.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:06:24 08:01:20",
@@ -884,6 +907,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "800 px h",
 			"ImageDescription": "S/W Ver: 85.97.C3P",
@@ -940,6 +964,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV3xR.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:01:14 13:38:06",
@@ -948,6 +973,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"ImageDescription": "S/W Ver: 86.43.15P",
@@ -1004,6 +1030,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV3xM.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:09:08 18:21:20",
@@ -1012,6 +1039,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"ImageDescription": "S/W Ver: 85.97.43P",
@@ -1068,6 +1096,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaRAZRV3x.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:08:31 15:18:28",
@@ -1076,6 +1105,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"UserComment": "MotorolaRAZRV3x85.97.F1P2006:08:31 15:18:28",
@@ -1134,6 +1164,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMilestoneXT720.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -5.84765625,
 			"ColorSpace": "sRGB",
@@ -1155,6 +1186,7 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "Low gain up",
 			"ISO": 401,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "",
 			"LightSource": "D75",
 			"MeteringMode": "Center-weighted average",
@@ -1165,6 +1197,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"UserComment": 646,
 			"WhiteBalance": "Auto",
@@ -1243,6 +1276,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMilestone.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -2.14453125,
 			"ColorSpace": "sRGB",
@@ -1264,6 +1298,7 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "",
 			"LightSource": "Other",
 			"MeteringMode": "Center-weighted average",
@@ -1274,6 +1309,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/10",
 			"UserComment": 1296,
 			"WhiteBalance": "Auto",
@@ -1375,6 +1411,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMS800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1388,6 +1425,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -1462,6 +1500,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMS700.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1475,6 +1514,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
@@ -1545,6 +1585,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMS600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1556,9 +1597,11 @@
 			"ExposureTime": "1/21",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/21",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 448,
@@ -1621,10 +1664,12 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMS550.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 296,
@@ -1682,6 +1727,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMOTORAZRV9.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:09:23 09:31:47",
@@ -1690,6 +1736,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2007:09:23 09:31:47",
@@ -1748,12 +1795,14 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaMB200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:10:27 13:53:23",
 			"DateTimeOriginal": "2009:10:27 13:53:23",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 340,
@@ -1834,6 +1883,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaK3.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:04:05 21:40:45",
@@ -1842,6 +1892,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"DateTime": "2007:04:05 21:40:45",
@@ -1900,6 +1951,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaEvokeQA4.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1913,6 +1965,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
@@ -2008,6 +2061,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaEZX.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "NaN",
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
@@ -2024,6 +2078,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1200 px w",
@@ -2033,6 +2088,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "NaN",
 			"ShutterSpeedValue": "0",
 			"UserComment": [
 				69,
@@ -2162,6 +2218,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaEX300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2175,6 +2232,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -2268,6 +2326,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaE770v.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:10:15 14:37:10",
@@ -2276,6 +2335,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"ImageDescription": "S/W Ver: 85.92.701",
@@ -2332,6 +2392,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaE770.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:05:01 22:45:07",
@@ -2340,6 +2401,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"ImageDescription": "S/W Ver: 85.97.C3P",
@@ -2396,6 +2458,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaE680.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"CustomRendered": "Normal",
 			"DateTimeDigitized": "2005:08:11 14:56:18",
 			"DateTimeOriginal": "2005:08:11 14:56:18",
@@ -2461,6 +2524,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaE365.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeOriginal": "2006:07:25 19:35:15",
 			"ExifVersion": "2.20",
 			"DateTime": "2006:07:29 17:40:26",
@@ -2510,6 +2574,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaE1070.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:11:17 18:37:25",
@@ -2518,6 +2583,7 @@
 			"ExposureBias": 0,
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"ImageDescription": "S/W Ver: 85.97.C6P",
@@ -2574,6 +2640,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaDROID2GLOBAL.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -4.85546875,
 			"ColorSpace": "sRGB",
@@ -2599,6 +2666,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"GainControl": "High gain up",
 			"ISO": 794,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
@@ -2610,6 +2678,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"SubjectDistance": "0 m",
 			"SubjectDistanceRange": "Unknown",
@@ -2766,6 +2835,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaDROID2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -0.3203125,
 			"ColorSpace": "sRGB",
@@ -2790,6 +2860,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"GainControl": "High gain up",
 			"ISO": 398,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "",
 			"LightSource": "Standard light A",
 			"MaxApertureValue": "2.8",
@@ -2801,6 +2872,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"SubjectDistance": "0 m",
 			"SubjectDistanceRange": "Unknown",
@@ -2981,6 +3053,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaC261.jpg",
 		"exifJS": {
+			"Aperture": null,
 			"ColorSpace": 0,
 			"ComponentsConfiguration": "",
 			"CompressedBitsPerPixel": null,
@@ -2998,6 +3071,7 @@
 			"FlashpixVersion": "",
 			"FocalLength": "NaN mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "NaN",
 			"MeteringMode": "Unknown",
@@ -3007,6 +3081,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "NaN",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 672,
 			"DateTime": "2005:05:09:10:56:12",
@@ -3082,6 +3157,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaA780.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2006:07:29 22:06:30",
 			"DateTimeOriginal": "2006:07:29 22:06:30",
 			"ExifVersion": "2.10",
@@ -3148,6 +3224,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaA760.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"CustomRendered": "Normal",
 			"DateTimeDigitized": "2005:01:06 20:33:47",
 			"DateTimeOriginal": "2005:01:06 20:33:46",
@@ -3213,6 +3290,7 @@
 	{
 		"img": "sampleImages/Motorola/MotorolaA1600.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "NaN",
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
@@ -3229,6 +3307,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "768 px w",
@@ -3238,6 +3317,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "NaN",
 			"ShutterSpeedValue": "0",
 			"UserComment": [
 				69,
@@ -3368,6 +3448,7 @@
 	{
 		"img": "sampleImages/Motorola/Motorola-V9m.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3381,6 +3462,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",

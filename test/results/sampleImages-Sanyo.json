@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoWX310SA.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -20,6 +21,7 @@
 			"FlashEnergy": 0.5,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -29,6 +31,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/420",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistance": "7 m",
 			"SubjectDistanceRange": "Unknown",
@@ -156,6 +159,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-W800.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -173,6 +177,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -182,6 +187,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/307",
 			"ShutterSpeedValue": "1/307",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31756,
@@ -269,6 +275,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-T850EX.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ApertureValue": "4.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -286,6 +293,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.9 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -295,6 +303,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/201",
 			"ShutterSpeedValue": "1/201",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45780,
@@ -382,6 +391,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-T700.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -399,6 +409,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -406,6 +417,7 @@
 			"PixelYDimension": "768 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45288,
@@ -492,6 +504,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-SX550.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7,
@@ -506,11 +519,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/48",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -594,6 +609,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-S700.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -611,6 +627,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -620,6 +637,7 @@
 			"SceneCaptureType": "Portrait",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34008,
@@ -707,6 +725,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-S600.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -726,6 +745,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -733,6 +753,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/112",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11746,
 			"_IFDpointer_Makernote": 694,
@@ -820,6 +841,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-S500.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -837,6 +859,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.5 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -846,6 +869,7 @@
 			"SceneCaptureType": "Portrait",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.3",
 			"ShutterSpeedValue": "0.3",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 40132,
@@ -934,6 +958,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-S1080.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -951,6 +976,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -960,6 +986,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/98",
 			"ShutterSpeedValue": "1/98",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 41232,
@@ -1047,6 +1074,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-MZ3GX.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1069,6 +1097,7 @@
 			"FocalLengthIn35mmFilm": "3704 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1077,6 +1106,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/668",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -1166,6 +1196,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-MZ3EX.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1188,6 +1219,7 @@
 			"FocalLengthIn35mmFilm": "3704 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1196,6 +1228,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1674,
 			"WhiteBalance": "Auto",
@@ -1316,6 +1349,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-MZ3.jpg",
 		"exifJS": {
+			"Aperture": 6.9,
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1338,6 +1372,7 @@
 			"FocalLengthIn35mmFilm": "11113 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1346,6 +1381,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/185",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 798,
 			"WhiteBalance": "Manual",
@@ -1465,6 +1501,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-G250.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7,
@@ -1478,12 +1515,14 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/171",
 			"_IFDpointer_Makernote": 735,
 			"DateTime": "1998:01:01 00:00:00",
 			"ImageDescription": "SANYO DIGITAL CAMERA",
@@ -1558,6 +1597,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-E1000.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1575,6 +1615,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1584,6 +1625,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/25",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31712,
@@ -1671,6 +1713,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-C5.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1693,6 +1736,7 @@
 			"FocalLengthIn35mmFilm": "88 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -1702,6 +1746,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/49",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1212,
 			"WhiteBalance": "Auto",
@@ -1822,6 +1867,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoVPC-C4.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1844,6 +1890,7 @@
 			"FocalLengthIn35mmFilm": "123 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -1853,6 +1900,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/70",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -1995,12 +2043,14 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoV801SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:08:14 19:04:14",
 			"DateTimeOriginal": "2004:08:14 19:04:14",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 348,
@@ -2060,6 +2110,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSX215.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2075,11 +2126,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/158",
 			"UserComment": 1372,
 			"_IFDpointer_Makernote": 602,
 			"DateTime": "2002:02:01 00:00:00",
@@ -2180,6 +2233,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSX212.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2194,11 +2248,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "4",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -2285,6 +2341,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSX114.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.5,
@@ -2299,11 +2356,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1360 px w",
 			"PixelYDimension": "1024 px h",
+			"ShutterSpeed": "1/379",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -2387,6 +2446,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSX113.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.5,
@@ -2401,11 +2461,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1360 px w",
 			"PixelYDimension": "1024 px h",
+			"ShutterSpeed": "1/15",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -2489,6 +2551,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSX112.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.5,
@@ -2503,11 +2566,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1360 px w",
 			"PixelYDimension": "1024 px h",
+			"ShutterSpeed": "1/45",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -2590,6 +2655,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSR813.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -2605,12 +2671,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -2697,6 +2765,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSR662.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.5,
@@ -2710,12 +2779,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/494",
 			"_IFDpointer_Makernote": 736,
 			"DateTime": "1999:01:01 00:00:00",
 			"ImageDescription": "SANYO DIGITAL CAMERA",
@@ -2791,6 +2862,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSR66.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.5,
@@ -2804,12 +2876,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/116",
 			"_IFDpointer_Makernote": 736,
 			"DateTime": "1998:01:01 00:00:00",
 			"ImageDescription": "MEDIAVISION SERVICES LTD",
@@ -2885,6 +2959,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSR6.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7,
@@ -2898,12 +2973,14 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/171",
 			"_IFDpointer_Makernote": 735,
 			"DateTime": "1998:01:01 00:00:00",
 			"ImageDescription": "SANYO DIGITAL CAMERA",
@@ -2978,6 +3055,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSR08.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -2992,11 +3070,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/171",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -3080,6 +3160,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoSR05.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7,
 			"DateTimeOriginal": "2002:02:17 02:47:25",
@@ -3092,6 +3173,7 @@
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
+			"ShutterSpeed": "1/29",
 			"_IFDpointer_Makernote": 472,
 			"DateTime": "2002:02:17 02:47:25",
 			"ImageDescription": "SANYO DIGITAL CAMERA",
@@ -3155,6 +3237,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS760.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -3.031,
 			"ColorSpace": "sRGB",
@@ -3179,6 +3262,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3189,6 +3273,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3290,6 +3375,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS750.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3304,6 +3390,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.8 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -3386,6 +3473,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS70.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3408,6 +3496,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -3417,6 +3506,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1180,
 			"WhiteBalance": "Manual",
@@ -3537,6 +3627,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS650.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 1.948,
 			"ColorSpace": "sRGB",
@@ -3561,6 +3652,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3571,6 +3663,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3683,6 +3776,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS60.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3705,6 +3799,7 @@
 			"FocalLengthIn35mmFilm": "62 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.7",
 			"MeteringMode": "Multi-segment",
@@ -3714,6 +3809,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/501",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -3834,6 +3930,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS6.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3856,6 +3953,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -3865,6 +3963,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -3985,6 +4084,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS5.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4007,6 +4107,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -4016,6 +4117,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1.3",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1212,
 			"WhiteBalance": "Auto",
@@ -4136,6 +4238,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS4.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4158,6 +4261,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
 			"ISO": 71,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -4167,6 +4271,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/492",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -4308,6 +4413,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS3.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4330,6 +4436,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -4339,6 +4446,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1144",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 852,
 			"WhiteBalance": "Manual",
@@ -4480,6 +4588,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS103.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4494,6 +4603,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.8 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -4576,6 +4686,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoS1.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4598,6 +4709,7 @@
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -4607,6 +4719,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/67",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -4748,6 +4861,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoJ4.jpg",
 		"exifJS": {
+			"Aperture": 6.8,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4770,6 +4884,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -4779,6 +4894,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/227",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -4920,6 +5036,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoJ2.jpg",
 		"exifJS": {
+			"Aperture": 7.2,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4942,6 +5059,7 @@
 			"FocalLengthIn35mmFilm": "42 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -4951,6 +5069,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/196",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -5092,6 +5211,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoJ1.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5108,12 +5228,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/85",
 			"UserComment": 1680,
 			"_IFDpointer_Makernote": 806,
 			"DateTime": "2004:01:17 13:16:34",
@@ -5250,6 +5372,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoIDC-1000Z.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -5264,11 +5387,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/87",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -5351,6 +5476,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoHD700.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5373,6 +5499,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -5382,6 +5509,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/508",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -5504,6 +5632,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoHD2000.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5526,6 +5655,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -5535,6 +5665,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/286",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -5657,6 +5788,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoHD2.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5679,6 +5811,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -5688,6 +5821,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/533",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -5808,6 +5942,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoHD1A.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5830,6 +5965,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"ISO": 496,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -5839,6 +5975,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.8",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1180,
 			"WhiteBalance": "Manual",
@@ -5959,6 +6096,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoHD1000.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5981,6 +6119,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -5990,6 +6129,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/353",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -6112,6 +6252,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoHD1.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6134,6 +6275,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -6143,6 +6285,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/78",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -6263,6 +6406,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoFH1.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6285,6 +6429,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -6294,6 +6439,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/492",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -6416,6 +6562,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoE760.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -2.7,
 			"ColorSpace": "sRGB",
@@ -6440,6 +6587,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 288,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -6450,6 +6598,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6562,6 +6711,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoE7.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6584,6 +6734,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -6593,6 +6744,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -6713,6 +6865,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoE60.jpg",
 		"exifJS": {
+			"Aperture": 6.6,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6735,6 +6888,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -6744,6 +6898,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/186",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -6864,6 +7019,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoE6.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6886,6 +7042,7 @@
 			"FocalLengthIn35mmFilm": "83 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -6895,6 +7052,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/172",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -7015,6 +7173,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoE1090.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ApertureValue": "5.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7038,6 +7197,7 @@
 			"FocalLengthIn35mmFilm": "96 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 25,
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -7048,6 +7208,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/124",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -7158,6 +7319,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoE1.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7180,6 +7342,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -7189,6 +7352,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/733",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -7309,6 +7473,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoDSC-R1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.1,
@@ -7324,12 +7489,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": 784,
 			"_IFDpointer_Interop": 912,
 			"_IFDpointer_Makernote": 636,
@@ -7414,6 +7581,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoDSC-MZ3.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7436,6 +7604,7 @@
 			"FocalLengthIn35mmFilm": "3704 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -7444,6 +7613,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/48",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -7564,6 +7734,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoCG9.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7586,6 +7757,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -7595,6 +7767,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/409",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -7717,6 +7890,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoCG65.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7739,6 +7913,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -7748,6 +7923,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/591",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -7868,6 +8044,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoCG6.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7890,6 +8067,7 @@
 			"FocalLengthIn35mmFilm": "113 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -7899,6 +8077,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/52",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -8019,6 +8198,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoCG100.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8041,6 +8221,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8050,6 +8231,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/34",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -8172,6 +8354,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoCA65.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8194,6 +8377,7 @@
 			"FocalLengthIn35mmFilm": "130 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Spot",
@@ -8203,6 +8387,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/59",
 			"SubjectDistanceRange": "Distant view",
 			"SubsecTime": 656,
 			"UserComment": 3816,
@@ -8326,6 +8511,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoCA6.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8348,6 +8534,7 @@
 			"FocalLengthIn35mmFilm": "142 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8357,6 +8544,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/73",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1180,
 			"WhiteBalance": "Manual",
@@ -8477,6 +8665,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoC6.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8499,6 +8688,7 @@
 			"FocalLengthIn35mmFilm": "83 mm",
 			"GainControl": "None",
 			"ISO": 900,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8508,6 +8698,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/36",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -8628,6 +8819,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoC40.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8650,6 +8842,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8659,6 +8852,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/890",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",
@@ -8779,6 +8973,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoC4.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8801,6 +8996,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8810,6 +9006,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/413",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -8952,6 +9149,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoC1.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8974,6 +9172,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -8982,6 +9181,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/323",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 832,
 			"WhiteBalance": "Auto",
@@ -9125,6 +9325,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoAZ3.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9147,6 +9348,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -9156,6 +9358,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -9297,6 +9500,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoAZ1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -9312,12 +9516,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2288 px w",
 			"PixelYDimension": "1712 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -9416,6 +9622,7 @@
 	{
 		"img": "sampleImages/Sanyo/SanyoA5.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"BrightnessValue": 5.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9438,6 +9645,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.2",
 			"MeteringMode": "Multi-segment",
@@ -9447,6 +9655,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/180",
 			"SubjectArea": [
 				1280,
 				960,
@@ -9598,6 +9807,7 @@
 	{
 		"img": "sampleImages/Sanyo/Sanyo603.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -9617,6 +9827,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -9624,6 +9835,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Night scene",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/279",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21040,
 			"_IFDpointer_Makernote": 1032,
@@ -9723,6 +9935,7 @@
 	{
 		"img": "sampleImages/Sanyo/Sanyo503.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -9742,6 +9955,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -9749,6 +9963,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/19",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21042,
 			"_IFDpointer_Makernote": 1034,

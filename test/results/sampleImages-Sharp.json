@@ -2,12 +2,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpWX-T91.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:07:19 17:38:00",
 			"DateTimeOriginal": "2008:07:19 17:38:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"_IFDpointer_Interop": 348,
@@ -68,6 +70,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVN-EZ5.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:01:06 01:26:52",
@@ -75,6 +78,7 @@
 			"ExifVersion": "2.10",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -181,6 +185,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVN-EZ1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:05:28 14:44:43",
@@ -190,6 +195,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -257,6 +263,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z961.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -275,6 +282,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -283,6 +291,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/91",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -420,6 +429,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z950.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -438,6 +448,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12.9 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -446,6 +457,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -583,6 +595,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z800.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -601,6 +614,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "20.3 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -609,6 +623,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -746,6 +761,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z8.jpg",
 		"exifJS": {
+			"Aperture": 1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -762,6 +778,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -769,6 +786,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 738,
 			"_IFDpointer_Makernote": [
@@ -903,6 +921,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z700.jpg",
 		"exifJS": {
+			"Aperture": 1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -921,6 +940,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -929,6 +949,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/32",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -1066,6 +1087,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z7.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1084,6 +1106,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -1092,6 +1115,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -1230,6 +1254,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z500.jpg",
 		"exifJS": {
+			"Aperture": 1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1248,6 +1273,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -1256,6 +1282,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -1393,6 +1420,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z5.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1411,6 +1439,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.7 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -1419,6 +1448,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/12",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -1557,6 +1587,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z301.jpg",
 		"exifJS": {
+			"Aperture": 1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1575,6 +1606,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -1583,6 +1615,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -1720,6 +1753,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z3.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1738,6 +1772,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -1746,6 +1781,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 750,
 			"WhiteBalance": "Auto",
@@ -1884,6 +1920,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-WD650.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "",
@@ -1893,6 +1930,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -1962,6 +2000,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-WD450.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:10:27 20:21:09",
@@ -1971,6 +2010,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2038,6 +2078,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-WD255.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:01:29 09:24:19",
@@ -2047,6 +2088,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2113,6 +2155,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-PD7.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:07:09 12:55:00",
@@ -2122,6 +2165,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2189,6 +2233,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ80.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:11:10 17:48:00",
@@ -2198,6 +2243,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2275,6 +2321,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ8.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:02:04 20:19:00",
@@ -2284,6 +2331,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2361,6 +2409,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ50.jpg",
 		"exifJS": {
+			"Aperture": 1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": 5840,
@@ -2376,6 +2425,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.6 mm",
 			"ISO": 3136,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 3056,
 			"MaxApertureValue": "1.9",
 			"MeteringMode": 2912,
@@ -2383,6 +2433,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": 208,
 			"SensingMethod": 2640,
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 814,
 			"_IFDpointer_Makernote": [
@@ -2466,6 +2517,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ150.jpg",
 		"exifJS": {
+			"Aperture": 25,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2482,6 +2534,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -2489,6 +2542,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 794,
@@ -2578,6 +2632,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ105.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2594,6 +2649,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -2601,6 +2657,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/91",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 794,
@@ -2690,6 +2747,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ100.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2706,6 +2764,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "13.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -2713,6 +2772,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 794,
@@ -2803,6 +2863,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ10.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2003:08:30 14:51:28",
@@ -2818,6 +2879,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -2825,6 +2887,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"UserComment": 668,
 			"_IFDpointer_Interop": 812,
@@ -2908,6 +2971,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MX1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2003:02:18 11:49:00",
@@ -2917,6 +2981,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -2992,6 +3057,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MR1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:12:17 14:26:00",
@@ -3001,6 +3067,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"SceneType": "Directly photographed",
@@ -3070,6 +3137,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MG10.jpg",
 		"exifJS": {
+			"Aperture": 1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3086,6 +3154,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.6 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -3093,6 +3162,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 794,
@@ -3182,6 +3252,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-ME100.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:05:01 09:09:00",
@@ -3191,6 +3262,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
@@ -3268,6 +3340,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MC500.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3284,6 +3357,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.6 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -3291,6 +3365,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 794,
@@ -3381,6 +3456,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-DD10.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3399,6 +3475,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -3407,6 +3484,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/350",
 			"ShutterSpeedValue": "1/362",
 			"UserComment": 972,
 			"WhiteBalance": "Auto",
@@ -3494,6 +3572,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-AX1.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3510,6 +3589,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.3 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Center-weighted average",
@@ -3517,6 +3597,7 @@
 			"PixelYDimension": "864 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/32",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 794,
@@ -3606,6 +3687,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-AD260.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2003:02:09 02:15:55",
@@ -3615,6 +3697,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -3682,6 +3765,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVE-CG40.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3700,6 +3784,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Center-weighted average",
@@ -3708,6 +3793,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/350",
 			"ShutterSpeedValue": "1/362",
 			"UserComment": 972,
 			"WhiteBalance": "Auto",
@@ -3795,6 +3881,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVE-CG30.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ApertureValue": "2.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3813,6 +3900,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Center-weighted average",
@@ -3821,6 +3909,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 972,
 			"WhiteBalance": "Auto",
@@ -3909,12 +3998,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV903SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:04:07 08:23:00",
 			"DateTimeOriginal": "2006:04:07 08:23:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 348,
@@ -3975,12 +4066,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV902SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:06:19 03:35:00",
 			"DateTimeOriginal": "2005:06:19 03:35:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"DateTime": "2005:06:19 03:35:00",
@@ -4036,12 +4129,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV802SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:28 22:18:00",
 			"DateTimeOriginal": "2005:04:28 22:18:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"DateTime": "2005:04:28 22:18:00",
@@ -4097,12 +4192,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV801SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:11:25 09:35:00",
 			"DateTimeOriginal": "2004:11:25 09:35:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"DateTime": "2004:11:25 09:35:00",
@@ -4159,12 +4256,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV703SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:07:15 11:32:00",
 			"DateTimeOriginal": "2007:07:15 11:32:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"DateTime": "2007:07:15 11:32:00",
@@ -4221,12 +4320,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV601SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:09:19 18:24:00",
 			"DateTimeOriginal": "2005:09:19 18:24:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"DateTime": "2005:09:19 18:24:00",
@@ -4282,12 +4383,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV401SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:06:22 09:22:00",
 			"DateTimeOriginal": "2004:06:22 09:22:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 348,
@@ -4348,12 +4451,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpV301SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:08:12 11:40:00",
 			"DateTimeOriginal": "2004:08:12 11:40:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 347,
@@ -4414,12 +4519,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpTM200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:14:14:27:08",
 			"DateTimeOriginal": "2005:04:14:14:27:08",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"DateTime": "2005:04:14:14:27:08",
@@ -4470,12 +4577,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpTM150.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:10:30:21:29:12",
 			"DateTimeOriginal": "2005:10:30:21:29:12",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"DateTime": "2005:10:30:21:29:12",
@@ -4525,12 +4634,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpSX833.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:11:29 20:19:00",
 			"DateTimeOriginal": "2005:11:29 20:19:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"_IFDpointer_Interop": 348,
@@ -4591,12 +4702,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpSX813.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:11:20 19:30:00",
 			"DateTimeOriginal": "2005:11:20 19:30:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1224 px w",
 			"PixelYDimension": "1632 px h",
 			"DateTime": "2005:11:20 19:30:00",
@@ -4652,12 +4765,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH53.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:07:13 18:38:00",
 			"DateTimeOriginal": "2004:07:13 18:38:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 348,
@@ -4718,12 +4833,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH52.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:12:19 13:32:00",
 			"DateTimeOriginal": "2004:12:19 13:32:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"DateTime": "2004:12:19 13:32:00",
@@ -4780,12 +4897,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH51.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:02 12:24:00",
 			"DateTimeOriginal": "2005:04:02 12:24:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 348,
@@ -4845,12 +4964,14 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH010.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:02:01 10:38:00",
 			"DateTimeOriginal": "2004:02:01 10:38:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 348,
@@ -4910,6 +5031,7 @@
 	{
 		"img": "sampleImages/Sharp/Sharp933SH.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0.9,
 			"ColorSpace": "sRGB",
@@ -4928,11 +5050,13 @@
 			"FocalLength": "4.8 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/322",
 			"ShutterSpeedValue": "1/322",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -5019,12 +5143,14 @@
 	{
 		"img": "sampleImages/Sharp/Sharp912SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:09:16 13:03:00",
 			"DateTimeOriginal": "2009:09:16 13:03:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 348,
@@ -5084,6 +5210,7 @@
 	{
 		"img": "sampleImages/Sharp/Sharp910SH.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5098,12 +5225,14 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 594,
@@ -5182,12 +5311,14 @@
 	{
 		"img": "sampleImages/Sharp/Sharp816SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:11:08 17:31:00",
 			"DateTimeOriginal": "2009:11:08 17:31:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 348,
@@ -5247,12 +5378,14 @@
 	{
 		"img": "sampleImages/Sharp/Sharp705SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:07:06 07:43:00",
 			"DateTimeOriginal": "2009:07:06 07:43:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 370,

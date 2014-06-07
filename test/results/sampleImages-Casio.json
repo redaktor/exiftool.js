@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Casio/CasioYC-400.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.5005144032921811,
@@ -22,6 +23,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -30,6 +32,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32410,
 			"_IFDpointer_Makernote": 750,
@@ -183,6 +186,7 @@
 	{
 		"img": "sampleImages/Casio/CasioXV-3.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.6455026455026456,
@@ -197,10 +201,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "768 px w",
 			"PixelYDimension": "1008 px h",
+			"ShutterSpeed": "1/8",
 			"_IFDpointer_Interop": 820,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2004:07:20 19:37:47",
@@ -284,6 +290,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R62.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.029333333333333,
@@ -304,6 +311,7 @@
 			"FocalLength": "14.2 mm",
 			"FocalLengthIn35mmFilm": "69 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -312,6 +320,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32798,
 			"_IFDpointer_Makernote": 756,
@@ -428,6 +437,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R61.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.168044077134986,
@@ -448,6 +458,7 @@
 			"FocalLength": "11.4 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -456,6 +467,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 27136,
 			"_IFDpointer_Makernote": 748,
@@ -575,6 +587,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R52.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.38333333333333336,
@@ -595,6 +608,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -603,6 +617,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33954,
 			"_IFDpointer_Makernote": 750,
@@ -758,6 +773,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R51.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.400390625,
@@ -778,6 +794,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -786,6 +803,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33240,
 			"_IFDpointer_Makernote": 750,
@@ -941,6 +959,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R41.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.4666666666666667,
@@ -961,6 +980,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -969,6 +989,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32468,
 			"_IFDpointer_Makernote": 750,
@@ -1124,6 +1145,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R40.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.37866666666666665,
@@ -1144,6 +1166,7 @@
 			"FocalLength": "24 mm",
 			"FocalLengthIn35mmFilm": "117 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Shade",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1152,6 +1175,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 30760,
 			"_IFDpointer_Makernote": 750,
@@ -1305,6 +1329,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R4.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.37866666666666665,
@@ -1325,6 +1350,7 @@
 			"FocalLength": "7.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -1333,6 +1359,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32862,
 			"_IFDpointer_Makernote": 750,
@@ -1485,6 +1512,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R3.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.20833333333333334,
@@ -1505,6 +1533,7 @@
 			"FocalLength": "17.7 mm",
 			"FocalLengthIn35mmFilm": "86 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -1513,6 +1542,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30658,
 			"_IFDpointer_Makernote": 750,
@@ -1666,6 +1696,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R200.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1686,6 +1717,7 @@
 			"FocalLength": "6.4 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1696,6 +1728,7 @@
 			"SceneCaptureType": 255,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/26",
 			"ShutterSpeedValue": "1/26",
 			"SubsecTime": 48,
 			"UserComment": 3852,
@@ -1798,6 +1831,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-8000SX.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.4,
@@ -1812,10 +1846,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/746",
 			"_IFDpointer_Interop": 790,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "1999:11:05 14:56:10",
@@ -1930,6 +1966,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-5700.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.8666666666666667,
@@ -1950,6 +1987,7 @@
 			"FocalLength": "20.7 mm",
 			"FocalLengthIn35mmFilm": "100 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -1958,6 +1996,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/560",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1128,
 			"_IFDpointer_Makernote": 736,
@@ -2138,6 +2177,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-4000.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.012406462585034,
@@ -2152,10 +2192,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "13.3 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2240 px w",
 			"PixelYDimension": "1680 px h",
+			"ShutterSpeed": "1/701",
 			"_IFDpointer_Interop": 976,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2002:09:28 15:57:06",
@@ -2242,6 +2284,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-3EX.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.7037037037037037,
@@ -2256,10 +2299,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2016 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/378",
 			"_IFDpointer_Interop": 820,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2004:02:27 15:44:45",
@@ -2346,6 +2391,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-3500EX.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6458333333333335,
@@ -2360,10 +2406,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/8",
 			"_IFDpointer_Interop": 958,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2004:12:25 09:18:35",
@@ -2454,6 +2502,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-3000EX.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6458333333333335,
@@ -2468,10 +2517,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.1 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/168",
 			"_IFDpointer_Interop": 790,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2000:03:31 10:28:24",
@@ -2556,6 +2607,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2900UX.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.4133333333333336,
@@ -2570,10 +2622,12 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "560 px w",
 			"PixelYDimension": "420 px h",
+			"ShutterSpeed": "1/568",
 			"_IFDpointer_Interop": 958,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2003:02:23 10:26:30",
@@ -2664,6 +2718,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2800UX.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6266666666666665,
@@ -2678,10 +2733,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/493",
 			"_IFDpointer_Interop": 900,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2005:05:05 16:48:17",
@@ -2771,6 +2828,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2400UX.jpg",
 		"exifJS": {
+			"Aperture": 2.799999952316284,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.4133334159851074,
@@ -2785,10 +2843,12 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/60",
 			"UserComment": 0,
 			"_IFDpointer_Interop": 912,
 			"_IFDpointer_Makernote": 556,
@@ -2881,6 +2941,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2300UX.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.048,
@@ -2895,10 +2956,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/469",
 			"_IFDpointer_Interop": 900,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "2000:01:01 00:59:44",
@@ -2987,6 +3050,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2100.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.4694166666666666,
@@ -3002,10 +3066,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/47",
 			"_IFDpointer_Interop": 812,
 			"_IFDpointer_Makernote": 556,
 			"DateTime": "2003:02:18 12:47:06",
@@ -3087,6 +3153,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2000UX.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.56,
@@ -3101,10 +3168,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/128",
 			"_IFDpointer_Interop": 790,
 			"_IFDpointer_Makernote": 544,
 			"DateTime": "1999:01:01 00:42:10",
@@ -3215,6 +3284,7 @@
 	{
 		"img": "sampleImages/Casio/CasioKX-850.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.793388429752066,
@@ -3236,6 +3306,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -3244,6 +3315,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/3200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 29530,
 			"_IFDpointer_Makernote": 768,
@@ -3363,6 +3435,7 @@
 	{
 		"img": "sampleImages/Casio/CasioGV-20.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3379,6 +3452,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -3387,6 +3461,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/216",
 			"ShutterSpeedValue": "1/215",
 			"_IFDpointer_Interop": 1032,
 			"_IFDpointer_Makernote": 708,
@@ -3478,6 +3553,7 @@
 	{
 		"img": "sampleImages/Casio/CasioGV-10.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3494,6 +3570,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -3502,6 +3579,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"_IFDpointer_Interop": 1032,
 			"_IFDpointer_Makernote": 708,
@@ -3593,6 +3671,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZS5.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3615,6 +3694,7 @@
 			"FocalLengthIn35mmFilm": "73 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-spot",
@@ -3623,6 +3703,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 6688,
 			"_IFDpointer_Makernote": 788,
@@ -3744,6 +3825,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZS20.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ApertureValue": "3.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3766,6 +3848,7 @@
 			"FocalLengthIn35mmFilm": "29 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-spot",
@@ -3774,6 +3857,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 6856,
 			"_IFDpointer_Makernote": 788,
@@ -3910,6 +3994,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZS150.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3932,6 +4017,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -3940,6 +4026,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9240,
 			"_IFDpointer_Makernote": 708,
@@ -4078,6 +4165,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZS12.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4100,6 +4188,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -4108,6 +4197,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 6712,
 			"_IFDpointer_Makernote": 788,
@@ -4229,6 +4319,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZS100.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4251,6 +4342,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -4259,6 +4351,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7560,
 			"_IFDpointer_Makernote": 708,
@@ -4380,6 +4473,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZS10.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"ApertureValue": "5.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4402,6 +4496,7 @@
 			"FocalLengthIn35mmFilm": "66 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.3",
 			"MeteringMode": "Multi-spot",
@@ -4410,6 +4505,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 6688,
 			"_IFDpointer_Makernote": 788,
@@ -4531,6 +4627,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR300.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5092592592592595,
@@ -4552,6 +4649,7 @@
 			"FocalLengthIn35mmFilm": "166 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -4562,6 +4660,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "Id",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12636,
 			"_IFDpointer_Makernote": 810,
@@ -4695,6 +4794,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR200.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5092592592592595,
@@ -4716,6 +4816,7 @@
 			"FocalLengthIn35mmFilm": "300 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -4726,6 +4827,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "aI2",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12596,
 			"_IFDpointer_Makernote": 810,
@@ -4858,6 +4960,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR20.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -4879,6 +4982,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "High gain up",
 			"ISO": 12800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -4889,6 +4993,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "b@",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12636,
 			"_IFDpointer_Makernote": 784,
@@ -5022,6 +5127,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR15.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5092592592592595,
@@ -5043,6 +5149,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5053,6 +5160,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "vI",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 12596,
 			"_IFDpointer_Makernote": 810,
@@ -5188,6 +5296,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR1000.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5092592592592595,
@@ -5209,6 +5318,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5219,6 +5329,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "cE",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12718,
 			"_IFDpointer_Makernote": 810,
@@ -5366,6 +5477,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR100.jpg",
 		"exifJS": {
+			"Aperture": 7.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -5387,6 +5499,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5397,6 +5510,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11792,
 			"_IFDpointer_Makernote": 810,
@@ -5529,6 +5643,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR10.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -5550,6 +5665,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5560,6 +5676,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "hy",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 11638,
 			"_IFDpointer_Makernote": 810,
@@ -5698,6 +5815,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z90.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -5719,6 +5837,7 @@
 			"FocalLengthIn35mmFilm": "81 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -5727,6 +5846,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9616,
 			"_IFDpointer_Makernote": 768,
@@ -5860,6 +5980,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z9.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ApertureValue": "4.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5882,6 +6003,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "High gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.2",
 			"MeteringMode": "Multi-segment",
@@ -5890,6 +6012,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31138,
 			"_IFDpointer_Makernote": 722,
@@ -6002,6 +6125,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z850.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.921184159938485,
@@ -6022,6 +6146,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -6030,6 +6155,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 28930,
 			"_IFDpointer_Makernote": 756,
@@ -6146,6 +6272,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z85.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.176040237768633,
@@ -6167,6 +6294,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -6175,6 +6303,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 29774,
 			"_IFDpointer_Makernote": 768,
@@ -6297,6 +6426,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z800.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.4489254686785555,
@@ -6318,6 +6448,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -6327,6 +6458,7 @@
 			"SceneCaptureType": "Night scene",
 			"SensitivityType": "Standard Output Sensitivity and Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "2",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10450,
 			"_IFDpointer_Makernote": 780,
@@ -6459,6 +6591,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z80.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.705882352941177,
@@ -6480,6 +6613,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -6488,6 +6622,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 36054,
 			"_IFDpointer_Makernote": 768,
@@ -6608,6 +6743,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z8.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.705882352941177,
@@ -6629,6 +6765,7 @@
 			"FocalLengthIn35mmFilm": "71 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -6637,6 +6774,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34050,
 			"_IFDpointer_Makernote": 768,
@@ -6755,6 +6893,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z77.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.673611111111111,
@@ -6776,6 +6915,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -6784,6 +6924,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31210,
 			"_IFDpointer_Makernote": 768,
@@ -6903,6 +7044,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z750.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.066666666666666,
@@ -6923,6 +7065,7 @@
 			"FocalLength": "11.8 mm",
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -6931,6 +7074,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33294,
 			"_IFDpointer_Makernote": 756,
@@ -7047,6 +7191,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z75.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -7068,6 +7213,7 @@
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7076,6 +7222,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 33338,
 			"_IFDpointer_Makernote": 768,
@@ -7193,6 +7340,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z700.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -7213,6 +7361,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -7221,6 +7370,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33966,
 			"_IFDpointer_Makernote": 756,
@@ -7337,6 +7487,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z70.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -7357,6 +7508,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7365,6 +7517,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33918,
 			"_IFDpointer_Makernote": 756,
@@ -7481,6 +7634,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z7.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.7777777777777777,
@@ -7501,6 +7655,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7509,6 +7664,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31382,
 			"_IFDpointer_Makernote": 756,
@@ -7625,6 +7781,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z65.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -7646,6 +7803,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7654,6 +7812,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/2000",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 17566,
 			"_IFDpointer_Makernote": 768,
@@ -7772,6 +7931,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z600.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -7792,6 +7952,7 @@
 			"FocalLength": "9 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -7800,6 +7961,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33466,
 			"_IFDpointer_Makernote": 756,
@@ -7916,6 +8078,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z60.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -7936,6 +8099,7 @@
 			"FocalLength": "18.9 mm",
 			"FocalLengthIn35mmFilm": "114 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7944,6 +8108,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33526,
 			"_IFDpointer_Makernote": 756,
@@ -8061,6 +8226,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z6.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.7548209366391183,
@@ -8081,6 +8247,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8089,6 +8256,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 24798,
 			"_IFDpointer_Makernote": 756,
@@ -8206,6 +8374,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z57.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6666666666666665,
@@ -8226,6 +8395,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8234,6 +8404,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33048,
 			"_IFDpointer_Makernote": 756,
@@ -8349,6 +8520,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z550.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.4489254686785555,
@@ -8370,6 +8542,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8378,6 +8551,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10218,
 			"_IFDpointer_Makernote": 768,
@@ -8510,6 +8684,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z55.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.066666666666666,
@@ -8530,6 +8705,7 @@
 			"FocalLength": "10.2 mm",
 			"FocalLengthIn35mmFilm": "62 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8538,6 +8714,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 27836,
 			"_IFDpointer_Makernote": 756,
@@ -8654,6 +8831,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z500.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.328,
@@ -8674,6 +8852,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8682,6 +8861,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 19456,
 			"_IFDpointer_Makernote": 756,
@@ -8799,6 +8979,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z50.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6666666666666665,
@@ -8819,6 +9000,7 @@
 			"FocalLength": "12.2 mm",
 			"FocalLengthIn35mmFilm": "74 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -8827,6 +9009,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32936,
 			"_IFDpointer_Makernote": 756,
@@ -8943,6 +9126,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z5.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.3333333333333335,
@@ -8963,6 +9147,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8971,6 +9156,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 33114,
 			"_IFDpointer_Makernote": 748,
@@ -9091,6 +9277,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z450.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -9112,6 +9299,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9120,6 +9308,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9616,
 			"_IFDpointer_Makernote": 768,
@@ -9252,6 +9441,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z400.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -9273,6 +9463,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9281,6 +9472,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38536,
 			"_IFDpointer_Makernote": 768,
@@ -9402,6 +9594,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z40.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.1481481481481484,
@@ -9422,6 +9615,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9430,6 +9624,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33708,
 			"_IFDpointer_Makernote": 742,
@@ -9586,6 +9781,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z4.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.38333333333333336,
@@ -9606,6 +9802,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9614,6 +9811,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32850,
 			"_IFDpointer_Makernote": 750,
@@ -9768,6 +9966,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z37.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9790,6 +9989,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-spot",
@@ -9798,6 +9998,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4722,
 			"_IFDpointer_Makernote": 718,
@@ -9919,6 +10120,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z350.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ApertureValue": "4.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9941,6 +10143,7 @@
 			"FocalLengthIn35mmFilm": "46 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.3",
 			"MeteringMode": "Multi-segment",
@@ -9949,6 +10152,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 4646,
 			"_IFDpointer_Makernote": 718,
@@ -10069,6 +10273,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z35.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10091,6 +10296,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -10099,6 +10305,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4518,
 			"_IFDpointer_Makernote": 718,
@@ -10219,6 +10426,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z330.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -10240,6 +10448,7 @@
 			"FocalLengthIn35mmFilm": "73 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -10248,6 +10457,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9662,
 			"_IFDpointer_Makernote": 768,
@@ -10380,6 +10590,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z33.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10402,6 +10613,7 @@
 			"FocalLengthIn35mmFilm": "107 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.6",
 			"MeteringMode": "Multi-segment",
@@ -10410,6 +10622,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45518,
 			"_IFDpointer_Makernote": 718,
@@ -10521,6 +10734,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z3000.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.2552083333333335,
@@ -10542,6 +10756,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -10552,6 +10767,7 @@
 			"SensitivityType": "Standard Output Sensitivity and Recommended Exposure Index",
 			"SerialNumber": "0p",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11792,
 			"_IFDpointer_Makernote": 810,
@@ -10685,6 +10901,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z300.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -10706,6 +10923,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -10714,6 +10932,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 39222,
 			"_IFDpointer_Makernote": 768,
@@ -10835,6 +11054,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z30.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.066666666666667,
@@ -10855,6 +11075,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -10863,6 +11084,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32658,
 			"_IFDpointer_Makernote": 750,
@@ -11020,6 +11242,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z3.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.533203125,
@@ -11040,6 +11263,7 @@
 			"FocalLength": "12.2 mm",
 			"FocalLengthIn35mmFilm": "74 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11048,6 +11272,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 32764,
 			"_IFDpointer_Makernote": 750,
@@ -11200,6 +11425,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z29.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11222,6 +11448,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Multi-segment",
@@ -11230,6 +11457,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45518,
 			"_IFDpointer_Makernote": 718,
@@ -11341,6 +11569,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z280.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -11362,6 +11591,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11370,6 +11600,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38800,
 			"_IFDpointer_Makernote": 768,
@@ -11493,6 +11724,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z270.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -11514,6 +11746,7 @@
 			"FocalLengthIn35mmFilm": "67 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11522,6 +11755,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 37856,
 			"_IFDpointer_Makernote": 768,
@@ -11645,6 +11879,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z250.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.176040237768633,
@@ -11666,6 +11901,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11674,6 +11910,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 39630,
 			"_IFDpointer_Makernote": 768,
@@ -11796,6 +12033,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z2300.jpg",
 		"exifJS": {
+			"Aperture": 7.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.208333333333333,
@@ -11817,6 +12055,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -11826,6 +12065,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity and Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10450,
 			"_IFDpointer_Makernote": 780,
@@ -11958,6 +12198,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z22.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11980,6 +12221,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -11988,6 +12230,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31652,
 			"_IFDpointer_Makernote": 724,
@@ -12100,6 +12343,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z21.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.066666666666666,
@@ -12121,6 +12365,7 @@
 			"FocalLengthIn35mmFilm": "114 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -12129,6 +12374,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/40",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 27486,
 			"_IFDpointer_Makernote": 768,
@@ -12251,6 +12497,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z2000.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.4489254686785555,
@@ -12272,6 +12519,7 @@
 			"FocalLengthIn35mmFilm": "73 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -12280,6 +12528,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.3",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10218,
 			"_IFDpointer_Makernote": 768,
@@ -12412,6 +12661,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z200.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -12433,6 +12683,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -12441,6 +12692,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 36086,
 			"_IFDpointer_Makernote": 768,
@@ -12561,6 +12813,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z20.jpg",
 		"exifJS": {
+			"Aperture": 6.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.705882352941177,
@@ -12582,6 +12835,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -12590,6 +12844,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 36398,
 			"_IFDpointer_Makernote": 768,
@@ -12710,6 +12965,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z2.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12732,6 +12988,7 @@
 			"FocalLengthIn35mmFilm": "89 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -12740,6 +12997,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 45516,
 			"_IFDpointer_Makernote": 716,
@@ -12851,6 +13109,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z19.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12873,6 +13132,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Multi-segment",
@@ -12881,6 +13141,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31652,
 			"_IFDpointer_Makernote": 724,
@@ -12993,6 +13254,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z18.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.5221068819684738,
@@ -13008,11 +13270,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2448 px w",
 			"PixelYDimension": "3264 px h",
+			"ShutterSpeed": "1/250",
 			"_IFDpointer_Makernote": 744,
 			"DateTime": "2010:03:17 13:13:16",
 			"Make": "CASIO COMPUTER CO.,LTD.",
@@ -13126,6 +13390,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z16.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13148,6 +13413,7 @@
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Multi-spot",
@@ -13156,6 +13422,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 5664,
 			"_IFDpointer_Makernote": 788,
@@ -13277,6 +13544,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z155.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13299,6 +13567,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -13307,6 +13576,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45518,
 			"_IFDpointer_Makernote": 718,
@@ -13419,6 +13689,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z150.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13441,6 +13712,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -13449,6 +13721,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 45518,
 			"_IFDpointer_Makernote": 718,
@@ -13561,6 +13834,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z15.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.7,
@@ -13576,11 +13850,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1920 px w",
 			"PixelYDimension": "2560 px h",
+			"ShutterSpeed": "1/60",
 			"_IFDpointer_Makernote": 744,
 			"DateTime": "2009:12:25 18:58:21",
 			"Make": "CASIO COMPUTER CO.,LTD.",
@@ -13694,6 +13970,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1200.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -13715,6 +13992,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -13723,6 +14001,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33934,
 			"_IFDpointer_Makernote": 768,
@@ -13841,6 +14120,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z120.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.3333333333333335,
@@ -13861,6 +14141,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -13869,6 +14150,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33528,
 			"_IFDpointer_Makernote": 756,
@@ -13986,6 +14268,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z12.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.673611111111111,
@@ -14007,6 +14290,7 @@
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14015,6 +14299,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 25306,
 			"_IFDpointer_Makernote": 768,
@@ -14134,6 +14419,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z110.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -14154,6 +14440,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14162,6 +14449,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30098,
 			"_IFDpointer_Makernote": 756,
@@ -14279,6 +14567,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z11.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -14300,6 +14589,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14308,6 +14598,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33974,
 			"_IFDpointer_Makernote": 768,
@@ -14425,6 +14716,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1080.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -14446,6 +14738,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -14454,6 +14747,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 31786,
 			"_IFDpointer_Makernote": 768,
@@ -14573,6 +14867,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1050.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -14594,6 +14889,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -14602,6 +14898,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32058,
 			"_IFDpointer_Makernote": 768,
@@ -14721,6 +15018,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1000.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.4472145275469375,
@@ -14741,6 +15039,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -14749,6 +15048,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34366,
 			"_IFDpointer_Makernote": 756,
@@ -14865,6 +15165,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z100.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -14886,6 +15187,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -14894,6 +15196,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 36558,
 			"_IFDpointer_Makernote": 768,
@@ -15014,6 +15317,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z10.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -15034,6 +15338,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -15042,6 +15347,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33362,
 			"_IFDpointer_Makernote": 756,
@@ -15159,6 +15465,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15181,6 +15488,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -15189,6 +15497,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45516,
 			"_IFDpointer_Makernote": 716,
@@ -15341,6 +15650,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-V8.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.705882352941177,
@@ -15362,6 +15672,7 @@
 			"FocalLengthIn35mmFilm": "71 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -15370,6 +15681,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 33106,
 			"_IFDpointer_Makernote": 768,
@@ -15489,6 +15801,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-V7.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.976851851851852,
@@ -15510,6 +15823,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
@@ -15518,6 +15832,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31770,
 			"_IFDpointer_Makernote": 768,
@@ -15637,6 +15952,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-TR150.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.8194133333333333,
@@ -15658,6 +15974,7 @@
 			"FocalLengthIn35mmFilm": "21 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -15668,6 +15985,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": ")ta",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11792,
 			"_IFDpointer_Makernote": 810,
@@ -15804,6 +16122,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-TR100.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.8194133333333333,
@@ -15825,6 +16144,7 @@
 			"FocalLengthIn35mmFilm": "21 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -15835,6 +16155,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "Gta",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11792,
 			"_IFDpointer_Makernote": 810,
@@ -15968,6 +16289,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S880.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.705882352941177,
@@ -15989,6 +16311,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -15997,6 +16320,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 18154,
 			"_IFDpointer_Makernote": 768,
@@ -16116,6 +16440,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S770.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5,
@@ -16136,6 +16461,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -16144,6 +16470,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 33798,
 			"_IFDpointer_Makernote": 756,
@@ -16260,6 +16587,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S7.jpg",
 		"exifJS": {
+			"Aperture": 7.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -16281,6 +16609,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -16289,6 +16618,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9662,
 			"_IFDpointer_Makernote": 768,
@@ -16421,6 +16751,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S600.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.168044077134986,
@@ -16441,6 +16772,7 @@
 			"FocalLength": "9 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -16449,6 +16781,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Landscape",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 19676,
 			"_IFDpointer_Makernote": 756,
@@ -16565,6 +16898,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S500.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.270833333333333,
@@ -16585,6 +16919,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -16593,6 +16928,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 26450,
 			"_IFDpointer_Makernote": 756,
@@ -16710,6 +17046,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S5.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16732,6 +17069,7 @@
 			"FocalLengthIn35mmFilm": "107 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.6",
 			"MeteringMode": "Multi-segment",
@@ -16740,6 +17078,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 45516,
 			"_IFDpointer_Makernote": 716,
@@ -16851,6 +17190,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S3.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.38333333333333336,
@@ -16871,6 +17211,7 @@
 			"FocalLength": "0 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Multi-segment",
@@ -16879,6 +17220,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30258,
 			"_IFDpointer_Makernote": 750,
@@ -17027,6 +17369,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S200.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.4489254686785555,
@@ -17048,6 +17391,7 @@
 			"FocalLengthIn35mmFilm": "108 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -17057,6 +17401,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity and Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10450,
 			"_IFDpointer_Makernote": 780,
@@ -17190,6 +17535,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S20.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.37866666666666665,
@@ -17210,6 +17556,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -17218,6 +17565,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 31508,
 			"_IFDpointer_Makernote": 750,
@@ -17373,6 +17721,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S2.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.48,
@@ -17393,6 +17742,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -17401,6 +17751,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30148,
 			"_IFDpointer_Makernote": 750,
@@ -17552,6 +17903,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S12.jpg",
 		"exifJS": {
+			"Aperture": 7.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -17573,6 +17925,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17581,6 +17934,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38776,
 			"_IFDpointer_Makernote": 768,
@@ -17703,6 +18057,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S100.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.48,
@@ -17723,6 +18078,7 @@
 			"FocalLength": "4.8 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -17731,6 +18087,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30190,
 			"_IFDpointer_Makernote": 756,
@@ -17847,6 +18204,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S10.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -17868,6 +18226,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17876,6 +18235,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 36514,
 			"_IFDpointer_Makernote": 768,
@@ -17996,6 +18356,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S1.jpg",
 		"exifJS": {
+			"Aperture": 2.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.3,
@@ -18016,6 +18377,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -18024,6 +18386,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 27770,
 			"_IFDpointer_Makernote": 750,
@@ -18174,6 +18537,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-P700.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.092592592592593,
@@ -18194,6 +18558,7 @@
 			"FocalLength": "28.4 mm",
 			"FocalLengthIn35mmFilm": "132 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -18202,6 +18567,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32396,
 			"_IFDpointer_Makernote": 756,
@@ -18317,6 +18683,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-P600.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.132231404958677,
@@ -18337,6 +18704,7 @@
 			"FocalLength": "21.3 mm",
 			"FocalLengthIn35mmFilm": "99 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -18345,6 +18713,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33220,
 			"_IFDpointer_Makernote": 750,
@@ -18502,6 +18871,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-P505.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.066666666666666,
@@ -18522,6 +18892,7 @@
 			"FocalLength": "9.5 mm",
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -18530,6 +18901,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32250,
 			"_IFDpointer_Makernote": 756,
@@ -18645,6 +19017,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-N20.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18667,6 +19040,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -18675,6 +19049,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 6866,
 			"_IFDpointer_Makernote": 786,
@@ -18811,6 +19186,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-N10.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18833,6 +19209,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -18841,6 +19218,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 6866,
 			"_IFDpointer_Makernote": 786,
@@ -18962,6 +19340,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-N1.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18984,6 +19363,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -18992,6 +19372,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 6866,
 			"_IFDpointer_Makernote": 786,
@@ -19113,6 +19494,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-M20.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.56,
@@ -19133,6 +19515,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -19141,6 +19524,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32080,
 			"_IFDpointer_Makernote": 750,
@@ -19295,6 +19679,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-M2.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.4666666666666667,
@@ -19315,6 +19700,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -19323,6 +19709,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 29280,
 			"_IFDpointer_Makernote": 750,
@@ -19474,6 +19861,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-M1.jpg",
 		"exifJS": {
+			"Aperture": 2.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.6333333333333333,
@@ -19494,6 +19882,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -19502,6 +19891,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30084,
 			"_IFDpointer_Makernote": 750,
@@ -19652,6 +20042,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-JE10.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19674,6 +20065,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -19682,6 +20074,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7102,
 			"_IFDpointer_Makernote": 788,
@@ -19804,6 +20197,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H5.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -19825,6 +20219,7 @@
 			"FocalLengthIn35mmFilm": "76 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -19833,6 +20228,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10218,
 			"_IFDpointer_Makernote": 768,
@@ -19967,6 +20363,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H30.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.5092592592592595,
@@ -19988,6 +20385,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -19998,6 +20396,7 @@
 			"SensitivityType": "Standard Output Sensitivity and Recommended Exposure Index",
 			"SerialNumber": "0Xw",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11792,
 			"_IFDpointer_Makernote": 810,
@@ -20131,6 +20530,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H20G.jpg",
 		"exifJS": {
+			"Aperture": 8.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.4489254686785555,
@@ -20152,6 +20552,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20162,6 +20563,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "5w",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12438,
 			"_IFDpointer_Makernote": 1330,
@@ -20344,6 +20746,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H15.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.4489254686785555,
@@ -20365,6 +20768,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20373,6 +20777,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10218,
 			"_IFDpointer_Makernote": 768,
@@ -20505,6 +20910,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H10.jpg",
 		"exifJS": {
+			"Aperture": 10.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -20526,6 +20932,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20534,6 +20941,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 37824,
 			"_IFDpointer_Makernote": 768,
@@ -20656,6 +21064,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-G1.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -20677,6 +21086,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -20685,6 +21095,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 9662,
 			"_IFDpointer_Makernote": 768,
@@ -20817,6 +21228,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FS10.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.176040237768633,
@@ -20838,6 +21250,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -20846,6 +21259,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 42968,
 			"_IFDpointer_Makernote": 768,
@@ -20968,6 +21382,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FH25.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -20989,6 +21404,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -20997,6 +21413,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9616,
 			"_IFDpointer_Makernote": 768,
@@ -21128,6 +21545,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FH20.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.176040237768633,
@@ -21149,6 +21567,7 @@
 			"FocalLengthIn35mmFilm": "338 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -21157,6 +21576,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 46942,
 			"_IFDpointer_Makernote": 768,
@@ -21279,6 +21699,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FH100.jpg",
 		"exifJS": {
+			"Aperture": 7.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -21300,6 +21721,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -21308,6 +21730,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 10218,
 			"_IFDpointer_Makernote": 768,
@@ -21440,6 +21863,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FC150.jpg",
 		"exifJS": {
+			"Aperture": 8.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.252898327690572,
@@ -21461,6 +21885,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -21469,6 +21894,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9662,
 			"_IFDpointer_Makernote": 768,
@@ -21601,6 +22027,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FC100.jpg",
 		"exifJS": {
+			"Aperture": 8.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.176040237768633,
@@ -21622,6 +22049,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -21630,6 +22058,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 42976,
 			"_IFDpointer_Makernote": 768,
@@ -21751,6 +22180,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-F1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.793388429752066,
@@ -21772,6 +22202,7 @@
 			"FocalLengthIn35mmFilm": "53 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -21780,6 +22211,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 37070,
 			"_IFDpointer_Makernote": 768,
@@ -21900,6 +22332,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-100.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 5.372586666666667,
@@ -21921,6 +22354,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -21931,6 +22365,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "xaN",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12998,
 			"_IFDpointer_Makernote": 810,
@@ -22078,6 +22513,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-10.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.3074133333333333,
@@ -22099,6 +22535,7 @@
 			"FocalLengthIn35mmFilm": "85 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -22109,6 +22546,7 @@
 			"SensitivityType": "Standard Output Sensitivity",
 			"SerialNumber": "ic9xa",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 12926,
 			"_IFDpointer_Makernote": 810,

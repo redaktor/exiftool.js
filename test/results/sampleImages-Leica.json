@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Leica/Leica_digilux4.3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 0.4,
 			"ColorSpace": "sRGB",
@@ -21,12 +22,14 @@
 			"FocalPlaneXResolution": "635.000000",
 			"FocalPlaneYResolution": "635.000000",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/7",
 			"_IFDpointer_Interop": 924,
 			"_IFDpointer_Makernote": 710,
@@ -138,6 +141,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaX_VARIO.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -156,6 +160,7 @@
 			"FocalLength": "46 mm",
 			"FocalLengthIn35mmFilm": "70 mm",
 			"ISO": 1600,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -165,6 +170,7 @@
 			"SceneCaptureType": "Landscape",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10684,
 			"_IFDpointer_Makernote": 4866,
@@ -278,6 +284,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaX2.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -296,6 +303,7 @@
 			"FocalLength": "24 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 6400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -305,6 +313,7 @@
 			"SceneCaptureType": "Landscape",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 6508,
 			"_IFDpointer_Makernote": 690,
@@ -443,6 +452,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaX1.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -460,6 +470,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -469,6 +480,7 @@
 			"SceneCaptureType": "Landscape",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "2",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 4506,
 			"_IFDpointer_Makernote": 684,
@@ -596,6 +608,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX40.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -617,6 +630,7 @@
 			"FocalLengthIn35mmFilm": "195 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "5.5",
 			"MeteringMode": "Center-weighted average",
@@ -628,6 +642,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 12622,
 			"_IFDpointer_Makernote": 1238,
@@ -850,6 +865,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX4.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -871,6 +887,7 @@
 			"FocalLengthIn35mmFilm": "610 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -882,6 +899,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 10558,
 			"_IFDpointer_Makernote": 746,
@@ -1160,6 +1178,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX30.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -1181,6 +1200,7 @@
 			"FocalLengthIn35mmFilm": "504 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.9",
 			"MeteringMode": "Multi-segment",
@@ -1192,6 +1212,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12492,
 			"_IFDpointer_Makernote": 1158,
@@ -1491,6 +1512,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX3.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -1512,6 +1534,7 @@
 			"FocalLengthIn35mmFilm": "554 mm",
 			"GainControl": "High gain up",
 			"ISO": 1600,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.9",
 			"MeteringMode": "Multi-segment",
@@ -1523,6 +1546,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10832,
 			"_IFDpointer_Makernote": 1144,
@@ -1697,6 +1721,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX20.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -1718,6 +1743,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Multi-segment",
@@ -1728,6 +1754,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11236,
 			"_IFDpointer_Makernote": 1144,
@@ -1900,6 +1927,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX2.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"CompressedBitsPerPixel": 4,
 			"Contrast": "Normal",
@@ -1919,6 +1947,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "High gain up",
 			"ISO": 250,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1928,6 +1957,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"DateTime": "2011:04:23 16:35:46",
 			"Make": "LEICA",
@@ -2046,6 +2076,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX1.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -2067,6 +2098,7 @@
 			"FocalLengthIn35mmFilm": "147 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2077,6 +2109,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7682,
 			"_IFDpointer_Makernote": 916,
@@ -2258,6 +2291,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaS2.jpg",
 		"exifJS": {
+			"Aperture": "9.5",
 			"ApertureValue": "9.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2274,6 +2308,7 @@
 			"Flash": "No Flash",
 			"FocalLength": "70 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000003566061",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
@@ -2284,6 +2319,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/89",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 15294073,
@@ -2417,6 +2453,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaR9-DigitalBackDMR.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"Contrast": "Normal",
 			"DateTimeDigitized": "2005:10:06 13:36:10",
@@ -2429,6 +2466,7 @@
 			"Flash": "Off, No flash function",
 			"FocalLength": "0 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "0000000000000000004C9FF30000011B",
 			"LightSource": "Other",
 			"MaxApertureValue": "4.0",
@@ -2437,6 +2475,7 @@
 			"PixelYDimension": "2576 px h",
 			"Saturation": "Normal",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/750",
 			"ShutterSpeedValue": "1/776",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 584,
@@ -2528,6 +2567,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaR8-DigitalBackDMR.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"Contrast": "Normal",
 			"DateTimeDigitized": "2007:02:17 12:08:47",
@@ -2546,6 +2586,7 @@
 			"MeteringMode": "Spot",
 			"Saturation": "Normal",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 558,
@@ -2704,6 +2745,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM_Monochrom.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"Contrast": "Normal",
@@ -2722,6 +2764,7 @@
 			"FocalLength": "35 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000097",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.4",
@@ -2732,6 +2775,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 852,
@@ -2888,6 +2932,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM9.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"Contrast": "Normal",
@@ -2906,6 +2951,7 @@
 			"FocalLength": "35 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "0000000000000000000000000000031f",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
@@ -2916,6 +2962,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 860,
@@ -3071,6 +3118,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM8.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"Contrast": "Normal",
@@ -3087,6 +3135,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "50 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000390",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
@@ -3097,6 +3146,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/256",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 704,
@@ -3228,6 +3278,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM8.2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "",
 			"Contrast": "Normal",
@@ -3244,6 +3295,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "35 mm",
 			"ISO": 640,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000412",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
@@ -3254,6 +3306,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 724,
@@ -3387,6 +3440,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3404,6 +3458,7 @@
 			"Flash": "No Flash",
 			"FocalLength": "35 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000001517332",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.4",
@@ -3414,6 +3469,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1064",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 10300989,
@@ -3581,6 +3637,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaDigiluxZoom.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 3.2,
 			"ColorSpace": "sRGB",
@@ -3600,12 +3657,14 @@
 			"FocalPlaneXResolution": "2174.000000",
 			"FocalPlaneYResolution": "2174.000000",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/91",
 			"ShutterSpeedValue": "1/91",
 			"_IFDpointer_Interop": 708,
 			"Copyright": "",
@@ -3693,6 +3752,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaDigilux3.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 8,
@@ -3714,6 +3774,7 @@
 			"FocalLengthIn35mmFilm": "76 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -3724,6 +3785,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7936,
 			"_IFDpointer_Makernote": 918,
@@ -3915,6 +3977,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaDigilux2.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
@@ -3938,6 +4001,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -3948,6 +4012,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/400",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -4118,6 +4183,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaDigilux1.jpg",
 		"exifJS": {
+			"Aperture": 6.61,
 			"ApertureValue": "6.5",
 			"CFAPattern": "[Green,Magenta][Yellow,Cyan]",
 			"ColorSpace": "sRGB",
@@ -4136,6 +4202,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "20.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "800 px w",
@@ -4143,6 +4210,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/559",
 			"ShutterSpeedValue": "1/549",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1026,
@@ -4260,6 +4328,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaDigilux.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 8.5,
 			"ColorSpace": "sRGB",
@@ -4279,12 +4348,14 @@
 			"FocalPlaneXResolution": "1786.000000",
 			"FocalPlaneYResolution": "1786.000000",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/194",
 			"ShutterSpeedValue": "1/194",
 			"Copyright": "",
 			"DateTime": "2005:06:19 08:50:43",
@@ -4369,6 +4440,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX6.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -4390,6 +4462,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "Low gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.4",
 			"MeteringMode": "Multi-segment",
@@ -4401,6 +4474,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11196,
 			"_IFDpointer_Makernote": 1224,
@@ -4589,6 +4663,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX5.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -4610,6 +4685,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -4621,6 +4697,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10904,
 			"_IFDpointer_Makernote": 1224,
@@ -4796,6 +4873,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX4.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4817,6 +4895,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Center-weighted average",
@@ -4827,6 +4906,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10268,
 			"_IFDpointer_Makernote": 1132,
@@ -4982,6 +5062,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX3.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5003,6 +5084,7 @@
 			"FocalLengthIn35mmFilm": "136 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -5013,6 +5095,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7658,
 			"_IFDpointer_Makernote": 916,
@@ -5211,6 +5294,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5232,6 +5316,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -5242,6 +5327,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 6652,
 			"_IFDpointer_Makernote": 916,
@@ -5419,6 +5505,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
@@ -5442,6 +5529,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -5452,6 +5540,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -5588,6 +5677,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5609,6 +5699,7 @@
 			"FocalLengthIn35mmFilm": "128 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.4",
 			"MeteringMode": "Multi-segment",
@@ -5620,6 +5711,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 16804,
 			"_IFDpointer_Makernote": 4952,
@@ -5816,6 +5908,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC-LUX3.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -5837,6 +5930,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -5847,6 +5941,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10148,
 			"_IFDpointer_Makernote": 1132,
@@ -5998,6 +6093,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC-LUX2.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -6019,6 +6115,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -6029,6 +6126,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 7672,
 			"_IFDpointer_Makernote": 894,
@@ -6169,6 +6267,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC-LUX1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -6190,6 +6289,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -6200,6 +6300,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 6908,
 			"_IFDpointer_Makernote": 894,

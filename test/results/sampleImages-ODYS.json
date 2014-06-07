@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_SlimX6.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,6 +19,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -26,6 +28,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -110,6 +113,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_Slim6L_Pro.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -126,6 +130,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -134,6 +139,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/81",
 			"ShutterSpeedValue": "1/64",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -218,6 +224,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_SLIM_X5.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -234,6 +241,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -242,6 +250,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1293",
 			"ShutterSpeedValue": "1/1024",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -326,6 +335,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_SLIMX5.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -342,6 +352,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -350,6 +361,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/647",
 			"ShutterSpeedValue": "1/512",
 			"_IFDpointer_Interop": 768,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -434,6 +446,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_SLIM5L_PRO-II.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -450,6 +463,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -458,6 +472,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/323",
 			"ShutterSpeedValue": "1/256",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -543,6 +558,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_SLIM5L.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -559,6 +575,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "c7375f568a77c771ff60498942e3405d",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
@@ -568,6 +585,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Makernote": "YUG",
 			"Copyright": "Copyright 2002",
@@ -651,6 +669,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_SLIM5L-II.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -667,6 +686,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -675,6 +695,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/162",
 			"ShutterSpeedValue": "1/128",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -759,6 +780,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_Pocketcam5200.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -776,6 +798,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "50 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -784,6 +807,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1293",
 			"ShutterSpeedValue": "1/1024",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1198,
@@ -871,6 +895,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_MDV30.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -887,6 +912,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -895,6 +921,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"_IFDpointer_Interop": 1176,
 			"_IFDpointer_Makernote": 694,
@@ -979,6 +1006,7 @@
 	{
 		"img": "sampleImages/ODYS/ODYS_MC-A5.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -995,6 +1023,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -1003,6 +1032,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1293",
 			"ShutterSpeedValue": "1/1024",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 764,

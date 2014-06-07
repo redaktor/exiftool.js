@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Legend/Legend_soshow305.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -17,12 +18,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 68,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/60",
 			"_IFDpointer_Interop": 559,
 			"DateTime": "2003:12:08 01:31:47",
 			"ImageDescription": "Unknown",
@@ -98,6 +101,7 @@
 	{
 		"img": "sampleImages/Legend/LegendV40.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -116,6 +120,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "40 mm",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -124,6 +129,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -209,6 +215,7 @@
 	{
 		"img": "sampleImages/Legend/LegendV35.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"BrightnessValue": 3.241,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -231,6 +238,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "Low gain up",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -240,6 +248,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/64",
 			"SubjectArea": [
 				0,
 				0
@@ -339,6 +348,7 @@
 	{
 		"img": "sampleImages/Legend/LegendV30C.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -354,12 +364,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/404",
 			"UserComment": "",
 			"DateTime": "2004:09:24 22:23:03",
 			"ImageDescription": "Lenovo Digital Still Camera",
@@ -434,6 +446,7 @@
 	{
 		"img": "sampleImages/Legend/LegendV30.jpg",
 		"exifJS": {
+			"Aperture": 2.663,
 			"ApertureValue": "2.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -451,6 +464,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -459,6 +473,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"_IFDpointer_Interop": 1848,
 			"_IFDpointer_Makernote": 804,
@@ -545,6 +560,7 @@
 	{
 		"img": "sampleImages/Legend/LegendV20.jpg",
 		"exifJS": {
+			"Aperture": 2.83,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -556,8 +572,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:01:11 01:20:31",
@@ -623,6 +641,7 @@
 	{
 		"img": "sampleImages/Legend/LegendT30.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -645,6 +664,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 85,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -654,6 +674,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/52",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -777,6 +798,7 @@
 	{
 		"img": "sampleImages/Legend/LegendSoShow530.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 0.9,
@@ -792,12 +814,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "896 px w",
 			"PixelYDimension": "600 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/24",
 			"UserComment": 756,
 			"_IFDpointer_Interop": 884,
 			"_IFDpointer_Makernote": 616,
@@ -878,6 +902,7 @@
 	{
 		"img": "sampleImages/Legend/LegendSOSHOW730.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ApertureValue": "3.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -892,11 +917,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/14",
 			"ShutterSpeedValue": "1/14",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -974,6 +1001,7 @@
 	{
 		"img": "sampleImages/Legend/LegendSOSHOW506.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -989,12 +1017,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/44",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "20:4:04:09 17:47:57",
 			"ImageDescription": "ExifJPEG",
@@ -1070,6 +1100,7 @@
 	{
 		"img": "sampleImages/Legend/LegendLenovoV20C.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -1085,12 +1116,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 53,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/12",
 			"_IFDpointer_Interop": 577,
 			"DateTime": "2002:12:03 17:49:51",
 			"ImageDescription": "Lenovo Digital Still Camera",

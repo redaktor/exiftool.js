@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Google/GoogleNexusS.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 9,
 			"ColorSpace": "sRGB",
@@ -15,10 +16,12 @@
 			"Flash": "No Flash",
 			"FocalLength": "3.4 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"UserComment": "",
 			"DateTime": "2011:02:12 13:30:40",

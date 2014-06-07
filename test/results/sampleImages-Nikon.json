@@ -67,6 +67,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonSUPER_COOLSCAN8000ED.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
@@ -109,10 +110,12 @@
 	{
 		"img": "sampleImages/Nikon/NikonSUPER_COOLSCAN4000ED.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1338 px w",
 			"PixelYDimension": "920 px h",
 			"_IFDpointer_Interop": 314,
@@ -201,7 +204,9 @@
 	{
 		"img": "sampleImages/Nikon/NikonLS-50.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2007:02:25 22:25:45",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "4257 px w",
 			"PixelYDimension": "2703 px h",
 			"_IFDpointer_Makernote": 228,
@@ -247,6 +252,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE995.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -262,12 +268,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/234",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -370,6 +378,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE775.jpg",
 		"exifJS": {
+			"Aperture": 9.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -385,12 +394,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/213",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -489,6 +500,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE7600.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -510,6 +522,7 @@
 			"FocalLengthIn35mmFilm": "61 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -519,6 +532,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/145",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -640,6 +654,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE700.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -655,12 +670,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/135",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -748,6 +765,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE600.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ApertureValue": "11.3",
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
@@ -763,12 +781,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/158",
 			"ShutterSpeedValue": "1/158",
 			"DateTime": "1998:01:01 00:00:00",
 			"Make": "NIKON",
@@ -840,6 +860,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE5100.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -861,6 +882,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "Low gain up",
 			"ISO": 77,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -870,6 +892,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -992,6 +1015,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE4200.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -1013,6 +1037,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 79,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1022,6 +1047,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/837",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -1141,6 +1167,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE4100.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1162,6 +1189,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1171,6 +1199,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/296",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -1293,6 +1322,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE2200.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1314,6 +1344,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -1323,6 +1354,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -1441,6 +1473,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonDf.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1462,6 +1495,7 @@
 			"FocalLength": "50 mm",
 			"FocalLengthIn35mmFilm": "50 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-segment",
@@ -1473,6 +1507,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 90,
 			"SubsecTimeDigitized": 90,
@@ -1825,6 +1860,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD90.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1847,6 +1883,7 @@
 			"FocalLengthIn35mmFilm": "157 mm",
 			"GainControl": "Low gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
@@ -1857,6 +1894,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -2242,6 +2280,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD800E.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2264,6 +2303,7 @@
 			"FocalLengthIn35mmFilm": "100 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -2275,6 +2315,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -2652,6 +2693,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD800.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2674,6 +2716,7 @@
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2685,6 +2728,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 20,
 			"SubsecTimeDigitized": 20,
@@ -3088,6 +3132,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD80.jpg",
 		"exifJS": {
+			"Aperture": 9,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3110,6 +3155,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -3120,6 +3166,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 50,
 			"SubsecTimeDigitized": 50,
@@ -3438,6 +3485,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD7100.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3460,6 +3508,7 @@
 			"FocalLengthIn35mmFilm": "18 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -3471,6 +3520,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 40,
 			"SubsecTimeDigitized": 40,
@@ -3699,6 +3749,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD70s.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3720,6 +3771,7 @@
 			"FocalLength": "38 mm",
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Multi-segment",
@@ -3730,6 +3782,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 80,
 			"SubsecTimeDigitized": 80,
@@ -3951,6 +4004,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD7000.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3973,6 +4027,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -3984,6 +4039,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 20,
 			"SubsecTimeDigitized": 20,
@@ -4392,6 +4448,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD700.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4414,6 +4471,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -4424,6 +4482,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2500",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 58,
 			"SubsecTimeDigitized": 58,
@@ -4757,6 +4816,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD70.jpg",
 		"exifJS": {
+			"Aperture": 9,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4779,6 +4839,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "None",
 			"Gamma": 2.2,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-segment",
@@ -4789,6 +4850,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -5021,6 +5083,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD610.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5043,6 +5106,7 @@
 			"FocalLengthIn35mmFilm": "85 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-segment",
@@ -5054,6 +5118,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 10,
 			"SubsecTimeDigitized": 10,
@@ -5396,6 +5461,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD600.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ApertureValue": "7.1",
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
@@ -5419,6 +5485,7 @@
 			"FocalLengthIn35mmFilm": "120 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -5430,6 +5497,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 8,
@@ -5817,6 +5885,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD60.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5839,6 +5908,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -5849,6 +5919,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 80,
 			"SubsecTimeDigitized": 80,
@@ -6140,6 +6211,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD5300.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"CFAPattern": "truncated data",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6162,6 +6234,7 @@
 			"GainControl": "None",
 			"Gamma": 2.2,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
@@ -6173,6 +6246,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 70,
 			"SubsecTimeDigitized": 70,
@@ -6419,6 +6493,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD5200.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6441,6 +6516,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Multi-segment",
@@ -6452,6 +6528,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "3",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 30,
 			"SubsecTimeDigitized": 30,
@@ -6716,6 +6793,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD5100.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6738,6 +6816,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -6749,6 +6828,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 30,
 			"SubsecTimeDigitized": 30,
@@ -7119,6 +7199,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD5000.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7141,6 +7222,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -7151,6 +7233,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -7509,6 +7592,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD50.jpg",
 		"exifJS": {
+			"Aperture": 10,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7530,6 +7614,7 @@
 			"FocalLength": "35 mm",
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.6",
 			"MeteringMode": "Multi-segment",
@@ -7540,6 +7625,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 40,
 			"SubsecTimeDigitized": 40,
@@ -7762,6 +7848,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD4S.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7784,6 +7871,7 @@
 			"FocalLengthIn35mmFilm": "85 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-segment",
@@ -7795,6 +7883,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 79,
 			"SubsecTimeDigitized": 79,
@@ -8023,6 +8112,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD40X.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8045,6 +8135,7 @@
 			"FocalLengthIn35mmFilm": "165 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.6",
 			"MeteringMode": "Multi-segment",
@@ -8055,6 +8146,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 40,
 			"SubsecTimeDigitized": 40,
@@ -8339,6 +8431,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD40.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8361,6 +8454,7 @@
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "Low gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.6",
 			"MeteringMode": "Multi-segment",
@@ -8371,6 +8465,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 20,
 			"SubsecTimeDigitized": 20,
@@ -8655,6 +8750,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD4.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8677,6 +8773,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "Low gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -8688,6 +8785,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -9059,6 +9157,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3X.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9081,6 +9180,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"Gamma": 2.2,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -9091,6 +9191,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 16,
 			"SubsecTimeDigitized": 16,
@@ -9492,6 +9593,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3S.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9514,6 +9616,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -9524,6 +9627,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 73,
 			"SubsecTimeDigitized": 73,
@@ -9918,6 +10022,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3300.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9940,6 +10045,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -9951,6 +10057,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.3",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 10,
 			"SubsecTimeDigitized": 10,
@@ -10175,6 +10282,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3200.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10197,6 +10305,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -10208,6 +10317,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 10,
 			"SubsecTimeDigitized": 10,
@@ -10552,6 +10662,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3100.jpg",
 		"exifJS": {
+			"Aperture": 9,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10574,6 +10685,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -10584,6 +10696,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 70,
 			"SubsecTimeDigitized": 70,
@@ -10912,6 +11025,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD300S.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10934,6 +11048,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "High gain up",
 			"ISO": 2000,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Day white fluorescent (N 4600 - 5400K)",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -10944,6 +11059,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 47,
 			"SubsecTimeDigitized": 47,
@@ -11345,6 +11461,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3000.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11367,6 +11484,7 @@
 			"FocalLengthIn35mmFilm": "300 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
@@ -11377,6 +11495,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 50,
 			"SubsecTimeDigitized": 50,
@@ -11719,6 +11838,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11740,6 +11860,7 @@
 			"FocalLength": "55 mm",
 			"FocalLengthIn35mmFilm": "82 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -11750,6 +11871,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 77,
 			"SubsecTimeDigitized": 77,
@@ -12136,6 +12258,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD3.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12157,6 +12280,7 @@
 			"FocalLength": "50 mm",
 			"FocalLengthIn35mmFilm": "50 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-segment",
@@ -12167,6 +12291,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 48,
 			"SubsecTimeDigitized": 48,
@@ -12552,6 +12677,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD2Xs.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12575,6 +12701,7 @@
 			"GainControl": "None",
 			"Gamma": 2.2,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -12585,6 +12712,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 8,
 			"SubsecTimeDigitized": 8,
@@ -12865,6 +12993,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD2X.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12887,6 +13016,7 @@
 			"FocalLengthIn35mmFilm": "300 mm",
 			"GainControl": "None",
 			"ISO": 250,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -12897,6 +13027,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 84,
 			"SubsecTimeDigitized": 84,
@@ -13149,6 +13280,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD2Hs.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13171,6 +13303,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "Low gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-segment",
@@ -13181,6 +13314,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 16,
 			"SubsecTimeDigitized": 16,
@@ -13405,6 +13539,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD2H.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"CFAPattern": "[Green,Blue][Red,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13426,6 +13561,7 @@
 			"FocalLength": "200 mm",
 			"FocalLengthIn35mmFilm": "300 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -13437,6 +13573,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/350",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 41,
 			"SubsecTimeDigitized": 41,
@@ -13651,6 +13788,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD200.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"CFAPattern": "[Green,Red][Blue,Green]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13673,6 +13811,7 @@
 			"FocalLengthIn35mmFilm": "157 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -13683,6 +13822,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 41,
 			"SubsecTimeDigitized": 41,
@@ -13948,6 +14088,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD1X.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13962,12 +14103,14 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "105 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2000 px w",
 			"PixelYDimension": "1312 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/10",
 			"SubsecTime": 43,
 			"SubsecTimeDigitized": 43,
 			"SubsecTimeOriginal": 43,
@@ -14130,6 +14273,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD1H.jpg",
 		"exifJS": {
+			"Aperture": 10,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14144,12 +14288,14 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "35 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2000 px w",
 			"PixelYDimension": "1312 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/400",
 			"SubsecTime": 61,
 			"SubsecTimeDigitized": 61,
 			"SubsecTimeOriginal": 61,
@@ -14312,6 +14458,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD100.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"CFAPattern": "[Green,Red][Blue,Green]",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14333,6 +14480,7 @@
 			"FocalLength": "120 mm",
 			"FocalLengthIn35mmFilm": "180 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
@@ -14344,6 +14492,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 20,
 			"SubsecTimeDigitized": 20,
@@ -14561,6 +14710,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonD1.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"CFAPattern": "[Blue,Green][Green,Red]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14575,12 +14725,14 @@
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "78 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2000 px w",
 			"PixelYDimension": "1312 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/125",
 			"SubsecTime": 10,
 			"SubsecTimeDigitized": 10,
 			"SubsecTimeOriginal": 10,
@@ -14729,6 +14881,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixSQ.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -14750,6 +14903,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "High gain down",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -14759,6 +14913,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/304",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -14874,6 +15029,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9500.jpg",
 		"exifJS": {
+			"Aperture": 6.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -14895,6 +15051,7 @@
 			"FocalLengthIn35mmFilm": "383 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14905,6 +15062,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 806,
 			"WhiteBalance": "Auto",
@@ -15072,6 +15230,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9400.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -15092,6 +15251,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -15102,6 +15262,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 756,
 			"WhiteBalance": "Auto",
@@ -15230,6 +15391,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -15250,6 +15412,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -15259,6 +15422,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -15425,6 +15589,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9200.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -15446,6 +15611,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -15456,6 +15622,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -15605,6 +15772,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9100.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -15625,6 +15793,7 @@
 			"FocalLengthIn35mmFilm": "450 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -15635,6 +15804,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 756,
 			"WhiteBalance": "Auto",
@@ -15762,6 +15932,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -15783,6 +15954,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "High gain down",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -15792,6 +15964,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/154",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 31434,
 			"WhiteBalance": "Auto",
@@ -15910,6 +16083,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8200.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -15930,6 +16104,7 @@
 			"FocalLengthIn35mmFilm": "151 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -15939,6 +16114,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 722,
 			"WhiteBalance": "Auto",
@@ -16065,6 +16241,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8100.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -16085,6 +16262,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -16094,6 +16272,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/361",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 752,
 			"WhiteBalance": "Manual",
@@ -16218,6 +16397,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS800c.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -16238,6 +16418,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-spot",
@@ -16248,6 +16429,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 766,
 			"WhiteBalance": "Auto",
@@ -16379,6 +16561,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8000.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -16400,6 +16583,7 @@
 			"FocalLengthIn35mmFilm": "68 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -16409,6 +16593,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 828,
 			"WhiteBalance": "Auto",
@@ -16531,6 +16716,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS80.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -16552,6 +16738,7 @@
 			"FocalLengthIn35mmFilm": "96 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -16561,6 +16748,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/744",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -16685,6 +16873,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8.jpg",
 		"exifJS": {
+			"Aperture": 7.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -16706,6 +16895,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -16715,6 +16905,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/99",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -16836,6 +17027,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS7c.jpg",
 		"exifJS": {
+			"Aperture": 7.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -16857,6 +17049,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -16866,6 +17059,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/136",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -16987,6 +17181,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS710.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -17008,6 +17203,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17016,6 +17212,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33388,
@@ -17134,6 +17331,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS700.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -17155,6 +17353,7 @@
 			"FocalLengthIn35mmFilm": "64 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17164,6 +17363,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/34",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -17287,6 +17487,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS70.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -17308,6 +17509,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -17317,6 +17519,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -17441,6 +17644,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS7.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -17462,6 +17666,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17471,6 +17676,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -17593,6 +17799,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6800.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -17614,6 +17821,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Multi-segment",
@@ -17624,6 +17832,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 58104,
 			"WhiteBalance": "Auto",
@@ -17751,6 +17960,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6700.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -17772,6 +17982,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -17782,6 +17993,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 58104,
 			"WhiteBalance": "Auto",
@@ -17908,6 +18120,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6600.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -17929,6 +18142,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Multi-segment",
@@ -17939,6 +18153,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -18087,6 +18302,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6500.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -18108,6 +18324,7 @@
 			"FocalLengthIn35mmFilm": "94 mm",
 			"GainControl": "High gain up",
 			"ISO": 220,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -18118,6 +18335,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -18260,6 +18478,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6400.jpg",
 		"exifJS": {
+			"Aperture": 6.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -18280,6 +18499,7 @@
 			"FocalLengthIn35mmFilm": "257 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -18289,6 +18509,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -18432,6 +18653,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS640.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -18453,6 +18675,7 @@
 			"FocalLengthIn35mmFilm": "74 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -18462,6 +18685,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 812,
 			"WhiteBalance": "Auto",
@@ -18584,6 +18808,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6300.jpg",
 		"exifJS": {
+			"Aperture": 6.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -18605,6 +18830,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -18615,6 +18841,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -18764,6 +18991,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS630.jpg",
 		"exifJS": {
+			"Aperture": 10,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -18785,6 +19013,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -18794,6 +19023,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/107",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -18918,6 +19148,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6200.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -18938,6 +19169,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -18947,6 +19179,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -19086,6 +19319,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS620.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -19107,6 +19341,7 @@
 			"FocalLengthIn35mmFilm": "59 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -19116,6 +19351,7 @@
 			"SceneCaptureType": "Landscape",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 812,
 			"WhiteBalance": "Auto",
@@ -19238,6 +19474,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6150.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -19257,6 +19494,7 @@
 			"FocalLengthIn35mmFilm": "100 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -19265,6 +19503,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/20",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -19410,6 +19649,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS610c.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -19431,6 +19671,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -19440,6 +19681,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 812,
 			"WhiteBalance": "Auto",
@@ -19562,6 +19804,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6100.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -19581,6 +19824,7 @@
 			"FocalLengthIn35mmFilm": "100 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -19589,6 +19833,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -19725,6 +19970,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS610.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -19746,6 +19992,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -19755,6 +20002,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 812,
 			"WhiteBalance": "Auto",
@@ -19877,6 +20125,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6000.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -19898,6 +20147,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.7",
 			"MeteringMode": "Multi-segment",
@@ -19907,6 +20157,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 7152,
 			"WhiteBalance": "Auto",
@@ -20034,6 +20285,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS600.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -20055,6 +20307,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -20064,6 +20317,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -20185,6 +20439,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS60.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -20206,6 +20461,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -20215,6 +20471,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/646",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -20339,6 +20596,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6.jpg",
 		"exifJS": {
+			"Aperture": 8.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -20360,6 +20618,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -20369,6 +20628,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/87",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -20490,6 +20750,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS570.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -20511,6 +20772,7 @@
 			"FocalLengthIn35mmFilm": "46 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -20520,6 +20782,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -20658,6 +20921,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS560.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -20679,6 +20943,7 @@
 			"FocalLengthIn35mmFilm": "62 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -20688,6 +20953,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/556",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -20812,6 +21078,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS550.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -20833,6 +21100,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "High gain up",
 			"ISO": 229,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -20842,6 +21110,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -20967,6 +21236,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS52c.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -20988,6 +21258,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20997,6 +21268,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -21119,6 +21391,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS5200.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -21139,6 +21412,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -21149,6 +21423,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1250",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -21294,6 +21569,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS520.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -21315,6 +21591,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -21324,6 +21601,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.3",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -21464,6 +21742,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS52.jpg",
 		"exifJS": {
+			"Aperture": 6.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -21485,6 +21764,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -21494,6 +21774,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -21615,6 +21896,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS51c.jpg",
 		"exifJS": {
+			"Aperture": 6.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -21636,6 +21918,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -21645,6 +21928,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -21766,6 +22050,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS5100.jpg",
 		"exifJS": {
+			"Aperture": 7.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -21787,6 +22072,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -21796,6 +22082,7 @@
 			"SceneCaptureType": "Landscape",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 828,
 			"WhiteBalance": "Auto",
@@ -21918,6 +22205,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS510.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -21939,6 +22227,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -21948,6 +22237,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -22071,6 +22361,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS51.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -22092,6 +22383,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -22101,6 +22393,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.6",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -22222,6 +22515,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS50c.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -22243,6 +22537,7 @@
 			"FocalLengthIn35mmFilm": "114 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -22252,6 +22547,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -22374,6 +22670,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS500.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -22395,6 +22692,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -22404,6 +22702,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/232",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -22525,6 +22824,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS50.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -22546,6 +22846,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -22555,6 +22856,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -22676,6 +22978,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS5.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -22697,6 +23000,7 @@
 			"FocalLengthIn35mmFilm": "86 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -22706,6 +23010,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -22827,6 +23132,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4400.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -22847,6 +23153,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -22857,6 +23164,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -22999,6 +23307,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2012:12:12 18:41:23",
@@ -23013,12 +23322,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3456 px w",
 			"PixelYDimension": "4608 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": [
 				65,
 				83,
@@ -23150,6 +23461,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4200.jpg",
 		"exifJS": {
+			"Aperture": 6.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -23170,6 +23482,7 @@
 			"FocalLengthIn35mmFilm": "81 mm",
 			"GainControl": "High gain up",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -23178,6 +23491,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -23316,6 +23630,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4150.jpg",
 		"exifJS": {
+			"Aperture": 6.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -23335,6 +23650,7 @@
 			"FocalLengthIn35mmFilm": "130 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -23343,6 +23659,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -23488,6 +23805,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4100.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -23507,6 +23825,7 @@
 			"FocalLengthIn35mmFilm": "66 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -23515,6 +23834,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/10",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -23651,6 +23971,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4000.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -23672,6 +23993,7 @@
 			"FocalLengthIn35mmFilm": "92 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -23681,6 +24003,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -23819,6 +24142,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -23840,6 +24164,7 @@
 			"FocalLengthIn35mmFilm": "53 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -23849,6 +24174,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/460",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -23970,6 +24296,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3600.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -23991,6 +24318,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.7",
 			"MeteringMode": "Multi-segment",
@@ -24001,6 +24329,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 58104,
 			"WhiteBalance": "Auto",
@@ -24127,6 +24456,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3500.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -24147,6 +24477,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -24157,6 +24488,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 734,
 			"WhiteBalance": "Auto",
@@ -24281,6 +24613,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3300.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -24301,6 +24634,7 @@
 			"FocalLengthIn35mmFilm": "30 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -24310,6 +24644,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -24451,6 +24786,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3200.jpg",
 		"exifJS": {
+			"Aperture": 6.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -24472,6 +24808,7 @@
 			"FocalLengthIn35mmFilm": "156 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -24481,6 +24818,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -24619,6 +24957,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3100.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -24638,6 +24977,7 @@
 			"FocalLengthIn35mmFilm": "86 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -24646,6 +24986,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/13",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -24783,6 +25124,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS31.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -24803,6 +25145,7 @@
 			"FocalLengthIn35mmFilm": "87 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -24813,6 +25156,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 732,
 			"WhiteBalance": "Auto",
@@ -24939,6 +25283,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3000.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -24960,6 +25305,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -24969,6 +25315,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -25107,6 +25454,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS30.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -25128,6 +25476,7 @@
 			"FocalLengthIn35mmFilm": "29 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -25138,6 +25487,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 758,
 			"WhiteBalance": "Auto",
@@ -25261,6 +25611,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3.jpg",
 		"exifJS": {
+			"Aperture": 8.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -25282,6 +25633,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -25291,6 +25643,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -25412,6 +25765,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2800.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -25433,6 +25787,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -25443,6 +25798,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 62286,
 			"WhiteBalance": "Auto",
@@ -25571,6 +25927,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2700.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -25591,6 +25948,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -25600,6 +25958,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -25740,6 +26099,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2600.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -25760,6 +26120,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -25768,6 +26129,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -25905,6 +26267,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2500.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -25925,6 +26288,7 @@
 			"FocalLengthIn35mmFilm": "108 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -25934,6 +26298,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -26071,6 +26436,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS230.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -26092,6 +26458,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -26101,6 +26468,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/797",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -26224,6 +26592,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS225.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -26245,6 +26614,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 113,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -26254,6 +26624,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/232",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -26377,6 +26748,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS220.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -26398,6 +26770,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -26407,6 +26780,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -26531,6 +26905,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS210.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -26552,6 +26927,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -26561,6 +26937,7 @@
 			"SceneCaptureType": "Landscape",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/758",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -26684,6 +27061,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS203.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -26705,6 +27083,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 113,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -26714,6 +27093,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -26837,6 +27217,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS200.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -26858,6 +27239,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -26867,6 +27249,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/87",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -26988,6 +27371,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2.jpg",
 		"exifJS": {
+			"Aperture": 11.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -27009,6 +27393,7 @@
 			"FocalLengthIn35mmFilm": "61 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -27018,6 +27403,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/78",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -27139,6 +27525,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1200pj.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -27159,6 +27546,7 @@
 			"FocalLengthIn35mmFilm": "83 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -27168,6 +27556,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 744,
 			"WhiteBalance": "Auto",
@@ -27297,6 +27686,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1100pj.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -27318,6 +27708,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -27327,6 +27718,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/472",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -27451,6 +27843,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1000pj.jpg",
 		"exifJS": {
+			"Aperture": 7.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -27472,6 +27865,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -27481,6 +27875,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/153",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -27605,6 +28000,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS100.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -27626,6 +28022,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -27636,6 +28033,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 794,
 			"WhiteBalance": "Auto",
@@ -27765,6 +28163,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS10.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -27786,6 +28185,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -27795,6 +28195,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/386",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -27916,6 +28317,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -27937,6 +28339,7 @@
 			"FocalLengthIn35mmFilm": "53 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -27946,6 +28349,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/278",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -28067,6 +28471,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS02.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -28088,6 +28493,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -28098,6 +28504,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 60236,
 			"WhiteBalance": "Auto",
@@ -28229,6 +28636,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS01.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -28249,6 +28657,7 @@
 			"FocalLengthIn35mmFilm": "56 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -28258,6 +28667,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 720,
 			"WhiteBalance": "Auto",
@@ -28378,6 +28788,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP90.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -28399,6 +28810,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -28408,6 +28820,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1062",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -28535,6 +28948,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP80.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -28556,6 +28970,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -28565,6 +28980,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -28691,6 +29107,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7800.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -28712,6 +29129,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -28722,6 +29140,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 7746,
 			"WhiteBalance": "Auto",
@@ -28932,6 +29351,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7700.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -28953,6 +29373,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -28963,6 +29384,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 852,
 			"WhiteBalance": "Manual",
@@ -29166,6 +29588,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7100.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -29187,6 +29610,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -29197,6 +29621,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 794,
 			"WhiteBalance": "Auto",
@@ -29356,6 +29781,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7000.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -29377,6 +29803,7 @@
 			"FocalLengthIn35mmFilm": "200 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -29386,6 +29813,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/614",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -29538,6 +29966,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP6000.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -29559,6 +29988,7 @@
 			"FocalLengthIn35mmFilm": "85 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -29568,6 +29998,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 792,
 			"WhiteBalance": "Manual",
@@ -29751,6 +30182,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP600.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -29772,6 +30204,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -29782,6 +30215,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 7758,
 			"WhiteBalance": "Auto",
@@ -29956,6 +30390,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP60.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -29977,6 +30412,7 @@
 			"FocalLengthIn35mmFilm": "58 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -29985,6 +30421,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45782,
@@ -30105,6 +30542,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP520.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -30126,6 +30564,7 @@
 			"FocalLengthIn35mmFilm": "1000 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -30136,6 +30575,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -30324,6 +30764,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP5100.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -30345,6 +30786,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -30354,6 +30796,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/651",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -30491,6 +30934,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP510.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -30512,6 +30956,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -30522,6 +30967,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1600",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -30715,6 +31161,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP5000.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -30736,6 +31183,7 @@
 			"FocalLengthIn35mmFilm": "48 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -30745,6 +31193,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -30880,6 +31329,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP500.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -30901,6 +31351,7 @@
 			"FocalLengthIn35mmFilm": "810 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -30911,6 +31362,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 794,
 			"WhiteBalance": "Auto",
@@ -31044,6 +31496,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP50.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -31065,6 +31518,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -31074,6 +31528,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/219",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -31200,6 +31655,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP4.jpg",
 		"exifJS": {
+			"Aperture": 6.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -31221,6 +31677,7 @@
 			"FocalLengthIn35mmFilm": "126 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -31230,6 +31687,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/144",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -31349,6 +31807,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP340.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -31370,6 +31829,7 @@
 			"FocalLengthIn35mmFilm": "67 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -31380,6 +31840,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 7778,
 			"WhiteBalance": "Auto",
@@ -31554,6 +32015,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP330.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -31575,6 +32037,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -31585,6 +32048,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 852,
 			"WhiteBalance": "Auto",
@@ -31758,6 +32222,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP310.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -31778,6 +32243,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -31787,6 +32253,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 724,
 			"WhiteBalance": "Auto",
@@ -31945,6 +32412,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -31966,6 +32434,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "Low gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -31976,6 +32445,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 840,
 			"WhiteBalance": "Auto",
@@ -32102,6 +32572,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP3.jpg",
 		"exifJS": {
+			"Aperture": 6.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -32123,6 +32594,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -32132,6 +32604,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/296",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -32251,6 +32724,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP2.jpg",
 		"exifJS": {
+			"Aperture": 6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -32272,6 +32746,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -32281,6 +32756,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/241",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -32402,6 +32878,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP100.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -32423,6 +32900,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -32432,6 +32910,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/520",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -32559,6 +33038,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP1.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -32580,6 +33060,7 @@
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -32589,6 +33070,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/196",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -32710,6 +33192,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL830.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -32731,6 +33214,7 @@
 			"FocalLengthIn35mmFilm": "207 mm",
 			"GainControl": "None",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -32741,6 +33225,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/5",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 794,
 			"WhiteBalance": "Auto",
@@ -32866,6 +33351,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL820.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -32887,6 +33373,7 @@
 			"FocalLengthIn35mmFilm": "668 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -32897,6 +33384,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 794,
 			"WhiteBalance": "Auto",
@@ -33028,6 +33516,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL810.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -33048,6 +33537,7 @@
 			"FocalLengthIn35mmFilm": "154 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -33057,6 +33547,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 722,
 			"WhiteBalance": "Manual",
@@ -33178,6 +33669,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL620.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -33199,6 +33691,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -33208,6 +33701,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
+			"ShutterSpeed": "1/5",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -33355,6 +33849,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL610.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -33375,6 +33870,7 @@
 			"FocalLengthIn35mmFilm": "191 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -33385,6 +33881,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -33530,6 +34027,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL6.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -33551,6 +34049,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "Low gain up",
 			"ISO": 58,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -33560,6 +34059,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -33681,6 +34181,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL5.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -33702,6 +34203,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 79,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -33711,6 +34213,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/967",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -33830,6 +34333,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL4.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -33846,6 +34350,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -33853,6 +34358,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "2",
 			"_IFDpointer_Makernote": 762,
 			"Copyright": "Copyright 2006",
 			"DateTime": "2006:04:07 12:51:51",
@@ -33968,6 +34474,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL330.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -33989,6 +34496,7 @@
 			"FocalLengthIn35mmFilm": "41 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -33999,6 +34507,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 60238,
 			"WhiteBalance": "Auto",
@@ -34122,6 +34631,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL320.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -34143,6 +34653,7 @@
 			"FocalLengthIn35mmFilm": "23 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -34153,6 +34664,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1500",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 760,
 			"WhiteBalance": "Auto",
@@ -34273,6 +34785,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL310.jpg",
 		"exifJS": {
+			"Aperture": 8.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -34294,6 +34807,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -34304,6 +34818,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 794,
 			"WhiteBalance": "Auto",
@@ -34427,6 +34942,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL30.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -34448,6 +34964,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -34458,6 +34975,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 58102,
 			"WhiteBalance": "Auto",
@@ -34581,6 +35099,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL3.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -34602,6 +35121,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -34611,6 +35131,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -34732,6 +35253,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL28.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -34752,6 +35274,7 @@
 			"FocalLengthIn35mmFilm": "29 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -34762,6 +35285,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 732,
 			"WhiteBalance": "Auto",
@@ -34888,6 +35412,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL27.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -34909,6 +35434,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -34919,6 +35445,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 758,
 			"WhiteBalance": "Auto",
@@ -35039,6 +35566,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL26.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -35059,6 +35587,7 @@
 			"FocalLengthIn35mmFilm": "76 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -35068,6 +35597,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 720,
 			"WhiteBalance": "Manual",
@@ -35189,6 +35719,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL25.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -35210,6 +35741,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -35220,6 +35752,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 758,
 			"WhiteBalance": "Auto",
@@ -35339,6 +35872,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL24.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -35360,6 +35894,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -35369,6 +35904,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -35509,6 +36045,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL23.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -35529,6 +36066,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -35539,6 +36077,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 736,
 			"WhiteBalance": "Auto",
@@ -35659,6 +36198,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL22.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -35680,6 +36220,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -35689,6 +36230,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -35829,6 +36371,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL21.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -35850,6 +36393,7 @@
 			"FocalLengthIn35mmFilm": "41 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -35859,6 +36403,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -35999,6 +36544,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL20.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -36020,6 +36566,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -36029,6 +36576,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/239",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -36169,6 +36717,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL2.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -36190,6 +36739,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 166,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -36199,6 +36749,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/4",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -36321,6 +36872,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL19.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -36342,6 +36894,7 @@
 			"FocalLengthIn35mmFilm": "41 mm",
 			"GainControl": "High gain up",
 			"ISO": 766,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -36351,6 +36904,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -36491,6 +37045,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL18.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -36512,6 +37067,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -36521,6 +37077,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/323",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -36660,6 +37217,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL16.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -36681,6 +37239,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -36690,6 +37249,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.8",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -36830,6 +37390,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL15.jpg",
 		"exifJS": {
+			"Aperture": 3.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -36851,6 +37412,7 @@
 			"FocalLengthIn35mmFilm": "68 mm",
 			"GainControl": "Low gain up",
 			"ISO": 104,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -36860,6 +37422,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -36998,6 +37561,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL14.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -37019,6 +37583,7 @@
 			"FocalLengthIn35mmFilm": "114 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -37028,6 +37593,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/66",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Manual",
@@ -37149,6 +37715,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL120.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -37169,6 +37736,7 @@
 			"FocalLengthIn35mmFilm": "525 mm",
 			"GainControl": "High gain down",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -37179,6 +37747,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/65",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 756,
 			"WhiteBalance": "Auto",
@@ -37300,6 +37869,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL12.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -37321,6 +37891,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.3",
 			"MeteringMode": "Multi-segment",
@@ -37330,6 +37901,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -37452,6 +38024,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL110.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -37473,6 +38046,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -37482,6 +38056,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/620",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 782,
 			"WhiteBalance": "Auto",
@@ -37606,6 +38181,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL11.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -37627,6 +38203,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -37637,6 +38214,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -37775,6 +38353,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL100.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -37796,6 +38375,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -37805,6 +38385,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/244",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 780,
 			"WhiteBalance": "Auto",
@@ -37928,6 +38509,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL10.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -37949,6 +38531,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -37959,6 +38542,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/110",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				0,
@@ -38097,6 +38681,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL1.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -38118,6 +38703,7 @@
 			"FocalLengthIn35mmFilm": "58 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -38127,6 +38713,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/384",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -38245,6 +38832,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixAW110.jpg",
 		"exifJS": {
+			"Aperture": 9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -38266,6 +38854,7 @@
 			"FocalLengthIn35mmFilm": "91 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -38276,6 +38865,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": 806,
 			"WhiteBalance": "Auto",
@@ -38441,6 +39031,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixAW100s.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -38462,6 +39053,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -38472,6 +39064,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 806,
 			"WhiteBalance": "Auto",
@@ -38635,6 +39228,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixAW100.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -38655,6 +39249,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "High gain down",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -38664,6 +39259,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1250",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 744,
 			"WhiteBalance": "Auto",
@@ -38819,6 +39415,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixA.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -38841,6 +39438,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -38852,6 +39450,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 50,
 			"SubsecTimeDigitized": 50,
@@ -39148,6 +39747,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix995.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -39163,12 +39763,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/22",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -39271,6 +39873,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix990.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -39286,12 +39889,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/16",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -39386,6 +39991,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix950.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -39401,12 +40007,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.8 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/39",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -39493,6 +40101,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix900.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -39506,10 +40115,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.3",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/91",
 			"_IFDpointer_Makernote": 674,
 			"DateTime": "0000:00:00 00:00:00",
 			"ImageDescription": "",
@@ -39582,6 +40193,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix885.jpg",
 		"exifJS": {
+			"Aperture": 8.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -39597,12 +40209,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/161",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -39705,6 +40319,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix8800.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 8,
@@ -39726,6 +40341,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -39735,6 +40351,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -39867,6 +40484,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix880.jpg",
 		"exifJS": {
+			"Aperture": 10.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -39882,12 +40500,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "17.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/4",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -39984,6 +40604,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix8700.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -40005,6 +40626,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -40014,6 +40636,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/302",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -40131,6 +40754,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix8400.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 8,
@@ -40152,6 +40776,7 @@
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -40161,6 +40786,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/360",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -40293,6 +40919,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix800.jpg",
 		"exifJS": {
+			"Aperture": 9.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -40308,12 +40935,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/399",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -40401,6 +41030,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix7900.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -40422,6 +41052,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -40431,6 +41062,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/332",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -40552,6 +41184,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5900.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -40573,6 +41206,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -40582,6 +41216,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/350",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -40703,6 +41338,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5700.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -40724,6 +41360,7 @@
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -40733,6 +41370,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/303",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -40848,6 +41486,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5600.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -40869,6 +41508,7 @@
 			"FocalLengthIn35mmFilm": "50 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -40878,6 +41518,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/293",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -40999,6 +41640,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5400.jpg",
 		"exifJS": {
+			"Aperture": 7.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -41020,6 +41662,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -41029,6 +41672,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/168",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 1795,
 			"WhiteBalance": "Auto",
@@ -41144,6 +41788,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5200.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -41165,6 +41810,7 @@
 			"FocalLengthIn35mmFilm": "61 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -41174,6 +41820,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/136",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 810,
 			"WhiteBalance": "Auto",
@@ -41292,6 +41939,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5000.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -41307,12 +41955,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.1 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/283",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -41415,6 +42065,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4800.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -41436,6 +42087,7 @@
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -41445,6 +42097,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/521",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -41566,6 +42219,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4600.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -41587,6 +42241,7 @@
 			"FocalLengthIn35mmFilm": "50 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -41596,6 +42251,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/334",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -41717,6 +42373,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4500.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -41738,6 +42395,7 @@
 			"FocalLengthIn35mmFilm": "60 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -41747,6 +42405,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/265",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -41862,6 +42521,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4300.jpg",
 		"exifJS": {
+			"Aperture": 8.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -41883,6 +42543,7 @@
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -41892,6 +42553,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/207",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -42007,6 +42669,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3700.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -42028,6 +42691,7 @@
 			"FocalLengthIn35mmFilm": "53 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -42037,6 +42701,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/435",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -42154,6 +42819,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3500.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -42175,6 +42841,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -42184,6 +42851,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -42299,6 +42967,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3200.jpg",
 		"exifJS": {
+			"Aperture": 6.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -42320,6 +42989,7 @@
 			"FocalLengthIn35mmFilm": "56 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -42329,6 +42999,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/145",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -42446,6 +43117,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3100.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -42467,6 +43139,7 @@
 			"FocalLengthIn35mmFilm": "60 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -42476,6 +43149,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/820",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -42591,6 +43265,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix2500.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -42606,12 +43281,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/519",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -42714,6 +43391,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix2100.jpg",
 		"exifJS": {
+			"Aperture": 6.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -42735,6 +43413,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -42744,6 +43423,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/214",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 798,
 			"WhiteBalance": "Auto",
@@ -42859,6 +43539,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix2000.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -42880,6 +43561,7 @@
 			"FocalLengthIn35mmFilm": "53 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -42889,6 +43571,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/378",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 23142,
@@ -42995,10 +43678,12 @@
 	{
 		"img": "sampleImages/Nikon/NikonCOOLSCAN_VED.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3827 px w",
 			"PixelYDimension": "2565 px h",
 			"_IFDpointer_Makernote": 306,
@@ -43084,10 +43769,12 @@
 	{
 		"img": "sampleImages/Nikon/NikonCOOLSCAN_IV_ED.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2394 px w",
 			"PixelYDimension": "1591 px h",
 			"_IFDpointer_Makernote": 296,
@@ -43169,6 +43856,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1V2.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -43191,6 +43879,7 @@
 			"FocalLengthIn35mmFilm": "193 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LensModel": "1 NIKKOR VR 30-110mm f/3.8-5.6",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
@@ -43203,6 +43892,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 66,
 			"SubsecTimeDigitized": 66,
@@ -43409,6 +44099,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1V1.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -43431,6 +44122,7 @@
 			"GainControl": "None",
 			"Gamma": 2.2,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensModel": "1 NIKKOR VR 10-30mm f/3.5-5.6",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
@@ -43442,6 +44134,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -43640,6 +44333,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1S1.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -43662,6 +44356,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensModel": "1 NIKKOR 11-27.5mm f/3.5-5.6",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.7",
@@ -43674,6 +44369,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 65,
 			"SubsecTimeDigitized": 65,
@@ -43873,6 +44569,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1J3.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -43895,6 +44592,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LensModel": "1 NIKKOR VR 10-30mm f/3.5-5.6",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
@@ -43907,6 +44605,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 46,
 			"SubsecTimeDigitized": 46,
@@ -44106,6 +44805,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1J2.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"CFAPattern": "truncated data",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -44129,6 +44829,7 @@
 			"GainControl": "None",
 			"Gamma": 2.2,
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensModel": "1 NIKKOR VR 30-110mm f/3.8-5.6",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.7",
@@ -44141,6 +44842,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -44348,6 +45050,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1J1.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"CFAPattern": "[Red,Green][Green,Blue]",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -44370,6 +45073,7 @@
 			"GainControl": "Low gain up",
 			"Gamma": 2.2,
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Multi-segment",
@@ -44380,6 +45084,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 0,
 			"SubsecTimeDigitized": 0,
@@ -44578,6 +45283,7 @@
 	{
 		"img": "sampleImages/Nikon/Nikon1AW1.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -44600,6 +45306,7 @@
 			"FocalLengthIn35mmFilm": "40 mm",
 			"GainControl": "None",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LensModel": "1 NIKKOR AW 11-27.5mm f/3.5-5.6",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
@@ -44612,6 +45319,7 @@
 			"SensingMethod": "One-chip color area",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 11,
 			"SubsecTimeDigitized": 11,

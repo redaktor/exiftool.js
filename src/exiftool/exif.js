@@ -681,6 +681,17 @@ exports.ref = {
 		if (typeof type !== 'string')  type = '';
 		return (typeof n === 'number') ? {value:n.toString().concat(' ',units,' ',type), _val:n} : {value:n, _val:n};
 	},
+	lv: function(aperture, shutter, iso){
+		var check = new RegExp(/([+-]?(?=\d|\.\d)\d*(\.\d*)?([Ee]([+-]?\d+))?)/);
+		if (check.test(aperture) && check.test(shutter) && check.test(iso)){
+			var a = (typeof aperture === 'number') ? aperture : parseInt(aperture);
+			var b = (typeof shutter === 'number') ? shutter : parseInt(shutter);
+			var c = (typeof iso === 'number') ? iso : parseInt(iso);
+			return (2*Math.log(a) - Math.log(b) - Math.log(c/100)) / Math.log(2);
+		} 
+		return false;
+		
+	},
 	printLensInfo: function(arr){
 		if (arr instanceof Array && arr.length>3 && typeof arr[0] === 'number'){
 			var lStr = arr[0].toString();
@@ -1330,4 +1341,426 @@ exports.ref = {
 	GPSDestBearingRef: { M: 'Magnetic North', T: 'True North' },
 	GPSDestDistanceRef: { K: 'Kilometers', M: 'Miles', N: 'Nautical Miles' },
 	GPSDifferential: { 0: 'No Correction', 1: 'Differential Corrected' }
+}
+
+exports.postFn = function(res){
+	if (typeof res !== 'object' || res === {}) return {};
+	// "Composite Tags"
+	var composite = {
+		
+		ImageSize: function(){
+			var w = ('ImageWidth' in res) ? res.ImageWidth : (('PixelXDimension' in res) ? res.PixelXDimension : 'n/a');
+			var h = ('ImageHeight' in res) ? res.ImageHeight : (('PixelYDimension' in res) ? res.PixelYDimension : 'n/a');
+			// TODO use PixelXDimension/Height only for Canon and Phase One TIFF-base RAW images /^(CR2|Canon 1D RAW|IIQ|EIP)$/
+			if (w!=='n/a' && h!=='n/a') return w+'x'+h;
+			return false;
+		},
+		ShutterSpeed: function(){
+			var vals = ['ExposureTime', 'ShutterSpeedValue', 'BulbDuration'];
+			return (vals[2] in res && res[vals[2]]>0) ? res[vals[2]] : ((vals[0] in res) ? res[vals[0]] : res[vals[1]]);
+		},
+		Aperture: function(){
+			return ('FNumber' in res) ? res.FNumber : (('ApertureValue' in res) ? res.ApertureValue : 'n/a');
+		},
+		LightValue: function(){
+			var vals = ['Aperture', 'ShutterSpeed', 'ISO'];
+			if (vals[0] in res && vals[1] in res && vals[2] in res){ 
+				return exports.ref.lv(res[vals[0]], res[vals[1]], res[vals[2]]);
+			}
+			return false;
+		},
+		/*
+		_: function(){
+			
+		},
+		_: function(){
+			
+		},
+		*/
+	}
+	var compositeRes = {};
+	for ( var key in composite ){
+		compositeRes[key] = composite[key]();
+	}
+	return compositeRes;
+	/*
+		FocalLength35efl: { #26/PH
+			Description: 'Focal Length',
+			Notes: 'this value may be incorrect if the image has been resized',
+			Groups: { 2: 'Camera' },
+			Require: {
+				0: 'FocalLength',
+			},
+			Desire: {
+				1: 'ScaleFactor35efl',
+			},
+			ValueConv: 'ToFloat(@val); ($val[0] || 0) * ($val[1] || 1)',
+			PrintConv: '$val[1] ? sprintf("%.1f mm (35 mm equivalent: %.1f mm)", $val[0], $val) : sprintf("%.1f mm", $val)',
+		},
+		ScaleFactor35efl: { #26/PH
+			Description: 'Scale Factor To 35 mm Equivalent',
+			Notes: q{
+				this value and any derived values may be incorrect if the image has been
+				resized
+			},
+			Groups: { 2: 'Camera' },
+			Desire: {
+				0: 'FocalLength',
+				1: 'FocalLengthIn35mmFormat',
+				2: 'Composite:DigitalZoom',
+				3: 'FocalPlaneDiagonal',
+				4: 'SensorSize',
+				5: 'FocalPlaneXSize',
+				6: 'FocalPlaneYSize',
+				7: 'FocalPlaneResolutionUnit',
+				8: 'FocalPlaneXResolution',
+				9: 'FocalPlaneYResolution',
+			   10: 'PixelXDimension',
+			   11: 'PixelYDimension',
+			   12: 'CanonImageWidth',
+			   13: 'CanonImageHeight',
+			   14: 'ImageWidth',
+			   15: 'ImageHeight',
+			},
+			ValueConv: 'Image::ExifTool::Exif::CalcScaleFactor35efl($self, @val)',
+			PrintConv: 'sprintf("%.1f", $val)',
+		},
+		CircleOfConfusion: {
+			Notes: q{
+				calculated as D/1440, where D is the focal plane diagonal in mm.  This value
+				may be incorrect if the image has been resized
+			},
+			Groups: { 2: 'Camera' },
+			Require: 'ScaleFactor35efl',
+			ValueConv: 'sqrt(24*24+36*36) / ($val * 1440)',
+			PrintConv: 'sprintf("%.3f mm",$val)',
+		},
+		HyperfocalDistance: {
+			Notes: 'this value may be incorrect if the image has been resized',
+			Groups: { 2: 'Camera' },
+			Require: {
+				0: 'FocalLength',
+				1: 'Aperture',
+				2: 'CircleOfConfusion',
+			},
+			ValueConv: q{
+				ToFloat(@val);
+				return 'inf' unless $val[1] and $val[2];
+				return $val[0] * $val[0] / ($val[1] * $val[2] * 1000);
+			},
+			PrintConv: 'sprintf("%.2f m", $val)',
+		},
+		DOF: {
+			Description: 'Depth Of Field',
+			Notes: 'this value may be incorrect if the image has been resized',
+			Require: {
+				0: 'FocalLength',
+				1: 'Aperture',
+				2: 'CircleOfConfusion',
+			},
+			Desire: {
+				3: 'FocusDistance',   # focus distance in metres (0 is infinity)
+				4: 'SubjectDistance',
+				5: 'ObjectDistance',
+			},
+			ValueConv: q{
+				ToFloat(@val);
+				my ($d, $f) = ($val[3], $val[0]);
+				if (defined $d) {
+					$d or $d = 1e10;    # (use large number for infinity)
+				} else {
+					$d = $val[4] || $val[5];
+					return undef unless defined $d;
+				}
+				return 0 unless $f and $val[2];
+				my $t = $val[1] * $val[2] * ($d * 1000 - $f) / ($f * $f);
+				my @v = ($d / (1 + $t), $d / (1 - $t));
+				$v[1] < 0 and $v[1] = 0; # 0 means 'inf'
+				return join(' ',@v);
+			},
+			PrintConv: q{
+				$val =~ tr/,/./;    # in case locale is whacky
+				my @v = split ' ', $val;
+				$v[1] or return sprintf("inf (%.2f m - inf)", $v[0]);
+				my $dof = $v[1] - $v[0];
+				my $fmt = ($dof>0 and $dof<0.02) ? "%.3f" : "%.2f";
+				return sprintf("$fmt m ($fmt - $fmt)",$dof,$v[0],$v[1]);
+			},
+		},
+		FOV: {
+			Description: 'Field Of View',
+			Notes: q{
+				calculated for the long image dimension.  This value may be incorrect for
+				fisheye lenses, or if the image has been resized
+			},
+			Require: {
+				0: 'FocalLength',
+				1: 'ScaleFactor35efl',
+			},
+			Desire: {
+				2: 'FocusDistance', # (multiply by 1000 to convert to mm)
+			},
+			# ref http://www.bobatkins.com/photography/technical/field_of_view.html
+			# (calculations below apply to rectilinear lenses only, not fisheye)
+			ValueConv: q{
+				ToFloat(@val);
+				return undef unless $val[0] and $val[1];
+				my $corr = 1;
+				if ($val[2]) {
+					my $d = 1000 * $val[2] - $val[0];
+					$corr += $val[0]/$d if $d > 0;
+				}
+				my $fd2 = atan2(36, 2*$val[0]*$val[1]*$corr);
+				my @fov = ( $fd2 * 360 / 3.14159 );
+				if ($val[2] and $val[2] > 0 and $val[2] < 10000) {
+					push @fov, 2 * $val[2] * sin($fd2) / cos($fd2);
+				}
+				return join(' ', @fov);
+			},
+			PrintConv: q{
+				my @v = split(' ',$val);
+				my $str = sprintf("%.1f deg", $v[0]);
+				$str .= sprintf(" (%.2f m)", $v[1]) if $v[1];
+				return $str;
+			},
+		},
+		# generate DateTimeOriginal from Date and Time Created if not extracted already
+		DateTimeOriginal: {
+			Condition: 'not defined $$self{VALUE}{DateTimeOriginal}',
+			Description: 'Date/Time Original',
+			Groups: { 2: 'Time' },
+			Desire: {
+				0: 'DateTimeCreated',
+				1: 'DateCreated',
+				2: 'TimeCreated',
+			},
+			RawConv: '($val[1] and $val[2]) ? $val : undef',
+			ValueConv: q{
+				return $val[0] if $val[0] and $val[0]=~/ /;
+				return "$val[1] $val[2]";
+			},
+			PrintConv: '$self->ConvertDateTime($val)',
+		},
+		ThumbnailImage: {
+			Writable: 1,
+			WriteCheck: '$self->CheckImage(\$val)',
+			WriteAlso: {
+				# (the 0xfeedfeed values are translated in the Exif write routine)
+				ThumbnailOffset: 'defined $val ? 0xfeedfeed : undef',
+				ThumbnailLength: 'defined $val ? 0xfeedfeed : undef',
+			},
+			Require: {
+				0: 'ThumbnailOffset',
+				1: 'ThumbnailLength',
+			},
+			# retrieve the thumbnail from our EXIF data
+			RawConv: 'Image::ExifTool::Exif::ExtractImage($self,$val[0],$val[1],"ThumbnailImage")',
+		},
+		PreviewImage: {
+			Writable: 1,
+			WriteCheck: '$self->CheckImage(\$val)',
+			DelCheck: '$val = ""; return undef', # can't delete, so set to empty string
+			WriteAlso: {
+				PreviewImageStart : 'defined $val ? 0xfeedfeed : undef',
+				PreviewImageLength: 'defined $val ? 0xfeedfeed : undef',
+				PreviewImageValid : 'defined $val and length $val ? 1 : 0',
+			},
+			Require: {
+				0: 'PreviewImageStart',
+				1: 'PreviewImageLength',
+			},
+			Desire: {
+				2: 'PreviewImageValid',
+				# (DNG and A100 ARW may be have 2 preview images)
+				3: 'PreviewImageStart (1)',
+				4: 'PreviewImageLength (1)',
+			},
+			# note: extract 2nd preview, but ignore double-referenced preview
+			# (in A100 ARW images, the 2nd PreviewImageLength from IFD0 may be wrong anyway)
+			RawConv: q{
+				if ($val[3] and $val[4] and $val[0] ne $val[3]) {
+					my %val = (
+						0: 'PreviewImageStart (1)',
+						1: 'PreviewImageLength (1)',
+						2: 'PreviewImageValid',
+					);
+					$self->FoundTag($tagInfo, \%val);
+				}
+				return undef if defined $val[2] and not $val[2];
+				return Image::ExifTool::Exif::ExtractImage($self,$val[0],$val[1],'PreviewImage');
+			},
+		},
+		JpgFromRaw: {
+			Writable: 1,
+			WriteCheck: '$self->CheckImage(\$val)',
+			WriteAlso: {
+				JpgFromRawStart : 'defined $val ? 0xfeedfeed : undef',
+				JpgFromRawLength: 'defined $val ? 0xfeedfeed : undef',
+			},
+			Require: {
+				0: 'JpgFromRawStart',
+				1: 'JpgFromRawLength',
+			},
+			RawConv: 'Image::ExifTool::Exif::ExtractImage($self,$val[0],$val[1],"JpgFromRaw")',
+		},
+		OtherImage: {
+			Writable: 1,
+			WriteCheck: '$self->CheckImage(\$val)',
+			DelCheck: '$val = ""; return undef', # can't delete, so set to empty string
+			WriteAlso: {
+				OtherImageStart : 'defined $val ? 0xfeedfeed : undef',
+				OtherImageLength: 'defined $val ? 0xfeedfeed : undef',
+			},
+			Require: {
+				0: 'OtherImageStart',
+				1: 'OtherImageLength',
+			},
+			# retrieve the thumbnail from our EXIF data
+			RawConv: 'Image::ExifTool::Exif::ExtractImage($self,$val[0],$val[1],"OtherImage")',
+		},
+		PreviewImageSize: {
+			Require: {
+				0: 'PreviewImageWidth',
+				1: 'PreviewImageHeight',
+			},
+			ValueConv: '"$val[0]x$val[1]"',
+		},
+		SubSecDateTimeOriginal: {
+			Description: 'Date/Time Original',
+			Groups: { 2: 'Time' },
+			Require: {
+				0: 'EXIF:DateTimeOriginal',
+				1: 'SubSecTimeOriginal',
+			},
+			# be careful here just in case there is a timezone following the seconds
+			RawConv: '$val[1]=~/\d/ ? $val : undef',
+			ValueConv: q{
+				$_ = $val[0]; s/( \d{2}:\d{2}:\d{2})/$1\.$val[1]/; $_;
+			},
+			PrintConv: '$self->ConvertDateTime($val)',
+		},
+		SubSecCreateDate: {
+			Description: 'Create Date',
+			Groups: { 2: 'Time' },
+			Require: {
+				0: 'EXIF:CreateDate',
+				1: 'SubSecTimeDigitized',
+			},
+			RawConv: '$val[1]=~/\d/ ? $val : undef',
+			ValueConv: q{
+				$_ = $val[0]; s/( \d{2}:\d{2}:\d{2})/$1\.$val[1]/; $_;
+			},
+			PrintConv: '$self->ConvertDateTime($val)',
+		},
+		SubSecModifyDate: {
+			Description: 'Modify Date',
+			Groups: { 2: 'Time' },
+			Require: {
+				0: 'EXIF:ModifyDate',
+				1: 'SubSecTime',
+			},
+			RawConv: '$val[1]=~/\d/ ? $val : undef',
+			ValueConv: q{
+				$_ = $val[0]; s/( \d{2}:\d{2}:\d{2})/$1\.$val[1]/; $_;
+			},
+			PrintConv: '$self->ConvertDateTime($val)',
+		},
+		CFAPattern: {
+			Require: {
+				0: 'CFARepeatPatternDim',
+				1: 'CFAPattern2',
+			},
+			# generate CFAPattern
+			ValueConv: q{
+				my @a = split / /, $val[0];
+				my @b = split / /, $val[1];
+				return '?' unless @a==2 and @b==$a[0]*$a[1];
+				return "$a[0] $a[1] @b";
+			},
+			PrintConv: 'Image::ExifTool::Exif::PrintCFAPattern($val)',
+		},
+		RedBalance: {
+			Groups: { 2: 'Camera' },
+			Desire: {
+				0: 'WB_RGGBLevels',
+				1: 'WB_RGBGLevels',
+				2: 'WB_RBGGLevels',
+				3: 'WB_GRBGLevels',
+				4: 'WB_GRGBLevels',
+				5: 'WB_GBRGLevels',
+				6: 'WB_RGBLevels',
+				7: 'WB_GRBLevels',
+				8: 'WB_RBLevels',
+				9: 'WBRedLevel', # red
+			   10: 'WBGreenLevel',
+			},
+			ValueConv: 'Image::ExifTool::Exif::RedBlueBalance(0,@val)',
+			PrintConv: 'int($val * 1e6 + 0.5) * 1e-6',
+		},
+		BlueBalance: {
+			Groups: { 2: 'Camera' },
+			Desire: {
+				0: 'WB_RGGBLevels',
+				1: 'WB_RGBGLevels',
+				2: 'WB_RBGGLevels',
+				3: 'WB_GRBGLevels',
+				4: 'WB_GRGBLevels',
+				5: 'WB_GBRGLevels',
+				6: 'WB_RGBLevels',
+				7: 'WB_GRBLevels',
+				8: 'WB_RBLevels',
+				9: 'WBBlueLevel', # blue
+			   10: 'WBGreenLevel',
+			},
+			ValueConv: 'Image::ExifTool::Exif::RedBlueBalance(1,@val)',
+			PrintConv: 'int($val * 1e6 + 0.5) * 1e-6',
+		},
+		GPSPosition: {
+			Groups: { 2: 'Location' },
+			Require: {
+				0: 'GPSLatitude',
+				1: 'GPSLongitude',
+			},
+			ValueConv: '"$val[0] $val[1]"',
+			PrintConv: '"$prt[0], $prt[1]"',
+		},
+		LensID: {
+			Groups: { 2: 'Camera' },
+			Require: 'LensType',
+			Desire: {
+				1: 'FocalLength',
+				2: 'MaxAperture',
+				3: 'MaxApertureValue',
+				4: 'MinFocalLength',
+				5: 'MaxFocalLength',
+				6: 'LensModel',
+				7: 'LensFocalRange',
+				8: 'LensSpec',
+				9: 'LensType2',
+			},
+			Notes: q{
+				attempt to identify the actual lens from all lenses with a given LensType.
+				Applies only to LensType values with a lookup table.  May be configured
+				by adding user-defined lenses
+			},
+			# this LensID is only valid if the LensType has a PrintConv or is a model name
+			RawConv: q{
+				return $val if ref $$self{TAG_INFO}{LensType}{PrintConv} eq "HASH" or
+								  $val[0] =~ /(mm|\d\/F)/;
+				return undef;
+			},
+			ValueConv: '$val',
+			PrintConv: q{
+				my $pcv;
+				# use LensType2 instead of LensType if available and valid (Sony E-mount lenses)
+				if ($val[9] and $val[9] & 0x8000) {
+					$val[0] = $val[9];
+					$prt[0] = $prt[9];
+					$pcv = $$self{TAG_INFO}{LensType2}{PrintConv};
+				}
+				Image::ExifTool::Exif::PrintLensID($self, $prt[0], $pcv, $prt[8], @val);
+			},
+		},
+	);
+	*/
 }

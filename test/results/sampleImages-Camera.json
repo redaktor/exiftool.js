@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Camera/CameraMP5.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ApertureValue": "5.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21,6 +22,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -30,6 +32,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/458",
 			"ShutterSpeedValue": "1/450",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4834,
@@ -125,6 +128,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDS5MP.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -4.7,
 			"ColorSpace": "sRGB",
@@ -141,6 +145,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -148,6 +153,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistance": "10 m",
 			"_IFDpointer_Makernote": 796,
@@ -230,6 +236,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC5085.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"BrightnessValue": 5.9,
 			"ColorSpace": "sRGB",
@@ -247,6 +254,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
@@ -256,6 +264,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/70",
 			"ShutterSpeedValue": "1/70",
 			"SubjectDistance": "10 m",
 			"SubjectDistanceRange": "Distant view",
@@ -341,6 +350,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC3A30.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -361,6 +371,7 @@
 			"FocalLength": "6.6 mm",
 			"FocalLengthIn35mmFilm": "43 mm",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -369,6 +380,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/330",
 			"ShutterSpeedValue": "1/315",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 794,
@@ -462,6 +474,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC3306.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -475,11 +488,13 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000001089",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
@@ -555,6 +570,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC3301.jpg",
 		"exifJS": {
+			"Aperture": 7.13,
 			"ApertureValue": "2.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -566,8 +582,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/105",
 			"ShutterSpeedValue": "1/104",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:01:02 00:10:52",
@@ -633,6 +651,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC2302.jpg",
 		"exifJS": {
+			"Aperture": 5.78,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -644,8 +663,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/441",
 			"ShutterSpeedValue": "1/446",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2005:07:16 13:59:30",
@@ -711,6 +732,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC2300.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -722,8 +744,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2006:07:14 21:41:01",
@@ -790,6 +814,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC2071.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -801,8 +826,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "1/34",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2000:01:01 00:08:17",
@@ -869,6 +896,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC2070.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -880,8 +908,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/144",
 			"ShutterSpeedValue": "1/147",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2000:01:01 02:29:58",
@@ -949,6 +979,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC1310.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -960,8 +991,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/91",
 			"ShutterSpeedValue": "1/96",
 			"DateTime": "2004:05:10 03:59:44",
 			"Make": "CAMERA",
@@ -1023,6 +1056,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC1070.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1037,12 +1071,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/2000",
 			"ShutterSpeedValue": "1/2048",
 			"_IFDpointer_Interop": 595,
 			"DateTime": "2005:01:05 14:29:18",
@@ -1121,6 +1157,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC-733i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1139,6 +1176,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -1147,6 +1185,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3746,
@@ -1235,6 +1274,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC-4330.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1249,12 +1289,14 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "49c993e49aea8eff7314f16342bc6c7d",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2400 px w",
 			"PixelYDimension": "1600 px h",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"_IFDpointer_Interop": 700,
 			"_IFDpointer_Makernote": 606,
@@ -1333,6 +1375,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC-4300.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1347,11 +1390,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "800 px h",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -1430,6 +1475,7 @@
 	{
 		"img": "sampleImages/Camera/CameraDC-3305.jpg",
 		"exifJS": {
+			"Aperture": 5.78,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1443,11 +1489,13 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000001411",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/720",
 			"ShutterSpeedValue": "1/724",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -1591,6 +1639,7 @@
 	{
 		"img": "sampleImages/Camera/CameraCE5430.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1610,6 +1659,7 @@
 			"FocalLength": "8 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -1617,6 +1667,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/236",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21024,
 			"_IFDpointer_Makernote": 1016,
@@ -1716,6 +1767,7 @@
 	{
 		"img": "sampleImages/Camera/Camera8MP-9V9.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1736,6 +1788,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1745,6 +1798,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/204",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1837,6 +1891,7 @@
 	{
 		"img": "sampleImages/Camera/Camera8MP-9U4.jpg",
 		"exifJS": {
+			"Aperture": 9.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1856,6 +1911,7 @@
 			"FocalLength": "13.5 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1864,6 +1920,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/105",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10692,
@@ -1967,6 +2024,7 @@
 	{
 		"img": "sampleImages/Camera/Camera8MP-9Q6.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1987,6 +2045,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1996,6 +2055,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2091,6 +2151,7 @@
 	{
 		"img": "sampleImages/Camera/Camera8MP-9HX.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2108,6 +2169,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -2117,6 +2179,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/38",
 			"ShutterSpeedValue": "1/38",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 42412,
@@ -2205,6 +2268,7 @@
 	{
 		"img": "sampleImages/Camera/Camera8MP-9HG.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2220,12 +2284,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"DateTime": "2008:03:07 00:07:08",
 			"ImageDescription": "DIGITAL CAMERA",
@@ -2306,6 +2372,7 @@
 	{
 		"img": "sampleImages/Camera/Camera8MP-9HC.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2323,6 +2390,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -2332,6 +2400,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/38",
 			"ShutterSpeedValue": "1/38",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30708,
@@ -2420,6 +2489,7 @@
 	{
 		"img": "sampleImages/Camera/Camera7MP-9GM.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -2439,6 +2509,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2447,6 +2518,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21262,
 			"_IFDpointer_Makernote": 1254,
@@ -2549,6 +2621,7 @@
 	{
 		"img": "sampleImages/Camera/Camera7MP-9GL.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2566,6 +2639,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2573,6 +2647,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 43728,
@@ -2658,6 +2733,7 @@
 	{
 		"img": "sampleImages/Camera/Camera7MP-9GH.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2678,6 +2754,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -2687,6 +2764,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
@@ -2779,6 +2857,7 @@
 	{
 		"img": "sampleImages/Camera/Camera7MP-9GB.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2796,6 +2875,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2803,6 +2883,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 42260,
@@ -2889,6 +2970,7 @@
 	{
 		"img": "sampleImages/Camera/Camera7MP-9GA.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -2908,6 +2990,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2916,6 +2999,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21254,
 			"_IFDpointer_Makernote": 1246,
@@ -3018,6 +3102,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP9W4.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3037,6 +3122,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2272 px w",
@@ -3044,6 +3130,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21028,
 			"_IFDpointer_Makernote": 1020,
@@ -3143,6 +3230,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP9U2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3162,6 +3250,7 @@
 			"FocalLength": "7.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -3170,6 +3259,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 956,
 			"DateTime": "2005:07:01 00:02:04",
@@ -3259,6 +3349,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP9Q3.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:03:18 19:11:15",
@@ -3273,10 +3364,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1704 px w",
 			"PixelYDimension": "2272 px h",
+			"ShutterSpeed": "1/302",
 			"_IFDpointer_Makernote": 1004,
 			"DateTime": "2006:03:18 19:11:15",
 			"ImageDescription": "DIGITAL CAMERA",
@@ -3371,6 +3464,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9Y8.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3386,12 +3480,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/75",
 			"ShutterSpeedValue": "1/75",
 			"_IFDpointer_Makernote": 832,
 			"DateTime": "2007:11:02 21:58:55",
@@ -3612,6 +3708,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9U9.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3631,6 +3728,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -3639,6 +3737,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10692,
@@ -3741,6 +3840,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9U7.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3761,6 +3861,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -3770,6 +3871,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3850,6 +3952,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9T6.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3870,6 +3973,7 @@
 			"FocalLengthIn35mmFilm": "86 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Spot",
@@ -3879,6 +3983,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -3971,6 +4076,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9N3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3991,6 +4097,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -4000,6 +4107,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -4080,6 +4188,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9J5.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4100,6 +4209,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -4109,6 +4219,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"ShutterSpeedValue": "1/161",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -4201,6 +4312,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9FH.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4218,6 +4330,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4225,6 +4338,7 @@
 			"PixelYDimension": "2112 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 35048,
@@ -4311,6 +4425,7 @@
 	{
 		"img": "sampleImages/Camera/Camera6MP-9FA.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4330,6 +4445,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 212,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4338,6 +4454,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10690,
@@ -4441,6 +4558,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9Y9.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4460,6 +4578,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -4467,6 +4586,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/111",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 21026,
 			"_IFDpointer_Makernote": 1018,
@@ -4565,6 +4685,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9Y2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4584,6 +4705,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4592,6 +4714,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 608,
@@ -4683,6 +4806,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9X9.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4702,6 +4826,7 @@
 			"FocalLength": "6.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4710,6 +4835,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/35",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 10682,
 			"_IFDpointer_Makernote": 674,
@@ -4811,6 +4937,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9W5.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4831,6 +4958,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Spot",
@@ -4840,6 +4968,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
@@ -4931,6 +5060,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9T3.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4950,6 +5080,7 @@
 			"FocalLength": "6.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4958,6 +5089,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10689,
@@ -5058,6 +5190,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9Q3.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:01:24 09:46:24",
@@ -5072,11 +5205,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.4 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/194",
 			"_IFDpointer_Makernote": 666,
 			"DateTime": "2007:01:24 09:46:24",
 			"ImageDescription": "DIGITAL CAMERA",
@@ -5174,6 +5309,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9Q2.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -5193,6 +5329,7 @@
 			"FocalLength": "6.6 mm",
 			"GainControl": "Low gain up",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -5201,6 +5338,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"UserComment": 10960,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11094,
@@ -5305,6 +5443,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9P8.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -5324,6 +5463,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -5332,6 +5472,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 10962,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11096,
@@ -5524,6 +5665,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9M2.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5544,6 +5686,7 @@
 			"FocalLengthIn35mmFilm": "96 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -5553,6 +5696,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/59",
 			"ShutterSpeedValue": "1/59",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -5645,6 +5789,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9J2.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.5",
 			"BrightnessValue": 5.4,
 			"ColorSpace": "sRGB",
@@ -5662,6 +5807,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "20.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "10.8",
 			"MeteringMode": "Center-weighted average",
@@ -5671,6 +5817,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/85",
 			"ShutterSpeedValue": "1/85",
 			"SubjectDistance": "5.5 m",
 			"SubjectDistanceRange": "Distant view",
@@ -5763,6 +5910,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9G4.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5778,10 +5926,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/567",
 			"_IFDpointer_Makernote": 662,
 			"DateTime": "2004:03:25 04:51:59",
 			"ImageDescription": "5MP-9G4 Digital Camera",
@@ -5860,6 +6010,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9EY.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5877,6 +6028,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -5884,6 +6036,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/100",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34648,
@@ -5970,6 +6123,7 @@
 	{
 		"img": "sampleImages/Camera/Camera5MP-9A3.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5990,6 +6144,7 @@
 			"FocalLengthIn35mmFilm": "92 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -5999,6 +6154,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/208",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -6091,6 +6247,7 @@
 	{
 		"img": "sampleImages/Camera/Camera4MP-9T2.jpg",
 		"exifJS": {
+			"Aperture": 5.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -6110,6 +6267,7 @@
 			"FocalLength": "6 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -6118,6 +6276,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/499",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10680,
 			"_IFDpointer_Makernote": 672,
@@ -6219,6 +6378,7 @@
 	{
 		"img": "sampleImages/Camera/Camera4MP-9Q3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -6238,6 +6398,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -6246,6 +6407,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10678,
 			"_IFDpointer_Makernote": 670,
@@ -6346,6 +6508,7 @@
 	{
 		"img": "sampleImages/Camera/Camera4MP-9J9.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6366,6 +6529,7 @@
 			"FocalLengthIn35mmFilm": "89 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -6375,6 +6539,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/190",
 			"ShutterSpeedValue": "1/189",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -6467,6 +6632,7 @@
 	{
 		"img": "sampleImages/Camera/Camera4MP-9J6.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"BrightnessValue": -0.5,
 			"ColorSpace": "sRGB",
@@ -6484,6 +6650,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "20.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "13.7",
 			"MeteringMode": "Average",
@@ -6493,6 +6660,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "0.5",
 			"ShutterSpeedValue": "0.5",
 			"SubjectDistance": "0.248 m",
 			"SubjectDistanceRange": "Distant view",
@@ -6585,6 +6753,7 @@
 	{
 		"img": "sampleImages/Camera/Camera4MP-859.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6601,11 +6770,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.9",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
 			"SceneCaptureType": "Landscape",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/1000",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 750,
 			"_IFDpointer_Makernote": 654,
@@ -6687,6 +6858,7 @@
 	{
 		"img": "sampleImages/Camera/Camera3MP-9P5.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6700,11 +6872,13 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "0.9",
 			"_IFDpointer_Interop": 758,
 			"_IFDpointer_Makernote": "116 137 052 062 044 012 008 014 114 216 054 100 018 119 121 P771 56789012345678901234567890123456789012345678901234567890123",
@@ -6785,6 +6959,7 @@
 	{
 		"img": "sampleImages/Camera/Camera3MP-9P2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"BrightnessValue": 3.4,
 			"ColorSpace": "sRGB",
@@ -6802,6 +6977,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "13.7",
 			"MeteringMode": "Center-weighted average",
@@ -6811,6 +6987,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistance": "2 m",
 			"SubjectDistanceRange": "Distant view",
@@ -6902,6 +7079,7 @@
 	{
 		"img": "sampleImages/Camera/Camera3MP-9N2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -6919,6 +7097,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "13.7",
 			"MeteringMode": "Center-weighted average",
@@ -6928,6 +7107,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistance": "0.4 m",
 			"SubjectDistanceRange": "Distant view",
@@ -7020,6 +7200,7 @@
 	{
 		"img": "sampleImages/Camera/Camera3MP-9F6.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7035,12 +7216,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 615,
 			"DateTime": "2003:01:01 00:05:48",
@@ -7178,6 +7361,7 @@
 	{
 		"img": "sampleImages/Camera/Camera2MP-9D1.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7193,12 +7377,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 615,
 			"DateTime": "2002:11:19 12:41:01",
@@ -7279,6 +7465,7 @@
 	{
 		"img": "sampleImages/Camera/Camera10MP-9KB.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7299,6 +7486,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7308,6 +7496,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"ShutterSpeedValue": "1/119",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -7400,6 +7589,7 @@
 	{
 		"img": "sampleImages/Camera/Camera10MP-9KA.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7420,6 +7610,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7429,6 +7620,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/69",
 			"ShutterSpeedValue": "1/69",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -7521,6 +7713,7 @@
 	{
 		"img": "sampleImages/Camera/Camera.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 8.3,
 			"ColorSpace": "sRGB",
@@ -7538,6 +7731,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7547,6 +7741,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/181",
 			"ShutterSpeedValue": "1/181",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",

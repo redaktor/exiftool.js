@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/SiPix/SipixSC3300.jpg",
 		"exifJS": {
+			"Aperture": 1,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,6 +19,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 43981,
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -26,6 +28,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 1264,
 			"_IFDpointer_Makernote": 784,
@@ -111,6 +114,7 @@
 	{
 		"img": "sampleImages/SiPix/SipixSC2300.jpg",
 		"exifJS": {
+			"Aperture": "3.0",
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -123,9 +127,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/35",
 			"ShutterSpeedValue": "1/35",
 			"_IFDpointer_Interop": 672,
 			"_IFDpointer_Makernote": [
@@ -219,6 +225,7 @@
 	{
 		"img": "sampleImages/SiPix/SipixSC2100.jpg",
 		"exifJS": {
+			"Aperture": "3.0",
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -230,9 +237,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/23",
 			"ShutterSpeedValue": "1/23",
 			"_IFDpointer_Interop": 652,
 			"_IFDpointer_Makernote": [
@@ -350,6 +359,7 @@
 	{
 		"img": "sampleImages/SiPix/NucamSP-1300.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -361,9 +371,11 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"RelatedSoundFile": "xxx.avi",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"_IFDpointer_Interop": 652,
 			"_IFDpointer_Makernote": [

@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Trust/TrustGemini11.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -17,12 +18,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "864 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/136",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2002:01:02 09:35:12",
 			"ImageDescription": "ICM107BTrustGemini11H",
@@ -99,6 +102,7 @@
 	{
 		"img": "sampleImages/Trust/TrustDSC.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -114,12 +118,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.8 mm",
 			"ISO": 25,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/5",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2027:08:12 19:53:06",
 			"ImageDescription": "ICM107BTrustDSCH",
@@ -195,6 +201,7 @@
 	{
 		"img": "sampleImages/Trust/TrustDC3500MINI.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -210,6 +217,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 90,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
@@ -217,6 +225,7 @@
 			"PixelYDimension": "1536 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/6",
 			"_IFDpointer_Interop": 589,
 			"DateTime": "2005:08:09 00:22:04",
 			"ImageDescription": "M3391D-1001",
@@ -294,6 +303,7 @@
 	{
 		"img": "sampleImages/Trust/TrustDC-4200CAM.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -309,6 +319,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -316,6 +327,7 @@
 			"PixelYDimension": "1728 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"_IFDpointer_Interop": 589,
 			"DateTime": "2005:04:29 19:52:41",
 			"ImageDescription": "M4031D-4202",
@@ -392,6 +404,7 @@
 	{
 		"img": "sampleImages/Trust/Trust962Z_POWER.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -407,6 +420,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -414,6 +428,7 @@
 			"PixelYDimension": "1704 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/125",
 			"_IFDpointer_Interop": 589,
 			"DateTime": "2005:01:12 13:26:25",
 			"ImageDescription": "M3321T-0015",
@@ -490,6 +505,7 @@
 	{
 		"img": "sampleImages/Trust/Trust960POWERCAM.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -505,6 +521,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -512,6 +529,7 @@
 			"PixelYDimension": "1920 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/40",
 			"_IFDpointer_Interop": 585,
 			"DateTime": "2005:04:03 20:24:33",
 			"ImageDescription": "TF3-1100",
@@ -588,6 +606,7 @@
 	{
 		"img": "sampleImages/Trust/Trust950PowerCamZoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -606,6 +625,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "21930 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -614,6 +634,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -701,6 +722,7 @@
 	{
 		"img": "sampleImages/Trust/Trust913POWER.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -719,6 +741,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 40,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -727,6 +750,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/9",
 			"ShutterSpeedValue": "1/9",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -814,6 +838,7 @@
 	{
 		"img": "sampleImages/Trust/Trust760POWERCAM.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -829,12 +854,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/42",
 			"_IFDpointer_Interop": 559,
 			"DateTime": "2005:01:28 15:53:34",
 			"ImageDescription": "TF2-A0A3",
@@ -911,6 +938,7 @@
 	{
 		"img": "sampleImages/Trust/Trust738AV_LCD_PV.jpg",
 		"exifJS": {
+			"Aperture": 1.5836888808786547,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -929,6 +957,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "52525 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -937,6 +966,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/5",
 			"ShutterSpeedValue": "1/5",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -1024,6 +1054,7 @@
 	{
 		"img": "sampleImages/Trust/Trust735SPowerCam.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 1.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1046,6 +1077,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -1055,6 +1087,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": 3,
+			"ShutterSpeed": "1/20",
 			"SubjectArea": [
 				640,
 				480,
@@ -1152,6 +1185,7 @@
 	{
 		"img": "sampleImages/Trust/Trust550POWER.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1167,12 +1201,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/8",
 			"_IFDpointer_Interop": 588,
 			"DateTime": "",
 			"ImageDescription": "Exif JPG 422",
@@ -1257,6 +1293,7 @@
 	{
 		"img": "sampleImages/Trust/Trust1220S_PowerCamZoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1272,6 +1309,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Multi-spot",
@@ -1280,6 +1318,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/8",
 			"_IFDpointer_Interop": 656,
 			"DateTime": "2005:01:19 18:04:00",
 			"ImageDescription": "PIC01314.JPG",
@@ -1423,6 +1462,7 @@
 	{
 		"img": "sampleImages/Trust/Trust1210K_POWERCAM_Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1438,6 +1478,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -1445,6 +1486,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/49",
 			"ShutterSpeedValue": "1/49",
 			"_IFDpointer_Interop": 1164,
 			"_IFDpointer_Makernote": 852,

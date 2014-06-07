@@ -1812,6 +1812,7 @@
 	{
 		"img": "sampleImages/FLIR/FLIR_ThermaCAM_A320.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"DateTimeDigitized": "2009:11:25 00:26:11",
@@ -1821,9 +1822,11 @@
 			"ExposureTime": "1/54",
 			"FlashpixVersion": "010",
 			"FocalLength": "18 mm",
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "787100EB71F237BE78FE578D20A84AF3",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/54",
 			"SubjectDistance": "0.5 m",
 			"_IFDpointer_Makernote": 462,
 			"DateTime": "2009:11:25 00:26:11",

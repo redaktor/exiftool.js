@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohTHETA.jpg",
 		"exifJS": {
+			"Aperture": 2.1,
 			"ApertureValue": "2.1",
 			"BrightnessValue": 2.2,
 			"ColorSpace": "sRGB",
@@ -20,6 +21,7 @@
 			"FocalLength": "0.8 mm",
 			"FocalLengthIn35mmFilm": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.1",
 			"MeteringMode": "Multi-segment",
@@ -28,6 +30,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"UserComment": 57960,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 58224,
@@ -168,6 +171,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDXIFW32.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
 			"ExifVersion": "1.00",
@@ -226,6 +230,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC4300.jpg",
 		"exifJS": {
+			"Aperture": "3.7",
 			"ApertureValue": "3.7",
 			"BrightnessValue": 7.5,
 			"ColorSpace": "sRGB",
@@ -237,11 +242,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/181",
 			"ShutterSpeedValue": "1/181",
 			"UserComment": 750,
 			"_IFDpointer_Makernote": 686,
@@ -338,6 +345,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-i500.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"BrightnessValue": 5.8,
 			"ColorSpace": "sRGB",
@@ -352,11 +360,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/388",
 			"ShutterSpeedValue": "1/388",
 			"UserComment": 1226,
 			"_IFDpointer_Interop": 1490,
@@ -470,6 +480,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-7S.jpg",
 		"exifJS": {
+			"Aperture": "3.5",
 			"ApertureValue": "3.5",
 			"BrightnessValue": 1.6,
 			"ColorSpace": "sRGB",
@@ -482,10 +493,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.7 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "2.5",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "450 px h",
+			"ShutterSpeed": "1/28",
 			"ShutterSpeedValue": "1/28",
 			"SubsecTime": 601,
 			"UserComment": 874,
@@ -576,6 +589,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-7.jpg",
 		"exifJS": {
+			"Aperture": "2.7",
 			"ApertureValue": "2.7",
 			"BrightnessValue": 1.3,
 			"ColorSpace": "sRGB",
@@ -588,10 +602,12 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "0.3",
 			"ShutterSpeedValue": "0.3",
 			"UserComment": 646,
 			"_IFDpointer_Interop": 910,
@@ -674,6 +690,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-6000.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -685,9 +702,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/49",
 			"ShutterSpeedValue": "1/49",
 			"_IFDpointer_Interop": 652,
 			"_IFDpointer_Makernote": [
@@ -777,6 +796,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-5300.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"BrightnessValue": 2.5,
 			"ColorSpace": "sRGB",
@@ -789,11 +809,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.3 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/16",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 658,
 			"_IFDpointer_Interop": 936,
@@ -881,6 +903,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-5000.jpg",
 		"exifJS": {
+			"Aperture": "3.1",
 			"ApertureValue": "3.1",
 			"BrightnessValue": 5,
 			"ColorSpace": "sRGB",
@@ -893,11 +916,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.1 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/91",
 			"ShutterSpeedValue": "1/91",
 			"UserComment": 658,
 			"_IFDpointer_Interop": 936,
@@ -985,6 +1010,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-4300.jpg",
 		"exifJS": {
+			"Aperture": "3.7",
 			"ApertureValue": "3.7",
 			"BrightnessValue": 7.5,
 			"ColorSpace": "sRGB",
@@ -996,11 +1022,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/181",
 			"ShutterSpeedValue": "1/181",
 			"UserComment": 750,
 			"_IFDpointer_Makernote": 686,
@@ -1097,6 +1125,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohRDC-200G.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"BrightnessValue": 6,
 			"ColorSpace": "sRGB",
@@ -1109,11 +1138,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/128",
 			"ShutterSpeedValue": "1/128",
 			"UserComment": 658,
 			"_IFDpointer_Interop": 936,
@@ -1226,6 +1257,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohR8.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ApertureValue": "5.3",
 			"BrightnessValue": 7.6,
 			"ColorSpace": "sRGB",
@@ -1243,6 +1275,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "35.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -1250,6 +1283,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/153",
 			"UserComment": 25592,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 25856,
@@ -1383,6 +1417,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohR50.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1405,6 +1440,7 @@
 			"FocalLengthIn35mmFilm": "148 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.5",
 			"MeteringMode": "Multi-segment",
@@ -1414,6 +1450,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/185",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 1126,
 			"WhiteBalance": "Auto",
@@ -1523,6 +1560,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohR10.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 9.8,
 			"ColorSpace": "sRGB",
@@ -1540,6 +1578,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Spot",
@@ -1547,6 +1586,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/660",
 			"UserComment": 25828,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 26092,
@@ -1682,6 +1722,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohPX.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ApertureValue": "3.9",
 			"BrightnessValue": 0.1,
 			"ColorSpace": "sRGB",
@@ -1699,6 +1740,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 1131,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "RICOH ZOOM LENS",
 			"LensSpecification": [
@@ -1716,6 +1758,7 @@
 			"SceneCaptureType": "Night scene",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 23356,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 23620,
@@ -1875,6 +1918,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohI700.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"BrightnessValue": 1.1,
 			"ColorSpace": "sRGB",
@@ -1887,10 +1931,12 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"UserComment": 646,
 			"_IFDpointer_Interop": 910,
@@ -1973,6 +2019,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohHZ15.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ApertureValue": "3.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1993,6 +2040,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Average",
@@ -2000,6 +2048,7 @@
 			"PixelYDimension": "4608 px h",
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Unknown",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/7",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 5048,
@@ -2097,6 +2146,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGXR_S10.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 2,
 			"ColorSpace": "sRGB",
@@ -2114,6 +2164,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -2121,6 +2172,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "0.5",
 			"UserComment": 18144,
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 18408,
@@ -2276,6 +2328,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGXR_P10.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 6,
 			"ColorSpace": 65535,
@@ -2294,6 +2347,7 @@
 			"FocalLength": "16.3 mm",
 			"Gamma": 2.2,
 			"ISO": 104,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -2301,6 +2355,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"UserComment": 18262,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18526,
@@ -2467,6 +2522,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGXR_MOUNT_A12.jpg",
 		"exifJS": {
+			"Aperture": 0,
 			"ApertureValue": "1.0",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -2484,6 +2540,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "0 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "",
 			"LensModel": "",
 			"LensSpecification": [
@@ -2501,6 +2558,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1620",
 			"UserComment": 19788,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 20052,
@@ -2659,6 +2717,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGXR_A16.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 0.9,
 			"ColorSpace": "sRGB",
@@ -2676,6 +2735,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "RICOH LENS A16 24-85mm F3.5-5.5",
 			"LensSpecification": [
@@ -2693,6 +2753,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1",
 			"UserComment": 23980,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 24244,
@@ -2853,6 +2914,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGXR_A12.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"BrightnessValue": -1.7,
 			"ColorSpace": "sRGB",
@@ -2870,6 +2932,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18.3 mm",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "GR LENS A12 28mm F2.5",
 			"LensSpecification": [
@@ -2887,6 +2950,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/8",
 			"UserComment": 19164,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 19428,
@@ -3047,6 +3111,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGXR.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -3064,6 +3129,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "33 mm",
 			"ISO": 1600,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -3071,6 +3137,7 @@
 			"PixelYDimension": "2848 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/125",
 			"UserComment": 18144,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18408,
@@ -3226,6 +3293,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGX200.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ApertureValue": "6.3",
 			"BrightnessValue": 10.3,
 			"ColorSpace": "sRGB",
@@ -3243,6 +3311,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.3 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -3250,6 +3319,7 @@
 			"PixelYDimension": "3000 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/620",
 			"UserComment": 25524,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 25788,
@@ -3385,6 +3455,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGR_Digital.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "3.9",
 			"BrightnessValue": 3.6,
 			"ColorSpace": "sRGB",
@@ -3402,6 +3473,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.9 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.3",
 			"MeteringMode": "Multi-segment",
@@ -3409,6 +3481,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/52",
 			"UserComment": 16824,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 17088,
@@ -3543,6 +3616,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGR_DIGITAL4.jpg",
 		"exifJS": {
+			"Aperture": 1.9,
 			"ApertureValue": "1.9",
 			"BrightnessValue": 7.1,
 			"ColorSpace": 65535,
@@ -3561,6 +3635,7 @@
 			"FocalLength": "6 mm",
 			"Gamma": 2.2,
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "RICOH GR LENS",
 			"LensSpecification": [
@@ -3578,6 +3653,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/870",
 			"ShutterSpeedValue": "1/850",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 43140,
@@ -3746,6 +3822,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGR_DIGITAL3.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 2.8,
 			"ColorSpace": "sRGB",
@@ -3763,6 +3840,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.9",
 			"MeteringMode": "Multi-segment",
@@ -3770,6 +3848,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/4",
 			"UserComment": 17780,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18044,
@@ -3918,6 +3997,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGR_DIGITAL2.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.5",
 			"BrightnessValue": 9,
 			"ColorSpace": "sRGB",
@@ -3935,6 +4015,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.3",
 			"MeteringMode": "Multi-segment",
@@ -3942,6 +4023,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/570",
 			"UserComment": 24932,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 25196,
@@ -4116,6 +4198,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohGR.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 10,
 			"ColorSpace": "sRGB",
@@ -4134,6 +4217,7 @@
 			"FocalLength": "18.3 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "PENTAX RICOH IMAGING",
 			"LensModel": "GR LENS",
 			"LensSpecification": [
@@ -4151,6 +4235,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"UserComment": 33678,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33942,
@@ -4358,6 +4443,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohG700SE.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "1.1",
 			"BrightnessValue": 4.3,
 			"ColorSpace": "sRGB",
@@ -4375,6 +4461,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -4382,6 +4469,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"UserComment": 998,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1732,
@@ -4533,6 +4621,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohG700.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "1.1",
 			"BrightnessValue": 8.5,
 			"ColorSpace": "sRGB",
@@ -4550,6 +4639,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -4557,6 +4647,7 @@
 			"PixelYDimension": "3000 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/603",
 			"UserComment": 996,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1354,
@@ -4702,6 +4793,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohG600.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "1.1",
 			"BrightnessValue": 8.9,
 			"ColorSpace": "sRGB",
@@ -4719,6 +4811,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -4726,6 +4819,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/790",
 			"UserComment": 970,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1328,
@@ -4860,6 +4954,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohG3.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.5",
 			"BrightnessValue": 2,
 			"ColorSpace": "sRGB",
@@ -4877,6 +4972,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.9 mm",
 			"ISO": 154,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -4884,6 +4980,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"UserComment": 1278,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1542,
@@ -5041,6 +5138,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohDC-4T.jpg",
 		"exifJS": {
+			"Aperture": "13.9",
 			"ApertureValue": "13.9",
 			"BrightnessValue": 14,
 			"ColorSpace": "sRGB",
@@ -5052,11 +5150,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/362",
 			"ShutterSpeedValue": "1/362",
 			"UserComment": 750,
 			"_IFDpointer_Makernote": 686,
@@ -5153,6 +5253,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohDC-4.jpg",
 		"exifJS": {
+			"Aperture": "2.9",
 			"ApertureValue": "2.9",
 			"BrightnessValue": 3,
 			"ColorSpace": "sRGB",
@@ -5164,11 +5265,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.0",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/16",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 686,
 			"_IFDpointer_Interop": 964,
@@ -5252,6 +5355,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohDC-3Z.jpg",
 		"exifJS": {
+			"Aperture": "4.0",
 			"ApertureValue": "4.0",
 			"BrightnessValue": -1,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5263,6 +5367,7 @@
 			"FocalLength": "5 mm",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 690,
 			"_IFDpointer_Makernote": 626,
@@ -5349,6 +5454,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohDC-3.jpg",
 		"exifJS": {
+			"Aperture": "4.0",
 			"ApertureValue": "4.0",
 			"BrightnessValue": -1.5,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5360,6 +5466,7 @@
 			"FocalLength": "4 mm",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"UserComment": 690,
 			"_IFDpointer_Makernote": 626,
@@ -5446,6 +5553,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRZ1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.9",
 			"BrightnessValue": 6.9,
 			"ColorSpace": "sRGB",
@@ -5463,6 +5571,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -5470,6 +5579,7 @@
 			"PixelYDimension": "1728 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/440",
 			"UserComment": 18468,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18732,
@@ -5646,6 +5756,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRX.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 6.9,
 			"ColorSpace": "sRGB",
@@ -5663,6 +5774,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.3 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -5670,6 +5782,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/153",
 			"UserComment": 22300,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22564,
@@ -5833,6 +5946,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR770.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -5852,6 +5966,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -5860,6 +5975,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21270,
 			"_IFDpointer_Makernote": 1262,
@@ -5971,6 +6087,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR750.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -5990,6 +6107,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3072 px w",
@@ -5997,6 +6115,7 @@
 			"Saturation": "Low saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/220",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 9368,
 			"_IFDpointer_Makernote": 664,
@@ -6095,6 +6214,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR630.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -6114,6 +6234,7 @@
 			"FocalLength": "7.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -6122,6 +6243,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11036,
 			"_IFDpointer_Makernote": 1028,
@@ -6233,6 +6355,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR530.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:12:01 22:45:25",
@@ -6247,11 +6370,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/30",
 			"_IFDpointer_Makernote": 672,
 			"CreateDate": "2014-05-31T15:30:59.000Z",
 			"Directory": "sampleImages/Ricoh",
@@ -6359,6 +6484,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR430.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:03:23 11:52:54",
@@ -6373,11 +6499,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1728 px w",
 			"PixelYDimension": "2304 px h",
+			"ShutterSpeed": "1/30",
 			"_IFDpointer_Makernote": 660,
 			"CreateDate": "2014-05-31T15:30:59.000Z",
 			"Directory": "sampleImages/Ricoh",
@@ -6483,6 +6611,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR330.jpg",
 		"exifJS": {
+			"Aperture": 5.78,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6495,11 +6624,13 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000035",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/48",
 			"ShutterSpeedValue": "1/49",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -6573,6 +6704,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR30.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 1.8,
 			"ColorSpace": "sRGB",
@@ -6590,6 +6722,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -6597,6 +6730,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"UserComment": 1278,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1542,
@@ -6750,6 +6884,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR230.jpg",
 		"exifJS": {
+			"Aperture": 2.83,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6761,8 +6896,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "450 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubsecTime": 379,
 			"_IFDpointer_Interop": 518,
@@ -6834,6 +6971,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR211.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6849,12 +6987,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 610,
 			"DateTime": "2005:08:18 15:35:01",
@@ -6935,6 +7075,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR120.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.9,
@@ -6950,12 +7091,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/73",
 			"UserComment": 752,
 			"_IFDpointer_Interop": 880,
 			"_IFDpointer_Makernote": 612,
@@ -7047,6 +7190,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR10.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7063,6 +7207,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 141,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7071,6 +7216,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "1/6",
 			"_IFDpointer_Interop": 1078,
 			"_IFDpointer_Makernote": 784,
@@ -7167,6 +7313,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioRR1.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"BrightnessValue": 5.3,
 			"ColorSpace": "sRGB",
@@ -7181,11 +7328,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/274",
 			"ShutterSpeedValue": "1/274",
 			"UserComment": 1226,
 			"_IFDpointer_Interop": 1490,
@@ -7298,6 +7447,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR7.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 9.2,
 			"ColorSpace": "sRGB",
@@ -7315,6 +7465,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7322,6 +7473,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/570",
 			"UserComment": 25460,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 25724,
@@ -7455,6 +7607,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR6.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 9.2,
 			"ColorSpace": "sRGB",
@@ -7472,6 +7625,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7479,6 +7633,7 @@
 			"PixelYDimension": "2304 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/440",
 			"UserComment": 19336,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 19600,
@@ -7612,6 +7767,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR5.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 3.6,
 			"ColorSpace": "sRGB",
@@ -7629,6 +7785,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "33 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7636,6 +7793,7 @@
 			"PixelYDimension": "2304 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/14",
 			"UserComment": 19100,
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 19364,
@@ -7769,6 +7927,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR40.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.2",
 			"BrightnessValue": -4.9,
 			"ColorSpace": "sRGB",
@@ -7786,6 +7945,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 336,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7793,6 +7953,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 24396,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 24660,
@@ -7927,6 +8088,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR4.jpg",
 		"exifJS": {
+			"Aperture": 6.9,
 			"ApertureValue": "7.0",
 			"BrightnessValue": 0.8,
 			"ColorSpace": "sRGB",
@@ -7944,6 +8106,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.6 mm",
 			"ISO": 308,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7951,6 +8114,7 @@
 			"PixelYDimension": "2112 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/64",
 			"UserComment": 18696,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18960,
@@ -8085,6 +8249,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR30.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 7.8,
 			"ColorSpace": "sRGB",
@@ -8102,6 +8267,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8109,6 +8275,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/540",
 			"UserComment": 2060,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2324,
@@ -8243,6 +8410,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR3.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 5.8,
 			"ColorSpace": "sRGB",
@@ -8260,6 +8428,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8267,6 +8436,7 @@
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/410",
 			"UserComment": 22176,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22440,
@@ -8401,6 +8571,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR2S.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.6",
 			"BrightnessValue": 7.7,
 			"ColorSpace": "sRGB",
@@ -8418,6 +8589,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8425,6 +8597,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/290",
 			"UserComment": 22104,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22368,
@@ -8600,6 +8773,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR2.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 1.6,
 			"ColorSpace": "sRGB",
@@ -8617,6 +8791,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11 mm",
 			"ISO": 238,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Spot",
@@ -8624,6 +8799,7 @@
 			"PixelYDimension": "768 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/9",
 			"UserComment": 22368,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22632,
@@ -8800,6 +8976,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR1V.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ApertureValue": "4.4",
 			"BrightnessValue": 6.8,
 			"ColorSpace": "sRGB",
@@ -8817,6 +8994,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -8824,6 +9002,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/176",
 			"UserComment": 22252,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22516,
@@ -9001,6 +9180,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR1S.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -9008,6 +9188,7 @@
 			"DateTimeOriginal": "2004:12:31 22:04:49",
 			"ExifVersion": "2.21",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"UserComment": 1010,
@@ -9164,6 +9345,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioR1.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.5",
 			"BrightnessValue": 1.9,
 			"ColorSpace": "sRGB",
@@ -9181,6 +9363,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -9188,6 +9371,7 @@
 			"PixelYDimension": "1728 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/18",
 			"UserComment": 22220,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22484,
@@ -9363,6 +9547,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioProG3.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 7.3,
 			"ColorSpace": "sRGB",
@@ -9380,6 +9565,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -9387,6 +9573,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/189",
 			"UserComment": 1290,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2015,
@@ -9589,6 +9776,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioGX8.jpg",
 		"exifJS": {
+			"Aperture": 2.5,
 			"ApertureValue": "2.5",
 			"BrightnessValue": 6.6,
 			"ColorSpace": "sRGB",
@@ -9606,6 +9794,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -9613,6 +9802,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/440",
 			"UserComment": 20028,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 20292,
@@ -9788,6 +9978,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioGX100.jpg",
 		"exifJS": {
+			"Aperture": 2.5,
 			"ApertureValue": "2.5",
 			"BrightnessValue": 8.9,
 			"ColorSpace": "sRGB",
@@ -9805,6 +9996,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.1 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -9812,6 +10004,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2000",
 			"UserComment": 25764,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 26028,
@@ -9945,6 +10138,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioGX.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ApertureValue": "4.4",
 			"BrightnessValue": 7.6,
 			"ColorSpace": "sRGB",
@@ -9962,6 +10156,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "17.4 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -9969,6 +10164,7 @@
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/153",
 			"UserComment": 22232,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22496,
@@ -10133,6 +10329,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioG4wide.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.7",
 			"BrightnessValue": 6.2,
 			"ColorSpace": "sRGB",
@@ -10150,6 +10347,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.2 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -10157,6 +10355,7 @@
 			"PixelYDimension": "672 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/380",
 			"SubsecTime": 92,
 			"UserComment": 1318,
 			"WhiteBalance": "Auto",
@@ -10267,6 +10466,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioG4.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 4.2,
 			"ColorSpace": "sRGB",
@@ -10284,6 +10484,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.5 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -10291,6 +10492,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/28",
 			"UserComment": 1278,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1542,
@@ -10448,6 +10650,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioG3modelS.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.6",
 			"BrightnessValue": -4.2,
 			"ColorSpace": "sRGB",
@@ -10465,6 +10668,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -10472,6 +10676,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/42",
 			"UserComment": 1278,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1542,
@@ -10630,6 +10835,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplioG3modelM.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.6",
 			"BrightnessValue": -4.2,
 			"ColorSpace": "sRGB",
@@ -10647,6 +10853,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 161,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -10654,6 +10861,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/42",
 			"UserComment": 1278,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1542,
@@ -10812,6 +11020,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplio500SE.jpg",
 		"exifJS": {
+			"Aperture": 2.5,
 			"ApertureValue": "2.5",
 			"BrightnessValue": -0.1,
 			"ColorSpace": "sRGB",
@@ -10829,6 +11038,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 248,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -10836,6 +11046,7 @@
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/36",
 			"UserComment": 19464,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 20253,
@@ -11025,6 +11236,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplio500Gwide.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ApertureValue": "7.0",
 			"BrightnessValue": 7.6,
 			"ColorSpace": "sRGB",
@@ -11042,6 +11254,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "14.2 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Center-weighted average",
@@ -11049,6 +11262,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/330",
 			"UserComment": 22948,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 23212,
@@ -11183,6 +11397,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplio400Gwide.jpg",
 		"exifJS": {
+			"Aperture": 6.5,
 			"ApertureValue": "7.0",
 			"BrightnessValue": 8,
 			"ColorSpace": "sRGB",
@@ -11200,6 +11415,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -11207,6 +11423,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/203",
 			"UserComment": 1278,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1542,
@@ -11364,6 +11581,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCaplio300G.jpg",
 		"exifJS": {
+			"Aperture": 7.7,
 			"ApertureValue": "7.7",
 			"BrightnessValue": 8.9,
 			"ColorSpace": "sRGB",
@@ -11377,11 +11595,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FocalLength": "10.7 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/290",
 			"UserComment": 594,
 			"Copyright": "(C) by Caplio 300G User",
 			"DateTime": "2005:04:20 08:56:29",
@@ -11496,6 +11716,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCX6.jpg",
 		"exifJS": {
+			"Aperture": 7.4,
 			"ApertureValue": "7.5",
 			"BrightnessValue": 9.3,
 			"ColorSpace": "sRGB",
@@ -11513,6 +11734,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "RICOH ZOOM LENS",
 			"LensSpecification": [
@@ -11530,6 +11752,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/380",
 			"UserComment": 42732,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 42996,
@@ -11689,6 +11912,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCX5.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 6,
 			"ColorSpace": "sRGB",
@@ -11706,6 +11930,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18.3 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "RICOH ZOOM LENS",
 			"LensSpecification": [
@@ -11723,6 +11948,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/104",
 			"UserComment": 34300,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 34564,
@@ -11882,6 +12108,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCX4.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.4",
 			"BrightnessValue": -0.7,
 			"ColorSpace": "sRGB",
@@ -11899,6 +12126,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.5 mm",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "RICOH",
 			"LensModel": "RICOH ZOOM LENS",
 			"LensSpecification": [
@@ -11916,6 +12144,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "Standard Output Sensitivity",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/14",
 			"UserComment": 21916,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 22180,
@@ -12075,6 +12304,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCX3.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 7.8,
 			"ColorSpace": "sRGB",
@@ -12092,6 +12322,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18.3 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -12099,6 +12330,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"UserComment": 18144,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18408,
@@ -12253,6 +12485,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCX2.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ApertureValue": "7.0",
 			"BrightnessValue": 9.9,
 			"ColorSpace": "sRGB",
@@ -12270,6 +12503,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -12277,6 +12511,7 @@
 			"PixelYDimension": "2592 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/440",
 			"UserComment": 18036,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 18300,
@@ -12425,6 +12660,7 @@
 	{
 		"img": "sampleImages/Ricoh/RicohCX1.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 8.9,
 			"ColorSpace": "sRGB",
@@ -12442,6 +12678,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Spot",
@@ -12449,6 +12686,7 @@
 			"PixelYDimension": "2592 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/540",
 			"UserComment": 13556,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 13820,

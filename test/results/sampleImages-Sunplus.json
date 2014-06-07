@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Sunplus/SunplusSpca533.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -17,6 +18,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
@@ -25,6 +27,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2005:01:01 08:07:22",
 			"ImageDescription": "Sunplus",
@@ -100,6 +103,7 @@
 	{
 		"img": "sampleImages/Sunplus/SunplusSPCA536.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -115,12 +119,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/18",
 			"UserComment": 650,
 			"_IFDpointer_Interop": 1038,
 			"DateTime": "2007:09:13 12:32:42",
@@ -200,6 +206,7 @@
 	{
 		"img": "sampleImages/Sunplus/SunplusDVC302.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 7.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -222,6 +229,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -231,6 +239,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/246",
 			"SubjectArea": [
 				1024,
 				768,
@@ -327,6 +336,7 @@
 	{
 		"img": "sampleImages/Sunplus/SunplusDVC202.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 6.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -349,6 +359,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -358,6 +369,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/134",
 			"SubjectArea": [
 				800,
 				600,

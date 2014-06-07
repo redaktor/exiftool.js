@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_FashionCam.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15,11 +16,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SensingMethod": "Color sequential area",
+			"ShutterSpeed": "1/488",
 			"_IFDpointer_Interop": 738,
 			"_IFDpointer_Makernote": "124 124 033 041 033 062 008 010 119 112 333 100 015 120 141 069 018 w86 013 67890123456789012345Novatek Microelectronics",
 			"Copyright": "(C) by FashionCam User",
@@ -97,6 +100,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_DZ358.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -117,6 +121,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -127,6 +132,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/12",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 4978,
 			"_IFDpointer_Makernote": [
@@ -238,6 +244,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_DSC608.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "1.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -260,6 +267,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Average",
@@ -270,6 +278,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.3",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
 				65,
@@ -407,6 +416,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_DSC502.jpg",
 		"exifJS": {
+			"Aperture": 2.88,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -422,12 +432,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1968 px w",
 			"PixelYDimension": "2608 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/108",
 			"UserComment": 1062,
 			"DateTime": "2004:05:20 12:14:06",
 			"ImageDescription": "DATA0286.JPG",
@@ -507,6 +519,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_DSC.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -523,6 +536,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Average",
@@ -531,6 +545,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "8",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 1202,
 			"_IFDpointer_Makernote": 720,
@@ -616,6 +631,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_DCS711.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -632,12 +648,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18.9 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2760 px w",
 			"PixelYDimension": "3680 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/90",
 			"UserComment": 3068,
 			"_IFDpointer_Makernote": 1114,
 			"DateTime": "2010:02:28 18:37:41",
@@ -731,6 +749,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_409.jpg",
 		"exifJS": {
+			"Aperture": 6.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -744,11 +763,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1522",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 758,
 			"_IFDpointer_Makernote": "155 139 088 138 098 002 235 020 147 000 005 100 22 137 140 0000 56789012345678901234567890123456789012345678901234567890123",
@@ -829,6 +850,7 @@
 	{
 		"img": "sampleImages/DXG/DXG_106.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "0000:00:00 00:00:00",
@@ -838,9 +860,11 @@
 			"ExposureTime": "1/250",
 			"FNumber": 2.8,
 			"Flash": "No Flash",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/250",
 			"SubsecTime": 790,
 			"UserComment": 515,
 			"_IFDpointer_Interop": 561,
@@ -912,6 +936,7 @@
 	{
 		"img": "sampleImages/DXG/DXG528.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.9",
 			"CFAPattern": "truncated data",
 			"ColorSpace": "sRGB",
@@ -934,6 +959,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -945,6 +971,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectArea": [
 				0,

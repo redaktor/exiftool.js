@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Acer/AcerX960.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2009-09-23 17:40:52 UTC",
 			"DateTimeOriginal": "2009-09-23 17:40:52 UTC",
 			"ExifVersion": "2.20",
@@ -44,12 +45,14 @@
 	{
 		"img": "sampleImages/Acer/AcerStream.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
 			"DateTimeOriginal": "2011:05:27 13:18:32",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Interop": 286,
@@ -103,12 +106,14 @@
 	{
 		"img": "sampleImages/Acer/AcerS200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:04 18:25:39",
 			"DateTimeOriginal": "2010:06:04 18:25:39",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Interop": 398,
@@ -165,6 +170,7 @@
 	{
 		"img": "sampleImages/Acer/AcerM900.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -188,6 +194,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -198,6 +205,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -307,6 +315,7 @@
 	{
 		"img": "sampleImages/Acer/AcerLiquidMetal.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:02:13 14:01:35",
@@ -314,6 +323,7 @@
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Interop": 320,
@@ -388,6 +398,7 @@
 	{
 		"img": "sampleImages/Acer/AcerLiquid.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -399,6 +410,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.3 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
@@ -468,6 +480,7 @@
 	{
 		"img": "sampleImages/Acer/AcerE101.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010-06-09 23:15:52 UTC",
@@ -475,6 +488,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -555,6 +569,7 @@
 	{
 		"img": "sampleImages/Acer/AcerDX650.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010-11-14 16:25:16 UTC",
 			"DateTimeOriginal": "2010-11-14 16:25:16 UTC",
 			"ExifVersion": "2.20",
@@ -597,6 +612,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCU-6530.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -617,6 +633,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -626,6 +643,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/380",
 			"ShutterSpeedValue": "1/377",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -717,6 +735,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCS6530.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -737,6 +756,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -746,6 +766,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Night scene",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -837,6 +858,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCS5531.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -856,6 +878,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -864,6 +887,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 10958,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11092,
@@ -967,6 +991,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCR8530.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -987,6 +1012,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -996,6 +1022,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/55",
 			"ShutterSpeedValue": "1/55",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1087,6 +1114,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCP-8660.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1107,6 +1135,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1116,6 +1145,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1207,6 +1237,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCP-8531.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1226,6 +1257,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1234,6 +1266,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/638",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10688,
@@ -1336,6 +1369,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCL-6300.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1353,6 +1387,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1360,6 +1395,7 @@
 			"PixelYDimension": "2112 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 832,
@@ -1444,6 +1480,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCL-5300.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1461,6 +1498,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1468,6 +1506,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/55",
 			"ShutterSpeedValue": "1/55",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 832,
@@ -1552,6 +1591,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCI6330.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1571,6 +1611,7 @@
 			"FocalLength": "7.5 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1579,6 +1620,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/235",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11042,
 			"_IFDpointer_Makernote": 1034,
@@ -1679,6 +1721,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCI-8330.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1696,6 +1739,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1703,6 +1747,7 @@
 			"PixelYDimension": "1704 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "0.7",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 832,
@@ -1787,6 +1832,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCE6430.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1806,6 +1852,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2272 px w",
@@ -1813,6 +1860,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/1042",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 21026,
 			"_IFDpointer_Makernote": 1018,
@@ -1911,6 +1959,7 @@
 	{
 		"img": "sampleImages/Acer/AcerCE-5330.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1930,6 +1979,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1938,6 +1988,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10676,
 			"_IFDpointer_Makernote": 668,

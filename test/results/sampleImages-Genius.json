@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusGShot511.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -24,6 +25,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -33,6 +35,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"SubjectArea": [
 				512,
 				384,
@@ -129,6 +132,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusGShot312.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 9.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -151,6 +155,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -160,6 +165,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1540",
 			"SubjectArea": [
 				800,
 				600,
@@ -256,6 +262,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusG-ShotV3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -273,6 +280,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -282,6 +290,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/98",
 			"ShutterSpeedValue": "1/98",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32480,
@@ -369,6 +378,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusG-ShotP850.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -388,6 +398,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -397,6 +408,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"UserComment": 801,
 			"WhiteBalance": "Auto",
@@ -494,6 +506,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusG-ShotG512.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": null,
@@ -507,12 +520,14 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "NaN",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/20",
 			"UserComment": 618,
 			"_IFDpointer_Interop": 1006,
 			"DateTime": "2004:10:31 06:48:09",
@@ -589,6 +604,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusG-ShotA435.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -612,6 +628,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2272 px w",
@@ -621,6 +638,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/797",
 			"ShutterSpeedValue": "1/792",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -717,6 +735,7 @@
 	{
 		"img": "sampleImages/Genius/GeniusDV210.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -730,11 +749,13 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000022",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/135",
 			"ShutterSpeedValue": "1/137",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",

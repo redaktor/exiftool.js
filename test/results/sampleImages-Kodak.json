@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZx5.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 2,
 			"ColorSpace": "sRGB",
@@ -26,6 +27,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "High gain up",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -38,6 +40,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "KCTPB11414622",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -160,6 +163,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZx1PocketVideo.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -182,6 +186,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
@@ -190,6 +195,7 @@
 			"SceneCaptureType": "Standard",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/406",
 			"ShutterSpeedValue": "0",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1230,
@@ -320,6 +326,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZi8PocketVideo.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -342,6 +349,7 @@
 			"FocalLengthIn35mmFilm": "42 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3072 px w",
@@ -350,6 +358,7 @@
 			"SceneCaptureType": "Standard",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/904",
 			"ShutterSpeedValue": "1/904",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1230,
@@ -484,6 +493,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZi6PocketVideo.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -506,6 +516,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
@@ -514,6 +525,7 @@
 			"SceneCaptureType": "Standard",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/257",
 			"ShutterSpeedValue": "0",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1230,
@@ -644,6 +656,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZe2.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 14,
 			"ColorSpace": "sRGB",
@@ -668,6 +681,7 @@
 			"GainControl": "Low gain up",
 			"ISO": 125,
 			"ISOSpeed": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"PixelXDimension": "1280 px w",
@@ -679,6 +693,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "@AMBA",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2699",
 			"ShutterSpeedValue": "1/2699",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -789,6 +804,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZe1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 10,
 			"ColorSpace": "sRGB",
@@ -813,6 +829,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -825,6 +842,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "KCTPA11716651",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2000",
 			"ShutterSpeedValue": "1/2048",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -947,6 +965,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ885Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -969,6 +988,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -980,6 +1000,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1108,6 +1129,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ812IS_Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1130,6 +1152,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
 			"ISO": 109,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1141,6 +1164,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1270,6 +1294,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ760Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1286,6 +1311,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -1293,6 +1319,7 @@
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"_IFDpointer_Makernote": 722,
 			"CreateDate": "2014-05-31T15:30:52.000Z",
@@ -1410,6 +1437,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ7560Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1432,6 +1460,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -1442,6 +1471,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/315",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1564,6 +1594,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ740Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1586,6 +1617,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1596,6 +1628,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1718,6 +1751,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ730Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1740,6 +1774,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1750,6 +1785,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -1872,6 +1908,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ712IS_Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1894,6 +1931,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1905,6 +1943,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2033,6 +2072,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ700Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2055,6 +2095,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2065,6 +2106,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2187,6 +2229,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ650Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2209,6 +2252,7 @@
 			"FocalLengthIn35mmFilm": "69 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -2219,6 +2263,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"ShutterSpeedValue": "1/630",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2352,6 +2397,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ612Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2374,6 +2420,7 @@
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -2385,6 +2432,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2508,6 +2556,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ1285Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2530,6 +2579,7 @@
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -2541,6 +2591,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/323",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2669,6 +2720,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakZ1275Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2691,6 +2743,7 @@
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -2702,6 +2755,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2831,6 +2885,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV705DUAL_LENS.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2853,6 +2908,7 @@
 			"FocalLengthIn35mmFilm": "23 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2863,6 +2919,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"ShutterSpeedValue": "1/161",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2996,6 +3053,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV610DUAL_LENS.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3018,6 +3076,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -3028,6 +3087,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/388",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3161,6 +3221,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV603Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3183,6 +3244,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3193,6 +3255,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"ShutterSpeedValue": "1/630",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3326,6 +3389,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV570DUAL_LENS.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3348,6 +3412,7 @@
 			"FocalLengthIn35mmFilm": "23 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3358,6 +3423,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/256",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3491,6 +3557,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV550Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3513,6 +3580,7 @@
 			"FocalLengthIn35mmFilm": "108 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
@@ -3523,6 +3591,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3656,6 +3725,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV530Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3678,6 +3748,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3688,6 +3759,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3808,6 +3880,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV1253Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3830,6 +3903,7 @@
 			"FocalLengthIn35mmFilm": "72 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -3841,6 +3915,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -3969,6 +4044,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakV1233Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3991,6 +4067,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -4002,6 +4079,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -4130,6 +4208,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakSliceTouchscreen.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 4,
 			"ColorSpace": "sRGB",
@@ -4153,6 +4232,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
@@ -4164,6 +4244,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIB",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -4301,6 +4382,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakRFS3600FilmScanner.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:09:09 10:43:01",
@@ -4310,6 +4392,7 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "1200.000000",
 			"FocalPlaneYResolution": "1200.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "470 px w",
 			"PixelYDimension": "330 px h",
 			"SubsecTime": 14,
@@ -4390,12 +4473,14 @@
 	{
 		"img": "sampleImages/Kodak/KodakProSLRn.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:02:07 11:34:40",
 			"DateTimeOriginal": "2004:02:07 11:34:40",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "4500 px w",
 			"PixelYDimension": "3000 px h",
 			"_IFDpointer_Interop": 8,
@@ -4530,6 +4615,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakProSLRc.jpg",
 		"exifJS": {
+			"Aperture": 1.4,
 			"ApertureValue": "1.4",
 			"BrightnessValue": -0.70703125,
 			"ColorSpace": 0,
@@ -4547,12 +4633,14 @@
 			"FocalPlaneXResolution": "9.000000",
 			"FocalPlaneYResolution": "9.000000",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.6",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "853 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"DateTime": "2005:02:15 08:46:32",
 			"Make": "Kodak",
@@ -4734,6 +4822,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakProDCS14n.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BitsPerSample": [
 				8,
 				8,
@@ -4876,12 +4965,14 @@
 	{
 		"img": "sampleImages/Kodak/KodakProBack.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:03:13 12:33:04",
 			"DateTimeOriginal": "2004:03:13 12:33:04",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "4062 px w",
 			"PixelYDimension": "2902 px h",
 			"_IFDpointer_Interop": 8,
@@ -4951,6 +5042,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakPictureMakerG3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4967,10 +5059,12 @@
 			"FocalLength": "4.6 mm",
 			"GainControl": "High gain up",
 			"ISO": 487,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1800 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 606,
@@ -5050,6 +5144,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakPictureKioskG4.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5071,12 +5166,14 @@
 			"FocalPlaneXResolution": "26214.400000",
 			"FocalPlaneYResolution": "26175.600000",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "5.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3072 px w",
 			"PixelYDimension": "2304 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1250",
 			"ShutterSpeedValue": "1/1244",
 			"UserComment": 726,
 			"WhiteBalance": "Auto",
@@ -5170,12 +5267,14 @@
 	{
 		"img": "sampleImages/Kodak/KodakPalmPixV1.2.0000.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2001:03:28 20:09:06",
 			"DateTimeOriginal": "2001:03:28 20:09:06",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SerialNumber": "@K",
@@ -5239,6 +5338,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakPIXPRO_AZ521.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ApertureValue": "4.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5258,6 +5358,7 @@
 			"FocalLength": "4.3 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -5265,6 +5366,7 @@
 			"PixelYDimension": "3456 px h",
 			"SceneCaptureType": "Landscape",
 			"SerialNumber": "MM",
+			"ShutterSpeed": "1/600",
 			"ShutterSpeedValue": "1/588",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21497,
@@ -5360,6 +5462,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakPIXPRO_AZ362.jpg",
 		"exifJS": {
+			"Aperture": 7.7,
 			"ApertureValue": "7.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5379,6 +5482,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Average",
@@ -5386,6 +5490,7 @@
 			"PixelYDimension": "3456 px h",
 			"SceneCaptureType": "Landscape",
 			"SerialNumber": "MM",
+			"ShutterSpeed": "1/105",
 			"ShutterSpeedValue": "1/102",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1005,
@@ -5481,6 +5586,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakPIXPRO_AZ361.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ApertureValue": "5.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5500,6 +5606,7 @@
 			"FocalLength": "21.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Average",
@@ -5507,6 +5614,7 @@
 			"PixelYDimension": "3456 px h",
 			"SceneCaptureType": "Standard",
 			"SerialNumber": "MM",
+			"ShutterSpeed": "1/550",
 			"ShutterSpeedValue": "1/526",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 978,
@@ -5602,6 +5710,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakPIXPRO_AZ251.jpg",
 		"exifJS": {
+			"Aperture": 11.07,
 			"ApertureValue": "11.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5621,6 +5730,7 @@
 			"FocalLength": "4.3 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -5628,6 +5738,7 @@
 			"PixelYDimension": "3456 px h",
 			"SceneCaptureType": "Landscape",
 			"SerialNumber": "MM",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/122",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1005,
@@ -5723,6 +5834,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakP880Zoom.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ApertureValue": "6.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5745,6 +5857,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -5756,6 +5869,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2500",
 			"ShutterSpeedValue": "1/2574",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -5869,6 +5983,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakP850Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5891,6 +6006,7 @@
 			"FocalLengthIn35mmFilm": "54 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -5902,6 +6018,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6015,6 +6132,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakP712Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6037,6 +6155,7 @@
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -6048,6 +6167,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6161,6 +6281,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakMiniVideoZm1.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6183,6 +6304,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
@@ -6190,6 +6312,7 @@
 			"Saturation": "Normal",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/222",
 			"ShutterSpeedValue": "1/221",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 720,
@@ -6285,6 +6408,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakMC3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6299,12 +6423,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/10000",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 620,
 			"DateTime": "2001:04:14 13:17:42",
@@ -6391,6 +6517,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakLS755Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6413,6 +6540,7 @@
 			"FocalLengthIn35mmFilm": "108 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
@@ -6424,6 +6552,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KYDR450D2741",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6516,6 +6645,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakLS753.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6537,6 +6667,7 @@
 			"FocalLength": "7.3 mm",
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -6547,6 +6678,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6680,6 +6812,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakLS743.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6701,6 +6834,7 @@
 			"FocalLength": "7.3 mm",
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -6711,6 +6845,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6844,6 +6979,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakLS633Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6865,6 +7001,7 @@
 			"FocalLength": "10.1 mm",
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -6875,6 +7012,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6997,6 +7135,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakLS443.jpg",
 		"exifJS": {
+			"Aperture": 9.5,
 			"ApertureValue": "9.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7018,6 +7157,7 @@
 			"FocalLength": "9.8 mm",
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Average",
@@ -7028,6 +7168,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -7149,6 +7290,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakLS420.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ApertureValue": "3.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7170,6 +7312,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Average",
@@ -7180,6 +7323,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/11",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -7301,6 +7445,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEasyShareZ990.jpg",
 		"exifJS": {
+			"Aperture": 11.1,
 			"ApertureValue": "11.3",
 			"BrightnessValue": 5,
 			"ColorSpace": "sRGB",
@@ -7324,6 +7469,7 @@
 			"FocalLengthIn35mmFilm": "80 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -7336,6 +7482,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "II(",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -7465,6 +7612,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEasyShareZ981.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 4,
 			"ColorSpace": "sRGB",
@@ -7488,6 +7636,7 @@
 			"FocalLengthIn35mmFilm": "676 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.9",
 			"MeteringMode": "Partial",
@@ -7499,6 +7648,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "II(",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/160",
 			"ShutterSpeedValue": "1/158",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -7627,6 +7777,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEasyShareZ980.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"BrightnessValue": 4,
 			"ColorSpace": "sRGB",
@@ -7650,6 +7801,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Partial",
@@ -7661,6 +7813,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "II(",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/388",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -7787,6 +7940,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEasyShareZ5010.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"BrightnessValue": 3,
 			"ColorSpace": "sRGB",
@@ -7810,6 +7964,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Partial",
@@ -7822,6 +7977,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "II(",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/49",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -7951,6 +8107,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEasyShare-One.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7973,6 +8130,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7983,6 +8141,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -8116,6 +8275,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_ZD710Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8138,6 +8298,7 @@
 			"FocalLengthIn35mmFilm": "117 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -8149,6 +8310,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/323",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -8266,6 +8428,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z950.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -8289,6 +8452,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8300,6 +8464,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"ShutterSpeedValue": "1/645",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 80,
@@ -8437,6 +8602,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z915.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"BrightnessValue": 2,
 			"ColorSpace": "sRGB",
@@ -8460,6 +8626,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -8472,6 +8639,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "II",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"ShutterSpeedValue": "1/813",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 55,
@@ -8604,6 +8772,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z8612IS.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ApertureValue": "7.2",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -8627,6 +8796,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -8638,6 +8808,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/406",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 546,
@@ -8766,6 +8937,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z710Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8788,6 +8960,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -8798,6 +8971,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1250",
 			"ShutterSpeedValue": "1/1290",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -8931,6 +9105,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z1085IS_Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.9",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -8954,6 +9129,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -8965,6 +9141,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"ShutterSpeedValue": "1/645",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 11,
@@ -9102,6 +9279,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z1015IS.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9124,6 +9302,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
@@ -9135,6 +9314,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "II(",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
@@ -9240,6 +9420,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Z1012IS.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -9263,6 +9444,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "High gain up",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -9274,6 +9456,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1600",
 			"ShutterSpeedValue": "1/1625",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 81,
@@ -9410,6 +9593,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Wireless.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -9433,6 +9617,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "High gain up",
 			"ISO": 192,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-segment",
@@ -9445,6 +9630,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "IIIIPt",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -9574,6 +9760,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_V803Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9596,6 +9783,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -9607,6 +9795,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCTGR70331238",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 12048,
@@ -9725,6 +9914,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_V1273.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.4",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -9748,6 +9938,7 @@
 			"FocalLengthIn35mmFilm": "72 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-segment",
@@ -9759,6 +9950,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/102",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 7,
@@ -9895,6 +10087,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_V1073.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -9918,6 +10111,7 @@
 			"FocalLengthIn35mmFilm": "111 mm",
 			"GainControl": "High gain up",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
@@ -9929,6 +10123,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/102",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 81,
@@ -10065,6 +10260,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_V1003Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10087,6 +10283,7 @@
 			"FocalLengthIn35mmFilm": "108 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.9",
 			"MeteringMode": "Multi-segment",
@@ -10098,6 +10295,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCTGX71161244",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/800",
 			"ShutterSpeedValue": "1/809",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 12048,
@@ -10216,6 +10414,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Sport.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"BrightnessValue": 9,
 			"ColorSpace": "sRGB",
@@ -10239,6 +10438,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Multi-segment",
@@ -10251,6 +10451,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "IIIIPt",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Manual",
@@ -10376,6 +10577,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_Mini.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ApertureValue": "4.7",
 			"BrightnessValue": 2,
 			"ColorSpace": "sRGB",
@@ -10399,6 +10601,7 @@
 			"FocalLengthIn35mmFilm": "56 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.7",
 			"MeteringMode": "Multi-segment",
@@ -10411,6 +10614,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "IIIIPt",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -10536,6 +10740,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M893IS.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10558,6 +10763,7 @@
 			"FocalLengthIn35mmFilm": "82 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "4.6",
 			"MeteringMode": "Center-weighted average",
@@ -10569,6 +10775,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCFHX82103961",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/160",
 			"ShutterSpeedValue": "1/161",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
@@ -10684,6 +10891,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M883Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10706,6 +10914,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -10717,6 +10926,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "AOCII",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"ShutterSpeedValue": "1/588",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -10842,6 +11052,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M873Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ApertureValue": "4.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10864,6 +11075,7 @@
 			"FocalLengthIn35mmFilm": "68 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.3",
 			"MeteringMode": "Multi-segment",
@@ -10875,6 +11087,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "AOCII",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"ShutterSpeedValue": "1/79",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -11041,6 +11254,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M863.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11063,6 +11277,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "Low gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -11074,6 +11289,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "M863 020402913",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -11188,6 +11404,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M853Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11210,6 +11427,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -11221,6 +11439,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "M853 0F0141789",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/732",
 			"ShutterSpeedValue": "1/729",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -11337,6 +11556,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M763.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11359,6 +11579,7 @@
 			"FocalLengthIn35mmFilm": "102 mm",
 			"GainControl": "High gain up",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -11370,6 +11591,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "M763 090562312",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/90",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -11484,6 +11706,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M753Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11500,6 +11723,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -11507,6 +11731,7 @@
 			"PixelYDimension": "600 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"Make": "EASTMAN KODAK COMPANY",
 			"Model": "KODAK EASYSHARE M753 ZOOM DIGITAL CAMERA",
@@ -11596,6 +11821,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M590.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 4,
 			"ColorSpace": "sRGB",
@@ -11619,6 +11845,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.8",
 			"MeteringMode": "Multi-segment",
@@ -11630,6 +11857,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIB",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -11765,6 +11993,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M580.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ApertureValue": "4.1",
 			"BrightnessValue": 4,
 			"ColorSpace": "sRGB",
@@ -11788,6 +12017,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Multi-segment",
@@ -11799,6 +12029,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIB",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -11934,6 +12165,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M575.jpg",
 		"exifJS": {
+			"Aperture": 5.9,
 			"ApertureValue": "5.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11956,6 +12188,7 @@
 			"FocalLengthIn35mmFilm": "71 mm",
 			"GainControl": "High gain up",
 			"ISO": 640,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.9",
 			"MeteringMode": "Multi-segment",
@@ -11967,6 +12200,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIIIPtN",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"ShutterSpeedValue": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -12089,6 +12323,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M550.jpg",
 		"exifJS": {
+			"Aperture": 8.6,
 			"ApertureValue": "8.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12111,6 +12346,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Center-weighted average",
@@ -12122,6 +12358,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIIIPtc",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/322",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -12242,6 +12479,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M5370.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 7,
 			"ColorSpace": "sRGB",
@@ -12265,6 +12503,7 @@
 			"FocalLengthIn35mmFilm": "140 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Center-weighted average",
@@ -12277,6 +12516,7 @@
 			"SensitivityType": "ISO Speed",
 			"SerialNumber": "II",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeDigitized": 0,
@@ -12417,6 +12657,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M530.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12439,6 +12680,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "High gain up",
 			"ISO": 282,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-segment",
@@ -12450,6 +12692,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIIIPt",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -12574,6 +12817,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M380.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ApertureValue": "4.8",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -12597,6 +12841,7 @@
 			"FocalLengthIn35mmFilm": "98 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -12609,6 +12854,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "II",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/102",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 38,
@@ -12741,6 +12987,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M340.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12763,6 +13010,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -12774,6 +13022,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIII/t6",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -12892,6 +13141,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M320.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12914,6 +13164,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "High gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -12925,6 +13176,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIIIh",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13043,6 +13295,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M1093IS.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -13066,6 +13319,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
@@ -13077,6 +13331,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 72,
@@ -13214,6 +13469,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M1073IS.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13236,6 +13492,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "High gain up",
 			"ISO": 640,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -13247,6 +13504,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCFJK82702852",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13364,6 +13622,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M1063.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13386,6 +13645,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -13397,6 +13657,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "8v",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13502,6 +13763,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_M1033.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -13525,6 +13787,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "High gain up",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-segment",
@@ -13536,6 +13799,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "MM",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/102",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTimeOriginal": 66,
@@ -13672,6 +13936,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_CX7310.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13695,6 +13960,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2080 px w",
@@ -13705,6 +13971,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13810,6 +14077,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_CX7300.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13833,6 +14101,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1024 px w",
@@ -13843,6 +14112,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "CX730X9080767",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -13949,6 +14219,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_CX7220Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.22,
 			"ApertureValue": "4.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -13972,6 +14243,7 @@
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.2",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1632 px w",
@@ -13982,6 +14254,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "CX72204103579",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/334",
 			"ShutterSpeedValue": "1/333",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -14088,6 +14361,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_CX6230Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5.17,
 			"ApertureValue": "5.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14111,6 +14385,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "816 px w",
@@ -14121,6 +14396,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "wIp",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1701",
 			"ShutterSpeedValue": "1/1698",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -14231,6 +14507,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C913.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14253,6 +14530,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -14264,6 +14542,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIIIh",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"ShutterSpeedValue": "1/80",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -14382,6 +14661,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C813Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14404,6 +14684,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -14415,6 +14696,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C813 0E1903814",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -14532,6 +14814,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C763Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14549,6 +14832,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3072 px w",
@@ -14556,6 +14840,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C76347181249",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/124",
 			"_IFDpointer_Interop": 5972,
 			"_IFDpointer_Makernote": 634,
@@ -14641,6 +14926,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C753Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14663,6 +14949,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -14674,6 +14961,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/430",
 			"ShutterSpeedValue": "1/428",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -14790,6 +15078,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C743Zoom.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14813,6 +15102,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3072 px w",
@@ -14823,6 +15113,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C74314082223",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/320",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -14940,6 +15231,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C713Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14962,6 +15254,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -14973,6 +15266,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C713 0C0583107",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/128",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -15079,6 +15373,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C653Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15101,6 +15396,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -15112,6 +15408,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCFGP70208692",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -15216,6 +15513,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C643Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15239,6 +15537,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2848 px w",
@@ -15249,6 +15548,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C643X14992102",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/164",
 			"ShutterSpeedValue": "1/163",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -15366,6 +15666,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C633Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ApertureValue": "4.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15389,6 +15690,7 @@
 			"FocalLengthIn35mmFilm": "87 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.3",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2848 px w",
@@ -15399,6 +15701,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C63374704014",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/109",
 			"ShutterSpeedValue": "1/109",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -15516,6 +15819,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C613Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15538,6 +15842,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -15549,6 +15854,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C613 031642530",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -15655,6 +15961,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C533Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15677,6 +15984,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -15688,6 +15996,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCFFR60800051",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1500",
 			"ShutterSpeedValue": "1/1448",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -15804,6 +16113,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C513Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.700000047683716,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15826,6 +16136,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -15837,6 +16148,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C513 150783830",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 0,
@@ -15958,6 +16270,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C433Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15980,6 +16293,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -15991,6 +16305,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCFFK63708281",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16095,6 +16410,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C315.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16118,6 +16434,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2576 px w",
@@ -16128,6 +16445,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C530 01891884",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16234,6 +16552,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C300.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16257,6 +16576,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1024 px w",
@@ -16267,6 +16587,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"ShutterSpeedValue": "0.5",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16372,6 +16693,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C180.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16394,6 +16716,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -16405,6 +16728,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIII/t",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/320",
 			"ShutterSpeedValue": "1/320",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16523,6 +16847,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C140.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16545,6 +16870,7 @@
 			"FocalLengthIn35mmFilm": "70 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Multi-segment",
@@ -16556,6 +16882,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIII:t",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/996",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16668,6 +16995,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakEASYSHARE_C1013.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ApertureValue": "4.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16690,6 +17018,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -16701,6 +17030,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "IIIIh",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/399",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16819,6 +17149,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX7630.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -16841,6 +17172,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -16851,6 +17183,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -16984,6 +17317,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX7590.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17006,6 +17340,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17016,6 +17351,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -17149,6 +17485,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX7440.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17171,6 +17508,7 @@
 			"FocalLengthIn35mmFilm": "40 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -17181,6 +17519,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -17314,6 +17653,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX6490.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17335,6 +17675,7 @@
 			"FocalLength": "7.1 mm",
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -17345,6 +17686,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -17478,6 +17820,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX6440.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17499,6 +17842,7 @@
 			"FocalLength": "6.7 mm",
 			"FocalLengthIn35mmFilm": "40 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -17509,6 +17853,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1500",
 			"ShutterSpeedValue": "1/1448",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -17630,6 +17975,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX6340.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17651,6 +17997,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "52 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -17661,6 +18008,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/23",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -17782,6 +18130,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX4900.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17797,6 +18146,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.2 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Average",
@@ -17804,6 +18154,7 @@
 			"PixelYDimension": "1632 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/180",
 			"ShutterSpeedValue": "1/181",
 			"_IFDpointer_Interop": 1900,
 			"_IFDpointer_Makernote": 968,
@@ -17910,6 +18261,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX4530.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -17931,6 +18283,7 @@
 			"FocalLength": "10.7 mm",
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -17941,6 +18294,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/11",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -18062,6 +18416,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX4330.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18083,6 +18438,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -18093,6 +18449,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/11",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -18214,6 +18571,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX3900.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18229,6 +18587,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -18236,6 +18595,7 @@
 			"PixelYDimension": "1440 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"_IFDpointer_Interop": 1900,
 			"_IFDpointer_Makernote": 968,
@@ -18342,6 +18702,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX3700.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18358,6 +18719,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -18366,6 +18728,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": ".",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 1220,
 			"_IFDpointer_Makernote": 752,
@@ -18460,6 +18823,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX3600.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18475,6 +18839,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.7 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Average",
@@ -18482,6 +18847,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"SubjectDistance": "2.02 m",
 			"_IFDpointer_Interop": 1850,
@@ -18590,6 +18956,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX3500.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18605,6 +18972,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.1 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Average",
@@ -18612,6 +18980,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 1842,
 			"_IFDpointer_Makernote": 962,
@@ -18718,6 +19087,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDX3215.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ApertureValue": "4.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18734,6 +19104,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Center-weighted average",
@@ -18742,6 +19113,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 1220,
 			"_IFDpointer_Makernote": 752,
@@ -18836,6 +19208,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDCS_Pro14nx.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"DateTimeOriginal": "2007:07:19 18:10:15",
@@ -18851,12 +19224,14 @@
 			"FocalPlaneXResolution": "9.000000",
 			"FocalPlaneYResolution": "9.000000",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "1000 px w",
 			"PixelYDimension": "666 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/125",
 			"SubsecTime": 468,
 			"_IFDpointer_Interop": 682,
@@ -18981,6 +19356,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDCS_Pro14N.jpg",
 		"exifJS": {
+			"Aperture": 32,
 			"ApertureValue": "32.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18993,10 +19369,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "700 px w",
 			"PixelYDimension": "550 px h",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 156,
 			"_IFDpointer_Interop": 569,
@@ -19068,6 +19446,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDCS760C.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "5.0",
 			"BrightnessValue": 8.9306640625,
 			"ColorSpace": "sRGB",
@@ -19086,12 +19465,14 @@
 			"FocalPlaneXResolution": "9.000000",
 			"FocalPlaneYResolution": "9.000000",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "1516 px w",
 			"PixelYDimension": "1004 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"Copyright": "james robinson taylor",
 			"DateTime": "2004:06:26 15:19:57",
@@ -19232,6 +19613,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC5000.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19246,6 +19628,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Average",
@@ -19254,6 +19637,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 1294,
 			"_IFDpointer_Makernote": 714,
@@ -19357,6 +19741,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC4900.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19372,6 +19757,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.2 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Average",
@@ -19379,6 +19765,7 @@
 			"PixelYDimension": "1632 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/180",
 			"ShutterSpeedValue": "1/181",
 			"_IFDpointer_Interop": 1900,
 			"_IFDpointer_Makernote": 968,
@@ -19485,6 +19872,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC4800.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19500,6 +19888,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.1 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Average",
@@ -19507,6 +19896,7 @@
 			"PixelYDimension": "1440 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"SubjectDistance": "1.93 m",
 			"_IFDpointer_Interop": 1540,
@@ -19615,12 +20005,14 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC3800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2000:09:07 22:19:01",
 			"DateTimeOriginal": "2000:09:07 22:19:01",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1184 px h",
 			"_IFDpointer_Interop": 318,
@@ -19674,6 +20066,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC3400.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19688,6 +20081,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -19696,6 +20090,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 1294,
 			"_IFDpointer_Makernote": 714,
@@ -19799,6 +20194,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC3200.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19813,6 +20209,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -19820,6 +20217,7 @@
 			"PixelYDimension": "864 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/360",
 			"ShutterSpeedValue": "1/362",
 			"SubjectDistance": "2 m",
 			"_IFDpointer_Interop": 574,
@@ -19892,6 +20290,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC290.jpg",
 		"exifJS": {
+			"Aperture": 3.03,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19903,12 +20302,14 @@
 			"FNumber": 3.03,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"SerialNumber": "Eastman",
+			"ShutterSpeed": "2",
 			"ShutterSpeedValue": "0.5",
 			"SubjectDistance": "1.47 m",
 			"_IFDpointer_Makernote": 516,
@@ -20004,6 +20405,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC280.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20018,6 +20420,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.7",
 			"MeteringMode": "Average",
@@ -20026,6 +20429,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 1292,
 			"_IFDpointer_Makernote": 712,
@@ -20129,6 +20533,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC265.jpg",
 		"exifJS": {
+			"Aperture": 2.83,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20141,12 +20546,14 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "1024 px h",
 			"SerialNumber": "Eastman",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "0.48 m",
 			"_IFDpointer_Makernote": 528,
@@ -20243,6 +20650,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC260.jpg",
 		"exifJS": {
+			"Aperture": 4.66,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20254,12 +20662,14 @@
 			"FNumber": 4.66,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "1024 px h",
 			"SerialNumber": "Eastman",
+			"ShutterSpeed": "1/206",
 			"ShutterSpeedValue": "1/256",
 			"SubjectDistance": "5 m",
 			"_IFDpointer_Makernote": 512,
@@ -20360,6 +20770,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC240Zoom.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ApertureValue": "11.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20374,6 +20785,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Average",
@@ -20382,6 +20794,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/91",
 			"_IFDpointer_Interop": 1284,
 			"_IFDpointer_Makernote": 712,
@@ -20475,6 +20888,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC2300.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20486,8 +20900,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/244",
 			"ShutterSpeedValue": "1/247",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2003:08:23 12:24:51",
@@ -20554,6 +20970,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC220.jpg",
 		"exifJS": {
+			"Aperture": 4.76,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20565,12 +20982,14 @@
 			"FNumber": 4.76,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "864 px h",
 			"SerialNumber": "Eastman",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/256",
 			"SubjectDistance": "0 m",
 			"_IFDpointer_Makernote": 512,
@@ -20670,6 +21089,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC215Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"BrightnessValue": 7.5,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20685,6 +21105,7 @@
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Center-weighted average",
 			"SerialNumber": "ef",
+			"ShutterSpeed": "1/180",
 			"ShutterSpeedValue": "1/181",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Makernote": 684,
@@ -20766,6 +21187,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC210Zoom.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ApertureValue": "11.3",
 			"BrightnessValue": 10,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20781,6 +21203,7 @@
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Center-weighted average",
 			"SerialNumber": "",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/256",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Makernote": 684,
@@ -20862,6 +21285,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakDC200.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"BrightnessValue": 2,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20877,6 +21301,7 @@
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Center-weighted average",
 			"SerialNumber": ".d",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Makernote": 684,
@@ -20958,6 +21383,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX7530.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20979,6 +21405,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -20989,6 +21416,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -21122,6 +21550,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX7525Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21143,6 +21572,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -21153,6 +21583,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -21286,6 +21717,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX7430.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21307,6 +21739,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -21317,6 +21750,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -21450,6 +21884,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX7330.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21471,6 +21906,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -21481,6 +21917,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/11",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -21602,6 +22039,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX6445Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21623,6 +22061,7 @@
 			"FocalLength": "5.5 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.2",
 			"MeteringMode": "Multi-segment",
@@ -21633,6 +22072,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -21755,6 +22195,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX6330.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21776,6 +22217,7 @@
 			"FocalLength": "7 mm",
 			"FocalLengthIn35mmFilm": "46 mm",
 			"GainControl": "Low gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -21786,6 +22228,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/23",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -21907,6 +22350,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX6200.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -21930,6 +22374,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1632 px w",
@@ -21940,6 +22385,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "w",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2000",
 			"ShutterSpeedValue": "1/1992",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -22049,6 +22495,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX4310.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22072,6 +22519,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2080 px w",
@@ -22082,6 +22530,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "UD",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/383",
 			"ShutterSpeedValue": "1/383",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -22192,6 +22641,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX4300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22215,6 +22665,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2080 px w",
@@ -22225,6 +22676,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "K",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -22335,6 +22787,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX4230zoom.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "6.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22358,6 +22811,7 @@
 			"FocalLengthIn35mmFilm": "64 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1632 px w",
@@ -22368,6 +22822,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "K",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/481",
 			"ShutterSpeedValue": "1/481",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -22477,6 +22932,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX4210.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22500,6 +22956,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1632 px w",
@@ -22510,6 +22967,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "W",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/401",
 			"ShutterSpeedValue": "1/399",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -22620,6 +23078,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCX4200macro.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22643,6 +23102,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1632 px w",
@@ -22653,6 +23113,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "R",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -22762,6 +23223,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCLAS_DigitalFilmScanner.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2003:04:29 01:59:13",
@@ -22770,6 +23232,7 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "1131.000000",
 			"FocalPlaneYResolution": "1131.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "1024 px h",
 			"DateTime": "2003:04:29 01:59:13",
@@ -22832,6 +23295,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCD43Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ApertureValue": "4.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22855,6 +23319,7 @@
 			"FocalLengthIn35mmFilm": "102 mm",
 			"GainControl": "Low gain up",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
@@ -22865,6 +23330,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "CD4330702984",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/89",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -22971,6 +23437,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakCD33Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -22994,6 +23461,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "Low gain up",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1664 px w",
@@ -23004,6 +23472,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "CD3300700223",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/112",
 			"ShutterSpeedValue": "1/111",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -23110,6 +23579,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakC875Zoom.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23132,6 +23602,7 @@
 			"FocalLengthIn35mmFilm": "133 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -23142,6 +23613,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "6",
 			"ShutterSpeedValue": "1/6",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -23275,6 +23747,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakC663Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23297,6 +23770,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -23307,6 +23781,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1600",
 			"ShutterSpeedValue": "1/1552",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -23440,6 +23915,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakC360Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23462,6 +23938,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -23472,6 +23949,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -23594,6 +24072,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakC340Zoom.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23616,6 +24095,7 @@
 			"FocalLengthIn35mmFilm": "66 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -23627,6 +24107,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "KCFED51711047",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -23731,6 +24212,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakC330Zoom.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23754,6 +24236,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "Low gain up",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
@@ -23764,6 +24247,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C33000641478",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/112",
 			"ShutterSpeedValue": "1/111",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -23870,6 +24354,7 @@
 	{
 		"img": "sampleImages/Kodak/KodakC310.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23893,6 +24378,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1216 px w",
@@ -23903,6 +24389,7 @@
 			"SensingMethod": "One-chip color area",
 			"SerialNumber": "C31030872732",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -24009,6 +24496,7 @@
 	{
 		"img": "sampleImages/Kodak/Kodak660.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": ":  :     :  :",
@@ -24017,6 +24505,7 @@
 			"FocalPlaneResolutionUnit": 0,
 			"FocalPlaneXResolution": "0.000000",
 			"FocalPlaneYResolution": "0.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1909 px w",
 			"PixelYDimension": "1273 px h",
 			"SerialNumber": "13:25:00",
@@ -24092,6 +24581,7 @@
 	{
 		"img": "sampleImages/Kodak/Kodak1640FilmScanner.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.00",
@@ -24099,6 +24589,7 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "1407.000000",
 			"FocalPlaneYResolution": "1407.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1500 px w",
 			"PixelYDimension": "856 px h",
 			"Make": "Eastman Kodak Company",

@@ -2,9 +2,11 @@
 	{
 		"img": "sampleImages/OMG/OMGLIFE_AutographerV1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ExposureMode": "Auto",
 			"ExposureTime": "1/143",
+			"ShutterSpeed": "1/143",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": "Camera Stats: exp 2736 gain 1.25 fps 12.00 frames2converge 3  awbr 1888 awbg 1024 awbb 1088",
 			"GPSAltitude": "0 m Above Sea Level",

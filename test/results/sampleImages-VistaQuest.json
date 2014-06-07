@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/VistaQuest/VistaQuestVQ2110.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.638716666666667,
@@ -17,10 +18,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/215",
 			"_IFDpointer_Interop": 920,
 			"_IFDpointer_Makernote": 664,
 			"DateTime": "2003:04:15 21:23:06",

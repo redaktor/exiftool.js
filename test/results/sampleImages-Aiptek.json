@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Aiptek/Aiptek_iDV.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,6 +19,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 10000,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -26,6 +28,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/274",
 			"ShutterSpeedValue": "0.5",
 			"_IFDpointer_Interop": 1238,
 			"_IFDpointer_Makernote": 698,
@@ -110,6 +113,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekVS-3.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -126,6 +130,7 @@
 			"Flash": "On, Flash fired, compulsory flash mode, red-eye reduction mode, return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -134,6 +139,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/11",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 832,
 			"_IFDpointer_Makernote": 674,
@@ -218,6 +224,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekHDDV8300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -233,12 +240,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
 			"ISO": 192,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/4",
 			"UserComment": 609,
 			"_IFDpointer_Interop": 997,
 			"DateTime": "2010:04:23 12:32:24",
@@ -317,6 +326,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDZO-V59.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -332,6 +342,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -339,6 +350,7 @@
 			"PixelYDimension": "2688 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/25",
 			"_IFDpointer_Interop": 1082,
 			"_IFDpointer_Makernote": 622,
 			"DateTime": "1979:02:17 19:47:00",
@@ -417,6 +429,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV_M2.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -433,6 +446,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -441,6 +455,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/809",
 			"ShutterSpeedValue": "0.5",
 			"_IFDpointer_Interop": 804,
 			"_IFDpointer_Makernote": 692,
@@ -525,6 +540,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV_Cam2.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -541,6 +557,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -549,6 +566,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/109",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 834,
 			"_IFDpointer_Makernote": 676,
@@ -633,6 +651,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV8800N.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "32.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -649,6 +668,7 @@
 			"Flash": "On, Flash fired, compulsory flash mode, red-eye reduction mode, return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "32.0",
 			"MeteringMode": "Average",
@@ -657,6 +677,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/340",
 			"ShutterSpeedValue": "1/512",
 			"_IFDpointer_Interop": 1158,
 			"_IFDpointer_Makernote": 676,
@@ -741,6 +762,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV8800.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -757,6 +779,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -765,6 +788,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 834,
 			"_IFDpointer_Makernote": 676,
@@ -849,6 +873,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV6800S.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -865,6 +890,7 @@
 			"Flash": "On, Flash fired, compulsory flash mode, red-eye reduction mode, return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -873,6 +899,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/11",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 836,
 			"_IFDpointer_Makernote": 678,
@@ -957,6 +984,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV6800.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -973,6 +1001,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -981,6 +1010,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/11",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 834,
 			"_IFDpointer_Makernote": 676,
@@ -1065,6 +1095,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV5700.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1081,6 +1112,7 @@
 			"Flash": 22017,
 			"FlashpixVersion": "1.00",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -1089,6 +1121,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/11",
 			"ShutterSpeedValue": "1/11",
 			"_IFDpointer_Interop": 780,
 			"_IFDpointer_Makernote": "AIPPWB330256320EI 68 69AV241WE110107  0KB312 94234JP0AE0FD  0FM 1VER2201END;",
@@ -1172,6 +1205,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV5000.jpg",
 		"exifJS": {
+			"Aperture": 110976041,
 			"ApertureValue": "32.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1188,6 +1222,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "32.0",
 			"MeteringMode": "Average",
@@ -1196,6 +1231,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/169",
 			"ShutterSpeedValue": "1/256",
 			"_IFDpointer_Interop": 854,
 			"_IFDpointer_Makernote": 632,
@@ -1280,6 +1316,7 @@
 	{
 		"img": "sampleImages/Aiptek/AiptekDV3100.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1295,12 +1332,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/18",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2001:01:01 00:00:00",
 			"ImageDescription": "Camera",

@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Reconyx/ReconyxRM45.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -13,10 +14,12 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/51",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": ":-",
 			"DateTime": "2008:09:11 18:12:30",
@@ -76,6 +79,7 @@
 	{
 		"img": "sampleImages/Reconyx/ReconyxRM30.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"UserComment": "Trg: M 1/1Dat: 2006-07-02 4:11:04 AMMP:  2Tmp: 76 FBat: 12083Lht: 0Ill: OnExp: 06B0,3Ctr: 192Brt: 64Shp: 128PIR: 100Lbl: Nam: M0000301.JPGSN:  SM0701151Ver: 2.0.7.20060405Rst: 1Cfg: 0003004664010A01000103E80005FFFFFFFFFFFFFFFFFFFFFFFF00000005FFFFFFFFFFFFFFFFFFFFFFFFC040001F808000000000000000000000000000000000000000000000992034D7",
 			"_IFDpointer_EXIF": 26
 		},
@@ -107,6 +111,7 @@
 	{
 		"img": "sampleImages/Reconyx/ReconyxRC60HO.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -118,10 +123,12 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": ":-",
 			"DateTime": "2008:10:06 17:54:20",
@@ -259,14 +266,17 @@
 	{
 		"img": "sampleImages/Reconyx/ReconyxPC900.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"ExposureTime": "1/120",
 			"FlashpixVersion": "1.00",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/120",
 			"_IFDpointer_Makernote": 212,
 			"ResolutionUnit": "inches",
 			"XResolution": "72.00000000",
@@ -329,14 +339,17 @@
 	{
 		"img": "sampleImages/Reconyx/ReconyxHC600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"ExposureTime": "1/233",
 			"FlashpixVersion": "1.00",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1920 px w",
 			"PixelYDimension": "1080 px h",
+			"ShutterSpeed": "1/233",
 			"_IFDpointer_Makernote": 212,
 			"ResolutionUnit": "inches",
 			"XResolution": "72.00000000",
@@ -398,14 +411,17 @@
 	{
 		"img": "sampleImages/Reconyx/ReconyxHC500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"ExposureTime": "1/785",
 			"FlashpixVersion": "1.00",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1920 px w",
 			"PixelYDimension": "1080 px h",
+			"ShutterSpeed": "1/785",
 			"_IFDpointer_Makernote": 212,
 			"ResolutionUnit": "inches",
 			"XResolution": "72.00000000",

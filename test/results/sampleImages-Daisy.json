@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyPhC70XX.jpg",
 		"exifJS": {
+			"Aperture": null,
 			"ApertureValue": "NaN",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,6 +19,7 @@
 			"Flash": "On, Flash fired, strobe return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 104,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -26,6 +28,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1028",
 			"ShutterSpeedValue": "1/1024",
 			"_IFDpointer_Interop": 1264,
 			"_IFDpointer_Makernote": 784,
@@ -110,6 +113,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyPhC60XX.jpg",
 		"exifJS": {
+			"Aperture": 1,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -126,6 +130,7 @@
 			"Flash": "On, Flash fired, strobe return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 104,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 43981,
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -134,6 +139,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1028",
 			"ShutterSpeedValue": "1/1024",
 			"Copyright": "Copyright 9,2001",
 			"DateTime": "2002:02:22 05:32:36",
@@ -214,6 +220,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyPH8300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:23 16:35:29",
@@ -222,6 +229,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "450 px h",
 			"SceneType": "Directly photographed",
@@ -368,6 +376,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM425Zr.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:08:14 03:52:26",
@@ -376,6 +385,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -477,6 +487,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM334SF.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2000:01:21 18:46:33",
@@ -485,6 +496,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
@@ -586,6 +598,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM334.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2000:01:16 15:44:50",
@@ -594,6 +607,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
@@ -695,6 +709,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM2100a.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:09:06 22:34:33",
@@ -703,6 +718,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",

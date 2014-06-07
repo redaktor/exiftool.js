@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechPR-600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "1980:01:07 04:40:29",
@@ -12,9 +13,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "768 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 530,
 			"Make": "Pantech Wireless, Inc",
@@ -78,9 +81,11 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-8000.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"_IFDpointer_Interop": 244,
@@ -133,9 +138,11 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-6200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "176 px w",
 			"PixelYDimension": "220 px h",
 			"_IFDpointer_Interop": 244,
@@ -188,9 +195,11 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-3600.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 244,
@@ -243,9 +252,11 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-3500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 244,
@@ -298,6 +309,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U300K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -311,6 +323,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
@@ -404,6 +417,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U220K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:04:26 18:17:34",
@@ -411,6 +425,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneType": "Directly photographed",
@@ -472,6 +487,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U220.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -485,6 +501,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
@@ -559,10 +576,12 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U140.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1228 px w",
 			"PixelYDimension": "2048 px h",
 			"Make": "SKY",
@@ -611,10 +630,12 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U110.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "180 px h",
 			"_IFDpointer_Interop": 236,
@@ -669,6 +690,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-S370.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:15 13:37:41",
@@ -676,6 +698,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -829,6 +852,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-S230.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -838,6 +862,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -904,6 +929,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-S200K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -917,6 +943,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
@@ -991,6 +1018,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-R300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:01:03 20:33:30",
@@ -998,6 +1026,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"SceneType": "Directly photographed",

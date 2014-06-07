@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPodTouch5.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 6.25062656641604,
 			"ColorSpace": "sRGB",
@@ -19,11 +20,13 @@
 			"FocalLength": "3.3 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1936 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/120",
 			"ShutterSpeedValue": "1/120",
 			"SubjectArea": [
 				1722,
@@ -127,6 +130,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPodTouch4.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -142,12 +146,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.9 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "720 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/1245",
 			"ShutterSpeedValue": "1/1245",
 			"SubjectArea": [
 				381,
@@ -242,6 +248,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone5s.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ApertureValue": "2.2",
 			"BrightnessValue": 9.991950464396284,
 			"ColorSpace": "sRGB",
@@ -258,6 +265,7 @@
 			"FocalLength": "4.1 mm",
 			"FocalLengthIn35mmFilm": "30 mm",
 			"ISO": 32,
+			"ImageSize": "object Objectxobject Object",
 			"LensMake": "Apple",
 			"LensModel": "iPhone 5s back camera 4.12mm f/2.2",
 			"LensSpecification": [
@@ -272,6 +280,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1786",
 			"ShutterSpeedValue": "1/1786",
 			"SubjectArea": [
 				1632,
@@ -374,6 +383,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone5.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 4.0895287958115185,
 			"ColorSpace": "sRGB",
@@ -390,11 +400,13 @@
 			"FocalLength": "4.1 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/25",
 			"SubjectArea": [
 				2012,
@@ -516,6 +528,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone4S.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 9.946296296296296,
 			"ColorSpace": "sRGB",
@@ -532,12 +545,14 @@
 			"FocalLength": "4.3 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1623",
 			"ShutterSpeedValue": "1/1623",
 			"SubjectArea": [
 				1631,
@@ -645,6 +660,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone4-front.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -659,12 +675,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.9 mm",
 			"ISO": 3200,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "0 px w",
 			"PixelYDimension": "0 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"WhiteBalance": "Auto",
 			"GPSImgDirection": 144.4862385321101,
@@ -757,6 +775,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone4-back.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -771,12 +790,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.9 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "0 px w",
 			"PixelYDimension": "0 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/3352",
 			"ShutterSpeedValue": "1/3352",
 			"SubjectArea": [
 				1836,
@@ -880,6 +901,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone3GS.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"DateTimeDigitized": "2009:10:02 20:45:16",
@@ -893,11 +915,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.9 mm",
 			"ISO": 1016,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/10",
 			"WhiteBalance": "Auto",
 			"GPSImgDirection": 117.22183098591549,
@@ -981,6 +1005,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone3G.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -992,6 +1017,7 @@
 			"FNumber": 2.8,
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -1060,11 +1086,13 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": 65535,
 			"DateTimeDigitized": "2008:09:24 21:02:24",
 			"DateTimeOriginal": "2008:09:24 21:02:24",
 			"FNumber": 2.8,
 			"Gamma": 2.2,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "800 px h",
 			"GPSLatitude": "46° 8' 36.0000\" N",
@@ -1124,11 +1152,13 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPhone.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"DateTimeDigitized": "2007:06:29 22:35:26",
 			"DateTimeOriginal": "2007:06:29 22:35:26",
 			"FNumber": 2.8,
 			"Gamma": 2.2,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"DateTime": "2007:06:29 22:35:26",
@@ -1177,6 +1207,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPad_mini.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 8.717925386715196,
 			"ColorSpace": "sRGB",
@@ -1193,11 +1224,13 @@
 			"FocalLength": "3.3 mm",
 			"FocalLengthIn35mmFilm": "33 mm",
 			"ISO": 32,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1936 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/604",
 			"ShutterSpeedValue": "1/604",
 			"SubjectArea": [
 				1836,
@@ -1284,6 +1317,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPad4.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 10.767304860088366,
 			"ColorSpace": "sRGB",
@@ -1300,11 +1334,13 @@
 			"FocalLength": "4.3 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1936 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/4329",
 			"ShutterSpeedValue": "1/4329",
 			"SubjectArea": [
 				1295,
@@ -1391,6 +1427,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPad3.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 0.40699743032219804,
 			"ColorSpace": "sRGB",
@@ -1407,12 +1444,14 @@
 			"FocalLength": "4.3 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1936 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"SubjectArea": [
 				778,
@@ -1520,6 +1559,7 @@
 	{
 		"img": "sampleImages/Apple/Apple_iPad2.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"BrightnessValue": 2.81214848143982,
 			"ColorSpace": "sRGB",
@@ -1536,12 +1576,14 @@
 			"FocalLength": "2 mm",
 			"FocalLengthIn35mmFilm": "32 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "720 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"GPSAltitude": "100 m Above Sea Level",
@@ -1642,11 +1684,13 @@
 	{
 		"img": "sampleImages/Apple/AppleQT-200.jpg",
 		"exifJS": {
+			"Aperture": "2.2",
 			"ApertureValue": "2.2",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
 			"DateTimeOriginal": "1997:06:16 18:48:34",
 			"ExifVersion": "1.00",
+			"ShutterSpeed": "1/256",
 			"ShutterSpeedValue": "1/256",
 			"Make": "Apple",
 			"Model": "QT-200",

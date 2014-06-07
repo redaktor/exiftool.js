@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeVadoHD.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ApertureValue": "3.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -25,6 +26,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.0",
 			"MeteringMode": "Center-weighted average",
@@ -35,6 +37,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/3352",
 			"ShutterSpeedValue": "1/3350",
 			"SubjectDistance": "0 m",
 			"SubjectDistanceRange": "Unknown",
@@ -132,6 +135,7 @@
 	{
 		"img": "sampleImages/Creative/CreativePC_Cam950Slim.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "1.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -152,6 +156,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -162,6 +167,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/1133",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 850,
 			"_IFDpointer_Makernote": [
@@ -266,6 +272,7 @@
 	{
 		"img": "sampleImages/Creative/CreativePC_Cam930Slim.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -286,6 +293,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -296,6 +304,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/236",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 836,
 			"_IFDpointer_Makernote": [
@@ -400,6 +409,7 @@
 	{
 		"img": "sampleImages/Creative/CreativePC-CAM900.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3,
@@ -415,12 +425,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/623",
 			"_IFDpointer_Interop": 567,
 			"DateTime": "2005:09:25 14:06:36",
 			"ImageDescription": "Unknown",
@@ -496,6 +508,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeDiViCam428.jpg",
 		"exifJS": {
+			"Aperture": 7.36,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -512,6 +525,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -520,6 +534,7 @@
 			"RelatedSoundFile": "383-256-496-",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/23",
 			"ShutterSpeedValue": "1/6468501",
 			"_IFDpointer_Interop": 41686,
 			"_IFDpointer_Makernote": 704,
@@ -605,6 +620,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeDiViCam316.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -620,12 +636,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/10",
 			"UserComment": 629,
 			"_IFDpointer_Interop": 1017,
 			"DateTime": "2006:01:18 09:24:53",
@@ -706,6 +724,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeDiViCAM525D.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -722,6 +741,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -730,6 +750,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubsecTime": 406,
 			"_IFDpointer_Interop": 1178,
@@ -817,6 +838,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeDiViCAM516.jpg",
 		"exifJS": {
+			"Aperture": 8.25,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -833,6 +855,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -841,6 +864,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/136",
 			"ShutterSpeedValue": "1/256",
 			"_IFDpointer_Interop": 41696,
 			"_IFDpointer_Makernote": 714,
@@ -925,6 +949,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeDC-CAM3200Z.jpg",
 		"exifJS": {
+			"Aperture": 2.663,
 			"BrightnessValue": 3.241,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -947,6 +972,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "Low gain up",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -956,6 +982,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/64",
 			"SubjectArea": [
 				0,
 				0
@@ -1056,6 +1083,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeDC-CAM3000Z.jpg",
 		"exifJS": {
+			"Aperture": 5.619,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1073,6 +1101,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -1081,6 +1110,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/540",
 			"ShutterSpeedValue": "1/540",
 			"_IFDpointer_Interop": 1850,
 			"_IFDpointer_Makernote": 805,
@@ -1171,6 +1201,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeCR781.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.6,
@@ -1184,11 +1215,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/184",
 			"_IFDpointer_Makernote": 834,
 			"DateTime": "0000:00:00 00:00:00",
 			"ImageDescription": "Creative Digital Camera",
@@ -1260,6 +1293,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeCR780.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.6,
@@ -1273,11 +1307,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/60",
 			"_IFDpointer_Makernote": 834,
 			"DateTime": "0000:00:00 00:00:00",
 			"ImageDescription": "Creative Digital Camera",
@@ -1349,6 +1385,7 @@
 	{
 		"img": "sampleImages/Creative/CreativeCR530.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.6,
@@ -1362,11 +1399,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
+			"ShutterSpeed": "1/30",
 			"UserComment": 948,
 			"_IFDpointer_Makernote": 846,
 			"DateTime": "0000:00:00 00:00:00",

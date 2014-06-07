@@ -2,12 +2,14 @@
 	{
 		"img": "sampleImages/T-Mobile/T-MobileSidekickLX.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:03:29 11:26:21",
 			"DateTimeOriginal": "2008:03:29 11:26:21",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"UserComment": [
@@ -82,12 +84,14 @@
 	{
 		"img": "sampleImages/T-Mobile/T-MobilePulse.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
 			"DateTimeOriginal": "2009:10:05 12:35:16",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 294,

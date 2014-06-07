@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Traveler/TravelerSuperSlimX8.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ApertureValue": "4.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19,6 +20,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -28,6 +30,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/246",
 			"ShutterSpeedValue": "1/246",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 43112,
@@ -115,6 +118,7 @@
 	{
 		"img": "sampleImages/Traveler/TravelerSX330Z.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -127,9 +131,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "23.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/70",
 			"ShutterSpeedValue": "1/70",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -206,6 +212,7 @@
 	{
 		"img": "sampleImages/Traveler/TravelerSLIMLINE_X5.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -225,6 +232,7 @@
 			"FocalLength": "7.8 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -233,6 +241,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 10966,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11100,
@@ -337,6 +346,7 @@
 	{
 		"img": "sampleImages/Traveler/TravelerHS9.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -354,6 +364,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -363,6 +374,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/181",
 			"ShutterSpeedValue": "1/181",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 33660,
@@ -452,6 +464,7 @@
 	{
 		"img": "sampleImages/Traveler/TravelerDC-8300.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -472,6 +485,7 @@
 			"FocalLengthIn35mmFilm": "85 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -481,6 +495,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -573,6 +588,7 @@
 	{
 		"img": "sampleImages/Traveler/TravelerDC-4300.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -589,11 +605,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "20.3 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.9",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 750,
 			"_IFDpointer_Makernote": 654,
@@ -675,6 +693,7 @@
 	{
 		"img": "sampleImages/Traveler/Traveler410Z.jpg",
 		"exifJS": {
+			"Aperture": "15.0",
 			"ApertureValue": "15.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -687,9 +706,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -767,6 +788,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraTravelerDV5040.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -786,6 +808,7 @@
 			"FocalLength": "7.6 mm",
 			"GainControl": "Low gain up",
 			"ISO": 52,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
@@ -794,6 +817,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/307",
 			"UserComment": 25968,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 26102,
@@ -885,6 +909,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraTCM_X50.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -904,6 +929,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -912,6 +938,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 10960,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11094,
@@ -1016,6 +1043,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraSuperSlimXS70.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1033,6 +1061,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 270,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1040,6 +1069,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/40",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 45100,
@@ -1125,6 +1155,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraSuperSlimXS7.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1140,12 +1171,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3072 px w",
 			"PixelYDimension": "2304 px h",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"_IFDpointer_Makernote": 654,
 			"DateTime": "2000:03:12 02:46:31",
@@ -1228,6 +1261,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraSLIMLINE_X6.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -1247,6 +1281,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1255,6 +1290,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/175",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10694,
@@ -1358,6 +1394,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDV5060.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1375,6 +1412,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -1382,6 +1420,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/753",
 			"ShutterSpeedValue": "1/755",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 41888,
@@ -1467,6 +1506,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDC7900.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ApertureValue": "5.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1484,6 +1524,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.1 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1493,6 +1534,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/703",
 			"ShutterSpeedValue": "1/704",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 41068,
@@ -1580,6 +1622,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDC6800.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:02:08 12:27:02",
@@ -1594,10 +1637,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2112 px w",
 			"PixelYDimension": "2816 px h",
+			"ShutterSpeed": "1/6",
 			"_IFDpointer_Makernote": 1002,
 			"DateTime": "2006:02:08 12:27:02",
 			"ImageDescription": "Supra",
@@ -1691,6 +1736,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDC5900.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1708,6 +1754,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1715,6 +1762,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/400",
 			"ShutterSpeedValue": "1/399",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38844,
@@ -1800,6 +1848,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDC-XZ6.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1820,6 +1869,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1829,6 +1879,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
@@ -1920,6 +1971,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDC-8600.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1940,6 +1992,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1949,6 +2002,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -2079,6 +2133,7 @@
 	{
 		"img": "sampleImages/Traveler/SupraDC-6900.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -2098,6 +2153,7 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -2105,6 +2161,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/211",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12548,
 			"_IFDpointer_Makernote": 654,
@@ -2192,6 +2249,7 @@
 	{
 		"img": "sampleImages/Traveler/MaginonX60.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -2211,6 +2269,7 @@
 			"FocalLength": "12 mm",
 			"GainControl": "Low gain up",
 			"ISO": 120,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2219,6 +2278,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10694,
@@ -2321,6 +2381,7 @@
 	{
 		"img": "sampleImages/Traveler/MaginonX50.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -2340,6 +2401,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -2348,6 +2410,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 10962,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11096,
@@ -2451,6 +2514,7 @@
 	{
 		"img": "sampleImages/Traveler/MaginonSX330Z.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2463,9 +2527,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/54",
 			"ShutterSpeedValue": "1/54",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -2542,6 +2608,7 @@
 	{
 		"img": "sampleImages/Traveler/MaginonPERFORMIC_S5.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -2561,6 +2628,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Standard light A",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -2569,6 +2637,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"UserComment": 10968,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11102,

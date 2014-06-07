@@ -2,12 +2,14 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV903T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:06:24 18:21:02",
 			"DateTimeOriginal": "2008:06:24 18:21:02",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "538 px w",
 			"PixelYDimension": "423 px h",
 			"_IFDpointer_Interop": 352,
@@ -67,12 +69,14 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV902T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:12:20 11:46:51",
 			"DateTimeOriginal": "2006:12:20 11:46:51",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2006:12:20 11:46:51",
@@ -126,6 +130,7 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV810.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -139,6 +144,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
@@ -213,12 +219,14 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV803T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:12:14 10:14:44",
 			"DateTimeOriginal": "2005:12:14 10:14:44",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "159 px w",
 			"PixelYDimension": "200 px h",
 			"DateTime": "2007:01:03 15:07:04",
@@ -271,6 +279,7 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV720.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -284,6 +293,7 @@
 			"ExposureProgram": "Program AE",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
@@ -358,12 +368,14 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV602SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:08:05 13:47:00",
 			"DateTimeOriginal": "2005:08:05 13:47:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"_IFDpointer_Interop": 352,
@@ -424,12 +436,14 @@
 	{
 		"img": "sampleImages/Vodafone/Vodafone845.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
 			"DateTimeOriginal": "2011:01:05 12:11:20",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"_IFDpointer_Interop": 302,
@@ -499,6 +513,7 @@
 	{
 		"img": "sampleImages/Vodafone/Vodafone715.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:11:22 20:47:19",
@@ -506,6 +521,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneType": "Directly photographed",
@@ -561,6 +577,7 @@
 	{
 		"img": "sampleImages/Vodafone/Vodafone710.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:08:27 14:50:03",
@@ -571,9 +588,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 432,
 			"Make": "VODAFONE 710",

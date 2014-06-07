@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Konica/Konica_e-miniD.jpg",
 		"exifJS": {
+			"Aperture": 2.97,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -9,8 +10,10 @@
 			"DateTimeOriginal": "2000:01:01 00:23:49",
 			"ExifVersion": "2.10",
 			"FNumber": 2.97,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "1/4",
 			"_IFDpointer_Interop": 480,
 			"DateTime": "2000:01:01 00:23:49",
@@ -73,6 +76,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaRevioKD-100.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -87,11 +91,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"_IFDpointer_Interop": 593,
 			"DateTime": "2004:03:02 13:54:30",
@@ -169,6 +175,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaRevioC2.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -188,6 +195,7 @@
 			"FocalLength": "4.5 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -195,6 +203,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/666",
 			"ShutterSpeedValue": "1/664",
 			"SubjectDistance": "1.1 m",
 			"_IFDpointer_Interop": 700,
@@ -317,6 +326,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaQ-M200.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.7,
@@ -332,11 +342,13 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "2605.000000",
 			"FocalPlaneYResolution": "2605.000000",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/64",
 			"SubjectDistance": "1.29 m",
 			"_IFDpointer_Interop": 404,
 			"_IFDpointer_Makernote": 752,
@@ -417,6 +429,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaQ-M100V.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.5,
@@ -431,11 +444,13 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "5770.000000",
 			"FocalPlaneYResolution": "5770.000000",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "872 px h",
+			"ShutterSpeed": "1/104",
 			"SubjectDistance": "1.224 m",
 			"_IFDpointer_Makernote": [
 				75,
@@ -556,6 +571,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaQ-M100.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.5,
@@ -570,11 +586,13 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "5770.000000",
 			"FocalPlaneYResolution": "5770.000000",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "872 px h",
+			"ShutterSpeed": "1/97",
 			"SubjectDistance": "1.224 m",
 			"_IFDpointer_Makernote": [
 				75,
@@ -695,6 +713,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKDC1310.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -706,8 +725,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/26",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:04:15 03:12:40",
@@ -773,6 +794,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-510Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": -3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -793,6 +815,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -801,6 +824,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3610,
@@ -889,6 +913,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-500Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": -1.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -909,6 +934,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -917,6 +943,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 500,
@@ -1004,6 +1031,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-410Z.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"BrightnessValue": 7.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1024,6 +1052,7 @@
 			"FocalLengthIn35mmFilm": "116 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1032,6 +1061,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/167",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 659,
@@ -1117,6 +1147,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-400Z.jpg",
 		"exifJS": {
+			"Aperture": 4.7,
 			"BrightnessValue": 6.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1137,6 +1168,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -1145,6 +1177,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/115",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 500,
@@ -1233,6 +1266,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-3300.jpg",
 		"exifJS": {
+			"Aperture": 5.15,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1246,11 +1280,13 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000255",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/351",
 			"ShutterSpeedValue": "1/362",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
@@ -1326,6 +1362,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-310Z.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"BrightnessValue": -1.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1346,6 +1383,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1354,6 +1392,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/68",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 500,
@@ -1442,6 +1481,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-3100.jpg",
 		"exifJS": {
+			"Aperture": 2.88,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1455,11 +1495,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "00000000000000000000000000000605",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.5",
 			"ShutterSpeedValue": "0.4",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
@@ -1534,6 +1576,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-30M.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1549,6 +1592,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -1556,6 +1600,7 @@
 			"PixelYDimension": "1536 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/6",
 			"_IFDpointer_Interop": 585,
 			"DateTime": "2005:10:18 07:40:55",
 			"ImageDescription": "KF3-A003",
@@ -1633,6 +1678,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-300Z.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1646,9 +1692,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/69",
 			"ShutterSpeedValue": "1/69",
 			"UserComment": 56022,
 			"_IFDpointer_Interop": 56158,
@@ -1727,6 +1775,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-25.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1742,12 +1791,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/118",
 			"UserComment": "KONICACamera",
 			"DateTime": "2004:06:18 21:24:09",
 			"ImageDescription": "KF2-22A0",
@@ -1823,6 +1874,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-220Z.jpg",
 		"exifJS": {
+			"Aperture": 2.83,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1834,8 +1886,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/42",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:01:01 00:23:35",
@@ -1902,6 +1956,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-210Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7,
@@ -1915,11 +1970,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/32",
 			"_IFDpointer_Interop": 356,
 			"_IFDpointer_Makernote": 630,
 			"Make": "Konica Corporation",
@@ -1989,6 +2046,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-20M.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2004,12 +2062,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"_IFDpointer_Interop": 561,
 			"DateTime": "2004:01:05 19:57:33",
 			"ImageDescription": "KF2-2206",
@@ -2085,6 +2145,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-200Z.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7,
@@ -2098,11 +2159,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/45",
 			"_IFDpointer_Interop": 356,
 			"_IFDpointer_Makernote": 630,
 			"Make": "Konica Corporation",
@@ -2173,6 +2236,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaKD-20.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2188,12 +2252,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/135",
 			"_IFDpointer_Interop": 559,
 			"DateTime": "2004:02:07 06:44:05",
 			"ImageDescription": "KF2-2002",
@@ -2346,6 +2412,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaDG-2.jpg",
 		"exifJS": {
+			"Aperture": 9.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.7,
@@ -2358,10 +2425,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/169",
 			"SubjectDistance": "0.599 m",
 			"_IFDpointer_Interop": 344,
 			"_IFDpointer_Makernote": 624,
@@ -2430,6 +2499,7 @@
 	{
 		"img": "sampleImages/Konica/KonicaDG-1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.1,
@@ -2444,11 +2514,13 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "5770.000000",
 			"FocalPlaneYResolution": "5770.000000",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "872 px h",
+			"ShutterSpeed": "1/64",
 			"SubjectDistance": "0.24 m",
 			"_IFDpointer_Makernote": [
 				75,

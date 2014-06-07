@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Oregon/OregonScientific_ds6638.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -14,6 +15,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "480 px w",
@@ -88,6 +90,7 @@
 	{
 		"img": "sampleImages/Oregon/OregonScientificDS9810.jpg",
 		"exifJS": {
+			"Aperture": 6.4,
 			"ApertureValue": "9.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -106,6 +109,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Average",
@@ -114,6 +118,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/215",
 			"ShutterSpeedValue": "1",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1228,
@@ -203,6 +208,7 @@
 	{
 		"img": "sampleImages/Oregon/OregonScientificDS9610.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -224,6 +230,7 @@
 			"FocalLengthIn35mmFilm": "42 mm",
 			"GainControl": [],
 			"ISO": 117,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
@@ -232,6 +239,7 @@
 			"SceneCaptureType": [],
 			"SceneType": "Directly photographed",
 			"Sharpness": [],
+			"ShutterSpeed": "1/100",
 			"SubjectArea": [
 				13824,
 				13824,
@@ -332,6 +340,7 @@
 	{
 		"img": "sampleImages/Oregon/OregonScientificDS8228.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "",
 			"DateTimeDigitized": "2002:08:30 01:13:55",
@@ -345,11 +354,13 @@
 			"Flash": "No Flash",
 			"FocalLength": "6.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/13",
 			"Copyright": "Copyright, IDT Group, 2003",
 			"DateTime": "2002:08:30 01:13:55",
 			"Make": "Oregon Scientific",
@@ -421,6 +432,7 @@
 	{
 		"img": "sampleImages/Oregon/OregonScientificDS6639.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -443,6 +455,7 @@
 			"FocalLengthIn35mmFilm": "42 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -452,6 +465,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"SubjectArea": [
 				30959,
 				827,

@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Uniden/UnidenUDC-5M.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"BrightnessValue": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -24,6 +25,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -33,6 +35,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/116",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 1180,
 			"WhiteBalance": "Auto",

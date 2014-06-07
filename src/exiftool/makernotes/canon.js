@@ -296,7 +296,7 @@ exports.info = {
 			228: 'ColorToneUserDef3',
 			240: { desc: 'UserDef1PictureStyle', values: {0x41: 'PC 1',0x42: 'PC 2',0x43: 'PC 3',0x81: 'Standard',0x82: 'Portrait',0x83: 'Landscape',0x84: 'Neutral',0x85: 'Faithful',0x86: 'Monochrome',0x87: 'Auto'} },
 			242: { desc: 'UserDef2PictureStyle', values: {0x41: 'PC 1',0x42: 'PC 2',0x43: 'PC 3',0x81: 'Standard',0x82: 'Portrait',0x83: 'Landscape',0x84: 'Neutral',0x85: 'Faithful',0x86: 'Monochrome',0x87: 'Auto'} },
-			/* TODO - jacks 5DMKII returned other values (?) */
+			/* TODO - 5DMKII returns other values (?) */
 			244: { desc: 'UserDef3PictureStyle', values: {0x41: 'PC 1',0x42: 'PC 2',0x43: 'PC 3',0x81: 'Standard',0x82: 'Portrait',0x83: 'Landscape',0x84: 'Neutral',0x85: 'Faithful',0x86: 'Monochrome',0x87: 'Auto'} },
 			
 		},
@@ -307,8 +307,8 @@ exports.info = {
 		
 		
 		_IFDpointer_CameraInfo: function(n,model){
-			console.log( 'CameraInfo n', n );	
-			console.log( 'CameraInfo m', model );
+			//console.log( 'CameraInfo n', n );	
+			//console.log( 'CameraInfo m', model );
 			return {
 				0x38: 'AFPointsInFocus5D'
 			};
@@ -373,7 +373,6 @@ exports.info = {
 		FileNumber: function(x, model){
 			if (typeof x === 'number') x = x.toString();
 			var v = x.replace(/(\d+)(\d{4})/, function(str,a,b){ return a.concat('-', b); });
-			console.log( 'FileNumber', v );
 			
 			/* TODO - FileNumber is very model specific ... from perl:*/
 			if (model.match(/\b(20D|350D|REBEL XT|Kiss Digital N)\b/)) {
@@ -668,7 +667,18 @@ exports.info = {
 					}
 				}, 
 				
-				/*TODO 16: { desc: 'CameraISO' }, */
+				16: { desc: 'CameraISO', values: {
+						0x7fff: 'n/a',
+						0: 'n/a',
+						14: 'Auto High', //PH (S3IS)
+						15: 'Auto',
+						16: 50,
+						17: 100,
+						18: 200,
+						19: 400,
+						20: 800, //PH
+					} 
+				}, 
 				
 				17: { desc: 'MeteringMode', fn: function(){
 						var mm = {0:'Default', 1:'Spot', 2:'Average', 3:'Evaluative', 4:'Partial', 5:'Center-weighted average'};
@@ -756,12 +766,10 @@ exports.info = {
 				} }, 
 				/*(actual ISO used = BaseISO * AutoISO / 100)*/ 
 				2: { desc:'BaseISO', fn: function(){ 
-					console.log('BaseISO', arr[2]);
 					return (typeof arr[2] === 'number') ? { value:Math.round(Math.exp(arr[2]/32*Math.log(2))*100/32), _val:arr[2] } : { value:0, _val:0 } 
 				} }, 
 				
 				3: { desc:'MeasuredEV', fn: function(){ 
-					console.log('MeasuredEV', arr[3]); //199
 					return (typeof arr[3] === 'number') ? { value:Math.round((arr[3]/32 + 4.99) * 100)/100, _val:arr[3] } : { value:0, _val:0 } 
 				} }, 
 				

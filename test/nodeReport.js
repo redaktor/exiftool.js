@@ -137,7 +137,15 @@
                 for ( var key in results[i][_reference]) {
 					var jsRes = results[i].exifJS[key];
 					var perlRes = results[i].exifPerl[key];
-                    if ( jsRes == perlRes
+                    
+					// we always use EXIF spec. as keys ...
+					if (perlRes == 'ExifImageWidth') jsRes = results[i].exifJS['PixelXDimension'];
+					if (perlRes == 'ExifImageHeight') jsRes = results[i].exifJS['PixelYDimension'];
+					if (jsRes == 'PixelXDimension') perlRes = results[i].exifPerl['ExifImageWidth'];
+					if (jsRes == 'PixelYDimension') perlRes = results[i].exifPerl['ExifImageHeight'];
+					
+					if ( jsRes == perlRes
+					
 						//*(1) js might be a more detailed string (usually perlNumber+units) - if more detailed = OK
 						|| (typeof jsRes === 'string' && typeof perlRes === 'number' && jsRes.indexOf(perlRes.toString())>-1)
 						//*(2) js might be an extended string (usually (+/-)perlString+units) - if more detailed = OK
@@ -159,8 +167,10 @@
 						//*(9) TODO - we had an issue with edited user comments - 
 						// we CURRENTLY keep the pointer when perl user comment might be empty - minor FIXME
 						|| (key === 'UserComment' && perlRes === '' && typeof jsRes === 'number')
-						
-						|| (reference === 'Perl' && key === 'ExifToolVersion' || key === 'FileSize')
+						//*(10) TODO - we do not have versioning yet 
+						|| (reference === 'Perl' && key === 'ExifToolVersion')
+						// FileSize is more detailed (b, kb, mb but as precise decimals) and OK  
+						|| key === 'FileSize' 
 						
 					) {
                         supportedTags.push(key + " : " + jsRes);

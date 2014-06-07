@@ -23,12 +23,14 @@
 	{
 		"img": "sampleImages/Nintendo/NintendoDSi.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:03:05 01:35:56",
 			"DateTimeOriginal": "2010:03:05 01:35:56",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 418,
@@ -88,12 +90,14 @@
 	{
 		"img": "sampleImages/Nintendo/Nintendo3DS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2013:06:29 13:07:25",
 			"DateTimeOriginal": "2013:06:29 13:07:25",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "400 px w",
 			"PixelYDimension": "240 px h",
 			"_IFDpointer_Interop": 436,

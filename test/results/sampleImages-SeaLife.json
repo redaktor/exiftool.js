@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC800.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "2.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19,6 +20,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.6 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -28,6 +30,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/309",
 			"ShutterSpeedValue": "1/309",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 726,
@@ -111,6 +114,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC600.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -130,6 +134,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -138,6 +143,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 683,
@@ -224,6 +230,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC500.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -243,6 +250,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -251,6 +259,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/288",
 			"UserComment": 10958,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 11092,
@@ -354,6 +363,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -366,8 +376,10 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/143",
 			"ShutterSpeedValue": "1/147",
 			"_IFDpointer_Interop": 488,
 			"DateTime": "2003:09:13 13:47:51",
@@ -435,6 +447,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC250.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -446,8 +459,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/261",
 			"ShutterSpeedValue": "1/256",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2000:01:08 04:32:15",
@@ -513,6 +528,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC1310.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -524,8 +540,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/83",
 			"ShutterSpeedValue": "1/87",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:08:04 15:38:20",
@@ -591,6 +609,7 @@
 	{
 		"img": "sampleImages/SeaLife/SealifeDC1000.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"ApertureValue": "5.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -608,6 +627,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.4 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Average",
@@ -617,6 +637,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/228",
 			"ShutterSpeedValue": "1/228",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 30660,

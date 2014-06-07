@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechPocketDigital130.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -20,6 +21,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "61437 mm",
 			"ISO": 63229,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 32767,
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -28,6 +30,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1142",
 			"ShutterSpeedValue": "1/16865109",
 			"WhiteBalance": 65535,
 			"_IFDpointer_Interop": 1308,
@@ -117,6 +120,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechDC2320.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -132,12 +136,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 48,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/33",
 			"UserComment": 674,
 			"_IFDpointer_Interop": 800,
 			"_IFDpointer_Makernote": 600,
@@ -219,6 +225,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechClickSmart820.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.3,
@@ -232,10 +239,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/10",
 			"_IFDpointer_Interop": 574,
 			"_IFDpointer_Makernote": 604,
 			"ImageDescription": "Logitech Exif J",
@@ -306,6 +315,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechClickSmart.jpg",
 		"exifJS": {
+			"Aperture": 0.980461346078952,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "08:00:00",
@@ -314,8 +324,10 @@
 			"ExposureTime": "1/1234",
 			"FNumber": 0.980461346078952,
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/1234",
 			"_IFDpointer_Interop": 370,
 			"ImageDescription": "Logitech Exif JPEG",
 			"Make": "Logitech Inc.",

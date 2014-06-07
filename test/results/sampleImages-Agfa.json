@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Agfa/Agfa_sensor505-D.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,6 +19,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -26,6 +28,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/14",
 			"ShutterSpeedValue": "1/14",
 			"_IFDpointer_Interop": 1178,
 			"_IFDpointer_Makernote": 696,
@@ -110,6 +113,7 @@
 	{
 		"img": "sampleImages/Agfa/Agfa_ePhotoCL50.jpg",
 		"exifJS": {
+			"Aperture": 9.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -124,11 +128,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/811",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -206,10 +212,12 @@
 	{
 		"img": "sampleImages/Agfa/Agfa_ePhotoCL30.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 0,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.00",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "864 px h",
 			"ImageDescription": "ExifJpeg",
@@ -394,6 +402,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaSnapScan_e25.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:12:20 16:24:47",
 			"Make": "Agfa",
 			"Model": "SnapScan e25",
@@ -430,6 +439,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaSR841.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1,
@@ -444,11 +454,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/20",
 			"UserComment": 642,
 			"_IFDpointer_Interop": 862,
 			"_IFDpointer_Makernote": 892,
@@ -527,6 +539,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA8328m.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -546,6 +559,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -555,6 +569,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/738",
 			"ShutterSpeedValue": "1/738",
 			"UserComment": 805,
 			"WhiteBalance": "Auto",
@@ -652,6 +667,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA2338mT.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.778152,
@@ -671,6 +687,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -680,6 +697,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 37920,
 			"WhiteBalance": "Auto",
@@ -775,6 +793,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA1438m.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ApertureValue": "5.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -792,6 +811,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.8 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -801,6 +821,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/286",
 			"ShutterSpeedValue": "1/286",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 40792,
@@ -888,6 +909,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA1338mT.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.5575112855237507,
@@ -907,6 +929,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -916,6 +939,7 @@
 			"SceneCaptureType": "Night scene",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 37918,
 			"WhiteBalance": "Auto",
@@ -1011,6 +1035,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA105.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1031,6 +1056,7 @@
 			"FocalLength": "8.4 mm",
 			"FocalLengthIn35mmFilm": "50 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
 			"PixelXDimension": "3915 px w",
@@ -1039,6 +1065,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"UserComment": 1529,
 			"WhiteBalance": "Auto",
@@ -1136,6 +1163,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA104.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1156,6 +1184,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -1166,6 +1195,7 @@
 			"SceneCaptureType": 27,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 49,
 			"UserComment": 3842,
@@ -1268,6 +1298,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA103.jpg",
 		"exifJS": {
+			"Aperture": 6.3,
 			"ApertureValue": "6.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1288,6 +1319,7 @@
 			"FocalLength": "20.2 mm",
 			"FocalLengthIn35mmFilm": "112 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -1298,6 +1330,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/291",
 			"ShutterSpeedValue": "1/291",
 			"SubsecTime": 49,
 			"UserComment": 3842,
@@ -1400,6 +1433,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA102.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1419,6 +1453,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -1428,6 +1463,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/112",
 			"ShutterSpeedValue": "1/112",
 			"SubsecTime": 49,
 			"UserComment": 772,
@@ -1528,6 +1564,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaOPTIMA100.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1547,6 +1584,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -1556,6 +1594,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 48,
 			"UserComment": 772,
@@ -1656,6 +1695,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-833m.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1675,6 +1715,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -1684,6 +1725,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/65",
 			"ShutterSpeedValue": "1/65",
 			"UserComment": 800,
 			"WhiteBalance": "Auto",
@@ -1781,6 +1823,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-733s.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1800,6 +1843,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -1809,6 +1853,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"UserComment": 800,
 			"WhiteBalance": "Auto",
@@ -1906,6 +1951,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-600uw.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1922,6 +1968,7 @@
 			"Flash": 30,
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -1930,6 +1977,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/229",
 			"ShutterSpeedValue": "1/225",
 			"UserComment": "0000001,0000140,0000141,0000588,0000353,0000085,0000201,0000167,0000144,0000076,0000595,0000352,0000130,-000256,-000256,-000256,-000256,0000000,0000000,0000000",
 			"_IFDpointer_Interop": 41834,
@@ -2017,6 +2065,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-500.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2032,6 +2081,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
@@ -2040,6 +2090,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/192",
 			"_IFDpointer_Interop": 557,
 			"DateTime": "2004:01:08 01:58:29",
 			"Make": "AGFAPHOTO",
@@ -2115,6 +2166,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-302.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2130,12 +2182,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": 8,
+			"ShutterSpeed": "1/921",
 			"_IFDpointer_Interop": 557,
 			"DateTime": "2007:01:01 02:31:41",
 			"Make": "AGFAPHOTO",
@@ -2211,6 +2265,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-2030m.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2230,6 +2285,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -2239,6 +2295,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/120",
 			"ShutterSpeedValue": "1/125",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4516,
@@ -2335,6 +2392,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaDC-1033m.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2354,6 +2412,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -2363,6 +2422,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/378",
 			"ShutterSpeedValue": "1/378",
 			"UserComment": 801,
 			"WhiteBalance": "Auto",
@@ -2460,6 +2520,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaCompact102.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2479,6 +2540,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -2488,6 +2550,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 49,
 			"UserComment": 773,
@@ -2588,6 +2651,7 @@
 	{
 		"img": "sampleImages/Agfa/AgfaCompact100.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2607,6 +2671,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -2616,6 +2681,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 49,
 			"UserComment": 773,
@@ -2716,7 +2782,9 @@
 	{
 		"img": "sampleImages/Agfa/AgfaARCUS_II.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "200 px w",
 			"PixelYDimension": "200 px h",
 			"DateTime": "2004:05:19 22:30:59",

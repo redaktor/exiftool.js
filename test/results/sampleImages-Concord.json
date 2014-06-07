@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJM_Multimedia.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -19,6 +20,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -27,6 +29,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"_IFDpointer_Interop": 1124,
 			"_IFDpointer_Makernote": 642,
 			"DateTime": "2006:12:26 11:54:48",
@@ -107,6 +110,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD_C50SL.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -122,12 +126,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 47,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/1649",
 			"_IFDpointer_Interop": 1417,
 			"_IFDpointer_Makernote": 685,
 			"DateTime": "2005:01:03 07:19:52",
@@ -208,6 +214,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD_C31z3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -224,6 +231,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -232,6 +240,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 718,
 			"_IFDpointer_Makernote": [
@@ -325,6 +334,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJDC30S.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -340,12 +350,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 568,
 			"DateTime": "2004:01:01 00:29:35",
 			"Make": "Concord Camera GmbH",
@@ -421,6 +433,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJDC30C.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -436,12 +449,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 568,
 			"DateTime": "2008:02:23 17:10:01",
 			"Make": "Concord Camera GmbH",
@@ -517,6 +532,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD80Z3CL.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -535,6 +551,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -543,6 +560,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1189",
 			"ShutterSpeedValue": "1/1189",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3824,
@@ -702,6 +720,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD60z3EasyShot.jpg",
 		"exifJS": {
+			"Aperture": 2.85,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -720,6 +739,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -727,6 +747,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"_IFDpointer_Interop": 2028,
 			"_IFDpointer_Makernote": 672,
@@ -811,6 +832,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD60Z3C.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -827,6 +849,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -834,6 +857,7 @@
 			"PixelYDimension": "2304 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"_IFDpointer_Makernote": 676,
 			"Copyright": "",
@@ -917,6 +941,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD52z3.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 3.45,
 			"CFAPattern": "[Green,Red][Blue,Green]",
@@ -939,6 +964,7 @@
 			"FocalLength": "19 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -948,6 +974,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "0.8",
 			"SubjectDistanceRange": "Distant view",
 			"SubsecTime": 0,
@@ -1044,6 +1071,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD52Zoom.jpg",
 		"exifJS": {
+			"Aperture": 5.3,
 			"BrightnessValue": 9.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1066,6 +1094,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.3",
 			"MeteringMode": "Multi-segment",
@@ -1075,6 +1104,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/535",
 			"SubjectArea": [
 				0,
 				0
@@ -1176,6 +1206,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD5200Z.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1188,9 +1219,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/338",
 			"ShutterSpeedValue": "1/338",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -1267,6 +1300,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD5200.jpg",
 		"exifJS": {
+			"Aperture": "4.8",
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1279,9 +1313,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/708",
 			"ShutterSpeedValue": "1/708",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 843,
@@ -1362,6 +1398,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD50Z3C.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1380,6 +1417,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1388,6 +1426,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/273",
 			"ShutterSpeedValue": "1/273",
 			"SubsecTime": 562,
 			"WhiteBalance": "Auto",
@@ -1478,6 +1517,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD4363z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1500,6 +1540,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1510,6 +1551,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/59",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 786,
@@ -1605,6 +1647,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD4360z.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1626,6 +1669,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -1636,6 +1680,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/760",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 776,
@@ -1731,6 +1776,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD41Z8.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1742,6 +1788,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2304 px w",
@@ -1749,6 +1796,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/512",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 566,
@@ -1827,6 +1875,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD4100Z3S.jpg",
 		"exifJS": {
+			"Aperture": "4.7",
 			"ApertureValue": "4.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1839,9 +1888,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/140",
 			"ShutterSpeedValue": "1/140",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -1919,6 +1970,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD4100.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1931,9 +1983,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/38",
 			"ShutterSpeedValue": "1/38",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -2011,6 +2065,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD4.0LCD.jpg",
 		"exifJS": {
+			"Aperture": 6.07,
 			"ApertureValue": "1125899906842624.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2032,6 +2087,7 @@
 			"FocalLength": "10 mm",
 			"FocalLengthIn35mmFilm": "4 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -2042,6 +2098,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1326",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 764,
@@ -2138,6 +2195,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD3300.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2155,9 +2213,11 @@
 				100,
 				100
 			],
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/54",
 			"ShutterSpeedValue": "1/54",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -2235,6 +2295,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD3.3x4ie.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2251,6 +2312,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -2258,6 +2320,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/235",
 			"ShutterSpeedValue": "1/235",
 			"SubsecTime": 968,
 			"_IFDpointer_Makernote": 640,
@@ -2336,6 +2399,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD2100f.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2346,9 +2410,11 @@
 			"FNumber": 3.6,
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.6",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "592 px h",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 538,
 			"_IFDpointer_Interop": 672,
@@ -2420,6 +2486,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD2100Z3S.jpg",
 		"exifJS": {
+			"Aperture": "5.3",
 			"ApertureValue": "5.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2432,9 +2499,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/395",
 			"ShutterSpeedValue": "1/395",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -2512,6 +2581,7 @@
 	{
 		"img": "sampleImages/Concord/JenoptikJD100z3EasyShot.jpg",
 		"exifJS": {
+			"Aperture": 4.182,
 			"ApertureValue": "4.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2530,6 +2600,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2537,6 +2608,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/220",
 			"ShutterSpeedValue": "1/219",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 2558,
@@ -2623,6 +2695,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordJenoptikJD3.1exclusiv.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2639,6 +2712,7 @@
 			"Flash": "Auto, Flash fired, auto mode, red-eye reduction mode",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -2647,6 +2721,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 722,
 			"_IFDpointer_Makernote": [
@@ -2741,6 +2816,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordJD8.0.jpg",
 		"exifJS": {
+			"Aperture": 6.4,
 			"ApertureValue": "6.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2760,6 +2836,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2769,6 +2846,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/297",
 			"ShutterSpeedValue": "1/290",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4826,
@@ -2865,6 +2943,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordJD5.0z3EasyShot.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2884,6 +2963,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2893,6 +2973,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4824,
@@ -2987,6 +3068,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEyeQ3132z.jpg",
 		"exifJS": {
+			"Aperture": 2.663,
 			"ApertureValue": "2.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3004,6 +3086,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -3012,6 +3095,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/46",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 1848,
 			"_IFDpointer_Makernote": 804,
@@ -3099,6 +3183,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEyeQ3103.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"BrightnessValue": 8.4375,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3121,6 +3206,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Center-weighted average",
@@ -3129,6 +3215,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/32",
 			"SubjectArea": [
 				1,
 				1,
@@ -3226,6 +3313,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q5345Z.jpg",
 		"exifJS": {
+			"Aperture": 4.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.8333333333333335,
@@ -3246,6 +3334,7 @@
 			"FocalLength": "17.2 mm",
 			"FocalLengthIn35mmFilm": "84 mm",
 			"GainControl": "High gain up",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3254,6 +3343,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 32950,
 			"_IFDpointer_Makernote": 750,
@@ -3410,6 +3500,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q5062AF.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3432,6 +3523,7 @@
 			"FocalLengthIn35mmFilm": "48 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -3442,6 +3534,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/59",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 790,
@@ -3538,6 +3631,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q4363Z.jpg",
 		"exifJS": {
+			"Aperture": 6.86,
 			"ApertureValue": "10.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3560,6 +3654,7 @@
 			"FocalLengthIn35mmFilm": "56 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -3570,6 +3665,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/126",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 782,
@@ -3665,6 +3761,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q4360Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3686,6 +3783,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -3696,6 +3794,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/59",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 768,
@@ -3792,6 +3891,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q4060AF.jpg",
 		"exifJS": {
+			"Aperture": 6.07,
 			"ApertureValue": "1125899906842624.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3813,6 +3913,7 @@
 			"FocalLength": "10 mm",
 			"FocalLengthIn35mmFilm": "4 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -3823,6 +3924,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/210",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 764,
@@ -3919,6 +4021,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q3346z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3935,6 +4038,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -3943,6 +4047,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 718,
 			"_IFDpointer_Makernote": [
@@ -4037,6 +4142,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q3345z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4053,6 +4159,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -4061,6 +4168,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 718,
 			"_IFDpointer_Makernote": [
@@ -4155,6 +4263,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q3341Z.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4176,6 +4285,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -4186,6 +4296,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/36",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 768,
@@ -4282,6 +4393,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEye-Q3340z.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4304,6 +4416,7 @@
 			"FocalLengthIn35mmFilm": "76 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -4314,6 +4427,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/245",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 824,
@@ -4411,6 +4525,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEYE_Q3042.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4429,6 +4544,7 @@
 			"FlashpixVersion": "-",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 100,
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -4439,6 +4555,7 @@
 				0
 			],
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "0.5",
 			"_IFDpointer_Interop": [],
 			"_IFDpointer_Makernote": 808,
@@ -4524,6 +4641,7 @@
 	{
 		"img": "sampleImages/Concord/ConcordEYE_Q3040.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4539,6 +4657,7 @@
 			"FlashpixVersion": "-",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "White fluorescent (WW 3200 - 3700K)",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -4548,6 +4667,7 @@
 				0
 			],
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "8",
 			"ShutterSpeedValue": "0.5",
 			"_IFDpointer_Interop": 535,
 			"Make": "Concord Camera Corp.",
@@ -4694,6 +4814,7 @@
 	{
 		"img": "sampleImages/Concord/Concord5340z.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"BrightnessValue": 3.763,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4716,6 +4837,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -4725,6 +4847,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"SubjectArea": [
 				0,
 				0
@@ -4826,6 +4949,7 @@
 	{
 		"img": "sampleImages/Concord/Concord5040.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 8,
@@ -4841,12 +4965,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 84,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/49",
 			"_IFDpointer_Interop": 1449,
 			"_IFDpointer_Makernote": 717,
 			"DateTime": "2005:02:08 13:31:19",
@@ -4928,6 +5054,7 @@
 	{
 		"img": "sampleImages/Concord/Concord4340z.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"BrightnessValue": 4.176,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4950,6 +5077,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -4959,6 +5087,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"SubjectArea": [
 				0,
 				0
@@ -5059,6 +5188,7 @@
 	{
 		"img": "sampleImages/Concord/Concord3045.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5074,12 +5204,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/8",
 			"_IFDpointer_Makernote": 614,
 			"DateTime": "2005:04:29 09:11:02",
 			"ImageDescription": "DSCI0003.JPG",
@@ -5156,6 +5288,7 @@
 	{
 		"img": "sampleImages/Concord/Concord2000.jpg",
 		"exifJS": {
+			"Aperture": 9.9,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5172,6 +5305,7 @@
 			"Flash": 2064,
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -5180,6 +5314,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"_IFDpointer_Interop": 1264,
 			"_IFDpointer_Makernote": 784,

@@ -2,12 +2,14 @@
 	{
 		"img": "sampleImages/Toshiba/Toshiba_camessepetit.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "",
 			"DateTimeOriginal": "",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"_IFDpointer_Interop": 312,
@@ -60,6 +62,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaTS705.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:29 20:13:36",
@@ -70,9 +73,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 406,
 			"Make": "TOSHIBA",
@@ -136,6 +141,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaTG01.jpg",
 		"exifJS": {
+			"Aperture": 3.19921875,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -146,6 +152,7 @@
 			"FNumber": 3.19921875,
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -219,6 +226,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR_M21.jpg",
 		"exifJS": {
+			"Aperture": "3.0",
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -231,9 +239,11 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "400 px w",
 			"PixelYDimension": "300 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 672,
 			"_IFDpointer_Makernote": [
@@ -326,6 +336,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDRM40.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -340,8 +351,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/1024",
 			"_IFDpointer_Interop": 580,
 			"_IFDpointer_Makernote": [
@@ -437,12 +450,14 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR5.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "1998:08:08 11:58:00",
 			"DateTimeOriginal": "1998:08:08 11:58:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 432,
@@ -527,6 +542,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR2300.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -538,8 +554,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:09:29 09:11:19",
@@ -606,6 +624,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-T30.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -626,6 +645,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -634,6 +654,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 794,
@@ -728,6 +749,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-T20.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -748,6 +770,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -756,6 +779,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/138",
 			"ShutterSpeedValue": "1/137",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 794,
@@ -850,6 +874,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-T15.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.1,
@@ -865,12 +890,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/45",
 			"UserComment": 730,
 			"_IFDpointer_Interop": 896,
 			"_IFDpointer_Makernote": 650,
@@ -948,6 +975,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-T10.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.1,
@@ -963,12 +991,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/300",
 			"UserComment": 760,
 			"_IFDpointer_Interop": 888,
 			"_IFDpointer_Makernote": 620,
@@ -1050,6 +1080,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M81.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1064,11 +1095,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2400 px w",
 			"PixelYDimension": "1600 px h",
+			"ShutterSpeed": "1/240",
 			"ShutterSpeedValue": "1/239",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -1147,6 +1180,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M71.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1161,11 +1195,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/140",
 			"ShutterSpeedValue": "1/137",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -1243,6 +1279,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M700.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1263,6 +1300,7 @@
 			"FocalLength": "5.7 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1271,6 +1309,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/220",
 			"ShutterSpeedValue": "1/223",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 794,
@@ -1365,6 +1404,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M70.jpg",
 		"exifJS": {
+			"Aperture": 4.4,
 			"ApertureValue": "4.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1379,10 +1419,12 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/35",
 			"ShutterSpeedValue": "1/34",
 			"_IFDpointer_Interop": 612,
 			"_IFDpointer_Makernote": [
@@ -1480,6 +1522,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M65.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1493,8 +1536,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/121",
 			"ShutterSpeedValue": "1/120",
 			"_IFDpointer_Interop": 560,
 			"DateTime": "2000:01:16 13:37:01",
@@ -1567,6 +1612,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M61.jpg",
 		"exifJS": {
+			"Aperture": 6.96,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1580,8 +1626,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/97",
 			"ShutterSpeedValue": "1/96",
 			"_IFDpointer_Interop": 560,
 			"DateTime": "2004:09:14 09:19:28",
@@ -1654,6 +1702,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M60.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1667,8 +1716,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "896 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/62",
 			"ShutterSpeedValue": "1/64",
 			"_IFDpointer_Interop": 560,
 			"DateTime": "2000:11:29 14:54:59",
@@ -1768,6 +1819,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M500.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1788,6 +1840,7 @@
 			"FocalLength": "57 mm",
 			"FocalLengthIn35mmFilm": "370 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1796,6 +1849,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/19",
 			"ShutterSpeedValue": "1/18",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 794,
@@ -1890,6 +1944,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M5.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1904,8 +1959,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/55",
 			"ShutterSpeedValue": "1/54",
 			"_IFDpointer_Interop": 580,
 			"_IFDpointer_Makernote": [
@@ -2001,6 +2058,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M4.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2014,8 +2072,10 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/55",
 			"ShutterSpeedValue": "1/54",
 			"_IFDpointer_Interop": 568,
 			"_IFDpointer_Makernote": [
@@ -2109,6 +2169,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M3.jpg",
 		"exifJS": {
+			"Aperture": 3.8,
 			"ApertureValue": "3.8",
 			"BrightnessValue": 3.5,
 			"ColorSpace": "sRGB",
@@ -2128,12 +2189,14 @@
 			"FocalPlaneXResolution": "893.000000",
 			"FocalPlaneYResolution": "893.000000",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/28",
 			"ShutterSpeedValue": "1/28",
 			"_IFDpointer_Interop": 708,
 			"Copyright": "",
@@ -2220,6 +2283,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M25.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.6,
@@ -2235,12 +2299,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/33",
 			"UserComment": 756,
 			"_IFDpointer_Interop": 884,
 			"_IFDpointer_Makernote": 616,
@@ -2322,6 +2388,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M11.jpg",
 		"exifJS": {
+			"Aperture": "3.0",
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2334,9 +2401,11 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"RelatedSoundFile": "",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 672,
 			"_IFDpointer_Makernote": [
@@ -2430,6 +2499,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-M1.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 4.8,
 			"ColorSpace": "sRGB",
@@ -2449,12 +2519,14 @@
 			"FocalPlaneXResolution": "893.000000",
 			"FocalPlaneYResolution": "893.000000",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/91",
 			"ShutterSpeedValue": "1/91",
 			"_IFDpointer_Interop": 708,
 			"Copyright": "",
@@ -2541,6 +2613,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-5300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2561,6 +2634,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -2570,6 +2644,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "1/4",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -2661,6 +2736,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-4300.jpg",
 		"exifJS": {
+			"Aperture": 3.9,
 			"ApertureValue": "3.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2675,11 +2751,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2400 px w",
 			"PixelYDimension": "1600 px h",
+			"ShutterSpeed": "1/64",
 			"ShutterSpeedValue": "1/64",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -2758,6 +2836,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-3330.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2772,11 +2851,13 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/45",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -2855,6 +2936,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-3320.jpg",
 		"exifJS": {
+			"Aperture": 6.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.5,
@@ -2872,6 +2954,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -2879,6 +2962,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/199",
 			"UserComment": 748,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 884,
@@ -2964,6 +3048,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-3310.jpg",
 		"exifJS": {
+			"Aperture": "11.9",
 			"ApertureValue": "11.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2977,9 +3062,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12.6 mm",
 			"ISO": 120,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/119",
 			"ShutterSpeedValue": "1/119",
 			"UserComment": 56022,
 			"_IFDpointer_Interop": 56158,
@@ -3058,6 +3145,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-3300.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3072,11 +3160,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/550",
 			"ShutterSpeedValue": "1/549",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 604,
@@ -3155,6 +3245,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaPDR-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "1.10",
 			"_IFDpointer_Makernote": [
@@ -3214,12 +3305,14 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaJ-T010.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:12:17 12:56:41",
 			"DateTimeOriginal": "2004:12:17 12:56:41",
 			"ExifVersion": "2.00",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "200 px w",
 			"PixelYDimension": "150 px h",
 			"DateTime": "2004:12:17 12:57:54",
@@ -3272,6 +3365,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaG910.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:09:08 18:22:26",
@@ -3279,6 +3373,7 @@
 			"ExifVersion": "2.20",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -3341,6 +3436,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaG8103.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3350,6 +3446,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"Saturation": "Normal",
@@ -3418,6 +3515,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaCamileoProHDDV.jpg",
 		"exifJS": {
+			"Aperture": 3.64,
 			"ApertureValue": "2153768011353.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3436,6 +3534,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 73,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -3443,6 +3542,7 @@
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "Monochrome area",
+			"ShutterSpeed": "1/256",
 			"ShutterSpeedValue": "1/256",
 			"SubjectDistance": "0 m",
 			"_IFDpointer_Makernote": 1234,
@@ -3526,6 +3626,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaCamileoProHD.jpg",
 		"exifJS": {
+			"Aperture": 3.81,
 			"ApertureValue": "2153768011353.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3544,6 +3645,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 95,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -3551,6 +3653,7 @@
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "Monochrome area",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/10",
 			"SubjectDistance": "0 m",
 			"_IFDpointer_Makernote": 1234,
@@ -3634,6 +3737,7 @@
 	{
 		"img": "sampleImages/Toshiba/ToshibaCamileoH30.jpg",
 		"exifJS": {
+			"Aperture": 3.64,
 			"ApertureValue": "3.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3657,6 +3761,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -3667,6 +3772,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/332",
 			"ShutterSpeedValue": "1/332",
 			"SubjectDistance": "0 m",
 			"SubjectDistanceRange": "Unknown",
@@ -3764,12 +3870,14 @@
 	{
 		"img": "sampleImages/Toshiba/Toshiba921T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:01:31 22:22:20",
 			"DateTimeOriginal": "2009:01:31 22:22:20",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "400 px h",
 			"DateTime": "2009:01:31 22:22:20",
@@ -3823,12 +3931,14 @@
 	{
 		"img": "sampleImages/Toshiba/Toshiba910T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:02:26 15:06:09",
 			"DateTimeOriginal": "2008:02:26 15:06:09",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"DateTime": "2008:02:26 15:06:09",
@@ -3883,12 +3993,14 @@
 	{
 		"img": "sampleImages/Toshiba/Toshiba811T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:07:30 23:44:15",
 			"DateTimeOriginal": "2007:07:30 23:44:15",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2008:02:19 15:40:45",

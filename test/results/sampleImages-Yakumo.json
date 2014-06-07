@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Yakumo/YakumoYK-47sx.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14,9 +15,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/42",
 			"ShutterSpeedValue": "1/42",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -94,6 +97,7 @@
 	{
 		"img": "sampleImages/Yakumo/YakumoMegaImageXII.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -111,6 +115,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -119,6 +124,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/11",
 			"_IFDpointer_Makernote": [
 				1,
 				0,
@@ -218,6 +224,7 @@
 	{
 		"img": "sampleImages/Yakumo/YakumoMega-ImageIII.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"BrightnessValue": 0,
 			"ColorSpace": "sRGB",
@@ -237,12 +244,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 90,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/483",
 			"ShutterSpeedValue": "1/478",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 661,
@@ -328,6 +337,7 @@
 	{
 		"img": "sampleImages/Yakumo/YakumoMega-Image410.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -339,6 +349,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1600 px w",
@@ -346,6 +357,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/32",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 566,
@@ -425,6 +437,7 @@
 	{
 		"img": "sampleImages/Yakumo/YakumoCamMasterSD542.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -445,6 +458,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -455,6 +469,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/11",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 850,
 			"_IFDpointer_Makernote": [
@@ -560,6 +575,7 @@
 	{
 		"img": "sampleImages/Yakumo/YakumoAG.jpg",
 		"exifJS": {
+			"Aperture": 3.953125,
 			"BrightnessValue": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -576,6 +592,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -585,6 +602,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": "202, 88, 207, 0, 0, 486  5,   0,   0,   0,   0,   0",
 			"WhiteBalance": "Auto",
@@ -741,6 +759,7 @@
 	{
 		"img": "sampleImages/Yakumo/Yakumo1210.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"CFAPattern": "[Green,Red][Blue,Green]",
 			"ColorSpace": "sRGB",
@@ -757,6 +776,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -764,6 +784,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/128",
 			"_IFDpointer_Interop": 773,
 			"_IFDpointer_Makernote": 859,

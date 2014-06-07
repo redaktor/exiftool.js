@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaX6-00.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -18,10 +19,12 @@
 			"FocalLength": "5.2 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -94,6 +97,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaX5-01.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -110,10 +114,12 @@
 			"FocalLength": "3.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 415,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"SubsecTime": 134,
 			"SubsecTimeDigitized": 134,
@@ -194,6 +200,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaX3-00.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -203,6 +210,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
@@ -264,6 +272,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaX2-00.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -273,6 +282,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1944 px w",
 			"PixelYDimension": "2592 px h",
 			"SceneCaptureType": "Standard",
@@ -334,6 +344,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN97mini.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -350,10 +361,12 @@
 			"FocalLength": "5.2 mm",
 			"GainControl": "Low gain up",
 			"ISO": 107,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1944 px w",
 			"PixelYDimension": "2592 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 504,
@@ -426,6 +439,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN97.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -442,10 +456,12 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 492,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -582,6 +598,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN958GB.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -598,10 +615,12 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 502,
@@ -675,6 +694,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN95.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -691,10 +711,12 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "1/33",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -767,6 +789,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN93i.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -782,10 +805,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.5 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/270",
 			"ShutterSpeedValue": "1/270",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -854,6 +879,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN93.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "5.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -869,10 +895,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.2 mm",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/810",
 			"ShutterSpeedValue": "1/810",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -941,6 +969,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN91.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -957,10 +986,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/19",
 			"ShutterSpeedValue": "1/19",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -1031,6 +1062,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN900.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1049,11 +1081,13 @@
 			"FocalLength": "5.2 mm",
 			"GainControl": "Low gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1448 px w",
 			"PixelYDimension": "2576 px h",
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/16",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 4742,
 			"WhiteBalance": "Auto",
@@ -1133,6 +1167,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN90-1.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1149,10 +1184,12 @@
 			"FocalLength": "5.5 mm",
 			"GainControl": "High gain up",
 			"ISO": 1000,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Makernote": 500,
@@ -1226,6 +1263,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN9.jpg",
 		"exifJS": {
+			"Aperture": 2.200000047683716,
 			"ApertureValue": "2.2",
 			"Contrast": "Normal",
 			"DateTimeOriginal": "2011:11:30 13:43:12",
@@ -1248,6 +1286,7 @@
 			"SceneCaptureType": "Standard",
 			"SensitivityType": "ISO Speed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubsecTimeOriginal": 677,
 			"WhiteBalance": "Auto",
@@ -1349,6 +1388,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN868MP.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1365,10 +1405,12 @@
 			"FocalLength": "4.6 mm",
 			"GainControl": "Low gain up",
 			"ISO": 107,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 514,
@@ -1457,6 +1499,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN85.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1473,10 +1516,12 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "Low gain up",
 			"ISO": 187,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -1549,6 +1594,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN82.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1565,10 +1611,12 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/125",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -1642,6 +1690,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN81.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1655,6 +1704,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -1722,6 +1772,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN80.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1735,6 +1786,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.7 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -1803,12 +1855,14 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN8.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:04:27 09:11:16",
 			"DateTimeOriginal": "2011:04:27 09:11:16",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "4850 px w",
 			"PixelYDimension": "1056 px h",
 			"DateTime": "2011:04:27 09:11:16",
@@ -1860,6 +1914,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN8-00.jpg",
 		"exifJS": {
+			"Aperture": 2.796875,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1876,10 +1931,12 @@
 			"FocalLength": "5.9 mm",
 			"GainControl": "High gain up",
 			"ISO": 475,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "3000 px w",
 			"PixelYDimension": "4000 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/50",
 			"SubjectArea": [
 				1633,
@@ -1970,6 +2027,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN79.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1986,10 +2044,12 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -2062,6 +2122,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN78.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2078,10 +2139,12 @@
 			"FocalLength": "4.6 mm",
 			"GainControl": "High gain up",
 			"ISO": 243,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"UserComment": [
 				85,
@@ -2215,6 +2278,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN77.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2228,6 +2292,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -2295,6 +2360,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN76.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2308,6 +2374,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -2378,6 +2445,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN75.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2391,6 +2459,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -2458,6 +2527,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN73.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2474,10 +2544,12 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -2550,6 +2622,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN72.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2566,10 +2639,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "High gain up",
 			"ISO": 500,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -2640,6 +2715,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN71.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2656,10 +2732,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -2730,6 +2808,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN70-5.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2746,10 +2825,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -2820,6 +2901,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaN70-1.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2836,10 +2918,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "1/33",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -2911,6 +2995,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaLumia925.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ApertureValue": "2.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2925,11 +3010,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/2825",
 			"ShutterSpeedValue": "1/2825",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 4674,
@@ -3024,6 +3111,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaLumia920.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2012:12:11 11:03:49",
@@ -3035,8 +3123,10 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
+			"ShutterSpeed": "1/588",
 			"_IFDpointer_Interop": 9805,
 			"_IFDpointer_Makernote": 4574,
 			"_Padding": 2450,
@@ -3120,6 +3210,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaLumia1520.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "2.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3134,11 +3225,13 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1936 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/12",
 			"ShutterSpeedValue": "1/12",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 4676,
@@ -3210,6 +3303,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaLumia1020.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ApertureValue": "2.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3224,11 +3318,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "7136 px w",
 			"PixelYDimension": "5360 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 556,
@@ -3309,6 +3405,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE90.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3325,10 +3422,12 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 494,
@@ -3401,6 +3500,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE75-1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3417,10 +3517,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "None",
 			"ISO": 74,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/500",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -3493,6 +3595,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE72-1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3509,10 +3612,12 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/119",
 			"ShutterSpeedValue": "1/119",
 			"SubsecTime": 534,
 			"SubsecTimeDigitized": 534,
@@ -3593,6 +3698,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE71x.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3606,6 +3712,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -3673,6 +3780,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE71.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3686,6 +3794,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -3753,6 +3862,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE70.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3769,10 +3879,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/135",
 			"ShutterSpeedValue": "1/135",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -3844,6 +3956,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE7-00.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3857,10 +3970,12 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "High gain up",
 			"ISO": 278,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "1832 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"SubjectArea": [
 				1683,
@@ -3945,6 +4060,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE66.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3958,6 +4074,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
@@ -4025,6 +4142,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE65.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4038,6 +4156,7 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -4112,6 +4231,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE63.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4125,6 +4245,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -4192,6 +4313,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE61i.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4205,6 +4327,7 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -4272,6 +4395,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE55-1.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4288,10 +4412,12 @@
 			"FocalLength": "3.3 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/10",
 			"SubsecTime": 524,
 			"SubsecTimeDigitized": 524,
@@ -4372,6 +4498,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE52-1.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4388,10 +4515,12 @@
 			"FocalLength": "3.3 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/24",
 			"ShutterSpeedValue": "1/24",
 			"SubsecTime": 200,
 			"SubsecTimeDigitized": 200,
@@ -4472,6 +4601,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE51.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4485,6 +4615,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -4552,6 +4683,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE50.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4565,6 +4697,7 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -4632,6 +4765,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaE5-00.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4648,10 +4782,12 @@
 			"FocalLength": "3.4 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"SubsecTime": 899,
 			"SubsecTimeDigitized": 899,
@@ -4732,6 +4868,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC7-00.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -4745,10 +4882,12 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/266",
 			"ShutterSpeedValue": "1/266",
 			"SubsecTime": 641,
 			"SubsecTimeDigitized": 641,
@@ -4826,6 +4965,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC6-01.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -4839,10 +4979,12 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "1832 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/338",
 			"ShutterSpeedValue": "1/338",
 			"SubjectArea": [
 				2281,
@@ -4927,6 +5069,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC6-00.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4943,10 +5086,12 @@
 			"FocalLength": "4.7 mm",
 			"GainControl": "High gain up",
 			"ISO": 295,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -5019,6 +5164,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC5-00.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5035,10 +5181,12 @@
 			"FocalLength": "3.3 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1562",
 			"ShutterSpeedValue": "1/1562",
 			"SubsecTime": 267,
 			"SubsecTimeDigitized": 267,
@@ -5119,12 +5267,14 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC3-01.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:07:26 21:50:16",
 			"DateTimeOriginal": "2011:07:26 21:50:16",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"_IFDpointer_Makernote": "",
@@ -5184,6 +5334,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC3-00.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5193,6 +5344,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": [
 				1600,
 				0
@@ -5262,6 +5414,7 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC2-01.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5271,6 +5424,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
@@ -5332,12 +5486,14 @@
 	{
 		"img": "sampleImages/Nokia/NokiaC1-01.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:02:04 18:24:16",
 			"DateTimeOriginal": "2011:02:04 18:24:16",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": [
 				388,
 				0
@@ -5400,6 +5556,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia8800e-1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5409,6 +5566,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
@@ -5473,10 +5631,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia8800SI.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -5529,10 +5689,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia8800.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -5585,10 +5747,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia8600Luna.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -5641,6 +5805,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia808PureView.jpg",
 		"exifJS": {
+			"Aperture": 2.3984375,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5657,10 +5822,12 @@
 			"FocalLength": "8 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/186",
 			"ShutterSpeedValue": "1/186",
 			"SubsecTime": 178,
 			"SubsecTimeDigitized": 178,
@@ -5766,6 +5933,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia800.jpg",
 		"exifJS": {
+			"Aperture": 2.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2013:10:14 17:03:07",
@@ -5775,9 +5943,11 @@
 			"FNumber": 2.2,
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3264 px w",
 			"PixelYDimension": "2448 px h",
+			"ShutterSpeed": "1/526",
 			"_IFDpointer_Interop": 414,
 			"GPSAltitude": "14.2 m Above Sea Level",
 			"GPSAltitudeRef": "Above Sea Level",
@@ -5864,6 +6034,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7900.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5873,6 +6044,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -5960,6 +6132,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7610Supernova.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5969,6 +6142,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
@@ -6033,12 +6207,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7510Supernova.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:04:22 18:49:57",
 			"DateTimeOriginal": "2010:04:22 18:49:57",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -6096,6 +6272,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7500.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6105,6 +6282,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "0 px w",
 			"PixelYDimension": "0 px h",
 			"SceneCaptureType": "Standard",
@@ -6166,10 +6344,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7390.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"_IFDpointer_Makernote": "",
@@ -6225,10 +6405,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7373.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"Make": "Nokia",
@@ -6282,10 +6464,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7370.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"Make": "Nokia",
@@ -6338,6 +6522,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7310.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6347,6 +6532,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -6404,6 +6590,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7230.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6413,6 +6600,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
@@ -6474,6 +6662,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7210Supernova.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6483,6 +6672,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneCaptureType": "Standard",
@@ -6544,6 +6734,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7100s-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6553,6 +6744,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
@@ -6614,6 +6806,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia7020.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6623,6 +6816,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -6684,6 +6878,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6730c.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6700,10 +6895,12 @@
 			"FocalLength": "3.3 mm",
 			"GainControl": "High gain up",
 			"ISO": 228,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"SubsecTime": 665,
 			"SubsecTimeDigitized": 665,
@@ -6784,6 +6981,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6730c-1.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6800,10 +6998,12 @@
 			"FocalLength": "3.3 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1562",
 			"ShutterSpeedValue": "1/1562",
 			"SubsecTime": 231,
 			"SubsecTimeDigitized": 231,
@@ -6884,6 +7084,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6720c.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6900,10 +7101,12 @@
 			"FocalLength": "5.2 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1944 px w",
 			"PixelYDimension": "2592 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/253",
 			"ShutterSpeedValue": "1/253",
 			"SubsecTime": 50,
 			"SubsecTimeDigitized": 50,
@@ -6984,6 +7187,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6710s.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7000,10 +7204,12 @@
 			"FocalLength": "5.2 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/351",
 			"ShutterSpeedValue": "1/351",
 			"SubsecTime": 38,
 			"SubsecTimeDigitized": 38,
@@ -7084,6 +7290,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6700c-1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -7093,6 +7300,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
@@ -7156,6 +7364,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6682.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7172,10 +7381,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "High gain up",
 			"ISO": 1250,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Night scene",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/7",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -7243,6 +7454,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6681.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7259,10 +7471,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 250,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Night scene",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/10",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -7330,6 +7544,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6680.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7346,10 +7561,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"WhiteBalance": "Manual",
 			"Make": "Nokia",
@@ -7416,6 +7633,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6650fold.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7429,6 +7647,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
@@ -7496,6 +7715,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6630.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7512,10 +7732,12 @@
 			"FocalLength": "4.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 500,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/7890",
 			"ShutterSpeedValue": "1/7886",
 			"WhiteBalance": "Auto",
 			"Make": "Nokia",
@@ -7583,6 +7805,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6600s.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -7592,6 +7815,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -7656,6 +7880,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6600i-1c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -7665,6 +7890,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1944 px w",
 			"PixelYDimension": "2592 px h",
 			"SceneCaptureType": "Standard",
@@ -7729,6 +7955,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6600f.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -7738,6 +7965,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -7828,10 +8056,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6555.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -7884,6 +8114,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6500s-1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -7893,6 +8124,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
@@ -7958,6 +8190,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6500c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -7965,6 +8198,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -8025,6 +8259,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6315i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:02:14 14:38:43",
@@ -8035,9 +8270,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "On, Flash fired, compulsory flash mode",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 510,
 			"Make": "Nokia",
@@ -8101,6 +8338,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6303i_classic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -8110,6 +8348,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
@@ -8171,6 +8410,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6303classic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -8180,6 +8420,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
@@ -8242,6 +8483,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6301.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -8251,6 +8493,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneCaptureType": "Standard",
@@ -8312,12 +8555,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6300i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:08:01 12:46:04",
 			"DateTimeOriginal": "2010:08:01 12:46:04",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -8375,10 +8620,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"Make": "Nokia",
@@ -8432,6 +8679,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6290.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8445,6 +8693,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -8512,10 +8761,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6288.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"UserComment": "",
@@ -8599,10 +8850,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6275i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -8655,10 +8908,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6275.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"Make": "Nokia",
@@ -8711,6 +8966,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6267.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -8718,6 +8974,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -8778,6 +9035,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6263.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -8785,6 +9043,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneCaptureType": "Standard",
@@ -8844,10 +9103,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6234.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "4596cbbc13e8464901fe0165ed4fdcc9",
 			"PixelXDimension": "1592 px w",
 			"PixelYDimension": "1114 px h",
@@ -8906,10 +9167,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6233.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -8963,6 +9226,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6220c-1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8979,10 +9243,12 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "1/33",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 502,
@@ -9055,6 +9321,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6212classic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -9064,6 +9331,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -9128,6 +9396,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6210Navig.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9144,10 +9413,12 @@
 			"FocalLength": "3.8 mm",
 			"GainControl": "None",
 			"ISO": 60,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 506,
@@ -9220,6 +9491,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6210.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9236,10 +9508,12 @@
 			"FocalLength": "3.8 mm",
 			"GainControl": "High gain up",
 			"ISO": 960,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 506,
@@ -9312,6 +9586,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6208c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -9321,6 +9596,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneCaptureType": "Standard",
@@ -9385,10 +9661,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6151.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -9439,10 +9717,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6136.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"Make": "Nokia",
@@ -9496,10 +9776,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6133.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -9552,10 +9834,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6131.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"Make": "Nokia",
@@ -9604,10 +9888,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6126.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -9660,10 +9946,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6125.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"Make": "Nokia",
@@ -9716,6 +10004,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6122.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9729,6 +10018,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -9796,6 +10086,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6120c.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9809,6 +10100,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
@@ -9903,6 +10195,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia6110.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9916,6 +10209,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -9984,6 +10278,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5800Xpres.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10000,10 +10295,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "None",
 			"ISO": 74,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/111",
 			"ShutterSpeedValue": "1/111",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 518,
@@ -10092,6 +10389,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5730S-1.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10108,10 +10406,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "High gain up",
 			"ISO": 480,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 502,
@@ -10184,6 +10484,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5700.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10197,6 +10498,7 @@
 			"Flash": "On, Flash fired, compulsory flash mode",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -10264,6 +10566,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5630d-1.jpg",
 		"exifJS": {
+			"Aperture": 2.4,
 			"ApertureValue": "1.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10280,10 +10583,12 @@
 			"FocalLength": "3.3 mm",
 			"GainControl": "High gain up",
 			"ISO": 319,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"SubsecTime": 406,
 			"SubsecTimeDigitized": 406,
@@ -10364,12 +10669,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5610d-1.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:09 12:52:04",
 			"DateTimeOriginal": "2010:06:09 12:52:04",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"UserComment": "",
@@ -10432,6 +10739,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5500.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"CustomRendered": "Normal",
@@ -10444,6 +10752,7 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -10506,6 +10815,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5320.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10519,6 +10829,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1152 px w",
 			"PixelYDimension": "864 px h",
@@ -10586,12 +10897,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5310XpressMusic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:10:26 10:57:57",
 			"DateTimeOriginal": "2008:10:26 10:57:57",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -10646,10 +10959,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -10702,6 +11017,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5250.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10718,10 +11034,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "None",
 			"ISO": 60,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/333",
 			"ShutterSpeedValue": "1/333",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -10794,6 +11112,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5235.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10810,10 +11129,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "None",
 			"ISO": 60,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/250",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -10886,6 +11207,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5233.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10902,10 +11224,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "High gain up",
 			"ISO": 138,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1227 px w",
 			"PixelYDimension": "1078 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "1/33",
 			"UserComment": 2070,
 			"WhiteBalance": "Auto",
@@ -10983,6 +11307,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5230.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -10999,10 +11324,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "Low gain up",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -11075,6 +11402,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5228.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -11091,10 +11419,12 @@
 			"FocalLength": "3.7 mm",
 			"GainControl": "None",
 			"ISO": 60,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Makernote": 500,
@@ -11167,12 +11497,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5220XpressMusic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:10:02 10:16:17",
 			"DateTimeOriginal": "2009:10:02 10:16:17",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -11230,10 +11562,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5200.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"Make": "Nokia",
@@ -11282,12 +11616,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5130c-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:09 16:10:46",
 			"DateTimeOriginal": "2010:06:09 16:10:46",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -11345,6 +11681,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5000d-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -11354,6 +11691,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
@@ -11415,6 +11753,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia5000.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -11424,6 +11763,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
@@ -11485,12 +11825,14 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3720c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:06 22:53:17",
 			"DateTimeOriginal": "2010:06:06 22:53:17",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -11548,6 +11890,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3710fold.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -11557,6 +11900,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1536 px w",
 			"PixelYDimension": "2048 px h",
 			"SceneCaptureType": "Standard",
@@ -11618,10 +11962,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3610a.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -11674,6 +12020,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3600slide.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -11683,6 +12030,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -11747,6 +12095,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3600s.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -11756,6 +12105,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneCaptureType": "Standard",
@@ -11820,10 +12170,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3555c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"Make": "Nokia",
@@ -11872,10 +12224,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3555.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"Make": "Nokia",
@@ -11924,10 +12278,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3500c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Make": "Nokia",
@@ -12003,6 +12359,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3250.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -12016,6 +12373,7 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -12075,6 +12433,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3120classic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12084,6 +12443,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -12148,10 +12508,12 @@
 	{
 		"img": "sampleImages/Nokia/Nokia3110c.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"Make": "Nokia",
@@ -12205,6 +12567,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia2730classic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12214,6 +12577,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -12275,6 +12639,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia2720a-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12284,6 +12649,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneCaptureType": "Standard",
@@ -12345,6 +12711,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia2700classic.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12354,6 +12721,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"SceneCaptureType": "Standard",
@@ -12415,6 +12783,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia2690.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12424,6 +12793,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"SceneCaptureType": "Standard",
@@ -12485,6 +12855,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia2680s-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12494,6 +12865,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"SceneCaptureType": "Standard",
@@ -12555,6 +12927,7 @@
 	{
 		"img": "sampleImages/Nokia/Nokia2330c-2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -12564,6 +12937,7 @@
 			"ExifVersion": "2.20",
 			"ExposureMode": "Auto",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"SceneCaptureType": "Night scene",

@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Medion/MedionSX410Z.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -14,9 +15,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
+			"ShutterSpeed": "1/76",
 			"ShutterSpeedValue": "1/76",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -93,6 +96,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD9700.jpg",
 		"exifJS": {
+			"Aperture": "3.4",
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -105,9 +109,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "17 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/54",
 			"ShutterSpeedValue": "1/54",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -185,6 +191,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD9653.jpg",
 		"exifJS": {
+			"Aperture": "4.8",
 			"ApertureValue": "4.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -197,9 +204,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/166",
 			"ShutterSpeedValue": "1/166",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -277,6 +286,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD86276.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ApertureValue": "5.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -297,6 +307,7 @@
 			"FocalLength": "18.9 mm",
 			"FocalLengthIn35mmFilm": "114 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -307,6 +318,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/90",
 			"SubsecTime": 48,
 			"UserComment": 3838,
@@ -409,6 +421,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD86066.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -425,6 +438,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -433,6 +447,7 @@
 			"RelatedSoundFile": "USERR292B343CTC0F0lu26ExtAE 0",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/1024",
 			"_IFDpointer_Interop": 1218,
 			"_IFDpointer_Makernote": 720,
@@ -517,6 +532,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD86063.jpg",
 		"exifJS": {
+			"Aperture": 5.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.793816666666667,
@@ -536,6 +552,7 @@
 			"FocalLength": "15.7 mm",
 			"FocalLengthIn35mmFilm": "88 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -545,6 +562,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 37914,
 			"WhiteBalance": "Auto",
@@ -640,6 +658,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD85863.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.918753045808967,
@@ -659,6 +678,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -668,6 +688,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 37912,
 			"WhiteBalance": "Auto",
@@ -763,6 +784,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD85830.jpg",
 		"exifJS": {
+			"Aperture": 7.2,
 			"ApertureValue": "7.2",
 			"BrightnessValue": 9.547,
 			"ColorSpace": "sRGB",
@@ -787,6 +809,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -797,6 +820,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/398",
 			"ShutterSpeedValue": "1/396",
 			"SubjectDistanceRange": "Unknown",
 			"SubsecTime": 437,
@@ -903,6 +927,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD85675.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -919,6 +944,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 140,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -926,6 +952,7 @@
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"_IFDpointer_Makernote": 678,
 			"Copyright": "",
@@ -1009,6 +1036,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD85447.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1025,6 +1053,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -1033,6 +1062,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/16",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "WHNDSCA",
@@ -1117,6 +1147,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD85375.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1133,6 +1164,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -1141,6 +1173,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/1293",
 			"ShutterSpeedValue": "1/1024",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -1225,6 +1258,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD85173.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1241,6 +1275,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -1249,6 +1284,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/647",
 			"ShutterSpeedValue": "1/512",
 			"_IFDpointer_Interop": 776,
 			"_IFDpointer_Makernote": "YUGDSCA",
@@ -1333,6 +1369,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD511Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1345,9 +1382,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "14.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/42",
 			"ShutterSpeedValue": "1/42",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -1425,6 +1464,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD5.2z3.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 3.5,
 			"CFAPattern": "[Green,Red][Blue,Green]",
@@ -1447,6 +1487,7 @@
 			"FocalLength": "10 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1456,6 +1497,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/33",
 			"ShutterSpeedValue": "0.8",
 			"SubjectDistanceRange": "Distant view",
 			"SubsecTime": 416,
@@ -1558,6 +1600,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD411Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1570,9 +1613,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "17.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/81",
 			"ShutterSpeedValue": "1/81",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -1650,6 +1695,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD410Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.6",
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1662,9 +1708,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/197",
 			"ShutterSpeedValue": "1/197",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 886,
@@ -1742,6 +1790,7 @@
 	{
 		"img": "sampleImages/Medion/MedionMD210Z3.jpg",
 		"exifJS": {
+			"Aperture": "2.3",
 			"ApertureValue": "2.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1754,9 +1803,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.1 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "360 px h",
+			"ShutterSpeed": "1/91",
 			"ShutterSpeedValue": "1/91",
 			"SubjectDistance": "NaN m",
 			"_IFDpointer_Interop": 572,
@@ -1832,6 +1883,7 @@
 	{
 		"img": "sampleImages/Medion/Medion636Z3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1849,6 +1901,7 @@
 			"Flash": "Auto, Flash fired, strobe return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -1857,6 +1910,7 @@
 			"RelatedSoundFile": "RelatedSound",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/11",
 			"UserComment": 21210,
 			"WhiteBalance": "Auto",
@@ -1948,6 +2002,7 @@
 	{
 		"img": "sampleImages/Medion/Medion.jpg",
 		"exifJS": {
+			"Aperture": 2.796875,
 			"BrightnessValue": 1.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1962,12 +2017,14 @@
 			"Flash": "Auto, Flash fired, strobe return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/46",
 			"UserComment": "191, 47, 260, 1, 1, 476",
 			"DateTime": "2008:07:03 04:27:41",
 			"ImageDescription": "MEDION DIGITAL CAMERA",

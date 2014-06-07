@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_x530.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"BrightnessValue": 7.41,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -15,9 +16,11 @@
 			"FNumber": 3.3,
 			"Flash": "Auto, Flash did not fire",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"PixelXDimension": "1408 px w",
 			"PixelYDimension": "1056 px h",
+			"ShutterSpeed": "1/500",
 			"_IFDpointer_Interop": 510,
 			"DateTime": "2004:02:16 00:43:49",
 			"ImageDescription": "234;6;5",
@@ -88,6 +91,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_t1234.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.7565246666666665,
@@ -107,6 +111,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -116,6 +121,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 37912,
 			"WhiteBalance": "Auto",
@@ -211,6 +217,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_t1035.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.6188194123832975,
@@ -230,6 +237,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -239,6 +247,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 37912,
 			"WhiteBalance": "Auto",
@@ -334,6 +343,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_t1031.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2.739906349389556,
@@ -353,6 +363,7 @@
 			"FocalLength": "7.7 mm",
 			"FocalLengthIn35mmFilm": "43 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -362,6 +373,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 37910,
 			"WhiteBalance": "Auto",
@@ -457,6 +469,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_izone550.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -472,12 +485,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "648 px w",
 			"PixelYDimension": "486 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/60",
 			"UserComment": 616,
 			"_IFDpointer_Interop": 1004,
 			"DateTime": "2007:03:22 08:30:03",
@@ -558,6 +573,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_izone300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -573,12 +589,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/14",
 			"UserComment": 616,
 			"_IFDpointer_Interop": 1004,
 			"DateTime": "2005:04:22 15:36:15",
@@ -658,6 +676,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i836.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -677,6 +696,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Spot",
@@ -686,6 +706,7 @@
 			"SceneCaptureType": 4,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"UserComment": 796,
 			"WhiteBalance": "Auto",
@@ -783,6 +804,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i834.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -801,6 +823,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -809,6 +832,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/85",
 			"ShutterSpeedValue": "1/85",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3812,
@@ -897,6 +921,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i832.jpg",
 		"exifJS": {
+			"Aperture": 6.4,
 			"ApertureValue": "6.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -916,6 +941,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -925,6 +951,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/297",
 			"ShutterSpeedValue": "1/290",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4830,
@@ -1021,6 +1048,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i830DSD.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1040,6 +1068,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -1048,6 +1077,7 @@
 			"RelatedSoundFile": "",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/284",
 			"ShutterSpeedValue": "1/284",
 			"UserComment": 805,
 			"WhiteBalance": "Auto",
@@ -1144,6 +1174,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i737.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1163,6 +1194,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -1172,6 +1204,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"UserComment": 796,
 			"WhiteBalance": "Auto",
@@ -1269,6 +1302,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i733.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1287,6 +1321,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -1295,6 +1330,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3620,
@@ -1383,6 +1419,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i639.jpg",
 		"exifJS": {
+			"Aperture": 2.85,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1401,6 +1438,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1408,6 +1446,7 @@
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"_IFDpointer_Interop": 2012,
 			"_IFDpointer_Makernote": 656,
@@ -1492,6 +1531,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i630.jpg",
 		"exifJS": {
+			"Aperture": 2.85,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1510,6 +1550,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1517,6 +1558,7 @@
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/285",
 			"ShutterSpeedValue": "1/285",
 			"_IFDpointer_Interop": 2012,
 			"_IFDpointer_Makernote": 656,
@@ -1601,6 +1643,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i533.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1619,6 +1662,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1627,6 +1671,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/50",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3620,
@@ -1715,6 +1760,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i532.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1734,6 +1780,7 @@
 			"FocalLength": "12.3 mm",
 			"FocalLengthIn35mmFilm": "74 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -1743,6 +1790,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4838,
@@ -1838,6 +1886,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i531.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1856,6 +1905,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1864,6 +1914,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/771",
 			"ShutterSpeedValue": "1/771",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3748,
@@ -1952,6 +2003,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i1237.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1971,6 +2023,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "45 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -1980,6 +2033,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 49,
 			"UserComment": 766,
@@ -2080,6 +2134,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i1037.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2099,6 +2154,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -2108,6 +2164,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4516,
@@ -2204,6 +2261,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i1035.jpg",
 		"exifJS": {
+			"Aperture": 2.909,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2221,6 +2279,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Average",
@@ -2230,6 +2289,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"UserComment": [
 				0,
 				0
@@ -2322,6 +2382,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_i1032.jpg",
 		"exifJS": {
+			"Aperture": 2.883,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2340,6 +2401,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2347,6 +2409,7 @@
 			"PixelYDimension": "2736 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/81",
 			"ShutterSpeedValue": "1/81",
 			"_IFDpointer_Interop": 2530,
 			"_IFDpointer_Makernote": 662,
@@ -2431,6 +2494,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_a932.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2448,6 +2512,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3 mm",
 			"ISO": 82,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2456,6 +2521,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/15",
 			"ShutterSpeedValue": "1/15",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 35364,
@@ -2542,6 +2608,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_a930.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2559,6 +2626,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2567,6 +2635,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/264",
 			"ShutterSpeedValue": "1/256",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 38912,
@@ -2653,6 +2722,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid_a530.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2672,6 +2742,7 @@
 			"FocalLength": "0 mm",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -2680,6 +2751,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/999",
 			"UserComment": 746,
 			"WhiteBalance": "Auto",
@@ -2780,6 +2852,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidZ340.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2800,6 +2873,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "43 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -2810,6 +2884,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/25",
 			"SubsecTime": 48,
 			"UserComment": 3836,
@@ -2912,6 +2987,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidVista.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -2927,12 +3003,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": 38,
+			"ShutterSpeed": "1/18",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2001:06:28 20:36:25",
 			"ImageDescription": "WWL DSC",
@@ -3009,6 +3087,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidTinio.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3024,6 +3103,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -3032,6 +3112,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/120",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2003:03:02 16:45:52",
 			"ImageDescription": "WWL",
@@ -3107,6 +3188,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidSpeed_star_i835.jpg",
 		"exifJS": {
+			"Aperture": 2.91,
 			"ApertureValue": "2.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3124,6 +3206,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 65,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Average",
@@ -3133,6 +3216,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/100",
 			"UserComment": [
 				0,
 				0
@@ -3226,6 +3310,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC6350.jpg",
 		"exifJS": {
+			"Aperture": 2.79,
 			"ApertureValue": "2.6",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -3241,11 +3326,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "72 px w",
 			"PixelYDimension": "2848 px h",
+			"ShutterSpeed": "1/50",
 			"UserComment": 1242,
 			"_IFDpointer_Makernote": 730,
 			"DateTime": "2008:01:08 16:35:54",
@@ -3329,6 +3416,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC5355.jpg",
 		"exifJS": {
+			"Aperture": 2.65,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 7.9,
@@ -3346,12 +3434,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/46",
 			"DateTime": "2007:03:18 09:31:48",
 			"ImageDescription": "DCFC0144.JPG",
 			"Make": "Polaroid",
@@ -3488,6 +3578,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC5080.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3503,6 +3594,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "e3cffad0c241619fe423d21589fa02e4",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -3510,6 +3602,7 @@
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/9",
 			"UserComment": 646,
 			"_IFDpointer_Interop": 935,
 			"DateTime": "2007:03:01 13:23:23",
@@ -3593,6 +3686,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC5070CMOS.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3608,6 +3702,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "cdff46b8cc756f03dfcb045efa7e9c62",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
@@ -3615,6 +3710,7 @@
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1739 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "0.5",
 			"UserComment": 652,
 			"_IFDpointer_Interop": 941,
 			"DateTime": "2004:01:01 00:12:43",
@@ -3696,6 +3792,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC5070.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -3711,12 +3808,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/75",
 			"UserComment": 624,
 			"DateTime": "2004:01:18 01:34:13",
 			"ImageDescription": "DCFC0008.JPG",
@@ -3794,6 +3893,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC4355.jpg",
 		"exifJS": {
+			"Aperture": 4.97,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 12.2,
@@ -3809,6 +3909,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "992776920d5bea76931e664a6d6821df",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
@@ -3816,6 +3917,7 @@
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/179",
 			"UserComment": 625,
 			"_IFDpointer_Interop": 914,
 			"DateTime": "2007:04:01 12:10:55",
@@ -3899,6 +4001,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC4350.jpg",
 		"exifJS": {
+			"Aperture": 2.798,
 			"BrightnessValue": 3.383,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3921,6 +4024,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "Low gain up",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -3930,6 +4034,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/64",
 			"SubjectArea": [
 				0,
 				0
@@ -4030,6 +4135,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3350.jpg",
 		"exifJS": {
+			"Aperture": 4.873,
 			"ApertureValue": "5.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4047,6 +4153,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -4055,6 +4162,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Interop": 1848,
 			"_IFDpointer_Makernote": 804,
@@ -4142,6 +4250,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3150.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"BrightnessValue": 10.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4164,6 +4273,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Center-weighted average",
@@ -4172,6 +4282,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/137",
 			"SubjectArea": [
 				1,
 				1,
@@ -4269,6 +4380,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3080.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"CompressedBitsPerPixel": 2,
 			"DateTimeDigitized": "2003:07:17 19:29:26",
@@ -4282,11 +4394,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
+			"ShutterSpeed": "1/2360",
 			"DateTime": "2003:07:17 19:30:58",
 			"ImageDescription": "DCFC0040.JPG",
 			"Make": "POLAROID",
@@ -4353,6 +4467,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3077.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4368,12 +4483,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": 24,
+			"ShutterSpeed": "1/365",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2004:08:21 17:57:42",
 			"ImageDescription": "WWL",
@@ -4450,6 +4567,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3070.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4465,12 +4583,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": 132,
+			"ShutterSpeed": "1/5208",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2001:01:03 12:28:59",
 			"ImageDescription": "WWL",
@@ -4547,6 +4667,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3050.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"BrightnessValue": 14.1875,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4569,6 +4690,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Center-weighted average",
@@ -4577,6 +4699,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/300",
 			"SubjectArea": [
 				1,
 				1,
@@ -4674,6 +4797,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3035.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4689,12 +4813,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/2604",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2005:07:15 20:48:39",
 			"ImageDescription": "WWL",
@@ -4770,6 +4896,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC3030.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -4785,12 +4912,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": 61,
+			"ShutterSpeed": "1/1042",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2004:01:27 05:35:36",
 			"ImageDescription": "WWL",
@@ -4867,6 +4996,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC2350.jpg",
 		"exifJS": {
+			"Aperture": 8.79,
 			"ApertureValue": "21.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4884,6 +5014,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -4892,6 +5023,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/431",
 			"ShutterSpeedValue": "0",
 			"_IFDpointer_Makernote": 688,
 			"Copyright": "Copyright 1,2003",
@@ -5027,6 +5159,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC2300Z.jpg",
 		"exifJS": {
+			"Aperture": 3.02,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5040,8 +5173,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/45",
 			"ShutterSpeedValue": "1/48",
 			"_IFDpointer_Interop": 560,
 			"DateTime": "2000:01:06 07:51:57",
@@ -5114,6 +5249,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC2150.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.7561416666666667,
@@ -5129,10 +5265,12 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/47",
 			"_IFDpointer_Interop": 826,
 			"_IFDpointer_Makernote": 570,
 			"DateTime": "2005:02:18 16:33:45",
@@ -5208,6 +5346,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC2070.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5223,6 +5362,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -5231,6 +5371,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2004:12:31 21:36:17",
 			"ImageDescription": "WWL",
@@ -5307,6 +5448,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC2050.jpg",
 		"exifJS": {
+			"Aperture": 2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5322,6 +5464,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -5330,6 +5473,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/220",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2001:01:01 00:32:27",
 			"ImageDescription": "WWL",
@@ -5406,6 +5550,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC1320.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5415,8 +5560,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/32",
 			"ShutterSpeedValue": "1/32",
 			"_IFDpointer_Interop": 380,
 			"Make": "POLAROID",
@@ -5479,12 +5626,14 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC1300.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2000:01:01 00:40:58",
 			"DateTimeOriginal": "2000:01:01 00:40:58",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"Make": "Polaroid",
@@ -5538,6 +5687,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC1075.jpg",
 		"exifJS": {
+			"Aperture": null,
 			"ApertureValue": "NaN",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5556,6 +5706,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -5564,6 +5715,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/23",
 			"ShutterSpeedValue": "1/23",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -5650,6 +5802,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC1070.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5665,12 +5818,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneType": 252,
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2004:06:30 06:43:17",
 			"ImageDescription": "WWL",
@@ -5746,6 +5901,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC1050.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"CompressedBitsPerPixel": 1.6,
@@ -5761,6 +5917,7 @@
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1/39",
 			"_IFDpointer_Interop": 468,
 			"_IFDpointer_Makernote": [
@@ -5842,6 +5999,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidPDC-2300.jpg",
 		"exifJS": {
+			"Aperture": 6.96,
 			"ApertureValue": "7.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5855,8 +6013,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1792 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/216",
 			"ShutterSpeedValue": "1/214",
 			"_IFDpointer_Interop": 560,
 			"DateTime": "2001:04:10 14:20:52",
@@ -5957,6 +6117,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidP5055.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -5972,12 +6133,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 30,
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1936 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/256",
 			"UserComment": 630,
 			"_IFDpointer_Interop": 1018,
 			"DateTime": "2005:09:03 14:51:47",
@@ -6058,6 +6221,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidP4055.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -6072,12 +6236,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/23",
 			"UserComment": 618,
 			"_IFDpointer_Interop": 1006,
 			"DateTime": "2004:10:16 15:21:27",
@@ -6156,6 +6322,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidMovixII.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -6171,12 +6338,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": 9,
+			"ShutterSpeed": "1/880",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2004:04:20 20:30:14",
 			"ImageDescription": "WWL DSC",
@@ -6252,6 +6421,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidModel_a530.jpg",
 		"exifJS": {
+			"Aperture": 5.29,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 13.1,
@@ -6271,12 +6441,14 @@
 			"FocalPlaneXResolution": "1.086420",
 			"FocalPlaneYResolution": "1.000000",
 			"ISO": 59,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/256",
 			"_IFDpointer_Interop": 1080,
 			"DateTime": "2006:12:10 15:57:39",
 			"ImageDescription": "DCFC0005.JPG",
@@ -6358,6 +6530,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidModel_a500.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 13.3,
@@ -6377,12 +6550,14 @@
 			"FocalPlaneXResolution": "1.750000",
 			"FocalPlaneYResolution": "1.000000",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/256",
 			"_IFDpointer_Interop": 1080,
 			"DateTime": "2004:11:11 13:43:42",
 			"ImageDescription": "DCFC0036.JPG",
@@ -6464,6 +6639,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidMISS.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -6479,6 +6655,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
@@ -6487,6 +6664,7 @@
 			"SceneType": [
 				0
 			],
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 555,
 			"DateTime": "2004:10:24 09:36:00",
 			"ImageDescription": "WWL",
@@ -6562,6 +6740,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidION300.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -6577,12 +6756,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": 12,
+			"ShutterSpeed": "1/20",
 			"_IFDpointer_Interop": 554,
 			"DateTime": "2001:01:11 11:16:43",
 			"ImageDescription": "WWL",
@@ -6658,6 +6839,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidION230.jpg",
 		"exifJS": {
+			"Aperture": null,
 			"ApertureValue": "NaN",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6676,6 +6858,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -6684,6 +6867,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/12",
 			"ShutterSpeedValue": "1/12",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -6770,6 +6954,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidDZIGN1.0.jpg",
 		"exifJS": {
+			"Aperture": null,
 			"ApertureValue": "NaN",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6788,6 +6973,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -6796,6 +6982,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -6881,6 +7068,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidDSCt830.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6902,6 +7090,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -6911,6 +7100,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/200",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3849,
@@ -7016,6 +7206,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidA500C.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -7031,12 +7222,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2592 px w",
 			"PixelYDimension": "1944 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/279",
 			"UserComment": 629,
 			"_IFDpointer_Interop": 1017,
 			"DateTime": "2006:11:03 11:26:00",
@@ -7116,6 +7309,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidA500.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -7131,12 +7325,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 191,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1448 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": 633,
 			"_IFDpointer_Interop": 1021,
 			"DateTime": "2007:01:04 17:19:07",
@@ -7216,6 +7412,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidA330.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"CFAPattern": "[Green,Red][Blue,Green]",
 			"ColorSpace": "sRGB",
@@ -7236,6 +7433,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.5 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Unknown",
@@ -7246,6 +7444,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2000",
 			"ShutterSpeedValue": "1/2048",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -7339,6 +7538,7 @@
 	{
 		"img": "sampleImages/Polaroid/PolaroidA310.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -7354,12 +7554,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/11",
 			"UserComment": 607,
 			"_IFDpointer_Interop": 995,
 			"DateTime": "2005:01:08 17:46:34",
@@ -7439,6 +7641,7 @@
 	{
 		"img": "sampleImages/Polaroid/Polaroid6M.jpg",
 		"exifJS": {
+			"Aperture": 7.1,
 			"ApertureValue": "7.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7458,6 +7661,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "32 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -7467,6 +7671,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/129",
 			"ShutterSpeedValue": "1/129",
 			"UserComment": 817,
 			"WhiteBalance": "Auto",

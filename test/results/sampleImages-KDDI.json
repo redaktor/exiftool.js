@@ -2,11 +2,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_talby.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2005:03:05 20:17:21",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"ImageDescription": "0503052017001",
@@ -56,6 +58,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W64SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -69,9 +72,11 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "800 px h",
 			"Saturation": "Normal",
+			"ShutterSpeed": "1/120",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"DateTime": "2010:04:26 13:33:43",
@@ -135,6 +140,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W61CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -145,9 +151,11 @@
 			"ExposureTime": "1/11",
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/11",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "09041118410002",
 			"Make": "KDDI-CA",
@@ -206,6 +214,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W55T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -218,6 +227,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Saturation": "Normal",
@@ -290,6 +300,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W54T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -303,9 +314,11 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "800 px h",
 			"Saturation": "Normal",
+			"ShutterSpeed": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "0808232219",
@@ -367,6 +380,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W53T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -379,6 +393,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "400 px h",
 			"Saturation": "Normal",
@@ -441,6 +456,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W53CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -452,9 +468,11 @@
 			"ExposureTime": "1/1587",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2560 px w",
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1587",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 484,
 			"_IFDpointer_Makernote": 440,
@@ -522,6 +540,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -535,9 +554,11 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "800 px h",
 			"Saturation": "Normal",
+			"ShutterSpeed": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "0808191141",
@@ -600,6 +621,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52SH.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -612,10 +634,12 @@
 			"FileSource": "Digital Camera",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/5",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "0811221729",
 			"Make": "KDDI-SH",
@@ -677,12 +701,14 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:09:18 20:37:48",
 			"DateTimeOriginal": "2007:09:18 20:37:48",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2007:09:18 20:37:48",
@@ -736,6 +762,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52S.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -751,11 +778,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "432 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -830,11 +859,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2009:09:06 16:42:43",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2009:09:06 16:44:39",
@@ -886,6 +917,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W51P.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -895,9 +927,11 @@
 			"ExposureMode": "Auto",
 			"ExposureTime": "1/5",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "400 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/5",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "08101117500001",
 			"Make": "KDDI-MA",
@@ -955,6 +989,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W51CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -965,9 +1000,11 @@
 			"ExposureTime": "1/140",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/140",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "10021813450001",
 			"Make": "KDDI-CA",
@@ -1026,6 +1063,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W47T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -1038,6 +1076,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"Saturation": "High saturation",
@@ -1104,6 +1143,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W44T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1116,6 +1156,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"Saturation": "Normal",
@@ -1188,6 +1229,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W43S.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1203,11 +1245,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.7 mm",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Auto",
@@ -1282,6 +1326,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W43H.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1292,9 +1337,11 @@
 			"ExposureTime": "1/25",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/25",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "09052214110001",
 			"Make": "KDDI-HI",
@@ -1353,6 +1400,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W43CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1363,9 +1411,11 @@
 			"ExposureTime": "1/25",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "400 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/25",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "07052221110001",
 			"Make": "KDDI-CA",
@@ -1425,6 +1475,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W42T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1437,6 +1488,7 @@
 			"Flash": "On, Flash fired, compulsory flash mode",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"Saturation": "Normal",
@@ -1499,6 +1551,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W42K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1510,9 +1563,11 @@
 			"ExposureTime": "1/14",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/14",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "070604173201",
 			"Make": "KDDI-KC",
@@ -1616,6 +1671,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W41SA.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -1632,6 +1688,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.4 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Average",
@@ -1721,6 +1778,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W41CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2007:08:30 14:11:25",
@@ -1728,8 +1786,10 @@
 			"ExposureTime": "1/60",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "400 px w",
 			"PixelYDimension": "240 px h",
+			"ShutterSpeed": "1/60",
 			"ImageDescription": "07083014110001",
 			"Make": "KDDI-CA",
 			"Model": "W41CA",
@@ -1786,12 +1846,14 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W33SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2006:10:03 12:25:42",
 			"DateTimeOriginal": "2006:10:03 12:25:42",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"DateTime": "2006:10:03 14:51:36",
@@ -1846,6 +1908,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W32SA.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -1862,6 +1925,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Average",
@@ -1951,6 +2015,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -1963,6 +2028,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"Saturation": "Normal",
@@ -2027,12 +2093,14 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:10:21 15:15:50",
 			"DateTimeOriginal": "2005:10:21 15:15:50",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"DateTime": "2005:10:21 15:17:21",
@@ -2086,6 +2154,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31S.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2100,11 +2169,13 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/19",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"DateTime": "2005:06:13 08:40:36",
@@ -2175,6 +2246,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:10 13:21:58",
@@ -2183,8 +2255,10 @@
 			"ExposureTime": "1/256",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
+			"ShutterSpeed": "1/256",
 			"ImageDescription": "0504101321003",
 			"Make": "KDDI-KC",
 			"Model": "W31K",
@@ -2243,6 +2317,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31H.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2253,9 +2328,11 @@
 			"ExposureTime": "1/45",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/45",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "05031213200001",
 			"Make": "KDDI-HI",
@@ -2314,6 +2391,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2324,9 +2402,11 @@
 			"ExposureTime": "1/9",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "400 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/9",
 			"SubjectDistanceRange": "Macro",
 			"WhiteBalance": "Manual",
 			"ImageDescription": "08011400470001",
@@ -2387,6 +2467,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W22SA.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -2403,6 +2484,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.8 mm",
 			"FocalLengthIn35mmFilm": "41 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Average",
@@ -2492,6 +2574,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W22H.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2502,9 +2585,11 @@
 			"ExposureTime": "1/17",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/17",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "05042918320001",
 			"Make": "KDDI-HI",
@@ -2563,6 +2648,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21SA.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -2579,6 +2665,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Average",
@@ -2667,6 +2754,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21S.jpg",
 		"exifJS": {
+			"Aperture": null,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2681,10 +2769,12 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/26",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"DateTime": "2005:04:02 12:57:28",
@@ -2782,6 +2872,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -2793,9 +2884,11 @@
 			"ExposureTime": "1/7",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/7",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 428,
@@ -2858,6 +2951,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21H.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:09:27 08:57:41",
@@ -2866,9 +2960,11 @@
 			"ExposureTime": "1/8",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/8",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "09270001",
 			"Make": "KDDI-HI",
@@ -2923,6 +3019,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Custom",
@@ -2934,9 +3031,11 @@
 			"ExposureTime": "1/667",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/667",
 			"WhiteBalance": "Auto",
 			"DateTime": "2005:04:01 12:40:22",
 			"ImageDescription": "CA310001",
@@ -2998,6 +3097,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W11K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3007,6 +3107,7 @@
 			"ExposureMode": "Auto",
 			"Flash": "On, Flash fired, compulsory flash mode",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
@@ -3065,6 +3166,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W11H.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3074,6 +3176,7 @@
 			"ExposureMode": "Manual",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
@@ -3131,6 +3234,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_QCAM40a.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3142,9 +3246,11 @@
 			"ExposureTime": "0",
 			"Flash": "On, Did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 408,
@@ -3205,11 +3311,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_INFOBAR.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:07:10 20:07:33",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"ImageDescription": "0407102007001",
@@ -3260,6 +3368,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5527SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2009:02:15 20:13:01",
@@ -3268,9 +3377,11 @@
 			"ExposureTime": "1/26",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/26",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "09021520130001",
 			"Make": "KDDI-SA",
@@ -3325,6 +3436,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5512CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3335,9 +3447,11 @@
 			"ExposureTime": "1/16",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/16",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "05091017570001",
 			"Make": "KDDI-CA",
@@ -3396,6 +3510,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5507SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2005:04:29 15:36:29",
@@ -3404,9 +3519,11 @@
 			"ExposureTime": "0",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "0",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "0504291536001",
 			"Make": "KDDI-ST",
@@ -3486,6 +3603,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5506T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3498,6 +3616,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"Saturation": "Normal",
@@ -3568,6 +3687,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5505SA.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 1,
 			"ColorSpace": "sRGB",
@@ -3584,6 +3704,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "1200 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -3670,6 +3791,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5504T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3680,6 +3802,7 @@
 			"ExposureMode": "Auto",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SubjectDistanceRange": "Unknown",
@@ -3738,12 +3861,14 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5503SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:08:01 17:46:17",
 			"DateTimeOriginal": "2004:08:01 17:46:17",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2004:08:01 17:46:17",
@@ -3797,6 +3922,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5502K.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3808,6 +3934,7 @@
 			"FNumber": 2.8,
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
@@ -3872,6 +3999,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5501T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3882,6 +4010,7 @@
 			"ExposureMode": "Auto",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "144 px w",
 			"PixelYDimension": "176 px h",
 			"SubjectDistanceRange": "Unknown",
@@ -3940,6 +4069,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5407CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -3950,9 +4080,11 @@
 			"ExposureTime": "1/8",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Landscape",
+			"ShutterSpeed": "1/8",
 			"WhiteBalance": "Manual",
 			"ImageDescription": "05021116440001",
 			"Make": "KDDI-CA",
@@ -4012,6 +4144,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5406CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -4022,9 +4155,11 @@
 			"ExposureTime": "1/10",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Landscape",
+			"ShutterSpeed": "1/10",
 			"WhiteBalance": "Manual",
 			"ImageDescription": "05043019340001",
 			"Make": "KDDI-CA",
@@ -4083,6 +4218,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5405SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:08:08 19:04:55",
@@ -4091,9 +4227,11 @@
 			"ExposureTime": "1/10",
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/10",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "0408081904001",
 			"Make": "KDDI-ST",
@@ -4149,6 +4287,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5404S.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -4162,10 +4301,12 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/245",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 498,
@@ -4238,6 +4379,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5403CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -4249,9 +4391,11 @@
 			"ExposureTime": "0.6",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"SceneCaptureType": "Night scene",
+			"ShutterSpeed": "0.6",
 			"WhiteBalance": "Manual",
 			"DateTime": "2004:07:19 19:53:31",
 			"ImageDescription": "CA240007",
@@ -4313,11 +4457,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5402S.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2005:04:11 12:58:24",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2005:04:11 12:58:24",
@@ -4369,6 +4515,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5401CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:08:12 23:01:27",
@@ -4377,9 +4524,11 @@
 			"ExposureTime": "1/5",
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/5",
 			"WhiteBalance": "Auto",
 			"ImageDescription": "08120006",
 			"Make": "KDDI-CA",
@@ -4434,11 +4583,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5306ST.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2005:06:04 16:42:40",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"ImageDescription": "0506041642002",
@@ -4488,11 +4639,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5305K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:05:25 13:10:02",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"ImageDescription": "040525131001",
@@ -4542,11 +4695,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5304T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:07:10 13:39:28",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "144 px w",
 			"PixelYDimension": "176 px h",
 			"ImageDescription": "040710133901",
@@ -4596,11 +4751,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5303H2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:01:03 14:12:04",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"ImageDescription": "040103141201",
@@ -4650,11 +4807,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5303H.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2005:05:03 17:48:42",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"ImageDescription": "050503174801",
@@ -4704,11 +4863,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5302CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:09:27 16:59:05",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"ImageDescription": "09270001",
@@ -4758,11 +4919,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5301T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2003:05:24 22:21:01",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "144 px w",
 			"PixelYDimension": "176 px h",
 			"GPSAltitude": "78 m Above Sea Level",
@@ -4856,11 +5019,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A3015SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:05:16 21:42:23",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"DateTime": "2004:05:16 21:42:23",
@@ -4913,11 +5078,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A3012CA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2003:11:13 15:05:38",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"DateTime": "2003:11:13 15:06:24",
@@ -4967,11 +5134,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1404S.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2005:09:09 21:58:09",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2005:09:09 21:58:09",
@@ -5024,6 +5193,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1403K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5035,9 +5205,11 @@
 			"ExposureTime": "1/15",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/15",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 430,
@@ -5100,11 +5272,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1402S2.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:11:09 18:25:27",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"DateTime": "2004:11:09 18:25:27",
@@ -5157,11 +5331,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1402S.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:10:09 00:43:41",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"DateTime": "2004:10:09 00:43:41",
@@ -5214,6 +5390,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1401K.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5224,6 +5401,7 @@
 			"FNumber": 2.8,
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"SceneCaptureType": "Standard",
@@ -5283,12 +5461,14 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1305SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:12:11 13:44:45",
 			"DateTimeOriginal": "2004:12:11 13:44:45",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"DateTime": "2004:12:11 13:44:45",
@@ -5341,11 +5521,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1304T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:11:03 11:51:12",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "144 px w",
 			"PixelYDimension": "176 px h",
 			"ImageDescription": "041103115101",
@@ -5395,12 +5577,14 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1303SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:03:25 22:57:32",
 			"DateTimeOriginal": "2004:03:25 22:57:32",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"DateTime": "2004:03:25 22:57:32",
@@ -5454,11 +5638,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1302SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:05:24 09:12:01",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"DateTime": "2004:05:24 09:12:01",
@@ -5510,11 +5696,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1301S.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2003:08:23 17:01:50",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"DateTime": "2003:08:23 17:01:50",
@@ -5566,11 +5754,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1013K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2003:08:26 10:05:37",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "120 px w",
 			"PixelYDimension": "160 px h",
 			"DateTime": "",
@@ -5622,6 +5812,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI-TS_W21T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5634,6 +5825,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"Saturation": "Normal",
@@ -5697,6 +5889,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI-TS_A5509T.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -5709,6 +5902,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"Saturation": "Normal",
@@ -5774,11 +5968,13 @@
 	{
 		"img": "sampleImages/KDDI/KDDI-SA_A3015SA.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2004:05:16 21:42:23",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "132 px w",
 			"PixelYDimension": "176 px h",
 			"DateTime": "2004:05:16 21:42:23",

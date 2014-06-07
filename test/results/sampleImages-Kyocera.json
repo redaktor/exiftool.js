@@ -2,12 +2,14 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraWX310K.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:01:22 14:33:53",
 			"DateTimeOriginal": "2007:01:22 14:33:53",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"ImageUniqueID": "9ba157bcf32b326c07dc1dd608feab8a",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -65,6 +67,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraSAMURAI2100DG.jpg",
 		"exifJS": {
+			"Aperture": "3.3",
 			"ApertureValue": "3.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -76,9 +79,11 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.9 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1632 px w",
 			"PixelYDimension": "1232 px h",
+			"ShutterSpeed": "1/17",
 			"ShutterSpeedValue": "1/17",
 			"_IFDpointer_Interop": 506,
 			"DateTime": "1999:07:24 00:41:32",
@@ -147,6 +152,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamSL400R.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -167,6 +173,7 @@
 			"FocalLength": "10.1 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2272 px w",
@@ -174,6 +181,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/91",
 			"UserComment": 6582,
 			"WhiteBalance": "Auto",
@@ -266,6 +274,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamS5R.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -286,6 +295,7 @@
 			"FocalLength": "7.3 mm",
 			"GainControl": "None",
 			"ISO": 120,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "1280 px w",
@@ -293,6 +303,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 1198,
 			"WhiteBalance": "Auto",
@@ -385,6 +396,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamS3R.jpg",
 		"exifJS": {
+			"Aperture": 9.6,
 			"ApertureValue": "9.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -405,6 +417,7 @@
 			"FocalLength": "7.3 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
@@ -412,6 +425,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/500",
 			"ShutterSpeedValue": "1/474",
 			"UserComment": 4526,
 			"WhiteBalance": "Auto",
@@ -504,6 +518,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamS3L.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -524,6 +539,7 @@
 			"FocalLength": "7.3 mm",
 			"GainControl": "None",
 			"ISO": 120,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1797 px w",
@@ -531,6 +547,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "0.5",
 			"UserComment": 56188,
 			"WhiteBalance": "Auto",
@@ -626,6 +643,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamS3.jpg",
 		"exifJS": {
+			"Aperture": "6.2",
 			"ApertureValue": "6.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -639,9 +657,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/549",
 			"ShutterSpeedValue": "1/549",
 			"UserComment": 56022,
 			"_IFDpointer_Interop": 56158,
@@ -720,6 +740,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamM410R.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -740,6 +761,7 @@
 			"FocalLength": "5.7 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2272 px w",
@@ -747,6 +769,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1/147",
 			"SubsecTime": 56,
 			"SubsecTimeDigitized": 56,
@@ -848,6 +871,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecamM400R.jpg",
 		"exifJS": {
+			"Aperture": 5,
 			"ApertureValue": "5.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -868,6 +892,7 @@
 			"FocalLength": "5.7 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2272 px w",
@@ -875,6 +900,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/294",
 			"SubsecTime": 46,
 			"SubsecTimeDigitized": 46,
@@ -976,6 +1002,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecam-L4.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -996,6 +1023,7 @@
 			"FocalLength": "7.7 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2304 px w",
@@ -1003,6 +1031,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1000",
 			"ShutterSpeedValue": "1/955",
 			"UserComment": 56328,
 			"WhiteBalance": "Auto",
@@ -1094,6 +1123,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecam-L3v.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1114,6 +1144,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -1121,6 +1152,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 56328,
 			"WhiteBalance": "Auto",
@@ -1213,6 +1245,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecam-L30.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1233,6 +1266,7 @@
 			"FocalLength": "10.1 mm",
 			"GainControl": "Low gain up",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2048 px w",
@@ -1240,6 +1274,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/32",
 			"UserComment": 1220,
 			"WhiteBalance": "Auto",
@@ -1333,6 +1368,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFinecam-L3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1353,6 +1389,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
@@ -1360,6 +1397,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/64",
 			"UserComment": 56328,
 			"WhiteBalance": "Auto",
@@ -1451,6 +1489,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFineCamSL300R.jpg",
 		"exifJS": {
+			"Aperture": 7.5,
 			"ApertureValue": "8.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1471,6 +1510,7 @@
 			"FocalLength": "7.7 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -1478,6 +1518,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/250",
 			"ShutterSpeedValue": "1/274",
 			"UserComment": 1206,
 			"WhiteBalance": "Auto",
@@ -1569,6 +1610,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFineCamS5.jpg",
 		"exifJS": {
+			"Aperture": 6.7,
 			"ApertureValue": "11.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1589,6 +1631,7 @@
 			"FocalLength": "12.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -1596,6 +1639,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/97",
 			"UserComment": 56188,
 			"WhiteBalance": "Auto",
@@ -1687,6 +1731,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFineCamS4.jpg",
 		"exifJS": {
+			"Aperture": "10.6",
 			"ApertureValue": "10.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1700,9 +1745,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
+			"ShutterSpeed": "1/104",
 			"ShutterSpeedValue": "1/104",
 			"UserComment": 56022,
 			"_IFDpointer_Interop": 56158,
@@ -1780,6 +1827,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFineCamL4V.jpg",
 		"exifJS": {
+			"Aperture": 8,
 			"ApertureValue": "8.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1800,6 +1848,7 @@
 			"FocalLength": "7.7 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -1807,6 +1856,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/180",
 			"ShutterSpeedValue": "1/208",
 			"UserComment": 56328,
 			"WhiteBalance": "Auto",
@@ -1898,6 +1948,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFC-S3x.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1911,9 +1962,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 120,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/11",
 			"ShutterSpeedValue": "1/11",
 			"UserComment": 55942,
 			"_IFDpointer_Makernote": 478,
@@ -1980,6 +2033,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFC-S3.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1993,9 +2047,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/388",
 			"ShutterSpeedValue": "1/388",
 			"UserComment": 56022,
 			"_IFDpointer_Interop": 56158,
@@ -2073,6 +2129,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraFC-3300.jpg",
 		"exifJS": {
+			"Aperture": "3.0",
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2086,9 +2143,11 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
+			"ShutterSpeed": "1/78",
 			"ShutterSpeedValue": "1/78",
 			"UserComment": 55718,
 			"_IFDpointer_Interop": 55854,
@@ -2167,6 +2226,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraEZ1.3.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2178,8 +2238,10 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/26",
 			"_IFDpointer_Interop": 476,
 			"DateTime": "2002:10:03 00:27:28",
@@ -2245,6 +2307,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraContaxU4R.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "3.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2264,6 +2327,7 @@
 			"FocalLength": "10.1 mm",
 			"GainControl": "Low gain down",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2272 px w",
@@ -2271,6 +2335,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/90",
 			"ShutterSpeedValue": "1/97",
 			"SubsecTime": 96,
 			"SubsecTimeDigitized": 96,
@@ -2370,6 +2435,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraContaxSL300R_Tx.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2390,6 +2456,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
@@ -2397,6 +2464,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Night scene",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "0.7",
 			"ShutterSpeedValue": "0.8",
 			"UserComment": 1208,
 			"WhiteBalance": "Auto",
@@ -2488,6 +2556,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraContaxNDigital.jpg",
 		"exifJS": {
+			"Aperture": "5.7",
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2502,11 +2571,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "97 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"PixelXDimension": "3008 px w",
 			"PixelYDimension": "2008 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/181",
 			"ShutterSpeedValue": "1/181",
 			"UserComment": 858,
 			"_IFDpointer_Makernote": 602,
@@ -2580,6 +2651,7 @@
 	{
 		"img": "sampleImages/Kyocera/KyoceraCONTAXi4R.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2599,6 +2671,7 @@
 			"FocalLength": "6.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2272 px w",
@@ -2606,6 +2679,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"SubsecTime": 75,
 			"SubsecTimeDigitized": 75,
@@ -2705,6 +2779,7 @@
 	{
 		"img": "sampleImages/Kyocera/ContaxTVS.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "6.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2725,6 +2800,7 @@
 			"FocalLength": "17.5 mm",
 			"GainControl": "High gain down",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2560 px w",
@@ -2732,6 +2808,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/350",
 			"ShutterSpeedValue": "1/338",
 			"UserComment": 56188,
 			"WhiteBalance": "Manual",

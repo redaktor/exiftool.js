@@ -69,11 +69,13 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_myMovieBox.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2008:07:26 13:51:54",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"Artist": "Mobile SAGEM",
@@ -134,12 +136,14 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my850C.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "RGB uncompressed",
 			"DateTimeDigitized": "2009:06:21 13:57:33",
 			"DateTimeOriginal": "2009:06:21 13:57:33",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
 			"_IFDpointer_Interop": 370,
@@ -195,12 +199,14 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my750X.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "RGB uncompressed",
 			"DateTimeDigitized": "2010:02:18 14:02:40",
 			"DateTimeOriginal": "2010:02:18 14:02:40",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"Copyright": "Copyright Not Specified",
@@ -257,12 +263,14 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my730C.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "RGB uncompressed",
 			"DateTimeDigitized": "2010:01:23 10:39:47",
 			"DateTimeOriginal": "2010:01:23 10:39:47",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"_IFDpointer_Interop": 370,
@@ -318,11 +326,13 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my700x.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2008:01:30 22:21:10",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "1280 px h",
 			"Artist": "Mobile SAGEM",
@@ -383,6 +393,7 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my511X.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -392,6 +403,7 @@
 			"ExifVersion": "2.20",
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "480 px w",
@@ -463,11 +475,13 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my501X.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeOriginal": "2010:04:26 23:37:06",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "768 px w",
 			"PixelYDimension": "1024 px h",
 			"Artist": "Mobile SAGEM",
@@ -528,6 +542,7 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my411X.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"UserComment": [
 				77,
 				70,
@@ -581,6 +596,7 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my411V.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"UserComment": [
 				77,
 				70,
@@ -634,6 +650,7 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my411C.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"UserComment": [
 				77,
 				70,
@@ -687,6 +704,7 @@
 	{
 		"img": "sampleImages/Sagem/Sagem_my401C.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"UserComment": [
 				77,
 				70,
@@ -740,6 +758,7 @@
 	{
 		"img": "sampleImages/Sagem/SagemVF527.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:02:21 14:56:58",
@@ -747,6 +766,7 @@
 			"ExifVersion": "2.20",
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "640 px w",

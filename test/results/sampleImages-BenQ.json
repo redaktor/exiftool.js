@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_X600.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.968541666666667,
@@ -21,6 +22,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -28,6 +30,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 30686,
@@ -152,6 +155,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_E53.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -172,6 +176,7 @@
 			"FocalLengthIn35mmFilm": "71 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -181,6 +186,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/51",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -274,6 +280,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_E43.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -294,6 +301,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -303,6 +311,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/220",
 			"ShutterSpeedValue": "1/220",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -395,6 +404,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_E40.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -412,6 +422,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 75,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -419,6 +430,7 @@
 			"PixelYDimension": "1728 px h",
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/433",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1104,
 			"WhiteBalance": "Auto",
@@ -514,6 +526,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_E300.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 0.7,
 			"ColorSpace": "sRGB",
@@ -531,6 +544,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -540,6 +554,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -630,6 +645,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_E30.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 7.4,
 			"ColorSpace": "sRGB",
@@ -647,6 +663,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -656,6 +673,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/119",
 			"ShutterSpeedValue": "1/119",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -746,6 +764,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_C60.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 3.1,
 			"ColorSpace": "sRGB",
@@ -763,6 +782,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -772,6 +792,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -862,6 +883,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_C500.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 0.2,
 			"ColorSpace": "sRGB",
@@ -879,6 +901,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -888,6 +911,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistance": "10 m",
 			"SubjectDistanceRange": "Distant view",
@@ -980,6 +1004,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC_C50.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1000,6 +1025,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -1009,6 +1035,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/52",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -1101,6 +1128,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC2410.jpg",
 		"exifJS": {
+			"Aperture": 2.9,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1116,6 +1144,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -1123,6 +1152,7 @@
 			"PixelYDimension": "1536 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/30",
 			"UserComment": "BENQCamera",
 			"DateTime": "2004:07:16 03:56:29",
 			"ImageDescription": "BF3-A007",
@@ -1190,6 +1220,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC2310.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1205,12 +1236,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/42",
 			"_IFDpointer_Interop": 559,
 			"DateTime": "2004:02:08 15:27:03",
 			"ImageDescription": "BF2-A0A2",
@@ -1287,6 +1320,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC2300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1302,12 +1336,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/42",
 			"_IFDpointer_Interop": 559,
 			"DateTime": "2005:02:27 14:19:15",
 			"ImageDescription": "BF2-A002",
@@ -1384,6 +1420,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC2110.jpg",
 		"exifJS": {
+			"Aperture": "2.8",
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1395,8 +1432,10 @@
 			"Flash": "On, Flash fired",
 			"FlashEnergy": 4,
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
+			"ShutterSpeed": "1/22",
 			"UserComment": 422,
 			"_IFDpointer_Interop": 468,
 			"Make": "BENQ",
@@ -1458,6 +1497,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC1500.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -1476,12 +1516,14 @@
 			"FocalLength": "10 mm",
 			"FocalLengthIn35mmFilm": "50 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/326",
 			"UserComment": 969,
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 1033,
@@ -1601,6 +1643,7 @@
 	{
 		"img": "sampleImages/BenQ/BenqDC-4330.a.jpg",
 		"exifJS": {
+			"Aperture": 4.6,
 			"ApertureValue": "4.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1615,11 +1658,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2400 px w",
 			"PixelYDimension": "1600 px h",
+			"ShutterSpeed": "1/140",
 			"ShutterSpeedValue": "1/137",
 			"_IFDpointer_Interop": 704,
 			"_IFDpointer_Makernote": 640,
@@ -1694,6 +1739,7 @@
 	{
 		"img": "sampleImages/BenQ/Benq3310.jpg",
 		"exifJS": {
+			"Aperture": 7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4,
@@ -1709,12 +1755,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/250",
 			"UserComment": 666,
 			"_IFDpointer_Interop": 886,
 			"_IFDpointer_Makernote": 916,
@@ -1794,6 +1842,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_S88.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:11:15 15:57:45",
@@ -1803,6 +1852,7 @@
 			"FNumber": 2.8,
 			"Flash": "No Flash",
 			"FlashpixVersion": "00",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1200 px w",
@@ -1879,6 +1929,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_S81.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:11:23 09:38:31",
@@ -1889,9 +1940,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "1024 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 402,
 			"Make": "BenQ-Siemens",
@@ -1992,6 +2045,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_LM100.jpg",
 		"exifJS": {
+			"Aperture": 5.7,
 			"ApertureValue": "5.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2012,6 +2066,7 @@
 			"FocalLength": "16 mm",
 			"FocalLengthIn35mmFilm": "89 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.7",
 			"MeteringMode": "Multi-spot",
@@ -2022,6 +2077,7 @@
 			"SceneCaptureType": 255,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.4",
 			"ShutterSpeedValue": "0.4",
 			"SubsecTime": 48,
 			"UserComment": 3844,
@@ -2124,6 +2180,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_GH700.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 6,
@@ -2143,6 +2200,7 @@
 			"FocalLength": "4.5 mm",
 			"FocalLengthIn35mmFilm": "25 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fine weather",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -2152,6 +2210,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"UserComment": [
 				0,
 				0,
@@ -2274,6 +2333,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_GH20X.jpg",
 		"exifJS": {
+			"Aperture": 4.9,
 			"ApertureValue": "5.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2296,6 +2356,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "None",
 			"ISO": 64,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -2304,6 +2365,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "0.3",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 12250,
 			"_IFDpointer_Makernote": 4894,
@@ -2432,6 +2494,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_G1.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.062842271849707,
@@ -2453,6 +2516,7 @@
 			"FocalLength": "4.3 mm",
 			"FocalLengthIn35mmFilm": "24 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-spot",
@@ -2464,6 +2528,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/505",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 37526,
 			"_IFDpointer_Makernote": 720,
@@ -2561,6 +2626,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_EF81.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:09:14 10:10:17",
@@ -2571,9 +2637,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 416,
 			"Make": "BenQ-Siemens",
@@ -2638,6 +2706,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_E81.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:03:29 05:44:11",
@@ -2648,9 +2717,11 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/21",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 408,
 			"Make": "BenQ-Siemens",
@@ -2710,6 +2781,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_E72.jpg",
 		"exifJS": {
+			"Aperture": 1,
 			"ColorSpace": 2,
 			"CustomRendered": "Custom",
 			"DateTimeOriginal": "2009:7:19 16:6:1",
@@ -2724,8 +2796,10 @@
 			"FocalPlaneResolutionUnit": "inches",
 			"FocalPlaneXResolution": "1.000000",
 			"FocalPlaneYResolution": "2.000000",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
+			"ShutterSpeed": "1/6",
 			"SubjectDistance": "1 m",
 			"UserComment": [
 				65,
@@ -2888,6 +2962,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DV_M1.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "NaN",
 			"ColorSpace": 0,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2911,6 +2986,7 @@
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-spot",
@@ -2923,6 +2999,7 @@
 			],
 			"SensingMethod": 0,
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/158",
 			"ShutterSpeedValue": "0",
 			"SubjectDistance": "NaN m",
 			"SubjectDistanceRange": "Unknown",
@@ -3047,6 +3124,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_X835.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.3549275919518133,
@@ -3066,6 +3144,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -3075,6 +3154,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 33832,
 			"WhiteBalance": "Auto",
@@ -3175,6 +3255,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_X800.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7115061915288992,
@@ -3194,6 +3275,7 @@
 			"FocalLength": "6.6 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -3203,6 +3285,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/1250",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 33832,
 			"WhiteBalance": "Auto",
@@ -3303,6 +3386,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_X735.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.5609029134114585,
@@ -3322,6 +3406,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -3331,6 +3416,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 33832,
 			"WhiteBalance": "Auto",
@@ -3431,6 +3517,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_X725.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 4.4226938883463545,
@@ -3450,6 +3537,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -3459,6 +3547,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/80",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 33832,
 			"WhiteBalance": "Auto",
@@ -3559,6 +3648,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_X720.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3580,6 +3670,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -3590,6 +3681,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/40",
 			"ShutterSpeedValue": "1",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 33570,
@@ -3692,6 +3784,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_T850.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.7532649702037677,
@@ -3711,6 +3804,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -3720,6 +3814,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/400",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 37922,
 			"WhiteBalance": "Auto",
@@ -3820,6 +3915,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_T800.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.9818829696911444,
@@ -3839,6 +3935,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -3848,6 +3945,7 @@
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 33834,
 			"WhiteBalance": "Auto",
@@ -3948,6 +4046,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_T700.jpg",
 		"exifJS": {
+			"Aperture": 2.7,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.972638165509259,
@@ -3967,6 +4066,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -3976,6 +4076,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/125",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 33834,
 			"WhiteBalance": "Auto",
@@ -4077,6 +4178,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_T1260.jpg",
 		"exifJS": {
+			"Aperture": 4.5,
 			"ApertureValue": "4.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4097,6 +4199,7 @@
 			"FocalLength": "11.3 mm",
 			"FocalLengthIn35mmFilm": "63 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -4107,6 +4210,7 @@
 			"SceneCaptureType": 33,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 48,
 			"UserComment": 3848,
@@ -4209,6 +4313,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_P860.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4228,6 +4333,7 @@
 			"FocalLength": "15.6 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4236,6 +4342,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/220",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 35688,
@@ -4339,6 +4446,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_P500.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4360,6 +4468,7 @@
 			"FocalLengthIn35mmFilm": "81 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -4370,6 +4479,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1",
 			"ShutterSpeedValue": "0.5",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": "A457416B443423A457424B420482T2L00V04.8V03.6Y0082I0S003000G18g0189Y0083I0S003000G28g0189Y0073I0S003333G28g0189C000100C100E0J546367G000M00000F00N0000F0000N0000F0000S0000S0000R0A0000000-0000000-0000000-0000000-0000000-0000000-0000000-::---AF---::ZP06,NORMAL  ,PASS,222  :20498,232100,26099,28895,31689,34486,37282,40079,42876,45675,48473,                                          ::                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ::",
@@ -4470,6 +4580,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E820.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4489,6 +4600,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "37337 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -4497,6 +4609,7 @@
 			"RelatedSoundFile": "",
 			"SceneCaptureType": "Portrait",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "0.5",
 			"ShutterSpeedValue": "0.5",
 			"UserComment": 770,
 			"WhiteBalance": "Auto",
@@ -4593,6 +4706,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E800.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.2",
 			"BrightnessValue": 0.807,
 			"ColorSpace": "sRGB",
@@ -4617,6 +4731,7 @@
 			"FocalLengthIn35mmFilm": "42 mm",
 			"GainControl": "Low gain up",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -4627,6 +4742,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/9",
 			"ShutterSpeedValue": "1/9",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -4739,6 +4855,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E720.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -4755,6 +4872,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -4762,6 +4880,7 @@
 			"PixelYDimension": "3072 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"UserComment": 3826,
 			"_IFDpointer_Makernote": 754,
@@ -4855,6 +4974,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E63.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4874,6 +4994,7 @@
 			"FocalLength": "5.4 mm",
 			"GainControl": "None",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4882,6 +5003,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "1/307",
 			"SubjectDistanceRange": "Close view",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10690,
@@ -4984,6 +5106,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E610.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5005,6 +5128,7 @@
 			"FocalLengthIn35mmFilm": "107 mm",
 			"GainControl": "Low gain up",
 			"ISO": 320,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -5015,6 +5139,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/125",
 			"ShutterSpeedValue": "1",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1262,
@@ -5115,6 +5240,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E605.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5136,6 +5262,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -5146,6 +5273,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1258,
@@ -5246,6 +5374,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E600.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5267,6 +5396,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
 			"ISO": 150,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -5277,6 +5407,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 1258,
@@ -5378,6 +5509,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E520.jpg",
 		"exifJS": {
+			"Aperture": 2.6,
 			"ApertureValue": "1.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5399,6 +5531,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -5409,6 +5542,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": "A447416B394413A439424B379436T1L00V10.1V09.4Y0163I0S010221G099g0019Y0212I0S008829G099g0019Y0141I0S012791G100g0019C010609C100E0J579367G000M00000F00N0000F0000N0000F0000S0000S0000R0A0000000-0000000-0000000-0000000-0000000-0000000-0000000-::---AF---::ZP01,NORMAL  ,PASS,-2   :-28861,-18875,-8926,2971,121000,22963,32981,42964,52943,62922,72848,82818,92816,102790,112771,122757,   ::                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ::",
@@ -5567,6 +5701,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E300.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"BrightnessValue": 3.1,
 			"ColorSpace": "sRGB",
@@ -5584,6 +5719,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.7 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -5593,6 +5729,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/6",
 			"ShutterSpeedValue": "1/6",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Manual",
@@ -5682,6 +5819,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1260.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5702,6 +5840,7 @@
 			"FocalLength": "5 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Spot",
@@ -5712,6 +5851,7 @@
 			"SceneCaptureType": 6,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/181",
 			"ShutterSpeedValue": "1/181",
 			"SubsecTime": 49,
 			"UserComment": 3848,
@@ -5814,6 +5954,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1230.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -5830,6 +5971,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 800,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -5837,6 +5979,7 @@
 			"PixelYDimension": "4000 px h",
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"SubsecTime": 49,
 			"UserComment": 3308,
@@ -5932,6 +6075,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1220.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.9249366666666665,
@@ -5951,6 +6095,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -5960,6 +6105,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": 37924,
 			"WhiteBalance": "Auto",
@@ -6055,6 +6201,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1050t.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 3.8299092028316406,
@@ -6074,6 +6221,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -6083,6 +6231,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/640",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": 37922,
 			"WhiteBalance": "Auto",
@@ -6178,6 +6327,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1050.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 1.9870128308710373,
@@ -6197,6 +6347,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -6206,6 +6357,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": 37922,
 			"WhiteBalance": "Auto",
@@ -6301,6 +6453,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1020.jpg",
 		"exifJS": {
+			"Aperture": 5.5,
 			"ApertureValue": "5.5",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6324,6 +6477,7 @@
 			"FocalLengthIn35mmFilm": "32 mm",
 			"GainControl": "None",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": 25,
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-segment",
@@ -6334,6 +6488,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/189",
 			"ShutterSpeedValue": "1/187",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -6444,6 +6599,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_E1000.jpg",
 		"exifJS": {
+			"Aperture": 2.837,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6462,6 +6618,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -6470,6 +6627,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3812,
@@ -6558,6 +6716,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C850.jpg",
 		"exifJS": {
+			"Aperture": 6.9,
 			"ApertureValue": "6.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6577,6 +6736,7 @@
 			"FocalLength": "9 mm",
 			"FocalLengthIn35mmFilm": "46 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -6586,6 +6746,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/135",
 			"ShutterSpeedValue": "1/135",
 			"UserComment": 795,
 			"WhiteBalance": "Auto",
@@ -6684,6 +6845,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C840.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ApertureValue": "5.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6703,6 +6865,7 @@
 			"FocalLength": "18.6 mm",
 			"FocalLengthIn35mmFilm": "112 mm",
 			"ISO": 400,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -6712,6 +6875,7 @@
 			"SceneCaptureType": 5,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/200",
 			"ShutterSpeedValue": "1/200",
 			"UserComment": 795,
 			"WhiteBalance": "Auto",
@@ -6809,6 +6973,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C800.jpg",
 		"exifJS": {
+			"Aperture": 7.8,
 			"ApertureValue": "7.9",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6825,6 +6990,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.9 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -6832,6 +6998,7 @@
 			"PixelYDimension": "2448 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/162",
 			"ShutterSpeedValue": "1/160",
 			"_IFDpointer_Makernote": 720,
 			"Copyright": "Copyright 2005",
@@ -6924,6 +7091,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C750.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ApertureValue": "4.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6943,6 +7111,7 @@
 			"FocalLength": "12.8 mm",
 			"FocalLengthIn35mmFilm": "66 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-spot",
@@ -6952,6 +7121,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"UserComment": 795,
 			"WhiteBalance": "Auto",
@@ -7050,6 +7220,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C740.jpg",
 		"exifJS": {
+			"Aperture": 5.6,
 			"ApertureValue": "5.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7068,6 +7239,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7076,6 +7248,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/273",
 			"ShutterSpeedValue": "1/273",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3618,
@@ -7164,6 +7337,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C700.jpg",
 		"exifJS": {
+			"Aperture": 3.2,
 			"ApertureValue": "3.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7181,6 +7355,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7190,6 +7365,7 @@
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistanceRange": "Distant view",
 			"WhiteBalance": "Auto",
@@ -7361,6 +7537,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C610.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7378,6 +7555,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7385,6 +7563,7 @@
 			"PixelYDimension": "1200 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/395",
 			"ShutterSpeedValue": "1/396",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 832,
@@ -7470,6 +7649,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C540.jpg",
 		"exifJS": {
+			"Aperture": 5.2,
 			"ApertureValue": "5.2",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7488,6 +7668,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18.6 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -7496,6 +7677,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/101",
 			"ShutterSpeedValue": "1",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3616,
@@ -7584,6 +7766,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C530.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -7603,6 +7786,7 @@
 			"FocalLength": "6.5 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2560 px w",
@@ -7610,6 +7794,7 @@
 			"Saturation": "High saturation",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/61",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 21028,
 			"_IFDpointer_Makernote": 1020,
@@ -7709,6 +7894,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C520.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -7728,6 +7914,7 @@
 			"FocalLength": "16.2 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Standard light B",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7736,6 +7923,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Night scene",
 			"Sharpness": "Soft",
+			"ShutterSpeed": "2",
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 10676,
 			"_IFDpointer_Makernote": 668,
@@ -7836,6 +8024,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C510.jpg",
 		"exifJS": {
+			"Aperture": 3.3,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -7853,6 +8042,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.3 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -7860,6 +8050,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneCaptureType": "Standard",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 832,
@@ -7945,6 +8136,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C500.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"BrightnessValue": 4.5,
 			"ColorSpace": "sRGB",
@@ -7962,6 +8154,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Cloudy weather",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
@@ -7971,6 +8164,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Hard",
+			"ShutterSpeed": "1/29",
 			"ShutterSpeedValue": "1/29",
 			"SubjectDistance": "10 m",
 			"SubjectDistanceRange": "Distant view",
@@ -8062,6 +8256,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C420.jpg",
 		"exifJS": {
+			"Aperture": 4.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -8081,6 +8276,7 @@
 			"FocalLength": "16.2 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Center-weighted average",
@@ -8089,6 +8285,7 @@
 			"Saturation": "Normal",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/45",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 10678,
 			"_IFDpointer_Makernote": 670,
@@ -8190,6 +8387,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C1230.jpg",
 		"exifJS": {
+			"Aperture": 4.3,
 			"ApertureValue": "4.3",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8209,6 +8407,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -8218,6 +8417,7 @@
 			"SceneCaptureType": 33,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/756",
 			"ShutterSpeedValue": "1/756",
 			"SubsecTime": 48,
 			"UserComment": 777,
@@ -8318,6 +8518,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C1220.jpg",
 		"exifJS": {
+			"Aperture": 3.1,
 			"ApertureValue": "3.1",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8337,6 +8538,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-spot",
@@ -8346,6 +8548,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/479",
 			"ShutterSpeedValue": "1/479",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 4516,
@@ -8442,6 +8645,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C1060.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8461,6 +8665,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "31 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -8470,6 +8675,7 @@
 			"SceneCaptureType": "Standard",
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/50",
 			"UserComment": 808,
 			"WhiteBalance": "Manual",
@@ -8567,6 +8773,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C1020.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8586,6 +8793,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -8595,6 +8803,7 @@
 			"SceneCaptureType": 10,
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/317",
 			"ShutterSpeedValue": "1/317",
 			"UserComment": 3236,
 			"WhiteBalance": "Auto",
@@ -8677,6 +8886,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC_C1000.jpg",
 		"exifJS": {
+			"Aperture": 6.446,
 			"ApertureValue": "6.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8695,6 +8905,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.9 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -8702,6 +8913,7 @@
 			"PixelYDimension": "1920 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/324",
 			"ShutterSpeedValue": "1/324",
 			"SubsecTime": 750,
 			"WhiteBalance": "Auto",
@@ -8792,6 +9004,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_DC2300.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": 2,
@@ -8807,12 +9020,14 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"SceneType": "Directly photographed",
+			"ShutterSpeed": "1/68",
 			"SubsecTime": 29,
 			"_IFDpointer_Interop": 610,
 			"DateTime": "2004:11:01 17:33:12",
@@ -8893,6 +9108,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_C745.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -8911,6 +9127,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -8919,6 +9136,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3744,
@@ -9007,6 +9225,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_C740i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9025,6 +9244,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -9033,6 +9253,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3744,
@@ -9121,6 +9342,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_C640.jpg",
 		"exifJS": {
+			"Aperture": 4.2,
 			"ApertureValue": "4.2",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9139,6 +9361,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12.8 mm",
 			"ISO": 200,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -9147,6 +9370,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/60",
 			"ShutterSpeedValue": "1/60",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3744,
@@ -9235,6 +9459,7 @@
 	{
 		"img": "sampleImages/BenQ/BenQ_C1050.jpg",
 		"exifJS": {
+			"Aperture": 9.659,
 			"ApertureValue": "9.7",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -9253,6 +9478,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "13 mm",
 			"ISO": 50,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Spot",
@@ -9261,6 +9487,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/177",
 			"ShutterSpeedValue": "1/177",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 3744,

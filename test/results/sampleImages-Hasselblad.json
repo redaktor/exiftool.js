@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/Hasselblad/HasselbladStellar.jpg",
 		"exifJS": {
+			"Aperture": 11,
 			"BrightnessValue": 11.415625,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -23,6 +24,7 @@
 			"FocalLength": "10.4 mm",
 			"FocalLengthIn35mmFilm": "28 mm",
 			"ISO": 125,
+			"ImageSize": "object Objectxobject Object",
 			"LensSpecification": [
 				10.4,
 				37.1,
@@ -40,6 +42,7 @@
 			"SceneType": "Directly photographed",
 			"SensitivityType": "Recommended Exposure Index",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/800",
 			"UserComment": 866,
 			"WhiteBalance": "Manual",
 			"_IFDpointer_Interop": 26683,

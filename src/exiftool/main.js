@@ -597,11 +597,11 @@
 						limited up to 2000 becuase: 
 						MIGHT BE NIKON BINARY AS WELL somehow, see e.g. Nikon D3100 */
 						var iValOffset = iNumValues > 4 ? iValueOffset : (iEntryOffset + 8);
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getByteAt(iValOffset + n);
+							vals[n] = oFile.getByteAt(iValOffset + n);
 						}
-						return aVals;
+						return vals;
 					}
 					if (EXIF.debug===true) console.log( '8 bit unsigned int value: [more than 1000 iNumValues]' );
 					return [];
@@ -633,11 +633,11 @@
 					} else {
 						var iValOffset = iNumValues > 2 ? iValueOffset
 								: (iEntryOffset + 8);
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getShortAt(iValOffset + 2 * n, bBigEnd);
+							vals[n] = oFile.getShortAt(iValOffset + 2 * n, bBigEnd);
 						}
-						return aVals;
+						return vals;
 					}
 				break;
 	
@@ -648,11 +648,11 @@
 						/* FIXME :
 						limited up to 2000 becuase: 
 						MIGHT BE NIKON BINARY AS WELL somehow, see e.g. Nikon D3100 */	
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getLongAt(iValueOffset + 4 * n, bBigEnd);
+							vals[n] = oFile.getLongAt(iValueOffset + 4 * n, bBigEnd);
 						}
-						return aVals;
+						return vals;
 					}
 					if (EXIF.debug===true) console.log( '32 bit int value: [more than 1000 iNumValues]' );
 					return [];
@@ -663,11 +663,11 @@
 					if (iNumValues == 1) {
 						return oFile.getLongAt(iValueOffset, bBigEnd) / oFile.getLongAt(iValueOffset + 4, bBigEnd);
 					} else {
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getLongAt(iValueOffset + 8 * n, bBigEnd) / oFile.getLongAt(iValueOffset + 4 + 8 * n, bBigEnd);
+							vals[n] = oFile.getLongAt(iValueOffset + 8 * n, bBigEnd) / oFile.getLongAt(iValueOffset + 4 + 8 * n, bBigEnd);
 						}
-						return aVals;
+						return vals;
 					}
 				break;
 				
@@ -679,11 +679,11 @@
 						return oFile.getLongAt(iEntryOffset + 8, bBigEnd);
 					} else {
 						var iValOffset = iNumValues > 4 ? iValueOffset : (iEntryOffset + 8);
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getByteAt(iValOffset + n);
+							vals[n] = oFile.getByteAt(iValOffset + n);
 						}
-						return aVals;
+						return vals;
 					}
 				break;
 				
@@ -691,11 +691,11 @@
 					if (iNumValues == 1) {
 						return oFile.getSLongAt(iEntryOffset + 8, bBigEnd);
 					} else {
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getSLongAt(iValueOffset + 4 * n, bBigEnd);
+							vals[n] = oFile.getSLongAt(iValueOffset + 4 * n, bBigEnd);
 						}
-						return aVals;
+						return vals;
 					}
 				break;
 				
@@ -704,12 +704,12 @@
 						return oFile.getSLongAt(iValueOffset, bBigEnd)
 								/ oFile.getSLongAt(iValueOffset + 4, bBigEnd);
 					} else if (iNumValues > 1 && iNumValues < 1000){
-						var aVals = [];
+						var vals = [];
 						for (var n = 0; n < iNumValues; n++) {
-							aVals[n] = oFile.getSLongAt(iValueOffset + 8 * n, bBigEnd)
+							vals[n] = oFile.getSLongAt(iValueOffset + 8 * n, bBigEnd)
 									/ oFile.getSLongAt(iValueOffset + 4 + 8 * n, bBigEnd);
 						}
-						return aVals;
+						return vals;
 					}
 					return {};
 				break;
@@ -740,6 +740,7 @@
             } else if (oFile.getShortAt(iTIFFOffset) == 0x4D4D) {
                 bBigEnd = true;
             } else {
+				if (EXIF.debug===true) console.log("Not valid TIFF data! (no 0x4949 or 0x4D4D)");
                 return false;
             }
 
@@ -791,6 +792,13 @@
             if (oTags.image._IFDpointer_EXIF) {
                 oTags.exif = readTags(oFile, iTIFFOffset, oTags.image._IFDpointer_EXIF, EXIF.tags, bBigEnd);
 				explainTags('exif');
+				if ('postFn' in EXIF){ 
+					var postObj = EXIF.postFn(oTags.exif);
+					//console.log( 'post', postObj );
+					for (var key in postObj){ 
+						if (postObj[key]!==false) oTags.exif[key] = postObj[key];
+					}
+				}
             }
 			if (EXIF.debug===true) console.log( '! READING "gps"' );
             if (oTags.image._IFDpointer_GPS) {
@@ -932,7 +940,6 @@
 					extra.srcFile = _srcFile.replace(/^.\//,'');
 					extra.fileName = extra.srcFile.replace(/^.*[\\\/]/, '');
 					extra.dirName = extra.srcFile.replace(extra.fileName, '').replace(/[\\\/:]$/, '');
-					console.log( fileInfo );
 					if ('size' in fileInfo) { 
 						oTags.file.FileSize = { value: getReadableFileSize(fileInfo.size), _val: fileInfo.size };
 					}

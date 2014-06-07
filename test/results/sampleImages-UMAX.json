@@ -85,6 +85,7 @@
 	{
 		"img": "sampleImages/UMAX/UMAX_AstraSlimF4.jpg",
 		"exifJS": {
+			"Aperture": 3,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -103,6 +104,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "65535 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -111,6 +113,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,
@@ -196,6 +199,7 @@
 	{
 		"img": "sampleImages/UMAX/UMAX_AstraPix590.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.6",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -214,6 +218,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "21930 mm",
 			"ISO": 0,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -222,6 +227,7 @@
 			"RelatedSoundFile": "",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "0.8",
 			"_IFDpointer_Interop": 1296,
 			"_IFDpointer_Makernote": 808,

@@ -2,6 +2,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO905iCS.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -17,11 +18,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.5 mm",
 			"ISO": 80,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/1429",
 			"ShutterSpeedValue": "1/1428",
 			"SubjectDistanceRange": "Unknown",
 			"UserComment": [
@@ -171,6 +174,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO903i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -186,11 +190,13 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.2 mm",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "432 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/370",
 			"ShutterSpeedValue": "1/367",
 			"SubjectDistanceRange": "Distant view",
 			"UserComment": [
@@ -295,6 +301,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO506iC.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:11:14 03:03:23",
@@ -306,10 +313,12 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"ISO": 1250,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
+			"ShutterSpeed": "1/15",
 			"DateTime": "2004:11:14 03:03:23",
 			"Make": "DoCoMo",
 			"Model": "SO506iC",
@@ -377,6 +386,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO506i.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -391,11 +401,13 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/193",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 516,
@@ -470,6 +482,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO505iS.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -484,11 +497,13 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"ISO": 160,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/205",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 504,
 			"DateTime": "2005:05:01 12:46:03",
@@ -560,6 +575,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO505i.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -574,11 +590,13 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"ISO": 170,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/263",
 			"WhiteBalance": "Auto",
 			"_IFDpointer_Interop": 504,
 			"DateTime": "2004:03:31 10:46:09",
@@ -651,12 +669,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH905i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:03:05 14:18:06",
 			"DateTimeOriginal": "2009:03:05 14:18:06",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"UserComment": [
@@ -736,6 +756,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH904i.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -751,11 +772,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/25",
 			"ShutterSpeedValue": "1/25",
 			"SubjectDistanceRange": "Macro",
 			"UserComment": [
@@ -893,12 +916,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH903iTV.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:07:09 11:45:18",
 			"DateTimeOriginal": "2007:07:09 11:45:18",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"UserComment": [
@@ -981,6 +1006,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH903i.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -996,11 +1022,13 @@
 			"Flash": "On, Flash fired, compulsory flash mode",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.6 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "400 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/30",
 			"ShutterSpeedValue": "1/30",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -1232,6 +1260,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH901iC.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1247,11 +1276,13 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.2 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/3000",
 			"ShutterSpeedValue": "1/2998",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -1372,12 +1403,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH900i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:06:04 12:16:17",
 			"DateTimeOriginal": "2005:06:04 12:16:17",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"UserComment": [
@@ -1474,12 +1507,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH703i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:12:07 16:47:37",
 			"DateTimeOriginal": "2009:12:07 16:47:37",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"UserComment": [
@@ -1563,6 +1598,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH702iD.jpg",
 		"exifJS": {
+			"Aperture": 3.4,
 			"ApertureValue": "3.4",
 			"ColorSpace": 65535,
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1578,11 +1614,13 @@
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "960 px w",
 			"PixelYDimension": "1280 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/5",
 			"ShutterSpeedValue": "0.8",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -1706,12 +1744,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH700i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:05:01 08:46:14",
 			"DateTimeOriginal": "2005:05:01 08:46:14",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"UserComment": [
@@ -1807,6 +1847,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH506iC.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -1821,11 +1862,13 @@
 			"FNumber": 2.8,
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.2 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/100",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -1941,12 +1984,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH505iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:08:29 15:57:14",
 			"DateTimeOriginal": "2004:08:29 15:57:14",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"UserComment": [
@@ -2042,12 +2087,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH505i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:02:05 18:28:10",
 			"DateTimeOriginal": "2005:02:05 18:28:10",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"UserComment": [
@@ -2142,12 +2189,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH06A.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:01:29 11:42:48",
 			"DateTimeOriginal": "2010:01:29 11:42:48",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "854 px w",
 			"PixelYDimension": "480 px h",
 			"UserComment": [
@@ -2230,6 +2279,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH03A.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2242,10 +2292,12 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
+			"ShutterSpeed": "1/565",
 			"ShutterSpeedValue": "1/564",
 			"UserComment": [
 				0,
@@ -2431,6 +2483,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH01A.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2446,11 +2499,13 @@
 			"Flash": "On, Flash fired, compulsory flash mode",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "854 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "1/4",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -2594,12 +2649,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP905i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:05:18 17:22:00",
 			"DateTimeOriginal": "2008:05:18 17:22:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"UserComment": [
@@ -2694,12 +2751,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP903i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:10:07 22:22:00",
 			"DateTimeOriginal": "2008:10:07 22:22:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "240 px h",
 			"UserComment": [
@@ -2795,6 +2854,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP901i.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -2809,12 +2869,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.7 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/2048",
 			"ShutterSpeedValue": "1/2048",
 			"UserComment": [
 				0,
@@ -2925,12 +2987,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP900iV.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:02:06 13:37:00",
 			"DateTimeOriginal": "2005:02:06 13:37:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
 			"_IFDpointer_Interop": 284,
@@ -2984,12 +3048,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP900i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:03:24 10:44:00",
 			"DateTimeOriginal": "2004:03:24 10:44:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
 			"_IFDpointer_Interop": 282,
@@ -3043,12 +3109,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP705i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:04:29 11:20:00",
 			"DateTimeOriginal": "2009:04:29 11:20:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "432 px h",
 			"UserComment": [
@@ -3144,6 +3212,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP700i.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ApertureValue": "4.0",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -3158,12 +3227,14 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/20",
 			"ShutterSpeedValue": "1/20",
 			"UserComment": [
 				0,
@@ -3274,12 +3345,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP506iC.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:26 15:08:16",
 			"DateTimeOriginal": "2005:03:26 15:08:15",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"_IFDpointer_Interop": 328,
@@ -3340,12 +3413,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP505iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:09:17 21:48:43",
 			"DateTimeOriginal": "2004:09:17 21:48:40",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 328,
@@ -3405,12 +3480,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP505i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:19 17:03:28",
 			"DateTimeOriginal": "2005:03:19 17:03:24",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"_IFDpointer_Interop": 328,
@@ -3470,12 +3547,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP253i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:26 18:47:06",
 			"DateTimeOriginal": "2005:03:26 18:46:52",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"_IFDpointer_Interop": 328,
@@ -3535,12 +3614,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP252iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:05 20:21:34",
 			"DateTimeOriginal": "2005:03:05 20:21:25",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"_IFDpointer_Interop": 328,
@@ -3600,12 +3681,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP252i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:24 14:49:31",
 			"DateTimeOriginal": "2005:03:24 14:49:27",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"_IFDpointer_Interop": 328,
@@ -3665,12 +3748,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP2102V.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:12:03 18:22:00",
 			"DateTimeOriginal": "2005:12:03 18:22:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"_IFDpointer_Interop": 284,
@@ -3725,12 +3810,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN906imyu.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2011:02:16 11:25:00",
 			"DateTimeOriginal": "2011:02:16 11:25:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "640 px h",
 			"UserComment": 426,
@@ -3803,6 +3890,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN904i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3815,11 +3903,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/100",
 			"UserComment": 568,
 			"WhiteBalance": "Auto",
@@ -3895,6 +3985,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN901iC.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -3907,11 +3998,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.8 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"UserComment": 582,
 			"WhiteBalance": "Auto",
@@ -3993,6 +4086,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN900iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4003,6 +4097,7 @@
 			"ExposureMode": "Auto",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1616 px w",
 			"PixelYDimension": "1212 px h",
@@ -4078,6 +4173,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN900i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4088,6 +4184,7 @@
 			"ExposureMode": "Auto",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1616 px w",
 			"PixelYDimension": "1212 px h",
@@ -4162,12 +4259,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN703iD.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:04:05 23:09:00",
 			"DateTimeOriginal": "2008:04:05 23:09:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
 			"UserComment": 414,
@@ -4229,6 +4328,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN700i.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4241,11 +4341,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "3.3 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
 			"SceneCaptureType": "Portrait",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/16",
 			"ShutterSpeedValue": "1/16",
 			"UserComment": 580,
 			"WhiteBalance": "Auto",
@@ -4327,6 +4429,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN506iS.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4337,6 +4440,7 @@
 			"FNumber": 4,
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
@@ -4411,6 +4515,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN506i.jpg",
 		"exifJS": {
+			"Aperture": 4,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4421,6 +4526,7 @@
 			"FNumber": 4,
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
@@ -4495,12 +4601,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN505iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:24 11:06:00",
 			"DateTimeOriginal": "2005:04:24 11:06:00",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"_IFDpointer_Interop": 350,
@@ -4560,12 +4668,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN505i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2003:08:10 18:07:00",
 			"DateTimeOriginal": "2003:08:10 18:07:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"DateTime": "2003:08:10 18:07:00",
@@ -4618,6 +4728,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN01A.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
@@ -4630,11 +4741,13 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "4.2 mm",
+			"ImageSize": "object Objectxobject Object",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "480 px w",
 			"PixelYDimension": "854 px h",
 			"SceneCaptureType": "Standard",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/141",
 			"ShutterSpeedValue": "1/141",
 			"UserComment": 578,
 			"WhiteBalance": "Auto",
@@ -4722,6 +4835,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoM702iG.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:11:18 18:44:59",
@@ -4731,8 +4845,10 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "",
 			"FocalLength": "5 mm",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1200 px w",
 			"PixelYDimension": "1600 px h",
+			"ShutterSpeed": "1",
 			"ShutterSpeedValue": "1",
 			"UserComment": "11-18-091845",
 			"_IFDpointer_Interop": 670,
@@ -4837,6 +4953,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF905i.jpg",
 		"exifJS": {
+			"Aperture": 2.8,
 			"ApertureValue": "2.8",
 			"BrightnessValue": -1.0155029296875,
 			"ColorSpace": "sRGB",
@@ -4863,6 +4980,7 @@
 			"FocalPlaneYResolution": "2389.100000",
 			"GainControl": "None",
 			"ISO": 206,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4873,6 +4991,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/4",
 			"ShutterSpeedValue": "1/4",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -5005,12 +5124,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF901iC.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "",
 			"DateTimeOriginal": "2005:04:20 19:15:37",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "240 px w",
 			"PixelYDimension": "320 px h",
 			"UserComment": [
@@ -5095,6 +5216,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF900iT.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"BrightnessValue": 1.7,
 			"ColorSpace": "sRGB",
@@ -5123,6 +5245,7 @@
 			"FocalPlaneYResolution": "0.358681",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -5133,6 +5256,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/8",
 			"ShutterSpeedValue": "1/8",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -5229,6 +5353,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF900iC.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"BrightnessValue": 5.2,
 			"ColorSpace": "sRGB",
@@ -5249,6 +5374,7 @@
 			"FocalPlaneXResolution": "0.586349",
 			"FocalPlaneYResolution": "0.495612",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -5256,6 +5382,7 @@
 			"PixelYDimension": "240 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/91",
 			"UserComment": [
 				0,
@@ -5371,6 +5498,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF900i.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"BrightnessValue": 4.2,
 			"ColorSpace": "sRGB",
@@ -5399,6 +5527,7 @@
 			"FocalPlaneYResolution": "0.329821",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -5409,6 +5538,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/50",
 			"ShutterSpeedValue": "1/45",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -5505,6 +5635,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF506i.jpg",
 		"exifJS": {
+			"Aperture": 5.4,
 			"ApertureValue": "8.0",
 			"BrightnessValue": 4,
 			"ColorSpace": "sRGB",
@@ -5525,6 +5656,7 @@
 			"FocalPlaneXResolution": "0.604002",
 			"FocalPlaneYResolution": "0.514580",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.5",
 			"MeteringMode": "Center-weighted average",
@@ -5532,6 +5664,7 @@
 			"PixelYDimension": "288 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/7",
 			"ShutterSpeedValue": "1/8",
 			"DateTime": "2005:04:08 15:45:00",
 			"Make": "DoCoMo",
@@ -5627,6 +5760,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF505iGPS.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"BrightnessValue": 10.7,
 			"ColorSpace": "sRGB",
@@ -5647,6 +5781,7 @@
 			"FocalPlaneXResolution": "0.146587",
 			"FocalPlaneYResolution": "0.123903",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -5654,6 +5789,7 @@
 			"PixelYDimension": "288 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/4000",
 			"ShutterSpeedValue": "1/4096",
 			"DateTime": "2005:04:23 12:04:00",
 			"Make": "DoCoMo",
@@ -5748,6 +5884,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF505i.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"BrightnessValue": 2.2,
 			"ColorSpace": "sRGB",
@@ -5774,6 +5911,7 @@
 			"FocalPlaneYResolution": "0.586349",
 			"GainControl": "None",
 			"ISO": 100,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -5784,6 +5922,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/10",
 			"ShutterSpeedValue": "1/11",
 			"SubjectDistanceRange": "Unknown",
 			"WhiteBalance": "Auto",
@@ -5883,12 +6022,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF2102V.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "",
 			"DateTimeOriginal": "",
 			"ExifVersion": "2.00",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"DateTime": "2004:04:27 11:29:34",
@@ -5941,6 +6082,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoEggy.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2003:11:13 08:41:07",
@@ -5948,6 +6090,7 @@
 			"ExifVersion": "2.10",
 			"FileSource": "Digital Camera",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
@@ -6040,6 +6183,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD905i.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6064,6 +6208,7 @@
 			"FocalPlaneXResolution": "3513.400000",
 			"FocalPlaneYResolution": "3513.200000",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -6074,6 +6219,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/100",
 			"ShutterSpeedValue": "1/100",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -6203,6 +6349,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD904i.jpg",
 		"exifJS": {
+			"Aperture": 3.5,
 			"ApertureValue": "3.4",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -6227,6 +6374,7 @@
 			"FocalPlaneXResolution": "686.200000",
 			"FocalPlaneYResolution": "548.900000",
 			"GainControl": "None",
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -6237,6 +6385,7 @@
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
 			"Sharpness": "Normal",
+			"ShutterSpeed": "1/13",
 			"ShutterSpeedValue": "1/13",
 			"SubjectDistanceRange": "Close view",
 			"UserComment": [
@@ -6362,6 +6511,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD901i.jpg",
 		"exifJS": {
+			"Aperture": 3.6,
 			"ApertureValue": "3.6",
 			"BrightnessValue": 7.94,
 			"ColorSpace": "sRGB",
@@ -6382,6 +6532,7 @@
 			"FocalPlaneXResolution": "6135.000000",
 			"FocalPlaneYResolution": "6135.000000",
 			"ISO": 70,
+			"ImageSize": "object Objectxobject Object",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -6389,6 +6540,7 @@
 			"PixelYDimension": "480 px h",
 			"SceneType": "Directly photographed",
 			"SensingMethod": "One-chip color area",
+			"ShutterSpeed": "1/435",
 			"ShutterSpeedValue": "1/437",
 			"UserComment": [
 				0,
@@ -6512,12 +6664,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD900i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:19 02:09:00",
 			"DateTimeOriginal": "2005:03:19 02:09:00",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"UserComment": "copy",
@@ -6579,6 +6733,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD506i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6589,9 +6744,11 @@
 			"ExposureTime": "1/16",
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/16",
 			"UserComment": [
 				85,
 				78,
@@ -6699,6 +6856,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD505iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6709,9 +6867,11 @@
 			"ExposureTime": "1/655",
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/655",
 			"UserComment": [
 				85,
 				78,
@@ -6818,12 +6978,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD505i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:04:07 20:51:45",
 			"DateTimeOriginal": "2005:04:07 20:51:45",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"UserComment": [
@@ -6923,6 +7085,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD253iWM.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CustomRendered": "Normal",
@@ -6933,9 +7096,11 @@
 			"ExposureTime": "1/49",
 			"Flash": "Off, No flash function",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "220 px w",
 			"PixelYDimension": "176 px h",
 			"SceneCaptureType": "Standard",
+			"ShutterSpeed": "1/49",
 			"UserComment": [
 				85,
 				78,
@@ -7043,12 +7208,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD252i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2005:03:14 18:12:18",
 			"DateTimeOriginal": "2005:03:14 18:12:18",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "288 px w",
 			"PixelYDimension": "352 px h",
 			"UserComment": [
@@ -7148,12 +7315,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD251iS.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2004:07:24 14:04:47",
 			"DateTimeOriginal": "2004:07:24 14:04:47",
 			"ExifVersion": "2.00",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "320 px w",
 			"PixelYDimension": "240 px h",
 			"Make": "DoCoMo",
@@ -7200,12 +7369,14 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD251i.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": ":  :     :  :",
 			"DateTimeOriginal": ":  :     :  :",
 			"ExifVersion": "2.10",
 			"FlashpixVersion": "1.00",
+			"ImageSize": "object Objectxobject Object",
 			"PixelXDimension": "352 px w",
 			"PixelYDimension": "288 px h",
 			"Make": "DoCoMo",
