@@ -1822,7 +1822,7 @@
 			"ExposureTime": "1/54",
 			"FlashpixVersion": "010",
 			"FocalLength": "18 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"ImageUniqueID": "787100EB71F237BE78FE578D20A84AF3",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
@@ -1838,7 +1838,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 224
+			"_IFDpointer_EXIF": 224,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/FLIR/FLIR_ThermaCAM_A320.jpg",

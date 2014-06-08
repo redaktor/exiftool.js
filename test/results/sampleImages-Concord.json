@@ -20,7 +20,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.6 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Center-weighted average",
@@ -41,7 +41,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 216
+			"_IFDpointer_EXIF": 216,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJM_Multimedia.jpg",
@@ -126,7 +128,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 47,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -147,6 +149,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 403,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 190
 		},
 		"exifPerl": {
@@ -231,7 +235,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -264,7 +268,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 262
+			"_IFDpointer_EXIF": 262,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD_C31z3.jpg",
@@ -350,7 +356,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
@@ -368,7 +374,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJDC30S.jpg",
@@ -449,7 +457,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Center-weighted average",
@@ -467,7 +475,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJDC30C.jpg",
@@ -551,7 +561,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -575,7 +585,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 238
+			"_IFDpointer_EXIF": 238,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD80Z3CL.jpg",
@@ -739,7 +751,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -761,7 +773,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 226
+			"_IFDpointer_EXIF": 226,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD60z3EasyShot.jpg",
@@ -849,7 +863,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Flash",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -869,7 +883,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 266
+			"_IFDpointer_EXIF": 266,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD60Z3C.jpg",
@@ -964,7 +980,7 @@
 			"FocalLength": "19 mm",
 			"GainControl": "None",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -990,7 +1006,9 @@
 			"XResolution": "300.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "300.00000000",
-			"_IFDpointer_EXIF": 226
+			"_IFDpointer_EXIF": 226,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD52z3.jpg",
@@ -1094,7 +1112,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 70,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.3",
 			"MeteringMode": "Multi-segment",
@@ -1125,6 +1143,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 412,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 264
 		},
 		"exifPerl": {
@@ -1219,7 +1239,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -1238,7 +1258,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD5200Z.jpg",
@@ -1313,7 +1335,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Average",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "600 px h",
@@ -1332,7 +1354,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 255
+			"_IFDpointer_EXIF": 255,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD5200.jpg",
@@ -1417,7 +1441,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1442,7 +1466,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 236
+			"_IFDpointer_EXIF": 236,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD50Z3C.jpg",
@@ -1540,7 +1566,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -1566,7 +1592,9 @@
 			"XResolution": "0.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "0.01388889",
-			"_IFDpointer_EXIF": 254
+			"_IFDpointer_EXIF": 254,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD4363z.jpg",
@@ -1669,7 +1697,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -1695,7 +1723,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 258
+			"_IFDpointer_EXIF": 258,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD4360z.jpg",
@@ -1788,7 +1819,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MeteringMode": "Average",
 			"PixelXDimension": "2304 px w",
@@ -1811,7 +1842,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 256
+			"_IFDpointer_EXIF": 256,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD41Z8.jpg",
@@ -1888,7 +1922,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.2 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
@@ -1907,7 +1941,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD4100Z3S.jpg",
@@ -1983,7 +2019,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2272 px w",
 			"PixelYDimension": "1704 px h",
@@ -2002,7 +2038,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD4100.jpg",
@@ -2087,7 +2125,7 @@
 			"FocalLength": "10 mm",
 			"FocalLengthIn35mmFilm": "4 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -2113,7 +2151,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 246
+			"_IFDpointer_EXIF": 246,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD4.0LCD.jpg",
@@ -2213,7 +2254,7 @@
 				100,
 				100
 			],
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "768 px h",
@@ -2232,7 +2273,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD3300.jpg",
@@ -2312,7 +2355,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -2333,7 +2376,9 @@
 			"ResolutionUnit": "inches",
 			"Software": "ACD Systems Digital Imaging",
 			"YCbCrPositioning": "Centered",
-			"_IFDpointer_EXIF": 226
+			"_IFDpointer_EXIF": 226,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD3.3x4ie.jpg",
@@ -2410,7 +2455,7 @@
 			"FNumber": 3.6,
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "3.6",
 			"PixelXDimension": "800 px w",
 			"PixelYDimension": "592 px h",
@@ -2428,7 +2473,10 @@
 			"XResolution": "128.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "128.00000000",
-			"_IFDpointer_EXIF": 260
+			"_IFDpointer_EXIF": 260,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD2100f.jpg",
@@ -2499,7 +2547,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.1 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "640 px w",
 			"PixelYDimension": "480 px h",
@@ -2518,7 +2566,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD2100Z3S.jpg",
@@ -2600,7 +2650,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "15.9 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2623,7 +2673,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 232
+			"_IFDpointer_EXIF": 232,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/JenoptikJD100z3EasyShot.jpg",
@@ -2712,7 +2764,7 @@
 			"Flash": "Auto, Flash fired, auto mode, red-eye reduction mode",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Flash",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -2745,7 +2797,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 266
+			"_IFDpointer_EXIF": 266,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordJenoptikJD3.1exclusiv.jpg",
@@ -2836,7 +2890,7 @@
 			"FocalLength": "8.2 mm",
 			"FocalLengthIn35mmFilm": "49 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2862,7 +2916,9 @@
 			"XResolution": "0.33333333",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "0.33333333",
-			"_IFDpointer_EXIF": 228
+			"_IFDpointer_EXIF": 228,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordJD8.0.jpg",
@@ -2963,7 +3019,7 @@
 			"FocalLength": "6 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -2988,7 +3044,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 226
+			"_IFDpointer_EXIF": 226,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordJD5.0z3EasyShot.jpg",
@@ -3086,7 +3144,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Center-weighted average",
@@ -3110,7 +3168,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 358
+			"_IFDpointer_EXIF": 358,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEyeQ3132z.jpg",
@@ -3206,7 +3266,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 70,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "8.0",
 			"MeteringMode": "Center-weighted average",
@@ -3235,6 +3295,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 320,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 268
 		},
 		"exifPerl": {
@@ -3334,7 +3396,7 @@
 			"FocalLength": "17.2 mm",
 			"FocalLengthIn35mmFilm": "84 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -3357,6 +3419,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -3523,7 +3588,7 @@
 			"FocalLengthIn35mmFilm": "48 mm",
 			"GainControl": "None",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -3549,7 +3614,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 258
+			"_IFDpointer_EXIF": 258,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q5062AF.jpg",
@@ -3654,7 +3721,7 @@
 			"FocalLengthIn35mmFilm": "56 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -3680,7 +3747,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 250
+			"_IFDpointer_EXIF": 250,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q4363Z.jpg",
@@ -3783,7 +3852,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -3809,7 +3878,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 250
+			"_IFDpointer_EXIF": 250,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q4360Z.jpg",
@@ -3913,7 +3985,7 @@
 			"FocalLength": "10 mm",
 			"FocalLengthIn35mmFilm": "4 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -3939,7 +4011,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 246
+			"_IFDpointer_EXIF": 246,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q4060AF.jpg",
@@ -4038,7 +4113,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Flash",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -4071,7 +4146,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 262
+			"_IFDpointer_EXIF": 262,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q3346z.jpg",
@@ -4159,7 +4236,7 @@
 			"Flash": "Auto, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Flash",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Average",
@@ -4192,7 +4269,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 262
+			"_IFDpointer_EXIF": 262,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q3345z.jpg",
@@ -4285,7 +4364,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -4311,7 +4390,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 250
+			"_IFDpointer_EXIF": 250,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q3341Z.jpg",
@@ -4416,7 +4498,7 @@
 			"FocalLengthIn35mmFilm": "76 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -4442,7 +4524,9 @@
 			"XResolution": "300.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "300.00000000",
-			"_IFDpointer_EXIF": 294
+			"_IFDpointer_EXIF": 294,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEye-Q3340z.jpg",
@@ -4544,7 +4628,7 @@
 			"FlashpixVersion": "-",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": 100,
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -4570,7 +4654,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 358
+			"_IFDpointer_EXIF": 358,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEYE_Q3042.jpg",
@@ -4657,7 +4743,7 @@
 			"FlashpixVersion": "-",
 			"FocalLengthIn35mmFilm": "0 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "White fluorescent (WW 3200 - 3700K)",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -4678,7 +4764,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 177
+			"_IFDpointer_EXIF": 177,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/ConcordEYE_Q3040.jpg",
@@ -4837,7 +4925,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -4868,6 +4956,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 412,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 264
 		},
 		"exifPerl": {
@@ -4965,7 +5055,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.2 mm",
 			"ISO": 84,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -4986,6 +5076,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 403,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 190
 		},
 		"exifPerl": {
@@ -5077,7 +5169,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5107,6 +5199,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 380,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 232
 		},
 		"exifPerl": {
@@ -5204,7 +5298,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -5223,7 +5317,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 256
+			"_IFDpointer_EXIF": 256,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/Concord3045.jpg",
@@ -5305,7 +5401,7 @@
 			"Flash": 2064,
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -5329,7 +5425,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 358
+			"_IFDpointer_EXIF": 358,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Concord/Concord2000.jpg",

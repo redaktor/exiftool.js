@@ -7,7 +7,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1417 px w",
 			"PixelYDimension": "1964 px h",
 			"_IFDpointer_Interop": 402,
@@ -25,7 +25,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 312
+			"_IFDpointer_EXIF": 312,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX700.jpg",
@@ -77,7 +80,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "747 px w",
 			"PixelYDimension": "1136 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -87,7 +90,10 @@
 			"XResolution": "200.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "200.00000000",
-			"_IFDpointer_EXIF": 180
+			"_IFDpointer_EXIF": 180,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX690.jpg",
@@ -133,7 +139,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "3296 px w",
 			"PixelYDimension": "2160 px h",
 			"SubsecTime": 104,
@@ -147,7 +153,10 @@
 			"XResolution": "2400.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "2400.00000000",
-			"_IFDpointer_EXIF": 297
+			"_IFDpointer_EXIF": 297,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX640.jpg",
@@ -198,7 +207,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1632 px w",
 			"PixelYDimension": "1040 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -208,7 +217,10 @@
 			"XResolution": "1200.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "1200.00000000",
-			"_IFDpointer_EXIF": 180
+			"_IFDpointer_EXIF": 180,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX620.jpg",
@@ -254,7 +266,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1184 px w",
 			"PixelYDimension": "1760 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -264,7 +276,10 @@
 			"XResolution": "300.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "300.00000000",
-			"_IFDpointer_EXIF": 180
+			"_IFDpointer_EXIF": 180,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX610.jpg",
@@ -310,7 +325,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "2.20",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1504 px w",
 			"PixelYDimension": "240 px h",
 			"ImageDescription": "EPSON MFP image",
@@ -320,7 +335,10 @@
 			"XResolution": "200.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "200.00000000",
-			"_IFDpointer_EXIF": 180
+			"_IFDpointer_EXIF": 180,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonStylusPhotoRX590.jpg",
@@ -377,7 +395,7 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "None",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3008 px w",
@@ -399,6 +417,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "600.00000000",
 			"_IFDpointer_EXIF": 248,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 892
 		},
 		"exifPerl": {
@@ -488,7 +508,7 @@
 			"FlashpixVersion": "1.00",
 			"GainControl": "Low gain up",
 			"ISO": 800,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "3008 px w",
@@ -510,6 +530,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "600.00000000",
 			"_IFDpointer_EXIF": 248,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 892
 		},
 		"exifPerl": {
@@ -599,7 +621,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.6 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -620,7 +642,9 @@
 			"XResolution": "465.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "465.00000000",
-			"_IFDpointer_EXIF": 290
+			"_IFDpointer_EXIF": 290,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC850Z.jpg",
@@ -714,7 +738,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -735,7 +759,9 @@
 			"XResolution": "375.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "375.00000000",
-			"_IFDpointer_EXIF": 290
+			"_IFDpointer_EXIF": 290,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC800S.jpg",
@@ -828,7 +854,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -847,7 +873,9 @@
 			"XResolution": "375.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "375.00000000",
-			"_IFDpointer_EXIF": 240
+			"_IFDpointer_EXIF": 240,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC800.jpg",
@@ -939,7 +967,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "11.6 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -960,7 +988,9 @@
 			"XResolution": "150.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "150.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC3100Z.jpg",
@@ -1056,7 +1086,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "12.2 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -1077,7 +1107,9 @@
 			"XResolution": "150.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "150.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC3000Z.jpg",
@@ -1168,7 +1200,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 125,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1800 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -1186,7 +1218,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 254
+			"_IFDpointer_EXIF": 254,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPhotoPC2100Z.jpg",
@@ -1258,7 +1292,7 @@
 			"DateTimeDigitized": "2009:01:26 17:58:21",
 			"DateTimeOriginal": "2009:01:26 17:58:21",
 			"ExifVersion": "2.20",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1024 px w",
 			"PixelYDimension": "693 px h",
 			"SubsecTime": 406,
@@ -1272,7 +1306,10 @@
 			"XResolution": "300.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "300.00000000",
-			"_IFDpointer_EXIF": 224
+			"_IFDpointer_EXIF": 224,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfectionV700.jpg",
@@ -1358,7 +1395,7 @@
 		"exifJS": {
 			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:04:20 11:31:18",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "928 px w",
 			"PixelYDimension": "599 px h",
 			"SubsecTime": 359,
@@ -1371,7 +1408,10 @@
 			"XResolution": "200.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "200.00000000",
-			"_IFDpointer_EXIF": 219
+			"_IFDpointer_EXIF": 219,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfectionV100.jpg",
@@ -1411,7 +1451,7 @@
 		"exifJS": {
 			"Aperture": "n/a",
 			"DateTimeDigitized": "2010:12:04 17:41:11",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "3883 px w",
 			"PixelYDimension": "5340 px h",
 			"_IFDpointer_Makernote": 248,
@@ -1421,7 +1461,10 @@
 			"Make": "Epson",
 			"Model": "Perfection4990",
 			"Software": "SilverFast 6.4.3r1",
-			"_IFDpointer_EXIF": 174
+			"_IFDpointer_EXIF": 174,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection4990.jpg",
@@ -1489,7 +1532,10 @@
 			"Make": "Epson",
 			"Model": "Perfection2480",
 			"PageName": "Reflective",
-			"_IFDpointer_EXIF": 96
+			"_IFDpointer_EXIF": 96,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection2480.jpg",
@@ -1526,7 +1572,10 @@
 			"Make": "Epson",
 			"Model": "Perfection1660",
 			"PageName": "Reflective",
-			"_IFDpointer_EXIF": 96
+			"_IFDpointer_EXIF": 96,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection1660.jpg",
@@ -1563,7 +1612,10 @@
 			"Make": "Epson",
 			"Model": "Perfection1250",
 			"PageName": "Reflective",
-			"_IFDpointer_EXIF": 96
+			"_IFDpointer_EXIF": 96,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonPerfection1250.jpg",
@@ -1614,7 +1666,7 @@
 			"FocalLength": "10 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "640 px w",
@@ -1638,6 +1690,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 250,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 982
 		},
 		"exifPerl": {
@@ -1734,7 +1788,7 @@
 			"FocalLength": "5.8 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
@@ -1758,6 +1812,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 248,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 940
 		},
 		"exifPerl": {
@@ -1853,7 +1909,7 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
@@ -1876,7 +1932,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 236
+			"_IFDpointer_EXIF": 236,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonL-400.jpg",
@@ -1980,7 +2038,7 @@
 			"FocalLength": "5.6 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2048 px w",
@@ -2003,7 +2061,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 236
+			"_IFDpointer_EXIF": 236,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonL-300.jpg",
@@ -2090,7 +2150,7 @@
 			"Aperture": "n/a",
 			"ColorSpace": 65535,
 			"ExifVersion": "2.20",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "300 px w",
 			"PixelYDimension": "1600 px h",
 			"BitsPerSample": [
@@ -2112,7 +2172,10 @@
 			"Software": "Nero PhotoSnap 1, 2, 0, 19",
 			"XResolution": "600.00000000",
 			"YResolution": "600.00000000",
-			"_IFDpointer_EXIF": 312
+			"_IFDpointer_EXIF": 312,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonExp10000XL.jpg",
@@ -2161,7 +2224,10 @@
 			"Make": "Epson",
 			"Model": "CX4400",
 			"PageName": "Reflective",
-			"_IFDpointer_EXIF": 88
+			"_IFDpointer_EXIF": 88,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCX4400.jpg",
@@ -2194,7 +2260,7 @@
 			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifVersion": "\u0000\u0002\u0002",
 			"FlashpixVersion": "\u0000\u0001",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1752 px w",
 			"PixelYDimension": "1164 px h",
 			"DateTime": "2007:10:27 23:04:23",
@@ -2205,7 +2271,10 @@
 			"XResolution": "300.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "300.00000000",
-			"_IFDpointer_EXIF": 234
+			"_IFDpointer_EXIF": 234,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCX3900.jpg",
@@ -2263,7 +2332,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -2284,7 +2353,9 @@
 			"XResolution": "480.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "480.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-920Z.jpg",
@@ -2380,7 +2451,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -2401,7 +2472,9 @@
 			"XResolution": "480.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "480.00000000",
-			"_IFDpointer_EXIF": 284
+			"_IFDpointer_EXIF": 284,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-900Z.jpg",
@@ -2494,7 +2567,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "9 mm",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2515,7 +2588,9 @@
 			"XResolution": "375.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "375.00000000",
-			"_IFDpointer_EXIF": 275
+			"_IFDpointer_EXIF": 275,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-850Z.jpg",
@@ -2604,7 +2679,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1800 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -2622,7 +2697,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 290
+			"_IFDpointer_EXIF": 290,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-80Z.jpg",
@@ -2709,7 +2786,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2730,7 +2807,9 @@
 			"XResolution": "375.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "375.00000000",
-			"_IFDpointer_EXIF": 290
+			"_IFDpointer_EXIF": 290,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-800S.jpg",
@@ -2823,7 +2902,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -2844,7 +2923,9 @@
 			"XResolution": "375.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "375.00000000",
-			"_IFDpointer_EXIF": 290
+			"_IFDpointer_EXIF": 290,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Epson/EpsonCP-800.jpg",

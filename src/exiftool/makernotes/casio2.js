@@ -15,11 +15,12 @@ var MainRef = require('../exif').ref;
 
 exports.info = {
 	
-	tags : {
-		
-	},
+};
 	
-	ref : {
-		
-	}	
+exports.tags = {
+	
+},
+
+exports.ref = {
+	
 };

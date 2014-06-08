@@ -20,13 +20,13 @@ var MainRef = require('../exif').ref;
 exports.info = {
 	SerialFoundAtStartOfMakerNotes : true,
 	InvalidSerialStart : 'KDK',
-	MinimumBelievableLength : 12,
+	MinimumBelievableLength : 12
+};
+
+exports.tags = {
 	
-	tags: {
-		
-	},
+},
+
+exports.ref = {
 	
-	ref: {
-		
-	}
 };

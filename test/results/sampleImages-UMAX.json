@@ -24,6 +24,8 @@
 	{
 		"img": "sampleImages/UMAX/UMAX_MagicScan.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
+			"ImageSize": "undefinedxundefined",
 			"BitsPerSample": [
 				8,
 				8,
@@ -104,7 +106,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "65535 mm",
 			"ISO": 0,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -218,7 +220,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLengthIn35mmFilm": "21930 mm",
 			"ISO": 0,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",

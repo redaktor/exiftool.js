@@ -30,274 +30,274 @@ exports.info = {
 		'GENERALE' : true,
 		'GE' : false
 	},
-	MinimumBelievableLength : 34,
-	
-	tags : {
-		0x0010: 'InternalSerialNumber',
-		0x1000: 'Quality',
-		0x1001: 'Sharpness',
-		0x1002: 'WhiteBalance',
-		0x1003: 'Saturation',
-		0x1004: 'Contrast',
-		0x1005: 'ColorTemperature',
-		0x1006: 'Contrast', 
-		0x100a: 'WhiteBalanceFineTune',
-		0x100b: 'NoiseReduction',
-		0x100e: 'HighISONoiseReduction',
-		0x1010: 'FujiFlashMode',
-		0x1011: 'FlashExposureComp', //JD
-		0x1020: 'Macro',
-		0x1021: 'FocusMode',
-		0x1023: 'FocusPixel',
-		0x1030: 'SlowSync',
-		0x1031: 'PictureMode',
-		0x1032: 'ExposureCount',
-		0x1033: 'EXRAuto',
-		0x1034: 'EXRMode',
-		0x1040: 'ShadowTone',
-		0x1041: 'HighlightTone',
-		0x1100: 'AutoBracketing',
-		0x1101: 'SequenceNumber',
-		0x1210: 'ColorMode',
-		0x1300: 'BlurWarning',
-		0x1301: 'FocusWarning',
-		0x1302: 'ExposureWarning',
-		0x1304: 'GEImageSize',
-		0x1400: 'DynamicRange',
-		0x1401: 'FilmMode',
-		0x1402: 'DynamicRangeSetting',
-		0x1403: 'DevelopmentDynamicRange',
-		0x1404: 'MinFocalLength',
-		0x1405: 'MaxFocalLength',
-		0x1406: 'MaxApertureAtMinFocal',
-		0x1407: 'MaxApertureAtMaxFocal',
-		0x140b: 'AutoDynamicRange',
-		0x1422: 'ImageStabilization',
-		0x1436: 'ImageGeneration',
-		0x3820: 'FrameRate',
-		0x3821: 'FrameWidth',
-		0x3822: 'FrameHeight',
-		0x4100: 'FacesDetected',
-		0x4103: 'FacePositions',
-		0x4282: 'FaceRecInfo',
-		0x8000: 'FileSource',
-		0x8002: 'OrderNumber',
-		0x8003: 'FrameNumber',
-		0xb211: 'Parallax'
+	MinimumBelievableLength : 34
+};
+
+exports.tags = {
+	0x0010: 'InternalSerialNumber',
+	0x1000: 'Quality',
+	0x1001: 'Sharpness',
+	0x1002: 'WhiteBalance',
+	0x1003: 'Saturation',
+	0x1004: 'Contrast',
+	0x1005: 'ColorTemperature',
+	0x1006: 'Contrast', 
+	0x100a: 'WhiteBalanceFineTune',
+	0x100b: 'NoiseReduction',
+	0x100e: 'HighISONoiseReduction',
+	0x1010: 'FujiFlashMode',
+	0x1011: 'FlashExposureComp', //JD
+	0x1020: 'Macro',
+	0x1021: 'FocusMode',
+	0x1023: 'FocusPixel',
+	0x1030: 'SlowSync',
+	0x1031: 'PictureMode',
+	0x1032: 'ExposureCount',
+	0x1033: 'EXRAuto',
+	0x1034: 'EXRMode',
+	0x1040: 'ShadowTone',
+	0x1041: 'HighlightTone',
+	0x1100: 'AutoBracketing',
+	0x1101: 'SequenceNumber',
+	0x1210: 'ColorMode',
+	0x1300: 'BlurWarning',
+	0x1301: 'FocusWarning',
+	0x1302: 'ExposureWarning',
+	0x1304: 'GEImageSize',
+	0x1400: 'DynamicRange',
+	0x1401: 'FilmMode',
+	0x1402: 'DynamicRangeSetting',
+	0x1403: 'DevelopmentDynamicRange',
+	0x1404: 'MinFocalLength',
+	0x1405: 'MaxFocalLength',
+	0x1406: 'MaxApertureAtMinFocal',
+	0x1407: 'MaxApertureAtMaxFocal',
+	0x140b: 'AutoDynamicRange',
+	0x1422: 'ImageStabilization',
+	0x1436: 'ImageGeneration',
+	0x3820: 'FrameRate',
+	0x3821: 'FrameWidth',
+	0x3822: 'FrameHeight',
+	0x4100: 'FacesDetected',
+	0x4103: 'FacePositions',
+	0x4282: 'FaceRecInfo',
+	0x8000: 'FileSource',
+	0x8002: 'OrderNumber',
+	0x8003: 'FrameNumber',
+	0xb211: 'Parallax'
+};
+
+exports.ref = {
+	Sharpness: {
+		0x01: 'Soft',
+		0x02: 'Soft2',
+		0x03: 'Normal',
+		0x04: 'Hard',
+		0x05: 'Hard2',
+		0x82: 'Medium Soft', //2
+		0x84: 'Medium Hard', //2
+		0x8000: 'Film Simulation', //2
+		0xffff: 'n/a' //2
 	},
+	WhiteBalance: {
+		0x0  : 'Auto',
+		0x100: 'Daylight',
+		0x200: 'Cloudy',
+		0x300: 'Daylight Fluorescent',
+		0x301: 'Day White Fluorescent',
+		0x302: 'White Fluorescent',
+		0x303: 'Warm White Fluorescent', //2/PH (S5)
+		0x304: 'Living Room Warm White Fluorescent', //2/PH (S5)
+		0x400: 'Incandescent',
+		0x500: 'Flash', //4
+		0xf00: 'Custom',
+		0xf01: 'Custom2', //2
+		0xf02: 'Custom3', //2
+		0xf03: 'Custom4', //2
+		0xf04: 'Custom5', //2
+		// 0xfe0: 'Gray Point?', //2
+		0xff0: 'Kelvin' //4
+	},
+	Saturation: {
+		0x0  : 'Normal', // // ("Color 0", ref 8)
+		0x080: 'Medium High', //2 ("Color +1", ref 8)
+		0x100: 'High', // ("Color +2", ref 8)
+		0x180: 'Medium Low', //2 ("Color -1", ref 8)
+		0x200: 'Low',
+		0x300: 'None (B&W)', //2
+		0x301: 'B&W Red Filter', //PH/8
+		0x302: 'B&W Yellow Filter', //PH (X100)
+		0x303: 'B&W Green Filter', //PH/8
+		0x310: 'B&W Sepia', //PH (X100)
+		0x400: 'Low 2', //8 ("Color -2")
+		0x8000: 'Film Simulation' //2
+	},
+	Contrast: {
+		0x0  : 'Normal',
+		0x080: 'Medium High', //2
+		0x100: 'High',
+		0x180: 'Medium Low', //2
+		0x200: 'Low',
+		0x300: 'Low',
+		0x8000: 'Film Simulation' //2
+	},
+	ColorTemperature: function(n){ return { value: n.toString().concat(' Kelvin'), _val:n  } },
+	WhiteBalanceFineTune: function(arr){
+		if( !(arr instanceof Array) || arr.length<2 ) return { value:'n/a', _val:arr };
+		return { value:'Red '.concat(arr[0], ', Blue ', arr[1]), _val:arr };
+	},
+	NoiseReduction: {
+		0x40: 'Low',
+		0x80: 'Normal',
+		0x100: 'n/a' //PH (NC) (all X100 samples)
+	},
+	HighISONoiseReduction: {
+		0x000: 'Normal', // ("NR 0, ref 8)
+		0x100: 'Strong', // ("NR+2, ref 8)
+		0x180: 'Medium Strong', //8 ("NR+1")
+		0x200: 'Weak', // ("NR-2, ref 8)
+		0x280: 'Medium Weak' //8 ("NR-1")
+	},
+	FujiFlashMode: {
+		0: 'Auto',
+		1: 'On',
+		2: 'Off',
+		3: 'Red-eye reduction',
+		4: 'External' //JD
+	},
+	Macro: { 0: 'Off', 1: 'On' },
+	FocusMode: { 0: 'Auto', 1: 'Manual' },
+	AFPointSet: { 0: 'No', 1: 'Yes' },
+	SlowSync: { 0: 'Off', 1: 'On' },
+	PictureMode: {
+		0x0: 'Auto',
+		0x1: 'Portrait',
+		0x2: 'Landscape',
+		0x3: 'Macro', //JD
+		0x4: 'Sports',
+		0x5: 'Night Scene',
+		0x6: 'Program AE',
+		0x7: 'Natural Light', //3
+		0x8: 'Anti-blur', //3
+		0x9: 'Beach & Snow', //JD
+		0xa: 'Sunset', //3
+		0xb: 'Museum', //3
+		0xc: 'Party', //3
+		0xd: 'Flower', //3
+		0xe: 'Text', //3
+		0xf: 'Natural Light & Flash', //3
+		0x10: 'Beach', //3
+		0x11: 'Snow', //3
+		0x12: 'Fireworks', //3
+		0x13: 'Underwater', //3
+		0x14: 'Portrait with Skin Correction', //7
+		0x16: 'Panorama', //PH (X100)
+		0x17: 'Night (tripod)', //7
+		0x18: 'Pro Low-light', //7
+		0x19: 'Pro Focus', //7
+		0x1a: 'Portrait 2', //PH (NC, T500, maybe "Smile & Shoot"?)
+		0x1b: 'Dog Face Detection', //7
+		0x1c: 'Cat Face Detection', //7
+		0x40: 'Advanced Filter',
+		0x100: 'Aperture-priority AE',
+		0x200: 'Shutter speed priority AE',
+		0x300: 'Manual'
+	},
+	EXRAuto: {
+		0: 'Auto',
+		1: 'Manual'
+	},
+	EXRMode: {
+		0x100: 'HR (High Resolution)',
+		0x200: 'SN (Signal to Noise priority)',
+		0x300: 'DR (Dynamic Range priority)'
+	},
+	ShadowTone: function (n){
+		if ( typeof n !== 'number' || n === 0 ) return { value:'Normal', _val:n}
+		if ( n === -32 ) return { value:'Hard', _val:n}
+		if ( n === -16 ) return { value:'Medium-Hard', _val:n}
+		if ( n === 16 ) return { value:'Medium-Soft', _val:n}
+		return { value:'Soft', _val:n}
+	},
+	HighlightTone: function (n){
+		if ( typeof n !== 'number' || n === 0 ) return { value:'Normal', _val:n}
+		if ( n === -32 ) return { value:'Hard', _val:n}
+		if ( n === -16 ) return { value:'Medium-Hard', _val:n}
+		if ( n === 16 ) return { value:'Medium-Soft', _val:n}
+		return { value:'Soft', _val:n}
+	},
+	AutoBracketing: {
+		0: 'Off',
+		1: 'On',
+		2: 'No flash & flash' //3
+	},
+	ColorMode: {
+		0x00: 'Standard',
+		0x10: 'Chrome',
+		0x30: 'B & W'
+	},
+	BlurWarning: {
+		0: 'None',
+		1: 'Blur Warning'
+	},
+	FocusWarning: {
+		0: 'Good',
+		1: 'Out of focus'
+	},
+	ExposureWarning: {
+		0: 'Good',
+		1: 'Bad exposure'
+	},
+	DynamicRange: {
+		1: 'Standard',
+		3: 'Wide'
+		// the S5Pro has 100%(STD),130%,170%,230%(W1),300%,400%(W2) - PH
+	},
+	FilmMode: {
+		0x000: 'F0/Standard (Provia)',
+		0x100: 'F1/Studio Portrait',
+		0x110: 'F1a/Studio Portrait Enhanced Saturation',
+		0x120: 'F1b/Studio Portrait Smooth Skin Tone (Astia)',
+		0x130: 'F1c/Studio Portrait Increased Sharpness',
+		0x200: 'F2/Fujichrome (Velvia)',
+		0x300: 'F3/Studio Portrait Ex',
+		0x400: 'F4/Velvia',
+		0x500: 'Pro Neg. Std', //PH (X-Pro1)
+		0x501: 'Pro Neg. Hi' //PH (X-Pro1)
+	},
+	DynamicRangeSetting: {
+		0x000: 'Auto (100-400%)',
+		0x001: 'Manual', //(ref http://forum.photome.de/viewtopic.php?f=2&t=353)
+		0x100: 'Standard (100%)',
+		0x200: 'Wide1 (230%)',
+		0x201: 'Wide2 (400%)',
+		0x8000: 'Film Simulation'
+	},
+	AutoDynamicRange: function(n){
+		return { value: n.toString().concat('%'), _val:n };
+	},
+	/* TODO
+		0x1422: 'ImageStabilization',
+		Writable: 'int16u',
+		Count: 3,
+		PrintConv: [{
+			0: 'None',
+			1: 'Optical', //PH
+			2: 'Sensor-shift', //PH
+			512: 'Digital', //PH
+		},{
+			0: 'Off',
+			1: 'On (mode 1, continuous)',
+			2: 'On (mode 2, shooting only)',
+		}],
+	*/
+	ImageGeneration: {
+		0: 'Original Image',
+		1: 'Re-developed from RAW',
+	},
+	FrameWidth: function(n){ return MainRef.px(n); },
+	FrameHeight: function(n){ return MainRef.px(n); },
 	
-	ref: {
-		Sharpness: {
-            0x01: 'Soft',
-            0x02: 'Soft2',
-            0x03: 'Normal',
-            0x04: 'Hard',
-            0x05: 'Hard2',
-            0x82: 'Medium Soft', //2
-            0x84: 'Medium Hard', //2
-            0x8000: 'Film Simulation', //2
-            0xffff: 'n/a' //2
-        },
-		WhiteBalance: {
-            0x0  : 'Auto',
-            0x100: 'Daylight',
-            0x200: 'Cloudy',
-            0x300: 'Daylight Fluorescent',
-            0x301: 'Day White Fluorescent',
-            0x302: 'White Fluorescent',
-            0x303: 'Warm White Fluorescent', //2/PH (S5)
-            0x304: 'Living Room Warm White Fluorescent', //2/PH (S5)
-            0x400: 'Incandescent',
-            0x500: 'Flash', //4
-            0xf00: 'Custom',
-            0xf01: 'Custom2', //2
-            0xf02: 'Custom3', //2
-            0xf03: 'Custom4', //2
-            0xf04: 'Custom5', //2
-            // 0xfe0: 'Gray Point?', //2
-            0xff0: 'Kelvin' //4
-        },
-		Saturation: {
-            0x0  : 'Normal', // // ("Color 0", ref 8)
-            0x080: 'Medium High', //2 ("Color +1", ref 8)
-            0x100: 'High', // ("Color +2", ref 8)
-            0x180: 'Medium Low', //2 ("Color -1", ref 8)
-            0x200: 'Low',
-            0x300: 'None (B&W)', //2
-            0x301: 'B&W Red Filter', //PH/8
-            0x302: 'B&W Yellow Filter', //PH (X100)
-            0x303: 'B&W Green Filter', //PH/8
-            0x310: 'B&W Sepia', //PH (X100)
-            0x400: 'Low 2', //8 ("Color -2")
-            0x8000: 'Film Simulation' //2
-        },
-		Contrast: {
-            0x0  : 'Normal',
-            0x080: 'Medium High', //2
-            0x100: 'High',
-            0x180: 'Medium Low', //2
-            0x200: 'Low',
-			0x300: 'Low',
-            0x8000: 'Film Simulation' //2
-        },
-		ColorTemperature: function(n){ return { value: n.toString().concat(' Kelvin'), _val:n  } },
-		WhiteBalanceFineTune: function(arr){
-			if( !(arr instanceof Array) || arr.length<2 ) return { value:'n/a', _val:arr };
-			return { value:'Red '.concat(arr[0], ', Blue ', arr[1]), _val:arr };
-		},
-		NoiseReduction: {
-            0x40: 'Low',
-            0x80: 'Normal',
-            0x100: 'n/a' //PH (NC) (all X100 samples)
-        },
-		HighISONoiseReduction: {
-            0x000: 'Normal', // ("NR 0, ref 8)
-            0x100: 'Strong', // ("NR+2, ref 8)
-            0x180: 'Medium Strong', //8 ("NR+1")
-            0x200: 'Weak', // ("NR-2, ref 8)
-            0x280: 'Medium Weak' //8 ("NR-1")
-        },
-		FujiFlashMode: {
-            0: 'Auto',
-            1: 'On',
-            2: 'Off',
-            3: 'Red-eye reduction',
-            4: 'External' //JD
-        },
-		Macro: { 0: 'Off', 1: 'On' },
-		FocusMode: { 0: 'Auto', 1: 'Manual' },
-		AFPointSet: { 0: 'No', 1: 'Yes' },
-		SlowSync: { 0: 'Off', 1: 'On' },
-		PictureMode: {
-            0x0: 'Auto',
-            0x1: 'Portrait',
-            0x2: 'Landscape',
-            0x3: 'Macro', //JD
-            0x4: 'Sports',
-            0x5: 'Night Scene',
-            0x6: 'Program AE',
-            0x7: 'Natural Light', //3
-            0x8: 'Anti-blur', //3
-            0x9: 'Beach & Snow', //JD
-            0xa: 'Sunset', //3
-            0xb: 'Museum', //3
-            0xc: 'Party', //3
-            0xd: 'Flower', //3
-            0xe: 'Text', //3
-            0xf: 'Natural Light & Flash', //3
-            0x10: 'Beach', //3
-            0x11: 'Snow', //3
-            0x12: 'Fireworks', //3
-            0x13: 'Underwater', //3
-            0x14: 'Portrait with Skin Correction', //7
-            0x16: 'Panorama', //PH (X100)
-            0x17: 'Night (tripod)', //7
-            0x18: 'Pro Low-light', //7
-            0x19: 'Pro Focus', //7
-            0x1a: 'Portrait 2', //PH (NC, T500, maybe "Smile & Shoot"?)
-            0x1b: 'Dog Face Detection', //7
-            0x1c: 'Cat Face Detection', //7
-            0x40: 'Advanced Filter',
-            0x100: 'Aperture-priority AE',
-            0x200: 'Shutter speed priority AE',
-            0x300: 'Manual'
-        },
-		EXRAuto: {
-            0: 'Auto',
-            1: 'Manual'
-        },
-		EXRMode: {
-            0x100: 'HR (High Resolution)',
-            0x200: 'SN (Signal to Noise priority)',
-            0x300: 'DR (Dynamic Range priority)'
-        },
-		ShadowTone: function (n){
-			if ( typeof n !== 'number' || n === 0 ) return { value:'Normal', _val:n}
-			if ( n === -32 ) return { value:'Hard', _val:n}
-			if ( n === -16 ) return { value:'Medium-Hard', _val:n}
-			if ( n === 16 ) return { value:'Medium-Soft', _val:n}
-			return { value:'Soft', _val:n}
-        },
-		HighlightTone: function (n){
-			if ( typeof n !== 'number' || n === 0 ) return { value:'Normal', _val:n}
-			if ( n === -32 ) return { value:'Hard', _val:n}
-			if ( n === -16 ) return { value:'Medium-Hard', _val:n}
-			if ( n === 16 ) return { value:'Medium-Soft', _val:n}
-			return { value:'Soft', _val:n}
-        },
-		AutoBracketing: {
-            0: 'Off',
-            1: 'On',
-            2: 'No flash & flash' //3
-        },
-		ColorMode: {
-            0x00: 'Standard',
-            0x10: 'Chrome',
-            0x30: 'B & W'
-        },
-		BlurWarning: {
-            0: 'None',
-            1: 'Blur Warning'
-        },
-		FocusWarning: {
-            0: 'Good',
-            1: 'Out of focus'
-        },
-		ExposureWarning: {
-            0: 'Good',
-            1: 'Bad exposure'
-        },
-		DynamicRange: {
-            1: 'Standard',
-            3: 'Wide'
-            // the S5Pro has 100%(STD),130%,170%,230%(W1),300%,400%(W2) - PH
-        },
-		FilmMode: {
-            0x000: 'F0/Standard (Provia)',
-            0x100: 'F1/Studio Portrait',
-            0x110: 'F1a/Studio Portrait Enhanced Saturation',
-            0x120: 'F1b/Studio Portrait Smooth Skin Tone (Astia)',
-            0x130: 'F1c/Studio Portrait Increased Sharpness',
-            0x200: 'F2/Fujichrome (Velvia)',
-            0x300: 'F3/Studio Portrait Ex',
-            0x400: 'F4/Velvia',
-            0x500: 'Pro Neg. Std', //PH (X-Pro1)
-            0x501: 'Pro Neg. Hi' //PH (X-Pro1)
-        },
-		DynamicRangeSetting: {
-            0x000: 'Auto (100-400%)',
-            0x001: 'Manual', //(ref http://forum.photome.de/viewtopic.php?f=2&t=353)
-            0x100: 'Standard (100%)',
-            0x200: 'Wide1 (230%)',
-            0x201: 'Wide2 (400%)',
-            0x8000: 'Film Simulation'
-        },
-		AutoDynamicRange: function(n){
-			return { value: n.toString().concat('%'), _val:n };
-		},
-		/* TODO
-			0x1422: 'ImageStabilization',
-			Writable: 'int16u',
-			Count: 3,
-			PrintConv: [{
-				0: 'None',
-				1: 'Optical', //PH
-				2: 'Sensor-shift', //PH
-				512: 'Digital', //PH
-			},{
-				0: 'Off',
-				1: 'On (mode 1, continuous)',
-				2: 'On (mode 2, shooting only)',
-			}],
-		*/
-		ImageGeneration: {
-            0: 'Original Image',
-            1: 'Re-developed from RAW',
-        },
-		FrameWidth: function(n){ return MainRef.px(n); },
-		FrameHeight: function(n){ return MainRef.px(n); },
-		
-	}
 };
 
 /* TODO

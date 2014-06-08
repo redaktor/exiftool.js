@@ -23,7 +23,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -46,6 +46,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -201,7 +204,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "768 px w",
@@ -218,7 +221,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioXV-3.jpg",
@@ -311,7 +317,7 @@
 			"FocalLength": "14.2 mm",
 			"FocalLengthIn35mmFilm": "69 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -334,6 +340,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -458,7 +467,7 @@
 			"FocalLength": "11.4 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -481,6 +490,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -608,7 +620,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -631,6 +643,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -794,7 +809,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -817,6 +832,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -980,7 +998,7 @@
 			"FocalLength": "8 mm",
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1003,6 +1021,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -1166,7 +1187,7 @@
 			"FocalLength": "24 mm",
 			"FocalLengthIn35mmFilm": "117 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Shade",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -1189,6 +1210,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -1350,7 +1374,7 @@
 			"FocalLength": "7.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -1373,6 +1397,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -1533,7 +1560,7 @@
 			"FocalLength": "17.7 mm",
 			"FocalLengthIn35mmFilm": "86 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -1556,6 +1583,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -1717,7 +1747,7 @@
 			"FocalLength": "6.4 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-spot",
@@ -1746,7 +1776,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 326
+			"_IFDpointer_EXIF": 326,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-R200.jpg",
@@ -1846,7 +1878,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "640 px w",
@@ -1863,7 +1895,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-8000SX.jpg",
@@ -1987,7 +2022,7 @@
 			"FocalLength": "20.7 mm",
 			"FocalLengthIn35mmFilm": "100 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
@@ -2010,6 +2045,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 262,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -2192,7 +2230,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "13.3 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2240 px w",
@@ -2209,7 +2247,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-4000.jpg",
@@ -2299,7 +2340,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.4 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2016 px w",
@@ -2316,7 +2357,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-3EX.jpg",
@@ -2406,7 +2450,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.7 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1024 px w",
@@ -2423,7 +2467,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-3500EX.jpg",
@@ -2517,7 +2564,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "16.1 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "2048 px w",
@@ -2534,7 +2581,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-3000EX.jpg",
@@ -2622,7 +2672,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.8 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "560 px w",
@@ -2639,7 +2689,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-2900UX.jpg",
@@ -2733,7 +2786,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "10.5 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "1600 px w",
@@ -2750,7 +2803,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-2800UX.jpg",
@@ -2843,7 +2899,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.4 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
@@ -2861,7 +2917,10 @@
 			"XResolution": "150.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "150.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-2400UX.jpg",
@@ -2956,7 +3015,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
@@ -2973,7 +3032,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-2300UX.jpg",
@@ -3066,7 +3128,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.2 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "800 px w",
@@ -3083,7 +3145,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-2100.jpg",
@@ -3168,7 +3232,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.6 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MaxApertureValue": "2.0",
 			"MeteringMode": "Multi-segment",
 			"PixelXDimension": "800 px w",
@@ -3185,7 +3249,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioQV-2000UX.jpg",
@@ -3306,7 +3373,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -3329,6 +3396,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -3452,7 +3521,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -3475,7 +3544,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 282
+			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioGV-20.jpg",
@@ -3570,7 +3641,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -3593,7 +3664,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 282
+			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioGV-10.jpg",
@@ -3694,7 +3767,7 @@
 			"FocalLengthIn35mmFilm": "73 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.4",
 			"MeteringMode": "Multi-spot",
@@ -3716,7 +3789,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 298
+			"_IFDpointer_EXIF": 298,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-ZS5.jpg",
@@ -3848,7 +3923,7 @@
 			"FocalLengthIn35mmFilm": "29 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.5",
 			"MeteringMode": "Multi-spot",
@@ -3870,7 +3945,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 298
+			"_IFDpointer_EXIF": 298,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-ZS20.jpg",
@@ -4017,7 +4094,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -4039,7 +4116,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-ZS150.jpg",
@@ -4188,7 +4267,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -4210,7 +4289,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 298
+			"_IFDpointer_EXIF": 298,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-ZS12.jpg",
@@ -4342,7 +4423,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -4364,7 +4445,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 210
+			"_IFDpointer_EXIF": 210,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-ZS100.jpg",
@@ -4496,7 +4579,7 @@
 			"FocalLengthIn35mmFilm": "66 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.3",
 			"MeteringMode": "Multi-spot",
@@ -4518,7 +4601,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 298
+			"_IFDpointer_EXIF": 298,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-ZS10.jpg",
@@ -4649,7 +4734,7 @@
 			"FocalLengthIn35mmFilm": "166 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -4674,6 +4759,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -4816,7 +4903,7 @@
 			"FocalLengthIn35mmFilm": "300 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -4841,6 +4928,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -4982,7 +5071,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "High gain up",
 			"ISO": 12800,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -5007,6 +5096,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -5149,7 +5240,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5174,6 +5265,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -5318,7 +5411,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5343,6 +5436,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -5499,7 +5594,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5524,6 +5619,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -5665,7 +5762,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -5690,6 +5787,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -5837,7 +5936,7 @@
 			"FocalLengthIn35mmFilm": "81 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -5860,6 +5959,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -6003,7 +6104,7 @@
 			"FocalLengthIn35mmFilm": "78 mm",
 			"GainControl": "High gain up",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.2",
 			"MeteringMode": "Multi-segment",
@@ -6025,7 +6126,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 224
+			"_IFDpointer_EXIF": 224,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z9.jpg",
@@ -6146,7 +6249,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -6169,6 +6272,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -6294,7 +6400,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -6317,6 +6423,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -6448,7 +6556,7 @@
 			"FocalLengthIn35mmFilm": "27 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -6472,6 +6580,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -6613,7 +6723,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -6636,6 +6746,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -6765,7 +6877,7 @@
 			"FocalLengthIn35mmFilm": "71 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -6788,6 +6900,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -6915,7 +7029,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -6938,6 +7052,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7065,7 +7181,7 @@
 			"FocalLength": "11.8 mm",
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -7088,6 +7204,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7213,7 +7332,7 @@
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7236,6 +7355,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7361,7 +7482,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -7384,6 +7505,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7508,7 +7632,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7531,6 +7655,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7655,7 +7782,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -7678,6 +7805,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7803,7 +7933,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Center-weighted average",
@@ -7826,6 +7956,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -7952,7 +8084,7 @@
 			"FocalLength": "9 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -7975,6 +8107,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -8099,7 +8234,7 @@
 			"FocalLength": "18.9 mm",
 			"FocalLengthIn35mmFilm": "114 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8122,6 +8257,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -8247,7 +8385,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -8270,6 +8408,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -8395,7 +8536,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8418,6 +8559,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -8542,7 +8686,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8565,6 +8709,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -8705,7 +8851,7 @@
 			"FocalLength": "10.2 mm",
 			"FocalLengthIn35mmFilm": "62 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8728,6 +8874,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -8852,7 +9001,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -8875,6 +9024,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -9000,7 +9152,7 @@
 			"FocalLength": "12.2 mm",
 			"FocalLengthIn35mmFilm": "74 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -9023,6 +9175,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -9147,7 +9302,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -9170,6 +9325,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -9299,7 +9457,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9322,6 +9480,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -9463,7 +9623,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9486,6 +9646,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -9615,7 +9777,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9638,6 +9800,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -9802,7 +9967,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -9825,6 +9990,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -9989,7 +10157,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-spot",
@@ -10011,7 +10179,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z37.jpg",
@@ -10143,7 +10313,7 @@
 			"FocalLengthIn35mmFilm": "46 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.3",
 			"MeteringMode": "Multi-segment",
@@ -10165,7 +10335,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z350.jpg",
@@ -10296,7 +10468,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -10318,7 +10490,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z35.jpg",
@@ -10448,7 +10622,7 @@
 			"FocalLengthIn35mmFilm": "73 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -10471,6 +10645,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -10613,7 +10789,7 @@
 			"FocalLengthIn35mmFilm": "107 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.6",
 			"MeteringMode": "Multi-segment",
@@ -10635,7 +10811,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z33.jpg",
@@ -10756,7 +10934,7 @@
 			"FocalLengthIn35mmFilm": "25 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -10781,6 +10959,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -10923,7 +11103,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -10946,6 +11126,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -11075,7 +11257,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11098,6 +11280,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -11263,7 +11448,7 @@
 			"FocalLength": "12.2 mm",
 			"FocalLengthIn35mmFilm": "74 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11286,6 +11471,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -11448,7 +11636,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Multi-segment",
@@ -11470,7 +11658,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z29.jpg",
@@ -11591,7 +11781,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11614,6 +11804,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -11746,7 +11938,7 @@
 			"FocalLengthIn35mmFilm": "67 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11769,6 +11961,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -11901,7 +12095,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -11924,6 +12118,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -12055,7 +12251,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -12079,6 +12275,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -12221,7 +12419,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -12243,7 +12441,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 226
+			"_IFDpointer_EXIF": 226,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z22.jpg",
@@ -12365,7 +12565,7 @@
 			"FocalLengthIn35mmFilm": "114 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -12388,6 +12588,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -12519,7 +12721,7 @@
 			"FocalLengthIn35mmFilm": "73 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -12542,6 +12744,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -12683,7 +12887,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -12706,6 +12910,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -12835,7 +13041,7 @@
 			"FocalLengthIn35mmFilm": "51 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -12858,6 +13064,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -12988,7 +13196,7 @@
 			"FocalLengthIn35mmFilm": "89 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "5.1",
 			"MeteringMode": "Multi-segment",
@@ -13010,7 +13218,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 218
+			"_IFDpointer_EXIF": 218,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z2.jpg",
@@ -13132,7 +13342,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "3.8",
 			"MeteringMode": "Multi-segment",
@@ -13154,7 +13364,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 226
+			"_IFDpointer_EXIF": 226,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z19.jpg",
@@ -13270,7 +13482,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -13287,6 +13499,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 398,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 352
 		},
 		"exifPerl": {
@@ -13413,7 +13627,7 @@
 			"FocalLengthIn35mmFilm": "47 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.3",
 			"MeteringMode": "Multi-spot",
@@ -13435,7 +13649,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 298
+			"_IFDpointer_EXIF": 298,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z16.jpg",
@@ -13567,7 +13783,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -13589,7 +13805,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z155.jpg",
@@ -13712,7 +13930,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -13734,7 +13952,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 220
+			"_IFDpointer_EXIF": 220,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z150.jpg",
@@ -13850,7 +14070,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.3 mm",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -13867,6 +14087,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 398,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 352
 		},
 		"exifPerl": {
@@ -13992,7 +14214,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -14015,6 +14237,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -14141,7 +14365,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -14164,6 +14388,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -14290,7 +14517,7 @@
 			"FocalLengthIn35mmFilm": "63 mm",
 			"GainControl": "Low gain up",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14313,6 +14540,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -14440,7 +14669,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14463,6 +14692,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -14589,7 +14821,7 @@
 			"FocalLengthIn35mmFilm": "75 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -14612,6 +14844,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -14738,7 +14972,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -14761,6 +14995,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -14889,7 +15125,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -14912,6 +15148,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -15039,7 +15277,7 @@
 			"FocalLength": "7.9 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -15062,6 +15300,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -15187,7 +15428,7 @@
 			"FocalLengthIn35mmFilm": "39 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -15210,6 +15451,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -15338,7 +15581,7 @@
 			"FocalLength": "6.3 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -15361,6 +15604,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -15488,7 +15734,7 @@
 			"FocalLengthIn35mmFilm": "44 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -15510,7 +15756,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 218
+			"_IFDpointer_EXIF": 218,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-Z1.jpg",
@@ -15672,7 +15920,7 @@
 			"FocalLengthIn35mmFilm": "71 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Multi-segment",
@@ -15695,6 +15943,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -15823,7 +16073,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.4",
 			"MeteringMode": "Center-weighted average",
@@ -15846,6 +16096,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -15974,7 +16226,7 @@
 			"FocalLengthIn35mmFilm": "21 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -15999,6 +16251,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -16144,7 +16398,7 @@
 			"FocalLengthIn35mmFilm": "21 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -16169,6 +16423,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -16311,7 +16567,7 @@
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -16334,6 +16590,8 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -16461,7 +16719,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Center-weighted average",
@@ -16484,6 +16742,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -16609,7 +16870,7 @@
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.1",
 			"MeteringMode": "Multi-segment",
@@ -16632,6 +16893,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -16772,7 +17035,7 @@
 			"FocalLength": "9 mm",
 			"FocalLengthIn35mmFilm": "55 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -16795,6 +17058,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -16919,7 +17185,7 @@
 			"FocalLength": "6.2 mm",
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -16942,6 +17208,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -17069,7 +17338,7 @@
 			"FocalLengthIn35mmFilm": "107 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.6",
 			"MeteringMode": "Multi-segment",
@@ -17091,7 +17360,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 218
+			"_IFDpointer_EXIF": 218,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-S5.jpg",
@@ -17211,7 +17482,7 @@
 			"FocalLength": "0 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.1",
 			"MeteringMode": "Multi-segment",
@@ -17234,6 +17505,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -17391,7 +17665,7 @@
 			"FocalLengthIn35mmFilm": "108 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -17415,6 +17689,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -17556,7 +17832,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -17579,6 +17855,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -17742,7 +18021,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -17765,6 +18044,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -17925,7 +18207,7 @@
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -17948,6 +18230,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -18078,7 +18362,7 @@
 			"FocalLength": "4.8 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "High gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "4.0",
 			"MeteringMode": "Multi-segment",
@@ -18101,6 +18385,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -18226,7 +18513,7 @@
 			"FocalLengthIn35mmFilm": "43 mm",
 			"GainControl": "None",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -18249,6 +18536,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -18377,7 +18666,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -18400,6 +18689,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -18558,7 +18850,7 @@
 			"FocalLength": "28.4 mm",
 			"FocalLengthIn35mmFilm": "132 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -18581,6 +18873,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -18704,7 +18999,7 @@
 			"FocalLength": "21.3 mm",
 			"FocalLengthIn35mmFilm": "99 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -18727,6 +19022,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -18892,7 +19190,7 @@
 			"FocalLength": "9.5 mm",
 			"FocalLengthIn35mmFilm": "57 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -18915,6 +19213,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -19040,7 +19341,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -19062,7 +19363,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 296
+			"_IFDpointer_EXIF": 296,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-N20.jpg",
@@ -19209,7 +19512,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -19231,7 +19534,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 296
+			"_IFDpointer_EXIF": 296,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-N10.jpg",
@@ -19363,7 +19668,7 @@
 			"FocalLengthIn35mmFilm": "26 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -19385,7 +19690,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 296
+			"_IFDpointer_EXIF": 296,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-N1.jpg",
@@ -19515,7 +19822,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -19538,6 +19845,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -19700,7 +20010,7 @@
 			"FocalLength": "7.5 mm",
 			"FocalLengthIn35mmFilm": "36 mm",
 			"GainControl": "Low gain up",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -19723,6 +20033,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -19882,7 +20195,7 @@
 			"FocalLength": "5.6 mm",
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.4",
 			"MeteringMode": "Multi-segment",
@@ -19905,6 +20218,9 @@
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 276,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0,
 			"PrintIM": [
 				80,
 				114,
@@ -20065,7 +20381,7 @@
 			"FocalLengthIn35mmFilm": "33 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-spot",
@@ -20087,7 +20403,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 298
+			"_IFDpointer_EXIF": 298,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Casio/CasioEX-JE10.jpg",
@@ -20219,7 +20537,7 @@
 			"FocalLengthIn35mmFilm": "76 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20242,6 +20560,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -20385,7 +20705,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "High gain up",
 			"ISO": 800,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -20410,6 +20730,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -20552,7 +20874,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20603,6 +20925,8 @@
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 802,
 			"_IFDpointer_GPS": 294,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 248
 		},
 		"exifPerl": {
@@ -20768,7 +21092,7 @@
 			"FocalLengthIn35mmFilm": "105 mm",
 			"GainControl": "High gain up",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20791,6 +21115,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -20932,7 +21258,7 @@
 			"FocalLengthIn35mmFilm": "65 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -20955,6 +21281,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -21086,7 +21414,7 @@
 			"FocalLengthIn35mmFilm": "45 mm",
 			"GainControl": "None",
 			"ISO": 64,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -21109,6 +21437,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -21250,7 +21580,7 @@
 			"FocalLengthIn35mmFilm": "38 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.9",
 			"MeteringMode": "Multi-segment",
@@ -21273,6 +21603,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -21404,7 +21736,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -21427,6 +21759,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -21567,7 +21901,7 @@
 			"FocalLengthIn35mmFilm": "338 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -21590,6 +21924,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -21721,7 +22057,7 @@
 			"FocalLengthIn35mmFilm": "24 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "3.2",
 			"MeteringMode": "Multi-segment",
@@ -21744,6 +22080,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -21885,7 +22223,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -21908,6 +22246,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -22049,7 +22389,7 @@
 			"FocalLengthIn35mmFilm": "37 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -22072,6 +22412,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -22202,7 +22544,7 @@
 			"FocalLengthIn35mmFilm": "53 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Multi-segment",
@@ -22225,6 +22567,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -22354,7 +22698,7 @@
 			"FocalLengthIn35mmFilm": "28 mm",
 			"GainControl": "None",
 			"ISO": 80,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -22379,6 +22723,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {
@@ -22535,7 +22881,7 @@
 			"FocalLengthIn35mmFilm": "85 mm",
 			"GainControl": "High gain up",
 			"ISO": 200,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "1.8",
 			"MeteringMode": "Multi-segment",
@@ -22560,6 +22906,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 282,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 236
 		},
 		"exifPerl": {

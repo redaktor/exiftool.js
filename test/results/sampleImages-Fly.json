@@ -14,7 +14,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1280 px w",
@@ -30,7 +30,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 168
+			"_IFDpointer_EXIF": 168,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlySX210.jpg",
@@ -92,7 +94,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "0 px w",
@@ -109,7 +111,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 202
+			"_IFDpointer_EXIF": 202,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlySX100.jpg",
@@ -170,7 +174,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "480 px w",
@@ -185,7 +189,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 240
+			"_IFDpointer_EXIF": 240,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyLX600.jpg",
@@ -247,7 +253,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Spot",
 			"PixelXDimension": "1280 px w",
@@ -264,7 +270,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 206
+			"_IFDpointer_EXIF": 206,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyLX500.jpg",
@@ -327,7 +335,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "320 px w",
@@ -343,7 +351,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 168
+			"_IFDpointer_EXIF": 168,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE300.jpg",
@@ -405,7 +415,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "2560 px w",
@@ -423,7 +433,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 204
+			"_IFDpointer_EXIF": 204,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE155.jpg",
@@ -491,7 +503,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "1600 px w",
@@ -508,7 +520,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 196
+			"_IFDpointer_EXIF": 196,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE125.jpg",
@@ -571,7 +585,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Unknown",
 			"PixelXDimension": "320 px w",
@@ -588,7 +602,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 200
+			"_IFDpointer_EXIF": 200,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Fly/FlyE105.jpg",

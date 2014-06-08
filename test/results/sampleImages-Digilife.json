@@ -20,7 +20,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2816 px w",
@@ -45,7 +45,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 260
+			"_IFDpointer_EXIF": 260,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Digilife/DigilifeDDC-690.jpg",
@@ -136,7 +138,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -162,7 +164,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 272
+			"_IFDpointer_EXIF": 272,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Digilife/DigilifeDDC-680.jpg",
@@ -254,7 +258,7 @@
 			"Flash": "Auto, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Center-weighted average",
@@ -280,7 +284,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 272
+			"_IFDpointer_EXIF": 272,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Digilife/DigilifeDDC-580.jpg",

@@ -11,18 +11,15 @@
 // returns:
 //    a makernote object for exiftool.js and redaktor/meta
 
-exports.info = {
+exports.info = { DefaultHeaderSize : 8 };
 	
-	DefaultHeaderSize : 8,
+exports.tags = {
+	0x0d: 'WB_RGBLevels'
+};
 	
-	tags : {
-		0x0d: 'WB_RGBLevels'
-	},
-	
-	ref: {
-		WB_RGBLevels: function(arr){
-			if( !(arr instanceof Array) || arr.length<3 ) return { value:'n/a', _val:arr };
-			return { value: arr.join(', '), _val:arr }	
-		}
+exports.ref = {
+	WB_RGBLevels: function(arr){
+		if( !(arr instanceof Array) || arr.length<3 ) return { value:'n/a', _val:arr };
+		return { value: arr.join(', '), _val:arr }	
 	}
 };

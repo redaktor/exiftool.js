@@ -26,7 +26,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.0",
 			"MeteringMode": "Center-weighted average",
@@ -53,7 +53,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 146
+			"_IFDpointer_EXIF": 146,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeVadoHD.jpg",
@@ -156,7 +158,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Tungsten (incandescent light)",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -194,7 +196,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 302
+			"_IFDpointer_EXIF": 302,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativePC_Cam950Slim.jpg",
@@ -293,7 +297,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -331,7 +335,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 288
+			"_IFDpointer_EXIF": 288,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativePC_Cam930Slim.jpg",
@@ -425,7 +431,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "7.5 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "1.7",
 			"MeteringMode": "Center-weighted average",
@@ -443,7 +449,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 209
+			"_IFDpointer_EXIF": 209,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativePC-CAM900.jpg",
@@ -525,7 +533,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Multi-segment",
@@ -549,7 +557,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 278
+			"_IFDpointer_EXIF": 278,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeDiViCam428.jpg",
@@ -636,7 +646,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Daylight",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Center-weighted average",
@@ -656,7 +666,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 259
+			"_IFDpointer_EXIF": 259,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeDiViCam316.jpg",
@@ -741,7 +753,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.0",
 			"MeteringMode": "Average",
@@ -766,7 +778,9 @@
 			"XResolution": "640.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "704.00000000",
-			"_IFDpointer_EXIF": 267
+			"_IFDpointer_EXIF": 267,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeDiViCAM525D.jpg",
@@ -855,7 +869,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -879,7 +893,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 280
+			"_IFDpointer_EXIF": 280,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeDiViCAM516.jpg",
@@ -972,7 +988,7 @@
 			"FocalLengthIn35mmFilm": "0 mm",
 			"GainControl": "Low gain up",
 			"ISO": 150,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Multi-segment",
@@ -1002,6 +1018,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 332,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 212
 		},
 		"exifPerl": {
@@ -1101,7 +1119,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "5.7 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Center-weighted average",
@@ -1125,7 +1143,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 359
+			"_IFDpointer_EXIF": 359,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeDC-CAM3000Z.jpg",
@@ -1215,7 +1235,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -1232,7 +1252,10 @@
 			"Software": "CR781 Firmware Version 1.0",
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
-			"_IFDpointer_EXIF": 512
+			"_IFDpointer_EXIF": 512,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeCR781.jpg",
@@ -1307,7 +1330,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -1324,7 +1347,10 @@
 			"Software": "CR780 Firmware Version 1.0",
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
-			"_IFDpointer_EXIF": 512
+			"_IFDpointer_EXIF": 512,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeCR780.jpg",
@@ -1399,7 +1425,7 @@
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6.5 mm",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Average",
@@ -1417,7 +1443,10 @@
 			"Software": "CR530 Firmware Version 1.0",
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
-			"_IFDpointer_EXIF": 512
+			"_IFDpointer_EXIF": 512,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Creative/CreativeCR530.jpg",

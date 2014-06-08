@@ -71,6 +71,7 @@
 	
 	var EXIF = require('./exif.js');
 	var MAKE = require('./makernotes.js');
+	var NOTE = new Object();
 	
 	/* TODO - check node mode (dev vs production) */
 	// MANUAL DEBUG - set to false in production
@@ -792,13 +793,6 @@
             if (oTags.image._IFDpointer_EXIF) {
                 oTags.exif = readTags(oFile, iTIFFOffset, oTags.image._IFDpointer_EXIF, EXIF.tags, bBigEnd);
 				explainTags('exif');
-				if ('postFn' in EXIF){ 
-					var postObj = EXIF.postFn(oTags.exif);
-					//console.log( 'post', postObj );
-					for (var key in postObj){ 
-						if (postObj[key]!==false) oTags.exif[key] = postObj[key];
-					}
-				}
             }
 			if (EXIF.debug===true) console.log( '! READING "gps"' );
             if (oTags.image._IFDpointer_GPS) {
@@ -831,17 +825,18 @@
 				} else { 
 					mFile = MAKE.info[makeID];
 				}
-                /* TODO - check if mFile exists (or is supported) */
-				var oMakeInfo = require( './makernotes/'.concat(mFile) ).info;
 				
-				if (EXIF.debug===true && ('HeaderSize' in oMakeInfo || 'DefaultHeaderSize' in oMakeInfo)) console.log( 'headerStr', headerStr );
+                /* TODO - check if mFile exists (or is supported) */
+				NOTE = require( './makernotes/'.concat(mFile) );
+				
+				if (EXIF.debug===true && ('HeaderSize' in NOTE.info || 'DefaultHeaderSize' in NOTE.info)) console.log( 'headerStr', headerStr );
 				
                 var bMakerNoteEndianess = bBigEnd;
 				
-                if (oMakeInfo.MakerNoteByteAlignHeaderOffset) {
+                if (NOTE.info.MakerNoteByteAlignHeaderOffset) {
                     var iBigEndPointer = iTIFFOffset
                             + oTags.exif._IFDpointer_Makernote
-                            + oMakeInfo.MakerNoteByteAlignHeaderOffset;
+                            + NOTE.info.MakerNoteByteAlignHeaderOffset;
                     var iByteAlign = oFile.getShortAt(iBigEndPointer);
                     if (iByteAlign == 0x4949) {
                         bMakerNoteEndianess = false;
@@ -853,25 +848,25 @@
                     }
                 }
 
-                if (oMakeInfo.MakerNoteByteAlign) {
-                    if (oMakeInfo.MakerNoteByteAlign == 0x4949) {
+                if (NOTE.info.MakerNoteByteAlign) {
+                    if (NOTE.info.MakerNoteByteAlign == 0x4949) {
                         bMakerNoteEndianess = false;
-                    } else if (oMakeInfo.MakerNoteByteAlign == 0x4D4D) {
+                    } else if (NOTE.info.MakerNoteByteAlign == 0x4D4D) {
                         bMakerNoteEndianess = true;
                     }
                 }
                 
 
                 var iMakerNoteHeaderSize = 0;
-                if (oMakeInfo.DefaultHeaderSize) {
-                    iMakerNoteHeaderSize = oMakeInfo.DefaultHeaderSize;
+                if (NOTE.info.DefaultHeaderSize) {
+                    iMakerNoteHeaderSize = NOTE.info.DefaultHeaderSize;
                 }
-                if (oMakeInfo.HeaderSize && headerStr in oMakeInfo.HeaderSize) {
-                    iMakerNoteHeaderSize = oMakeInfo.HeaderSize[headerStr];
+                if (NOTE.info.HeaderSize && headerStr in NOTE.info.HeaderSize) {
+                    iMakerNoteHeaderSize = NOTE.info.HeaderSize[headerStr];
                 }
 
                 var iOffsetBase = 0;
-                if (oMakeInfo.FixMakernotesOffset || oTags.exif.OffsetSchema) {
+                if (NOTE.info.FixMakernotesOffset || oTags.exif.OffsetSchema) {
                     iOffsetBase = calculateOffsetBase(oFile, iTIFFOffset,
                             oTags.exif._IFDpointer_Makernote, 
                             bMakerNoteEndianess, iMakerNoteHeaderSize,
@@ -882,15 +877,15 @@
                 // this broken microsoft tag 'exif.OffsetSchema'\
                 // iOffsetBase = oTags.exif.OffsetSchema;
                 // }
-                if (oMakeInfo.UseMakernoteOffsetAsBase) { 
+                if (NOTE.info.UseMakernoteOffsetAsBase) { 
 					// then we need to add makernote location as an offset
-                    if (oMakeInfo.UseMakernoteOffsetAsBase[headerStr]) {
+                    if (NOTE.info.UseMakernoteOffsetAsBase[headerStr]) {
                         iOffsetBase = oTags.exif._IFDpointer_Makernote;
                     }
                 }
-                if (oMakeInfo.AdjustOffsetBase) {
-                    if (headerStr in oMakeInfo.AdjustOffsetBase) {
-                        iOffsetBase += oMakeInfo.AdjustOffsetBase[headerStr];
+                if (NOTE.info.AdjustOffsetBase) {
+                    if (headerStr in NOTE.info.AdjustOffsetBase) {
+                        iOffsetBase += NOTE.info.AdjustOffsetBase[headerStr];
                     }
                 }
 				
@@ -971,9 +966,9 @@
 				
 				var explainMakernote = function(tags, key){
 					var val = tags[key];
-					var ref = oMakeInfo.ref[key];
+					var ref = NOTE.ref[key];
 					/* for aliasses [multiple keys share 1 table] : */
-					if (typeof ref === 'object' && 'ref' in ref ) ref = oMakeInfo.ref[ref.ref]; 
+					if (typeof ref === 'object' && 'ref' in ref ) ref = NOTE.ref[ref.ref]; 
 					
 					switch (typeof ref) {
 						case 'function':
@@ -1006,14 +1001,14 @@
 							continue;
 						}
 						/* check if it's an IFD itself */
-						var isIFD = (key.substr(0,12)==='_IFDpointer_' && key!=oMakeInfo.SerialWithinIFD) ? true : false;
-						if (isIFD && key in oMakeInfo.ref && typeof tags[key] === 'number'){
+						var isIFD = (key.substr(0,12)==='_IFDpointer_' && key!=NOTE.info.SerialWithinIFD) ? true : false;
+						if (isIFD && key in NOTE.ref && typeof tags[key] === 'number' && !(key in oTags.makernote) ){
 							if (EXIF.debug===true) console.log( '! READING subIFD "'.concat(key.split('_IFDpointer_').join(''), '"') );
 							
 							var _name = key.split('_IFDpointer_').join('');	
-							var headerSize = ('IFDHeaderSize' in oMakeInfo && typeof oMakeInfo.IFDHeaderSize === 'number') ? oMakeInfo.IFDHeaderSize : 0;
+							var headerSize = ('IFDHeaderSize' in NOTE.info && typeof NOTE.info.IFDHeaderSize === 'number') ? NOTE.info.IFDHeaderSize : 0;
 							
-							var ref = (typeof oMakeInfo.ref[key] === 'function') ? oMakeInfo.ref[key](null, oTags.image.Model) : oMakeInfo.ref[key];
+							var ref = (typeof NOTE.ref[key] === 'function') ? NOTE.ref[key](null, oTags.image.Model) : NOTE.ref[key];
 							
 							if (EXIF.debug===true) console.log( 'IFD ref', ref );
 							var oIFDTags = readTags(oFile, iTIFFOffset,
@@ -1024,14 +1019,14 @@
 							);
 							if (EXIF.debug===true) console.log( 'IFD result', oIFDTags );
 							
-							if (typeof oMakeInfo.ref[key] === 'function'){
-								parseMakernoteContainer( oMakeInfo.ref[key](oIFDTags, oTags.image.Model), _name );
+							if (typeof NOTE.ref[key] === 'function'){
+								parseMakernoteContainer( NOTE.ref[key](oIFDTags, oTags.image.Model), _name );
 							} else {
 								parseMakernoteContainer(oIFDTags, _name);
 							}
 						}
 						
-						if ('ref' in oMakeInfo && key in oMakeInfo.ref && !isIFD ){ 
+						if ('ref' in NOTE && key in NOTE.ref && !isIFD ){ 
 							explainMakernote(tags, key);
 						}
 						
@@ -1063,17 +1058,17 @@
 				};
 				
 				
-                // now read MakerNotes...
 				oTags.makernote._type = mFile.replace('.js','');
 				if (EXIF.debug===true) console.log( '! READING "makernotes" '.concat(oTags.makernote._type) );
-
+				
+				// now read MakerNotes...
 				var mTags = new Object();
 				mTags = readTags(oFile, iTIFFOffset,
 						oTags.exif._IFDpointer_Makernote, 
-						oMakeInfo.tags,
+						NOTE.tags,
 						bMakerNoteEndianess, iMakerNoteHeaderSize,
 						iOffsetBase,
-						oMakeInfo.ref
+						NOTE.ref
 				);
 				
 				/* 
@@ -1081,13 +1076,13 @@
 				// to decrypt other values by some venors, e.g. SerialNumber 
 				*/
 
-                if (oMakeInfo.SerialFoundAtStartOfMakerNotes) {
+                if (NOTE.info.SerialFoundAtStartOfMakerNotes) {
 					// only Kodak yet ...
                     var serialNumber = tidyString(oFile.getStringAt(iTIFFOffset
                             + oTags.exif._IFDpointer_Makernote, 16));
-                    if (oMakeInfo.InvalidSerialStart) {
-                        var startOfSerial = serialNumber.substr(0, oMakeInfo.InvalidSerialStart.length);
-                        if (startOfSerial != oMakeInfo.InvalidSerialStart) {
+                    if (NOTE.info.InvalidSerialStart) {
+                        var startOfSerial = serialNumber.substr(0, NOTE.info.InvalidSerialStart.length);
+                        if (startOfSerial != NOTE.info.InvalidSerialStart) {
                             mTags.SerialNumber = serialNumber;
 							oTags.exif.SerialNumber = serialNumber;
                         }
@@ -1097,14 +1092,14 @@
                     }					
                 }
                 				
-				if (oMakeInfo.SerialWithinIFD) {
+				if (NOTE.info.SerialWithinIFD) {
 					// e.g. Olympus
 					// let's preparse the whole ifd ...
-                    var container = oMakeInfo.SerialWithinIFD;
+                    var container = NOTE.info.SerialWithinIFD;
                     var oIFDTags = readTags(oFile, iTIFFOffset,
                             mTags[container],
-                            oMakeInfo.ref[container], 
-							bMakerNoteEndianess, oMakeInfo.IFDHeaderSize, 
+                            NOTE.ref[container], 
+							bMakerNoteEndianess, NOTE.info.IFDHeaderSize, 
 							iOffsetBase
 					);
 					var name = container.split('_IFDpointer_').join('');	
@@ -1113,11 +1108,11 @@
 					if ('SerialNumber' in oTags.makernote[name]) oTags.exif.SerialNumber = oTags.makernote[name].SerialNumber;				
                 }
 				
-                if (oMakeInfo.InternalSerialWithinIFDArray) {
+                if (NOTE.info.InternalSerialWithinIFDArray) {
 					// not needed yet
-                    IFDArray = mTags[oMakeInfo.InternalSerialWithinIFDArray];
+                    IFDArray = mTags[NOTE.info.InternalSerialWithinIFDArray];
                     if (IFDArray) {
-                        internalSerialNumber = IFDArray[oMakeInfo.InternalSerialWithinIFDArrayElement];
+                        internalSerialNumber = IFDArray[NOTE.info.InternalSerialWithinIFDArrayElement];
                         mTags.InternalSerialNumber = internalSerialNumber;
 						oTags.exif.InternalSerialNumber = serialNumber;
                     }
@@ -1128,8 +1123,8 @@
                     if (oTags.makernote[tag]) {
                         oTags.makernote[tag] = {value:formatSerialNumber(oTags, oTags.makernote[tag].value), _val:oTags.makernote[tag]._val};
 						if (!(tag in oTags.exif)) oTags.exif[tag] = oTags.makernote[tag];
-                        if (oMakeInfo.MinimumBelievableLength) {
-                            if (oTags.makernote[tag].length < oMakeInfo.MinimumBelievableLength) {
+                        if (NOTE.info.MinimumBelievableLength) {
+                            if (oTags.makernote[tag].length < NOTE.info.MinimumBelievableLength) {
                                 oTags.makernote[tag] = null;
                             }
                         }
@@ -1147,8 +1142,49 @@
 				
 				parseMakernoteContainer(mTags);
 				
-                
             }
+			
+			var r = new Object();
+			var flat = function(obj) {
+				for (var i in obj) {
+					if (!obj.hasOwnProperty(i)) continue;
+					
+					if (typeof obj[i] === 'object' && !(obj[i] instanceof Array)) {
+						if ('value' in obj[i]) {
+							if( !(i in r) || 'priority' in obj[i] || r[i] === 'n/a' ){ 
+								r[i] = obj[i].value;
+							}
+						} else {
+							var flatObject = flat(obj[i]);
+							for (var x in flatObject) {
+								if (!flatObject.hasOwnProperty(x)) continue;
+								if( !(x in r) || (typeof flatObject[x] === 'object' && 'priority' in flatObject[x]) || r[i] === 'n/a' ){ 
+									r[x] = (typeof flatObject[x] === 'object' && 'value' in flatObject[x]) ? flatObject[x].value : flatObject[x];
+								}
+							}
+						}
+					} else {
+						if( !(i in r) || r[i] === 'n/a' ) r[i] = obj[i];
+					}
+				}
+				return r;
+			};
+			
+			// TODO - flat in options ...
+			if ('postFn' in EXIF){ 
+				var postObj = EXIF.postFn(flat(oTags));
+				//console.log( 'post', postObj );
+				for (var key in postObj){ 
+					if (postObj[key]!==false) oTags.exif[key] = postObj[key];
+				}
+			}
+			if ('postFn' in NOTE){ 
+				var postObj = NOTE.postFn(flat(oTags));
+				//console.log( 'post', postObj );
+				for (var key in postObj){ 
+					if (postObj[key]!==false) oTags.makernote[key] = postObj[key];
+				}
+			}
 			
             for (var key in oTags) oTags[key] = tidyExifValues( sortArrayByKeys(oTags[key]) );
             return sortArrayByKeys(oTags);

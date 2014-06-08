@@ -567,7 +567,6 @@ exports.ref = {
 		if (arr instanceof Array){
 			var res = { multipleValues: {} }
 			for(var key in ref){
-				
 				var raw = exports.ref._obj(arr[key]);
 				if ( typeof raw === 'object' && key in arr ){
 					res.multipleValues[ref[key].desc] = raw;
@@ -584,13 +583,20 @@ exports.ref = {
 					}
 					if ('values' in ref[key]){
 						if (arr[key] == -1) arr[key] = '_';
-						res.multipleValues[ref[key].desc] = (arr[key] in ref[key].values) ?  exports.ref._obj(ref[key].values[arr[key]], arr[key]) : raw;
+						
+						if(arr[key] in ref[key].values){
+							var v = exports.ref._obj(ref[key].values[arr[key]], arr[key]);	
+						} else {
+							var v = raw;
+						}
+						
+						res.multipleValues[ref[key].desc] = (typeof v === 'object') ? v : {	value: v, _val: arr[key] };
 					}
 				}
 			}
 			return res;
 		}
-		return { value:arr, _val:arr }
+		return (typeof arr === 'object' && 'value' in arr) ? arr : { value:arr, _val:arr };
 	},
 	arrToDeg: function(nArr, lRef){
 		var deg = parseFloat(nArr[0]), m = parseFloat(nArr[1]), s = parseFloat(nArr[2]);
@@ -692,6 +698,45 @@ exports.ref = {
 		return false;
 		
 	},
+	redBlueBalance: function(blue, vals){
+		var rggbLookup = [
+			// indices for R, G, G and B components in input value
+			[ 0, 1, 2, 3 ], // 0 RGGB
+			[ 0, 1, 3, 2 ], // 1 RGBG
+			[ 0, 2, 3, 1 ], // 2 RBGG
+			[ 1, 0, 3, 2 ], // 3 GRBG
+			[ 1, 0, 2, 3 ], // 4 GRGB
+			[ 2, 3, 0, 1 ], // 5 GBRG
+			[ 0, 1, 1, 2 ], // 6 RGB
+			[ 1, 0, 0, 2 ], // 7 GRB
+			[ 0, 256, 256, 1 ], // 8 RB (green level is 256)
+		];
+		var end = false;
+		for (var i=0; i<rggbLookup.length; i++) {
+			if (typeof vals[i] !== 'undefined' && vals[i] instanceof Array && vals[i].length>1){
+				var levels = vals[i];
+				var lookup = rggbLookup[i];
+				var g = lookup[1];
+				if (g<4) {
+					if(levels.length<3) continue;
+					g = (levels[g] + levels[lookup[2]]) / 2;
+					if (typeof g !== 'number') continue;
+					end = true;
+				} else if (levels[lookup[blue * 3]] < 4){
+					g = 1; // Some Nikon cameras use a scaling factor of 1 (E5700)
+					end = true;
+				}
+			} else {
+				continue;	
+			}
+			if (end===true){ 
+				var val = levels[lookup[blue * 3]] / g;
+				break;	
+			} 
+		}
+		
+		return (typeof val === 'number') ? { value:val, _val:val } : { value:(vals[9]/vals[10]).toFixed(6), _val:[vals[9], vals[10]] };
+	},
 	printLensInfo: function(arr){
 		if (arr instanceof Array && arr.length>3 && typeof arr[0] === 'number'){
 			var lStr = arr[0].toString();
@@ -730,7 +775,7 @@ exports.ref = {
 	SubsecTime: function(n){ var _n = parseInt(n); return (typeof _n === 'number' && !isNaN(_n)) ? {value:_n, _val:_n} : {value:n, _val:n}; }, 
 	SubsecTimeOriginal: function(n){ var _n = parseInt(n); return (typeof _n === 'number' && !isNaN(_n)) ? {value:_n, _val:_n} : {value:n, _val:n}; }, 
 	SubsecTimeDigitized: function(n){ var _n = parseInt(n); return (typeof _n === 'number' && !isNaN(_n)) ? {value:_n, _val:_n} : {value:n, _val:n}; }, 
-	/* TODO : this has no file type (yet) while redaktor.meta.js has
+	/* TODO : this has no file type (yet) while redaktor.meta has
 	'Compression'
 	%compression = (
 		1: 'Uncompressed',
@@ -1349,8 +1394,8 @@ exports.postFn = function(res){
 	var composite = {
 		
 		ImageSize: function(){
-			var w = ('ImageWidth' in res) ? res.ImageWidth : (('PixelXDimension' in res) ? res.PixelXDimension : 'n/a');
-			var h = ('ImageHeight' in res) ? res.ImageHeight : (('PixelYDimension' in res) ? res.PixelYDimension : 'n/a');
+			var w = ('ImageWidth' in res) ? res.ImageWidth._val : (('PixelXDimension' in res) ? res.PixelXDimension._val : 'n/a');
+			var h = ('ImageHeight' in res) ? res.ImageHeight._val : (('PixelYDimension' in res) ? res.PixelYDimension._val : 'n/a');
 			// TODO use PixelXDimension/Height only for Canon and Phase One TIFF-base RAW images /^(CR2|Canon 1D RAW|IIQ|EIP)$/
 			if (w!=='n/a' && h!=='n/a') return w+'x'+h;
 			return false;
@@ -1369,9 +1414,52 @@ exports.postFn = function(res){
 			}
 			return false;
 		},
-		/*
-		_: function(){
-			
+		RedBalance: function(){
+			var vals = [res.WB_RGGBLevels, res.WB_RGBGLevels, res.WB_RBGGLevels, res.WB_GRBGLevels, res.WB_GRGBLevels, res.WB_GBRGLevels, res.WB_RGBLevels, res.WB_GRBLevels, res.WB_RBLevels, res.WBRedLevel, res.WBGreenLevel];
+			if ('WBRedLevel' in res) return exports.ref.redBlueBalance(0,vals);
+			return false;
+		},
+		BlueBalance: function(){
+			var vals = [res.WB_RGGBLevels, res.WB_RGBGLevels, res.WB_RBGGLevels, res.WB_GRBGLevels, res.WB_GRGBLevels, res.WB_GBRGLevels, res.WB_RGBLevels, res.WB_GRBLevels, res.WB_RBLevels, res.WBBlueLevel, res.WBGreenLevel];
+			if ('WBBlueLevel' in res) return exports.ref.redBlueBalance(1,vals);
+			return false;
+		},
+		/* TODO - makernotes composite tags must be done first
+		RedBalance: {
+			Groups: { 2: 'Camera' },
+			Desire: {
+				0: 'WB_RGGBLevels',
+				1: 'WB_RGBGLevels',
+				2: 'WB_RBGGLevels',
+				3: 'WB_GRBGLevels',
+				4: 'WB_GRGBLevels',
+				5: 'WB_GBRGLevels',
+				6: 'WB_RGBLevels',
+				7: 'WB_GRBLevels',
+				8: 'WB_RBLevels',
+				9: 'WBRedLevel', # red
+			   10: 'WBGreenLevel',
+			},
+			ValueConv: 'Image::ExifTool::Exif::RedBlueBalance(0,@val)',
+			PrintConv: 'int($val * 1e6 + 0.5) * 1e-6',
+		},
+		BlueBalance: {
+			Groups: { 2: 'Camera' },
+			Desire: {
+				0: 'WB_RGGBLevels',
+				1: 'WB_RGBGLevels',
+				2: 'WB_RBGGLevels',
+				3: 'WB_GRBGLevels',
+				4: 'WB_GRGBLevels',
+				5: 'WB_GBRGLevels',
+				6: 'WB_RGBLevels',
+				7: 'WB_GRBLevels',
+				8: 'WB_RBLevels',
+				9: 'WBBlueLevel', # blue
+			   10: 'WBGreenLevel',
+			},
+			ValueConv: 'Image::ExifTool::Exif::RedBlueBalance(1,@val)',
+			PrintConv: 'int($val * 1e6 + 0.5) * 1e-6',
 		},
 		_: function(){
 			
@@ -1679,42 +1767,7 @@ exports.postFn = function(res){
 			},
 			PrintConv: 'Image::ExifTool::Exif::PrintCFAPattern($val)',
 		},
-		RedBalance: {
-			Groups: { 2: 'Camera' },
-			Desire: {
-				0: 'WB_RGGBLevels',
-				1: 'WB_RGBGLevels',
-				2: 'WB_RBGGLevels',
-				3: 'WB_GRBGLevels',
-				4: 'WB_GRGBLevels',
-				5: 'WB_GBRGLevels',
-				6: 'WB_RGBLevels',
-				7: 'WB_GRBLevels',
-				8: 'WB_RBLevels',
-				9: 'WBRedLevel', # red
-			   10: 'WBGreenLevel',
-			},
-			ValueConv: 'Image::ExifTool::Exif::RedBlueBalance(0,@val)',
-			PrintConv: 'int($val * 1e6 + 0.5) * 1e-6',
-		},
-		BlueBalance: {
-			Groups: { 2: 'Camera' },
-			Desire: {
-				0: 'WB_RGGBLevels',
-				1: 'WB_RGBGLevels',
-				2: 'WB_RBGGLevels',
-				3: 'WB_GRBGLevels',
-				4: 'WB_GRGBLevels',
-				5: 'WB_GBRGLevels',
-				6: 'WB_RGBLevels',
-				7: 'WB_GRBLevels',
-				8: 'WB_RBLevels',
-				9: 'WBBlueLevel', # blue
-			   10: 'WBGreenLevel',
-			},
-			ValueConv: 'Image::ExifTool::Exif::RedBlueBalance(1,@val)',
-			PrintConv: 'int($val * 1e6 + 0.5) * 1e-6',
-		},
+		
 		GPSPosition: {
 			Groups: { 2: 'Location' },
 			Require: {

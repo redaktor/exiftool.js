@@ -11,13 +11,10 @@
 // returns:
 //    a makernote object for exiftool.js and redaktor/meta
 
-exports.info = {
+exports.info = { DefaultHeaderSize : 8 };
 	
-	DefaultHeaderSize : 8,
-	
-	tags : {
-		0x300: 'PreviewImage',
-		0x301: 'UnknownBlock',
-		0x303: 'LensType'
-	} 
+exports.tags = {
+	0x300: 'PreviewImage',
+	0x301: 'UnknownBlock',
+	0x303: 'LensType'
 };

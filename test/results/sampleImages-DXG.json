@@ -16,7 +16,7 @@
 			"Flash": "Off, Flash did not fire",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "1600 px w",
@@ -36,7 +36,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 294
+			"_IFDpointer_EXIF": 294,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_FashionCam.jpg",
@@ -121,7 +123,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "8.3 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Fluorescent",
 			"MaxApertureValue": "2.8",
 			"MeteringMode": "Multi-segment",
@@ -161,7 +163,9 @@
 			"XResolution": "0.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "0.00000000",
-			"_IFDpointer_EXIF": 2362
+			"_IFDpointer_EXIF": 2362,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DZ358.jpg",
@@ -267,7 +271,7 @@
 			"FocalLengthIn35mmFilm": "34 mm",
 			"GainControl": "None",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Other",
 			"MaxApertureValue": "2.6",
 			"MeteringMode": "Average",
@@ -331,7 +335,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 290
+			"_IFDpointer_EXIF": 290,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DSC608.jpg",
@@ -432,7 +438,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "6 mm",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.7",
 			"MeteringMode": "Multi-segment",
@@ -452,6 +458,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 704,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"RelatedImageHeight": "0996:1232",
 			"RelatedImageWidth": "1000:1016"
 		},
@@ -536,7 +544,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 100,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.5",
 			"MeteringMode": "Average",
@@ -560,7 +568,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 294
+			"_IFDpointer_EXIF": 294,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_DSC.jpg",
@@ -648,7 +658,7 @@
 			"FlashpixVersion": "1.00",
 			"FocalLength": "18.9 mm",
 			"ISO": 400,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "5.9",
 			"MeteringMode": "Multi-segment",
@@ -668,6 +678,8 @@
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
 			"_IFDpointer_EXIF": 724,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0,
 			"PrintIM": 374
 		},
 		"exifPerl": {
@@ -763,7 +775,7 @@
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MeteringMode": "Center-weighted average",
 			"PixelXDimension": "2304 px w",
@@ -784,7 +796,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 294
+			"_IFDpointer_EXIF": 294,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_409.jpg",
@@ -860,7 +874,7 @@
 			"ExposureTime": "1/250",
 			"FNumber": 2.8,
 			"Flash": "No Flash",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"MeteringMode": "Average",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
@@ -878,7 +892,10 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 257
+			"_IFDpointer_EXIF": 257,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG_106.jpg",
@@ -959,7 +976,7 @@
 			"FocalLength": "5.8 mm",
 			"FocalLengthIn35mmFilm": "35 mm",
 			"ISO": 50,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "2.9",
 			"MeteringMode": "Multi-spot",
@@ -996,7 +1013,9 @@
 			"XResolution": "72.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "72.00000000",
-			"_IFDpointer_EXIF": 301
+			"_IFDpointer_EXIF": 301,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/DXG/DXG528.jpg",

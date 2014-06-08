@@ -19,7 +19,7 @@
 			"Flash": "On, Flash fired, strobe return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 104,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": "Unknown",
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -43,7 +43,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 358
+			"_IFDpointer_EXIF": 358,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyPhC70XX.jpg",
@@ -130,7 +132,7 @@
 			"Flash": "On, Flash fired, strobe return light detected",
 			"FlashpixVersion": "1.00",
 			"ISO": 104,
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"LightSource": 43981,
 			"MaxApertureValue": "3.6",
 			"MeteringMode": "Multi-segment",
@@ -152,7 +154,9 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 238
+			"_IFDpointer_EXIF": 238,
+			"DriveMode": "Single-frame Shooting",
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyPhC60XX.jpg",
@@ -229,7 +233,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "600 px w",
 			"PixelYDimension": "450 px h",
 			"SceneType": "Directly photographed",
@@ -278,7 +282,10 @@
 			"XResolution": "96.00000000",
 			"YCbCrPositioning": "Co-sited",
 			"YResolution": "96.00000000",
-			"_IFDpointer_EXIF": 255
+			"_IFDpointer_EXIF": 255,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyPH8300.jpg",
@@ -331,6 +338,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyMultimedia.jpg",
 		"exifJS": {
+			"Aperture": "n/a",
 			"DateTime": "2002:12:26 22:45:37",
 			"ImageDescription": "ExifJPEG",
 			"Make": "Daisy Multimedia",
@@ -340,7 +348,10 @@
 			"Software": "Multimedia  03.38 2000:01:0",
 			"XResolution": "0.00003248",
 			"YCbCrPositioning": "Centered",
-			"YResolution": "0.56093947"
+			"YResolution": "0.56093947",
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyMultimedia.jpg",
@@ -385,7 +396,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "2048 px w",
 			"PixelYDimension": "1536 px h",
 			"SceneType": "Directly photographed",
@@ -434,7 +445,10 @@
 			"XResolution": "192.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "192.00000000",
-			"_IFDpointer_EXIF": 254
+			"_IFDpointer_EXIF": 254,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM425Zr.jpg",
@@ -496,7 +510,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "On, Flash fired",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1280 px w",
 			"PixelYDimension": "960 px h",
 			"SceneType": "Directly photographed",
@@ -545,7 +559,10 @@
 			"XResolution": "192.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "192.00000000",
-			"_IFDpointer_EXIF": 254
+			"_IFDpointer_EXIF": 254,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM334SF.jpg",
@@ -607,7 +624,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "2304 px w",
 			"PixelYDimension": "1728 px h",
 			"SceneType": "Directly photographed",
@@ -656,7 +673,10 @@
 			"XResolution": "192.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "192.00000000",
-			"_IFDpointer_EXIF": 254
+			"_IFDpointer_EXIF": 254,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM334.jpg",
@@ -718,7 +738,7 @@
 			"FileSource": "Digital Camera",
 			"Flash": "No Flash",
 			"FlashpixVersion": "1.00",
-			"ImageSize": "object Objectxobject Object",
+			"ImageSize": "undefinedxundefined",
 			"PixelXDimension": "1600 px w",
 			"PixelYDimension": "1200 px h",
 			"SceneType": "Directly photographed",
@@ -767,7 +787,10 @@
 			"XResolution": "192.00000000",
 			"YCbCrPositioning": "Centered",
 			"YResolution": "192.00000000",
-			"_IFDpointer_EXIF": 254
+			"_IFDpointer_EXIF": 254,
+			"DriveMode": "Single-frame Shooting",
+			"ISO": null,
+			"ShootingMode": 0
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/Daisy/DaisyDM2100a.jpg",

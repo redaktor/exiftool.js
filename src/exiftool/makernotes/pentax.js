@@ -19,23 +19,18 @@
 var MainRef = require('../exif').ref;
 
 exports.info = {
-	
 	InternalSerialWithinIFDArray : 'CameraInfo',
-	
 	InternalSerialWithinIFDArrayElement : 4,
-	
 	DefaultHeaderSize : 6,
-	
 	MakerNoteByteAlignHeaderOffset : 4,
+	FixMakernotesOffset : true
+};
 	
-	FixMakernotesOffset : true,
-	
-	tags : {
-		0x0215 : 'CameraInfo',
-		0x0229 : 'SerialNumber'
-	},
-	
-	ref: {
+exports.tags = {
+	0x0215 : 'CameraInfo',
+	0x0229 : 'SerialNumber'
+};
+
+exports.ref = {
 		
-	}
 };

@@ -139,10 +139,10 @@
 					var perlRes = results[i].exifPerl[key];
                     
 					// we always use EXIF spec. as keys ...
-					if (perlRes == 'ExifImageWidth') jsRes = results[i].exifJS['PixelXDimension'];
-					if (perlRes == 'ExifImageHeight') jsRes = results[i].exifJS['PixelYDimension'];
-					if (jsRes == 'PixelXDimension') perlRes = results[i].exifPerl['ExifImageWidth'];
-					if (jsRes == 'PixelYDimension') perlRes = results[i].exifPerl['ExifImageHeight'];
+					if (key == 'ExifImageWidth') jsRes = results[i].exifJS['PixelXDimension'];
+					if (key == 'ExifImageHeight') jsRes = results[i].exifJS['PixelYDimension'];
+					if (key == 'PixelXDimension') perlRes = results[i].exifPerl['ExifImageWidth'];
+					if (key == 'PixelYDimension') perlRes = results[i].exifPerl['ExifImageHeight'];
 					
 					if ( jsRes == perlRes
 					
@@ -171,9 +171,11 @@
 						|| (reference === 'Perl' && key === 'ExifToolVersion')
 						// FileSize is more detailed (b, kb, mb but as precise decimals) and OK  
 						|| key === 'FileSize' 
+						// the XMP and IPTC values are much more detailed and OK - we will use redaktor.meta (.xmp and .iptx) ...
+						|| key.indexOf('IPTC') > -1 || key.indexOf('XMP') > -1
 						
 					) {
-                        supportedTags.push(key + " : " + jsRes);
+                        supportedTags.push(key + " : " + (reference === 'Perl') ? perlRes : jsRes);
                         totalSupportedTags++;
                         totalSupportedByThisModel++;
                     } else {
