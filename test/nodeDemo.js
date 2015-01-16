@@ -7,9 +7,11 @@ var exiftool = require('../src/');
 var util = require('util');
 
 //var img = './sampleImages/Canon/CanonEOS5D_MarkIII.jpg';
- var img = './sampleImages/Canon/Canon_iVIS_HV20.jpg';
+// var img = './sampleImages/Canon/Canon_iVIS_HV20.jpg';
 //var img = './sampleImages/Canon/CanonEOS6D.jpg';
 //var img = './sampleImages/Leica/LeicaV-LUX4.jpg';
+var img = './sampleImages/FujiFilm/FujifilmFinePixS6500fd.jpg';
+
 /*
 exec( perl.concat(" -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate '", img, "'"), function(error, stdout, stderr) {
 	if (error !== null) {

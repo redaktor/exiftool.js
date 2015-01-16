@@ -138,11 +138,18 @@
 					var jsRes = results[i].exifJS[key];
 					var perlRes = results[i].exifPerl[key];
                     
-					// we always use EXIF spec. as keys ...
+					// we always use EXIF spec. as keys !!!
 					if (key == 'ExifImageWidth') jsRes = results[i].exifJS['PixelXDimension'];
 					if (key == 'ExifImageHeight') jsRes = results[i].exifJS['PixelYDimension'];
 					if (key == 'PixelXDimension') perlRes = results[i].exifPerl['ExifImageWidth'];
 					if (key == 'PixelYDimension') perlRes = results[i].exifPerl['ExifImageHeight'];
+					
+					if (key == 'ExposureCompensation') jsRes = results[i].exifJS['ExposureBiasValue'];
+					if (key == 'ExposureBiasValue') perlRes = results[i].exifPerl['ExposureCompensation'];
+					if (key == 'CreateDate') jsRes = results[i].exifJS['DateTimeDigitized'];
+					if (key == 'ModifyDate') jsRes = results[i].exifJS['DateTime'];
+					if (key == 'DateTimeDigitized') perlRes = results[i].exifPerl['CreateDate'];
+					if (key == 'DateTime') perlRes = results[i].exifPerl['ModifyDate'];
 					
 					if ( jsRes == perlRes
 					

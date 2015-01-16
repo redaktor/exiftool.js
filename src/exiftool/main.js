@@ -318,17 +318,17 @@
         }
 
         function getExif (url, onComplete) {
+			var readBuffer = function(buffer, info){
+				var binaryResponse = new BinaryFile(buffer.toString('binary'), 0, buffer.length);
+				info.path = url;
+				var oEXIF = findEXIFinJPEG(binaryResponse, info);
+				if (onComplete) onComplete((oEXIF || {}), url);
+			}
 			if (typeof module !== 'undefined' && 'exports' in module){
 			/* NOTE 
 			// RUNS IN node.js
 			*/
-				var fs = require('fs');	
-				var readBuffer = function(buffer, info){
-					var binaryResponse = new BinaryFile(buffer.toString('binary'), 0, buffer.length);
-					info.path = url;
-					var oEXIF = findEXIFinJPEG(binaryResponse, info);
-					if (onComplete) onComplete((oEXIF || {}), url);
-				}
+				var fs = require('fs');					
 				if (Buffer.isBuffer(url)){
 					readBuffer(buffer);
 				} else {
@@ -391,7 +391,7 @@
                     return readEXIFData(oFile, iOffset + 4, oFile.getShortAt(iOffset + 2, true) - 2, fileInfo);
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
 
-                } else if (iMarker == 225) {
+                } else if (iMarker == 0xE1) {
                     // 0xE1 = Application-specific 1 (for EXIF)
 
                     var headerAsString = oFile.getStringAt(iOffset + 4, 28);
@@ -942,8 +942,10 @@
 						var pInfo = getReadablePermissions(fileInfo.mode);
 						oTags.file.FilePermissions = pInfo.permissions;
 						oTags.file.FileType = pInfo.type; 	
-						oTags.file.ModifyDate = { value:fileInfo.mtime, _val:Date.parse(fileInfo.mtime) };
-						oTags.file.CreateDate = { value:fileInfo.ctime, _val:Date.parse(fileInfo.ctime) };
+						oTags.file.blocks = { value:fileInfo.blocks, _val:fileInfo.blocks };
+						oTags.file.atime = { value:fileInfo.atime, _val:Date.parse(fileInfo.atime) };
+						oTags.file.mtime = { value:fileInfo.mtime, _val:Date.parse(fileInfo.mtime) };
+						oTags.file.ctime = { value:fileInfo.ctime, _val:Date.parse(fileInfo.ctime) };
 						/* file.fileType: is a "stub" here 
 						// image.fileType is more detailed and will have priority 
 						*/
@@ -1175,14 +1177,14 @@
 				var postObj = EXIF.postFn(flat(oTags));
 				//console.log( 'post', postObj );
 				for (var key in postObj){ 
-					if (postObj[key]!==false) oTags.exif[key] = postObj[key];
+					if (postObj[key]!==false || (typeof postObj[key] === 'object' && 'priority' in postObj[key])) oTags.exif[key] = postObj[key];
 				}
 			}
 			if ('postFn' in NOTE){ 
 				var postObj = NOTE.postFn(flat(oTags));
 				//console.log( 'post', postObj );
 				for (var key in postObj){ 
-					if (postObj[key]!==false) oTags.makernote[key] = postObj[key];
+					if (postObj[key]!==false || (typeof postObj[key] === 'object' && 'priority' in postObj[key])) oTags.makernote[key] = postObj[key];
 				}
 			}
 			

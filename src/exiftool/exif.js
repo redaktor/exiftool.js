@@ -46,8 +46,9 @@ exports.tags = {
 	0xA004 : 'RelatedSoundFile', 		// Name of related sound file
 
 	// date and time
+	// see also TIFF 0x0132 : 'DateTime'
 	0x9003 : 'DateTimeOriginal', 		// Date and time when the original image was generated
-	0x9004 : 'DateTimeDigitized', 		// Date and time when the image was stored digitally
+	0x9004 : 'DateTimeDigitized', 		// Date and time when the image was stored digitally #called CreateDate in perl
 	0x9290 : 'SubsecTime', 				// Fractions of seconds for DateTime
 	0x9291 : 'SubsecTimeOriginal', 		// Fractions of seconds for DateTimeOriginal
 	0x9292 : 'SubsecTimeDigitized', 	// Fractions of seconds for DateTimeDigitized
@@ -69,7 +70,7 @@ exports.tags = {
 	0x9201 : 'ShutterSpeedValue', 		// Shutter speed
 	0x9202 : 'ApertureValue', 			// Lens aperture
 	0x9203 : 'BrightnessValue', 		// Value of brightness
-	0x9204 : 'ExposureBias', 			// Exposure bias
+	0x9204 : 'ExposureBiasValue', 		// Exposure bias
 	0x9205 : 'MaxApertureValue', 		// Smallest F number of lens
 	0x9206 : 'SubjectDistance', 		// Distance to subject in meters
 	0x9207 : 'MeteringMode', 			// Metering mode
@@ -124,7 +125,7 @@ exports.tags = {
 	
 	// other tags		
 	0x014A : '_IFDpointer_Sub',
-	0xA005 : '_IFDpointer_Interop',
+	0xA005 : '_IFDpointer_Interoperability',
 	0xEA1C : '_Padding',
 	0xEA1D : '_OffsetSchema',	
 	0x02BC : 'ApplicationNotes',
@@ -132,7 +133,7 @@ exports.tags = {
 	0x9213 : 'ImageHistory', 			// History values
 	0xA420 : 'ImageUniqueID', 			// Identifier assigned uniquely to each image
 	0xA430 : 'OwnerName', 				// (CameraOwnerName in EXIF spec.)
-	0xA431 : 'SerialNumber', 			// for when SerialNumber is in EXIF directly (BodySerialNumber in EXIF spec)
+	0xA431 : 'SerialNumber', 			// for when SerialNumber is in EXIF directly (BodySerialNumber in EXIF spec // TODO? )
 	0xA435 : 'LensSerialNumber' 		// for when LensSerialNumber is in EXIF directly
 };
 
@@ -165,7 +166,7 @@ exports.tiffTags = {
 	0x013F : 'PrimaryChromaticities',
 	0x0211 : 'YCbCrCoefficients',
 	0x0214 : 'ReferenceBlackWhite',
-	0x0132 : 'DateTime',
+	0x0132 : 'DateTime',			// #called ModifyDate in perl
 	0x010E : 'ImageDescription',
 	0x010F : 'Make',
 	0x0110 : 'Model',
@@ -766,6 +767,8 @@ exports.ref = {
 	
 	PixelXDimension: function(n){ return exports.ref.size(n, 'px', 'w'); },
 	PixelYDimension: function(n){ return exports.ref.size(n, 'px', 'h'); },
+	ImageWidth: function(n){ return exports.ref.size(n, 'px', 'w'); },
+	ImageHeight: function(n){ return exports.ref.size(n, 'px', 'h'); },
 	
 	OldSubfileType: {
 		1: 'Full-resolution image',
@@ -1394,10 +1397,10 @@ exports.postFn = function(res){
 	var composite = {
 		
 		ImageSize: function(){
-			var w = ('ImageWidth' in res) ? res.ImageWidth._val : (('PixelXDimension' in res) ? res.PixelXDimension._val : 'n/a');
-			var h = ('ImageHeight' in res) ? res.ImageHeight._val : (('PixelYDimension' in res) ? res.PixelYDimension._val : 'n/a');
+			var w = ('ImageWidth' in res) ? res.ImageWidth.replace(' px w', '') : (('PixelXDimension' in res) ? res.PixelXDimension.replace(' px w', '') : false);
+			var h = ('ImageHeight' in res) ? res.ImageHeight.replace(' px h', '') : (('PixelYDimension' in res) ? res.PixelYDimension.replace(' px h', '') : false);
 			// TODO use PixelXDimension/Height only for Canon and Phase One TIFF-base RAW images /^(CR2|Canon 1D RAW|IIQ|EIP)$/
-			if (w!=='n/a' && h!=='n/a') return w+'x'+h;
+			if (w!==false && h!==false) return { value:w+'x'+h+' px', _val:w+'x'+h };
 			return false;
 		},
 		ShutterSpeed: function(){
